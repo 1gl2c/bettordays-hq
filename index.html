@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BettorDays HQ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;700;800;900&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;700&display=swap">
+<style>
+/* Layout: investment deck on a HUD. Thesis tiles, calibration, edge map, red flags, structure math, sport scoreboard, ledger, rulebook, full leg database. Single deliberate dark theme. */
+:root{
+  --bg:#0b0d0c; --panel:#111513; --panel2:#151a18; --line:#1f2724; --grid:#17201c;
+  --fg:#eef3f0; --mute:#8a9a93; --dim:#5b6b64;
+  --acc:#04ff9f; --acc2:#00c8ff; --warn:#ffb020; --bad:#ff4d5e;
+  --display:'Kanit',Impact,'Arial Black',sans-serif; --body:'Geist',system-ui,-apple-system,sans-serif; --mono:'Geist Mono',ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:14px;line-height:1.5;overflow-x:hidden}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(var(--grid) 1px,transparent 1px) 0 0/40px 40px,linear-gradient(90deg,var(--grid) 1px,transparent 1px) 0 0/40px 40px;opacity:.35;z-index:0}
+body::before{content:"";position:fixed;left:0;right:0;top:-30%;height:30%;pointer-events:none;z-index:1;background:linear-gradient(180deg,transparent,rgba(4,255,159,.05),transparent);animation:scan 7s linear infinite}
+@keyframes scan{to{top:110%}}
+@media (prefers-reduced-motion:reduce){body::before{display:none}*{animation:none!important;transition:none!important}}
+.wrap{position:relative;z-index:2;max-width:1180px;margin:0 auto;padding-block:20px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.lbl{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+h2{font-size:22px;font-weight:800;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+h2::before{content:"";width:10px;height:10px;background:var(--acc);box-shadow:0 0 12px var(--acc);flex:none}
+h2 small{font-family:var(--mono);font-size:11px;color:var(--mute);font-weight:400;letter-spacing:.12em;margin-left:auto}
+h3{font-size:17px;font-weight:800;text-transform:uppercase}
+.panel{background:var(--panel);border:1px solid var(--line);padding:18px;position:relative;min-width:0}
+.panel::before,.panel::after{content:"";position:absolute;width:14px;height:14px;border:2px solid var(--acc);opacity:.7}
+.panel::before{top:-1px;left:-1px;border-right:0;border-bottom:0}
+.panel::after{bottom:-1px;right:-1px;border-left:0;border-top:0}
+.acc{color:var(--acc)} .warn{color:var(--warn)} .bad{color:var(--bad)} .cy{color:var(--acc2)}
+.note{color:var(--mute);font-size:13px;max-width:74ch;margin:6px 0 12px}
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:14px}
+.brand{font-family:var(--display);font-weight:900;font-size:clamp(36px,8vw,76px);line-height:.88;text-transform:uppercase}
+.brand span{color:var(--acc);text-shadow:0 0 24px rgba(4,255,159,.45)}
+.sys{display:flex;gap:8px;align-items:center;margin-bottom:6px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 10px var(--acc);animation:pulse 1.6s infinite}
+@keyframes pulse{50%{opacity:.25}}
+.nav{display:flex;flex-wrap:wrap;gap:6px}
+.btn{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;background:transparent;color:var(--fg);border:1px solid var(--line);padding:8px 12px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn:hover{border-color:var(--acc)} .btn:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.btn.on{background:var(--acc);color:#04130c;border-color:var(--acc);font-weight:700}
+.tiles{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.tile{background:var(--panel2);border:1px solid var(--line);padding:14px;min-width:0}
+.tile b{display:block;font-family:var(--display);font-size:30px;font-weight:800;line-height:1.1}
+.tile small{color:var(--mute);font-size:12px}
+@media(max-width:860px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.thesis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media(max-width:900px){.thesis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.thesis{grid-template-columns:1fr}}
+.th{border:1px solid var(--line);background:var(--panel2);padding:16px;min-width:0;display:grid;gap:6px;align-content:start}
+.th .big{font-family:var(--display);font-weight:900;font-size:44px;line-height:1}
+.th .vs{font-family:var(--mono);font-size:12px;color:var(--mute)}
+.th p{margin:0;font-size:13px;color:var(--mute)}
+.th .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;padding:3px 7px;border:1px solid currentColor;justify-self:start}
+.two{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:18px}
+@media(max-width:900px){.two{grid-template-columns:1fr}}
+.chart{width:100%;height:auto;display:block}
+.bars{display:grid;gap:9px}
+.br{display:grid;grid-template-columns:150px minmax(0,1fr) 78px;gap:10px;align-items:center}
+@media(max-width:520px){.br{grid-template-columns:110px minmax(0,1fr) 64px}}
+.br .n{font-size:13px;font-weight:600}
+.br .n small{display:block;color:var(--mute);font-weight:400;font-size:11px;font-family:var(--mono)}
+.track{height:12px;background:var(--line);position:relative}
+.track i{position:absolute;inset:0 auto 0 0;animation:grow 1.1s cubic-bezier(.2,.8,.2,1);transform-origin:left}
+.track b{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--fg);opacity:.55}
+@keyframes grow{from{transform:scaleX(0)}}
+.br .p{font-family:var(--mono);text-align:right;font-size:14px;font-weight:700}
+.flags{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media(max-width:760px){.flags{grid-template-columns:1fr}}
+.flag{border:1px solid var(--line);border-left:3px solid var(--bad);background:var(--panel2);padding:14px;min-width:0}
+.flag.g{border-left-color:var(--acc)} .flag.w{border-left-color:var(--warn)}
+.flag b{display:block;font-family:var(--display);font-size:16px;text-transform:uppercase;margin-bottom:4px}
+.flag .r{font-family:var(--mono);font-size:22px;font-weight:700}
+.flag p{margin:4px 0 0;color:var(--mute);font-size:13px}
+.flag .who{font-family:var(--mono);font-size:11px;color:var(--dim);margin-top:6px}
+.struct{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media(max-width:900px){.struct{grid-template-columns:1fr}}
+.st{border:1px solid var(--line);background:var(--panel2);padding:16px;min-width:0}
+.st .row{display:flex;justify-content:space-between;gap:8px;padding:5px 0;border-bottom:1px dashed var(--line);font-size:13px}
+.st .row:last-child{border-bottom:0}
+.st .row b{font-family:var(--mono)}
+.verdict{margin-top:10px;border-left:3px solid var(--acc);padding:8px 12px;background:rgba(4,255,159,.05);font-size:13px}
+.verdict.w{border-color:var(--warn);background:rgba(255,176,32,.06)}
+.verdict.b{border-color:var(--bad);background:rgba(255,77,94,.06)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);font-weight:500;position:sticky;top:0;background:var(--panel);z-index:1}
+td.c,th.c{text-align:center}
+.res{font-family:var(--mono);font-weight:700;font-size:12px;padding:2px 8px}
+.res.w{background:var(--acc);color:#04130c} .res.l{background:rgba(255,77,94,.18);color:var(--bad)}
+.minibar{width:90px;height:6px;background:var(--line);display:inline-block;vertical-align:middle;margin-right:8px;position:relative}
+.minibar i{position:absolute;inset:0 auto 0 0;background:var(--acc)}
+.tag{font-family:var(--mono);font-size:10px;padding:2px 6px;border:1px solid var(--line);color:var(--mute);margin-left:6px}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.day{border:1px solid var(--line);background:var(--panel2);padding:14px;margin-top:10px}
+.day summary{cursor:pointer;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:center;list-style:none}
+.day summary::-webkit-details-marker{display:none}
+.day summary b{font-family:var(--display);font-size:18px;text-transform:uppercase}
+.rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none}
+@media(max-width:760px){.rules{grid-template-columns:1fr}}
+.rules li{background:var(--panel2);border:1px solid var(--line);padding:12px 14px;min-width:0}
+.rules li b{display:block;font-family:var(--display);font-weight:700;font-size:15px;text-transform:uppercase;margin-bottom:3px}
+.rules li span{color:var(--mute);font-size:13px}
+.rules li em{font-style:normal;font-family:var(--mono);font-size:10.5px;color:var(--dim);letter-spacing:.1em;display:block;margin-top:6px}
+.rules li.obs{border-style:dashed}
+.foot{color:var(--dim);font-size:12px;text-align:center}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-family:var(--mono);font-size:11px;color:var(--mute);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;margin-right:6px;vertical-align:middle}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="sys"><span class="dot"></span><span class="lbl">Process audit · Nov 4 to 7 · 211 graded legs</span></div>
+      <div class="brand">BettorDays <span>HQ</span></div>
+    </div>
+    <nav class="nav" aria-label="Sections">
+      <a class="btn" href="#sunday">Sunday</a><a class="btn" href="#thesis">Thesis</a>
+      <a class="btn" href="#edge">Edge map</a>
+      <a class="btn" href="#structure">Structure</a>
+      <a class="btn" href="#ledger">Ledger</a>
+      <a class="btn" href="#legs">Every leg</a>
+    </nav>
+  </header>
+
+  <section class="tiles" aria-label="Record">
+    <div class="tile"><span class="lbl">Logged hammers</span><b class="acc">2-2</b><small>Ace's count: 3 of 4 before Saturday</small></div>
+    <div class="tile"><span class="lbl">Hammer P&amp;L</span><b class="mono acc">+$936</b><small>4 tracked hammers</small></div>
+    <div class="tile"><span class="lbl">Capper boards hit</span><b class="mono">63%</b><small>every graded leg, all tiers</small></div>
+    <div class="tile"><span class="lbl">80%+ legs</span><b class="mono acc">18/20</b><small>90% across 4 days</small></div>
+    <div class="tile"><span class="lbl">Lottos cashed</span><b class="mono bad">0/9</b><small>closest: 17 of 20, 6 of 7</small></div>
+  </section>
+
+
+  <section class="panel" id="sunday">
+    <h2>Sunday board · Nov 8 <small>132 picks graded</small></h2>
+    <p class="note">Early games kick at 10:00 PT. Pickens, DeVonta Smith, Wicks and Skattebo are OUT. St. Brown is active with a rib injury. The London game is almost over and the Bills-Vikings legs play Monday, so those are flagged.</p>
+    <div class="struct" id="sunTix"></div>
+    <div class="two" style="margin-top:18px">
+      <div><h3>Top 25: any line</h3><ol class="mono" id="topAny" style="margin:8px 0 0;padding-left:22px;font-size:12.5px;line-height:1.75"></ol></div>
+      <div><h3>Top 25: regular lines</h3><ol class="mono" id="topReg" style="margin:8px 0 0;padding-left:22px;font-size:12.5px;line-height:1.75"></ol></div>
+    </div>
+    <div class="filters" id="sunF" style="margin-top:16px"></div>
+    <div class="scroll" style="max-height:620px;overflow-y:auto"><table id="sunT"></table></div>
+  </section>
+
+  <!-- THESIS -->
+  <section class="panel" id="thesis">
+    <h2>The thesis <small>what 4 days of data says</small></h2>
+    <p class="note">Four findings. They are observations from a small sample, not hard rules yet. Each one is a place where our money is either working or leaking.</p>
+    <div class="thesis">
+      <div class="th"><span class="k acc">Keep doing</span><div class="big acc">90%</div><div class="vs">80%+ grades · 18 of 20 hit</div><p>The near-lock tier is real. It only missed on Michigan (-625) and Harden. This is where hammers live.</p></div>
+      <div class="th"><span class="k cy">Underpriced</span><div class="big cy">+7</div><div class="vs">regular lines · graded 55, hit 62%</div><p>Regular lines priced near even money have been hitting 62%. That's the edge you were feeling, Ace.</p></div>
+      <div class="th"><span class="k warn">Hidden value</span><div class="big warn">+16</div><div class="vs">ceiling lines · graded 34, hit 50%</div><p>Lines above a player's average paid off far more than I graded. Small sample (18), so small stakes only.</p></div>
+      <div class="th"><span class="k bad">The leak</span><div class="big bad">58%</div><div class="vs">mid-tier alt-downs · 19 of 33</div><p>60s-tier picks bought down to alt lines hit 58%, which is less than Kalshi charges for them. This is where lottos die.</p></div>
+    </div>
+  </section>
+
+  <!-- CALIBRATION -->
+  <section class="panel">
+    <h2>Calibration <small>my grade vs what actually hit</small></h2>
+    <div class="two">
+      <div>
+        <p class="note">Green bars are what actually hit, white ticks are my average grade. Above 70% my grades sort winners well. Below 70% the bars flatten out: a leg I grade 45 has hit about as often as one I grade 65.</p>
+        <svg class="chart" id="calib" viewBox="0 0 560 280" role="img" aria-label="Estimated versus actual hit rate by tier"></svg>
+      </div>
+      <div>
+        <span class="lbl">By line style (NBA)</span>
+        <div class="bars" id="style" style="margin-top:12px"></div>
+        <div class="legend"><span><i style="background:var(--acc)"></i>actual hit rate</span><span><i style="background:var(--fg)"></i>my average grade</span></div>
+        <div class="verdict w">The gap between the tick and the bar is the mispricing. Alt-downs: none. Regular lines: we under-graded. Ceilings: badly under-graded.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDGE MAP -->
+  <section class="panel" id="edge">
+    <h2>Edge map: the coin-flip zone <small>legs graded 45 to 69%</small></h2>
+    <p class="note">You asked what separates the 50-60% picks that hit from the ones that don't. These are 122 legs in that zone, split by market. The white line marks 50%.</p>
+    <div class="bars" id="edgebars"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Red flags and green lights</h2>
+    <div class="flags">
+      <div class="flag"><b>Back-to-backs</b><div class="r bad">1 of 7</div><p>Mid-tier props on the second night of a back-to-back almost all missed. Only Bam 15+ survived.</p><div class="who">Avdija 20+ and o23.5, Holiday PRA twice, Harper ast, Wiggins PRA</div></div>
+      <div class="flag"><b>PRA combos</b><div class="r bad">1 of 6</div><p>Points + rebounds + assists lines in the coin-flip zone. Three ways to come up short.</p><div class="who">Hartenstein, Dunn, Wiggins, Holiday x2 missed. Only Jabari's under hit</div></div>
+      <div class="flag"><b>Assist overs</b><div class="r bad">5 of 12</div><p>Assists depend on teammates making shots. Pure coin flip in this zone.</p><div class="who">Luka 5, LeBron 3, Brunson 4, Podz 3, Giddey 6, Trae 6</div></div>
+      <div class="flag"><b>College football</b><div class="r warn">5 of 11</div><p>Mid-tier CFB legs, plus Michigan at -625 and Ohio State both lost. Spreads went 0 of 2.</p><div class="who">LSU, Florida, Purdue, UConn +7.5, Syracuse +1.5, UTSA</div></div>
+      <div class="flag g"><b>Rebound overs</b><div class="r acc">11 of 14</div><p>The strongest coin-flip category we have. Big men and wings on regular lines.</p><div class="who">Bridges 13, WCJ 13, Markkanen 10, Scheierman 11, Fears 5</div></div>
+      <div class="flag g"><b>NBA moneylines</b><div class="r acc">6 of 6</div><p>Every NBA moneyline we graded cashed, including Philly and Portland as near coin flips.</p><div class="who">Nuggets, Blazers, 76ers, Warriors, Suns</div></div>
+      <div class="flag g"><b>Threes and NFL props</b><div class="r acc">11 of 13</div><p>Threes made went 5 of 6. NFL player props went 6 of 7 in this zone.</p><div class="who">PJ 6 threes, da Silva 4, Lawrence 242, Henry 57</div></div>
+      <div class="flag w"><b>Hooks cut both ways</b><div class="r warn">11 vs 6</div><p>11 misses by exactly one, 6 hits that landed right on the number. Buy the half-point only when it's cheap.</p><div class="who">KD 21, Flagg 19, Naz 14, Castle 3, McCollum 9 / Black 10, Coward 10, Avdija 15</div></div>
+    </div>
+  </section>
+
+  <!-- STRUCTURE -->
+  <section class="panel" id="structure">
+    <h2>Structure math <small>your 2-leg vs 7-leg question</small></h2>
+    <p class="note">You're right that two 55% legs can beat seven 80% legs. What decides it is the edge on each leg: how often it hits compared with what the price assumes. Here are three ways to build the same $100, using our actual hit rates.</p>
+    <div class="struct" id="structs"></div>
+    <div class="verdict">Every build works when each leg has real edge. The losing build is the one we kept making: big tickets padded with 60s-tier alt-downs, where each leg hits less often than its price assumes.</div>
+  </section>
+
+  <section class="panel">
+    <h2>Scoreboard by sport</h2>
+    <div class="two">
+      <svg class="chart" id="sports" viewBox="0 0 520 240" role="img" aria-label="Hit rate by sport"></svg>
+      <div>
+        <p class="note">NBA is still the engine: 155 legs, and 85% on the top tier. NFL props have been excellent on a small sample, which matters today. College football's top tier hit only 4 of 6.</p>
+        <div class="verdict w">UFC: the women's favorites went 3 for 3 last night (Milosevic, Silva, Suarez). The men's favorites went 6 of 11.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RULES -->
+  <section class="panel">
+    <h2>Rulebook</h2>
+    <p class="note">Solid borders are rules we've set. Dashed borders are new observations we're testing before they become rules.</p>
+    <ul class="rules" id="rules"></ul>
+  </section>
+
+  <!-- LEDGER -->
+  <section class="panel" id="ledger">
+    <h2>Ticket ledger</h2>
+    <div id="days"></div>
+  </section>
+
+  <!-- ALL LEGS -->
+  <section class="panel" id="legs">
+    <h2>Every graded leg <small id="legcount"></small></h2>
+    <div class="filters" id="filters"></div>
+    <div class="scroll" style="max-height:640px;overflow-y:auto"><table id="legT"></table></div>
+  </section>
+
+  <p class="foot">Sample: 211 graded legs with verified results, Nov 4 to 7, 2026. Legs with no box score were left out. Small samples swing; treat patterns as leads, not laws.</p>
+</div>
+
+<script>
+const ROWS=[{"day":"Nov 4","pick":"Herro 15+ PTS","est":85,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"LeBron 4+ AST","est":80,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"alt","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"McDaniels 10+ PTS","est":78,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"Huerter 2+ REB","est":78,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Luka 30+ PTS","est":74,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":1},{"day":"Nov 4","pick":"KD 20+ PTS","est":72,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":1},{"day":"Nov 4","pick":"Markkanen o5.5 REB","est":72,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Brunson o4.5 AST","est":68,"hit":0,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 4","pick":"Bam U20 PTS","est":68,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Herro 20+ PTS","est":67,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Sherwood o1.5 SOG","est":66,"hit":1,"sport":"NHL","mkt":"prop","stat":"sog","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Brown o19.5 PTS","est":65,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 4","pick":"KD o21.5 PTS","est":65,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 4","pick":"Flagg 20+ PTS","est":64,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":1},{"day":"Nov 4","pick":"Mobley U20 PTS","est":64,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Nuggets ML","est":62,"hit":1,"sport":"NBA","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"MPJ o20.5 PTS","est":60,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"Brown o5.5 REB","est":60,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":0,"star":1,"fav":1},{"day":"Nov 4","pick":"Scheierman 4+ REB","est":60,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"alt","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"Blazers ML","est":60,"hit":1,"sport":"NBA","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"Ighodaro U6 REB","est":60,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Camara U15 PTS","est":60,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Huerter 3+ REB","est":60,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"alt","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"Giddey o7.5 AST","est":58,"hit":0,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"LeBron o5.5 REB","est":58,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 4","pick":"Miller U6 REB","est":58,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Green U20 PTS","est":58,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Acuff 20+ PTS","est":58,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"Trae o9.5 AST","est":57,"hit":0,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 4","pick":"Kings ML","est":57,"hit":1,"sport":"NBA","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Murray o5.5 AST","est":55,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"McDaniels 15+ PTS","est":55,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"Herro U25 PTS","est":55,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Hartenstein 20+ PRA","est":55,"hit":0,"sport":"NBA","mkt":"prop","stat":"pra","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Giannis o0.5 BLK","est":55,"hit":1,"sport":"NBA","mkt":"prop","stat":"blk","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 4","pick":"Scheierman o13.5 P+R","est":52,"hit":1,"sport":"NBA","mkt":"prop","stat":"combo","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Scheierman 10+ PTS","est":52,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Dunn o16.5 PRA","est":52,"hit":0,"sport":"NBA","mkt":"prop","stat":"pra","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"LeBron 6+ AST","est":52,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"alt","boost":0,"star":1,"fav":1},{"day":"Nov 4","pick":"Avdija o1.5 3PM","est":52,"hit":0,"sport":"NBA","mkt":"prop","stat":"3pm","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"76ers ML","est":50,"hit":1,"sport":"NBA","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"Daniels o11.5 PTS","est":50,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Dunn U5 AST","est":50,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Flagg U8 REB","est":48,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"u","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 4","pick":"Jabari U25 PRA","est":45,"hit":1,"sport":"NBA","mkt":"prop","stat":"pra","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Powell U20 PTS","est":45,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Wiggins o0.5 BLK","est":45,"hit":1,"sport":"NBA","mkt":"prop","stat":"blk","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Maluach U6.5 REB","est":45,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Kessler o12.5 PTS","est":42,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Flagg 25+ PTS","est":42,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"ceil","boost":0,"star":1,"fav":1},{"day":"Nov 4","pick":"Acuff 25+ PTS","est":38,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"ceil","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"McCain 3+ REB","est":38,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Flagg U7 REB","est":38,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"u","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 4","pick":"Dame U6 AST","est":38,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"u","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 4","pick":"Hartenstein 25+ PRA","est":33,"hit":0,"sport":"NBA","mkt":"prop","stat":"pra","dir":"o","style":"ceil","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"Herb Jones U3 REB","est":30,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 4","pick":"McDaniels 20+ PTS","est":28,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"ceil","boost":0,"star":0,"fav":1},{"day":"Nov 4","pick":"LeBron 8+ AST","est":25,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"ceil","boost":0,"star":1,"fav":1},{"day":"Nov 4","pick":"Dame U5 AST","est":25,"hit":0,"sport":"NBA","mkt":"prop","stat":"ast","dir":"u","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 4","pick":"Flagg 30+ PTS","est":20,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"ceil","boost":0,"star":1,"fav":1},{"day":"Nov 4","pick":"Scheierman DD","est":10,"hit":0,"sport":"NBA","mkt":"prop","stat":"combo","dir":"o","style":"ceil","boost":0,"star":0,"fav":1},{"day":"Nov 5","pick":"Lawrence 150+ pass","est":86,"hit":1,"sport":"NFL","mkt":"prop","stat":"yds","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Curry 20+","est":86,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Curry o28.5 PRA","est":85,"hit":1,"sport":"NBA","mkt":"prop","stat":"pra","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Black 10+","est":84,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 5","pick":"Henry 30+ rush+rec","est":84,"hit":1,"sport":"NFL","mkt":"prop","stat":"yds","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Giannis 20+","est":84,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Jaguars ML","est":83,"hit":1,"sport":"NFL","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Giannis 8+ reb","est":82,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Lendeborg 15+","est":76,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Lawrence 175+ pass","est":75,"hit":1,"sport":"NFL","mkt":"prop","stat":"yds","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Henry 40+ rush","est":75,"hit":1,"sport":"NFL","mkt":"prop","stat":"yds","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Fagnano 100+ pass","est":74,"hit":0,"sport":"NFL","mkt":"prop","stat":"yds","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Warriors ML","est":74,"hit":1,"sport":"NBA","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Lendeborg 20+ P+A","est":72,"hit":1,"sport":"NBA","mkt":"prop","stat":"combo","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Bane 15+","est":70,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Henry U21 att","est":70,"hit":1,"sport":"NFL","mkt":"prop","stat":"att","dir":"u","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Franz 20+","est":68,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 5","pick":"Curry 25+","est":68,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"WCJ 6+ reb","est":68,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Brooks U6 reb","est":68,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"u","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"UTSA ML","est":66,"hit":0,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Flowers 15+ yds","est":66,"hit":0,"sport":"NFL","mkt":"prop","stat":"yds","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Lendeborg 6+ reb","est":60,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Lendeborg o22.5 P+A","est":60,"hit":1,"sport":"NBA","mkt":"prop","stat":"combo","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Brooks U5 reb","est":60,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Black o14.5","est":60,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":1,"star":0,"fav":0},{"day":"Nov 5","pick":"Bam 15+","est":60,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Lawrence 200+ pass","est":58,"hit":1,"sport":"NFL","mkt":"prop","stat":"yds","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Wiggins 15+ PRA","est":58,"hit":0,"sport":"NBA","mkt":"prop","stat":"pra","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Podz o3.5 ast","est":55,"hit":0,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Booker o3.5 reb","est":55,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Bridges 6+ reb","est":55,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"P.Washington 50+ yds","est":55,"hit":1,"sport":"NFL","mkt":"prop","stat":"yds","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Henry U17.5 att","est":55,"hit":1,"sport":"NFL","mkt":"prop","stat":"att","dir":"u","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Suns ML","est":52,"hit":1,"sport":"NBA","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"WCJ 10+ pts","est":52,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Henry 50+ rush","est":52,"hit":1,"sport":"NFL","mkt":"prop","stat":"yds","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Franz o5.5 reb","est":50,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":1,"star":0,"fav":0},{"day":"Nov 5","pick":"Over 35 total","est":50,"hit":1,"sport":"NFL","mkt":"total","stat":"total","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Over 36.5 total","est":45,"hit":1,"sport":"NFL","mkt":"total","stat":"total","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Black 6+ ast","est":45,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"ceil","boost":1,"star":0,"fav":0},{"day":"Nov 5","pick":"da Silva 2+ 3PM","est":45,"hit":1,"sport":"NBA","mkt":"prop","stat":"3pm","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Flowers 5+ rec","est":44,"hit":0,"sport":"NFL","mkt":"prop","stat":"rec","dir":"o","style":"ceil","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Giannis U11.5 reb","est":42,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"u","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"WCJ o11.5 pts","est":42,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Giannis o29.5","est":40,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"ceil","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Black 6+ reb","est":40,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"ceil","boost":1,"star":0,"fav":0},{"day":"Nov 5","pick":"Franz o6 ast","est":38,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"ceil","boost":1,"star":0,"fav":0},{"day":"Nov 5","pick":"P.Washington ATD","est":35,"hit":1,"sport":"NFL","mkt":"prop","stat":"td","dir":"o","style":"ceil","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Podz 6+ reb","est":35,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"ceil","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Henry ATD","est":28,"hit":0,"sport":"NFL","mkt":"prop","stat":"td","dir":"o","style":"ceil","boost":0,"star":1,"fav":0},{"day":"Nov 5","pick":"Podz 6+ ast","est":28,"hit":0,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"ceil","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"Tuten ATD","est":22,"hit":1,"sport":"NFL","mkt":"prop","stat":"td","dir":"o","style":"ceil","boost":0,"star":0,"fav":0},{"day":"Nov 5","pick":"J.Hill ATD","est":12,"hit":1,"sport":"NFL","mkt":"prop","stat":"td","dir":"o","style":"ceil","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"PJ o0.5 3PM","est":84,"hit":1,"sport":"NBA","mkt":"prop","stat":"3pm","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Jerome 15+","est":82,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Luka 30+","est":82,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"Brown 15+","est":80,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"SGA 25+","est":78,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"SGA U6.5 ast","est":78,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"u","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"Castle 4+ reb","est":76,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Acuff o1.5 3PM","est":75,"hit":1,"sport":"NBA","mkt":"prop","stat":"3pm","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Coward 10+","est":74,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Coward o1.5 3PM","est":72,"hit":1,"sport":"NBA","mkt":"prop","stat":"3pm","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Flagg 20+","est":70,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"Peterson 10+","est":68,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Avdija 20+","est":66,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Lillard o16.5","est":66,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"Luka o6.5 ast","est":66,"hit":0,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"Jaquez U3.5 ast","est":65,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"LaMelo 15+","est":64,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":1,"fav":0},{"day":"Nov 6","pick":"Markkanen 15+","est":64,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Ajay Mitchell 15+","est":64,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 6","pick":"Dosunmu 15+","est":63,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 6","pick":"Naz Reid 15+","est":62,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 6","pick":"McDaniels 15+","est":62,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 6","pick":"Coward 12+","est":62,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Zion 20+","est":60,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"Tatum 7+ ast","est":60,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"Fears 4+ reb","est":60,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Luka 35+","est":58,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"ceil","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"LeBron 7+ ast","est":58,"hit":0,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"PJ o1.5 3PM","est":58,"hit":1,"sport":"NBA","mkt":"prop","stat":"3pm","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"LaVine o2.5 reb","est":58,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"J.Hayes 4+ reb","est":58,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"LeBron o13.5 R+A","est":57,"hit":0,"sport":"NBA","mkt":"prop","stat":"combo","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"LeBron 7+ reb","est":56,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"Peterson 12+","est":55,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Barrett 20+","est":55,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":1,"star":1,"fav":0},{"day":"Nov 6","pick":"Clingan U11.5","est":52,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"Shead 4+ ast","est":50,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"reg","boost":1,"star":0,"fav":0},{"day":"Nov 6","pick":"R.Williams o12.5 P+R","est":48,"hit":1,"sport":"NBA","mkt":"prop","stat":"combo","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 6","pick":"D.Mitchell o24.5","est":42,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"ceil","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"Tatum 7+ reb","est":40,"hit":1,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"ceil","boost":0,"star":1,"fav":0},{"day":"Nov 6","pick":"Shead 6+ ast","est":30,"hit":1,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"ceil","boost":1,"star":0,"fav":0},{"day":"Nov 6","pick":"Barrett 25+","est":28,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"ceil","boost":1,"star":1,"fav":0},{"day":"Nov 7","pick":"Michigan ML","est":84,"hit":0,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Houston ML","est":78,"hit":1,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Miami +10.5","est":74,"hit":1,"sport":"CFB","mkt":"spread","stat":"spread","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Ohio State ML","est":73,"hit":0,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"McCollum 10+","est":72,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 7","pick":"Utah -4 (live)","est":72,"hit":1,"sport":"CFB","mkt":"spread","stat":"spread","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Notre Dame ML","est":71,"hit":1,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Shamet 6+","est":70,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 7","pick":"South Carolina ML","est":69,"hit":1,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Oklahoma St ML","est":69,"hit":1,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"LSU ML","est":67,"hit":0,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Florida ML","est":66,"hit":0,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Shamet o6.5","est":66,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":1,"star":0,"fav":0},{"day":"Nov 7","pick":"Purdue ML","est":65,"hit":0,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Avdija 20+","est":63,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Nembhard 2+ reb","est":62,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 7","pick":"Georgia ML","est":61,"hit":1,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"MPJ 20+","est":58,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Holiday 20+ PRA","est":56,"hit":0,"sport":"NBA","mkt":"prop","stat":"pra","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Baylor ML (live)","est":55,"hit":1,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"UConn +7.5","est":52,"hit":0,"sport":"CFB","mkt":"spread","stat":"spread","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"McCollum o13.5","est":52,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":1,"star":0,"fav":0},{"day":"Nov 7","pick":"Harper o4.5 ast","est":50,"hit":0,"sport":"NBA","mkt":"prop","stat":"ast","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"MPJ o21.5","est":48,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Avdija o23.5","est":47,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Holiday o21.5 PRA","est":47,"hit":0,"sport":"NBA","mkt":"prop","stat":"pra","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Utah ML + u57.5","est":45,"hit":1,"sport":"CFB","mkt":"total","stat":"total","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Syracuse +1.5","est":45,"hit":0,"sport":"CFB","mkt":"spread","stat":"spread","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"FSU ML (live)","est":40,"hit":1,"sport":"CFB","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Nembhard o2.5 reb","est":40,"hit":0,"sport":"NBA","mkt":"prop","stat":"reb","dir":"o","style":"reg","boost":1,"star":0,"fav":0},{"day":"Nov 7","pick":"BYU/Utah u49.5","est":38,"hit":1,"sport":"CFB","mkt":"total","stat":"total","dir":"u","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"FSU -5.5 (live)","est":30,"hit":1,"sport":"CFB","mkt":"spread","stat":"spread","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Avdija 15+","est":85,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Harden 10+","est":86,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 7","pick":"MPJ 15+","est":80,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Shamet 5+","est":78,"hit":1,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":1,"star":0,"fav":0},{"day":"Nov 7","pick":"Avdija 18+","est":72,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"alt","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Harden o16.5","est":52,"hit":0,"sport":"NBA","mkt":"prop","stat":"pts","dir":"o","style":"reg","boost":1,"star":0,"fav":0},{"day":"Nov 7","pick":"Bashi ML","est":85,"hit":1,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Milosevic ML","est":81,"hit":1,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Fernando ML","est":75,"hit":1,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Smith ML","est":74,"hit":1,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Kondratavicius ML","est":74,"hit":0,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Degli ML","est":68,"hit":0,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Cortes-Acosta ML","est":68,"hit":0,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Silva ML","est":67,"hit":1,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Petersen ML","est":61,"hit":1,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Bashi KO/Sub","est":50,"hit":1,"sport":"UFC","mkt":"method","stat":"method","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Magomedov ML","est":48,"hit":1,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Fernando KO","est":45,"hit":0,"sport":"UFC","mkt":"method","stat":"method","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Kondratavicius KO","est":42,"hit":0,"sport":"UFC","mkt":"method","stat":"method","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Milosevic KO","est":38,"hit":1,"sport":"UFC","mkt":"method","stat":"method","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Parsons ML","est":34,"hit":0,"sport":"UFC","mkt":"ml","stat":"ml","dir":"o","style":"reg","boost":0,"star":0,"fav":0},{"day":"Nov 7","pick":"Silva by dec","est":32,"hit":1,"sport":"UFC","mkt":"method","stat":"method","dir":"o","style":"reg","boost":0,"star":0,"fav":0}];
+const NS='http://www.w3.org/2000/svg';
+const el=(t,a={},p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e};
+const tx=(p,x,y,s,o={})=>{const t=el('text',Object.assign({x,y,fill:'#8a9a93','font-family':'Geist Mono, monospace','font-size':10},o),p);t.textContent=s;return t};
+const rate=g=>({h:g.filter(r=>r.hit).length,n:g.length,p:g.length?g.filter(r=>r.hit).length/g.length*100:0,e:g.length?g.reduce((a,r)=>a+r.est,0)/g.length:0});
+
+/* calibration */
+(function(){
+  const s=document.getElementById('calib');
+  const T=[['80+',r=>r.est>=80],['70-79',r=>r.est>=70&&r.est<80],['60-69',r=>r.est>=60&&r.est<70],['50-59',r=>r.est>=50&&r.est<60],['40-49',r=>r.est>=40&&r.est<50],['<40',r=>r.est<40]].map(([n,f])=>[n,rate(ROWS.filter(f))]);
+  const L=40,R=550,Tp=14,Bt=230,y=v=>Bt-v/100*(Bt-Tp),w=(R-L)/T.length;
+  [0,25,50,75,100].forEach(v=>{el('line',{x1:L,x2:R,y1:y(v),y2:y(v),stroke:'#1f2724'},s);tx(s,L-6,y(v)+3,v+'%',{'text-anchor':'end',fill:'#5b6b64'})});
+  T.forEach(([n,r],i)=>{const x=L+i*w+w*.2,bw=w*.6,col=r.p>=75?'#04ff9f':r.p>=60?'#2fbf86':'#ffb020';
+    el('rect',{x,y:y(r.p),width:bw,height:Bt-y(r.p),fill:col,opacity:.85},s);
+    el('rect',{x:x-4,y:y(r.e)-1.5,width:bw+8,height:3,fill:'#eef3f0'},s);
+    tx(s,x+bw/2,y(r.p)-6,Math.round(r.p)+'%',{'text-anchor':'middle',fill:'#eef3f0','font-family':'Kanit, sans-serif','font-weight':700,'font-size':15});
+    tx(s,x+bw/2,Bt+16,n,{'text-anchor':'middle',fill:'#eef3f0'});
+    tx(s,x+bw/2,Bt+30,r.h+'/'+r.n,{'text-anchor':'middle','font-size':9,fill:'#5b6b64'});});
+})();
+
+function bars(id,items){
+  document.getElementById(id).innerHTML=items.map(([n,sub,r,mark])=>{const col=r.p>=65?'#04ff9f':r.p>=52?'#ffb020':'#ff4d5e';
+    return `<div class="br"><div class="n">${n}<small>${sub||(r.h+' of '+r.n)}</small></div><div class="track"><i style="width:${r.p}%;background:${col}"></i><b style="left:${mark}%"></b></div><div class="p" style="color:${col}">${Math.round(r.p)}%</div></div>`}).join('');
+}
+const nba=ROWS.filter(r=>r.sport==='NBA');
+bars('style',[['Alt-downs',null,rate(nba.filter(r=>r.style==='alt')),rate(nba.filter(r=>r.style==='alt')).e],
+  ['Regular lines',null,rate(nba.filter(r=>r.style==='reg')),rate(nba.filter(r=>r.style==='reg')).e],
+  ['Ceilings',null,rate(nba.filter(r=>r.style==='ceil')),rate(nba.filter(r=>r.style==='ceil')).e]].map(([a,b,c,d])=>[a,`${c.h} of ${c.n} · graded ${Math.round(c.e)}`,c,d]));
+
+const mid=ROWS.filter(r=>r.est>=45&&r.est<70);
+const E=[
+ ['Rebound overs',mid.filter(r=>r.sport==='NBA'&&r.stat==='reb'&&r.dir==='o')],
+ ['NBA moneylines',ROWS.filter(r=>r.sport==='NBA'&&r.stat==='ml')],
+ ['NFL props',mid.filter(r=>r.sport==='NFL')],
+ ['Threes made',mid.filter(r=>r.stat==='3pm')],
+ ['Points, regular line',mid.filter(r=>r.sport==='NBA'&&r.stat==='pts'&&r.style==='reg')],
+ ['Points, alt-down',mid.filter(r=>r.sport==='NBA'&&r.stat==='pts'&&r.style==='alt')],
+ ['NBA unders',mid.filter(r=>r.sport==='NBA'&&r.dir==='u')],
+ ['UFC',mid.filter(r=>r.sport==='UFC')],
+ ['Assist overs',mid.filter(r=>r.stat==='ast'&&r.dir==='o')],
+ ['College football',mid.filter(r=>r.sport==='CFB')],
+ ['PRA combos',mid.filter(r=>r.stat==='pra')],
+].map(([n,g])=>[n,null,rate(g),50]).sort((a,b)=>b[2].p-a[2].p);
+bars('edgebars',E);
+
+/* structures */
+const S=[
+ {t:'Hammer: 4 legs from the 80%+ tier',legs:'4 × 90% actual',p:Math.pow(.9,4),pay:2.0,col:'#04ff9f',v:'Our best build. Priced like 85% legs, hitting like 90%.'},
+ {t:'Two regular lines, coin-flip zone',legs:'2 × 62% actual, priced near even',p:.62*.62,pay:3.6,col:'#00c8ff',v:'Your idea, Ace. Pays almost 4x and hits a third of the time. Strong if the 62% holds.'},
+ {t:'Lotto: 14 legs padded with 60s alts',legs:'6 × 90% + 8 × 58% actual',p:Math.pow(.9,6)*Math.pow(.58,8),pay:40,col:'#ff4d5e',v:'This is the leak. Each 60s alt-down costs more than it returns.'},
+];
+document.getElementById('structs').innerHTML=S.map(s=>{const ev=s.p*s.pay*100;return `<div class="st"><h3 style="color:${s.col}">${s.t}</h3>
+ <div class="row"><span>Legs</span><b>${s.legs}</b></div>
+ <div class="row"><span>Hit chance</span><b>${s.p>=.1?Math.round(s.p*100)+'%':'1 in '+Math.round(1/s.p)}</b></div>
+ <div class="row"><span>Typical payout</span><b>${s.pay}x</b></div>
+ <div class="row"><span>$100 returns on average</span><b style="color:${ev>=100?'#04ff9f':'#ff4d5e'}">$${Math.round(ev)}</b></div>
+ <p class="note" style="margin:10px 0 0">${s.v}</p></div>`}).join('');
+
+/* sports */
+(function(){
+  const s=document.getElementById('sports'),ks=['NBA','NFL','UFC','CFB'],bw=34;
+  [25,50,75,100].forEach(v=>{const y=200-v*1.7;el('line',{x1:34,x2:515,y1:y,y2:y,stroke:'#1f2724'},s);tx(s,30,y+3,v,{'text-anchor':'end','font-size':9,fill:'#5b6b64'})});
+  ks.forEach((k,i)=>{const all=rate(ROWS.filter(r=>r.sport===k)),top=rate(ROWS.filter(r=>r.sport===k&&r.est>=70)),x=60+i*118;
+    [[all,'#2f5a49','all'],[top,'#04ff9f','70%+']].forEach(([r,c,l],j)=>{const xx=x+j*(bw+6),h=r.p*1.7;
+      el('rect',{x:xx,y:200-h,width:bw,height:h,fill:c},s);tx(s,xx+bw/2,194-h,Math.round(r.p)+'%',{'text-anchor':'middle',fill:'#eef3f0','font-size':11,'font-weight':700});
+      tx(s,xx+bw/2,226,l,{'text-anchor':'middle','font-size':8,fill:'#5b6b64'});});
+    tx(s,x+bw+3,214,k+' ('+all.n+')',{'text-anchor':'middle',fill:'#eef3f0'});});
+})();
+
+/* rules */
+const RULES=[
+ ['Hammers from 80%+ legs only','18 of 20 across four days. The tier that pays the bills.','Set Nov 5',0],
+ ['Lottos from 72%+ legs, 14 to 16 deep','20-legs padded with 60s legs averaged 3 to 4 misses.','Set Nov 6',0],
+ ['Backup QB: no receivers, no pass overs','Ravens with Fagnano: 57 receiving yards.','Set Nov 5',0],
+ ['If one of us flags it, cut it','Flowers was flagged and kept.','Set Nov 5',0],
+ ['Star points over, never his assists over','Luka 53 points, 5 assists.','Set Nov 6',0],
+ ['Never bet James Harden','7 points on a 10+ line. Ace\'s rule.','Set Nov 8',0],
+ ['Coin-flip picks at regular lines, not alts','Regular 62% vs mid-tier alts 58%, and regular lines pay more.','Testing',1],
+ ['Lean into rebound overs and NBA moneylines','11 of 14 and 6 of 6 in the coin-flip zone.','Testing',1],
+ ['Fade PRA combos and assist overs in the 50s','1 of 6 and 5 of 12.','Testing',1],
+ ['No mid-tier props on back-to-backs','1 of 7.','Testing',1],
+ ['Small-stake ceiling props on stars','Graded 34, hit 50%. Sample of 18.','Testing',1],
+ ['College football stays small','Top tier 4 of 6, mid tier 5 of 11.','Testing',1],
+];
+document.getElementById('rules').innerHTML=RULES.map(r=>`<li class="${r[3]?'obs':''}"><b>${r[0]}</b><span>${r[1]}</span><em>${r[2].toUpperCase()}</em></li>`).join('');
+
+/* ledger */
+const DAYS=[
+ {d:'Sat Nov 7 · CFB, NBA, UFC',pl:'-$125+',tix:[
+  ['Hammer 3-leg CFB (Kalshi)','$100','~2x','L','Michigan (-625) lost 15-6, Ohio State lost 41-28. Houston won'],
+  ['12-leg CFB/NBA (Kalshi)','$25','26.8x','L','Michigan, Ohio State, LSU, McCollum 9, Avdija 15, Nembhard 1 reb'],
+  ['7-leg NBA + UFC (Kalshi)','?','~3.3x','L','Only Harden 10+ (7) missed. Smith, Fernando, Milosevic, MPJ 25, Avdija 15 all hit. Mobley not in box score'],
+ ]},
+ {d:'Fri Nov 6 · NBA',pl:'+$216',tix:[
+  ['Hammer 4-leg (Kalshi)','$200','2.13x','W','SGA 25+, Brown 15+, Jerome 21, Luka 53'],
+  ['Lotto 20-leg (Kalshi)','$10','120x','L','17 of 20. Luka o6.5 ast (5), Castle 4+ reb (3), Naz 15+ (14)'],
+ ]},
+ {d:'Thu Nov 5 · NFL, NBA, CFB',pl:'-$145+',tix:[
+  ['Hammer 5-leg (Kalshi)','$100','2.09x','L','4 of 5. Zay Flowers 15+ missed'],
+  ['Upside 4-leg','$25-40','~4.7x','L','Black 15+ (10), Flowers 25+'],
+  ['Banger 18-leg','$10','33x','L','Fagnano, UTSA, Franz 20+, Flowers'],
+  ['Regular-line 18-leg','$10','200x','L','UTSA, Franz, Black o14.5, Podz ast, Wiggins PRA'],
+ ]},
+ {d:'Wed Nov 4 · NBA, NHL',pl:'+$890',tix:[
+  ['Hammer 7-leg (Kalshi)','$100','10.1x','W','McDaniels, KD, Luka, Nuggets, Blazers, Acuff, 76ers'],
+  ['20-leg','$10','~430x','L','Huerter 1 reb, Flagg 19, Bam, Ighodaro'],
+  ['15 and 14-leg','$10','','L','Ighodaro, Bam'],
+  ['PrizePicks Power','bonus','5x','L','KD 21 on o22.5'],
+ ]},
+];
+document.getElementById('days').innerHTML=DAYS.map((d,i)=>`<details class="day" ${i===0?'open':''}><summary><b>${d.d}</b><span class="mono ${d.pl.startsWith('+')?'acc':'bad'}">${d.pl}</span></summary>
+ <div class="scroll" style="margin-top:10px"><table><thead><tr><th>Ticket</th><th>Stake</th><th>Pay</th><th class="c">Result</th><th>What decided it</th></tr></thead><tbody>
+ ${d.tix.map(t=>`<tr><td>${t[0]}</td><td class="mono">${t[1]}</td><td class="mono">${t[2]}</td><td class="c"><span class="res ${t[3]==='W'?'w':'l'}">${t[3]}</span></td><td style="color:#8a9a93;white-space:normal;min-width:240px">${t[4]}</td></tr>`).join('')}
+ </tbody></table></div></details>`).join('');
+
+/* all legs */
+let F='all';
+const FL=[['all','All'],['hit','Hits'],['miss','Misses'],['mid','45-69%'],['top','80%+'],['NBA','NBA'],['NFL','NFL'],['CFB','CFB'],['UFC','UFC'],['Nov 4','Nov 4'],['Nov 5','Nov 5'],['Nov 6','Nov 6'],['Nov 7','Nov 7']];
+const fe=document.getElementById('filters');
+fe.innerHTML=FL.map(([k,n])=>`<button class="btn ${k===F?'on':''}" data-f="${k}" type="button">${n}</button>`).join('');
+fe.onclick=e=>{const b=e.target.closest('button');if(!b)return;F=b.dataset.f;fe.querySelectorAll('.btn').forEach(x=>x.classList.toggle('on',x===b));legs()};
+const STY={alt:'ALT',reg:'REG',ceil:'CEIL'};
+function legs(){
+  const r=ROWS.filter(x=>F==='all'||(F==='hit'&&x.hit)||(F==='miss'&&!x.hit)||(F==='mid'&&x.est>=45&&x.est<70)||(F==='top'&&x.est>=80)||x.sport===F||x.day===F).sort((a,b)=>b.est-a.est);
+  const s=rate(r);document.getElementById('legcount').textContent=`${s.h} of ${s.n} hit · ${Math.round(s.p)}%`;
+  document.getElementById('legT').innerHTML=`<thead><tr><th>Day</th><th>Pick</th><th>My %</th><th>Sport</th><th>Style</th><th class="c">Result</th></tr></thead><tbody>`+
+   r.map(x=>`<tr><td class="lbl">${x.day}</td><td>${x.pick}</td><td class="mono"><span class="minibar"><i style="width:${x.est}%"></i></span>${x.est}</td><td class="lbl">${x.sport}</td><td><span class="tag">${STY[x.style]}</span></td><td class="c"><span class="res ${x.hit?'w':'l'}">${x.hit?'HIT':'MISS'}</span></td></tr>`).join('')+'</tbody>';
+}
+legs();
+
+const SUN=[{"p":"Chiefs ML vs Jets","pct":81,"g":"NYJ@KC","t":"10:00","ty":"ml","st":"reg","n":"-500"},{"p":"49ers ML vs Raiders","pct":79,"g":"LV@SF","t":"1:25","ty":"ml","st":"reg","n":"-440"},{"p":"Seahawks ML vs Cardinals","pct":79,"g":"ARI@SEA","t":"1:25","ty":"ml","st":"reg","n":"-440"},{"p":"Lamb 50+ rec yds","pct":75,"g":"DAL@IND","t":"10:00","ty":"prop","st":"alt","n":"Pickens OUT, more targets"},{"p":"Lions ML at Dolphins","pct":72,"g":"DET@MIA","t":"10:00","ty":"ml","st":"reg","n":"-298"},{"p":"Breece Hall 2+ rec","pct":70,"g":"NYJ@KC","t":"10:00","ty":"prop","st":"alt","n":"Jets trailing script"},{"p":"Seahawks -3","pct":70,"g":"ARI@SEA","t":"1:25","ty":"spread","st":"alt","n":""},{"p":"49ers -3","pct":70,"g":"LV@SF","t":"1:25","ty":"spread","st":"alt","n":""},{"p":"Nabers 50+ rec yds","pct":68,"g":"NYG@PHI","t":"10:00","ty":"prop","st":"alt","n":""},{"p":"Coker U60 rec yds","pct":68,"g":"DEN@CAR","t":"10:00","ty":"prop","st":"alt","n":""},{"p":"Rams ML at Commanders","pct":68,"g":"LAR@WAS","t":"10:00","ty":"ml","st":"reg","n":"-238"},{"p":"St. Brown 50+ rec yds","pct":65,"g":"DET@MIA","t":"10:00","ty":"prop","st":"alt","n":"Active, rib (questionable)"},{"p":"Geno o200 pass yds","pct":65,"g":"LV@SF","t":"1:25","ty":"prop","st":"reg","n":"Raiders trailing"},{"p":"Saints ML vs Browns","pct":64,"g":"CLE@NO","t":"10:00","ty":"ml","st":"reg","n":"-192"},{"p":"Coker U52.5 rec yds","pct":62,"g":"DEN@CAR","t":"10:00","ty":"prop","st":"reg","n":""},{"p":"JSN o25.5 longest rec","pct":62,"g":"ARI@SEA","t":"1:25","ty":"long","st":"reg","n":""},{"p":"Jadarian Price 40+ rush","pct":62,"g":"ARI@SEA","t":"1:25","ty":"prop","st":"alt","n":"Team/role unverified"},{"p":"Patriots ML vs Packers","pct":61,"g":"GB@NE","t":"1:25","ty":"ml","st":"reg","n":"-170"},{"p":"Joe Milton 20+ rush","pct":60,"g":"NYG@PHI","t":"10:00","ty":"prop","st":"alt","n":"Eagles starter, Smith + Wicks OUT"},{"p":"Estime 20+ rush","pct":60,"g":"CLE@NO","t":"10:00","ty":"prop","st":"alt","n":"Role unverified"},{"p":"Giants ML at Eagles","pct":59,"g":"NYG@PHI","t":"10:00","ty":"ml","st":"reg","n":"-155, Skattebo OUT"},{"p":"Shedeur o180 pass yds","pct":58,"g":"CLE@NO","t":"10:00","ty":"prop","st":"reg","n":"Browns trailing"},{"p":"Charbonnet U1.5 rec","pct":58,"g":"ARI@SEA","t":"1:25","ty":"prop","st":"reg","n":""},{"p":"Nabers 60+ rec yds","pct":58,"g":"NYG@PHI","t":"10:00","ty":"prop","st":"reg","n":""},{"p":"Kittle 60+ rec yds","pct":55,"g":"LV@SF","t":"1:25","ty":"prop","st":"alt","n":""},{"p":"Joe Milton o23.5 rush","pct":55,"g":"NYG@PHI","t":"10:00","ty":"prop","st":"reg","n":""},{"p":"LaPorta 40+ rec yds","pct":55,"g":"DET@MIA","t":"10:00","ty":"prop","st":"reg","n":""},{"p":"Malachi Fields 20+ rec yds","pct":55,"g":"?","t":"","ty":"prop","st":"alt","n":"Team unverified"},{"p":"Coleman o13.5 long rush","pct":55,"g":"?","t":"","ty":"long","st":"reg","n":"Team unverified"},{"p":"Shedeur 30+ longest comp","pct":55,"g":"CLE@NO","t":"10:00","ty":"long","st":"reg","n":""},{"p":"Kamara U11.5 att","pct":55,"g":"CLE@NO","t":"10:00","ty":"prop","st":"reg","n":""},{"p":"Worthy U3.5 rec","pct":55,"g":"NYJ@KC","t":"10:00","ty":"prop","st":"reg","n":""},{"p":"Bucky U15.5 att","pct":55,"g":"TB@CHI","t":"5:20","ty":"prop","st":"reg","n":"Bucs underdogs"},{"p":"Estime o7.5 att","pct":55,"g":"CLE@NO","t":"10:00","ty":"prop","st":"reg","n":""},{"p":"Gibbs ATD","pct":55,"g":"DET@MIA","t":"10:00","ty":"atd","st":"reg","n":"Lions -6.5, best TD bet on board"},{"p":"Fannin 40+ rec yds","pct":52,"g":"CLE@NO","t":"10:00","ty":"prop","st":"alt","n":""},{"p":"Walker 80+ rush","pct":52,"g":"NYJ@KC","t":"10:00","ty":"prop","st":"alt","n":"KC -9.5"},{"p":"Panthers +3","pct":52,"g":"DEN@CAR","t":"10:00","ty":"spread","st":"reg","n":""},{"p":"Estime 25+ rush","pct":52,"g":"CLE@NO","t":"10:00","ty":"prop","st":"alt","n":""},{"p":"McConkey o3.5 rec","pct":52,"g":"HOU@LAC","t":"1:05","ty":"prop","st":"reg","n":""},{"p":"Price 50+ rush","pct":50,"g":"ARI@SEA","t":"1:25","ty":"prop","st":"alt","n":""},{"p":"Okonkwo 30+ rec yds","pct":50,"g":"?","t":"","ty":"prop","st":"alt","n":"Team unverified"},{"p":"Walker ATD","pct":50,"g":"NYJ@KC","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"M. Washington 30+ rec yds","pct":50,"g":"DET@MIA","t":"10:00","ty":"prop","st":"alt","n":""},{"p":"Seahawks -8.5","pct":50,"g":"ARI@SEA","t":"1:25","ty":"spread","st":"reg","n":""},{"p":"Antonio Williams o42.5 rec","pct":50,"g":"?","t":"","ty":"prop","st":"reg","n":"Team unverified"},{"p":"Swift o15.5 att","pct":50,"g":"TB@CHI","t":"5:20","ty":"prop","st":"reg","n":""},{"p":"Malachi Fields o23.5 rec","pct":50,"g":"?","t":"","ty":"prop","st":"reg","n":""},{"p":"J. Taylor ATD","pct":48,"g":"DAL@IND","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Fannin o43.5 rec yds","pct":48,"g":"CLE@NO","t":"10:00","ty":"prop","st":"reg","n":""},{"p":"49ers -9.5","pct":48,"g":"LV@SF","t":"1:25","ty":"spread","st":"reg","n":""},{"p":"Kittle o68.5 rec yds","pct":45,"g":"LV@SF","t":"1:25","ty":"prop","st":"reg","n":""},{"p":"Lamb o83.5 rec yds","pct":45,"g":"DAL@IND","t":"10:00","ty":"prop","st":"ceil","n":""},{"p":"Javonte Williams ATD","pct":45,"g":"DAL@IND","t":"10:00","ty":"atd","st":"reg","n":"Dallas 27.5 team total"},{"p":"Price o54.5 rush","pct":45,"g":"ARI@SEA","t":"1:25","ty":"prop","st":"reg","n":""},{"p":"Judkins o68.5 rush","pct":45,"g":"CLE@NO","t":"10:00","ty":"prop","st":"reg","n":"Browns trailing"},{"p":"Gibbs 125+ rush+rec","pct":42,"g":"DET@MIA","t":"10:00","ty":"prop","st":"ceil","n":""},{"p":"Walker o90.5 rush","pct":42,"g":"NYJ@KC","t":"10:00","ty":"prop","st":"ceil","n":""},{"p":"Joe Milton 30+ rush","pct":42,"g":"NYG@PHI","t":"10:00","ty":"prop","st":"ceil","n":""},{"p":"Okonkwo o35.5 rec yds","pct":42,"g":"?","t":"","ty":"prop","st":"reg","n":""},{"p":"St. Brown ATD","pct":42,"g":"DET@MIA","t":"10:00","ty":"atd","st":"reg","n":"Rib"},{"p":"JSN ATD","pct":42,"g":"ARI@SEA","t":"1:25","ty":"atd","st":"reg","n":""},{"p":"Rashee Rice ATD","pct":42,"g":"NYJ@KC","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Puka ATD","pct":42,"g":"LAR@WAS","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Saquon ATD","pct":40,"g":"NYG@PHI","t":"10:00","ty":"atd","st":"reg","n":"Eagles WRs thin"},{"p":"Lamb ATD","pct":40,"g":"DAL@IND","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Swift ATD","pct":40,"g":"TB@CHI","t":"5:20","ty":"atd","st":"reg","n":""},{"p":"Chuba ATD","pct":40,"g":"DEN@CAR","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Coleman 80+ rush+rec","pct":40,"g":"?","t":"","ty":"prop","st":"ceil","n":""},{"p":"Puka o92.5 rec yds","pct":40,"g":"LAR@WAS","t":"10:00","ty":"prop","st":"ceil","n":""},{"p":"Dulcich o3.5 rec","pct":40,"g":"?","t":"","ty":"prop","st":"reg","n":""},{"p":"Kittle ATD","pct":38,"g":"LV@SF","t":"1:25","ty":"atd","st":"reg","n":""},{"p":"Luther Burden 50+ rec yds","pct":45,"g":"TB@CHI","t":"5:20","ty":"prop","st":"alt","n":""},{"p":"Stevenson ATD","pct":33,"g":"GB@NE","t":"1:25","ty":"atd","st":"reg","n":""},{"p":"Breece Hall ATD","pct":33,"g":"NYJ@KC","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Odunze ATD","pct":33,"g":"TB@CHI","t":"5:20","ty":"atd","st":"reg","n":""},{"p":"Commanders ML","pct":33,"g":"LAR@WAS","t":"10:00","ty":"ml","st":"reg","n":"+195"},{"p":"Browns ML","pct":36,"g":"CLE@NO","t":"10:00","ty":"ml","st":"reg","n":"+160"},{"p":"Colts ML","pct":34,"g":"DAL@IND","t":"10:00","ty":"ml","st":"reg","n":"+170"},{"p":"Allgeier o2.5 rec","pct":35,"g":"?","t":"","ty":"prop","st":"reg","n":""},{"p":"Woody Marks ATD","pct":35,"g":"HOU@LAC","t":"1:05","ty":"atd","st":"reg","n":""},{"p":"Bowers ATD","pct":35,"g":"LV@SF","t":"1:25","ty":"atd","st":"reg","n":""},{"p":"Olave ATD","pct":32,"g":"CLE@NO","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Tet McMillan ATD","pct":32,"g":"DEN@CAR","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"LaPorta ATD","pct":32,"g":"DET@MIA","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Nabers ATD","pct":32,"g":"NYG@PHI","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Estime ATD","pct":30,"g":"CLE@NO","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Charbonnet ATD","pct":30,"g":"ARI@SEA","t":"1:25","ty":"atd","st":"reg","n":""},{"p":"Jameson Williams ATD","pct":30,"g":"DET@MIA","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Keenan Allen ATD","pct":30,"g":"DAL@IND","t":"10:00","ty":"atd","st":"reg","n":"Team unverified"},{"p":"Christian Watson ATD","pct":30,"g":"GB@NE","t":"1:25","ty":"atd","st":"reg","n":""},{"p":"Coleman ATD","pct":30,"g":"?","t":"","ty":"atd","st":"reg","n":""},{"p":"Bucs ML at Bears","pct":30,"g":"TB@CHI","t":"5:20","ty":"ml","st":"reg","n":"+220"},{"p":"Antonio Williams o59.5 rec","pct":30,"g":"?","t":"","ty":"prop","st":"ceil","n":"+188"},{"p":"Joe Milton 40+ rush","pct":30,"g":"NYG@PHI","t":"10:00","ty":"prop","st":"ceil","n":""},{"p":"Fields 30+ rec yds","pct":40,"g":"?","t":"","ty":"prop","st":"ceil","n":""},{"p":"Worthy ATD","pct":25,"g":"NYJ@KC","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Loveland ATD","pct":25,"g":"TB@CHI","t":"5:20","ty":"atd","st":"reg","n":""},{"p":"Jayden Daniels ATD","pct":25,"g":"LAR@WAS","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Bucky 50+ rec yds","pct":25,"g":"TB@CHI","t":"5:20","ty":"prop","st":"ceil","n":"He's a RB, 50 receiving is a lot"},{"p":"Juwan Johnson ATD","pct":22,"g":"CLE@NO","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Schultz ATD","pct":22,"g":"HOU@LAC","t":"1:05","ty":"atd","st":"reg","n":""},{"p":"Joe Milton 50+ rush","pct":20,"g":"NYG@PHI","t":"10:00","ty":"prop","st":"ceil","n":""},{"p":"D. Robinson ATD","pct":20,"g":"LV@SF","t":"1:25","ty":"atd","st":"reg","n":""},{"p":"Douglas ATD","pct":18,"g":"GB@NE","t":"1:25","ty":"atd","st":"reg","n":""},{"p":"Higbee ATD","pct":18,"g":"LAR@WAS","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Barner ATD","pct":18,"g":"ARI@SEA","t":"1:25","ty":"atd","st":"reg","n":""},{"p":"Antonio Williams o79.5 rec","pct":16,"g":"?","t":"","ty":"prop","st":"ceil","n":"+453"},{"p":"Estime 60+ rush","pct":15,"g":"CLE@NO","t":"10:00","ty":"prop","st":"ceil","n":""},{"p":"Shedeur ATD","pct":15,"g":"CLE@NO","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Malik Willis ATD","pct":15,"g":"DET@MIA","t":"10:00","ty":"atd","st":"reg","n":"QB role unverified"},{"p":"Flournoy ATD","pct":15,"g":"DAL@IND","t":"10:00","ty":"atd","st":"reg","n":""},{"p":"Dulcich ATD","pct":15,"g":"?","t":"","ty":"atd","st":"reg","n":""},{"p":"Joe Milton 60+ rush","pct":13,"g":"NYG@PHI","t":"10:00","ty":"prop","st":"ceil","n":""},{"p":"Joe Milton o69.5 rush","pct":8,"g":"NYG@PHI","t":"10:00","ty":"prop","st":"ceil","n":"+1240"},{"p":"Antonio Williams o99.5 rec","pct":8,"g":"?","t":"","ty":"prop","st":"ceil","n":"+1020"},{"p":"Estime 80+ rush","pct":7,"g":"CLE@NO","t":"10:00","ty":"prop","st":"ceil","n":""},{"p":"Josh Allen ATD","pct":35,"g":"BUF@MIN","t":"MON","ty":"atd","st":"reg","n":"MONDAY game"},{"p":"Jordan Mason ATD","pct":38,"g":"BUF@MIN","t":"MON","ty":"atd","st":"reg","n":"MONDAY game"},{"p":"Addison ATD","pct":30,"g":"BUF@MIN","t":"MON","ty":"atd","st":"reg","n":"MONDAY game"},{"p":"Shakir ATD","pct":25,"g":"BUF@MIN","t":"MON","ty":"atd","st":"reg","n":"MONDAY game"},{"p":"Kyle Pitts ATD","pct":0,"g":"CIN@ATL","t":"LIVE","ty":"atd","st":"reg","n":"London game nearly over"},{"p":"Chase Brown ATD","pct":0,"g":"CIN@ATL","t":"LIVE","ty":"atd","st":"reg","n":"London game nearly over"},{"p":"Drake London ATD","pct":0,"g":"CIN@ATL","t":"LIVE","ty":"atd","st":"reg","n":"London game nearly over"},{"p":"Jahan Dotson ATD","pct":0,"g":"CIN@ATL","t":"LIVE","ty":"atd","st":"reg","n":"London game nearly over"},{"p":"McDaniels 10+ pts","pct":78,"g":"NBA","t":"tonight","ty":"prop","st":"alt","n":"Verified: UTA@MIN 4:00 PT"},{"p":"McDaniels o12.5 pts","pct":65,"g":"NBA","t":"tonight","ty":"prop","st":"reg","n":""},{"p":"Fears o3.5 reb","pct":60,"g":"NBA","t":"tonight","ty":"prop","st":"reg","n":""},{"p":"Reaves o3.5 reb","pct":55,"g":"NBA","t":"tonight","ty":"prop","st":"reg","n":""},{"p":"McDaniels 15+ pts","pct":55,"g":"NBA","t":"tonight","ty":"prop","st":"alt","n":""},{"p":"Giannis o5.5 ast","pct":50,"g":"NBA","t":"tonight","ty":"prop","st":"reg","n":"Assist over: our weak spot"},{"p":"LeBron o17.5 pts","pct":40,"g":"NBA","t":"tonight","ty":"prop","st":"ceil","n":"Averages 15.7"}];
+const SG=p=>Math.max(1,Math.min(10,Math.round(p/10)));
+const TIX=[
+ {t:'Hammer · 3 MLs',c:'#04ff9f',legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Seahawks ML vs Cardinals'],stake:'$100',lock:'1.9x+',hit:'~51%',v:'Three -440 or better favorites in separate games. The NFL top tier has gone 6 of 7.'},
+ {t:'The 5x · 6 legs',c:'#00c8ff',legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Seahawks ML vs Cardinals','Lions ML at Dolphins','Rams ML at Commanders','Lamb 50+ rec yds'],stake:'$50 to $100',lock:'5x+',hit:'~1 in 5',v:'This is the one you asked about. It misses 4 times in 5, so not $200.'},
+ {t:'Value 3 · regular lines',c:'#ffb020',legs:['Geno o200 pass yds','Breece Hall 2+ rec','Coker U60 rec yds'],stake:'$25 to $50',lock:'3x+',hit:'~31%',v:'The new structure from the audit: coin-flip-zone regular lines from our strongest categories.'},
+ {t:'TD trio',c:'#ff6b3d',legs:['Gibbs ATD','Walker ATD','J. Taylor ATD'],stake:'$10 to $20',lock:'7x+',hit:'~1 in 8',v:'The three best touchdown bets on the board, all lead backs on teams with big totals.'},
+ {t:'Madness 16 · ~1,000x',c:'#ff4d5e',legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Seahawks ML vs Cardinals','Lions ML at Dolphins','Rams ML at Commanders','Saints ML vs Browns','Lamb 50+ rec yds','St. Brown 50+ rec yds','Nabers 50+ rec yds','Breece Hall 2+ rec','Geno o200 pass yds','JSN o25.5 longest rec','Gibbs ATD','Walker ATD','J. Taylor ATD','Javonte Williams ATD'],stake:'$10 to $25',lock:'800x+',hit:'~1 in 1,100',v:'A real shot at retiring-money odds: 12 solid legs plus your 4 best TDs. A 20-leg TD parlay hits about once in 100 million tries.'},
+ {t:'Top Board 18 · no TDs',c:'#c77dff',legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Seahawks ML vs Cardinals','McDaniels 10+ pts','Lamb 50+ rec yds','Lions ML at Dolphins','Breece Hall 2+ rec','Nabers 50+ rec yds','Coker U60 rec yds','Rams ML at Commanders','St. Brown 50+ rec yds','Geno o200 pass yds','Saints ML vs Browns','JSN o25.5 longest rec','Patriots ML vs Packers','Joe Milton 20+ rush','Fears o3.5 reb','Giants ML at Eagles'],stake:'$5 to $15',lock:'500x+',hit:'~1 in 980',v:'The top of the board with every double-up removed (no ML + spread on the same team, one Coker line, one Nabers line, one Milton line). Same odds tier as Madness 16, but zero touchdowns.'},
+];
+document.getElementById('sunTix').innerHTML=TIX.map(t=>`<div class="st"><h3 style="color:${t.c}">${t.t}</h3>${t.legs.map(l=>{const r=SUN.find(x=>x.p===l);return `<div class="row"><span>${l}</span><b>${r?r.pct:''}</b></div>`}).join('')}<div class="row"><span>Hit chance</span><b>${t.hit}</b></div><div class="row"><span>Stake</span><b>${t.stake}</b></div><div class="row"><span>Lock at</span><b>${t.lock}</b></div><p class="note" style="margin:10px 0 0">${t.v}</p></div>`).join('');
+const live=SUN.filter(r=>r.pct>0&&r.t!=='MON');
+document.getElementById('topAny').innerHTML=[...live].sort((a,b)=>b.pct-a.pct).slice(0,25).map(r=>`<li>${r.p} <span style="color:#04ff9f">${r.pct}%</span></li>`).join('');
+document.getElementById('topReg').innerHTML=live.filter(r=>r.st==='reg').sort((a,b)=>b.pct-a.pct).slice(0,25).map(r=>`<li>${r.p} <span style="color:#00c8ff">${r.pct}%</span></li>`).join('');
+let SF='all';const SFL=[['all','All'],['ml','Moneylines'],['spread','Spreads'],['prop','Props'],['atd','Anytime TDs'],['reg','Regular lines'],['alt','Alts'],['ceil','Ceilings'],['early','10:00 games'],['late','Late + SNF']];
+const sfe=document.getElementById('sunF');sfe.innerHTML=SFL.map(([k,n])=>`<button class="btn ${k===SF?'on':''}" data-f="${k}" type="button">${n}</button>`).join('');
+sfe.onclick=e=>{const b=e.target.closest('button');if(!b)return;SF=b.dataset.f;sfe.querySelectorAll('.btn').forEach(x=>x.classList.toggle('on',x===b));sun()};
+function sun(){const r=SUN.filter(x=>SF==='all'||x.ty===SF||x.st===SF||(SF==='early'&&x.t==='10:00')||(SF==='late'&&['1:05','1:25','5:20'].includes(x.t))||(SF==='ml'&&x.ty==='ml')).sort((a,b)=>b.pct-a.pct);
+ document.getElementById('sunT').innerHTML='<thead><tr><th>#</th><th>Pick</th><th>Grade</th><th>Hit %</th><th>Game</th><th>PT</th><th>Note</th></tr></thead><tbody>'+r.map((x,i)=>`<tr><td class="mono" style="color:#5b6b64">${i+1}</td><td>${x.p}<span class="tag">${x.st.toUpperCase()}</span></td><td class="mono">${x.pct?SG(x.pct):'X'}</td><td class="mono"><span class="minibar"><i style="width:${x.pct}%"></i></span>${x.pct||'n/a'}</td><td class="lbl">${x.g}</td><td class="mono">${x.t}</td><td style="color:#8a9a93;white-space:normal;min-width:180px">${x.n}</td></tr>`).join('')+'</tbody>'}
+sun();
+</script>
+
+</html>
