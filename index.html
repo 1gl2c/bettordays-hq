@@ -141,6 +141,15 @@ td.c,th.c{text-align:center}
     <h2>Sunday board · Nov 8 <small>132 picks graded</small></h2>
     <p class="note">Early games kick at 10:00 PT. Pickens, DeVonta Smith, Wicks and Skattebo are OUT. St. Brown is active with a rib injury. The London game is almost over and the Bills-Vikings legs play Monday, so those are flagged.</p>
     <div class="struct" id="sunTix"></div>
+    <div style="margin-top:18px"><h3>Ace's process · how the tickets got built</h3>
+    <ol class="mono" style="margin:8px 0 0;padding-left:22px;font-size:12.5px;line-height:1.9;color:var(--mute)">
+      <li><b class="acc">9:16</b> Capper board in: 132 picks graded, 5 tickets built (hammer, 5x, Value 3, TD trio, Madness 16).</li>
+      <li><b class="acc">9:22</b> Pushed back: why not McDaniels 10+ (78) on the 5x, and why not parlay the whole top 25? Answer: top 25 is ~1 in 27,000 with double-ups. Built Top Board 18 instead.</li>
+      <li><b class="acc">9:57</b> Darnold OUT, Drew Lock starting. Seahawks pulled from the hammer and the 5x.</li>
+      <li><b class="acc">10:02</b> Locked Madness 16 ($10 pays $1,000) and Top Board 18 ($10 pays $3,000). Kalshi paid about a tenth of fair odds on the long ones.</li>
+      <li><b class="acc">10:08</b> Passed on the Chiefs + 49ers + McDaniels hammer at 1.62x.</li>
+      <li><b class="cy">Final</b> Two 5-legs at $124.96 each, both paying $420.45: one with McDaniels, one with Lamb. Total in play about $270.</li>
+    </ol></div>
     <div class="two" style="margin-top:18px">
       <div><h3>Top 25: any line</h3><ol class="mono" id="topAny" style="margin:8px 0 0;padding-left:22px;font-size:12.5px;line-height:1.75"></ol></div>
       <div><h3>Top 25: regular lines</h3><ol class="mono" id="topReg" style="margin:8px 0 0;padding-left:22px;font-size:12.5px;line-height:1.75"></ol></div>
@@ -376,7 +385,8 @@ const SUN=[{"p":"Chiefs ML vs Jets","pct":81,"g":"NYJ@KC","t":"10:00","ty":"ml",
 const SG=p=>Math.max(1,Math.min(10,Math.round(p/10)));
 const TIX=[
  {t:'Hammer · no Seahawks',c:'#04ff9f',legs:['Chiefs ML vs Jets','49ers ML vs Raiders','McDaniels 10+ pts'],stake:'Not played',lock:'1.62x on Kalshi',hit:'~58%',v:'Seahawks pulled (Darnold out, Lock starting). Three legs graded 78 to 81 in three separate games. Ace passed on it at 1.62x.'},
- {t:'The 5-leg · PLAYED',c:'#00c8ff',legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Lions ML at Dolphins','Rams ML at Commanders','Lamb 50+ rec yds'],stake:'$125',lock:'3.38x (pays $422.50)',hit:'~1 in 4',v:'The 6-leg 5x with the Seahawks removed. Rams ML (68) is the weakest leg.'},
+ {t:'Played #1 · McDaniels 5',c:'#00c8ff',live:1,legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Lions ML at Dolphins','Rams ML at Commanders','McDaniels 10+ pts'],stake:'$124.96',lock:'pays $420.45 (3.36x)',hit:'Now ~72% (3 hit, 49ers 93% live, McDaniels 4:00)',v:'What Ace actually locked. The hammer idea (Chiefs, 49ers, McDaniels) merged into the 5-leg, swapping Lamb for McDaniels.'},
+ {t:'Played #2 · Lamb 5',c:'#00c8ff',live:1,legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Lions ML at Dolphins','Rams ML at Commanders','Lamb 50+ rec yds'],stake:'$124.96',lock:'pays $420.45 (3.36x)',hit:'Now ~92% (4 hit, 49ers 92% live)',v:'The 6-leg 5x with the Seahawks pulled after Darnold was ruled out.'},
  {t:'Original hammer · pulled',c:'#5b6b64',legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Seahawks ML vs Cardinals'],stake:'Not played',lock:'1.9x+',hit:'~51%',v:'The morning version with the Seahawks. Kept on the board so we can grade whether pulling Seattle was right.'},
  {t:'Original 5x · pulled',c:'#5b6b64',legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Seahawks ML vs Cardinals','Lions ML at Dolphins','Rams ML at Commanders','Lamb 50+ rec yds'],stake:'Not played',lock:'5x+',hit:'~1 in 5',v:'The 6-leg before Darnold news. Replaced by the 5-leg you played.'},
  {t:'Value 3 · regular lines',c:'#ffb020',legs:['Geno o200 pass yds','Breece Hall 2+ rec','Coker U60 rec yds'],stake:'$25 to $50',lock:'3x+',hit:'~31%',v:'The new structure from the audit: coin-flip-zone regular lines from our strongest categories.'},
@@ -384,7 +394,9 @@ const TIX=[
  {t:'Madness 16 · ~1,000x',c:'#ff4d5e',legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Seahawks ML vs Cardinals','Lions ML at Dolphins','Rams ML at Commanders','Saints ML vs Browns','Lamb 50+ rec yds','St. Brown 50+ rec yds','Nabers 50+ rec yds','Breece Hall 2+ rec','Geno o200 pass yds','JSN o25.5 longest rec','Gibbs ATD','Walker ATD','J. Taylor ATD','Javonte Williams ATD'],stake:'$10 · PLAYED',lock:'pays $1,000 (100x)',hit:'~1 in 1,100',v:'A real shot at retiring-money odds: 12 solid legs plus your 4 best TDs. A 20-leg TD parlay hits about once in 100 million tries.'},
  {t:'Top Board 18 · no TDs',c:'#c77dff',legs:['Chiefs ML vs Jets','49ers ML vs Raiders','Seahawks ML vs Cardinals','McDaniels 10+ pts','Lamb 50+ rec yds','Lions ML at Dolphins','Breece Hall 2+ rec','Nabers 50+ rec yds','Coker U60 rec yds','Rams ML at Commanders','St. Brown 50+ rec yds','Geno o200 pass yds','Saints ML vs Browns','JSN o25.5 longest rec','Patriots ML vs Packers','Joe Milton 20+ rush','Fears o3.5 reb','Giants ML at Eagles'],stake:'$10 · PLAYED',lock:'pays $3,000 (300x)',hit:'~1 in 980',v:'The top of the board with every double-up removed (no ML + spread on the same team, one Coker line, one Nabers line, one Milton line). Same odds tier as Madness 16, but zero touchdowns.'},
 ];
-document.getElementById('sunTix').innerHTML=TIX.map(t=>`<div class="st"><h3 style="color:${t.c}">${t.t}</h3>${t.legs.map(l=>{const r=SUN.find(x=>x.p===l);return `<div class="row"><span>${l}</span><b>${r?r.pct:''}</b></div>`}).join('')}<div class="row"><span>Hit chance</span><b>${t.hit}</b></div><div class="row"><span>Stake</span><b>${t.stake}</b></div><div class="row"><span>Lock at</span><b>${t.lock}</b></div><p class="note" style="margin:10px 0 0">${t.v}</p></div>`).join('');
+const RES={'Chiefs ML vs Jets':'W','Lions ML at Dolphins':'W','Rams ML at Commanders':'W','Lamb 50+ rec yds':'W','49ers ML vs Raiders':'LIVE','McDaniels 10+ pts':'4:00'};
+const badge=l=>{const s=RES[l];if(!s)return '';const c=s==='W'?'res w':s==='L'?'res l':'res';return ` <span class="${c}" style="${s==='W'||s==='L'?'':'border:1px solid var(--warn);color:var(--warn)'}">${s==='W'?'HIT':s==='L'?'MISS':s}</span>`};
+document.getElementById('sunTix').innerHTML=TIX.map(t=>`<div class="st"${t.live?' style="border-color:var(--acc2);box-shadow:0 0 18px rgba(0,200,255,.15)"':''}><h3 style="color:${t.c}">${t.t}</h3>${t.legs.map(l=>{const r=SUN.find(x=>x.p===l);return `<div class="row"><span>${l}${badge(l)}</span><b>${r?r.pct:''}</b></div>`}).join('')}<div class="row"><span>Hit chance</span><b>${t.hit}</b></div><div class="row"><span>Stake</span><b>${t.stake}</b></div><div class="row"><span>Lock at</span><b>${t.lock}</b></div><p class="note" style="margin:10px 0 0">${t.v}</p></div>`).join('');
 const live=SUN.filter(r=>r.pct>0&&r.t!=='MON');
 document.getElementById('topAny').innerHTML=[...live].sort((a,b)=>b.pct-a.pct).slice(0,25).map(r=>`<li>${r.p} <span style="color:#04ff9f">${r.pct}%</span></li>`).join('');
 document.getElementById('topReg').innerHTML=live.filter(r=>r.st==='reg').sort((a,b)=>b.pct-a.pct).slice(0,25).map(r=>`<li>${r.p} <span style="color:#00c8ff">${r.pct}%</span></li>`).join('');
