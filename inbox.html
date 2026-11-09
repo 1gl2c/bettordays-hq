@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>BettorDays Inbox</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@700;900&family=Geist:wght@400;600&family=Geist+Mono:wght@400;700&display=swap">
+<style>
+:root{--bg:#0b0d0c;--panel:#111513;--panel2:#151a18;--line:#1f2724;--fg:#eef3f0;--mute:#8a9a93;--acc:#04ff9f;--bad:#ff4d5e;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 Geist,system-ui,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:24px 16px 60px}
+h1{font-family:Kanit,sans-serif;font-weight:900;text-transform:uppercase;font-size:clamp(32px,7vw,56px);line-height:.9;margin:0 0 6px}h1 span{color:var(--acc)}
+.lbl{font-family:'Geist Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0}
+input,select,button{font:inherit;background:var(--panel2);color:var(--fg);border:1px solid var(--line);padding:9px 12px}
+button{cursor:pointer;font-family:'Geist Mono',monospace;text-transform:uppercase;font-size:12px;letter-spacing:.08em}
+button.on{background:var(--acc);color:#04130c;border-color:var(--acc);font-weight:700}
+.card{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);padding:14px 16px;margin-top:10px}
+.card .meta{display:flex;flex-wrap:wrap;gap:10px;font-family:'Geist Mono',monospace;font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.08em}
+.card .meta b{color:var(--fg)}.card p{margin:8px 0 0;white-space:pre-wrap;word-break:break-word}
+.k{padding:2px 7px;border:1px solid currentColor;color:var(--acc)}
+#msg{color:var(--mute);margin-top:10px}
+</style></head><body><div class="wrap">
+<div class="lbl">Private · only Ace</div><h1>BettorDays <span>Inbox</span></h1>
+<p style="color:var(--mute);margin:0">Every message sent through "Talk to us" on bettordays.xyz.</p>
+<form class="bar" id="kf"><input id="key" type="password" placeholder="Inbox key" autocomplete="current-password" style="flex:1;min-width:200px"><button class="on" type="submit">Open</button><button type="button" id="out">Forget key</button></form>
+<div class="bar" id="flt" hidden></div>
+<div id="msg"></div><div id="list"></div>
+</div><script>
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const K={idea:'Idea',pick:'Pick request',feature:'Add to site',other:'Other'};
+let all=[],F='all';
+const get=()=>{try{return localStorage.getItem('bdkey')||''}catch(e){return ''}},set=v=>{try{v?localStorage.setItem('bdkey',v):localStorage.removeItem('bdkey')}catch(e){}};
+const u=new URL(location.href);if(u.searchParams.get('key')){set(u.searchParams.get('key'));u.searchParams.delete('key');history.replaceState(null,'',u.pathname)}
+async function load(){const key=get();const m=document.getElementById('msg');if(!key){m.textContent='Enter your inbox key.';return}
+ m.textContent='Loading...';const r=await fetch('/api/feedback?key='+encodeURIComponent(key),{cache:'no-store'});
+ if(r.status===401){m.textContent='That key did not work.';set('');return}
+ const j=await r.json();all=j.entries||[];m.textContent=all.length+' message'+(all.length===1?'':'s');document.getElementById('kf').hidden=true;
+ const f=document.getElementById('flt');f.hidden=false;f.innerHTML=[['all','All'],...Object.entries(K)].map(([k,n])=>`<button type="button" data-f="${k}" class="${k===F?'on':''}">${n}</button>`).join('')+'<button type="button" id="rf">Refresh</button>';
+ f.onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.id==='rf')return load();F=b.dataset.f;render();f.querySelectorAll('[data-f]').forEach(x=>x.classList.toggle('on',x===b))};render()}
+function render(){document.getElementById('list').innerHTML=all.filter(e=>F==='all'||e.kind===F).map(e=>`<div class="card"><div class="meta"><b>${esc(e.name)}</b><span class="k">${esc(K[e.kind]||e.kind)}</span><span>${new Date(e.at).toLocaleString()}</span></div><p>${esc(e.msg)}</p></div>`).join('')||'<p style="color:#8a9a93">Nothing here yet.</p>'}
+document.getElementById('kf').onsubmit=e=>{e.preventDefault();set(document.getElementById('key').value.trim());load()};
+document.getElementById('out').onclick=()=>{set('');location.reload()};
+load();
+</script></body></html>
