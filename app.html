@@ -72,8 +72,9 @@ label.f{display:block;margin:10px 0 5px}
 <div class="top">
   <a class="logo" href="/">Bettor<span>Days</span></a>
   <nav id="nav" aria-label="App">
-    <a href="#/feed" data-r="feed">Feed</a><a href="#/post" data-r="post">Post</a><a href="#/rooms" data-r="rooms">Rooms</a><a href="#/people" data-r="people">People</a><a href="#/me" data-r="me">Me</a>
+    <a href="/" data-r="hq">Board</a><a href="#/feed" data-r="feed">Feed</a><a href="#/post" data-r="post">Post</a><a href="#/rooms" data-r="rooms">Rooms</a><a href="#/people" data-r="people">People</a><a href="#/me" data-r="me">Me</a>
   </nav>
+  <button class="btn" id="bell" type="button" aria-label="Ring the bell for picks" title="Ring the bell" style="padding:6px 9px;font-size:16px">🛎️</button>
 </div>
 <main id="view" aria-live="polite"><p class="sub">Loading...</p></main>
 <div class="foot">bettordays.xyz · 21+ · Bet responsibly · 1-800-GAMBLER</div>
@@ -248,7 +249,7 @@ async function vMe() {
     <label class="f lbl" style="display:flex;gap:10px;align-items:center;text-transform:none;letter-spacing:0;font:14px Geist,sans-serif;color:var(--tx)"><input type="checkbox" id="mo" style="width:auto" ${MYS && MYS.email_opt_in ? 'checked' : ''}> Email me picks, results and updates</label>
     <button class="btn go" type="submit" style="margin-top:12px">Save</button><div class="msg" id="mm"></div>
   </form>
-  ${MYS && MYS.is_admin ? `<div class="card"><h2 style="margin-top:0">Kalshi sync</h2><p class="sub">Pulls your Kalshi positions into your tickets. Needs your Kalshi API key saved in Vercel.</p><button class="btn go" id="ks" type="button">Sync now</button><div class="msg" id="kmsg"></div></div>` : ''}
+  <div class="card" id="kal"></div>
   <div class="row"><a class="btn" href="#/u/${esc(MYP.username)}">View my profile</a><button class="btn bad" id="so" type="button">Sign out</button></div>`;
   V.querySelector('#mv').value = (MYS && MYS.default_visibility) || 'public';
   V.querySelector('#mf').onsubmit = async e => {
@@ -260,87 +261,158 @@ async function vMe() {
     await loadMe();
   };
   V.querySelector('#so').onclick = async () => { await sb.auth.signOut(); location.href = '/'; };
-  const ks = V.querySelector('#ks');
-  if (ks) ks.onclick = async () => {
-    const M = V.querySelector('#kmsg'); ks.disabled = true; M.className = 'msg'; M.textContent = 'Syncing...';
-    const { data: { session } } = await sb.auth.getSession();
-    const r = await fetch('/api/kalshi-sync', {method: 'POST', headers: {Authorization: 'Bearer ' + session.access_token}});
-    const j = await r.json().catch(() => ({})); ks.disabled = false;
-    M.className = 'msg ' + (r.ok ? 'ok' : 'bad'); M.textContent = r.ok ? `Synced ${j.added} new, ${j.updated} updated.` : (j.error || 'Sync failed.');
+  drawKalshi();
+}
+
+
+async function drawKalshi() {
+  const box = V.querySelector('#kal'); if (!box) return;
+  const { data } = await sb.rpc('kalshi_status');
+  const on = data && data[0];
+  const tok = async () => (await sb.auth.getSession()).data.session.access_token;
+  if (on) {
+    box.innerHTML = `<h2 style="margin-top:0">Kalshi <span style="color:var(--acc)">connected</span></h2><p class="sub">${on.last_sync ? 'Last synced ' + ago(on.last_sync) + ' ago.' : 'Not synced yet.'} Sync pulls your open Kalshi positions and settled results into your tickets.</p>
+      <div class="row"><button class="btn go" id="ks" type="button">Sync now</button><button class="btn bad" id="kd" type="button">Disconnect</button></div><div class="msg" id="kmsg"></div>`;
+    box.querySelector('#ks').onclick = async () => { const M = box.querySelector('#kmsg'), b = box.querySelector('#ks'); b.disabled = true; M.className = 'msg'; M.textContent = 'Syncing...'; const r = await fetch('/api/kalshi-sync', {method: 'POST', headers: {Authorization: 'Bearer ' + await tok()}}); const j = await r.json().catch(() => ({})); b.disabled = false; M.className = 'msg ' + (r.ok ? 'ok' : 'bad'); M.textContent = r.ok ? `Synced: ${j.added} new, ${j.updated} updated.` : (j.error || 'Sync failed.'); };
+    box.querySelector('#kd').onclick = async () => { if (!confirm('Remove your Kalshi key from BettorDays?')) return; await fetch('/api/kalshi-key', {method: 'DELETE', headers: {Authorization: 'Bearer ' + await tok()}}); drawKalshi(); };
+    return;
+  }
+  box.innerHTML = `<h2 style="margin-top:0">Connect Kalshi</h2>
+    <p class="sub">Sync your real Kalshi tickets to your profile. On Kalshi: Account &amp; security, API keys, Create key. Kalshi shows a Key ID and downloads a private key file. Paste both here.</p>
+    <ul class="sub" style="padding-left:18px;line-height:1.6;margin-top:0"><li>Your private key is encrypted before it's saved. Nobody can read it back out, including us, and it never shows on the site.</li><li>We only read your positions and results. We never place trades.</li><li>If Kalshi lets you make a read-only key, use that. You can delete the key on Kalshi or disconnect here anytime.</li></ul>
+    <form id="kf" novalidate><label class="f lbl" for="kid">Key ID</label><input id="kid" autocomplete="off" spellcheck="false" maxlength="100">
+    <label class="f lbl" for="kpk">Private key (open the downloaded file and paste everything)</label><textarea id="kpk" rows="5" autocomplete="off" spellcheck="false" placeholder="-----BEGIN RSA PRIVATE KEY-----"></textarea>
+    <button class="btn go" type="submit" style="margin-top:10px">Connect Kalshi</button><div class="msg" id="kfm"></div></form>`;
+  box.querySelector('#kf').onsubmit = async e => {
+    e.preventDefault(); const M = box.querySelector('#kfm'), b = box.querySelector('#kf button'); b.disabled = true; M.className = 'msg'; M.textContent = 'Checking with Kalshi...';
+    const r = await fetch('/api/kalshi-key', {method: 'POST', headers: {'Content-Type': 'application/json', Authorization: 'Bearer ' + await tok()}, body: JSON.stringify({key_id: box.querySelector('#kid').value, private_key: box.querySelector('#kpk').value})});
+    const j = await r.json().catch(() => ({})); b.disabled = false;
+    if (!r.ok) { M.className = 'msg bad'; M.textContent = j.error || 'Could not connect.'; return; }
+    box.querySelector('#kpk').value = ''; drawKalshi();
   };
 }
 
 async function vRooms() {
-  const { data: rooms } = await sb.from('rooms').select('id, name, owner, created_at').order('created_at', {ascending: false});
-  V.innerHTML = `<h1>Parlay <span>rooms</span></h1><p class="sub">Group chats for building tickets together. Add friends (people who follow you back), throw legs in, and post the final ticket.</p>
-  <form class="card row" id="rf"><input id="rn" maxlength="40" placeholder="Room name, e.g. Tuesday squad" style="flex:1;min-width:180px" aria-label="Room name"><button class="btn go" type="submit">Start a room</button></form>
-  ${(rooms || []).map(r => `<a class="card row" href="#/room/${r.id}" style="text-decoration:none;color:var(--tx)"><b style="font:900 18px Kanit,sans-serif;text-transform:uppercase">${esc(r.name)}</b><span class="sp"></span><span class="meta">${r.owner === ME.id ? 'yours · ' : ''}${ago(r.created_at)}</span></a>`).join('') || '<div class="empty">No rooms yet. Start one and add your friends.</div>'}`;
-  V.querySelector('#rf').onsubmit = async e => { e.preventDefault(); const n = V.querySelector('#rn').value.trim(); if (!n) return; const { data, error } = await sb.from('rooms').insert({name: n, owner: ME.id}).select('id').single(); if (!error) location.hash = '#/room/' + data.id; };
+  const [{ data: rooms }, { data: mem }] = await Promise.all([
+    sb.from('rooms').select('id, name, owner, pinned, created_at, profiles(username)').order('pinned', {ascending: false}).order('created_at', {ascending: false}).limit(100),
+    sb.from('room_members').select('room_id, user_id')
+  ]);
+  const count = {}, mine = new Set();
+  (mem || []).forEach(m => { count[m.room_id] = (count[m.room_id] || 0) + 1; if (m.user_id === ME.id) mine.add(m.room_id); });
+  V.innerHTML = `<h1>The <span>rooms</span></h1><p class="sub">Every room is open. Jump in, talk your talk, throw legs on the board, and post the ticket you build.</p>
+  <form class="card row" id="rf"><input id="rn" maxlength="40" placeholder="Start a room, e.g. Tuesday NBA" style="flex:1;min-width:180px" aria-label="Room name"><button class="btn go" type="submit">Start a room</button></form><div class="msg" id="rfm"></div>
+  ${(rooms || []).map(r => `<a class="card row" href="#/room/${r.id}" style="text-decoration:none;color:var(--tx);${r.pinned ? 'border-color:var(--acc);box-shadow:0 0 24px rgba(4,255,159,.12)' : ''}">${r.pinned ? '<span class="badge won">Pinned</span>' : ''}<b style="font:900 18px Kanit,sans-serif;text-transform:uppercase">${esc(r.name)}</b><span class="sp"></span><span class="meta">${count[r.id] || 0} in · by @${esc(r.profiles?.username || '')}${mine.has(r.id) ? ' · joined' : ''}</span></a>`).join('') || '<div class="empty">No rooms yet.</div>'}`;
+  V.querySelector('#rf').onsubmit = async e => { e.preventDefault(); const n = V.querySelector('#rn').value.trim(); if (!n) return; const { data, error } = await sb.from('rooms').insert({name: n, owner: ME.id}).select('id').single(); if (error) { V.querySelector('#rfm').className = 'msg bad'; V.querySelector('#rfm').textContent = error.message; return; } location.hash = '#/room/' + data.id; };
 }
 
+const BOT_TOUR = [
+  ['Coach Bot', "Welcome in! Quick tour so you're not lost. This is the BettorDays Family room. Everyone on the app can see it and talk here."],
+  ['Stats Bot', 'Every leg on our board gets a hit %. Our 70%+ legs have been hitting about 82%. Tap "Add legs" to throw board legs in here and the room sees the combined hit chance.'],
+  ['Coach Bot', 'Check the legs you like, then hit "Post checked legs as my ticket" to put it on your profile. You pick who sees it: everyone, friends, or just you.'],
+  ['Hype Bot', 'Want the picks? Hit the 🛎️ bell up top. It sends an order straight to HQ. And connect your Kalshi in Me to sync your real tickets.'],
+  ['Stats Bot', "We're bots, by the way. The humans are everyone else in here. 21+, bet what you can lose. Have fun."]
+];
+
 async function vRoom(id) {
-  const { data: room } = await sb.from('rooms').select('*').eq('id', id).maybeSingle();
-  if (!room) { V.innerHTML = '<div class="empty">Room not found, or you\'re not in it.</div>'; return; }
+  const { data: room } = await sb.from('rooms').select('*, profiles(username)').eq('id', id).maybeSingle();
+  if (!room) { V.innerHTML = '<div class="empty">Room not found.</div>'; return; }
   const names = {};
-  const loadMembers = async () => {
-    const { data: m } = await sb.from('room_members').select('user_id, profiles(username, display_name)').eq('room_id', id);
-    (m || []).forEach(x => names[x.user_id] = x.profiles?.username);
-    return m || [];
-  };
-  const members = await loadMembers();
+  let members = [];
+  const loadMembers = async () => { const { data } = await sb.from('room_members').select('user_id, profiles(username)').eq('room_id', id); members = data || []; members.forEach(x => names[x.user_id] = x.profiles?.username); return members; };
+  await loadMembers();
+  let joined = members.some(m => m.user_id === ME.id);
   V.innerHTML = `<div class="row"><h1 style="margin:0">${esc(room.name)}</h1><span class="sp"></span><a class="btn sm" href="#/rooms">All rooms</a></div>
-  <p class="sub" id="mem">${members.map(x => '@' + esc(x.profiles?.username)).join(', ')}</p>
-  <div class="row" style="margin-bottom:12px"><select id="addf" aria-label="Add a friend" style="flex:1;min-width:160px"><option value="">Add a friend to this room</option></select><button class="btn" id="addb" type="button">Add</button>${room.owner !== ME.id ? '<button class="btn bad" id="leave" type="button">Leave</button>' : ''}</div>
-  <div class="two"><div><p class="lbl" style="margin:0 0 6px">Chat</p><div class="chat" id="chat"></div><form class="row" id="cf" style="margin-top:6px"><input id="ci" maxlength="500" placeholder="Talk your talk" style="flex:1" aria-label="Message"><button class="btn go" type="submit">Send</button></form></div>
+  <p class="sub" style="margin:6px 0 12px"><span id="onl" class="acc">● 1 online</span> · <span id="memc">${members.length} in the room</span>${room.pinned ? ' · pinned' : ' · started by @' + esc(room.profiles?.username || '')}</p>
+  <div class="row" id="joinRow" style="margin-bottom:12px">${joined ? '' : '<button class="btn go" id="join" type="button">Join the room</button><span class="meta">Anyone can read. Join to talk and add legs.</span>'}${!room.pinned && room.owner === ME.id ? '<span class="sp"></span><button class="btn sm bad" id="delr" type="button">Delete room</button>' : ''}${joined && room.owner !== ME.id && !room.pinned ? '<span class="sp"></span><button class="btn sm bad" id="leave" type="button">Leave</button>' : ''}</div>
+  <div class="two"><div><p class="lbl" style="margin:0 0 6px">Chat</p><div class="chat" id="chat"></div><form class="row" id="cf" style="margin-top:6px"><input id="ci" maxlength="500" placeholder="${joined ? 'Talk your talk' : 'Join to chat'}" style="flex:1" aria-label="Message" ${joined ? '' : 'disabled'}><button class="btn go" type="submit" ${joined ? '' : 'disabled'}>Send</button></form><div class="msg" id="cm"></div></div>
   <div><p class="lbl" style="margin:0 0 6px">Shared legs</p><div class="card" style="padding:10px"><ul class="legs" id="rl" style="margin:0"></ul><p class="meta" id="rh"></p><button class="btn go" id="rpost" type="button" style="width:100%;margin-top:6px">Post checked legs as my ticket</button></div>
-  <details><summary class="lbl" style="cursor:pointer;margin:8px 0">Add legs</summary><div id="rlb"></div></details></div></div>`;
-  // friends not yet in room
-  const inRoom = new Set(members.map(x => x.user_id));
-  const friends = [...FOLLOWING].filter(f => FOLLOWERS.has(f) && !inRoom.has(f));
-  if (friends.length) { const { data: fp } = await sb.from('profiles').select('id, username').in('id', friends); V.querySelector('#addf').innerHTML += (fp || []).map(p => `<option value="${p.id}">@${esc(p.username)}</option>`).join(''); }
-  else V.querySelector('#addf').innerHTML = '<option value="">No friends to add yet (friends = mutual follows)</option>';
-  V.querySelector('#addb').onclick = async () => { const u = V.querySelector('#addf').value; if (!u) return; const { error } = await sb.from('room_members').insert({room_id: id, user_id: u}); if (!error) vRoom(id); };
-  const lv = V.querySelector('#leave'); if (lv) lv.onclick = async () => { await sb.from('room_members').delete().eq('room_id', id).eq('user_id', ME.id); location.hash = '#/rooms'; };
+  ${joined ? '<details><summary class="lbl" style="cursor:pointer;margin:8px 0">Add legs</summary><div id="rlb"></div></details>' : ''}</div></div>`;
 
   const chat = V.querySelector('#chat');
-  const bub = m => `<div class="bub ${m.user_id === ME.id ? 'me' : ''}"><small>@${esc(names[m.user_id] || 'member')} · ${ago(m.created_at)}</small>${esc(m.body)}</div>`;
-  const { data: msgs } = await sb.from('messages').select('*').eq('room_id', id).order('created_at').limit(200);
-  chat.innerHTML = (msgs || []).map(bub).join('') || '<p class="meta">No messages yet.</p>'; chat.scrollTop = chat.scrollHeight;
-  const shown = new Set((msgs || []).map(m => m.id)); let lastAt = msgs && msgs.length ? msgs[msgs.length - 1].created_at : '1970-01-01';
-  const addMsg = m => { if (shown.has(m.id)) return; shown.add(m.id); if (m.created_at > lastAt) lastAt = m.created_at; if (chat.querySelector('p.meta')) chat.innerHTML = ''; chat.insertAdjacentHTML('beforeend', bub(m)); chat.scrollTop = chat.scrollHeight; };
-  V.querySelector('#cf').onsubmit = async e => { e.preventDefault(); const i = V.querySelector('#ci'); const b = i.value.trim(); if (!b) return; i.value = ''; const { data } = await sb.from('messages').insert({room_id: id, user_id: ME.id, body: b}).select().single(); if (data) addMsg(data); };
+  const bub = m => m.bot
+    ? `<div class="bub" style="border-color:rgba(255,176,32,.45)"><small><span class="badge" style="color:var(--warn);border-color:var(--warn);padding:1px 5px">BOT</span> ${esc(m.bot)}${m.local ? ' · only you see this' : ' · ' + ago(m.created_at)}</small>${esc(m.body)}</div>`
+    : `<div class="bub ${m.user_id === ME.id ? 'me' : ''}"><small><a href="#/u/${esc(names[m.user_id] || '')}" style="color:inherit">@${esc(names[m.user_id] || 'member')}</a> · ${ago(m.created_at)}</small>${esc(m.body)}</div>`;
+  const { data: msgs } = await sb.from('messages').select('*').eq('room_id', id).order('created_at', {ascending: false}).limit(150);
+  const list = (msgs || []).reverse();
+  const shown = new Set(list.map(m => m.id)); let lastAt = list.length ? list[list.length - 1].created_at : '1970-01-01';
+  chat.innerHTML = list.map(bub).join('') || '<p class="meta">No messages yet. Say something.</p>'; chat.scrollTop = chat.scrollHeight;
+  const addMsg = async m => { if (m.id && shown.has(m.id)) return; if (m.id) shown.add(m.id); if (m.created_at > lastAt) lastAt = m.created_at; if (m.user_id && !names[m.user_id]) await loadMembers(); if (chat.querySelector('p.meta')) chat.innerHTML = ''; chat.insertAdjacentHTML('beforeend', bub(m)); chat.scrollTop = chat.scrollHeight; };
+  const tour = async () => { for (const [b, t] of BOT_TOUR) { await new Promise(r => setTimeout(r, 1100)); if (!location.hash.startsWith('#/room/' + id)) return; addMsg({bot: b, body: t, local: true, created_at: new Date().toISOString()}); } };
+
+  const j = V.querySelector('#join');
+  if (j) j.onclick = async () => { const { error } = await sb.from('room_members').insert({room_id: id, user_id: ME.id}); if (error) return; if (room.pinned) { try { localStorage.setItem('bd_tour_' + id, '1'); } catch (e) {} sessionStorage.setItem('bd_tour_now', String(id)); } vRoom(id); };
+  if (joined && room.pinned && sessionStorage.getItem('bd_tour_now') === String(id)) { sessionStorage.removeItem('bd_tour_now'); tour(); }
+  const lv = V.querySelector('#leave'); if (lv) lv.onclick = async () => { await sb.from('room_members').delete().eq('room_id', id).eq('user_id', ME.id); vRoom(id); };
+  const dr = V.querySelector('#delr'); if (dr) dr.onclick = async () => { if (!confirm('Delete this room for everyone?')) return; await sb.from('rooms').delete().eq('id', id); location.hash = '#/rooms'; };
+
+  V.querySelector('#cf').onsubmit = async e => { e.preventDefault(); const i = V.querySelector('#ci'); const b = i.value.trim(); if (!b || !joined) return; i.value = ''; const { data, error } = await sb.from('messages').insert({room_id: id, user_id: ME.id, body: b}).select().single(); const cm = V.querySelector('#cm'); if (error) { cm.className = 'msg bad'; cm.textContent = error.message; i.value = b; } else { cm.textContent = ''; addMsg(data); } };
 
   let RL = [];
   const drawLegs = () => {
-    V.querySelector('#rl').innerHTML = RL.map(l => `<li><label style="display:flex;gap:8px;align-items:center;cursor:pointer"><input type="checkbox" data-id="${l.id}" ${l.in_ticket ? 'checked' : ''} style="width:auto;accent-color:#04ff9f"><span>${esc(l.leg)} <span class="meta">@${esc(names[l.user_id] || '')}</span></span></label><span>${l.pct ? `<b>${l.pct}%</b> ` : ''}<button class="btn sm bad" data-del="${l.id}" type="button" aria-label="Remove">x</button></span></li>`).join('') || '<li><span class="meta">No legs yet. Open "Add legs" below.</span></li>';
+    V.querySelector('#rl').innerHTML = RL.map(l => `<li><label style="display:flex;gap:8px;align-items:center;cursor:pointer"><input type="checkbox" data-id="${l.id}" ${l.in_ticket ? 'checked' : ''} ${joined ? '' : 'disabled'} style="width:auto;accent-color:#04ff9f"><span>${esc(l.leg)} <span class="meta">@${esc(names[l.user_id] || '')}</span></span></label><span>${l.pct ? `<b>${l.pct}%</b> ` : ''}${joined ? `<button class="btn sm bad" data-del="${l.id}" type="button" aria-label="Remove">x</button>` : ''}</span></li>`).join('') || '<li><span class="meta">No legs yet.</span></li>';
     const on = RL.filter(l => l.in_ticket);
     const hit = on.length && on.every(l => l.pct) ? Math.round(on.reduce((a, l) => a * l.pct / 100, 1) * 100) : null;
     V.querySelector('#rh').textContent = on.length ? `${on.length} legs checked${hit != null ? ` · model hit chance about ${hit}%` : ''}` : '';
   };
   const loadLegs = async () => { const { data } = await sb.from('room_legs').select('*').eq('room_id', id).order('created_at'); RL = data || []; drawLegs(); };
   await loadLegs();
-  V.querySelector('#rl').onclick = async e => { const d = e.target.closest('[data-del]'); if (d) { await sb.from('room_legs').delete().eq('id', d.dataset.del); } };
+  V.querySelector('#rl').onclick = async e => { const d = e.target.closest('[data-del]'); if (d) { await sb.from('room_legs').delete().eq('id', d.dataset.del); loadLegs(); } };
   V.querySelector('#rl').onchange = async e => { const c = e.target.closest('input[data-id]'); if (c) await sb.from('room_legs').update({in_ticket: c.checked}).eq('id', c.dataset.id); };
-  const adding = [];
-  legBuilder(V.querySelector('#rlb'), adding, async () => {
-    V.querySelector('#rlb .cur').style.display = 'none';
-    while (adding.length) { const l = adding.shift(); await sb.from('room_legs').insert({room_id: id, user_id: ME.id, leg: l.text, pct: l.pct || null}); }
-  });
+  if (joined) {
+    const adding = [];
+    legBuilder(V.querySelector('#rlb'), adding, async () => {
+      V.querySelector('#rlb .cur').style.display = 'none';
+      let added = false; while (adding.length) { const l = adding.shift(); await sb.from('room_legs').insert({room_id: id, user_id: ME.id, leg: l.text, pct: l.pct || null}); added = true; }
+      if (added) loadLegs();
+    });
+  }
   V.querySelector('#rpost').onclick = () => { const on = RL.filter(l => l.in_ticket).map(l => ({text: l.leg, pct: l.pct || undefined})); if (on.length) { history.replaceState(null, '', '#/post'); setNav('post'); vPost(on); } };
 
   if (chan) sb.removeChannel(chan);
-  chan = sb.channel('room-' + id)
-    .on('postgres_changes', {event: 'INSERT', schema: 'public', table: 'messages', filter: 'room_id=eq.' + id}, async ({ new: m }) => { if (!names[m.user_id]) await loadMembers(); addMsg(m); })
+  chan = sb.channel('room-' + id, {config: {presence: {key: ME.id}}})
+    .on('postgres_changes', {event: 'INSERT', schema: 'public', table: 'messages', filter: 'room_id=eq.' + id}, ({ new: m }) => addMsg(m))
     .on('postgres_changes', {event: '*', schema: 'public', table: 'room_legs', filter: 'room_id=eq.' + id}, loadLegs)
-    .subscribe();
-  // backup refresh every 5s in case a network blocks live updates
+    .on('presence', {event: 'sync'}, () => { const n = Object.keys(chan.presenceState()).length; const o = V.querySelector('#onl'); if (o) o.textContent = `● ${Math.max(1, n)} online`; })
+    .subscribe(s => { if (s === 'SUBSCRIBED') chan.track({u: MYP.username}); });
   const roomHash = location.hash;
   const poll = setInterval(async () => {
     if (location.hash !== roomHash) return clearInterval(poll);
     const { data } = await sb.from('messages').select('*').eq('room_id', id).gt('created_at', lastAt).order('created_at');
-    for (const m of data || []) { if (!names[m.user_id]) await loadMembers(); addMsg(m); }
-    loadLegs();
-  }, 5000);
+    for (const m of data || []) await addMsg(m);
+    loadLegs(); await loadMembers(); const mc = V.querySelector('#memc'); if (mc) mc.textContent = members.length + ' in the room';
+  }, 6000);
+}
+
+async function vOrders() {
+  if (!MYS || !MYS.is_admin) { V.innerHTML = '<div class="empty">HQ staff only.</div>'; return; }
+  const { data } = await sb.from('pings').select('*, profiles(username)').order('created_at', {ascending: false}).limit(100);
+  const K = {picks: "Ready for today's picks", update: 'Wants an update', recap: 'Wants the recap'};
+  V.innerHTML = `<h1>🛎️ <span>Orders</span></h1><p class="sub">Every time someone rings the bell. ${(data || []).filter(p => !p.seen).length} new.</p>
+  ${(data || []).map(p => `<div class="card row" style="${p.seen ? 'opacity:.6' : 'border-color:var(--acc)'}"><div><b>@${esc(p.profiles?.username)}</b> <span class="meta">${ago(p.created_at)}</span><div>${esc(K[p.kind])}${p.note ? ` · "${esc(p.note)}"` : ''}</div></div><span class="sp"></span>${p.seen ? '<span class="meta">seen</span>' : `<button class="btn sm seen" data-id="${p.id}" type="button">Mark seen</button>`}</div>`).join('') || '<div class="empty">No orders yet.</div>'}`;
+  V.querySelectorAll('.seen').forEach(b => b.onclick = async () => { await sb.from('pings').update({seen: true}).eq('id', b.dataset.id); vOrders(); });
+}
+
+function ringBell() {
+  const d = document.createElement('div');
+  d.style.cssText = 'position:fixed;inset:0;z-index:90;background:rgba(6,8,7,.75);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;padding:16px';
+  d.innerHTML = `<div class="card" role="dialog" aria-modal="true" aria-labelledby="bellT" style="max-width:400px;width:100%;border-color:var(--acc);text-align:center;padding:24px">
+    <div style="font-size:54px;line-height:1" id="bellI">🛎️</div><h2 id="bellT" style="margin:10px 0 6px">Order up!</h2><p class="sub">Ring the bell and HQ gets your order. Like the bell at the counter, but for picks.</p>
+    <div class="tabs" style="justify-content:center"><button class="btn on" data-k="picks" type="button">Today's picks</button><button class="btn" data-k="update" type="button">An update</button><button class="btn" data-k="recap" type="button">The recap</button></div>
+    <input id="bellN" maxlength="200" placeholder="Anything to add? (optional)" style="margin-bottom:12px">
+    <button class="btn go" id="bellGo" type="button" style="width:100%;padding:13px">Ring the bell</button><button class="btn" id="bellX" type="button" style="width:100%;margin-top:8px">Never mind</button><div class="msg" id="bellM"></div></div>`;
+  document.body.appendChild(d);
+  let kind = 'picks';
+  d.querySelector('.tabs').onclick = e => { const b = e.target.closest('button'); if (!b) return; kind = b.dataset.k; d.querySelectorAll('.tabs .btn').forEach(x => x.classList.toggle('on', x === b)); };
+  const close = () => d.remove();
+  d.querySelector('#bellX').onclick = close; d.onclick = e => { if (e.target === d) close(); };
+  d.querySelector('#bellGo').onclick = async () => {
+    const { data: { session } } = await sb.auth.getSession(); const M = d.querySelector('#bellM');
+    const r = await fetch('/api/ping', {method: 'POST', headers: {'Content-Type': 'application/json', Authorization: 'Bearer ' + session.access_token}, body: JSON.stringify({kind, note: d.querySelector('#bellN').value.trim()})});
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) { M.className = 'msg bad'; M.textContent = j.error || 'Bell is stuck. Try again.'; return; }
+    d.querySelector('#bellI').animate([{transform: 'rotate(0)'}, {transform: 'rotate(-20deg)'}, {transform: 'rotate(20deg)'}, {transform: 'rotate(0)'}], {duration: 450, iterations: 3});
+    M.className = 'msg ok'; M.textContent = 'Ding ding! HQ got your order.'; setTimeout(close, 1800);
+  };
 }
 
 async function vReset() {
@@ -358,6 +430,7 @@ async function route() {
   if (a === 'people') { setNav('people'); return vPeople(); }
   if (a === 'me') { setNav('me'); return vMe(); }
   if (a === 'rooms') { setNav('rooms'); return vRooms(); }
+  if (a === 'orders') { setNav('orders'); return vOrders(); }
   if (a === 'room' && b) { setNav('rooms'); return vRoom(+b); }
   if (a === 'u' && b) { setNav(b === MYP.username ? 'me' : 'people'); return vUser(decodeURIComponent(b).toLowerCase()); }
   setNav('feed'); return vFeed();
@@ -372,6 +445,8 @@ sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') { history.repl
   else if (/access_token/.test(location.hash)) history.replaceState(null, '', '#/feed?welcome');
   if (!ok || !MYP) { location.replace('/?join=1'); return; }
   await loadBoard();
+  document.getElementById('bell').onclick = ringBell;
+  if (MYS && MYS.is_admin) { const o = document.createElement('a'); o.href = '#/orders'; o.dataset.r = 'orders'; o.textContent = 'Orders'; document.getElementById('nav').appendChild(o); }
   window.addEventListener('hashchange', route);
   route();
 })();

@@ -5,6 +5,7 @@
   const css = `
   .bdg-pill{position:fixed;left:16px;bottom:16px;z-index:60;display:flex;align-items:center;gap:10px;background:rgba(11,13,12,.92);border:1px solid #1f2724;padding:9px 12px;font:500 12px/1 'Geist Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#8a9a93;backdrop-filter:blur(8px)}
   .bdg-pill b{color:#04ff9f;font-weight:700}
+  .bdg-pill #bdgBell{background:none;border:1px solid #1f2724;font-size:16px;padding:4px 7px}
   .bdg-pill a,.bdg-pill button{background:#04ff9f;color:#0b0d0c;border:0;padding:7px 10px;font:700 11px/1 'Geist Mono',monospace;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;text-decoration:none}
   @media (max-width:560px){.bdg-pill{bottom:76px;left:12px}}
   .bdg-wall{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(6,8,7,.72);backdrop-filter:blur(14px)}
@@ -111,12 +112,36 @@
     msg(error ? error.message : 'Reset link sent. Check your email.', !error);
   };
 
+
+  function bell(session) {
+    const d = document.createElement('div'); d.className = 'bdg-wall on';
+    d.innerHTML = `<div class="bdg-card" role="dialog" aria-modal="true" aria-labelledby="bdgBT" style="text-align:center">
+      <div id="bdgBI" style="font-size:56px;line-height:1">🛎️</div><h2 id="bdgBT" style="margin-top:10px">Order <span>up!</span></h2>
+      <p>Ring the bell and HQ gets your order. Like the bell at the counter of your favorite spot, but for picks.</p>
+      <div class="bdg-tabs"><button type="button" class="on" data-k="picks">Today's picks</button><button type="button" data-k="update">An update</button><button type="button" data-k="recap">The recap</button></div>
+      <input type="text" id="bdgBN" maxlength="200" placeholder="Anything to add? (optional)" style="width:100%;background:#0b0d0c;border:1px solid #1f2724;color:#eef3f0;padding:11px 12px;font:15px Geist,sans-serif">
+      <button class="bdg-go" type="button" id="bdgBG">Ring the bell</button><button class="bdg-link" type="button" id="bdgBX">Never mind</button><div class="bdg-msg" id="bdgBM"></div></div>`;
+    document.body.appendChild(d);
+    let kind = 'picks';
+    d.querySelector('.bdg-tabs').onclick = e => { const b = e.target.closest('button'); if (!b) return; kind = b.dataset.k; d.querySelectorAll('.bdg-tabs button').forEach(x => x.classList.toggle('on', x === b)); };
+    d.querySelector('#bdgBX').onclick = () => d.remove(); d.onclick = e => { if (e.target === d) d.remove(); };
+    d.querySelector('#bdgBG').onclick = async () => {
+      const M = d.querySelector('#bdgBM');
+      const r = await fetch('/api/ping', { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + session.access_token }, body: JSON.stringify({ kind, note: d.querySelector('#bdgBN').value.trim() }) });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) { M.className = 'bdg-msg bad'; M.textContent = j.error || 'Bell is stuck. Try again.'; return; }
+      d.querySelector('#bdgBI').animate([{ transform: 'rotate(0)' }, { transform: 'rotate(-20deg)' }, { transform: 'rotate(20deg)' }, { transform: 'rotate(0)' }], { duration: 450, iterations: 3 });
+      M.className = 'bdg-msg ok'; M.textContent = 'Ding ding! HQ got your order.'; setTimeout(() => d.remove(), 1800);
+    };
+  }
+
   async function start() {
     mount();
     const { data: { session } } = await sb.auth.getSession();
     if (session) {
       const { data: p } = await sb.from('profiles').select('username').eq('id', session.user.id).maybeSingle();
-      pill.innerHTML = `<span>Member <b>@${p ? p.username : 'you'}</b></span><a href="/app">Open the app</a>`;
+      pill.innerHTML = `<span>Member <b>@${p ? p.username : 'you'}</b></span><button type="button" id="bdgBell" aria-label="Ring the bell for picks" title="Ring the bell">🛎️</button><a href="/app">Open the app</a>`;
+      pill.querySelector('#bdgBell').onclick = () => bell(session);
       return;
     }
     let t0 = +store.get('bd_preview_start');
@@ -124,8 +149,9 @@
     const tick = () => {
       const left = Math.max(0, PREVIEW - Math.floor((Date.now() - t0) / 1000));
       const mm = Math.floor(left / 60), ss = String(left % 60).padStart(2, '0');
-      pill.innerHTML = `<span>Free preview <b>${mm}:${ss}</b></span><button type="button" id="bdgJoinNow">Join free</button>`;
+      pill.innerHTML = `<span>Free preview <b>${mm}:${ss}</b></span><button type="button" id="bdgBell" aria-label="Ring the bell for picks" title="Ring the bell">🛎️</button><button type="button" id="bdgJoinNow">Join free</button>`;
       pill.querySelector('#bdgJoinNow').onclick = lock;
+      pill.querySelector('#bdgBell').onclick = () => { lock(); msg('Make a free account to ring the bell. HQ wants to know who ordered. 🛎️', 1); };
       if (left === 0) { clearInterval(iv); lock(); }
     };
     const iv = setInterval(tick, 1000); tick();
