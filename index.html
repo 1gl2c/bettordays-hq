@@ -663,4 +663,7 @@ document.getElementById('monTix').innerHTML=MTIX.map(t=>`<div class="st"${t.t.in
  const o=document.getElementById('mbOut');document.getElementById('mbPull').onclick=()=>{const d=[0,1,2].map(()=>Math.random()<p);o.innerHTML=d.map(x=>x?'<span class="acc">●</span>':'<span class="bad">●</span>').join(' ')+(d.every(x=>x)?' <b class="acc">Cashed</b>':' <b class="bad">Missed</b>')};})();
 </script>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="/sb.js"></script>
+<script src="/gate.js"></script>
 </html>
