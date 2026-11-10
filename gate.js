@@ -142,6 +142,8 @@
       const { data: p } = await sb.from('profiles').select('username').eq('id', session.user.id).maybeSingle();
       pill.innerHTML = `<span>Member <b>@${p ? p.username : 'you'}</b></span><button type="button" id="bdgBell" aria-label="Ring the bell for picks" title="Ring the bell">🛎️</button><a href="/app">Open the app</a>`;
       pill.querySelector('#bdgBell').onclick = () => bell(session);
+      const { data: an } = await sb.from('announcements').select('title, link').gte('created_at', new Date(Date.now() - 36 * 3600e3).toISOString()).order('created_at', { ascending: false }).limit(1);
+      if (an && an[0]) { const t = document.createElement('a'); t.href = an[0].link || '/'; t.textContent = '📣 ' + an[0].title; t.style.background = '#04ff9f'; pill.insertBefore(t, pill.firstChild); }
       const { data: st } = await sb.from('settings').select('is_admin').eq('id', session.user.id).maybeSingle();
       if (st && st.is_admin) {
         const [a, b] = await Promise.all([sb.from('pings').select('*', { count: 'exact', head: true }).eq('seen', false), sb.from('feedback').select('*', { count: 'exact', head: true }).eq('seen', false)]);

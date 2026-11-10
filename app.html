@@ -142,7 +142,7 @@ async function vFeed(mode) {
     <div id="mc"></div><h1>The <span>feed</span></h1><p class="sub">Tickets from the BettorDays family. Friends are people who follow you back.</p>
     <div class="tabs"><button class="btn ${mode === 'everyone' ? 'on' : ''}" data-m="everyone" type="button">Everyone</button><button class="btn ${mode === 'friends' ? 'on' : ''}" data-m="friends" type="button">Following</button><a class="btn go" href="#/post">+ Post a ticket</a></div><div id="list"><p class="sub">Loading...</p></div>`;
   V.querySelector('.tabs').onclick = e => { const b = e.target.closest('button'); if (b) vFeed(b.dataset.m); };
-  modelCard().then(h => { const m = V.querySelector('#mc'); if (m) m.innerHTML = h; });
+  modelCard().then(h => { const m = V.querySelector('#mc'); if (m) m.innerHTML = annHtml() + h; });
   let q = sb.from('picks').select(PSEL).order('created_at', {ascending: false}).limit(60);
   if (mode === 'friends') q = q.in('user_id', [...FOLLOWING, ME.id]);
   const { data, error } = await q;
@@ -430,6 +430,30 @@ function watchInbox() {
   setInterval(countUnread, 60000);
 }
 
+
+/* announcements: banner for everyone, compose + email for HQ */
+let ANN = null;
+async function loadAnn() {
+  const { data } = await sb.from('announcements').select('*').gte('created_at', new Date(Date.now() - 36 * 3600e3).toISOString()).order('created_at', {ascending: false}).limit(1);
+  ANN = data && data[0] || null;
+  if (ANN) { let seen = ''; try { seen = localStorage.getItem('bd_ann_seen') || ''; } catch (e) {} if (seen !== String(ANN.id)) { toast(`📣 <b>${esc(ANN.title)}</b><br><span class="meta">${esc(ANN.body || '')}</span>`, ANN.link || '/'); try { localStorage.setItem('bd_ann_seen', String(ANN.id)); } catch (e) {} } }
+}
+function annHtml() { return ANN ? `<a class="banner" href="${esc(ANN.link || '/')}" style="display:block;text-decoration:none;color:var(--tx)"><b>📣 ${esc(ANN.title)}</b>${ANN.body ? `<div class="sub" style="margin:6px 0 0">${esc(ANN.body)}</div>` : ''}<span class="meta">Tap to open →</span></a>` : ''; }
+function watchAnn() {
+  sb.channel('announce').on('postgres_changes', {event: 'INSERT', schema: 'public', table: 'announcements'}, ({ new: a }) => { ANN = a; try { localStorage.setItem('bd_ann_seen', String(a.id)); } catch (e) {} toast(`📣 <b>${esc(a.title)}</b><br><span class="meta">${esc(a.body || '')}</span>`, a.link || '/'); systemAlert('📣 ' + a.title, a.body || ''); }).subscribe();
+}
+async function annAdmin(box) {
+  const tok = (await sb.auth.getSession()).data.session.access_token;
+  const call = async body => { const r = await fetch('/api/announce', {method: 'POST', headers: {'Content-Type': 'application/json', Authorization: 'Bearer ' + tok}, body: JSON.stringify(body)}); return [r.ok, await r.json().catch(() => ({}))]; };
+  box.innerHTML = `<h2 style="margin-top:0">📣 Tell everyone</h2>
+    ${ANN ? `<div class="row" style="margin-bottom:10px"><span>Latest: <b>${esc(ANN.title)}</b> <span class="meta">${ago(ANN.created_at)} · emailed ${ANN.emailed}</span></span><span class="sp"></span><button class="btn sm go" id="annMail" type="button">Email it to everyone</button></div>` : ''}
+    <input id="annT" maxlength="80" placeholder="Title, e.g. Wednesday board is up" style="margin-bottom:8px"><textarea id="annB" maxlength="400" rows="2" placeholder="Short message"></textarea>
+    <div class="row" style="margin-top:8px"><input id="annL" maxlength="60" placeholder="Link (optional), e.g. /#tuesday" style="flex:1;min-width:150px"><label class="meta" style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="annE" checked style="width:auto"> also email</label><button class="btn go" id="annGo" type="button">Send</button></div><div class="msg" id="annM"></div>`;
+  const M = box.querySelector('#annM');
+  const m = box.querySelector('#annMail'); if (m) m.onclick = async () => { m.disabled = true; M.className = 'msg'; M.textContent = 'Sending...'; const [ok, j] = await call({id: ANN.id, email: true}); M.className = 'msg ' + (ok ? 'ok' : 'bad'); M.textContent = ok ? `Emailed ${j.emailed} of ${j.of} members who opted in.` : (j.error || 'Failed'); await loadAnn(); };
+  box.querySelector('#annGo').onclick = async () => { const t = box.querySelector('#annT').value.trim(); if (!t) return; M.className = 'msg'; M.textContent = 'Sending...'; const [ok, j] = await call({title: t, body: box.querySelector('#annB').value.trim(), link: box.querySelector('#annL').value.trim() || '/', email: box.querySelector('#annE').checked}); M.className = 'msg ' + (ok ? 'ok' : 'bad'); M.textContent = ok ? `Posted. Emailed ${j.emailed || 0}.` : (j.error || 'Failed'); await loadAnn(); };
+}
+
 async function vInbox(tab) {
   if (!MYS || !MYS.is_admin) { V.innerHTML = '<div class="empty">HQ staff only.</div>'; return; }
   tab = tab || (location.hash.split('/')[2]) || 'all';
@@ -445,11 +469,12 @@ async function vInbox(tab) {
   const nNew = items.filter(i => !i.seen).length, nBell = items.filter(i => i.t === 'ping' && !i.seen).length, nFb = items.filter(i => i.t === 'fb' && !i.seen).length;
   setBadge(nNew);
   const perm = 'Notification' in window ? Notification.permission : 'unsupported';
-  V.innerHTML = `<h1>HQ <span>inbox</span></h1><p class="sub">Bell rings and "Talk to us" messages in one place. New ones also land in your email and pop up here live.</p>
+  V.innerHTML = `<div class="card" id="annBox" style="border-color:var(--acc)"></div><h1>HQ <span>inbox</span></h1><p class="sub">Bell rings and "Talk to us" messages in one place. New ones also land in your email and pop up here live.</p>
   <div class="tabs">${[['all', 'All'], ['new', `New (${nNew})`], ['bell', `🛎️ Bell (${nBell})`], ['msgs', `💬 Messages (${nFb})`]].map(([k, l]) => `<a class="btn ${k === tab ? 'on' : ''}" href="#/inbox/${k}">${l}</a>`).join('')}<span class="sp"></span>${nNew ? '<button class="btn sm" id="allSeen" type="button">Mark all read</button>' : ''}${perm === 'default' ? '<button class="btn sm go" id="notif" type="button">Turn on pop-up alerts</button>' : ''}</div>
   ${show.map(i => `<div class="card" style="${i.seen ? 'opacity:.62' : 'border-color:var(--acc)'}"><div class="row"><b>${esc(i.head)}</b><span class="meta">${esc(i.who)} · ${ago(i.at)}</span><span class="sp"></span>${i.seen ? '<span class="meta">read</span>' : `<button class="btn sm seen" data-t="${i.t}" data-id="${i.id}" type="button">Mark read</button>`}</div>${i.body ? `<p style="margin:8px 0 0;white-space:pre-wrap;line-height:1.5">${esc(i.body)}</p>` : ''}</div>`).join('') || '<div class="empty">Nothing here.</div>'}`;
   V.querySelectorAll('.seen').forEach(b => b.onclick = async () => { await sb.from(b.dataset.t === 'ping' ? 'pings' : 'feedback').update({seen: true}).eq('id', b.dataset.id); vInbox(tab); });
   const all = V.querySelector('#allSeen'); if (all) all.onclick = async () => { await Promise.all([sb.from('pings').update({seen: true}).eq('seen', false), sb.from('feedback').update({seen: true}).eq('seen', false)]); vInbox(tab); };
+  annAdmin(V.querySelector('#annBox'));
   const nb = V.querySelector('#notif'); if (nb) nb.onclick = async () => { await Notification.requestPermission(); vInbox(tab); };
 }
 
@@ -559,6 +584,7 @@ sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') { history.repl
   if (!ok || !MYP) { location.replace('/?join=1'); return; }
   await loadBoard();
   document.getElementById('bell').onclick = ringBell;
+  await loadAnn(); watchAnn();
   if (MYS && MYS.is_admin) { const o = document.createElement('a'); o.href = '#/inbox'; o.dataset.r = 'inbox'; o.textContent = 'Inbox'; document.getElementById('nav').appendChild(o); countUnread(); watchInbox(); }
   window.addEventListener('hashchange', route);
   route();
