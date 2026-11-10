@@ -134,7 +134,7 @@ function wirePicks(root) {
   root.querySelectorAll('.stSel').forEach(s => s.onchange = async () => { const id = s.closest('article').dataset.id; await sb.from('picks').update({status: s.value}).eq('id', id); route(); });
   root.querySelectorAll('.delPick').forEach(b => b.onclick = async () => { if (!confirm('Delete this ticket?')) return; await sb.from('picks').delete().eq('id', b.closest('article').dataset.id); route(); });
 }
-const PSEL = '*, profiles(username, display_name, kalshi_link)';
+const PSEL = '*, profiles!picks_user_id_fkey(username, display_name, kalshi_link)';
 
 async function vFeed(mode) {
   mode = mode || 'everyone';
@@ -226,11 +226,12 @@ function wireFollow(root) {
 async function vUser(name) {
   const { data: p } = await sb.from('profiles').select('*').eq('username', name).maybeSingle();
   if (!p) { V.innerHTML = '<div class="empty">No user with that name.</div>'; return; }
-  const [{ count: fr }, { count: fg }, { data: picks }] = await Promise.all([
+  let [{ count: fr }, { count: fg }, { data: picks }] = await Promise.all([
     sb.from('follows').select('*', {count: 'exact', head: true}).eq('followee', p.id),
     sb.from('follows').select('*', {count: 'exact', head: true}).eq('follower', p.id),
     sb.from('picks').select(PSEL).eq('user_id', p.id).order('created_at', {ascending: false}).limit(60)
   ]);
+  picks = picks || [];
   const W = picks.filter(x => x.status === 'won').length, Lo = picks.filter(x => x.status === 'lost').length;
   const mine = p.id === ME.id;
   V.innerHTML = `<div class="card"><div class="row"><div class="av" style="width:56px;height:56px;font-size:24px">${esc(p.username[0].toUpperCase())}</div><div><h1 style="margin:0;font-size:30px">${esc(p.display_name || p.username)}</h1><span class="meta">@${esc(p.username)}${!mine && isFriend(p.id) ? ' · friends' : ''}</span></div><span class="sp"></span>${mine ? '<a class="btn" href="#/me">Edit profile</a>' : followBtn(p.id)}</div>
@@ -482,7 +483,7 @@ async function vTicket(id) {
 async function vLeaders(win) {
   win = win || 30;
   const since = new Date(Date.now() - win * 86400000).toISOString();
-  const { data } = await sb.from('picks').select('user_id, status, stake, payout, profiles(username, display_name)').in('status', ['won', 'lost', 'cashed_out']).gte('created_at', since).limit(2000);
+  const { data } = await sb.from('picks').select('user_id, status, stake, payout, profiles!picks_user_id_fkey(username, display_name)').in('status', ['won', 'lost', 'cashed_out']).gte('created_at', since).limit(2000);
   const T = {};
   (data || []).forEach(p => { const t = T[p.user_id] = T[p.user_id] || {u: p.profiles, w: 0, l: 0, net: 0, staked: 0}; const s = +p.stake || 0; t.staked += s; if (p.status === 'won') { t.w++; t.net += (+p.payout || 0) - s; } else if (p.status === 'lost') { t.l++; t.net -= s; } else { t.net += (+p.payout || 0) - s; } });
   const rows = Object.values(T).filter(t => t.w + t.l >= 1).sort((a, b) => b.net - a.net || (b.w - b.l) - (a.w - a.l));
