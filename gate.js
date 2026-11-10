@@ -93,7 +93,7 @@
     if (!free) { btn.disabled = false; return msg('That username is taken.'); }
     const { data, error } = await sb.auth.signUp({ email, password, options: { emailRedirectTo: location.origin + '/app', data: { username, phone, age_confirmed: true, email_opt_in: $('bdgOpt').checked } } });
     btn.disabled = false;
-    if (error) return msg(error.message);
+    if (error) return msg(/rate limit/i.test(error.message) ? 'Too many sign ups right now. Wait a few minutes and try again.' : error.message);
     if (data.session) { location.href = '/app#welcome'; return; }
     msg('Almost in. Check your email and tap the confirm link, then log in.', 1);
   };
