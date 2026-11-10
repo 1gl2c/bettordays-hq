@@ -142,6 +142,14 @@
       const { data: p } = await sb.from('profiles').select('username').eq('id', session.user.id).maybeSingle();
       pill.innerHTML = `<span>Member <b>@${p ? p.username : 'you'}</b></span><button type="button" id="bdgBell" aria-label="Ring the bell for picks" title="Ring the bell">🛎️</button><a href="/app">Open the app</a>`;
       pill.querySelector('#bdgBell').onclick = () => bell(session);
+      const { data: st } = await sb.from('settings').select('is_admin').eq('id', session.user.id).maybeSingle();
+      if (st && st.is_admin) {
+        const [a, b] = await Promise.all([sb.from('pings').select('*', { count: 'exact', head: true }).eq('seen', false), sb.from('feedback').select('*', { count: 'exact', head: true }).eq('seen', false)]);
+        const n = (a.count || 0) + (b.count || 0);
+        const ib = document.createElement('a'); ib.href = '/app#/inbox'; ib.textContent = n ? `📬 ${n} new` : '📬 Inbox';
+        if (n) ib.style.background = '#ff4d5e';
+        pill.insertBefore(ib, pill.querySelector('a[href="/app"]'));
+      }
       return;
     }
     let t0 = +store.get('bd_preview_start');

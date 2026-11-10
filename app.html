@@ -15,10 +15,10 @@ body{background-image:linear-gradient(rgba(4,255,159,.035) 1px,transparent 1px),
 a{color:var(--acc)}
 .acc{color:var(--acc)}
 button{font:inherit}
-.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 16px;background:rgba(11,13,12,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+.top{position:sticky;flex-wrap:nowrap;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 16px;background:rgba(11,13,12,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
 .logo{font:900 22px Kanit,sans-serif;text-transform:uppercase;color:var(--tx);text-decoration:none;letter-spacing:.01em}
 .logo span{color:var(--acc)}
-nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+nav{display:flex;gap:4px;margin-left:auto;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;min-width:0}nav::-webkit-scrollbar{display:none}nav a{white-space:nowrap}
 nav a{font:700 11px 'Geist Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--mu);text-decoration:none;padding:8px 10px;border:1px solid transparent}
 nav a.on{color:var(--acc);border-color:var(--line)}
 main{max-width:860px;margin:0 auto;padding:20px 16px 80px}
@@ -73,7 +73,7 @@ label.f{display:block;margin:10px 0 5px}
 <div class="top">
   <a class="logo" href="/">Bettor<span>Days</span></a>
   <nav id="nav" aria-label="App">
-    <a href="/" data-r="hq">Board</a><a href="#/feed" data-r="feed">Feed</a><a href="#/post" data-r="post">Post</a><a href="#/rooms" data-r="rooms">Rooms</a><a href="#/people" data-r="people">People</a><a href="#/me" data-r="me">Me</a>
+    <a href="/" data-r="hq">Board</a><a href="#/feed" data-r="feed">Feed</a><a href="#/post" data-r="post">Post</a><a href="#/rooms" data-r="rooms">Rooms</a><a href="#/leaders" data-r="leaders">Leaders</a><a href="#/people" data-r="people">People</a><a href="#/me" data-r="me">Me</a>
   </nav>
   <button class="btn" id="bell" type="button" aria-label="Ring the bell for picks" title="Ring the bell" style="padding:6px 9px;font-size:16px">🛎️</button>
 </div>
@@ -124,6 +124,7 @@ function pickCard(p) {
     <ul class="legs">${legs.map(l => `<li><span>${esc(l.text)}</span>${l.pct ? `<b>${esc(l.pct)}%</b>` : ''}</li>`).join('')}</ul>
     <div class="nums">${p.stake != null ? `<div><span class="lbl">Stake</span><b>${money(p.stake)}</b></div>` : ''}${p.multiplier ? `<div><span class="lbl">Odds</span><b>${esc(p.multiplier)}x</b></div>` : ''}${p.payout != null ? `<div><span class="lbl">Pays</span><b style="color:var(--acc)">${money(p.payout)}</b></div>` : ''}${hit != null ? `<div><span class="lbl">Model hit %</span><b>${hit}%</b></div>` : ''}</div>
     ${p.note ? `<p class="sub" style="margin:6px 0">${esc(p.note)}</p>` : ''}
+    <div class="row rx" style="margin-top:10px;gap:6px"></div>
     <div class="row" style="margin-top:8px">${tail ? `<a class="btn go sm" href="${esc(tail)}" target="_blank" rel="noopener">Tail on Kalshi</a>` : ''}
       <span class="meta">${esc(VIS[p.visibility])}</span><span class="sp"></span>
       ${mine ? `<select class="stSel" aria-label="Ticket result" style="width:auto;padding:6px"> ${['open','won','lost','cashed_out','void'].map(s => `<option value="${s}" ${s === p.status ? 'selected' : ''}>${s.replace('_',' ')}</option>`).join('')}</select><button class="btn sm bad delPick" type="button">Delete</button>` : ''}
@@ -138,16 +139,17 @@ const PSEL = '*, profiles(username, display_name, kalshi_link)';
 async function vFeed(mode) {
   mode = mode || 'everyone';
   V.innerHTML = `${location.hash.includes('welcome') ? `<div class="banner"><b>Welcome to the family, @${esc(MYP.username)}.</b> Follow your friends, post your tickets, and start a room to build parlays together. We still don't want your data. We want your W's.</div>` : ''}
-    <h1>The <span>feed</span></h1><p class="sub">Tickets from the BettorDays family. Friends are people who follow you back.</p>
+    <div id="mc"></div><h1>The <span>feed</span></h1><p class="sub">Tickets from the BettorDays family. Friends are people who follow you back.</p>
     <div class="tabs"><button class="btn ${mode === 'everyone' ? 'on' : ''}" data-m="everyone" type="button">Everyone</button><button class="btn ${mode === 'friends' ? 'on' : ''}" data-m="friends" type="button">Following</button><a class="btn go" href="#/post">+ Post a ticket</a></div><div id="list"><p class="sub">Loading...</p></div>`;
   V.querySelector('.tabs').onclick = e => { const b = e.target.closest('button'); if (b) vFeed(b.dataset.m); };
+  modelCard().then(h => { const m = V.querySelector('#mc'); if (m) m.innerHTML = h; });
   let q = sb.from('picks').select(PSEL).order('created_at', {ascending: false}).limit(60);
   if (mode === 'friends') q = q.in('user_id', [...FOLLOWING, ME.id]);
   const { data, error } = await q;
   const L = V.querySelector('#list');
   if (error) { L.innerHTML = `<p class="msg bad">${esc(error.message)}</p>`; return; }
   L.innerHTML = data.length ? data.map(pickCard).join('') : `<div class="empty">Nothing here yet. ${mode === 'friends' ? 'Follow some people from the People tab.' : 'Be the first to post a ticket.'}</div>`;
-  wirePicks(L);
+  wirePicks(L); loadReactions(L);
 }
 
 function legBuilder(target, legs, onChange) {
@@ -236,7 +238,7 @@ async function vUser(name) {
     <div class="nums" style="margin-top:12px"><div><span class="lbl">Followers</span><b>${fr || 0}</b></div><div><span class="lbl">Following</span><b>${fg || 0}</b></div><div><span class="lbl">Record</span><b>${W}-${Lo}</b></div></div>
     ${safeUrl(p.kalshi_link) ? `<a class="btn go" href="${esc(p.kalshi_link)}" target="_blank" rel="noopener">Tail ${esc(p.username)} on Kalshi</a>` : ''}</div>
     <h2>Tickets</h2><div id="ul">${picks.length ? picks.map(pickCard).join('') : `<div class="empty">${mine ? 'You haven\'t posted a ticket yet. <a href="#/post">Post one</a>.' : 'No tickets you can see yet. Some may be friends-only.'}</div>`}</div>`;
-  wireFollow(V); wirePicks(V);
+  wireFollow(V); wirePicks(V); loadReactions(V);
 }
 
 async function vMe() {
@@ -384,13 +386,120 @@ async function vRoom(id) {
   }, 6000);
 }
 
-async function vOrders() {
+const PING_K = {picks: "Ready for today's picks", update: 'Wants an update', recap: 'Wants the recap'};
+let UNREAD = 0;
+function setBadge(n) {
+  UNREAD = Math.max(0, n);
+  const a = document.querySelector('#nav a[data-r="inbox"]'); if (!a) return;
+  a.innerHTML = 'Inbox' + (UNREAD ? ` <span style="background:var(--bad);color:#fff;border-radius:9px;padding:1px 6px;font-size:10px;margin-left:2px">${UNREAD}</span>` : '');
+  document.title = (UNREAD ? `(${UNREAD}) ` : '') + 'BettorDays App';
+}
+async function countUnread() {
+  const [a, b] = await Promise.all([
+    sb.from('pings').select('*', {count: 'exact', head: true}).eq('seen', false),
+    sb.from('feedback').select('*', {count: 'exact', head: true}).eq('seen', false)
+  ]);
+  setBadge((a.count || 0) + (b.count || 0));
+}
+function toast(html, href) {
+  const t = document.createElement('a'); t.href = href || '#/inbox';
+  t.style.cssText = 'position:fixed;right:16px;top:70px;z-index:95;max-width:320px;background:#0f1311;border:1px solid var(--acc);box-shadow:0 0 30px rgba(4,255,159,.2);padding:12px 14px;color:var(--tx);text-decoration:none;font-size:14px;line-height:1.4';
+  t.innerHTML = html; document.body.appendChild(t);
+  t.animate([{opacity: 0, transform: 'translateY(-8px)'}, {opacity: 1, transform: 'none'}], {duration: 220});
+  setTimeout(() => t.remove(), 6000);
+}
+function systemAlert(title, body) {
+  try { if ('Notification' in window && Notification.permission === 'granted' && document.hidden) new Notification(title, {body, tag: 'bd-inbox'}); } catch (e) {}
+}
+function watchInbox() {
+  sb.channel('hq-inbox')
+    .on('postgres_changes', {event: 'INSERT', schema: 'public', table: 'pings'}, async ({ new: p }) => {
+      const { data } = await sb.from('profiles').select('username').eq('id', p.user_id).maybeSingle();
+      const who = '@' + (data ? data.username : 'member');
+      setBadge(UNREAD + 1); toast(`🛎️ <b>${esc(who)}</b> rang the bell<br><span class="meta">${esc(PING_K[p.kind])}${p.note ? ' · ' + esc(p.note) : ''}</span>`);
+      systemAlert('🛎️ Order up', `${who}: ${PING_K[p.kind]}`);
+      if (location.hash.startsWith('#/inbox')) vInbox();
+    })
+    .on('postgres_changes', {event: 'INSERT', schema: 'public', table: 'feedback'}, ({ new: f }) => {
+      setBadge(UNREAD + 1); toast(`💬 <b>${esc(f.name)}</b> sent a message<br><span class="meta">${esc(f.msg.slice(0, 90))}</span>`);
+      systemAlert('💬 New message', `${f.name}: ${f.msg.slice(0, 120)}`);
+      if (location.hash.startsWith('#/inbox')) vInbox();
+    })
+    .subscribe();
+  setInterval(countUnread, 60000);
+}
+
+async function vInbox(tab) {
   if (!MYS || !MYS.is_admin) { V.innerHTML = '<div class="empty">HQ staff only.</div>'; return; }
-  const { data } = await sb.from('pings').select('*, profiles(username)').order('created_at', {ascending: false}).limit(100);
-  const K = {picks: "Ready for today's picks", update: 'Wants an update', recap: 'Wants the recap'};
-  V.innerHTML = `<h1>🛎️ <span>Orders</span></h1><p class="sub">Every time someone rings the bell. ${(data || []).filter(p => !p.seen).length} new.</p>
-  ${(data || []).map(p => `<div class="card row" style="${p.seen ? 'opacity:.6' : 'border-color:var(--acc)'}"><div><b>@${esc(p.profiles?.username)}</b> <span class="meta">${ago(p.created_at)}</span><div>${esc(K[p.kind])}${p.note ? ` · "${esc(p.note)}"` : ''}</div></div><span class="sp"></span>${p.seen ? '<span class="meta">seen</span>' : `<button class="btn sm seen" data-id="${p.id}" type="button">Mark seen</button>`}</div>`).join('') || '<div class="empty">No orders yet.</div>'}`;
-  V.querySelectorAll('.seen').forEach(b => b.onclick = async () => { await sb.from('pings').update({seen: true}).eq('id', b.dataset.id); vOrders(); });
+  tab = tab || (location.hash.split('/')[2]) || 'all';
+  const [{ data: pings }, { data: fb }] = await Promise.all([
+    sb.from('pings').select('*, profiles(username)').order('created_at', {ascending: false}).limit(200),
+    sb.from('feedback').select('*, profiles(username)').order('created_at', {ascending: false}).limit(200)
+  ]);
+  const items = [
+    ...(pings || []).map(p => ({t: 'ping', id: p.id, at: p.created_at, seen: p.seen, who: '@' + (p.profiles?.username || 'member'), head: '🛎️ ' + PING_K[p.kind], body: p.note})),
+    ...(fb || []).map(f => ({t: 'fb', id: f.id, at: f.created_at, seen: f.seen, who: f.profiles ? '@' + f.profiles.username : f.name, head: '💬 ' + ({idea: 'Idea', pick: 'Pick request', feature: 'Feature request', other: 'Message'}[f.kind]), body: f.msg}))
+  ].sort((a, b) => a.at < b.at ? 1 : -1);
+  const show = items.filter(i => tab === 'all' ? true : tab === 'new' ? !i.seen : tab === 'bell' ? i.t === 'ping' : i.t === 'fb');
+  const nNew = items.filter(i => !i.seen).length, nBell = items.filter(i => i.t === 'ping' && !i.seen).length, nFb = items.filter(i => i.t === 'fb' && !i.seen).length;
+  setBadge(nNew);
+  const perm = 'Notification' in window ? Notification.permission : 'unsupported';
+  V.innerHTML = `<h1>HQ <span>inbox</span></h1><p class="sub">Bell rings and "Talk to us" messages in one place. New ones also land in your email and pop up here live.</p>
+  <div class="tabs">${[['all', 'All'], ['new', `New (${nNew})`], ['bell', `🛎️ Bell (${nBell})`], ['msgs', `💬 Messages (${nFb})`]].map(([k, l]) => `<a class="btn ${k === tab ? 'on' : ''}" href="#/inbox/${k}">${l}</a>`).join('')}<span class="sp"></span>${nNew ? '<button class="btn sm" id="allSeen" type="button">Mark all read</button>' : ''}${perm === 'default' ? '<button class="btn sm go" id="notif" type="button">Turn on pop-up alerts</button>' : ''}</div>
+  ${show.map(i => `<div class="card" style="${i.seen ? 'opacity:.62' : 'border-color:var(--acc)'}"><div class="row"><b>${esc(i.head)}</b><span class="meta">${esc(i.who)} · ${ago(i.at)}</span><span class="sp"></span>${i.seen ? '<span class="meta">read</span>' : `<button class="btn sm seen" data-t="${i.t}" data-id="${i.id}" type="button">Mark read</button>`}</div>${i.body ? `<p style="margin:8px 0 0;white-space:pre-wrap;line-height:1.5">${esc(i.body)}</p>` : ''}</div>`).join('') || '<div class="empty">Nothing here.</div>'}`;
+  V.querySelectorAll('.seen').forEach(b => b.onclick = async () => { await sb.from(b.dataset.t === 'ping' ? 'pings' : 'feedback').update({seen: true}).eq('id', b.dataset.id); vInbox(tab); });
+  const all = V.querySelector('#allSeen'); if (all) all.onclick = async () => { await Promise.all([sb.from('pings').update({seen: true}).eq('seen', false), sb.from('feedback').update({seen: true}).eq('seen', false)]); vInbox(tab); };
+  const nb = V.querySelector('#notif'); if (nb) nb.onclick = async () => { await Notification.requestPermission(); vInbox(tab); };
+}
+
+/* reactions: 🔥 and "I tailed" */
+async function loadReactions(root) {
+  const ids = [...root.querySelectorAll('article[data-id]')].map(a => +a.dataset.id); if (!ids.length) return;
+  const { data } = await sb.from('reactions').select('pick_id, user_id, kind').in('pick_id', ids);
+  const by = {}; (data || []).forEach(r => { const k = r.pick_id + r.kind; (by[k] = by[k] || []).push(r.user_id); });
+  root.querySelectorAll('article[data-id]').forEach(a => {
+    const id = a.dataset.id, box = a.querySelector('.rx'); if (!box) return;
+    box.innerHTML = [['fire', '🔥'], ['tail', '🤝 Tailed']].map(([k, l]) => { const u = by[id + k] || []; const on = u.includes(ME.id); return `<button class="btn sm rxb ${on ? 'on' : ''}" data-k="${k}" data-on="${on ? 1 : ''}" type="button" aria-pressed="${on}">${l} ${u.length || ''}</button>`; }).join('') + `<button class="btn sm shr" type="button" aria-label="Share ticket">Share</button>`;
+  });
+  root.querySelectorAll('.rxb').forEach(b => b.onclick = async () => {
+    const id = +b.closest('article').dataset.id;
+    if (b.dataset.on) await sb.from('reactions').delete().eq('pick_id', id).eq('user_id', ME.id).eq('kind', b.dataset.k);
+    else await sb.from('reactions').insert({pick_id: id, user_id: ME.id, kind: b.dataset.k});
+    loadReactions(root);
+  });
+  root.querySelectorAll('.shr').forEach(b => b.onclick = async () => {
+    const url = location.origin + '/app#/t/' + b.closest('article').dataset.id;
+    try { if (navigator.share) { await navigator.share({title: 'BettorDays ticket', url}); return; } await navigator.clipboard.writeText(url); b.textContent = 'Link copied'; } catch (e) {}
+  });
+}
+
+async function vTicket(id) {
+  const { data } = await sb.from('picks').select(PSEL).eq('id', id).maybeSingle();
+  V.innerHTML = `<div class="row" style="margin-bottom:10px"><a class="btn sm" href="#/feed">Back to feed</a></div>` + (data ? pickCard(data) : '<div class="empty">This ticket is private or was deleted.</div>');
+  wirePicks(V); loadReactions(V);
+}
+
+async function vLeaders(win) {
+  win = win || 30;
+  const since = new Date(Date.now() - win * 86400000).toISOString();
+  const { data } = await sb.from('picks').select('user_id, status, stake, payout, profiles(username, display_name)').in('status', ['won', 'lost', 'cashed_out']).gte('created_at', since).limit(2000);
+  const T = {};
+  (data || []).forEach(p => { const t = T[p.user_id] = T[p.user_id] || {u: p.profiles, w: 0, l: 0, net: 0, staked: 0}; const s = +p.stake || 0; t.staked += s; if (p.status === 'won') { t.w++; t.net += (+p.payout || 0) - s; } else if (p.status === 'lost') { t.l++; t.net -= s; } else { t.net += (+p.payout || 0) - s; } });
+  const rows = Object.values(T).filter(t => t.w + t.l >= 1).sort((a, b) => b.net - a.net || (b.w - b.l) - (a.w - a.l));
+  V.innerHTML = `<h1>The <span>leaderboard</span></h1><p class="sub">Ranked by profit on settled public tickets. Mark your tickets won or lost to get on the board.</p>
+  <div class="tabs">${[[7, '7 days'], [30, '30 days'], [365, 'All time']].map(([d, l]) => `<button class="btn ${d === win ? 'on' : ''}" data-d="${d}" type="button">${l}</button>`).join('')}</div>
+  ${rows.map((t, i) => `<a class="card row" href="#/u/${esc(t.u?.username)}" style="text-decoration:none;color:var(--tx);${i === 0 ? 'border-color:var(--acc)' : ''}"><b style="font:900 26px Kanit,sans-serif;width:42px;color:${i < 3 ? 'var(--acc)' : 'var(--mu)'}">${i === 0 ? '👑' : '#' + (i + 1)}</b><div><b>${esc(t.u?.display_name || t.u?.username)}</b> <span class="meta">@${esc(t.u?.username)}</span><div class="meta">${t.w}-${t.l} · ${t.w + t.l ? Math.round(100 * t.w / (t.w + t.l)) : 0}% · ROI ${t.staked ? Math.round(100 * t.net / t.staked) : 0}%</div></div><span class="sp"></span><b style="font:900 20px Kanit,sans-serif;color:${t.net >= 0 ? 'var(--acc)' : 'var(--bad)'}">${t.net >= 0 ? '+' : '-'}${money(Math.abs(t.net))}</b></a>`).join('') || '<div class="empty">No settled tickets yet. Post one, mark it won or lost, and take the crown.</div>'}`;
+  V.querySelector('.tabs').onclick = e => { const b = e.target.closest('button'); if (b) vLeaders(+b.dataset.d); };
+}
+
+let STATS = null;
+async function modelCard() {
+  try { if (!STATS) { const r = await fetch('/stats.json', {cache: 'no-store'}); if (r.ok) STATS = await r.json(); } } catch (e) {}
+  if (!STATS) return '';
+  return `<a class="card" href="/" style="display:block;text-decoration:none;color:var(--tx);border-color:rgba(4,255,159,.45);background:linear-gradient(135deg,rgba(4,255,159,.08),rgba(17,21,19,.94))">
+    <div class="row"><span class="lbl">The BettorDays model · live record</span><span class="sp"></span><span class="meta">Updated ${esc(STATS.last)}</span></div>
+    <div class="nums" style="margin:10px 0 4px"><div><span class="lbl">70%+ legs</span><b style="color:var(--acc)">${STATS.h70}/${STATS.n70} · ${STATS.p70}%</b></div><div><span class="lbl">Legs graded</span><b>${STATS.n}</b></div><div><span class="lbl">Main tickets</span><b>${esc(STATS.mains)}</b></div><div><span class="lbl">3 random 70%+ legs</span><b>${STATS.three}%</b></div></div>
+    <span class="meta">Tap for the full board, grades and receipts →</span></a>`;
 }
 
 function ringBell() {
@@ -431,7 +540,9 @@ async function route() {
   if (a === 'people') { setNav('people'); return vPeople(); }
   if (a === 'me') { setNav('me'); return vMe(); }
   if (a === 'rooms') { setNav('rooms'); return vRooms(); }
-  if (a === 'orders') { setNav('orders'); return vOrders(); }
+  if (a === 'orders' || a === 'inbox') { setNav('inbox'); return vInbox(b); }
+  if (a === 'leaders') { setNav('leaders'); return vLeaders(); }
+  if (a === 't' && b) { setNav('feed'); return vTicket(+b); }
   if (a === 'room' && b) { setNav('rooms'); return vRoom(+b); }
   if (a === 'u' && b) { setNav(b === MYP.username ? 'me' : 'people'); return vUser(decodeURIComponent(b).toLowerCase()); }
   setNav('feed'); return vFeed();
@@ -447,7 +558,7 @@ sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') { history.repl
   if (!ok || !MYP) { location.replace('/?join=1'); return; }
   await loadBoard();
   document.getElementById('bell').onclick = ringBell;
-  if (MYS && MYS.is_admin) { const o = document.createElement('a'); o.href = '#/orders'; o.dataset.r = 'orders'; o.textContent = 'Orders'; document.getElementById('nav').appendChild(o); }
+  if (MYS && MYS.is_admin) { const o = document.createElement('a'); o.href = '#/inbox'; o.dataset.r = 'inbox'; o.textContent = 'Inbox'; document.getElementById('nav').appendChild(o); countUnread(); watchInbox(); }
   window.addEventListener('hashchange', route);
   route();
 })();
