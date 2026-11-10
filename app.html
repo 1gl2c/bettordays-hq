@@ -294,7 +294,7 @@ async function drawKalshi() {
 
 async function vRooms() {
   const [{ data: rooms }, { data: mem }] = await Promise.all([
-    sb.from('rooms').select('id, name, owner, pinned, created_at, profiles(username)').order('pinned', {ascending: false}).order('created_at', {ascending: false}).limit(100),
+    sb.from('rooms').select('id, name, owner, pinned, created_at, profiles!rooms_owner_fkey(username)').order('pinned', {ascending: false}).order('created_at', {ascending: false}).limit(100),
     sb.from('room_members').select('room_id, user_id')
   ]);
   const count = {}, mine = new Set();
@@ -314,7 +314,7 @@ const BOT_TOUR = [
 ];
 
 async function vRoom(id) {
-  const { data: room } = await sb.from('rooms').select('*, profiles(username)').eq('id', id).maybeSingle();
+  const { data: room } = await sb.from('rooms').select('*, profiles!rooms_owner_fkey(username)').eq('id', id).maybeSingle();
   if (!room) { V.innerHTML = '<div class="empty">Room not found.</div>'; return; }
   const names = {};
   let members = [];
