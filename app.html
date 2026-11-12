@@ -67,14 +67,28 @@ label.f{display:block;margin:10px 0 5px}
 .banner{border:1px solid var(--acc);background:rgba(4,255,159,.07);padding:14px 16px;margin-bottom:16px}
 .foot{color:var(--dim);font:11px 'Geist Mono',monospace;letter-spacing:.08em;text-transform:uppercase;text-align:center;margin-top:30px}
 @media (max-width:640px){.two{grid-template-columns:1fr}.top{gap:8px;padding:10px 12px}nav{gap:0}nav a{padding:7px 5px;font-size:10px;letter-spacing:.06em}.logo{font-size:16px}}
+.pk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px;margin-bottom:90px}
+.pk{display:grid;grid-template-columns:1fr auto;gap:2px 10px;text-align:left;background:rgba(17,21,19,.94);border:1px solid var(--line);color:var(--tx);padding:11px 12px;cursor:pointer;transition:border-color .15s,box-shadow .15s,transform .1s}
+.pk:hover{border-color:#2e3a35}.pk:active{transform:scale(.99)}
+.pk.on{border-color:var(--acc);box-shadow:0 0 0 1px var(--acc),0 0 22px rgba(4,255,159,.25);background:rgba(4,255,159,.07)}
+.pk-n{font-weight:600;font-size:14px;line-height:1.3}.pk-m{grid-column:1;font:11px 'Geist Mono',monospace;color:var(--dim)}.pk-p{grid-row:1/3;grid-column:2;align-self:center;font:900 20px Kanit,sans-serif;color:var(--acc)}
+.pk.lost .pk-p{color:var(--bad)}
+.btn.sm{padding:6px 9px;font-size:10px}
+.slip{position:fixed;left:50%;transform:translateX(-50%);bottom:12px;width:min(720px,calc(100vw - 20px));z-index:30;background:#0e1412;border:1px solid var(--acc);box-shadow:0 0 30px rgba(4,255,159,.25),0 10px 40px rgba(0,0,0,.6);padding:12px 14px;max-height:80vh;overflow:auto}
+.slegs{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.chatwrap{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:12px}.chat.big{height:min(62vh,560px)}
+@media (max-width:640px){.chatwrap{grid-template-columns:1fr}.chatwrap aside{order:-1}}
+.tring{position:fixed;z-index:9998;border:2px solid var(--acc);box-shadow:0 0 0 9999px rgba(0,0,0,.55),0 0 24px rgba(4,255,159,.5);pointer-events:none;transition:all .25s}
+.tbox{position:fixed;z-index:9999;width:320px;max-width:calc(100vw - 20px);background:#0e1412;border:1px solid var(--acc);padding:14px;box-shadow:0 10px 40px rgba(0,0,0,.6)}.tbox b{display:block;font:900 20px Kanit,sans-serif;text-transform:uppercase;margin:4px 0}.tbox p{margin:0 0 10px;color:#cfd8d4;font-size:14px;line-height:1.45}
 </style>
 </head>
 <body>
 <div class="top">
   <a class="logo" href="/">Bettor<span>Days</span></a>
   <nav id="nav" aria-label="App">
-    <a href="/" data-r="hq">Board</a><a href="#/feed" data-r="feed">Feed</a><a href="#/post" data-r="post">Post</a><a href="#/rooms" data-r="rooms">Rooms</a><a href="#/leaders" data-r="leaders">Leaders</a><a href="#/people" data-r="people">People</a><a href="#/me" data-r="me">Me</a>
+    <a href="#/board" data-r="board">Board</a><a href="#/feed" data-r="feed">Feed</a><a href="#/chat" data-r="chat">Chat</a><a href="#/leaders" data-r="leaders">Leaders</a><a href="#/people" data-r="people">People</a><a href="#/me" data-r="me">Me</a><a href="/" data-r="hq">HQ</a>
   </nav>
+  <button class="btn" id="tourA" type="button" aria-label="App tour" title="Tour" style="padding:6px 9px">?</button>
   <button class="btn" id="bell" type="button" aria-label="Ring the bell for picks" title="Ring the bell" style="padding:6px 9px;font-size:16px">🛎️</button>
 </div>
 <main id="view" aria-live="polite"><p class="sub">Loading...</p></main>
@@ -140,7 +154,7 @@ async function vFeed(mode) {
   mode = mode || 'everyone';
   V.innerHTML = `${location.hash.includes('welcome') ? `<div class="banner"><b>Welcome to the family, @${esc(MYP.username)}.</b> Follow your friends, post your tickets, and start a room to build parlays together. We still don't want your data. We want your W's.</div>` : ''}
     <div id="mc"></div><h1>The <span>feed</span></h1><p class="sub">Tickets from the BettorDays family. Friends are people who follow you back.</p>
-    <div class="tabs"><button class="btn ${mode === 'everyone' ? 'on' : ''}" data-m="everyone" type="button">Everyone</button><button class="btn ${mode === 'friends' ? 'on' : ''}" data-m="friends" type="button">Following</button><a class="btn go" href="#/post">+ Post a ticket</a></div><div id="list"><p class="sub">Loading...</p></div>`;
+    <div class="tabs"><button class="btn ${mode === 'everyone' ? 'on' : ''}" data-m="everyone" type="button">Everyone</button><button class="btn ${mode === 'friends' ? 'on' : ''}" data-m="friends" type="button">Following</button><a class="btn go" href="#/board">+ Post a ticket</a></div><div id="list"><p class="sub">Loading...</p></div>`;
   V.querySelector('.tabs').onclick = e => { const b = e.target.closest('button'); if (b) vFeed(b.dataset.m); };
   modelCard().then(h => { const m = V.querySelector('#mc'); if (m) m.innerHTML = annHtml() + h; });
   let q = sb.from('picks').select(PSEL).order('created_at', {ascending: false}).limit(60);
@@ -238,7 +252,7 @@ async function vUser(name) {
     ${p.bio ? `<p class="sub" style="margin:12px 0 0">${esc(p.bio)}</p>` : ''}
     <div class="nums" style="margin-top:12px"><div><span class="lbl">Followers</span><b>${fr || 0}</b></div><div><span class="lbl">Following</span><b>${fg || 0}</b></div><div><span class="lbl">Record</span><b>${W}-${Lo}</b></div></div>
     ${safeUrl(p.kalshi_link) ? `<a class="btn go" href="${esc(p.kalshi_link)}" target="_blank" rel="noopener">Tail ${esc(p.username)} on Kalshi</a>` : ''}</div>
-    <h2>Tickets</h2><div id="ul">${picks.length ? picks.map(pickCard).join('') : `<div class="empty">${mine ? 'You haven\'t posted a ticket yet. <a href="#/post">Post one</a>.' : 'No tickets you can see yet. Some may be friends-only.'}</div>`}</div>`;
+    <h2>Tickets</h2><div id="ul">${picks.length ? picks.map(pickCard).join('') : `<div class="empty">${mine ? 'You haven\'t posted a ticket yet. <a href="#/board">Post one</a>.' : 'No tickets you can see yet. Some may be friends-only.'}</div>`}</div>`;
   wireFollow(V); wirePicks(V); loadReactions(V);
 }
 
@@ -296,95 +310,134 @@ async function drawKalshi() {
   };
 }
 
-async function vRooms() {
-  const [{ data: rooms }, { data: mem }] = await Promise.all([
-    sb.from('rooms').select('id, name, owner, pinned, created_at, profiles!rooms_owner_fkey(username)').order('pinned', {ascending: false}).order('created_at', {ascending: false}).limit(100),
-    sb.from('room_members').select('room_id, user_id')
-  ]);
-  const count = {}, mine = new Set();
-  (mem || []).forEach(m => { count[m.room_id] = (count[m.room_id] || 0) + 1; if (m.user_id === ME.id) mine.add(m.room_id); });
-  V.innerHTML = `<h1>The <span>rooms</span></h1><p class="sub">Every room is open. Jump in, talk your talk, throw legs on the board, and post the ticket you build.</p>
-  <form class="card row" id="rf"><input id="rn" maxlength="40" placeholder="Start a room, e.g. Tuesday NBA" style="flex:1;min-width:180px" aria-label="Room name"><button class="btn go" type="submit">Start a room</button></form><div class="msg" id="rfm"></div>
-  ${(rooms || []).map(r => `<a class="card row" href="#/room/${r.id}" style="text-decoration:none;color:var(--tx);${r.pinned ? 'border-color:var(--acc);box-shadow:0 0 24px rgba(4,255,159,.12)' : ''}">${r.pinned ? '<span class="badge won">Pinned</span>' : ''}<b style="font:900 18px Kanit,sans-serif;text-transform:uppercase">${esc(r.name)}</b><span class="sp"></span><span class="meta">${count[r.id] || 0} in · by @${esc(r.profiles?.username || '')}${mine.has(r.id) ? ' · joined' : ''}</span></a>`).join('') || '<div class="empty">No rooms yet.</div>'}`;
-  V.querySelector('#rf').onsubmit = async e => { e.preventDefault(); const n = V.querySelector('#rn').value.trim(); if (!n) return; const { data, error } = await sb.from('rooms').insert({name: n, owner: ME.id}).select('id').single(); if (error) { V.querySelector('#rfm').className = 'msg bad'; V.querySelector('#rfm').textContent = error.message; return; } location.hash = '#/room/' + data.id; };
+/* ---------- Today's board: tap legs, post to feed ---------- */
+const SPN = {NBA: '🏀 NBA', NHL: '🏒 NHL', CFB: '🏈 College FB', CBB: '🏀 College hoops', TEN: '🎾 Tennis', NFL: '🏈 NFL', MLB: '⚾ MLB'};
+const tipMin = t => { const m = /^(\d{1,2}):(\d{2})/.exec(t || ''); if (!m) return null; let h = +m[1]; if (h < 12) h += 12; return h * 60 + +m[2]; };
+const ptNow = () => { const p = {}; new Intl.DateTimeFormat('en-US', {timeZone: 'America/Los_Angeles', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'}).formatToParts(new Date()).forEach(x => p[x.type] = x.value); return {d: `${p.year}-${p.month}-${p.day}`, m: (+p.hour) * 60 + (+p.minute)}; };
+const SLIP = new Map();
+async function vBoard() {
+  if (!BOARD.length) await loadBoard();
+  let sp = 'all', tm = 'any', q = '', min = 0;
+  const day = BOARD[0]?.day || '', label = BOARD[0]?.label || '';
+  const n = ptNow(); const graded = BOARD.some(b => b.r); const today = day === n.d;
+  const sports = [...new Set(BOARD.map(b => b.sp).filter(Boolean))];
+  const times = [...new Set(BOARD.map(b => tipMin(b.t)).filter(x => x != null))].sort((a, b) => a - b);
+  const lab = m => `${(Math.floor(m / 60) % 12) || 12}:${String(m % 60).padStart(2, '0')}`;
+  V.innerHTML = `<h1>${today ? "Today's" : 'Latest'} <span>board</span></h1>
+  <p class="sub">${esc(label)}${graded ? ' · graded, W and L marked' : ''}${today ? '' : ' · the next board drops by 2 PM PT'}. Tap legs to build a ticket, then post it to the feed.</p>
+  <input id="bq" placeholder="Search a player or team" aria-label="Search the board">
+  <div class="tabs" id="bsp" style="margin-top:10px"></div><div class="tabs" id="btm"></div>
+  <div class="tabs" id="bmin"></div>
+  <div id="bl" class="pk-grid"></div>
+  <div class="slip" id="slip" hidden></div>`;
+  const chips = () => {
+    V.querySelector('#bsp').innerHTML = [['all', 'All sports'], ...sports.map(k => [k, SPN[k] || k])].map(([k, l]) => `<button class="btn sm ${k === sp ? 'on' : ''}" data-sp="${k}" type="button">${l}</button>`).join('');
+    V.querySelector('#btm').innerHTML = [['any', 'Any time'], ...(today ? [['up', '⏱ Not started yet']] : []), ...times.map(m => ['t' + m, lab(m) + ' PM & later'])].map(([k, l]) => `<button class="btn sm ${k === tm ? 'on' : ''}" data-tm="${k}" type="button">${l}</button>`).join('');
+    V.querySelector('#bmin').innerHTML = [[0, 'Every grade'], [70, '70%+ only'], [80, '80%+ only']].map(([k, l]) => `<button class="btn sm ${k === min ? 'on' : ''}" data-min="${k}" type="button">${l}</button>`).join('');
+  };
+  const pass = b => { if (b.pct < min) return false; if (sp !== 'all' && b.sp !== sp) return false; if (q && !(b.text + ' ' + b.game).toLowerCase().includes(q)) return false; if (tm === 'any') return true; const m = tipMin(b.t); if (m == null) return false; if (tm === 'up') { const nn = ptNow(); return nn.d < day || (nn.d === day && m > nn.m); } return m >= +tm.slice(1); };
+  const draw = () => {
+    const rows = BOARD.filter(pass);
+    V.querySelector('#bl').innerHTML = rows.map(b => `<button class="pk ${SLIP.has(b.text) ? 'on' : ''} ${b.r === 'W' ? 'won' : b.r === 'L' ? 'lost' : ''}" data-k="${esc(b.text)}" type="button" aria-pressed="${SLIP.has(b.text)}"><span class="pk-n">${esc(b.text)}</span><span class="pk-m">${esc(b.game || '')}${b.t ? ' · ' + esc(b.t) + ' PT' : ''}${b.fl ? ' · <i style="color:var(--warn)">flagged</i>' : ''}${b.r ? ` · <b class="${b.r === 'W' ? 'acc' : 'bad'}">${b.r === 'W' ? 'HIT' : 'MISS'}</b>` : ''}</span><span class="pk-p">${b.pct}%</span></button>`).join('') || '<div class="empty">Nothing matches. Try another filter.</div>';
+    drawSlip();
+  };
+  const drawSlip = () => {
+    const s = V.querySelector('#slip'); const legs = [...SLIP.values()];
+    if (!legs.length) { s.hidden = true; return; }
+    s.hidden = false;
+    const hit = Math.round(legs.reduce((a, l) => a * (l.pct || 100) / 100, 1) * 100);
+    s.innerHTML = `<div class="row"><b>${legs.length} leg${legs.length > 1 ? 's' : ''}</b><span class="meta">hit chance about ${hit}% by our grades</span><span class="sp"></span><button class="btn sm" id="sclr" type="button">Clear</button><button class="btn go" id="sgo" type="button">Post to feed</button></div>
+    <div id="sform" hidden><div class="slegs">${legs.map(l => `<span class="badge">${esc(l.text)} · ${l.pct}%</span>`).join(' ')}</div>
+    <div class="two"><div><label class="f lbl" for="ss">Stake ($)</label><input id="ss" type="number" min="0" step="0.01" inputmode="decimal"></div><div><label class="f lbl" for="sm2">Kalshi payout (x)</label><input id="sm2" type="number" min="1" step="0.01" inputmode="decimal" placeholder="2.40"></div></div>
+    <label class="f lbl" for="su">Kalshi link (optional, lets friends tail)</label><input id="su" type="url" placeholder="https://kalshi.com/...">
+    <label class="f lbl" for="sn">Say something (optional)</label><input id="sn" maxlength="200" placeholder="I like this today">
+    <label class="f lbl" for="sv">Who sees it</label><select id="sv"><option value="public">Everyone</option><option value="friends">Friends only</option><option value="private">Only me</option></select>
+    <button class="btn go" id="spost" type="button" style="width:100%;margin-top:10px;padding:13px">Post ticket</button><div class="msg" id="smsg"></div></div>`;
+    s.querySelector('#sclr').onclick = () => { SLIP.clear(); draw(); };
+    s.querySelector('#sgo').onclick = () => { const f = s.querySelector('#sform'); f.hidden = !f.hidden; s.querySelector('#sv').value = (MYS && MYS.default_visibility) || 'public'; };
+    s.querySelector('#spost').onclick = async () => {
+      const M = s.querySelector('#smsg'); const st = +s.querySelector('#ss').value || null, mx = +s.querySelector('#sm2').value || null, url = s.querySelector('#su').value.trim();
+      if (url && !safeUrl(url)) { M.className = 'msg bad'; M.textContent = 'Tail links have to be kalshi.com links.'; return; }
+      const row = {user_id: ME.id, title: `${legs.length}-leg ticket`, legs: legs.map(l => ({text: l.text, pct: l.pct})), stake: st, multiplier: mx, payout: st && mx ? Math.round(st * mx * 100) / 100 : null, tail_url: url || null, note: s.querySelector('#sn').value.trim() || null, visibility: s.querySelector('#sv').value, source: 'board'};
+      const { error } = await sb.from('picks').insert(row);
+      if (error) { M.className = 'msg bad'; M.textContent = error.message; return; }
+      SLIP.clear(); location.hash = '#/feed';
+    };
+  };
+  chips(); draw();
+  V.querySelector('#bq').oninput = e => { q = e.target.value.trim().toLowerCase(); draw(); };
+  V.onclick = e => {
+    const c = e.target.closest('[data-sp],[data-tm],[data-min]'); if (c) { if (c.dataset.sp) sp = c.dataset.sp; if (c.dataset.tm) tm = c.dataset.tm; if (c.dataset.min != null) min = +c.dataset.min; chips(); draw(); return; }
+    const p = e.target.closest('.pk'); if (!p) return; const b = BOARD.find(x => x.text === p.dataset.k); if (!b) return;
+    SLIP.has(b.text) ? SLIP.delete(b.text) : SLIP.set(b.text, {text: b.text, pct: b.pct}); draw();
+  };
 }
 
-const BOT_TOUR = [
-  ['Coach Bot', "Welcome in! Quick tour so you're not lost. This is the BettorDays Family room. Everyone on the app can see it and talk here."],
-  ['Stats Bot', 'Every leg on our board gets a hit %. Our 70%+ legs have been hitting about 82%. Tap "Add legs" to throw board legs in here and the room sees the combined hit chance.'],
-  ['Coach Bot', 'Check the legs you like, then hit "Post checked legs as my ticket" to put it on your profile. You pick who sees it: everyone, friends, or just you.'],
-  ['Hype Bot', 'Want the picks? Hit the 🛎️ bell up top. It sends an order straight to HQ. And connect your Kalshi in Me to sync your real tickets.'],
-  ['Stats Bot', "We're bots, by the way. The humans are everyone else in here. 21+, bet what you can lose. Have fun."]
+/* ---------- One chat for everybody ---------- */
+const CHAT_TOUR = [
+  ['Coach Bot', "Welcome to the BettorDays chat. One room, everybody in it. Say what you like today."],
+  ['Stats Bot', 'Want to build a ticket? Hit Board up top, tap the legs you like, and post it. Our 70%+ legs hit about 85% of the time.'],
+  ['Hype Bot', 'Ring the 🛎️ up top when you want the picks. We are bots, by the way. 21+, bet what you can lose.']
 ];
-
-async function vRoom(id) {
-  const { data: room } = await sb.from('rooms').select('*, profiles!rooms_owner_fkey(username)').eq('id', id).maybeSingle();
-  if (!room) { V.innerHTML = '<div class="empty">Room not found.</div>'; return; }
-  const names = {};
-  let members = [];
-  const loadMembers = async () => { const { data } = await sb.from('room_members').select('user_id, profiles(username)').eq('room_id', id); members = data || []; members.forEach(x => names[x.user_id] = x.profiles?.username); return members; };
-  await loadMembers();
-  let joined = members.some(m => m.user_id === ME.id);
-  V.innerHTML = `<div class="row"><h1 style="margin:0">${esc(room.name)}</h1><span class="sp"></span><a class="btn sm" href="#/rooms">All rooms</a></div>
-  <p class="sub" style="margin:6px 0 12px"><span id="onl" class="acc">● 1 online</span> · <span id="memc">${members.length} in the room</span>${room.pinned ? ' · pinned' : ' · started by @' + esc(room.profiles?.username || '')}</p>
-  <div class="row" id="joinRow" style="margin-bottom:12px">${joined ? '' : '<button class="btn go" id="join" type="button">Join the room</button><span class="meta">Anyone can read. Join to talk and add legs.</span>'}${!room.pinned && room.owner === ME.id ? '<span class="sp"></span><button class="btn sm bad" id="delr" type="button">Delete room</button>' : ''}${joined && room.owner !== ME.id && !room.pinned ? '<span class="sp"></span><button class="btn sm bad" id="leave" type="button">Leave</button>' : ''}</div>
-  <div class="two"><div><p class="lbl" style="margin:0 0 6px">Chat</p><div class="chat" id="chat"></div><form class="row" id="cf" style="margin-top:6px"><input id="ci" maxlength="500" placeholder="${joined ? 'Talk your talk' : 'Join to chat'}" style="flex:1" aria-label="Message" ${joined ? '' : 'disabled'}><button class="btn go" type="submit" ${joined ? '' : 'disabled'}>Send</button></form><div class="msg" id="cm"></div></div>
-  <div><p class="lbl" style="margin:0 0 6px">Shared legs</p><div class="card" style="padding:10px"><ul class="legs" id="rl" style="margin:0"></ul><p class="meta" id="rh"></p><button class="btn go" id="rpost" type="button" style="width:100%;margin-top:6px">Post checked legs as my ticket</button></div>
-  ${joined ? '<details><summary class="lbl" style="cursor:pointer;margin:8px 0">Add legs</summary><div id="rlb"></div></details>' : ''}</div></div>`;
-
+let CHAT_LAST = {at: 0, body: '', times: []};
+async function vChat() {
+  const { data: room } = await sb.from('rooms').select('id, name').eq('pinned', true).order('created_at').limit(1).maybeSingle();
+  if (!room) { V.innerHTML = '<div class="empty">Chat is warming up. Check back in a minute.</div>'; return; }
+  const id = room.id, names = {};
+  const loadNames = async () => { const { data } = await sb.from('room_members').select('user_id, profiles(username)').eq('room_id', id); (data || []).forEach(x => names[x.user_id] = x.profiles?.username); return data || []; };
+  let mem = await loadNames();
+  if (!mem.some(m => m.user_id === ME.id)) { await sb.from('room_members').insert({room_id: id, user_id: ME.id}); names[ME.id] = MYP.username; }
+  V.innerHTML = `<div class="row"><h1 style="margin:0">The <span>chat</span></h1><span class="sp"></span><span id="onl" class="acc meta">● 1 online</span></div>
+  <p class="sub" style="margin:6px 0 12px">One room for the whole BettorDays family. Keep it fun, no spam, no links except Kalshi.</p>
+  <div class="chatwrap"><div><div class="chat big" id="chat"></div>
+  <form class="row" id="cf" style="margin-top:6px"><input id="ci" maxlength="300" placeholder="I like this today..." style="flex:1" aria-label="Message" autocomplete="off"><button class="btn go" type="submit">Send</button></form><div class="msg" id="cm"></div></div>
+  <aside class="card" style="padding:12px"><p class="lbl" style="margin:0 0 8px">Online now</p><ul class="legs" id="who" style="margin:0"></ul></aside></div>`;
   const chat = V.querySelector('#chat');
   const bub = m => m.bot
     ? `<div class="bub" style="border-color:rgba(255,176,32,.45)"><small><span class="badge" style="color:var(--warn);border-color:var(--warn);padding:1px 5px">BOT</span> ${esc(m.bot)}${m.local ? ' · only you see this' : ' · ' + ago(m.created_at)}</small>${esc(m.body)}</div>`
     : `<div class="bub ${m.user_id === ME.id ? 'me' : ''}"><small><a href="#/u/${esc(names[m.user_id] || '')}" style="color:inherit">@${esc(names[m.user_id] || 'member')}</a> · ${ago(m.created_at)}</small>${esc(m.body)}</div>`;
-  const { data: msgs } = await sb.from('messages').select('*').eq('room_id', id).order('created_at', {ascending: false}).limit(150);
-  const list = (msgs || []).reverse();
-  const shown = new Set(list.map(m => m.id)); let lastAt = list.length ? list[list.length - 1].created_at : '1970-01-01';
-  chat.innerHTML = list.map(bub).join('') || '<p class="meta">No messages yet. Say something.</p>'; chat.scrollTop = chat.scrollHeight;
-  const addMsg = async m => { if (m.id && shown.has(m.id)) return; if (m.id) shown.add(m.id); if (m.created_at > lastAt) lastAt = m.created_at; if (m.user_id && !names[m.user_id]) await loadMembers(); if (chat.querySelector('p.meta')) chat.innerHTML = ''; chat.insertAdjacentHTML('beforeend', bub(m)); chat.scrollTop = chat.scrollHeight; };
-  const tour = async () => { for (const [b, t] of BOT_TOUR) { await new Promise(r => setTimeout(r, 1100)); if (!location.hash.startsWith('#/room/' + id)) return; addMsg({bot: b, body: t, local: true, created_at: new Date().toISOString()}); } };
-
-  const j = V.querySelector('#join');
-  if (j) j.onclick = async () => { const { error } = await sb.from('room_members').insert({room_id: id, user_id: ME.id}); if (error) return; if (room.pinned) { try { localStorage.setItem('bd_tour_' + id, '1'); } catch (e) {} sessionStorage.setItem('bd_tour_now', String(id)); } vRoom(id); };
-  if (joined && room.pinned && sessionStorage.getItem('bd_tour_now') === String(id)) { sessionStorage.removeItem('bd_tour_now'); tour(); }
-  const lv = V.querySelector('#leave'); if (lv) lv.onclick = async () => { await sb.from('room_members').delete().eq('room_id', id).eq('user_id', ME.id); vRoom(id); };
-  const dr = V.querySelector('#delr'); if (dr) dr.onclick = async () => { if (!confirm('Delete this room for everyone?')) return; await sb.from('rooms').delete().eq('id', id); location.hash = '#/rooms'; };
-
-  V.querySelector('#cf').onsubmit = async e => { e.preventDefault(); const i = V.querySelector('#ci'); const b = i.value.trim(); if (!b || !joined) return; i.value = ''; const { data, error } = await sb.from('messages').insert({room_id: id, user_id: ME.id, body: b}).select().single(); const cm = V.querySelector('#cm'); if (error) { cm.className = 'msg bad'; cm.textContent = error.message; i.value = b; } else { cm.textContent = ''; addMsg(data); } };
-
-  let RL = [];
-  const drawLegs = () => {
-    V.querySelector('#rl').innerHTML = RL.map(l => `<li><label style="display:flex;gap:8px;align-items:center;cursor:pointer"><input type="checkbox" data-id="${l.id}" ${l.in_ticket ? 'checked' : ''} ${joined ? '' : 'disabled'} style="width:auto;accent-color:#04ff9f"><span>${esc(l.leg)} <span class="meta">@${esc(names[l.user_id] || '')}</span></span></label><span>${l.pct ? `<b>${l.pct}%</b> ` : ''}${joined ? `<button class="btn sm bad" data-del="${l.id}" type="button" aria-label="Remove">x</button>` : ''}</span></li>`).join('') || '<li><span class="meta">No legs yet.</span></li>';
-    const on = RL.filter(l => l.in_ticket);
-    const hit = on.length && on.every(l => l.pct) ? Math.round(on.reduce((a, l) => a * l.pct / 100, 1) * 100) : null;
-    V.querySelector('#rh').textContent = on.length ? `${on.length} legs checked${hit != null ? ` · model hit chance about ${hit}%` : ''}` : '';
+  const { data: msgs } = await sb.from('messages').select('*').eq('room_id', id).order('created_at', {ascending: false}).limit(200);
+  const list = (msgs || []).reverse(); const shown = new Set(list.map(m => m.id)); let lastAt = list.length ? list[list.length - 1].created_at : '1970-01-01';
+  chat.innerHTML = list.map(bub).join('') || '<p class="meta">Quiet in here. Say something.</p>'; chat.scrollTop = chat.scrollHeight;
+  const addMsg = async m => { if (m.id && shown.has(m.id)) return; if (m.id) shown.add(m.id); if (m.created_at > lastAt) lastAt = m.created_at; if (m.user_id && !names[m.user_id]) await loadNames(); if (chat.querySelector('p.meta')) chat.innerHTML = ''; chat.insertAdjacentHTML('beforeend', bub(m)); chat.scrollTop = chat.scrollHeight; };
+  let toured = false; try { toured = !!localStorage.getItem('bd_chat_tour'); localStorage.setItem('bd_chat_tour', '1'); } catch (e) { toured = true; }
+  if (!toured) (async () => { for (const [b, t] of CHAT_TOUR) { await new Promise(r => setTimeout(r, 1100)); if (location.hash !== '#/chat') return; addMsg({bot: b, body: t, local: true, created_at: new Date().toISOString()}); } })();
+  V.querySelector('#cf').onsubmit = async e => {
+    e.preventDefault(); const i = V.querySelector('#ci'), cm = V.querySelector('#cm'); const b = i.value.replace(/\s+/g, ' ').trim(); if (!b) return;
+    const now = Date.now(); CHAT_LAST.times = CHAT_LAST.times.filter(t => now - t < 30000);
+    const links = (b.match(/https?:\/\/\S+|www\.\S+/gi) || []);
+    const why = now - CHAT_LAST.at < 3000 ? 'Slow down a sec.' : b.toLowerCase() === CHAT_LAST.body ? 'You just said that.' : CHAT_LAST.times.length >= 6 ? 'Easy. Too many messages, wait 30 seconds.' : links.some(l => !/kalshi\.com|bettordays\.xyz/i.test(l)) ? 'Only Kalshi and BettorDays links are allowed.' : /(.)\1{9,}/.test(b) ? 'That looks like spam.' : '';
+    if (why) { cm.className = 'msg bad'; cm.textContent = why; return; }
+    i.value = ''; CHAT_LAST = {at: now, body: b.toLowerCase(), times: [...CHAT_LAST.times, now]};
+    const { data, error } = await sb.from('messages').insert({room_id: id, user_id: ME.id, body: b}).select().single();
+    if (error) { cm.className = 'msg bad'; cm.textContent = /throttle|rate|too many/i.test(error.message) ? 'Slow down a sec.' : error.message; i.value = b; } else { cm.textContent = ''; addMsg(data); }
   };
-  const loadLegs = async () => { const { data } = await sb.from('room_legs').select('*').eq('room_id', id).order('created_at'); RL = data || []; drawLegs(); };
-  await loadLegs();
-  V.querySelector('#rl').onclick = async e => { const d = e.target.closest('[data-del]'); if (d) { await sb.from('room_legs').delete().eq('id', d.dataset.del); loadLegs(); } };
-  V.querySelector('#rl').onchange = async e => { const c = e.target.closest('input[data-id]'); if (c) await sb.from('room_legs').update({in_ticket: c.checked}).eq('id', c.dataset.id); };
-  if (joined) {
-    const adding = [];
-    legBuilder(V.querySelector('#rlb'), adding, async () => {
-      V.querySelector('#rlb .cur').style.display = 'none';
-      let added = false; while (adding.length) { const l = adding.shift(); await sb.from('room_legs').insert({room_id: id, user_id: ME.id, leg: l.text, pct: l.pct || null}); added = true; }
-      if (added) loadLegs();
-    });
-  }
-  V.querySelector('#rpost').onclick = () => { const on = RL.filter(l => l.in_ticket).map(l => ({text: l.leg, pct: l.pct || undefined})); if (on.length) { history.replaceState(null, '', '#/post'); setNav('post'); vPost(on); } };
-
   if (chan) sb.removeChannel(chan);
-  chan = sb.channel('room-' + id, {config: {presence: {key: ME.id}}})
+  chan = sb.channel('chat-' + id, {config: {presence: {key: ME.id}}})
     .on('postgres_changes', {event: 'INSERT', schema: 'public', table: 'messages', filter: 'room_id=eq.' + id}, ({ new: m }) => addMsg(m))
-    .on('postgres_changes', {event: '*', schema: 'public', table: 'room_legs', filter: 'room_id=eq.' + id}, loadLegs)
-    .on('presence', {event: 'sync'}, () => { const n = Object.keys(chan.presenceState()).length; const o = V.querySelector('#onl'); if (o) o.textContent = `● ${Math.max(1, n)} online`; })
+    .on('presence', {event: 'sync'}, () => { const st = chan.presenceState(); const us = [...new Set(Object.values(st).flat().map(x => x.u).filter(Boolean))]; const o = V.querySelector('#onl'); if (o) o.textContent = `● ${Math.max(1, us.length)} online`; const w = V.querySelector('#who'); if (w) w.innerHTML = us.map(u => `<li><a href="#/u/${esc(u)}">@${esc(u)}</a><span class="acc">●</span></li>`).join('') || '<li class="meta">Just you</li>'; })
     .subscribe(s => { if (s === 'SUBSCRIBED') chan.track({u: MYP.username}); });
-  const roomHash = location.hash;
-  const poll = setInterval(async () => {
-    if (location.hash !== roomHash) return clearInterval(poll);
-    const { data } = await sb.from('messages').select('*').eq('room_id', id).gt('created_at', lastAt).order('created_at');
-    for (const m of data || []) await addMsg(m);
-    loadLegs(); await loadMembers(); const mc = V.querySelector('#memc'); if (mc) mc.textContent = members.length + ' in the room';
-  }, 6000);
+  const poll = setInterval(async () => { if (location.hash !== '#/chat') return clearInterval(poll); const { data } = await sb.from('messages').select('*').eq('room_id', id).gt('created_at', lastAt).order('created_at'); for (const m of data || []) await addMsg(m); }, 6000);
+}
+
+/* ---------- App tour ---------- */
+function appTour(force) {
+  let seen = false; try { seen = !!localStorage.getItem('bd_app_tour'); } catch (e) { seen = true; }
+  if (seen && !force) return;
+  const S = [['#nav a[data-r="board"]', 'Board', "Today's capper picks with a hit % on every leg. Filter by sport or by games that haven't started. Tap legs to build a ticket."],
+    ['#nav a[data-r="feed"]', 'Feed', 'Tickets from everybody, or just the people you follow. Fire and tail the ones you like.'],
+    ['#nav a[data-r="chat"]', 'Chat', 'One room for the whole family. Talk your talk.'],
+    ['#nav a[data-r="leaders"]', 'Leaders', 'Who is actually cashing. Post your tickets to get on it.'],
+    ['#bell', 'The bell', 'Ring it when you want the picks. It pings HQ directly.'],
+    ['#nav a[data-r="me"]', 'Me', 'Your profile, privacy, and Kalshi connect so your real tickets sync in.']];
+  let i = 0; const ring = document.body.appendChild(Object.assign(document.createElement('div'), {className: 'tring'})), box = document.body.appendChild(Object.assign(document.createElement('div'), {className: 'tbox'}));
+  const end = () => { ring.remove(); box.remove(); try { localStorage.setItem('bd_app_tour', '1'); } catch (e) {} };
+  const show = () => { const [sel, h, t] = S[i]; const el = document.querySelector(sel); if (!el) { i++; return i < S.length ? show() : end(); } el.scrollIntoView({block: 'nearest', inline: 'center'}); const r = el.getBoundingClientRect();
+    Object.assign(ring.style, {top: r.top - 5 + 'px', left: r.left - 5 + 'px', width: r.width + 10 + 'px', height: r.height + 10 + 'px'});
+    box.innerHTML = `<span class="lbl acc">${i + 1} of ${S.length}</span><b>${h}</b><p>${t}</p><div class="row" style="justify-content:flex-end"><button class="btn sm" data-x="skip" type="button">Skip</button><button class="btn go sm" data-x="next" type="button">${i === S.length - 1 ? 'Done' : 'Next'}</button></div>`;
+    Object.assign(box.style, {top: r.bottom + 12 + 'px', left: Math.max(10, Math.min(r.left, innerWidth - 330)) + 'px'}); };
+  box.onclick = e => { const x = e.target.dataset.x; if (x === 'skip') end(); if (x === 'next') { i++; i < S.length ? show() : end(); } };
+  show();
 }
 
 const PING_K = {picks: "Ready for today's picks", update: 'Wants an update', recap: 'Wants the recap'};
@@ -558,20 +611,22 @@ async function vReset() {
 
 function setNav(r) { document.querySelectorAll('#nav a').forEach(a => a.classList.toggle('on', a.dataset.r === r)); }
 async function route() {
-  if (chan && !location.hash.startsWith('#/room/')) { sb.removeChannel(chan); chan = null; }
+  if (chan && location.hash !== '#/chat') { sb.removeChannel(chan); chan = null; }
+  V.onclick = null;
   const h = location.hash.replace(/^#\/?/, '');
   const [a, b] = h.split('/');
   if (h.startsWith('reset') ) { setNav(''); return vReset(); }
   if (a === 'post') { setNav('post'); return vPost(); }
   if (a === 'people') { setNav('people'); return vPeople(); }
   if (a === 'me') { setNav('me'); return vMe(); }
-  if (a === 'rooms') { setNav('rooms'); return vRooms(); }
+  if (a === 'rooms' || a === 'room' || a === 'chat') { if (a !== 'chat') history.replaceState(null, '', '#/chat'); setNav('chat'); return vChat(); }
+  if (a === 'board') { setNav('board'); return vBoard(); }
   if (a === 'orders' || a === 'inbox') { setNav('inbox'); return vInbox(b); }
   if (a === 'leaders') { setNav('leaders'); return vLeaders(); }
   if (a === 't' && b) { setNav('feed'); return vTicket(+b); }
-  if (a === 'room' && b) { setNav('rooms'); return vRoom(+b); }
   if (a === 'u' && b) { setNav(b === MYP.username ? 'me' : 'people'); return vUser(decodeURIComponent(b).toLowerCase()); }
-  setNav('feed'); return vFeed();
+  if (a === 'feed') { setNav('feed'); return vFeed(); }
+  setNav('board'); return vBoard();
 }
 
 sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') { history.replaceState(null, '', '#/reset'); vReset(); } });
@@ -586,8 +641,10 @@ sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') { history.repl
   document.getElementById('bell').onclick = ringBell;
   await loadAnn(); watchAnn();
   if (MYS && MYS.is_admin) { const o = document.createElement('a'); o.href = '#/inbox'; o.dataset.r = 'inbox'; o.textContent = 'Inbox'; document.getElementById('nav').appendChild(o); countUnread(); watchInbox(); }
+  document.getElementById('tourA').onclick = () => appTour(true);
   window.addEventListener('hashchange', route);
-  route();
+  await route();
+  setTimeout(() => appTour(false), 900);
 })();
 </script>
 </body>

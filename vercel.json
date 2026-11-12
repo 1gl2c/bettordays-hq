@@ -1,1 +1,8 @@
-{ "cleanUrls": true }
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/history", "destination": "/" },
+    { "source": "/results", "destination": "/" },
+    { "source": "/method", "destination": "/" }
+  ]
+}
