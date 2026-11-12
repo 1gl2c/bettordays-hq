@@ -136,7 +136,7 @@ function pickCard(p) {
     <span class="badge ${esc(p.status)}">${esc(p.status.replace('_', ' '))}</span>${p.source === 'kalshi' ? '<span class="badge">Kalshi sync</span>' : ''}</div>
     ${p.title ? `<h2 style="margin:12px 0 0;font-size:20px">${esc(p.title)}</h2>` : ''}
     <ul class="legs">${legs.map(l => `<li><span>${esc(l.text)}</span>${l.pct ? `<b>${esc(l.pct)}%</b>` : ''}</li>`).join('')}</ul>
-    <div class="nums">${p.stake != null ? `<div><span class="lbl">Stake</span><b>${money(p.stake)}</b></div>` : ''}${p.multiplier ? `<div><span class="lbl">Odds</span><b>${esc(p.multiplier)}x</b></div>` : ''}${p.payout != null ? `<div><span class="lbl">Pays</span><b style="color:var(--acc)">${money(p.payout)}</b></div>` : ''}${hit != null ? `<div><span class="lbl">Model hit %</span><b>${hit}%</b></div>` : ''}</div>
+    <div class="nums">${mine && MONEY[p.id] && MONEY[p.id].stake != null ? `<div><span class="lbl">Stake · only you</span><b>${money(MONEY[p.id].stake)}</b></div>` : ''}${p.multiplier ? `<div><span class="lbl">Odds</span><b>${esc(p.multiplier)}x</b></div>` : ''}${mine && MONEY[p.id] && MONEY[p.id].payout != null ? `<div><span class="lbl">Pays · only you</span><b style="color:var(--acc)">${money(MONEY[p.id].payout)}</b></div>` : ''}${hit != null ? `<div><span class="lbl">Model hit %</span><b>${hit}%</b></div>` : ''}</div>
     ${p.note ? `<p class="sub" style="margin:6px 0">${esc(p.note)}</p>` : ''}
     <div class="row rx" style="margin-top:10px;gap:6px"></div>
     <div class="row" style="margin-top:8px">${tail ? `<a class="btn go sm" href="${esc(tail)}" target="_blank" rel="noopener">Tail on Kalshi</a>` : ''}
@@ -148,7 +148,9 @@ function wirePicks(root) {
   root.querySelectorAll('.stSel').forEach(s => s.onchange = async () => { const id = s.closest('article').dataset.id; await sb.from('picks').update({status: s.value}).eq('id', id); route(); });
   root.querySelectorAll('.delPick').forEach(b => b.onclick = async () => { if (!confirm('Delete this ticket?')) return; await sb.from('picks').delete().eq('id', b.closest('article').dataset.id); route(); });
 }
-const PSEL = '*, profiles!picks_user_id_fkey(username, display_name, kalshi_link)';
+const PSEL = 'id, user_id, title, legs, multiplier, status, visibility, source, external_id, tail_url, note, created_at, profiles!picks_user_id_fkey(username, display_name, kalshi_link)';
+let MONEY = {};
+async function loadMoney() { if (!ME) return; const { data } = await sb.rpc('my_pick_money'); MONEY = {}; (data || []).forEach(r => MONEY[r.id] = r); }
 
 async function vFeed(mode) {
   mode = mode || 'everyone';
@@ -157,6 +159,7 @@ async function vFeed(mode) {
     <div class="tabs"><button class="btn ${mode === 'everyone' ? 'on' : ''}" data-m="everyone" type="button">Everyone</button><button class="btn ${mode === 'friends' ? 'on' : ''}" data-m="friends" type="button">Following</button><a class="btn go" href="#/board">+ Post a ticket</a></div><div id="list"><p class="sub">Loading...</p></div>`;
   V.querySelector('.tabs').onclick = e => { const b = e.target.closest('button'); if (b) vFeed(b.dataset.m); };
   modelCard().then(h => { const m = V.querySelector('#mc'); if (m) m.innerHTML = annHtml() + h; });
+  await loadMoney();
   let q = sb.from('picks').select(PSEL).order('created_at', {ascending: false}).limit(60);
   if (mode === 'friends') q = q.in('user_id', [...FOLLOWING, ME.id]);
   const { data, error } = await q;
@@ -190,7 +193,7 @@ function vPost(prefill) {
   <form class="card" id="pf" novalidate>
     <label class="f lbl" for="pt">Ticket name (optional)</label><input id="pt" maxlength="80" placeholder="Tuesday hammer">
     <p class="lbl" style="margin:14px 0 0">Legs</p><div id="lb"></div>
-    <div class="two"><div><label class="f lbl" for="ps">Stake ($)</label><input id="ps" type="number" min="0" step="0.01" inputmode="decimal"></div><div><label class="f lbl" for="pm">Odds (x)</label><input id="pm" type="number" min="1" step="0.01" inputmode="decimal" placeholder="2.16"></div></div>
+    <div class="two"><div><label class="f lbl" for="ps">Stake ($, only you see it)</label><input id="ps" type="number" min="0" step="0.01" inputmode="decimal"></div><div><label class="f lbl" for="pm">Odds (x)</label><input id="pm" type="number" min="1" step="0.01" inputmode="decimal" placeholder="2.16"></div></div>
     <p class="meta" id="pay" style="margin-top:6px"></p>
     <label class="f lbl" for="pu">Kalshi link for this ticket (optional, so people can tail)</label><input id="pu" type="url" placeholder="https://kalshi.com/...">
     <label class="f lbl" for="pn">Note (optional)</label><textarea id="pn" maxlength="280" rows="2"></textarea>
@@ -240,6 +243,7 @@ function wireFollow(root) {
 async function vUser(name) {
   const { data: p } = await sb.from('profiles').select('*').eq('username', name).maybeSingle();
   if (!p) { V.innerHTML = '<div class="empty">No user with that name.</div>'; return; }
+  await loadMoney();
   let [{ count: fr }, { count: fg }, { data: picks }] = await Promise.all([
     sb.from('follows').select('*', {count: 'exact', head: true}).eq('followee', p.id),
     sb.from('follows').select('*', {count: 'exact', head: true}).eq('follower', p.id),
@@ -348,7 +352,7 @@ async function vBoard() {
     const hit = Math.round(legs.reduce((a, l) => a * (l.pct || 100) / 100, 1) * 100);
     s.innerHTML = `<div class="row"><b>${legs.length} leg${legs.length > 1 ? 's' : ''}</b><span class="meta">hit chance about ${hit}% by our grades</span><span class="sp"></span><button class="btn sm" id="sclr" type="button">Clear</button><button class="btn go" id="sgo" type="button">Post to feed</button></div>
     <div id="sform" hidden><div class="slegs">${legs.map(l => `<span class="badge">${esc(l.text)} · ${l.pct}%</span>`).join(' ')}</div>
-    <div class="two"><div><label class="f lbl" for="ss">Stake ($)</label><input id="ss" type="number" min="0" step="0.01" inputmode="decimal"></div><div><label class="f lbl" for="sm2">Kalshi payout (x)</label><input id="sm2" type="number" min="1" step="0.01" inputmode="decimal" placeholder="2.40"></div></div>
+    <div class="two"><div><label class="f lbl" for="ss">Stake ($, only you see it)</label><input id="ss" type="number" min="0" step="0.01" inputmode="decimal"></div><div><label class="f lbl" for="sm2">Kalshi payout (x)</label><input id="sm2" type="number" min="1" step="0.01" inputmode="decimal" placeholder="2.40"></div></div>
     <label class="f lbl" for="su">Kalshi link (optional, lets friends tail)</label><input id="su" type="url" placeholder="https://kalshi.com/...">
     <label class="f lbl" for="sn">Say something (optional)</label><input id="sn" maxlength="200" placeholder="I like this today">
     <label class="f lbl" for="sv">Who sees it</label><select id="sv"><option value="public">Everyone</option><option value="friends">Friends only</option><option value="private">Only me</option></select>
@@ -553,6 +557,7 @@ async function loadReactions(root) {
 }
 
 async function vTicket(id) {
+  await loadMoney();
   const { data } = await sb.from('picks').select(PSEL).eq('id', id).maybeSingle();
   V.innerHTML = `<div class="row" style="margin-bottom:10px"><a class="btn sm" href="#/feed">Back to feed</a></div>` + (data ? pickCard(data) : '<div class="empty">This ticket is private or was deleted.</div>');
   wirePicks(V); loadReactions(V);
@@ -560,14 +565,12 @@ async function vTicket(id) {
 
 async function vLeaders(win) {
   win = win || 30;
-  const since = new Date(Date.now() - win * 86400000).toISOString();
-  const { data } = await sb.from('picks').select('user_id, status, stake, payout, profiles!picks_user_id_fkey(username, display_name)').in('status', ['won', 'lost', 'cashed_out']).gte('created_at', since).limit(2000);
-  const T = {};
-  (data || []).forEach(p => { const t = T[p.user_id] = T[p.user_id] || {u: p.profiles, w: 0, l: 0, net: 0, staked: 0}; const s = +p.stake || 0; t.staked += s; if (p.status === 'won') { t.w++; t.net += (+p.payout || 0) - s; } else if (p.status === 'lost') { t.l++; t.net -= s; } else { t.net += (+p.payout || 0) - s; } });
-  const rows = Object.values(T).filter(t => t.w + t.l >= 1).sort((a, b) => b.net - a.net || (b.w - b.l) - (a.w - a.l));
-  V.innerHTML = `<h1>The <span>leaderboard</span></h1><p class="sub">Ranked by profit on settled public tickets. Mark your tickets won or lost to get on the board.</p>
+  const { data } = await sb.rpc('leaderboard', {days: win});
+  const rows = (data || []).filter(t => t.w + t.l >= 1);
+  const ck = n => `${n >= 0 ? '+' : '-'}${Math.abs(+n).toFixed(1).replace(/\.0$/, '')}`;
+  V.innerHTML = `<h1>The <span>leaderboard</span></h1><p class="sub">Ranked in 🍪 cookies, never dollars. A cookie is one of <b>your own</b> average bets in profit, so a $10 bettor and a $100 bettor race on the same track. Win one ticket's worth more than you lost: +1 🍪. Nobody's money is shown here.</p>
   <div class="tabs">${[[7, '7 days'], [30, '30 days'], [365, 'All time']].map(([d, l]) => `<button class="btn ${d === win ? 'on' : ''}" data-d="${d}" type="button">${l}</button>`).join('')}</div>
-  ${rows.map((t, i) => `<a class="card row" href="#/u/${esc(t.u?.username)}" style="text-decoration:none;color:var(--tx);${i === 0 ? 'border-color:var(--acc)' : ''}"><b style="font:900 26px Kanit,sans-serif;width:42px;color:${i < 3 ? 'var(--acc)' : 'var(--mu)'}">${i === 0 ? '👑' : '#' + (i + 1)}</b><div><b>${esc(t.u?.display_name || t.u?.username)}</b> <span class="meta">@${esc(t.u?.username)}</span><div class="meta">${t.w}-${t.l} · ${t.w + t.l ? Math.round(100 * t.w / (t.w + t.l)) : 0}% · ROI ${t.staked ? Math.round(100 * t.net / t.staked) : 0}%</div></div><span class="sp"></span><b style="font:900 20px Kanit,sans-serif;color:${t.net >= 0 ? 'var(--acc)' : 'var(--bad)'}">${t.net >= 0 ? '+' : '-'}${money(Math.abs(t.net))}</b></a>`).join('') || '<div class="empty">No settled tickets yet. Post one, mark it won or lost, and take the crown.</div>'}`;
+  ${rows.map((t, i) => `<a class="card row" href="#/u/${esc(t.username)}" style="text-decoration:none;color:var(--tx);${i === 0 ? 'border-color:var(--acc)' : ''}"><b style="font:900 26px Kanit,sans-serif;width:42px;color:${i < 3 ? 'var(--acc)' : 'var(--mu)'}">${i === 0 ? '👑' : '#' + (i + 1)}</b><div><b>${esc(t.display_name || t.username)}</b> <span class="meta">@${esc(t.username)}</span><div class="meta">${t.w}-${t.l} · ${t.w + t.l ? Math.round(100 * t.w / (t.w + t.l)) : 0}% tickets cashed · ROI ${t.roi}%</div></div><span class="sp"></span><b style="font:900 20px Kanit,sans-serif;color:${t.cookies >= 0 ? 'var(--acc)' : 'var(--bad)'}">${ck(t.cookies)} 🍪</b></a>`).join('') || '<div class="empty">No settled tickets yet. Post one, mark it won or lost, and take the crown.</div>'}`;
   V.querySelector('.tabs').onclick = e => { const b = e.target.closest('button'); if (b) vLeaders(+b.dataset.d); };
 }
 
