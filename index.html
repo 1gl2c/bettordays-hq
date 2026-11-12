@@ -161,7 +161,7 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
       <div class="brand">BettorDays <span>HQ</span></div>
     </div>
     <nav class="nav" aria-label="Sections">
-      <a class="btn" href="#drop">Next drop</a><a class="btn" href="#wednesday">Wednesday</a><a class="btn" href="#review10">Tue review</a><a class="btn" href="#tuesday">Tuesday</a><a class="btn" href="#monday">Monday</a><a class="btn" href="#recap">Results</a><a class="btn" href="#lotto">Lotto Lab</a><a class="btn" href="#sunday">Sunday</a><a class="btn" href="#thesis">Thesis</a>
+      <a class="btn" href="#drop">Next drop</a><a class="btn" href="#wednesday">Wednesday</a><a class="btn" href="#wednesday" onclick="setTimeout(()=>{const b=[...document.querySelectorAll('#wednesday button')].find(x=>x.textContent.includes('6:30'));b&&b.click()},50)">6:30 + 7 PM</a><a class="btn" href="#review10">Tue review</a><a class="btn" href="#tuesday">Tuesday</a><a class="btn" href="#monday">Monday</a><a class="btn" href="#recap">Results</a><a class="btn" href="#lotto">Lotto Lab</a><a class="btn" href="#sunday">Sunday</a><a class="btn" href="#thesis">Thesis</a>
       <a class="btn" href="#edge">Edge map</a>
       <a class="btn" href="#structure">Structure</a>
       <a class="btn" href="#ledger">Ledger</a>
@@ -833,9 +833,9 @@ const WTIX=[{"t": "Hammer \u00b7 PLAYED", "c": "#04ff9f", "legs": ["Nikola Jokic
  document.getElementById('wedPool').innerHTML=pool.map(r=>`<span class="chip">${r.p} <b>${r.pct}</b>${rb(r)}<small>${r.g} ${r.t}</small></span>`).join('')+`<span class="chip" style="border-color:var(--line);background:none"><small>${pool.length} legs · all hit about ${(Math.pow(.88,pool.length)*100).toFixed(1)}% at 88% per leg</small></span>`;
  document.getElementById('wedAny').innerHTML=[...live].sort((a,b)=>b.pct-a.pct).slice(0,25).map(r=>`<li>${r.p} <span style="color:#04ff9f">${r.pct}%</span>${fl(r)}${rb(r)}</li>`).join('');
  document.getElementById('wedReg').innerHTML=live.filter(r=>r.st==='reg').sort((a,b)=>b.pct-a.pct).slice(0,25).map(r=>`<li>${r.p} <span style="color:#00c8ff">${r.pct}%</span>${fl(r)}${rb(r)}</li>`).join('');
- let F='all';const L=[['all','All'],['70','70%+'],['clean','Clean (no flags)'],['nba','NBA'],['other','Tennis, NHL, CFB'],['move','Moved lines'],['ml','Moneylines'],['prop','Props'],['reg','Regular lines'],['alt','Alts'],['flag','Flagged']];
+ let F='all';const L=[['all','All'],['70','70%+'],['clean','Clean (no flags)'],['nba','NBA'],['late','🕡 6:30 + 7 PM games'],['other','Tennis, NHL, CFB'],['move','Moved lines'],['ml','Moneylines'],['prop','Props'],['reg','Regular lines'],['alt','Alts'],['flag','Flagged']];
  const fe=document.getElementById('wedF');fe.innerHTML=L.map(([k,n])=>`<button class="btn ${k===F?'on':''}" data-f="${k}" type="button">${n}</button>`).join('');
- const ok=x=>F==='all'||(F==='clean'&&!x.fl)||(F==='70'&&x.pct>=70)||(F==='nba'&&x.sp==='NBA')||(F==='other'&&x.sp!=='NBA')||(F==='move'&&x.moved)||(F==='flag'&&x.fl)||x.ty===F||x.st===F;
+ const ok=x=>F==='all'||(F==='clean'&&!x.fl)||(F==='70'&&x.pct>=70)||(F==='nba'&&x.sp==='NBA')||(F==='late'&&(x.g==='GSW@HOU'||x.g==='OKC@POR'))||(F==='other'&&x.sp!=='NBA')||(F==='move'&&x.moved)||(F==='flag'&&x.fl)||x.ty===F||x.st===F;
  const draw=()=>{const r=WED.filter(ok).sort((a,b)=>b.pct-a.pct);document.getElementById('wedT').innerHTML='<thead><tr><th>#</th><th>Pick</th><th>Grade</th><th>Hit %</th><th>Game</th><th>PT</th><th>Note</th></tr></thead><tbody>'+r.map((x,i)=>`<tr><td class="mono" style="color:#5b6b64">${i+1}</td><td>${x.p}<span class="tag">${x.st.toUpperCase()}</span>${fl(x)}${rb(x)}</td><td class="mono">${x.pct?SG(x.pct):'X'}</td><td class="mono"><span class="minibar"><i style="width:${x.pct}%"></i></span>${x.pct||'OUT'}</td><td class="lbl">${x.g}</td><td class="mono">${x.t}</td><td style="color:#8a9a93;white-space:normal;min-width:180px">${x.n}${x.mv?`<br><b style="color:var(--acc)">Better: ${x.mv}</b>`:''}</td></tr>`).join('')+'</tbody>'};
  fe.onclick=e=>{const b=e.target.closest('button');if(!b)return;F=b.dataset.f;fe.querySelectorAll('.btn').forEach(x=>x.classList.toggle('on',x===b));draw()};draw();})();
 
