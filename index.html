@@ -153,13 +153,14 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
 .fl{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--warn);color:var(--warn);padding:1px 5px;margin-left:6px;white-space:nowrap}
 .fl.x{border-color:var(--bad);color:var(--bad)}
 .tring{position:absolute;z-index:9998;border:2px solid var(--acc);box-shadow:0 0 0 9999px rgba(0,0,0,.55),0 0 24px rgba(4,255,159,.5);pointer-events:none;transition:all .25s}.tbox{position:absolute;z-index:9999;width:320px;max-width:calc(100vw - 20px);background:#0e1412;border:1px solid var(--acc);padding:14px;box-shadow:0 10px 40px rgba(0,0,0,.6)}.tbox b{display:block;font-family:var(--display);font-size:20px;text-transform:uppercase;margin:4px 0}.tbox p{margin:0 0 10px;color:#cfd8d4;font-size:14px;line-height:1.45}.tbox .row{display:flex;justify-content:flex-end;gap:8px}.btn.hot{background:var(--acc);color:#04120b;border-color:var(--acc)}
+.kstrip{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:8px;margin:6px 0 10px}.kstrip .k{border:1px solid var(--line);padding:12px 14px;background:rgba(4,255,159,.03)}.kstrip .k.big{border-color:var(--acc);background:rgba(4,255,159,.08)}.kstrip b{display:block;font-family:var(--display);font-size:34px;line-height:1;color:var(--acc)}.kstrip .k.big b{font-size:46px}.kstrip span{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);line-height:1.4;display:block;margin-top:6px}@media (max-width:640px){.kstrip{grid-template-columns:repeat(3,1fr)}.kstrip b{font-size:26px}.kstrip .k{padding:10px}.kstrip span{font-size:10px}.kstrip .k.big{grid-column:1/-1}}
 .bfil{display:grid;gap:6px;margin:8px 0 10px}.bfrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.bfrow .lbl{min-width:70px}.btn.sm{font-size:11px;padding:6px 9px}
 </style>
 
 <div class="wrap">
   <header class="top">
     <div>
-      <div class="sys"><span class="dot"></span><span class="lbl">Thursday Nov 12 board live · 502 graded legs since Nov 4</span></div>
+      <div class="sys"><span class="dot"></span><span class="lbl">Thursday Nov 12 picks are live</span></div>
       <div class="brand">BettorDays <span>HQ</span></div>
     </div>
     <nav class="nav" aria-label="Pages">
@@ -215,14 +216,16 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
 
 
   <section class="panel" id="thursday">
-    <h2>Thursday board · Nov 12 <small>92 capper picks + 14 moved lines · 4 NBA games, TNF Commanders at Giants, NHL</small></h2>
-    <div class="flags" style="margin-bottom:14px">
-      <div class="flag w"><b>Out tonight</b><div class="r warn">checked</div><p>Anthony Edwards, DiVincenzo (MIN). Lively (DAL). Miller, Knueppel, Schroder (CHA). Kawhi, Barnes, Jackson-Davis (TOR). Duren, Ivey, Joe (DET). LeBron (PHI). McLaurin, Dyami Brown on IR (WAS).</p><div class="who">Embiid questionable · Skattebo expected back</div></div>
-      <div class="flag"><b>Back-to-backs</b><div class="r warn">flagged</div><p>Raptors and Wizards both played last night. AD props are flagged: he could sit.</p><div class="who">Fade tired teams, not tired stars</div></div>
-      <div class="flag"><b>Rosters moved</b><div class="r warn">verified</div><p>Naz Reid is a Hornet. Ayo Dosunmu is a Wolf and starting. Miles Bridges is a Sun. Trae Young and AD are Wizards. J.J. McCarthy starts for the Giants.</p><div class="who">Graded on the right team</div></div>
-      <div class="flag g"><b>TNF read</b><div class="r acc">Giants -1.5 · 42.5</div><p>Daniels ran for 103 in the first meeting and has 0 picks all year. Washington's top WRs are hurt, so Okonkwo, Antonio Williams and White soak up targets.</p><div class="who">Coin-flip side, props are the play</div></div>
+    <h2>Thursday picks · Nov 12 <small>92 capper picks graded + 14 lines we moved</small></h2>
+    <div class="kstrip">
+      <div class="k big"><b>85%</b><span>Our 70%+ picks hit, all time<br>126 of 148</span></div>
+      <div class="k"><b>89%</b><span>Wednesday<br>39 of 44</span></div>
+      <div class="k"><b>90%</b><span>Tuesday<br>19 of 21</span></div>
+      <div class="k"><b>13-7</b><span>Main tickets<br>+$3,265</span></div>
     </div>
-    <h3>Thursday tickets · Model v4 · $390 plan</h3>
+    <p class="note" style="margin:0 0 16px">Hit % is how often we expect a pick to land. Start with the parlays, build your own from the 70 pool, or use the chart to filter every pick.</p>
+    
+    <h3>Today's suggested parlays</h3>
     <p class="note" style="margin:4px 0 10px">Hit chances multiply our raw grades. Payouts are what to expect on Kalshi; lock only at the number shown or better.</p>
     <div class="struct" id="thuTix"></div>
     <h3 style="margin-top:18px">Clean 70 pool · today's Lotto Lab legs</h3>
@@ -234,6 +237,13 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
     </div>
     <div class="filters" id="thuF" style="margin-top:16px"></div>
     <div class="scroll" style="max-height:620px;overflow-y:auto"><table id="thuT"></table></div>
+  <details class="notes" style="margin-top:16px"><summary class="lbl" style="cursor:pointer">Injury and matchup notes</summary><div class="flags" style="margin-bottom:14px">
+      <div class="flag w"><b>Out tonight</b><div class="r warn">checked</div><p>Anthony Edwards, DiVincenzo (MIN). Lively (DAL). Miller, Knueppel, Schroder (CHA). Kawhi, Barnes, Jackson-Davis (TOR). Duren, Ivey, Joe (DET). LeBron (PHI). McLaurin, Dyami Brown on IR (WAS).</p><div class="who">Embiid questionable · Skattebo expected back</div></div>
+      <div class="flag"><b>Back-to-backs</b><div class="r warn">flagged</div><p>Raptors and Wizards both played last night. AD props are flagged: he could sit.</p><div class="who">Fade tired teams, not tired stars</div></div>
+      <div class="flag"><b>Rosters moved</b><div class="r warn">verified</div><p>Naz Reid is a Hornet. Ayo Dosunmu is a Wolf and starting. Miles Bridges is a Sun. Trae Young and AD are Wizards. J.J. McCarthy starts for the Giants.</p><div class="who">Graded on the right team</div></div>
+      <div class="flag g"><b>TNF read</b><div class="r acc">Giants -1.5 · 42.5</div><p>Daniels ran for 103 in the first meeting and has 0 picks all year. Washington's top WRs are hurt, so Okonkwo, Antonio Williams and White soak up targets.</p><div class="who">Coin-flip side, props are the play</div></div>
+    </div>
+    </details>
   </section>
 
 
@@ -934,8 +944,8 @@ const HTIX=[{"t": "Power 3 \u00b7 the core", "c": "#04ff9f", "legs": ["Cade Cunn
 document.getElementById('thuTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('PLAYED'),k=t.res;return `<div class="st"${k==='W'?' style="border-color:var(--acc);box-shadow:0 0 22px rgba(4,255,159,.22)"':''}>${pl?'<span class="lbl acc" style="display:block;margin-bottom:4px">● Placed</span>':''}<h3 style="color:${t.c}">${t.t}${k?` <span class="res ${k==='W'?'w':'l'}">${k==='W'?'CASHED':'MISSED'}</span>`:''}</h3>${t.legs.map(l=>{const r=THU.find(x=>x.p===l);const q=r&&r.r;return `<div class="row"${q==='L'?' style="color:var(--bad)"':''}><span>${q==='W'?'✓ ':q==='L'?'✗ ':''}${l}</span><b>${r?r.pct:''}</b></div>`}).join('')}<div class="row"><span>Hit chance</span><b>${t.hit}</b></div><div class="row"><span>Stake</span><b>${t.stake}</b></div><div class="row"><span>Lock at</span><b>${t.lock}</b></div><p class="note" style="margin:10px 0 0">${t.v}</p></div>`}).join('');
 
 /* pages router */
-(function(){const MAP={drop:'home',thursday:'home',review11:'home',wednesday:'history',review10:'history',tuesday:'history',monday:'history',recap9:'history',recap:'history',sunday:'history',ledger:'results',legs:'results',marbles:'method',thesis:'method',edge:'method',structure:'method',lotto:'method'};
- const T=document.querySelector('.tiles');if(T)T.dataset.pg='home';
+(function(){const MAP={drop:'off',thursday:'home',review11:'history',wednesday:'history',review10:'history',tuesday:'history',monday:'history',recap9:'history',recap:'history',sunday:'history',ledger:'results',legs:'results',marbles:'method',thesis:'method',edge:'method',structure:'method',lotto:'method'};
+ const T=document.querySelector('.tiles');if(T)T.dataset.pg='results';
  Object.entries(MAP).forEach(([id,p])=>{const e=document.getElementById(id);if(e)e.dataset.pg=p});
  document.querySelectorAll('.wrap > section').forEach(e=>{if(e.dataset.pg)return;const h=(e.querySelector('h2')||{}).textContent||'';e.dataset.pg=/Calibration|Scoreboard/.test(h)?'results':/Red flags|Rulebook/.test(h)?'method':'history'});
  const PAGES=['home','history','results','method'];
@@ -947,13 +957,7 @@ document.getElementById('thuTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);const e=document.getElementById(h);if(e)go(e.dataset.pg||'home',h);else go(cur())});
  const h0=location.hash.slice(1);go(cur(),document.getElementById(h0)?h0:null);})();
 /* guided tour */
-(function(){const S=[['.nav [data-go="home"]','Home','Today lives here: the countdown to the next drop, the record, yesterday\'s recap, and today\'s board once it lands.'],
- ['#drop','The countdown','Board drops by 2 PM PT, tickets by 3. When it hits zero, today\'s picks are up. Members get the bell.'],
- ['.tiles','The record','Every number here is graded against the real box score. Wins and losses.'],
- ['.nav [data-go="history"]','History','Every past day: the board, every ticket, and what we learned.'],
- ['.nav [data-go="results"]','Results','The full ledger and every single leg we have ever graded.'],
- ['.nav [data-go="method"]','How it works','How a pick gets its hit %, and why 3 legs at 70%+ is the play.'],
- ['.nav .hot','Pick & post','Make a free account, tap legs straight off the board, and post your ticket to the feed.']];
+(function(){const S=[['.nav [data-go="home"]','Home','Today\'s picks. That\'s it.'],['.kstrip','The record','How often our 70%+ picks actually hit, graded against real box scores.'],['#thuTix','Suggested parlays','Our tickets for today. Lock each one at the payout shown or better.'],['#thuPool','The 70 pool','Every clean pick graded 70%+. Build your own 3-leg from here.'],['#thuF','The chart','Every pick. Filter by sport or by games that haven\'t started yet.'],['.nav .hot','Pick & post','Free account. Tap legs off the board and post your ticket.']];
  let i=0,box,ring;const end=()=>{box&&box.remove();ring&&ring.remove();try{localStorage.setItem('bd_tour','1')}catch(e){}};
  const show=()=>{const [sel,h,t]=S[i];const el=document.querySelector(sel);if(!el||el.offsetParent===null&&sel!=='.nav .hot'){i++;return i<S.length?show():end()}
   el.scrollIntoView({block:'center'});const r=el.getBoundingClientRect();
@@ -965,7 +969,7 @@ document.getElementById('thuTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  const start=()=>{i=0;if(window.BDgo)window.BDgo('home');setTimeout(show,150)};
  document.getElementById('tourBtn').onclick=start;
  let seen=false;try{seen=!!localStorage.getItem('bd_tour')}catch(e){seen=true}
- if(!seen&&!/join=1/.test(location.search))setTimeout(()=>{const d=document.getElementById('drop');if(d&&!d.hidden){i=0;show()}},1800);})();
+ if(!seen&&!/join=1/.test(location.search))setTimeout(()=>{const d=document.getElementById('thursday');if(d&&!d.hidden){i=0;show()}},1800);})();
 /* daily drop countdown, Pacific time */
 (function(){const TIP={'2026-11-11':16*60};const el=id=>document.getElementById(id);const box=el('drop');if(!box)return;
  const fmt=new Intl.DateTimeFormat('en-US',{timeZone:'America/Los_Angeles',hourCycle:'h23',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit'});
