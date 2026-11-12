@@ -416,7 +416,7 @@ async function vChat() {
   chan = sb.channel('chat-' + id, {config: {presence: {key: ME.id}}})
     .on('postgres_changes', {event: 'INSERT', schema: 'public', table: 'messages', filter: 'room_id=eq.' + id}, ({ new: m }) => addMsg(m))
     .on('presence', {event: 'sync'}, () => { const st = chan.presenceState(); const us = [...new Set(Object.values(st).flat().map(x => x.u).filter(Boolean))]; const o = V.querySelector('#onl'); if (o) o.textContent = `● ${Math.max(1, us.length)} online`; const w = V.querySelector('#who'); if (w) w.innerHTML = us.map(u => `<li><a href="#/u/${esc(u)}">@${esc(u)}</a><span class="acc">●</span></li>`).join('') || '<li class="meta">Just you</li>'; })
-    .subscribe(s => { if (s === 'SUBSCRIBED') chan.track({u: MYP.username}); });
+    .subscribe(s => { if (s === 'SUBSCRIBED') setTimeout(() => chan && chan.track({u: MYP.username}), 0); });
   const poll = setInterval(async () => { if (location.hash !== '#/chat') return clearInterval(poll); const { data } = await sb.from('messages').select('*').eq('room_id', id).gt('created_at', lastAt).order('created_at'); for (const m of data || []) await addMsg(m); }, 6000);
 }
 
