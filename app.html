@@ -80,6 +80,23 @@ label.f{display:block;margin:10px 0 5px}
 @media (max-width:640px){.chatwrap{grid-template-columns:1fr}.chatwrap aside{order:-1}}
 .tring{position:fixed;z-index:9998;border:2px solid var(--acc);box-shadow:0 0 0 9999px rgba(0,0,0,.55),0 0 24px rgba(4,255,159,.5);pointer-events:none;transition:all .25s}
 .tbox{position:fixed;z-index:9999;width:320px;max-width:calc(100vw - 20px);background:#0e1412;border:1px solid var(--acc);padding:14px;box-shadow:0 10px 40px rgba(0,0,0,.6)}.tbox b{display:block;font:900 20px Kanit,sans-serif;text-transform:uppercase;margin:4px 0}.tbox p{margin:0 0 10px;color:#cfd8d4;font-size:14px;line-height:1.45}
+
+.tabbar,.msheet{display:none}
+@media (max-width:900px){
+ #nav{display:none}
+ body{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
+ .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:45;background:rgba(8,12,10,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:6px max(6px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px))}
+ .tabbar a,.tabbar button{display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;background:none;border:0;color:var(--mu);font:600 10.5px 'Geist Mono',monospace;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer}
+ .tabbar i{font-style:normal;font-size:21px;line-height:1;filter:grayscale(1);opacity:.75}
+ .tabbar .on{color:var(--acc)}.tabbar .on i{filter:none;opacity:1}
+ .tabbar .post i{background:var(--acc);color:#04130c;border-radius:50%;width:30px;height:30px;display:grid;place-items:center;font-weight:900;font-size:20px;filter:none;opacity:1}
+ .tabbar .post.on i{box-shadow:0 0 14px var(--acc)}
+ .msheet{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.55);backdrop-filter:blur(3px);display:block}
+ .msheet[hidden]{display:none}
+ .msheet .in{position:absolute;left:0;right:0;bottom:0;background:var(--p);border-top:1px solid var(--acc);padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:1fr 1fr;gap:8px}
+ .msheet .in a,.msheet .in button{display:flex;align-items:center;gap:10px;padding:16px 14px;border:1px solid var(--line);background:rgba(255,255,255,.02);color:var(--tx);font:600 15px Geist,sans-serif;text-decoration:none;cursor:pointer;text-align:left}
+ .msheet .lbl{grid-column:1/-1}
+}
 </style>
 </head>
 <body>
@@ -428,18 +445,18 @@ async function vChat() {
 function appTour(force) {
   let seen = false; try { seen = !!localStorage.getItem('bd_app_tour'); } catch (e) { seen = true; }
   if (seen && !force) return;
-  const S = [['#nav a[data-r="board"]', 'Board', "Today's capper picks with a hit % on every leg. Filter by sport or by games that haven't started. Tap legs to build a ticket."],
-    ['#nav a[data-r="feed"]', 'Feed', 'Tickets from everybody, or just the people you follow. Fire and tail the ones you like.'],
-    ['#nav a[data-r="chat"]', 'Chat', 'One room for the whole family. Talk your talk.'],
-    ['#nav a[data-r="leaders"]', 'Leaders', 'Who is actually cashing. Post your tickets to get on it.'],
+  const S = [['#nav a[data-r="board"], .tabbar .post', 'Board', "Today's capper picks with a hit % on every leg. Filter by sport or by games that haven't started. Tap legs to build a ticket."],
+    ['#nav a[data-r="feed"], #mMore', 'Feed', 'Feed, Chat, Leaders and your profile live under More. Tickets from everybody, fire and tail the ones you like.'],
+    ['#nav a[data-r="chat"], #mMore', 'Chat', 'One room for the whole family. Talk your talk.'],
+    ['#nav a[data-r="leaders"], #mMore', 'Leaders', 'Who is actually cashing. Post your tickets to get on it.'],
     ['#bell', 'The bell', 'Ring it when you want the picks. It pings HQ directly.'],
-    ['#nav a[data-r="me"]', 'Me', 'Your profile, privacy, and Kalshi connect so your real tickets sync in.']];
+    ['#nav a[data-r="me"], #mMore', 'Me', 'Your profile, privacy, and Kalshi connect so your real tickets sync in.']];
   let i = 0; const ring = document.body.appendChild(Object.assign(document.createElement('div'), {className: 'tring'})), box = document.body.appendChild(Object.assign(document.createElement('div'), {className: 'tbox'}));
   const end = () => { ring.remove(); box.remove(); try { localStorage.setItem('bd_app_tour', '1'); } catch (e) {} };
-  const show = () => { const [sel, h, t] = S[i]; const el = document.querySelector(sel); if (!el) { i++; return i < S.length ? show() : end(); } el.scrollIntoView({block: 'nearest', inline: 'center'}); const r = el.getBoundingClientRect();
+  const show = () => { const [sel, h, t] = S[i]; const el = [...document.querySelectorAll(sel)].find(x => x.getClientRects().length); if (!el || (el.id === 'mMore' && show.m)) { i++; return i < S.length ? show() : end(); } if (el.id === 'mMore') show.m = 1; el.scrollIntoView({block: 'nearest', inline: 'center'}); const r = el.getBoundingClientRect();
     Object.assign(ring.style, {top: r.top - 5 + 'px', left: r.left - 5 + 'px', width: r.width + 10 + 'px', height: r.height + 10 + 'px'});
     box.innerHTML = `<span class="lbl acc">${i + 1} of ${S.length}</span><b>${h}</b><p>${t}</p><div class="row" style="justify-content:flex-end"><button class="btn sm" data-x="skip" type="button">Skip</button><button class="btn go sm" data-x="next" type="button">${i === S.length - 1 ? 'Done' : 'Next'}</button></div>`;
-    Object.assign(box.style, {top: r.bottom + 12 + 'px', left: Math.max(10, Math.min(r.left, innerWidth - 330)) + 'px'}); };
+    Object.assign(box.style, {top: (r.bottom + 190 > innerHeight ? Math.max(10, r.top - 200) : r.bottom + 12) + 'px', left: Math.max(10, Math.min(r.left, innerWidth - 330)) + 'px'}); };
   box.onclick = e => { const x = e.target.dataset.x; if (x === 'skip') end(); if (x === 'next') { i++; i < S.length ? show() : end(); } };
   show();
 }
@@ -650,5 +667,22 @@ sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') { history.repl
   setTimeout(() => appTour(false), 900);
 })();
 </script>
+<nav class="tabbar" aria-label="App">
+  <a href="/"><i>📋</i>Picks</a>
+  <a href="/easy"><i>✌️</i>Tap 3</a>
+  <a class="post" href="#/board" data-t="board"><i>+</i>Post</a>
+  <a href="/results"><i>📈</i>Results</a>
+  <button type="button" id="mMore"><i>☰</i>More</button>
+</nav>
+<div class="msheet" id="mSheet" hidden><div class="in" role="dialog" aria-label="More">
+  <span class="lbl" style="color:var(--acc)">More</span>
+  <a href="#/feed">🎟 Feed</a><a href="#/leaders">🏆 Leaderboard</a>
+  <a href="#/chat">💬 Chat</a><a href="#/people">👥 People</a>
+  <a href="#/me">👤 My profile</a><a href="#/inbox" id="mInbox" hidden>📬 Inbox</a>
+  <button type="button" id="mBell">🛎️ Ring the bell</button><button type="button" id="mTour">❔ Tour</button>
+</div></div>
+<script>(function(){const m=document.getElementById('mSheet');document.getElementById('mMore').onclick=()=>{const ib=document.querySelector('#nav a[data-r="inbox"]');const mi=document.getElementById('mInbox');if(ib){mi.hidden=false;mi.textContent='📬 '+ib.textContent}m.hidden=false};
+ m.onclick=e=>{if(e.target===m||e.target.closest('a,button'))m.hidden=true;const t=e.target.closest('button');if(!t)return;if(t.id==='mBell')document.getElementById('bell').click();if(t.id==='mTour')document.getElementById('tourA').click()};
+ const sync=()=>{const on=/^#\/?board/.test(location.hash)||location.hash===''||location.hash==='#';document.querySelector('.tabbar .post').classList.toggle('on',on)};window.addEventListener('hashchange',sync);sync();})();</script>
 </body>
 </html>

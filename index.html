@@ -196,7 +196,8 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:45;background:rgba(8,12,10,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:6px max(6px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px))}
  .tabbar a,.tabbar button{display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;background:none;border:0;color:var(--mute);font:600 10.5px var(--mono,monospace);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer}
  .tabbar i{font-style:normal;font-size:21px;line-height:1;filter:grayscale(1);opacity:.75}
- .tabbar .on{color:var(--acc)}.tabbar .on i{filter:none;opacity:1}
+ .tabbar .on{color:var(--acc)}
+ .tabbar .dot{position:relative}.tabbar .dot:after{content:"";position:absolute;top:4px;right:calc(50% - 16px);width:9px;height:9px;border-radius:50%;background:#ff4d5e;box-shadow:0 0 8px #ff4d5e}.tabbar .on i{filter:none;opacity:1}
  .tabbar .post i{background:var(--acc);color:#04130c;border-radius:50%;width:30px;height:30px;display:grid;place-items:center;font-weight:900;font-size:20px;filter:none;opacity:1}
  .panel{padding:16px 14px}
  /* filters scroll sideways */
@@ -718,8 +719,10 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
   <button type="button" id="moreBtn" aria-haspopup="dialog"><i>☰</i>More</button>
 </nav>
 <div class="sheet" id="moreSheet" hidden><div class="in" role="dialog" aria-label="More">
-  <span class="lbl acc">More</span>
-  <a href="/app#/leaders">🏆 Leaderboard</a><a href="/app#/chat">💬 Chat</a>
+  <span class="lbl acc" id="moreWho">More</span>
+  <div id="moreMember" style="display:contents"></div>
+  <a href="/app#/leaders">🏆 Leaderboard</a><a href="/app#/feed">🎟 Feed</a>
+  <a href="/app#/chat">💬 Chat</a><a href="/app#/me">👤 My profile</a>
   <a data-go="history" href="/history">🗂 History</a><a data-go="method" href="/method">🧠 How it works</a>
   <button type="button" data-more="fb">✋ Talk to Ace</button><button type="button" data-more="tour">❔ Tour</button>
 </div></div>
@@ -1147,6 +1150,15 @@ document.getElementById('thuTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  m.addEventListener('click',e=>{if(e.target===m)return close();const x=e.target.closest('[data-more],a');if(!x)return;close();
   if(x.dataset.more==='fb')document.getElementById('fbOpen').click();if(x.dataset.more==='tour'){const t=document.getElementById('tourBtn');t&&t.click()}});
  document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});})();
+
+(function(){const paint=d=>{const w=document.getElementById('moreWho'),m=document.getElementById('moreMember'),b=document.getElementById('moreBtn');if(!m)return;
+ w.innerHTML='Signed in as <b style="color:var(--fg)">@'+d.username+'</b>';
+ let h='';if(d.an)h+=`<a href="${d.an.link||'/'}" style="grid-column:1/-1;border-color:var(--acc);color:var(--acc)">📣 ${d.an.title.replace(/</g,'&lt;')}</a>`;
+ h+='<button type="button" data-more="bell">🛎️ Ring the bell</button>';
+ if(d.admin)h+=`<a href="/app#/inbox"${d.inbox?' style="border-color:#ff4d5e;color:#ff4d5e"':''}>📬 Inbox${d.inbox?' · '+d.inbox+' new':''}</a>`;else h+='<a href="/app#/board">🎯 Build a ticket</a>';
+ m.innerHTML=h;if(b&&(d.inbox||d.an))b.classList.add('dot');
+ m.addEventListener('click',e=>{if(e.target.closest('[data-more="bell"]')){document.getElementById('moreSheet').hidden=true;d.bell()}})};
+ if(window.BDG_MEMBER)paint(window.BDG_MEMBER);document.addEventListener('bdg:member',e=>paint(e.detail));})();
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>

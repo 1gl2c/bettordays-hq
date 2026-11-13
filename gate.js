@@ -7,7 +7,7 @@
   .bdg-pill b{color:#04ff9f;font-weight:700}
   .bdg-pill #bdgBell{background:none;border:1px solid #1f2724;font-size:16px;padding:4px 7px}
   .bdg-pill a,.bdg-pill button{background:#04ff9f;color:#0b0d0c;border:0;padding:7px 10px;font:700 11px/1 'Geist Mono',monospace;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;text-decoration:none}
-  @media (max-width:560px){.bdg-pill{bottom:76px;left:12px}}
+  @media (max-width:900px){.bdg-pill{bottom:calc(84px + env(safe-area-inset-bottom,0px));left:12px}}
   .bdg-wall{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(6,8,7,.72);backdrop-filter:blur(14px)}
   .bdg-wall.on{display:flex}
   .bdg-card{width:100%;max-width:440px;max-height:calc(100vh - 32px);overflow:auto;background:#0f1311;border:1px solid #04ff9f;box-shadow:0 0 60px rgba(4,255,159,.18);padding:26px 24px;color:#eef3f0;font-family:Geist,system-ui,sans-serif}
@@ -140,18 +140,17 @@
     const { data: { session } } = await sb.auth.getSession();
     if (session) {
       const { data: p } = await sb.from('profiles').select('username').eq('id', session.user.id).maybeSingle();
-      pill.innerHTML = `<span>Member <b>@${p ? p.username : 'you'}</b></span><button type="button" id="bdgBell" aria-label="Ring the bell for picks" title="Ring the bell">🛎️</button><a href="/app">Open the app</a>`;
-      pill.querySelector('#bdgBell').onclick = () => bell(session);
+      const info = { username: p ? p.username : 'you', bell: () => bell(session), admin: false, inbox: 0, an: null };
       const { data: an } = await sb.from('announcements').select('title, link').gte('created_at', new Date(Date.now() - 36 * 3600e3).toISOString()).order('created_at', { ascending: false }).limit(1);
-      if (an && an[0]) { const t = document.createElement('a'); t.href = an[0].link || '/'; t.textContent = '📣 ' + an[0].title; t.style.background = '#04ff9f'; pill.insertBefore(t, pill.firstChild); }
+      if (an && an[0]) info.an = an[0];
       const { data: st } = await sb.from('settings').select('is_admin').eq('id', session.user.id).maybeSingle();
       if (st && st.is_admin) {
         const [a, b] = await Promise.all([sb.from('pings').select('*', { count: 'exact', head: true }).eq('seen', false), sb.from('feedback').select('*', { count: 'exact', head: true }).eq('seen', false)]);
-        const n = (a.count || 0) + (b.count || 0);
-        const ib = document.createElement('a'); ib.href = '/app#/inbox'; ib.textContent = n ? `📬 ${n} new` : '📬 Inbox';
-        if (n) ib.style.background = '#ff4d5e';
-        pill.insertBefore(ib, pill.querySelector('a[href="/app"]'));
+        info.admin = true; info.inbox = (a.count || 0) + (b.count || 0);
       }
+      pill.remove();
+      window.BDG_MEMBER = info;
+      document.dispatchEvent(new CustomEvent('bdg:member', { detail: info }));
       return;
     }
     let t0 = +store.get('bd_preview_start');
