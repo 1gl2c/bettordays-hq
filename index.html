@@ -220,6 +220,23 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
  .two{grid-template-columns:1fr!important}
 }
 
+/* deep research */
+.rtab{width:100%;border-collapse:collapse;font-size:13.5px}.rtab th{text-align:left;font:600 10.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);padding:8px 10px;border-bottom:1px solid var(--line)}
+.rtab td{padding:10px;border-bottom:1px solid var(--line);vertical-align:middle}.rtab td.mono{font-size:12.5px;white-space:nowrap}
+.tiny{font-family:var(--mono);font-size:11px;color:var(--mute)}
+.rbar{display:inline-block;width:120px;max-width:22vw;height:8px;background:rgba(255,255,255,.06);vertical-align:middle}.rbar i{display:block;height:100%}
+.rdays{display:flex;gap:6px;align-items:flex-end;overflow-x:auto;padding:6px 0 2px}
+.rday{flex:1 0 54px;text-align:center}.rday .rbar.tall{display:flex;align-items:flex-end;width:100%;max-width:none;height:90px}.rday .rbar.tall i{width:100%}
+.rday b{display:block;font-family:var(--display);font-size:17px;margin-top:6px}.rday small{font-family:var(--mono);font-size:10px;color:var(--mute);line-height:1.4;display:block}
+.pday{border:1px solid var(--line);margin-bottom:8px;padding:12px 14px;background:rgba(255,255,255,.015)}
+.pday summary{display:flex;justify-content:space-between;align-items:center;gap:10px;cursor:pointer;font-size:15px}.pday summary .mono{font-size:11.5px;color:var(--mute)}
+.pcard{border:1px solid var(--line);border-top:3px solid var(--acc);padding:12px 14px;background:rgba(0,0,0,.2)}
+.pcard .ph{display:flex;justify-content:space-between;gap:8px;align-items:baseline;font-size:14px}.pcard .ph .mono{font-size:12px;color:var(--mute)}
+.pl{list-style:none;margin:8px 0 6px;padding:0}.pl li{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+.pl li b{font-family:var(--mono);color:var(--acc)}.pl li em{display:block;font:normal 10.5px var(--mono);color:var(--mute)}
+.pcard small{font-family:var(--mono);font-size:10.5px;color:var(--mute)}
+@media (max-width:900px){.rtab td:nth-child(3){display:none}.rtab th:nth-child(3){display:none}.rtab td.mono{white-space:normal}}
+
 </style>
 
 <div class="wrap">
@@ -229,7 +246,7 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
       <div class="brand">BettorDays <span>HQ</span></div>
     </div>
     <nav class="nav" aria-label="Pages">
-      <a class="btn" data-go="home" href="/">Picks</a><a class="btn" data-go="easy" href="/easy">Tap 3</a><a class="btn" data-go="history" href="/history">History</a><a class="btn" data-go="results" href="/results">Results</a><a class="btn" data-go="method" href="/method">How it works</a><a class="btn hot" href="/app#/board">Pick &amp; post</a><a class="btn" href="/app#/chat">Chat</a><a class="btn" href="/app#/leaders">Leaders</a><button class="btn" id="tourBtn" type="button" aria-label="Take the tour">? Tour</button>
+      <a class="btn" data-go="home" href="/">Picks</a><a class="btn" data-go="easy" href="/easy">Tap 3</a><a class="btn" data-go="research" href="/research">Research</a><a class="btn" data-go="history" href="/history">History</a><a class="btn" data-go="results" href="/results">Results</a><a class="btn" data-go="method" href="/method">How it works</a><a class="btn hot" href="/app#/board">Pick &amp; post</a><a class="btn" href="/app#/chat">Chat</a><a class="btn" href="/app#/leaders">Leaders</a><button class="btn" id="tourBtn" type="button" aria-label="Take the tour">? Tour</button>
     </nav>
   </header>
 
@@ -280,7 +297,41 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
   </section>
 
 
-  <section class="panel" id="review13">
+  <section class="panel" id="research">
+    <div class="dayhead"><span class="lbl">Deep research · for the analytics nerds</span><h2 class="big">What actually hits</h2>
+    <p class="proof">Every number on this page is counted from picks graded against real box scores. It updates itself each time a night is graded.</p></div>
+    <div class="kpis" id="rsKpi"></div>
+    <div class="sech"><h3>Hit rate by category</h3><span class="lbl">best first</span></div>
+    <div class="scroll"><table id="rsCats" class="rtab"></table></div>
+    <div class="sech"><h3>Does our grade mean anything?</h3><span class="lbl">grade vs what happened</span></div>
+    <div class="scroll"><table id="rsTiers" class="rtab"></table></div>
+    <div class="sech"><h3>70%+ picks, night by night</h3></div>
+    <div class="rdays" id="rsDays"></div>
+    <div class="sech"><h3>Line type and sport</h3></div>
+    <div class="scroll"><table id="rsLines" class="rtab"></table></div>
+    <div class="sech"><h3>Clues for building a parlay</h3><span class="lbl">what the data says so far</span></div>
+    <ol class="algo" id="rsClues"></ol>
+  </section>
+
+  <section class="panel" id="perfect">
+    <div class="dayhead"><span class="lbl">Hindsight lab</span><h2 class="big">The perfect parlay</h2>
+    <p class="proof">For every past night: the parlay we could have built using only picks that hit. One 3-5x and one 10x+. Payouts are estimated from our grades, not real Kalshi prices. Nobody can bet hindsight. The point is to study what the winning legs had in common.</p></div>
+    <div id="rsPerfect"></div>
+    <div class="sech"><h3>What perfect parlays are made of</h3></div>
+    <div class="chips" id="rsMix"></div>
+  </section>
+
+  <section class="panel" id="betalab">
+    <div class="dayhead"><span class="lbl" style="color:var(--warn)">Beta · test mode · be cautious</span><h2 class="big">AI perfect parlay</h2>
+    <p class="proof">An experiment. The model takes the clues above and tries to build tonight's perfect parlay before the games. Rules: grades 70 to 86 only (our 90s have hit less than our 70s), no PRA, no spreads, nothing from a likely blowout, one player once, and categories with the best record go first. It is not proven. If you play it, play it small. 21+, no guarantees.</p></div>
+    <div id="rsToday"></div>
+    <div class="sech"><h3>How the beta would have done</h3><span class="lbl">honest backtest</span></div>
+    <p class="note" id="rsBackSum" style="margin:0 0 10px"></p>
+    <div class="scroll"><table id="rsBack" class="rtab"></table></div>
+  </section>
+
+  
+<section class="panel" id="review13">
     <h2>Friday recap · Nov 13 <small>our first losing night in 5</small></h2>
     <div class="kpis">
       <div class="kpi"><span class="lbl">70%+ legs</span><b><span data-count="42">0</span>/58</b><small>72%. All time: 198 of 241 (82%)</small></div>
@@ -357,7 +408,7 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
   </section>
   <section class="panel" id="easy">
     <div class="dayhead"><span class="lbl" id="ezTag">Tap 3</span><h2 class="big">Tap 3. Play it.</h2>
-    <p class="proof">Every pick here is graded 70%+ with no injury flags, and only games that haven't started show by default. Pick any 3 from different games. Three legs like this hit about <b>61%</b> of the time by our record.</p></div>
+    <p class="proof">Every pick here is graded 70%+ with no injury flags, and only games that haven't started show by default. Pick any 3 from different games. Three legs like this hit about <b>55%</b> of the time by our record, so it still loses close to half the time. Keep it small.</p></div>
     <div class="easy" id="easyList"></div>
     <div class="ezbar" id="ezBar"><div class="big" id="ezN">0/3</div><div class="t" id="ezT">Tap 3 picks.</div><button class="btn on" id="ezCopy" type="button" disabled>Copy my 3</button></div>
     <details class="notes" style="margin-top:16px"><summary class="lbl" style="cursor:pointer">The whole 70 pool as chips</summary>
@@ -754,7 +805,7 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
   <a data-go="home" href="/"><i>📋</i>Picks</a>
   <a data-go="easy" href="/easy"><i>✌️</i>Tap 3</a>
   <a class="post" href="/app#/board"><i>+</i>Post</a>
-  <a data-go="results" href="/results"><i>📈</i>Results</a>
+  <a data-go="research" href="/research"><i>🔬</i>Research</a>
   <button type="button" id="moreBtn" aria-haspopup="dialog"><i>☰</i>More</button>
 </nav>
 <div class="sheet" id="moreSheet" hidden><div class="in" role="dialog" aria-label="More">
@@ -762,7 +813,7 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
   <div id="moreMember" style="display:contents"></div>
   <a href="/app#/leaders">🏆 Leaderboard</a><a href="/app#/feed">🎟 Feed</a>
   <a href="/app#/chat">💬 Chat</a><a href="/app#/me">👤 My profile</a>
-  <a data-go="history" href="/history">🗂 History</a><a data-go="method" href="/method">🧠 How it works</a>
+  <a data-go="results" href="/results">📈 Results</a><a data-go="history" href="/history">🗂 History</a><a data-go="method" href="/method">🧠 How it works</a>
   <button type="button" data-more="fb">✋ Talk to Ace</button><button type="button" data-more="tour">❔ Tour</button>
 </div></div>
 <button class="fbtn" id="fbOpen" type="button" aria-haspopup="dialog">Talk to us</button>
@@ -1130,11 +1181,11 @@ document.getElementById('thuTix').innerHTML=CTIX.map(t=>{const pl=t.t.includes('
 document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('PLAYED'),k=t.res;return `<div class="st"${k==='W'?' style="border-color:var(--acc);box-shadow:0 0 22px rgba(4,255,159,.22)"':''}>${pl?'<span class="lbl acc" style="display:block;margin-bottom:4px">● Placed</span>':''}<h3 style="color:${t.c}">${t.t}${k?` <span class="res ${k==='W'?'w':'l'}">${k==='W'?'CASHED':'MISSED'}</span>`:''}</h3>${t.legs.map(l=>{const r=THU.find(x=>x.p===l);const q=r&&r.r;return `<div class="row"${q==='L'?' style="color:var(--bad)"':''}><span>${q==='W'?'✓ ':q==='L'?'✗ ':''}${l}</span><b>${r?r.pct:''}</b></div>`}).join('')}<div class="row"><span>Hit chance</span><b>${t.hit}</b></div><div class="row"><span>Stake</span><b>${t.stake}</b></div><div class="row"><span>Lock at</span><b>${t.lock}</b></div><p class="note" style="margin:10px 0 0">${t.v}</p></div>`}).join('');
 
 /* pages router */
-(function(){const MAP={drop:'off',thursday:'home',easy:'easy',review13:'results',review12:'results',review11:'history',thuhist:'history',wednesday:'history',review10:'history',tuesday:'history',monday:'history',recap9:'history',recap:'history',sunday:'history',ledger:'results',legs:'results',marbles:'method',thesis:'method',edge:'method',structure:'method',lotto:'method'};
+(function(){const MAP={drop:'off',thursday:'home',easy:'easy',research:'research',perfect:'research',betalab:'research',review13:'results',review12:'results',review11:'history',thuhist:'history',wednesday:'history',review10:'history',tuesday:'history',monday:'history',recap9:'history',recap:'history',sunday:'history',ledger:'results',legs:'results',marbles:'method',thesis:'method',edge:'method',structure:'method',lotto:'method'};
  const T=document.querySelector('.tiles');if(T)T.dataset.pg='results';
  Object.entries(MAP).forEach(([id,p])=>{const e=document.getElementById(id);if(e)e.dataset.pg=p});
  document.querySelectorAll('.wrap > section').forEach(e=>{if(e.dataset.pg)return;const h=(e.querySelector('h2')||{}).textContent||'';e.dataset.pg=/Calibration|Scoreboard/.test(h)?'results':/Red flags|Rulebook/.test(h)?'method':'history'});
- const PAGES=['home','easy','history','results','method'];
+ const PAGES=['home','easy','research','history','results','method'];
  const cur=()=>{const h=location.hash.replace(/^#\/?/,'');if(PAGES.includes(h))return h;const e=h&&document.getElementById(h);if(e&&e.dataset.pg)return e.dataset.pg;const p=location.pathname.replace(/^\/|\/$/g,'');return PAGES.includes(p)?p:'home'};
  const go=(p,id)=>{document.querySelectorAll('[data-pg]').forEach(e=>e.hidden=e.dataset.pg!==p);document.querySelectorAll('[data-go]').forEach(a=>a.classList.toggle('on',a.dataset.go===p));const e=id&&document.getElementById(id);if(e)e.scrollIntoView({block:'start'});else window.scrollTo(0,0)};
  window.BDgo=go;
@@ -1199,7 +1250,7 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  const pool=BOARD.rows.filter(r=>r.pct>=70&&!r.fl).sort((a,b)=>((b.ty==='ml')-(a.ty==='ml'))||b.pct-a.pct);
  const seen=new Set(),list=[];pool.forEach(r=>{const k=r.p.replace(/\s+(over|under|\d).*$/i,'').toLowerCase();if(r.ty!=='ml'&&seen.has(k))return;seen.add(k);list.push(r)});
  const L=document.getElementById('easyList');if(!L)return;
- const rec=p=>p>=90?.93:p>=70?.85:p>=60?.67:p/100;
+ const rec=p=>p>=70?.82:p>=60?.67:p/100;
  const res=r=>r.r?` <span class="res ${r.r==='W'?'w':'l'}">${r.r}</span>`:'';
  // start time: board times are Pacific, shown in the viewer's own time zone
  const ptStart=(d,t)=>{const m=/^(\d{1,2}):(\d{2})/.exec(t||'');if(!m)return null;let h=+m[1];if(h<12)h+=12;
@@ -1245,6 +1296,88 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  m.innerHTML=h;if(b&&(d.inbox||d.an))b.classList.add('dot');
  m.addEventListener('click',e=>{if(e.target.closest('[data-more="bell"]')){document.getElementById('moreSheet').hidden=true;d.bell()}})};
  if(window.BDG_MEMBER)paint(window.BDG_MEMBER);document.addEventListener('bdg:member',e=>paint(e.detail));})();
+</script>
+<script>
+/* Deep Research: everything here is computed from the graded picks, so it updates itself when a night is graded */
+(function(){
+ if(typeof ROWS==='undefined')return;
+ const $=id=>document.getElementById(id);if(!$('rsCats'))return;
+ const LBL={pts:'Points',ast:'Assists','3pm':'Threes',reb:'Rebounds',pra:'PRA',ml:'Moneylines',spread:'Spreads',total:'Totals',atd:'Anytime TD',td:'Touchdowns',rec:'Receptions',rush:'Rushing',yds:'Yards',method:'UFC method',prop:'Other props',combo:'Combos',other:'Other'};
+ const dn=d=>+d.replace(/\D/g,'');
+ const days=[...new Set(ROWS.map(r=>r.day))].sort((a,b)=>dn(a)-dn(b));
+ const pc=(h,n)=>n?Math.round(100*h/n):0;
+ const sum=(a,f)=>a.reduce((x,r)=>x+f(r),0);
+ const rec=a=>[sum(a,r=>r.hit),a.length];
+ const bar=(p,warn)=>`<span class="rbar"><i style="width:${p}%;background:${p>=80?'var(--acc)':p>=65?'var(--warn)':'var(--bad)'}"></i></span>`;
+ // board lookups (game + note) for days we still have full boards for
+ const G={},NOTE={};[typeof FRI!=='undefined'&&FRI,typeof THU!=='undefined'&&THU,typeof WED!=='undefined'&&WED,typeof TUE!=='undefined'&&TUE,typeof MON!=='undefined'&&MON].filter(Boolean).forEach(b=>b.forEach(r=>{G[r.p]=r.g;NOTE[r.p]=r.n||''}));
+ const who=t=>t.replace(/\s+(\d|over\b|under\b|o\d|u\d|ml\b|[-+]\d).*$/i,'').replace(/\s+(over|under)$/i,'').trim().toLowerCase();
+ // ---------- what hits
+ const top=ROWS.filter(r=>r.est>=70),[th,tn]=rec(top);
+ $('rsKpi').innerHTML=`<div class="kpi"><span class="lbl">Picks graded</span><b>${ROWS.length}</b><small>${days.length} nights, every one checked against box scores</small></div>
+  <div class="kpi"><span class="lbl">Graded 70%+</span><b class="acc">${pc(th,tn)}%</b><small>${th} of ${tn} hit</small></div>
+  <div class="kpi"><span class="lbl">Whole board</span><b>${pc(...rec(ROWS))}%</b><small>every pick the cappers sent, good or bad</small></div>`;
+ const cats=[...new Set(ROWS.map(r=>r.stat))].map(k=>{const a=ROWS.filter(r=>r.stat===k),t=a.filter(r=>r.est>=70);return {k,all:rec(a),top:rec(t)}}).filter(c=>c.all[1]>=5).sort((a,b)=>(b.top[1]>=4)-(a.top[1]>=4)||pc(...b.top)-pc(...a.top)||b.top[1]-a.top[1]);
+ $('rsCats').innerHTML=`<thead><tr><th>Category</th><th>Graded 70%+</th><th></th><th>All picks</th></tr></thead><tbody>`+cats.map(c=>`<tr><td><b>${LBL[c.k]||c.k}</b></td><td class="mono">${c.top[1]?`${c.top[0]} of ${c.top[1]} · <b>${pc(...c.top)}%</b>`:'none yet'}${c.top[1]&&c.top[1]<8?' <span class="tiny">small sample</span>':''}</td><td>${c.top[1]?bar(pc(...c.top)):''}</td><td class="mono">${c.all[0]} of ${c.all[1]} · ${pc(...c.all)}%</td></tr>`).join('')+'</tbody>';
+ // ---------- grade tiers
+ const tiers=[['90+',90,101],['80-89',80,90],['70-79',70,80],['60-69',60,70],['45-59',45,60],['Under 45',0,45]];
+ $('rsTiers').innerHTML=`<thead><tr><th>Our grade</th><th>Actually hit</th><th></th><th>Verdict</th></tr></thead><tbody>`+tiers.map(([l,a,b])=>{const x=ROWS.filter(r=>r.est>=a&&r.est<b),[h,n]=rec(x),p=pc(h,n),mid=sum(x,r=>r.est)/(n||1);return `<tr><td><b>${l}</b></td><td class="mono">${h} of ${n} · <b>${p}%</b></td><td>${bar(p)}</td><td class="tiny">${n<8?'small sample':p>mid+6?'we grade these too low':p<mid-6?'we grade these too high':'about right'}</td></tr>`}).join('')+'</tbody>';
+ // ---------- by night
+ $('rsDays').innerHTML=days.map(d=>{const x=top.filter(r=>r.day===d),[h,n]=rec(x),p=pc(h,n);return `<div class="rday"><span class="rbar tall"><i style="height:${p}%;background:${p>=80?'var(--acc)':p>=70?'var(--warn)':'var(--bad)'}"></i></span><b>${n?p+'%':'-'}</b><small>${d}<br>${h}/${n}</small></div>`}).join('');
+ // ---------- line types
+ const seg=(l,f)=>{const a=top.filter(f),[h,n]=rec(a);return `<tr><td><b>${l}</b></td><td class="mono">${h} of ${n} · <b>${pc(h,n)}%</b></td><td>${bar(pc(h,n))}</td></tr>`};
+ $('rsLines').innerHTML='<thead><tr><th>At 70%+</th><th>Record</th><th></th></tr></thead><tbody>'+seg('Alt lines (safer number)',r=>r.style==='alt')+seg('Regular lines',r=>r.style==='reg')+seg('Lines we moved',r=>r.boost)+seg('NBA',r=>r.sport==='NBA')+seg('NFL',r=>r.sport==='NFL')+seg('College',r=>/NCAA|CFB|CBB/.test(r.sport))+'</tbody>';
+ // ---------- clues (numbers pulled live)
+ const cr=k=>{const c=cats.find(c=>c.k===k);return c&&c.top[1]?`${c.top[0]} of ${c.top[1]}`:'no sample'};
+ const t9=rec(ROWS.filter(r=>r.est>=90)),t8=rec(ROWS.filter(r=>r.est>=80&&r.est<90));
+ $('rsClues').innerHTML=[
+  `<b>Build on points, assists and threes.</b> At 70%+ they are ${cr('pts')}, ${cr('ast')} and ${cr('3pm')}. These are the legs that carry tickets.`,
+  `<b>Keep PRA off the main tickets.</b> ${cr('pra')} at 70%+, the weakest of the main basketball stats. Three stats have to cooperate, and one cold stat sinks it.`,
+  `<b>A 93 is not safer than an 85.</b> Our 90+ grades hit ${pc(...t9)}% (${t9[0]} of ${t9[1]}). Our 80s hit ${pc(...t8)}%. Paying for a "lock" that Kalshi prices at 90%+ adds risk and almost no payout.`,
+  `<b>Blowouts kill both sides.</b> Nov 12: Wolves by 39. Nov 13: Spurs by 38. Starters sat the 4th on both teams. When the spread is 10 or more, skip props in that game.`,
+  `<b>One player, two tickets, max.</b> Nov 13, one player's quiet night was the only miss on two tickets and sank a third.`,
+  `<b>Fewer legs.</b> Most losing tickets miss by exactly one leg. Three legs at our record cash about ${Math.round(Math.pow(th/tn,3)*100)}% of the time. Six legs cash about ${Math.round(Math.pow(th/tn,6)*100)}%.`,
+  `<b>Lottos don't pay.</b> 0 for 22 on long tickets. Kalshi pays a fraction of fair on 8+ legs.`,
+  `<b>The edge is price, not hit rate.</b> A leg that hits 85% and is priced at 88% loses money. The best legs are the ones we grade 70%+ that Kalshi prices under 80%.`
+ ].map(x=>`<li>${x}</li>`).join('');
+ // ---------- perfect parlay (hindsight)
+ const price=r=>Math.min(.92,Math.max(.35,r.est/100));
+ function build(hits,pool,target,perGame,maxLegs){
+  let out=[],prod=1;const seenP=new Set(),gc={};
+  for(const r of pool){if(prod>=target||out.length>=maxLegs)break;const w=who(r.pick),g=G[r.pick]||('p:'+w);if(seenP.has(w)||(gc[g]||0)>=perGame)continue;seenP.add(w);gc[g]=(gc[g]||0)+1;out.push(r);prod/=price(r)}
+  return {legs:out,x:prod,ok:prod>=target}}
+ const perfect=days.map(d=>{const day=ROWS.filter(r=>r.day===d),hits=day.filter(r=>r.hit);
+  const asc=(a,b)=>a.est-b.est;
+  let a=build(hits,hits.filter(r=>r.est>=70).sort(asc),3,1,6);if(!a.ok)a=build(hits,hits.filter(r=>r.est>=60).sort(asc),3,1,6);
+  let b=build(hits,hits.filter(r=>r.est>=65).sort(asc),10,2,10);if(!b.ok)b=build(hits,hits.filter(r=>r.est>=50).sort(asc),10,2,10);
+  const miss=day.filter(r=>!r.hit).sort((x,y)=>y.est-x.est)[0];
+  return {d,a,b,miss,n:day.length,h:hits.length}}).reverse();
+ const legrow=r=>`<li><span>${r.pick}</span><b>${r.est}</b></li>`;
+ const card=(t,p,col)=>`<div class="pcard" style="border-top-color:${col}"><div class="ph"><b style="color:${col}">${t}</b><span class="mono">${p.ok?'about '+p.x.toFixed(1)+'x':'not enough clean hits'}</span></div><ol class="pl">${p.legs.map(legrow).join('')}</ol><small>${p.legs.length} legs, all hit</small></div>`;
+ $('rsPerfect').innerHTML=perfect.map((p,i)=>`<details class="pday"${i===0?' open':''}><summary><b>${p.d}</b><span class="mono">${p.h} of ${p.n} picks hit</span></summary><div class="two" style="margin-top:10px">${card('3-5x · the clean one',p.a,'var(--acc)')}${card('10x+ · the stretch',p.b,'#ffb020')}</div>${p.miss?`<p class="tiny" style="margin:8px 0 0">The trap that night: <b style="color:var(--bad)">${p.miss.pick}</b>, graded ${p.miss.est}, missed.</p>`:''}</details>`).join('');
+ const pl=perfect.flatMap(p=>[...p.a.legs,...p.b.legs]),mix={};pl.forEach(r=>mix[r.stat]=(mix[r.stat]||0)+1);
+ $('rsMix').innerHTML=Object.entries(mix).sort((a,b)=>b[1]-a[1]).slice(0,7).map(([k,n])=>`<span class="chip">${LBL[k]||k} · ${Math.round(100*n/pl.length)}%</span>`).join('')+`<p class="tiny" style="margin:8px 0 0">Average grade of a perfect-parlay leg: <b>${Math.round(sum(pl,r=>r.est)/pl.length)}</b>. They come from the 70s, not the 90s. That's where a leg still pays something.</p>`;
+ // ---------- beta: rules learned from the data, tested on every past night with only the data before it
+ const statOf=r=>r.ty&&r.ty!=='prop'?r.ty:/pra/i.test(r.p)?'pra':/3pm|three|pointers/i.test(r.p)?'3pm':/assist/i.test(r.p)?'ast':/rebound/i.test(r.p)?'reb':/rec\b|recept/i.test(r.p)?'rec':/rush/i.test(r.p)?'rush':/point|pts/i.test(r.p)?'pts':'prop';
+ function rates(prior){const m={};prior.filter(r=>r.est>=70).forEach(r=>{(m[r.stat]=m[r.stat]||[0,0]);m[r.stat][0]+=r.hit;m[r.stat][1]++});return k=>{const x=m[k]||[0,0];return (x[0]+.8*8)/(x[1]+8)}}
+ function beta(rows,prior){const rt=rates(prior);
+  const c=rows.filter(r=>r.est>=70&&r.est<=86&&!r.fl&&r.stat!=='pra'&&r.stat!=='spread'&&r.stat!=='atd'&&!/blowout/i.test(NOTE[r.pick]||r.n||'')).map(r=>({...r,sc:rt(r.stat)+(86-r.est)/400})).sort((a,b)=>b.sc-a.sc||a.est-b.est);
+  const take=(pool,n,per,target)=>{const o=[],sp=new Set(),gc={};let x=1;for(const r of pool){if(o.length>=n||(target&&x>=target))break;const w=who(r.pick),g=r.g||G[r.pick]||('p:'+w);if(sp.has(w)||(gc[g]||0)>=per)continue;sp.add(w);gc[g]=(gc[g]||0)+1;o.push(r);x/=price(r)}return {legs:o,x}};
+  return {three:take(c,3,1),ten:take(c,9,2,10)}}
+ const bt=days.map((d,i)=>{const rows=ROWS.filter(r=>r.day===d),prior=ROWS.filter(r=>dn(r.day)<dn(d));const b=beta(rows,prior);
+  const sc=t=>({n:t.legs.length,h:sum(t.legs,r=>r.hit),w:t.legs.length>0&&t.legs.every(r=>r.hit),x:t.x,legs:t.legs});return {d,three:sc(b.three),ten:sc(b.ten)}});
+ const w3=bt.filter(b=>b.three.w).length,w10=bt.filter(b=>b.ten.w).length,leg3=sum(bt,b=>b.three.h),n3=sum(bt,b=>b.three.n);
+ $('rsBack').innerHTML=`<thead><tr><th>Night</th><th>Beta 3</th><th>Beta 10x</th></tr></thead><tbody>`+bt.slice().reverse().map(b=>`<tr><td><b>${b.d}</b></td><td class="mono"><span class="res ${b.three.w?'w':'l'}">${b.three.w?'W':'L'}</span> ${b.three.h}/${b.three.n} legs · ${b.three.x.toFixed(1)}x</td><td class="mono"><span class="res ${b.ten.w?'w':'l'}">${b.ten.w?'W':'L'}</span> ${b.ten.h}/${b.ten.n} legs · ${b.ten.x.toFixed(1)}x</td></tr>`).join('')+'</tbody>';
+ $('rsBackSum').innerHTML=`Tested on all ${bt.length} nights, using only what we'd seen before each night: <b>Beta 3 cashed ${w3} of ${bt.length}</b> (${leg3} of ${n3} legs hit). <b>Beta 10x cashed ${w10} of ${bt.length}</b>. Read this with caution: the rules were written after looking at these same nights, so this test flatters them. Payouts are estimated from our grades, not real Kalshi prices. The real test starts with tonight's board.`;
+ // today's beta, only when today's board is up and not graded yet
+ const cur=(typeof CUR!=='undefined'?CUR:[]);const live=cur.length&&!cur.some(r=>r.r);
+ const T=$('rsToday');
+ if(live){const rows=cur.map(r=>({pick:r.p,est:r.pct,stat:statOf(r),g:r.g,n:r.n,fl:r.fl,t:r.t}));const b=beta(rows,ROWS);
+  const tc=(t,x,col,why)=>`<div class="pcard" style="border-top-color:${col}"><div class="ph"><b style="color:${col}">${t}</b><span class="mono">about ${x.x.toFixed(1)}x</span></div><ol class="pl">${x.legs.map(r=>`<li><span>${r.pick}<em>${r.g||''} ${r.t||''}</em></span><b>${r.est}</b></li>`).join('')}</ol><small>${why}</small></div>`;
+  T.innerHTML=`<div class="two">${tc('Beta 3',b.three,'var(--acc)','Three legs from our best categories, graded 70 to 86. One per game.')}${tc('Beta 10x',b.ten,'#ffb020','Same rules, more legs. Max two per game.')}</div>`}
+ else{const last=bt[bt.length-1];T.innerHTML=`<p class="note" style="margin:0">Today's beta parlay shows up here as soon as today's board is posted. Last night (${last.d}) the Beta 3 went <b>${last.three.h} of ${last.three.n}</b>: ${last.three.legs.map(r=>`${r.pick} <span class="res ${r.hit?'w':'l'}">${r.hit?'W':'L'}</span>`).join(' · ')}</p>`}
+ window.__RS={bt,perfect};
+})();
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>

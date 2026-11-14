@@ -671,14 +671,14 @@ sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') { history.repl
   <a href="/"><i>📋</i>Picks</a>
   <a href="/easy"><i>✌️</i>Tap 3</a>
   <a class="post" href="#/board" data-t="board"><i>+</i>Post</a>
-  <a href="/results"><i>📈</i>Results</a>
+  <a href="/research"><i>🔬</i>Research</a>
   <button type="button" id="mMore"><i>☰</i>More</button>
 </nav>
 <div class="msheet" id="mSheet" hidden><div class="in" role="dialog" aria-label="More">
   <span class="lbl" style="color:var(--acc)">More</span>
   <a href="#/feed">🎟 Feed</a><a href="#/leaders">🏆 Leaderboard</a>
   <a href="#/chat">💬 Chat</a><a href="#/people">👥 People</a>
-  <a href="#/me">👤 My profile</a><a href="#/inbox" id="mInbox" hidden>📬 Inbox</a>
+  <a href="#/me">👤 My profile</a><a href="/results">📈 Results</a><a href="#/inbox" id="mInbox" hidden>📬 Inbox</a>
   <button type="button" id="mBell">🛎️ Ring the bell</button><button type="button" id="mTour">❔ Tour</button>
 </div></div>
 <script>(function(){const m=document.getElementById('mSheet');document.getElementById('mMore').onclick=()=>{const ib=document.querySelector('#nav a[data-r="inbox"]');const mi=document.getElementById('mInbox');if(ib){mi.hidden=false;mi.textContent='📬 '+ib.textContent}m.hidden=false};
