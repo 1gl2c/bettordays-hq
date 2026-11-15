@@ -333,7 +333,7 @@ async function drawKalshi() {
 
 /* ---------- Today's board: tap legs, post to feed ---------- */
 const SPN = {NBA: '🏀 NBA', NHL: '🏒 NHL', CFB: '🏈 College FB', CBB: '🏀 College hoops', TEN: '🎾 Tennis', NFL: '🏈 NFL', MLB: '⚾ MLB'};
-const tipMin = t => { const m = /^(\d{1,2}):(\d{2})/.exec(t || ''); if (!m) return null; let h = +m[1]; if (h < 12) h += 12; return h * 60 + +m[2]; };
+const tipMin = t => { const m = /^(\d{1,2}):(\d{2})/.exec(t || ''); if (!m) return null; let h = +m[1]; if (/am/i.test(t || '')) { if (h === 12) h = 0; } else if (h < 12) h += 12; return h * 60 + +m[2]; };
 const ptNow = () => { const p = {}; new Intl.DateTimeFormat('en-US', {timeZone: 'America/Los_Angeles', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'}).formatToParts(new Date()).forEach(x => p[x.type] = x.value); return {d: `${p.year}-${p.month}-${p.day}`, m: (+p.hour) * 60 + (+p.minute)}; };
 const SLIP = new Map();
 async function vBoard() {
@@ -353,7 +353,7 @@ async function vBoard() {
   <div class="slip" id="slip" hidden></div>`;
   const chips = () => {
     V.querySelector('#bsp').innerHTML = [['all', 'All sports'], ...sports.map(k => [k, SPN[k] || k])].map(([k, l]) => `<button class="btn sm ${k === sp ? 'on' : ''}" data-sp="${k}" type="button">${l}</button>`).join('');
-    V.querySelector('#btm').innerHTML = [['any', 'Any time'], ...(today ? [['up', '⏱ Not started yet']] : []), ...times.map(m => ['t' + m, lab(m) + ' PM & later'])].map(([k, l]) => `<button class="btn sm ${k === tm ? 'on' : ''}" data-tm="${k}" type="button">${l}</button>`).join('');
+    V.querySelector('#btm').innerHTML = [['any', 'Any time'], ...(today ? [['up', '⏱ Not started yet']] : []), ...times.map(m => ['t' + m, lab(m) + (m < 720 ? ' AM' : ' PM') + ' & later'])].map(([k, l]) => `<button class="btn sm ${k === tm ? 'on' : ''}" data-tm="${k}" type="button">${l}</button>`).join('');
     V.querySelector('#bmin').innerHTML = [[0, 'Every grade'], [70, '70%+ only'], [80, '80%+ only']].map(([k, l]) => `<button class="btn sm ${k === min ? 'on' : ''}" data-min="${k}" type="button">${l}</button>`).join('');
   };
   const pass = b => { if (b.pct < min) return false; if (sp !== 'all' && b.sp !== sp) return false; if (q && !(b.text + ' ' + b.game).toLowerCase().includes(q)) return false; if (tm === 'any') return true; const m = tipMin(b.t); if (m == null) return false; if (tm === 'up') { const nn = ptNow(); return nn.d < day || (nn.d === day && m > nn.m); } return m >= +tm.slice(1); };
