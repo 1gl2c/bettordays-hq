@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BettorDays App</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="BettorDays">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="theme-color" content="#0b0d0c">
 <meta name="description" content="Post your tickets, follow friends, build parlays together. Free. 21+.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@700;900&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;700&display=swap">
@@ -85,9 +93,10 @@ label.f{display:block;margin:10px 0 5px}
 @media (max-width:900px){
  #nav{display:none}
  body{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
- .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:45;background:rgba(8,12,10,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:6px max(6px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px))}
+ .tabbar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:start;position:fixed;left:0;right:0;bottom:0;z-index:45;background:rgba(8,12,10,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:6px max(6px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px))}
  .tabbar a,.tabbar button{display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;background:none;border:0;color:var(--mu);font:600 10.5px 'Geist Mono',monospace;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer}
- .tabbar i{font-style:normal;font-size:21px;line-height:1;filter:grayscale(1);opacity:.75}
+ .tabbar i{font-style:normal;font-size:21px;line-height:1;filter:grayscale(1);opacity:.75;width:30px;height:30px;display:grid;place-items:center}
+.tabbar a,.tabbar button{min-width:0;white-space:nowrap;font-size:10px;letter-spacing:.04em;position:relative}
  .tabbar .on{color:var(--acc)}.tabbar .on i{filter:none;opacity:1}
  .tabbar .post i{background:var(--acc);color:#04130c;border-radius:50%;width:30px;height:30px;display:grid;place-items:center;font-weight:900;font-size:20px;filter:none;opacity:1}
  .tabbar .post.on i{box-shadow:0 0 14px var(--acc)}
@@ -113,6 +122,7 @@ label.f{display:block;margin:10px 0 5px}
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
 <script src="/sb.js"></script>
+<script src="/install.js" defer></script>
 <script>
 const sb = window.BD_SB;
 const V = document.getElementById('view');
