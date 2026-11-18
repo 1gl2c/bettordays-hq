@@ -1563,7 +1563,7 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  const band=g=>g>=85?'85+':g>=80?'80-84':g>=75?'75-79':g>=70?'70-74':g>=65?'65-69':g>=60?'60-64':'<60';
  const REC={};(typeof ROWS!=='undefined'?ROWS:[]).forEach(r=>{const b=band(r.est);REC[b]=REC[b]||[0,0];REC[b][0]+=r.hit;REC[b][1]++});
  const recP=g=>{const x=REC[band(g)];return x&&x[1]>=20?x[0]/x[1]:g/100};
- const G={sp:'all',gr:'all',k:'all',tm:'up'};
+ const G={sp:'all',gr:'all',k:'all',tm:all.some(open)?'up':'any'};
  const fb=document.createElement('div');fb.className='bfil';L.before(fb);
  const cap=document.createElement('p');cap.className='proof';cap.style.margin='0 0 12px';L.before(cap);
  const sports=[...new Set(all.map(r=>r.sp))];
