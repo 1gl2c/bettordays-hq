@@ -190,6 +190,16 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
 .ezbar .big{font-family:var(--display);font-size:34px;line-height:1;color:var(--acc)}
 .ezbar .t{flex:1;min-width:160px;font-size:13.5px;color:var(--mute)}
 .ezbar .t b{color:var(--fg)}
+.tbg{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;width:100%}.tbg div{border:1px solid var(--line);padding:8px 10px}.tbg small{display:block;font-family:var(--mono);font-size:10.5px;color:var(--mute);letter-spacing:.04em;text-transform:uppercase}.tbg b{font-family:var(--display);font-size:24px;color:var(--fg)}
+@media (max-width:560px){.tbg{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tbd summary{cursor:pointer;font-size:13.5px;color:var(--mute);list-style:none}.tbd summary::-webkit-details-marker{display:none}.tbd .tbm{color:var(--acc);font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;margin-left:4px}.tbd[open] .tbm{opacity:.6}.tbd[open] summary{margin-bottom:8px}.ezbar{max-height:60vh;overflow:auto}
+.tbnote{margin:8px 0 0;font-size:12.5px;color:var(--mute)}.tbw{margin:8px 0 0;padding-left:18px;font-size:13px;color:var(--warn);display:grid;gap:4px}
+.ezbar{flex-direction:column;align-items:stretch;gap:8px;padding:10px 12px}.ezbar .top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.ezbar .top .big{font-size:26px;margin-right:auto}.ezbar .t{min-width:0}
+.ez .kp{position:static;transform:none;display:inline-block;margin-left:6px}
+.rbig{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:8px 0}.rbig div{border:1px solid var(--line);padding:12px}.rbig small{display:block;font-family:var(--mono);font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.05em}.rbig b{font-family:var(--display);font-size:32px;color:var(--acc)}
+@media (max-width:560px){.rbig{grid-template-columns:repeat(2,minmax(0,1fr))}}
+#recT{overflow-x:auto}#recT .tbl{min-width:560px}
+.wl{border:1px solid var(--acc);background:rgba(4,255,159,.05);padding:18px;margin-top:18px}.wl form{display:grid;gap:8px;max-width:440px}.wl label.ck{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--mute)}
 /* popup v2 */
 .hey{font-family:var(--display);font-weight:900;font-size:64px;line-height:1;color:var(--acc);display:inline-block;margin:8px 0 6px;text-shadow:0 0 24px rgba(4,255,159,.45);animation:heyj 1.1s cubic-bezier(.3,1.6,.5,1) infinite}
 @keyframes heyj{0%,100%{transform:translateY(0) rotate(-2deg)}30%{transform:translateY(-14px) rotate(2deg) scale(1.06)}55%{transform:translateY(0) rotate(-1deg)}70%{transform:translateY(-5px)}}
@@ -201,6 +211,7 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
  header .sys{font-size:10px}
  .brand{font-size:34px}
  .wrap{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+ .ezbar{bottom:calc(80px + env(safe-area-inset-bottom,0px))}
  .tabbar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:start;position:fixed;left:0;right:0;bottom:0;z-index:45;background:rgba(8,12,10,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:6px max(6px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px))}
  .tabbar a,.tabbar button{display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;background:none;border:0;color:var(--mute);font:600 10.5px var(--mono,monospace);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer}
  .tabbar i{font-style:normal;font-size:21px;line-height:1;filter:grayscale(1);opacity:.75;width:30px;height:30px;display:grid;place-items:center}
@@ -255,7 +266,7 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
       <div class="brand">BettorDays <span>HQ</span></div>
     </div>
     <nav class="nav" aria-label="Pages">
-      <a class="btn" data-go="home" href="/">Picks</a><a class="btn" data-go="easy" href="/easy">Tap 3</a><a class="btn" data-go="research" href="/research">Research</a><a class="btn" data-go="history" href="/history">History</a><a class="btn" data-go="results" href="/results">Results</a><a class="btn" data-go="method" href="/method">How it works</a><a class="btn hot" href="/app#/board">Pick &amp; post</a><a class="btn" href="/app#/chat">Chat</a><a class="btn" href="/app#/leaders">Leaders</a><button class="btn" id="tourBtn" type="button" aria-label="Take the tour">? Tour</button>
+      <a class="btn" data-go="home" href="/">Picks</a><a class="btn" data-go="easy" href="/easy">Ticket builder</a><a class="btn" data-go="research" href="/research">Research</a><a class="btn" data-go="history" href="/history">History</a><a class="btn" data-go="results" href="/results">Results</a><a class="btn" data-go="method" href="/method">How it works</a><a class="btn hot" href="/app#/board">Pick &amp; post</a><a class="btn" href="/app#/chat">Chat</a><a class="btn" href="/app#/leaders">Leaders</a><button class="btn" id="tourBtn" type="button" aria-label="Take the tour">? Tour</button>
     </nav>
   </header>
 
@@ -510,7 +521,7 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
 <section class="panel" id="thursday">
     <div class="dayhead"><span class="lbl" id="dayTag">Picks</span><h2 class="big" id="dayTitle">Tuesday · Nov 17</h2>
       <p class="proof"><b>78%</b> of our 70%+ picks hit · 313 of 399 graded · Tuesday <b>67%</b></p></div>
-    <div class="filters" id="thuF" style="margin-top:16px"></div><p class="note" style="margin:6px 0 0">Kalshi = Kalshi's price for that line as of when the board went up, in percent. Green means Kalshi has it at or above our grade. ⚠ means our grade is 8 or more above Kalshi's: those legs hit 3 of 11 over Monday and Tuesday, so think twice before putting one in a parlay. Prices move, so check the slip.</p>
+    <div class="filters" id="thuF" style="margin-top:16px"></div><p class="note" style="margin:6px 0 0">Kalshi = Kalshi's price for that line as of when the board went up, in percent. Green means Kalshi has it at or above our grade. ⚠ means our grade is 8 or more above Kalshi's: those legs hit 3 of 11 over Monday and Tuesday, so they are not used in Hammer tickets while we test this on the full record. Prices move, so check the slip.</p>
     <div class="scroll boardwrap" style="max-height:620px;overflow-y:auto"><table id="thuT" class="board"></table></div>
     <div class="sech"><h3>Top 25</h3><span class="lbl">highest hit % on the board</span></div>
     <div class="two" style="margin-top:6px">
@@ -528,14 +539,32 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
       <div class="flag g"><b>Lines that moved</b><div class="r">your list</div><p>"Over 5 assists" means 6 or more, so those became the 6+ line. We moved some lines down in the same stat for a safer number. No new stats or players were added.</p><div class="who">Each note shows your original line</div></div>
     </div></details>
   </section>
+  <section class="panel" data-pg="home" style="padding-top:0"><div class="wl" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:space-between"><div><span class="lbl acc">Founders list</span><p style="margin:4px 0 0">Free for now. Join the list to lock the founders price when paid plans open.</p></div><a class="btn on" data-go="founders" href="/founders">Join free</a></div></section>
   <section class="panel" id="easy">
-    <div class="dayhead"><span class="lbl" id="ezTag">Tap 3</span><h2 class="big">Tap 3. Play it.</h2>
-    <p class="proof">Every pick here is graded 70%+ with no injury flags, and only games that haven't started show by default. Pick any 3 from different games. Three legs like this hit about <b>55%</b> of the time by our record, so it still loses close to half the time. Keep it small.</p></div>
+    <div class="dayhead"><span class="lbl" id="ezTag">Ticket builder</span><h2 class="big">Build your ticket.</h2>
+    <p class="proof">Tap 2 to 8 legs from the board. You see our grade, our real record at that grade, Kalshi's price, an estimated payout, and every warning. BettorDays never places bets. Check your slip before you lock anything.</p></div>
     <div class="easy" id="easyList"></div>
-    <div class="ezbar" id="ezBar"><div class="big" id="ezN">0/3</div><div class="t" id="ezT">Tap 3 picks.</div><button class="btn on" id="ezCopy" type="button" disabled>Copy my 3</button></div>
-    <details class="notes" style="margin-top:16px"><summary class="lbl" style="cursor:pointer">The whole 70 pool as chips</summary>
-    <p class="note" style="margin:4px 0 8px">Graded 70%+, NBA only, no flags. One leg per player. This is the pool the lotto gets built from.</p>
-    <div class="chips" id="thuPool"></div></details>
+    <div class="ezbar" id="ezBar"><div class="top"><div class="big" id="ezN">0 legs</div><button class="btn on" id="ezCopy" type="button" disabled>Copy ticket</button><button class="btn" id="ezClear" type="button" disabled>Clear</button></div><div class="t" id="ezT">Tap legs to build a ticket.</div></div>
+  </section>
+  <section class="panel" id="record">
+    <div class="dayhead"><span class="lbl acc">Record explorer</span><h2 class="big">Every graded leg. Filter it any way.</h2>
+    <p class="proof">Stack filters across sport, grade, prop type, over or under, Kalshi agreement, week and line type. Each group can take more than one choice. You always see wins, losses, sample size and the likely range, so a hot streak on 12 legs doesn't look like proof.</p>
+    <p class="note" id="recMeta">Loading the record...</p></div>
+    <div class="bfil" id="recF"></div>
+    <div id="recS"></div><div id="recT"></div>
+  </section>
+  <section class="panel" id="founders">
+    <div class="dayhead"><span class="lbl acc">Founders list</span><h2 class="big">Get in before it's paid.</h2>
+    <p class="proof">BettorDays is free while we build it in public. When paid plans open, the founders list hears first and gets the founders price. No card needed to join. <span class="mono" id="wlCount"></span></p></div>
+    <div class="wl"><form id="wlForm" autocomplete="on">
+      <input class="fin" name="email" type="email" maxlength="200" placeholder="Email" required autocomplete="email">
+      <input class="fin" name="name" maxlength="80" placeholder="Name (optional)" autocomplete="name">
+      <input class="fin" name="handle" maxlength="60" placeholder="Instagram or X handle (optional)">
+      <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+      <label class="ck"><input type="checkbox" name="age" required> I'm 21 or older. I understand picks are not guarantees.</label>
+      <button class="btn on" type="submit" style="padding:12px">Join the founders list</button>
+      <p class="mono" id="wlMsg" style="font-size:12px;margin:4px 0 0;min-height:1em" aria-live="polite"></p>
+    </form></div>
   </section>
 
 
@@ -978,7 +1007,7 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
 
 <nav class="tabbar" aria-label="App">
   <a data-go="home" href="/"><i>📋</i>Picks</a>
-  <a data-go="easy" href="/easy"><i>✌️</i>Tap 3</a>
+  <a data-go="easy" href="/easy"><i>🧩</i>Build</a>
   <a class="post" href="/app#/board"><i>+</i>Post</a>
   <a data-go="research" href="/research"><i>🔬</i>Research</a>
   <button type="button" id="moreBtn" aria-haspopup="dialog"><i>☰</i>More</button>
@@ -988,7 +1017,7 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
   <div id="moreMember" style="display:contents"></div>
   <a href="/app#/leaders">🏆 Leaderboard</a><a href="/app#/feed">🎟 Feed</a>
   <a href="/app#/chat">💬 Chat</a><a href="/app#/me">👤 My profile</a>
-  <a data-go="results" href="/results">📈 Results</a><a data-go="history" href="/history">🗂 History</a><a data-go="method" href="/method">🧠 How it works</a>
+  <a data-go="record" href="/record">📊 Record explorer</a><a data-go="founders" href="/founders">⭐ Founders list</a><a data-go="results" href="/results">📈 Results</a><a data-go="history" href="/history">🗂 History</a><a data-go="method" href="/method">🧠 How it works</a>
   <button type="button" data-more="fb">✋ Talk to Ace</button><button type="button" data-more="tour">❔ Tour</button>
 </div></div>
 <button class="fbtn" id="fbOpen" type="button" aria-haspopup="dialog">Talk to us</button>
@@ -1363,15 +1392,21 @@ const HTIX=[{"t": "Power 3 \u00b7 the core", "c": "#04ff9f", "legs": ["Cade Cunn
 (function(){const rb=x=>x.r?` <span class="res ${x.r==='W'?'w':'l'}">${x.r}</span>`:'';const fl=x=>x.fl?`<span class="fl ${x.fl==='OUT'?'x':''}">${(FLN2[x.fl]||{LIVE:'Live now'}[x.fl])||x.fl}</span>`:'';
  const live=CUR.filter(r=>r.pct>0);
  const pool=live.filter(r=>r.pct>=70&&!r.fl&&r.sp==='NBA').sort((a,b)=>(/LIVE|FINAL/.test(a.fl||'')-/LIVE|FINAL/.test(b.fl||''))||b.pct-a.pct);
- document.getElementById('thuPool').innerHTML=pool.map(r=>`<span class="chip">${r.p} <b>${r.pct}</b>${rb(r)}<small>${r.g} ${r.t}</small></span>`).join('')+`<span class="chip" style="border-color:var(--line);background:none"><small>${pool.length} legs · all hit about ${(Math.pow(.88,pool.length)*100).toFixed(1)}% at 88% per leg</small></span>`;
+ (document.getElementById('thuPool')||{}).innerHTML=pool.map(r=>`<span class="chip">${r.p} <b>${r.pct}</b>${rb(r)}<small>${r.g} ${r.t}</small></span>`).join('')+`<span class="chip" style="border-color:var(--line);background:none"><small>${pool.length} legs · all hit about ${(Math.pow(.88,pool.length)*100).toFixed(1)}% at 88% per leg</small></span>`;
  document.getElementById('thuAny').innerHTML=[...live].sort((a,b)=>(/LIVE|FINAL/.test(a.fl||'')-/LIVE|FINAL/.test(b.fl||''))||b.pct-a.pct).slice(0,25).map(r=>`<li>${r.p} <span style="color:#04ff9f">${r.pct}%</span>${r.k!=null?`<small class="kp">${r.pct>=r.k+8?'⚠ ':''}K ${r.k}</small>`:''}${fl(r)}${rb(r)}</li>`).join('');
  document.getElementById('thuReg').innerHTML=live.filter(r=>r.st==='reg').sort((a,b)=>(/LIVE|FINAL/.test(a.fl||'')-/LIVE|FINAL/.test(b.fl||''))||b.pct-a.pct).slice(0,25).map(r=>`<li>${r.p} <span style="color:#00c8ff">${r.pct}%</span>${r.k!=null?`<small class="kp">${r.pct>=r.k+8?'⚠ ':''}K ${r.k}</small>`:''}${fl(r)}${rb(r)}</li>`).join('');
- let F='all',SP='all',TM='any';const L=[['all','All'],['70','70%+'],['clean','Clean (no flags)'],['move','Moved lines'],['ml','Moneylines'],['prop','Props'],['reg','Regular lines'],['alt','Alts'],['flag','Flagged']];
- const fe=document.getElementById('thuF');fe.innerHTML=L.map(([k,n])=>`<button class="btn ${k===F?'on':''}" data-f="${k}" type="button">${n}</button>`).join('');
+ let SP='all',TM='any';const G={gr:'all',ty:'all',stt:'all',ln:'all',k:'all',fl:'all'};
+ const statOf=x=>{const t=x.p.toLowerCase();if(x.ty!=='prop')return x.ty;if(/points \+ rebounds \+ assists|pra/.test(t))return 'pra';if(/rebound|reb\b/.test(t))return 'reb';if(/assist|ast\b/.test(t))return 'ast';if(/three|3pm|3 pointers/.test(t))return '3pm';if(/yards|yds/.test(t))return 'yds';if(/touchdown|atd/.test(t))return 'td';if(/point|pts/.test(t))return 'pts';return 'oth'};
+ const kb=x=>x.k==null?'none':x.pct>=x.k+8?'warn':x.k>=x.pct+8?'mkt':'close';
+ const fe=document.getElementById('thuF');
+ const grp=(key,lab,opts)=>`<div class="bfrow"><span class="lbl">${lab}</span>${opts.map(([k,n])=>`<button class="btn sm ${G[key]===k?'on':''}" data-g="${key}" data-v="${k}" type="button">${n}</button>`).join('')}</div>`;
+ const has=s=>CUR.some(x=>statOf(x)===s);
+ const drawF=()=>{fe.innerHTML='<div class="bfil" style="margin:0">'+grp('gr','Grade',[['all','All'],['80','80+'],['70','70-79'],['60','60-69'],['0','Under 60']])+grp('ty','Bet type',[['all','All'],['prop','Props'],['ml','Moneylines'],['spread','Spreads'],['total','Totals']].filter(([k])=>k==='all'||CUR.some(x=>x.ty===k)))+grp('stt','Prop type',[['all','All'],['pts','Points'],['reb','Rebounds'],['ast','Assists'],['3pm','Threes'],['pra','PRA'],['yds','Yards'],['td','TDs']].filter(([k])=>k==='all'||has(k)))+grp('ln','Line',[['all','All'],['reg','Regular'],['alt','Alts'],['move','Moved by us'],['u','Unders']])+grp('k','Kalshi',[['all','All'],['close','Within 7 of us'],['mkt','Kalshi 8+ higher'],['warn','⚠ We are 8+ higher'],['none','No price']])+grp('fl','Flags',[['all','All'],['clean','No flags'],['flag','Flagged']])+'</div><p class="note" id="thuN" style="margin:6px 0 0"></p>'};
+ drawF();
  const BF=boardFilters(fe,CUR,CURD,(sp,tm)=>{SP=sp;TM=tm;draw()});
- const ok=x=>BF.pass(x)&&(F==='all'||(F==='clean'&&!x.fl)||(F==='70'&&x.pct>=70)||(F==='move'&&x.moved)||(F==='flag'&&x.fl)||x.ty===F||x.st===F);
- const draw=()=>{const r=CUR.filter(ok).sort((a,b)=>(/LIVE|FINAL/.test(a.fl||'')-/LIVE|FINAL/.test(b.fl||''))||b.pct-a.pct);document.getElementById('thuT').innerHTML='<thead><tr><th>#</th><th>Pick</th><th>Grade</th><th>Hit %</th><th>Kalshi</th><th>Game</th><th>PT</th><th>Note</th></tr></thead><tbody>'+r.map((x,i)=>`<tr><td class="mono" style="color:#5b6b64">${i+1}</td><td>${x.p}<span class="tag">${x.st.toUpperCase()}</span>${fl(x)}${rb(x)}</td><td class="mono">${x.pct?SG(x.pct):'X'}</td><td class="mono"><span class="minibar"><i style="width:${x.pct}%"></i></span>${x.pct||'OUT'}</td><td class="mono" style="color:${x.k==null?'#5b6b64':x.k>=x.pct?'var(--acc)':x.k<=x.pct-10?'var(--bad)':'#8a9a93'}">${x.k==null?'-':(x.pct>=x.k+8?'⚠ ':'')+'Kalshi '+x.k}</td><td class="lbl">${x.g}</td><td class="mono">${x.t}</td><td style="color:#8a9a93;white-space:normal;min-width:180px">${x.n}${x.mv?`<br><b style="color:var(--acc)">Better: ${x.mv}</b>`:''}</td></tr>`).join('')+'</tbody>'};
- fe.onclick=e=>{const b=e.target.closest('button');if(!b)return;F=b.dataset.f;fe.querySelectorAll('.btn').forEach(x=>x.classList.toggle('on',x===b));draw()};draw();})();
+ const ok=x=>BF.pass(x)&&(G.gr==='all'||(G.gr==='80'?x.pct>=80:G.gr==='70'?x.pct>=70&&x.pct<80:G.gr==='60'?x.pct>=60&&x.pct<70:x.pct<60))&&(G.ty==='all'||x.ty===G.ty)&&(G.stt==='all'||statOf(x)===G.stt)&&(G.ln==='all'||(G.ln==='move'?x.moved:G.ln==='u'?/\bunder\b|\bu\d/i.test(x.p):x.st===G.ln))&&(G.k==='all'||kb(x)===G.k)&&(G.fl==='all'||(G.fl==='clean'?!x.fl:!!x.fl));
+ const draw=()=>{const r=CUR.filter(ok).sort((a,b)=>(/LIVE|FINAL/.test(a.fl||'')-/LIVE|FINAL/.test(b.fl||''))||b.pct-a.pct);{const N0=document.getElementById('thuN');if(N0)N0.textContent=`Showing ${r.length} of ${CUR.length} picks. Filters stack, so 80+ and NBA and Kalshi within 7 shows only legs that pass all three.`}document.getElementById('thuT').innerHTML='<thead><tr><th>#</th><th>Pick</th><th>Grade</th><th>Hit %</th><th>Kalshi</th><th>Game</th><th>PT</th><th>Note</th></tr></thead><tbody>'+r.map((x,i)=>`<tr><td class="mono" style="color:#5b6b64">${i+1}</td><td>${x.p}<span class="tag">${x.st.toUpperCase()}</span>${fl(x)}${rb(x)}</td><td class="mono">${x.pct?SG(x.pct):'X'}</td><td class="mono"><span class="minibar"><i style="width:${x.pct}%"></i></span>${x.pct||'OUT'}</td><td class="mono" style="color:${x.k==null?'#5b6b64':x.k>=x.pct?'var(--acc)':x.k<=x.pct-10?'var(--bad)':'#8a9a93'}">${x.k==null?'-':(x.pct>=x.k+8?'⚠ ':'')+'Kalshi '+x.k}</td><td class="lbl">${x.g}</td><td class="mono">${x.t}</td><td style="color:#8a9a93;white-space:normal;min-width:180px">${x.n}${x.mv?`<br><b style="color:var(--acc)">Better: ${x.mv}</b>`:''}</td></tr>`).join('')+'</tbody>'};
+ fe.onclick=e=>{const b=e.target.closest('button[data-g]');if(!b)return;G[b.dataset.g]=b.dataset.v;drawF();draw()};draw();})();
 
 document.getElementById('thuTix').innerHTML=CTIX.map(t=>{const pl=t.t.includes('PLAYED'),k=t.res;return `<div class="st"${k==='W'?' style="border-color:var(--acc);box-shadow:0 0 22px rgba(4,255,159,.22)"':''}>${pl?'<span class="lbl acc" style="display:block;margin-bottom:4px">● Placed</span>':''}<h3 style="color:${t.c}">${t.t}${k?` <span class="res ${k==='W'?'w':'l'}">${k==='W'?'CASHED':'MISSED'}</span>`:''}</h3>${t.legs.map(l=>{const r=CUR.find(x=>x.p===l);const q=r&&r.r;return `<div class="row"${q==='L'?' style="color:var(--bad)"':''}><span>${q==='W'?'✓ ':q==='L'?'✗ ':''}${l}</span><b>${r?r.pct:''}${r&&r.k!=null?`<small class="kp">${r.pct>=r.k+8?'⚠ ':''}K ${r.k}</small>`:''}</b></div>`}).join('')}<div class="row"><span>Hit chance</span><b>${t.hit}</b></div><div class="row"><span>Stake</span><b>${t.stake}</b></div><div class="row"><span>Lock at</span><b>${t.lock}</b></div><p class="note" style="margin:10px 0 0">${t.v}</p></div>`}).join('');
 (function(){const rb=x=>x.r?` <span class="res ${x.r==='W'?'w':'l'}">${x.r}</span>`:'';const fl=x=>x.fl?`<span class="fl ${x.fl==='OUT'?'x':''}">${(FLN2[x.fl]||{LIVE:'Live now'}[x.fl])||x.fl}</span>`:'';
@@ -1446,11 +1481,11 @@ document.getElementById('frhTix').innerHTML=FTIX.map(t=>{const pl=t.t.includes('
 document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('PLAYED'),k=t.res;return `<div class="st"${k==='W'?' style="border-color:var(--acc);box-shadow:0 0 22px rgba(4,255,159,.22)"':''}>${pl?'<span class="lbl acc" style="display:block;margin-bottom:4px">● Placed</span>':''}<h3 style="color:${t.c}">${t.t}${k?` <span class="res ${k==='W'?'w':'l'}">${k==='W'?'CASHED':'MISSED'}</span>`:''}</h3>${t.legs.map(l=>{const r=THU.find(x=>x.p===l);const q=r&&r.r;return `<div class="row"${q==='L'?' style="color:var(--bad)"':''}><span>${q==='W'?'✓ ':q==='L'?'✗ ':''}${l}</span><b>${r?r.pct:''}${r&&r.k!=null?`<small class="kp">${r.pct>=r.k+8?'⚠ ':''}K ${r.k}</small>`:''}</b></div>`}).join('')}<div class="row"><span>Hit chance</span><b>${t.hit}</b></div><div class="row"><span>Stake</span><b>${t.stake}</b></div><div class="row"><span>Lock at</span><b>${t.lock}</b></div><p class="note" style="margin:10px 0 0">${t.v}</p></div>`}).join('');
 
 /* pages router */
-(function(){const MAP={drop:'off',thursday:'home',easy:'easy',research:'research',perfect:'research',betalab:'research',review17:'results',review16:'results',review15:'results',review14:'results',review13:'results',review12:'results',review11:'history',monhist:'history',sunhist:'history',sathist:'history',frihist:'history',thuhist:'history',wednesday:'history',review10:'history',tuesday:'history',monday:'history',recap9:'history',recap:'history',sunday:'history',ledger:'results',legs:'results',marbles:'method',thesis:'method',edge:'method',structure:'method',lotto:'method'};
+(function(){const MAP={drop:'off',record:'record',founders:'founders',thursday:'home',easy:'easy',research:'research',perfect:'research',betalab:'research',review17:'results',review16:'results',review15:'results',review14:'results',review13:'results',review12:'results',review11:'history',monhist:'history',sunhist:'history',sathist:'history',frihist:'history',thuhist:'history',wednesday:'history',review10:'history',tuesday:'history',monday:'history',recap9:'history',recap:'history',sunday:'history',ledger:'results',legs:'results',marbles:'method',thesis:'method',edge:'method',structure:'method',lotto:'method'};
  const T=document.querySelector('.tiles');if(T)T.dataset.pg='results';
  Object.entries(MAP).forEach(([id,p])=>{const e=document.getElementById(id);if(e)e.dataset.pg=p});
  document.querySelectorAll('.wrap > section').forEach(e=>{if(e.dataset.pg)return;const h=(e.querySelector('h2')||{}).textContent||'';e.dataset.pg=/Calibration|Scoreboard/.test(h)?'results':/Red flags|Rulebook/.test(h)?'method':'history'});
- const PAGES=['home','easy','research','history','results','method'];
+ const PAGES=['home','easy','research','history','results','method','record','founders'];
  const cur=()=>{const h=location.hash.replace(/^#\/?/,'');if(PAGES.includes(h))return h;const e=h&&document.getElementById(h);if(e&&e.dataset.pg)return e.dataset.pg;const p=location.pathname.replace(/^\/|\/$/g,'');return PAGES.includes(p)?p:'home'};
  const go=(p,id)=>{document.querySelectorAll('[data-pg]').forEach(e=>e.hidden=e.dataset.pg!==p);document.querySelectorAll('[data-go]').forEach(a=>a.classList.toggle('on',a.dataset.go===p));const e=id&&document.getElementById(id);if(e)e.scrollIntoView({block:'start'});else window.scrollTo(0,0)};
  window.BDgo=go;
@@ -1459,7 +1494,7 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);const e=document.getElementById(h);if(e)go(e.dataset.pg||'home',h);else go(cur())});
  const h0=location.hash.slice(1);go(cur(),document.getElementById(h0)?h0:null);})();
 /* guided tour */
-(function(){const S=[['#dayTitle','Picks','Every pick on the board. The big number is how often we expect it to hit.'],['#thuF','Filter','Tap a sport, a start time, or 70%+. Swipe the buttons sideways on your phone.'],['#thuAny','Top 25','The 25 highest hit % picks on the board.'],['#thuTix','Suggested parlays','Our tickets for the night. Lock each one at the payout shown or better.'],['.tabbar [data-go="easy"]','Tap 3','The easy way: tap any 3 picks from the 70 pool and play them.'],['.tabbar .post','Post','Free account. Post your ticket and climb the leaderboard.']];
+(function(){const S=[['#dayTitle','Picks','Every pick on the board. The big number is how often we expect it to hit.'],['#thuF','Filter','Tap a sport, a start time, or 70%+. Swipe the buttons sideways on your phone.'],['#thuAny','Top 25','The 25 highest hit % picks on the board.'],['#thuTix','Suggested parlays','Our tickets for the night. Lock each one at the payout shown or better.'],['.tabbar [data-go="easy"]','Build','Build a ticket from the board. See our grade, Kalshi, the payout and every warning.'],['.tabbar .post','Post','Free account. Post your ticket and climb the leaderboard.']];
  let i=0,box,ring;const end=()=>{box&&box.remove();ring&&ring.remove();try{localStorage.setItem('bd_tour','1')}catch(e){}};
  const show=()=>{const [sel,h,t]=S[i];const el=[...document.querySelectorAll(sel)].find(x=>x.getClientRects().length);if(!el){i++;return i<S.length?show():end()}
   el.scrollIntoView({block:'center'});const r=el.getBoundingClientRect();
@@ -1510,42 +1545,62 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  const tag=diff<=0?"Today's picks":diff===1?"Yesterday's picks":'Latest picks';
  const t=document.getElementById('dayTag');if(t)t.textContent=tag+(graded?' · graded, results in':'')+(diff>0?' · new board drops before tip':'');
  const ti=document.getElementById('dayTitle');if(ti)ti.textContent=BOARD.label;
- const et=document.getElementById('ezTag');if(et)et.textContent='Tap 3 · '+BOARD.label+(graded?' · results in':'');
- // tap 3
- const pool=BOARD.rows.filter(r=>r.pct>=70&&!r.fl).sort((a,b)=>((b.ty==='ml')-(a.ty==='ml'))||b.pct-a.pct);
- const seen=new Set(),list=[];pool.forEach(r=>{const k=r.p.replace(/\s+(over|under|\d).*$/i,'').toLowerCase();if(r.ty!=='ml'&&seen.has(k))return;seen.add(k);list.push(r)});
+ const et=document.getElementById('ezTag');if(et)et.textContent='Ticket builder · '+BOARD.label+(graded?' · results in':'');
+ // ticket builder (replaces Tap 3). Never places bets: it only helps you see odds and risks.
  const L=document.getElementById('easyList');if(!L)return;
- const rec=p=>p>=70?.82:p>=60?.67:p/100;
- const res=r=>r.r?` <span class="res ${r.r==='W'?'w':'l'}">${r.r}</span>`:'';
- // start time: board times are Pacific, shown in the viewer's own time zone
+ const SPN={NBA:'🏀 NBA',NHL:'🏒 NHL',CFB:'🏈 College FB',CBB:'🏀 College hoops',NFL:'🏈 NFL',UFC:'🥊 UFC',TEN:'🎾 Tennis',MLB:'⚾ MLB'};
+ const all=BOARD.rows.filter(r=>r.pct>0&&r.fl!=='OUT');
  const ptStart=(d,t)=>{const m=/^(\d{1,2}):(\d{2})/.exec(t||'');if(!m)return null;let h=+m[1];if(/am/i.test(t||'')){if(h===12)h=0}else if(h<12)h+=12;
    const guess=Date.UTC(+d.slice(0,4),+d.slice(5,7)-1,+d.slice(8,10),h,+m[2]);
    const pt=new Date(new Date(guess).toLocaleString('en-US',{timeZone:'America/Los_Angeles'})),utc=new Date(new Date(guess).toLocaleString('en-US',{timeZone:'UTC'}));
    return new Date(guess+(utc-pt))};
  const loc=dt=>dt?dt.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'}):'';
- const tz=(()=>{try{return new Intl.DateTimeFormat([], {timeZoneName:'short'}).formatToParts(new Date()).find(x=>x.type==='timeZoneName').value}catch(e){return ''}})();
- list.forEach(r=>r._s=ptStart(BOARD.d,r.t));
- let only=true;const sel=[];const N=document.getElementById('ezN'),T=document.getElementById('ezT'),C=document.getElementById('ezCopy');
- const bar=document.createElement('div');bar.className='filters';bar.style.margin='4px 0 10px';
- bar.innerHTML=`<button class="btn on" data-o="1" type="button">⏱ Not started yet</button><button class="btn" data-o="0" type="button">All picks</button>`;
- const cap=document.createElement('p');cap.className='proof';cap.style.margin='0 0 12px';
- L.before(bar,cap);
+ all.forEach((r,i)=>{r._i=i;r._s=ptStart(BOARD.d,r.t)});
  const open=r=>!r._s||r._s.getTime()>Date.now();
- const draw=()=>{const vis=list.map((r,i)=>[r,i]).filter(([r])=>!only||open(r));
-  for(let k=sel.length-1;k>=0;k--)if(!vis.some(([,i])=>i===sel[k]))sel.splice(k,1);
-  const n=vis.length;
-  cap.innerHTML=only?(n?`Showing <b>${n}</b> picks from games that haven't started yet. Times are in your time zone${tz?' ('+tz+')':''}.`:`Every game on this board has started. The next board drops before tip.`):`Showing all <b>${list.length}</b> picks. Games already started are marked LIVE.`;
-  L.innerHTML=vis.map(([r,i])=>{const live=!open(r);return `<button class="ez" type="button" data-i="${i}"${live?' style="opacity:.55"':''}><span>${r.p}${res(r)}</span><small>${r.g} · ${live?'<b style="color:var(--warn);font:inherit;position:static;transform:none">LIVE</b>':loc(r._s)||r.t}${r.ty==='ml'?' · moneyline':''}</small><b>${r.pct}</b></button>`}).join('');
-  upd()};
- const upd=()=>{L.querySelectorAll('.ez').forEach(b=>b.classList.toggle('on',sel.includes(+b.dataset.i)));N.textContent=sel.length+'/3';
-  if(sel.length<3){T.innerHTML=sel.length?`Pick ${3-sel.length} more.`:'Tap 3 picks.';C.disabled=true;return}
-  const rs=sel.map(i=>list[i]);const h=rs.reduce((a,r)=>a*rec(r.pct),1),g=rs.reduce((a,r)=>a*r.pct/100,1);
-  const same=new Set(rs.map(r=>r.g)).size<3,lv=rs.some(r=>!open(r));
-  T.innerHTML=`Hits about <b>${Math.round(h*100)}%</b> by our record (${Math.round(g*100)}% by raw grades). Lock it on Kalshi at 2x or better.${same?' <br><b style="color:var(--warn)">Two picks share a game. Spread them out if you can.</b>':''}${lv?' <br><b style="color:var(--warn)">One of these games already started. The price has moved.</b>':''}`;C.disabled=false};
- bar.onclick=e=>{const b=e.target.closest('button');if(!b)return;only=b.dataset.o==='1';bar.querySelectorAll('.btn').forEach(x=>x.classList.toggle('on',x===b));draw()};
- L.onclick=e=>{const b=e.target.closest('.ez');if(!b)return;const i=+b.dataset.i;const k=sel.indexOf(i);if(k>-1)sel.splice(k,1);else{if(sel.length===3)sel.shift();sel.push(i)}upd()};
- C.onclick=async()=>{const txt='My BettorDays 3:\n'+sel.map(i=>'• '+list[i].p+' ('+list[i].pct+'%)').join('\n')+'\nbettordays.xyz';try{await navigator.clipboard.writeText(txt);C.textContent='Copied ✓';setTimeout(()=>C.textContent='Copy my 3',1600)}catch(e){prompt('Copy this:',txt)}};
- draw();setInterval(()=>{if(only)draw()},60000);
+ const who=r=>r.ty==='ml'?r.p.toLowerCase():r.p.replace(/\s+(over|under|o|u|\d).*$/i,'').toLowerCase().trim();
+ const kb=r=>r.k==null?'none':r.pct>=r.k+8?'warn':r.k>=r.pct+8?'mkt':'close';
+ // our real record by grade band, from every graded leg (ROWS), so the estimate is honest
+ const band=g=>g>=85?'85+':g>=80?'80-84':g>=75?'75-79':g>=70?'70-74':g>=65?'65-69':g>=60?'60-64':'<60';
+ const REC={};(typeof ROWS!=='undefined'?ROWS:[]).forEach(r=>{const b=band(r.est);REC[b]=REC[b]||[0,0];REC[b][0]+=r.hit;REC[b][1]++});
+ const recP=g=>{const x=REC[band(g)];return x&&x[1]>=20?x[0]/x[1]:g/100};
+ const G={sp:'all',gr:'all',k:'all',tm:'up'};
+ const fb=document.createElement('div');fb.className='bfil';L.before(fb);
+ const cap=document.createElement('p');cap.className='proof';cap.style.margin='0 0 12px';L.before(cap);
+ const sports=[...new Set(all.map(r=>r.sp))];
+ const rowsHTML=(key,lab,opts)=>`<div class="bfrow"><span class="lbl">${lab}</span>${opts.map(([k,n])=>`<button class="btn sm ${G[key]===k?'on':''}" data-g="${key}" data-v="${k}" type="button">${n}</button>`).join('')}</div>`;
+ const drawF=()=>{fb.innerHTML=rowsHTML('sp','Sport',[['all','All'],...sports.map(k=>[k,SPN[k]||k])])+rowsHTML('gr','Grade',[['all','All'],['80','80+'],['70','70-79'],['60','60-69'],['0','Under 60']])+rowsHTML('k','Kalshi',[['all','All'],['close','Within 7 of us'],['mkt','Kalshi 8+ higher'],['warn','⚠ We are 8+ higher'],['none','No Kalshi price']])+rowsHTML('tm','Start',[['up','⏱ Not started yet'],['any','Any time']])};
+ const pass=r=>(G.sp==='all'||r.sp===G.sp)&&(G.gr==='all'||(G.gr==='80'?r.pct>=80:G.gr==='70'?r.pct>=70&&r.pct<80:G.gr==='60'?r.pct>=60&&r.pct<70:r.pct<60))&&(G.k==='all'||kb(r)===G.k)&&(G.tm==='any'||open(r));
+ let DOPEN=false;const sel=[];const N=document.getElementById('ezN'),T=document.getElementById('ezT'),C=document.getElementById('ezCopy'),X=document.getElementById('ezClear');
+ const kchip=r=>r.k==null?'<small class="kp" style="opacity:.6">no Kalshi</small>':`<small class="kp"${r.pct>=r.k+8?' style="color:var(--warn);border-color:var(--warn)"':''}>${r.pct>=r.k+8?'⚠ ':''}K ${r.k}</small>`;
+ const draw=()=>{const vis=all.filter(r=>pass(r)||sel.includes(r._i)).sort((a,b)=>sel.includes(b._i)-sel.includes(a._i)||b.pct-a.pct);
+  cap.innerHTML=`Showing <b>${vis.length}</b> of ${all.length} legs on ${BOARD.label}. Every filter stacks with the others. Times are in your time zone.`;
+  L.innerHTML=vis.map(r=>{const live=!open(r);return `<button class="ez${sel.includes(r._i)?' on':''}" type="button" data-i="${r._i}"${live?' style="opacity:.55"':''}><span>${r.p}${r.r?` <span class="res ${r.r==='W'?'w':'l'}">${r.r}</span>`:''}</span><small>${r.g} · ${live?'<em style="color:var(--warn);font-style:normal">STARTED</em>':loc(r._s)||r.t} ${kchip(r)}</small><b>${r.pct}</b></button>`}).join('')||'<p class="note">No legs match these filters.</p>';upd()};
+ const fx=x=>x>=10?Math.round(x)+'x':x.toFixed(2).replace(/0$/,'')+'x';
+ const upd=()=>{N.textContent=sel.length+' leg'+(sel.length===1?'':'s');C.disabled=X.disabled=!sel.length;
+  if(sel.length<2){T.innerHTML=sel.length?'Add at least one more leg.':'Tap legs to build a ticket. 2 to 8 legs.';return}
+  const rs=sel.map(i=>all[i]);
+  const ours=rs.reduce((a,r)=>a*r.pct/100,1),rec=rs.reduce((a,r)=>a*recP(r.pct),1);
+  const kp=rs.filter(r=>r.k!=null),kall=kp.length===rs.length,kprob=kp.reduce((a,r)=>a*Math.max(1,Math.min(99,r.k))/100,1);
+  const pay=kall?1/kprob:null;
+  const W=[];
+  const warn=rs.filter(r=>r.k!=null&&r.pct>=r.k+8);if(warn.length)W.push(`⚠ ${warn.map(r=>r.p).join(', ')}: our grade is 8+ above Kalshi. Those legs are not Hammer eligible while we test this on the full record.`);
+  const gm={};rs.forEach(r=>gm[r.g]=(gm[r.g]||0)+1);const dup=Object.entries(gm).filter(([,n])=>n>1).map(([g])=>g);if(dup.length)W.push(`Same game: ${dup.join(', ')}. Legs from one game tend to win or lose together, so the real hit chance is not the simple product.`);
+  const pl={};rs.forEach(r=>{const k=who(r);pl[k]=(pl[k]||0)+1});if(Object.values(pl).some(n=>n>1))W.push('Same player twice. A ladder on one player adds risk without much payout.');
+  if(rs.some(r=>!open(r)))W.push('A game already started. Prices have moved since the board went up.');
+  if(!kall)W.push(`${rs.length-kp.length} of ${rs.length} legs have no Kalshi price, so the payout below is incomplete. Check the slip.`);
+  if(pay!=null&&pay<2)W.push('Payout is under 2x. Add a leg only if it clears our own bar, or skip this one.');
+  if(rs.some(r=>r.pct<60))W.push('A leg is graded under 60. That is a long shot leg.');
+  if(rs.length>6)W.push(`${rs.length} legs. Every leg you add cuts the hit chance.`);
+  const ham=!warn.length;
+  const sum=`<b style="color:var(--fg)">${pay?fx(pay):'-'}</b> est. payout · Kalshi ${kp.length?Math.round(kprob*100)+'%':'-'} · ours ${Math.round(ours*100)}% · ${W.length?`<b style="color:var(--warn)">${W.length} warning${W.length>1?'s':''}</b>`:'<b style="color:var(--acc)">no warnings</b>'}`;
+  T.innerHTML=`<details class="tbd"${window.innerWidth>700||DOPEN?' open':''}><summary>${sum} <span class="tbm">details</span></summary><div class="tbg"><div><small>Our grades</small><b>${Math.round(ours*100)}%</b></div><div><small>Our record at these grades</small><b>${Math.round(rec*100)}%</b></div><div><small>Kalshi${kall?'':' (partial)'}</small><b>${kp.length?Math.round(kprob*100)+'%':'-'}</b></div><div><small>Est. payout</small><b>${pay?fx(pay):'-'}</b></div></div>`+
+   `<p class="tbnote">Payout is 1 divided by Kalshi's combined price, before fees. It is an estimate, your slip shows the real number. ${ham?'<b style="color:var(--acc)">Hammer check: no ⚠ legs.</b>':'<b style="color:var(--warn)">Not Hammer eligible.</b>'}</p>`+
+   (W.length?`<ul class="tbw">${W.map(w=>`<li>${w}</li>`).join('')}</ul>`:'<p class="tbnote" style="color:var(--acc)">No warnings on this ticket.</p>')+'</details>';const d=T.querySelector('details');if(d)d.ontoggle=()=>{DOPEN=d.open}};
+ fb.onclick=e=>{const b=e.target.closest('button[data-g]');if(!b)return;G[b.dataset.g]=b.dataset.v;drawF();draw()};
+ L.onclick=e=>{const b=e.target.closest('.ez');if(!b)return;const i=+b.dataset.i;const k=sel.indexOf(i);if(k>-1)sel.splice(k,1);else{if(sel.length>=8){T.innerHTML='8 legs is the max here.';return}sel.push(i)}draw()};
+ X.onclick=()=>{sel.length=0;draw()};
+ C.onclick=async()=>{const rs=sel.map(i=>all[i]);const txt='My BettorDays ticket:\n'+rs.map(r=>'• '+r.p+' (ours '+r.pct+(r.k!=null?', Kalshi '+r.k:'')+')').join('\n')+'\nbettordays.xyz · 21+ · not a guarantee';try{await navigator.clipboard.writeText(txt);C.textContent='Copied ✓';setTimeout(()=>C.textContent='Copy ticket',1600)}catch(e){prompt('Copy this:',txt)}};
+ drawF();draw();setInterval(()=>{if(G.tm==='up')draw()},60000);
 })();
 (function(){const m=document.getElementById('moreSheet'),b=document.getElementById('moreBtn');if(!m||!b)return;
  const close=()=>m.hidden=true;b.onclick=()=>m.hidden=false;
@@ -1561,6 +1616,45 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  m.innerHTML=h;if(b&&(d.inbox||d.an))b.classList.add('dot');
  m.addEventListener('click',e=>{if(e.target.closest('[data-more="bell"]')){document.getElementById('moreSheet').hidden=true;d.bell()}})};
  if(window.BDG_MEMBER)paint(window.BDG_MEMBER);document.addEventListener('bdg:member',e=>paint(e.detail));})();
+</script>
+<script>
+/* Record explorer: every graded leg from the model_picks database, combinable filters, wins, losses and sample sizes */
+(function(){const box=document.getElementById('recF');if(!box)return;
+ const LBL={pts:'Points',reb:'Rebounds',ast:'Assists','3pm':'Threes',pra:'PRA',recyds:'Receiving yds',rush:'Rushing yds',pass:'Passing yds',rec:'Receptions',atd:'Anytime TD',td:'TDs',ml:'Moneylines',spread:'Spreads',total:'Totals',combo:'Combos',other:'Other'};
+ const BANDS=[['85','85+',85,101],['80','80-84',80,85],['75','75-79',75,80],['70','70-74',70,75],['65','65-69',65,70],['60','60-64',60,65],['50','50-59',50,60],['0','Under 50',0,50]];
+ const wil=(h,n)=>{if(!n)return[0,0];const z=1.96,p=h/n,d=1+z*z/n,c=p+z*z/(2*n),m=z*Math.sqrt(p*(1-p)/n+z*z/(4*n*n));return[Math.round(100*(c-m)/d),Math.round(100*(c+m)/d)]};
+ const G={sp:new Set,gr:new Set,st:new Set,dir:new Set,k:new Set,wk:new Set,ln:new Set};
+ let D=[];
+ const kb=r=>r.k==null?'none':r.g>=r.k+8?'warn':r.k>=r.g+8?'mkt':'close';
+ const band=g=>BANDS.find(b=>g>=b[2]&&g<b[3])[0];
+ const opts={sp:()=>[...new Set(D.map(r=>r.sp))].sort().map(k=>[k,k]),gr:()=>BANDS.map(b=>[b[0],b[1]]),st:()=>[...new Set(D.map(r=>r.st))].sort((a,b)=>D.filter(r=>r.st===b).length-D.filter(r=>r.st===a).length).map(k=>[k,LBL[k]||k]),
+  dir:()=>[['o','Overs'],['u','Unders']],k:()=>[['close','Within 7 of Kalshi'],['warn','⚠ Ours 8+ above'],['mkt','Kalshi 8+ above'],['none','No Kalshi price']],wk:()=>[...new Set(D.map(r=>r.wk))].map(k=>[k,k]),ln:()=>[['reg','Regular lines'],['alt','Alt lines'],['ceil','Ceiling lines']]};
+ const NAMES={sp:'Sport',gr:'Our grade',st:'Prop type',dir:'Over / under',k:'Vs Kalshi',wk:'Week',ln:'Line type'};
+ const pass=(r,skip)=>Object.keys(G).every(key=>key===skip||!G[key].size||G[key].has(key==='gr'?band(r.g):key==='k'?kb(r):r[key]));
+ const cnt=(key,v)=>D.filter(r=>r.res!=='P'&&pass(r,key)&&(key==='gr'?band(r.g):key==='k'?kb(r):r[key])===v).length;
+ const drawF=()=>{box.innerHTML=Object.keys(G).map(key=>`<div class="bfrow"><span class="lbl">${NAMES[key]}</span>${opts[key]().map(([v,n])=>{const c=cnt(key,v);return `<button class="btn sm ${G[key].has(v)?'on':''}" data-k="${key}" data-v="${v}" type="button"${c||G[key].has(v)?'':' disabled style="opacity:.35"'}>${n} <small style="opacity:.6">${c}</small></button>`}).join('')}</div>`).join('')+`<div class="bfrow"><button class="btn sm" data-clear="1" type="button">Clear all filters</button></div>`};
+ const line=rs=>{const g=rs.filter(r=>r.res!=='P'),h=g.filter(r=>r.res==='W').length,n=g.length,[lo,hi]=wil(h,n),ag=n?g.reduce((a,r)=>a+r.g,0)/n:0,kr=g.filter(r=>r.k!=null),ak=kr.length?kr.reduce((a,r)=>a+r.k,0)/kr.length:null;return{h,n,l:n-h,p:n?Math.round(100*h/n):0,lo,hi,ag:Math.round(ag),ak:ak==null?null:Math.round(ak),kn:kr.length,push:rs.length-n}};
+ const tbl=(rows,keyf,label,order)=>{const m={};rows.forEach(r=>{const k=keyf(r);(m[k]=m[k]||[]).push(r)});const ks=order?order.filter(k=>m[k]):Object.keys(m);
+  return `<table class="tbl"><thead><tr><th>${label}</th><th>W-L</th><th>Hit</th><th>n</th><th>Likely range</th><th>Avg grade</th><th>Avg Kalshi</th></tr></thead><tbody>${ks.map(k=>{const s=line(m[k]);return `<tr><td>${k}</td><td class="mono">${s.h}-${s.l}</td><td class="mono" style="color:${s.p>=s.ag?'var(--acc)':'var(--bad)'}">${s.p}%</td><td class="mono">${s.n}${s.n<30?' <small style="color:var(--warn)">small</small>':''}</td><td class="mono">${s.lo}-${s.hi}%</td><td class="mono">${s.ag}</td><td class="mono">${s.ak==null?'-':s.ak+' <small>('+s.kn+')</small>'}</td></tr>`}).join('')}</tbody></table>`};
+ const draw=()=>{const rs=D.filter(r=>pass(r));const s=line(rs);
+  document.getElementById('recS').innerHTML=`<div class="rbig"><div><small>Record</small><b>${s.h}-${s.l}</b></div><div><small>Hit rate</small><b>${s.p}%</b></div><div><small>Graded legs</small><b>${s.n}</b></div><div><small>Our avg grade</small><b>${s.ag}</b></div></div>
+   <p class="note">Likely true hit rate: <b>${s.lo}% to ${s.hi}%</b> (95% range). ${s.n<30?'<b style="color:var(--warn)">Under 30 legs. Treat this as a lead, not proof.</b> ':''}${s.push?s.push+' push'+(s.push>1?'es':'')+' not counted. ':''}${s.kn?`${s.kn} of these legs have a Kalshi price, averaging ${s.ak}.`:'No Kalshi prices in this group.'}</p>`;
+  document.getElementById('recT').innerHTML='<h3 class="lbl" style="margin:18px 0 6px">By our grade</h3>'+tbl(rs,r=>BANDS.find(b=>b[0]===band(r.g))[1],'Grade',BANDS.map(b=>b[1]))+'<h3 class="lbl" style="margin:18px 0 6px">By date</h3>'+tbl(rs,r=>r.d,'Date',[...new Set(D.map(r=>r.d))])+'<h3 class="lbl" style="margin:18px 0 6px">By prop type</h3>'+tbl(rs,r=>LBL[r.st]||r.st,'Type')};
+ box.onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.clear){Object.values(G).forEach(s=>s.clear())}else{const s=G[b.dataset.k];s.has(b.dataset.v)?s.delete(b.dataset.v):s.add(b.dataset.v)}drawF();draw()};
+ fetch('/record.json',{cache:'no-cache'}).then(r=>r.json()).then(j=>{D=j.legs;document.getElementById('recMeta').innerHTML=j.meta;drawF();draw()}).catch(()=>{document.getElementById('recMeta').textContent='Could not load the record right now. Try again in a minute.'});
+})();
+/* Founders waitlist */
+(function(){const f=document.getElementById('wlForm');if(!f)return;const m=document.getElementById('wlMsg'),c=document.getElementById('wlCount');
+ const count=()=>{if(!window.BD_SB)return;window.BD_SB.rpc('waitlist_count').then(({data})=>{if(typeof data==='number'&&c)c.textContent=data?data+' on the list so far':''})};
+ const ready=()=>window.BD_SB?count():setTimeout(ready,400);ready();
+ f.addEventListener('submit',async e=>{e.preventDefault();if(f.website.value)return;const em=f.email.value.trim();
+  if(!f.age.checked){m.textContent='You must be 21 or older to join.';return}
+  if(!window.BD_SB){m.textContent='Still loading, try again in a second.';return}
+  m.textContent='Saving...';const b=f.querySelector('button');b.disabled=true;
+  const {error}=await window.BD_SB.from('founders_waitlist').insert({email:em,name:f.name.value.trim()||null,handle:f.handle.value.trim().replace(/^@/,'')||null,source:(new URLSearchParams(location.search).get('src')||'site').slice(0,40)});
+  b.disabled=false;
+  if(error){m.textContent=/duplicate|unique/i.test(error.message)?"You're already on the list. We'll reach out before launch.":'That did not save. Check the email and try again.';return}
+  f.reset();m.innerHTML='<b style="color:var(--acc)">You\'re in.</b> Founders hear first when paid plans open.';count()});})();
 </script>
 <script>
 /* Deep Research: everything here is computed from the graded picks, so it updates itself when a night is graded */

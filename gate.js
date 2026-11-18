@@ -5,7 +5,7 @@
   const css = `
   .bdg-pill{position:fixed;left:16px;bottom:16px;z-index:60;display:flex;flex-wrap:wrap;max-width:calc(100vw - 110px);align-items:center;gap:10px;background:rgba(11,13,12,.92);border:1px solid #1f2724;padding:9px 12px;font:500 12px/1 'Geist Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#8a9a93;backdrop-filter:blur(8px)}
   .bdg-pill b{color:#04ff9f;font-weight:700}
-  body:has(.sheet:not([hidden])) .bdg-pill,body:has(.bdi:not([hidden])) .bdg-pill{display:none}
+  body:has(.sheet:not([hidden])) .bdg-pill,body:has(.bdi:not([hidden])) .bdg-pill,body:has(#easy:not([hidden]) .tbd) .bdg-pill{display:none}
   .bdg-pill #bdgBell{background:none;border:1px solid #1f2724;font-size:16px;padding:4px 7px}
   .bdg-pill a,.bdg-pill button{background:#04ff9f;color:#0b0d0c;border:0;padding:7px 10px;font:700 11px/1 'Geist Mono',monospace;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;text-decoration:none}
   @media (max-width:900px){.bdg-pill{bottom:calc(84px + env(safe-area-inset-bottom,0px));left:12px}}

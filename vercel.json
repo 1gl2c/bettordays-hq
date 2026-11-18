@@ -20,6 +20,14 @@
     {
       "source": "/research",
       "destination": "/"
+    },
+    {
+      "source": "/record",
+      "destination": "/"
+    },
+    {
+      "source": "/founders",
+      "destination": "/"
     }
   ]
 }
