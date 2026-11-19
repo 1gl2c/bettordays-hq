@@ -74,3 +74,11 @@ Re-running gives the same output as the original scripts. Some saved outputs wer
 ## Known issue (not fixed, so behavior is preserved)
 
 `wed/grade_body.py` line 28 sets `moved=True` whenever a pick has `orig` (a notation rewrite like "over 4 assists" to "5+ assists"), not only for real line moves. On Nov 18 that put 10 notation-only rows into `model_picks` as `moved`. These rows have `capper_line` filled in. The site's "Lines we moved" count uses only real moves. See the system doc.
+
+## Review data packet
+
+`review_packet/build_packet.py` builds the historical data packet attached to every independent AI review run, so each model gets the same data. See `docs/INDEPENDENT_PICK_REVIEW_PROMPT.md`.
+
+`review_packet/rs_export.cjs` exports the Perfect Parlays backtest and hindsight data from the built `index.html`, using a headless browser.
+
+The packet builder only reads data and writes CSV files. It doesn't change grades, results or the site.
