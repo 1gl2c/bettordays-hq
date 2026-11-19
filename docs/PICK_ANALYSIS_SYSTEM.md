@@ -12,7 +12,7 @@ Three labels are used throughout:
 
 ---
 
-## 1. The most important thing to know first
+## 1. Read this first
 
 The system has **two halves that live in different places**:
 
