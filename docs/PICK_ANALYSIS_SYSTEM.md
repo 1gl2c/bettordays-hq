@@ -1,6 +1,6 @@
 # BettorDays pick analysis system: how it actually works
 
-Last verified against the code: **Thu Nov 19, 2026** (repo commit `9a66cfa`).
+Last verified against the code: **Thu Nov 19, 2026**. Updated the same day after the pipeline moved into the repo (`pipeline/`) and four site fixes (section 4.1).
 
 This guide describes the system as it exists today. Every formula below was copied from the code, not from memory or from conversation. Where something is manual, experimental, stale or unverified, it says so.
 
@@ -19,12 +19,16 @@ The system has **two halves that live in different places**:
 | Half | Where it lives | Durable? |
 |---|---|---|
 | Website + member app + API | GitHub repo `1gl2c/bettordays-hq`, deployed by Vercel to bettordays.xyz | Yes |
-| Grading pipeline (fetch stats, grade picks, grade results, simulations, audits) | Python scripts in Claude's session scratchpad: `/tmp/claude-0/-home-claude/a51ac9e7-b9b5-5441-8a1a-5d02537c46e5/scratchpad/` | **No.** It is temporary storage. It can be wiped when the session ends. |
+| Grading pipeline (fetch stats, grade picks, grade results, simulations, audits, site source) | Repo folder `pipeline/`. Copied byte for byte on Nov 19 from Claude's temporary session folder, where it was first written | Yes, from Nov 19 |
 | Pick history (source of truth) | Supabase project `ndcsjhetuasijbgpfhwj`, tables `model_picks`, `model_pick_corrections`, `model_tickets`, `model_beta_lines` | Yes |
 
-**[TO DO] The grading scripts are not in the repo.** They are copied and edited by hand each day (for example `tue/grade.py` became `wed/grade_head.py` + `wed/grade_body.py`). If the scratchpad is lost, the formulas below are the only written record. Moving these scripts into the repo (for example `pipeline/`) is the top recommendation in this document.
+**[BUILT] The grading scripts are in the repo** under `pipeline/`, with the inputs they used and the outputs they produced. Each night's scripts are still copied from the night before and edited by hand (for example `tue/grade.py` became `wed/grade_head.py` + `wed/grade_body.py`). There is no single reusable entry point yet. `pipeline/README.md` explains how to run them.
 
-Scratchpad paths below are written relative to that scratchpad folder.
+**Reproducibility check (Nov 19):** on the same saved inputs, the repo copies and the originals produced identical outputs for grading, results, simulation, the audit and the site build. The only difference was the simulation's run timestamp. Re-runs do not match two saved outputs, because those were edited by hand after the scripts ran (`pipeline/README.md` lists both). The site build from the repo copy reproduced the committed `index.html`, `board.json` and `stats.json` exactly.
+
+**This shows the scripts run and reproduce what was published. It does not show the grades are accurate.** Section 4 covers that.
+
+Script paths below are relative to `pipeline/`.
 
 ---
 
@@ -78,13 +82,28 @@ Update Supabase, site ROWS, record.json, recap, research pages                [s
 - "over N.5" becomes **(N+1)+**. "over 2.5 threes" became 3+.
 - "under N" is graded as staying below N. The Kalshi price is inverted from the N+ market.
 
-**Not captured [TO DO]:**
-- **Capper name.** There is no capper column anywhere, so per-capper records cannot be computed.
-- **Sportsbook odds and book name.** Only Kalshi prices are stored.
-- **The time you collected the line.**
+**Not captured [TO DO]:** `model_picks` (checked Nov 19) has these columns:
+- `line`
+- `capper_line` (the line as written, text, only from Nov 17 on)
+- `posted_at` (when we graded)
+- Kalshi price and timestamp
+
+It has **no column for:**
+- capper name
+- sportsbook or app
+- sportsbook odds
+- the time you captured the line
+
+The grading script's `add()` has no inputs for them either. What it would take, not yet done:
+1. Add nullable columns to `model_picks`: `capper`, `sportsbook`, `odds_american`, `line_captured_at`.
+2. Add matching optional arguments to `add()` and `team()`, passed through to the database load.
+3. Include them when you send picks: capper, book, odds, time.
+
+Past rows would stay empty. Those values were never recorded, so they would not be filled in or guessed.
 
 **Moving lines.**
-- **[BUILT]** Moved lines are labeled "Moved line" or "Your line was ..." in the note and flagged `moved` in the data.
+- **[BUILT]** Moved lines are labeled "Moved line" in the note. Rewritten notation ("over 4 assists" graded as 5+) is labeled "Your line was ...".
+- **Known issue, not fixed (grading script behavior preserved):** `wed/grade_body.py` line 28 sets `moved` for both. On Nov 18 that put 10 notation-only rows into `model_picks` as `moved`; they are the ones with `capper_line` filled in. Nov 11 to 17 never flagged notation rewrites. The site's "Lines we moved" segment counts only real moves.
 - **[INTENDED, enforced by convention only]** Only the cappers' picks are graded, and lines move only within the same stat. No code enforces this.
 
 ### 3.2 Inputs fetched
@@ -153,19 +172,19 @@ Each grade note shows the inputs in plain words: "Hit X of N this season, Y of 5
 
 **Rules in force (approved Nov 18, provisional):**
 - ⚠ legs stay out of Hammer and main tickets. **[BUILT on site text; applied by hand when building tickets.]**
-- Hammer filter: grade 80+ and Kalshi within 7. **[INTENDED: applied by hand. The ticket builder's "Hammer check" only checks for ⚠ legs, not 80+/within 7. See section 4.1.]**
+- Hammer filter: every leg graded 80+ with a Kalshi price within 7 (no gap of 8 or more either way). **[BUILT in the ticket builder since Nov 19; suggested tickets are still picked by hand.]**
 - No grade caps or deductions beyond section 3.3 were adopted. The proposed 85+ cap and rebounds deduction were dropped. NFL yardage changes are provisional and not in code.
 
 ### 3.6 Suggested tickets
 
 **[BUILT, manual]**
-- Hammer and second ticket are chosen by Claude in `wed_patch.py` (`TIX` list). An assertion checks each leg is graded 78+ with Kalshi within 7 and no flag.
+- Hammer and second ticket are chosen by Claude in `wed_patch.py` (`TIX` list). An assertion checks each leg on both tickets is graded 78+ with Kalshi within 7 and no flag. That is looser than the Hammer rule (80+). On Nov 18 every Hammer leg was 80+ anyway (83 to 88); the second ticket had two 78s.
 - Payout shown is `1 / product(Kalshi prices)`. It is an estimate, not the real Kalshi combo price, which was lower in practice.
 - "About X% by our grades" is the product of our grades. It assumes legs are independent, and they often aren't.
 
 ### 3.7 Simulations (Beta Test Mode)
 
-**[BUILT, experimental]** Code: `beta/sim.py`. Results go to `beta/beta_tonight.json`, Supabase `model_beta_lines`, and the `BETA` constant in index.html (around line 1717).
+**[BUILT, experimental]** Code: `beta/sim.py`. Results go to `beta/beta_tonight.json`, Supabase `model_beta_lines`, and the `BETA` constant in index.html (line 1733).
 
 **What it checks:**
 - **Universe:** every Kalshi NBA player line (points, rebounds, assists, threes, PRA) tonight with ask between **50¢ and 60¢** (about +100 to -150), bid > 0 and spread ≤ 5¢.
@@ -208,18 +227,18 @@ Each grade note shows the inputs in plain words: "Hit X of N this season, Y of 5
 
 ### 3.9 How the site turns this into pages
 
-The site source is a single HTML file edited in the scratchpad (`bettordays-hq.html`). `buildsite.py` wraps it into repo `index.html`, then writes `board.json` (latest board, for the app) and `stats.json` (tiles). Line numbers below are in repo **`index.html`**.
+The site source is a single HTML file, `pipeline/bettordays-hq.html`. Edit that, not `index.html`. `buildsite.py` wraps it into repo `index.html`, then writes `board.json` (latest board, for the app) and `stats.json` (tiles). Line numbers below are in repo **`index.html`**.
 
 | Page / feature | Data | Code (index.html) | Status |
 |---|---|---|---|
-| Home board (current night) | `const WE18` (board rows), `WETIX` (tickets), `CUR=WE18` | ~1463-1465; `boardFilters()` ~1427; ⚠ rendering `pct>=k+8` ~1358 onward | **[BUILT]** |
-| Ticket builder (/easy) | current board | ~1645-1715. Our grades, record at those grades (`recP` ~1661, from ROWS grade bands with 20+ legs, otherwise the grade itself), Kalshi product (each price clamped 1 to 99), payout `1/Πk`, warnings ~1677-1689, Hammer check ~1690/1693 | **[BUILT]** |
-| Record explorer (/record) | `record.json` | ~1785. W-L, n, Wilson 95% range, small-sample flag (<30) | **[BUILT]**. Kalshi price for Nov 4-17 is tip-off; Nov 18 on is grading-time |
-| Research hub | `ROWS` (~1116) | hub `CARDS` ~1735; What hits `rsCats` ~1844, Grade tiers `rsTiers` ~1847, nights `rsDays` ~1849 / `rsDays80` ~1754, lines `rsLines` ~1852, clues `rsClues` ~1856 | **[BUILT]**. Some clue text is hard-coded |
-| Perfect parlays: tonight's attempt + ticket record + backtest + hindsight | `ROWS`, day boards, ticket constants | `beta()` ~1886, `TK` ~1721, `rsBack` ~1893, `rsToday` ~1897, hindsight `build()` ~1868 | **[EXPERIMENTAL]** |
-| Beta Test Mode | `BETA` | ~1717 + `btTop`/`btMeth` | **[EXPERIMENTAL]** |
+| Home board (current night) | `const WE18` (board rows), `WETIX` (tickets), `CUR=WE18` | ~1479-1481; `boardFilters()` ~1443 | **[BUILT]** |
+| Ticket builder (/easy) | current board | ~1660-1730. Our grades, record at those grades (`recP` ~1677, from ROWS grade bands with 20+ legs, otherwise the grade itself), Kalshi product (each price clamped 1 to 99), payout `1/Πk`, warnings, Hammer check `hamBad` ~1706 / text ~1709 | **[BUILT]** |
+| Record explorer (/record) | `record.json` | ~1801. W-L, n, Wilson 95% range, small-sample flag (<30) | **[BUILT]**. Kalshi price for Nov 4-17 is tip-off; Nov 18 on is grading-time |
+| Research hub | `ROWS` (~1129) | hub `CARDS` ~1751; What hits `rsCats` ~1860, lines `rsLines` ~1868 ("Lines we moved" = rows with `boost`) | **[BUILT]**. Some clue text is hard-coded |
+| Perfect parlays: tonight's attempt + posted tickets + backtest + hindsight | `ROWS`, day boards, ticket constants, `BETAPOST` | `beta()` ~1902, `BETAPOST` + `postRes()` ~1906, backtest `bt` ~1908, `rsBack` ~1911, `rsToday` ~1915, `TK` ~1737 | **[EXPERIMENTAL]** |
+| Beta Test Mode | `BETA` | ~1733 + `btTop`/`btMeth` | **[EXPERIMENTAL]** |
 | Results recaps | hand-written sections `review11`-`review18` | static HTML | **[BUILT, manual]** |
-| Method page (thesis, calibration, edge map, rulebook) | static | ~989-1060 | **[STALE]**. Written around Nov 9 ("5 days of data"); does not reflect current rules |
+| Method page | `methodnow` panel (current rules, record filled from ROWS) ~850-866, then the Nov 4-7 first study (thesis ~1002, edge map, structure, rulebook) | static text + `RULES` | **[BUILT]**. The first-study panels are kept as written and labeled as a Nov 4-7 snapshot |
 | Founders list | Supabase `founders_waitlist` insert + `waitlist_count` RPC | ~1810-1818 | **[BUILT]** |
 | Member app (/app) | Supabase `picks`, `profiles`, rooms, etc.; reads `/board.json` | `app.html` | **[BUILT]**. Member picks and leaderboard are separate from the model record |
 | Kalshi account sync | `api/kalshi-key.js`, `api/kalshi-sync.js`, `lib/server.js` | encrypted key storage, imports positions | **[BUILT, not verified in this task]**. Needs `KEY_ENCRYPTION_SECRET` |
@@ -253,15 +272,26 @@ The site source is a single HTML file edited in the scratchpad (`bettordays-hq.h
 6. **Hindsight.** The "Perfect parlays" hindsight builds and the Beta backtest use rules written after seeing the same nights. The site says this.
 7. **Mixed price timing.** The record mixes tip-off prices (Nov 4-17) and grading-time prices (Nov 18+).
 8. **Unrecorded history.** Before Nov 13 the original capper line and the moved flag were mostly not recorded. Before Nov 8 there are no game times or notes.
-9. **Stale content.** The Method page and some Research clue sentences quote numbers from early November.
+9. **Stale content.** Some Research clue sentences quote fixed numbers. The Method page's first-study panels are Nov 4 to 7 numbers, now labeled that way.
 
-### 4.1 Known code inconsistencies (found while writing this, not fixed)
+### 4.1 Site fixes made Nov 19, and what is still open
 
-1. **Ticket builder "Hammer check"** (index.html line 1690: `const ham=!warn.length`) passes any ticket with no ⚠ legs. It does not check grade 80+ or Kalshi within 7, so it can call a ticket Hammer eligible when our rule would not.
-2. **Research "Lines we moved"** (`rsLines`, line 1852) counts rows where `boost` is set. 169 rows from Nov 5 to Nov 17 have it. The Nov 18 rows all have `boost: 0`, even though Nov 18 moved lines are flagged `moved` in Supabase. Nov 18 moved lines are missing from that segment.
-3. **Perfect parlays "last night"** (`rsToday`, line 1897+) shows the Beta 3 rebuilt by the backtest (`bt`), not the ticket that was actually posted that night. The two can differ (Nov 18: the backtest used a different Flagg line than the posted attempt).
-4. **Method page** (around line 990) still quotes "5 days of data" and early rules.
-5. **Some Research clue sentences** have hard-coded numbers that do not update when ROWS changes.
+**Fixed** (in `pipeline/bettordays-hq.html`, rebuilt into `index.html`):
+
+1. **Ticket builder Hammer check** now applies the approved rule. Every leg must be graded 80+ with a Kalshi price within 7. If a leg fails, the builder names it and says why: graded under 80, no Kalshi price, or Kalshi gap. Before this fix it only checked for ⚠ legs.
+2. **Research "Lines we moved"** now includes Nov 11 (20 rows) and Nov 18 (9 graded rows). Both were missing their flag in ROWS. The flags come from `model_picks` rows with `moved` set and no `capper_line`, so notation rewrites are not counted. Nov 12 to 17 already matched the database. Nov 5 to 7 flags (25 rows) come from the original ledgers; the database has no moved data for those days.
+3. **Perfect Parlays "last night"** now shows the ticket actually posted, labeled as posted, with its real result. The backtest rebuild is shown separately and labeled "for comparison only".
+   - The Nov 18 posted tickets were recovered by rendering the two site versions published before tip-off (commits `cc4d01c`, `7b76388`); both showed the same tickets.
+   - Beta 3: Thompson 4+ ast, Randle 4+ ast, Flagg 4+ ast. W 3/3, about 1.9x.
+   - Beta 10x: 9 legs, L 5/9, about 8.6x.
+   - They are stored in `BETAPOST` and in `model_tickets` (ids 60, 61).
+   - The rebuild differs (Flagg 5+) because ROWS has no Kalshi price for past nights, so the backtest can't apply the ⚠ check.
+4. **Method page.** A new top panel states the current rules and the current record, filled from ROWS. The "5 days of data" header now reads "first study, Nov 4 to 7". The footer on every page, which said "211 graded legs, Nov 4 to 7", now fills from ROWS.
+
+**Still open:**
+- Posted Beta tickets before Nov 18 were not saved; only the backtest rebuild exists for those nights.
+- Some Research clue sentences have hard-coded numbers.
+- The moved-flag issue in the grading script and in the 10 Nov 18 database rows (section 3.1).
 
 ---
 
@@ -284,34 +314,39 @@ The site source is a single HTML file edited in the scratchpad (`bettordays-hq.h
 - Beta Test Mode stays market-wide (your call on Nov 19).
 
 **C. To build or verify**
-1. Put the pipeline scripts in the repo, with one entry point per step.
+1. One reusable entry point per pipeline step, instead of copying each night's folder (the scripts are in the repo since Nov 19).
 2. A pick parser for pasted lists, plus capper name, book odds and collection time fields.
 3. Generate `ROWS` and `record.json` from Supabase.
-4. Fix the items in 4.1, and enforce the Hammer filter and the 2-ticket concentration rule in the ticket builder.
+4. Enforce the 2-ticket concentration rule in the ticket builder (the Hammer rule is enforced since Nov 19). Save each night's posted Beta tickets when they are shown.
 5. Back-to-back and injury inputs for team moneylines.
 6. Automate the lock-time Kalshi snapshot and store it as a second price.
-7. Rewrite or retire the stale Method page.
+7. Decide whether the moved-flag fix (section 3.1) should change the 10 Nov 18 database rows. This needs your approval.
 8. Verify the Kalshi sync and email env vars in Vercel.
 
 ---
 
 ## 6. Code map (quick reference)
 
+All `pipeline/` paths are in the repo. Run scripts from `pipeline/`.
+
 | Stage | File | Function / block |
 |---|---|---|
-| Player data | `scratchpad/wed/fetch.py` | `one()` |
-| Scoreboard + injuries | `scratchpad/wed/sb.py` | top level |
-| Opponent ranks | `scratchpad/wed/opp.py` | `box()` + rank loop |
-| Kalshi prices | `scratchpad/wed/kalshi.py` | `get()` |
-| Prop grade | `scratchpad/wed/grade_head.py` | `prob()`, `matchup()` |
-| Prop grade + notes | `scratchpad/wed/grade_body.py` | `add()` |
-| Your picks (transcribed) | `scratchpad/wed/grade_list.py` | `add(...)` calls |
-| Team lines | `scratchpad/wed/grade_team.py` | `team()`, `cbb()`, `kinterp()` |
-| Publish board | `scratchpad/wed_patch.py`, `scratchpad/buildsite.py` | patch + build |
-| Grade results | `scratchpad/wed/res/fetch.py`, `scratchpad/wed/res/grade.py` | `find()`, main loop |
-| Simulation | `scratchpad/beta/sim.py` | per-game loop |
-| History audit | `scratchpad/audit/*.py` | `full.py` `rule_test()`, `boot()` |
-| Site | repo `index.html` (built from `scratchpad/bettordays-hq.html`) | see 3.9 |
+| Player data | `pipeline/wed/fetch.py` | `one()` |
+| Scoreboard + injuries | `pipeline/wed/sb.py` | top level, lines 6-15 |
+| Opponent ranks | `pipeline/wed/opp.py` | `box()` line 11, rank loop line 35 |
+| Kalshi prices | `pipeline/wed/kalshi.py` | `get()` line 4 |
+| Kalshi second snapshot | `pipeline/wed/kalshi_lock.py` | top level |
+| Prop grade | `pipeline/wed/grade_head.py` | `prob()` line 36, `matchup()` line 43, `G`, `B2B` lines 15-20 |
+| Prop grade + notes | `pipeline/wed/grade_body.py` | `add()` line 2; caps line 11; small sample line 12; moved flag line 28 |
+| Your picks (transcribed) | `pipeline/wed/grade_list.py` | `add(...)` calls |
+| Team lines | `pipeline/wed/grade_team.py` | `team()` line 1, `kinterp()` line 7, `km()` line 18, `cbb()` line 35 |
+| Runnable grader | `pipeline/wed/grade.py` | the parts above joined, writes `wed/wed.json` |
+| NFL caps | `pipeline/mon/grade.py` | lines 102-104 |
+| Publish board | `pipeline/wed_patch.py`, `pipeline/buildsite.py` | `TIX` + assertion line 15; build |
+| Site source | `pipeline/bettordays-hq.html` | built into repo `index.html` (see 3.9) |
+| Grade results | `pipeline/wed/res/fetch.py`, `pipeline/wed/res/grade.py` | `find()` line 11, main loop line 18 |
+| Simulation | `pipeline/beta/sim.py` | `OUT`/`Q` lists lines 13-14, `N=1000` line 44, per-game loop lines 44-62, break-even line 66 |
+| History audit | `pipeline/audit/*.py` | `full.py` `brier()` line 54, `boot()` line 111, `rule_test()` line 123 |
 | App | repo `app.html` | `loadBoard()` line 159 |
 | API | repo `api/*.js`, `lib/server.js` | handlers |
 | Database | Supabase `ndcsjhetuasijbgpfhwj` | `model_picks`, `model_pick_corrections`, `model_tickets`, `model_beta_lines`, `founders_waitlist` |

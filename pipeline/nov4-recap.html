@@ -1,0 +1,256 @@
+<title>BettorDays Nov 4 Recap</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@600;800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: post-game film room. Verdict up top, calibration + category charts, reads head-to-head, rules, then the full leg ledger. Single dark BettorDays look by choice. */
+:root{
+  --bg:#141517; --panel:#1c1e21; --panel-2:#24272b; --line:#30343a;
+  --fg:#f4f6f5; --muted:#9aa3a0; --accent:#04ff9f; --accent-ink:#02140c;
+  --good:#04ff9f; --warn:#ffc24a; --bad:#ff6b6b; --est:#6b7570;
+  --f-display:"Kanit","Arial Black",system-ui,sans-serif;
+  --f-body:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"Geist Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+html,body{background:var(--bg);color:var(--fg)}
+body{font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:22px 56px;display:flex;flex-direction:column;gap:28px}
+h1{font-family:var(--f-display);font-weight:800;text-transform:uppercase;font-size:clamp(30px,5.5vw,52px);line-height:.95;margin:0;letter-spacing:-.01em}
+h1 span{color:var(--accent)}
+h2{font-family:var(--f-display);font-weight:600;text-transform:uppercase;font-size:22px;margin:0 0 4px;letter-spacing:.01em}
+.eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.lede{color:var(--muted);max-width:68ch;margin:8px 0 0}
+.sub{color:var(--muted);font-size:13.5px;margin:0 0 14px;max-width:70ch}
+header{border-bottom:1px solid var(--line);padding-bottom:18px}
+.verdict{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:820px){.verdict{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px}
+.tile.cash{border-color:var(--accent);background:linear-gradient(160deg,color-mix(in srgb,var(--accent) 14%,var(--panel)),var(--panel) 70%)}
+.tile .k{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.tile .v{font-family:var(--f-display);font-weight:600;font-size:clamp(26px,4vw,38px);line-height:1.05;margin-top:4px;font-variant-numeric:tabular-nums}
+.tile.cash .v{color:var(--accent)}
+.tile .d{font-size:12.5px;color:var(--muted);margin-top:4px}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+@media (max-width:860px){.two{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px;min-width:0}
+svg text{font-family:var(--f-mono)}
+.legend{display:flex;gap:16px;font-family:var(--f-mono);font-size:11.5px;color:var(--muted);margin-top:8px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.cats{display:flex;flex-direction:column;gap:12px}
+.cat{display:grid;grid-template-columns:150px minmax(0,1fr) 74px;gap:10px;align-items:center}
+@media (max-width:480px){.cat{grid-template-columns:110px minmax(0,1fr) 64px}}
+.cat .n{font-size:13.5px}
+.cat .n small{display:block;font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.track{height:12px;background:var(--panel-2);border-radius:3px;position:relative;overflow:hidden}
+.track i{position:absolute;inset:0 auto 0 0;border-radius:3px}
+.track b{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--fg);opacity:.5;left:50%}
+.cat .p{font-family:var(--f-mono);font-variant-numeric:tabular-nums;text-align:right;font-size:14px}
+.reads{width:100%;border-collapse:collapse;font-size:13.5px}
+.reads th{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;font-weight:500;padding:0 8px 8px;border-bottom:1px solid var(--line)}
+.reads td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.reads td.res{font-family:var(--f-mono);white-space:nowrap}
+.pill{display:inline-block;font-family:var(--f-mono);font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid;white-space:nowrap}
+.pill.ace{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 50%,transparent)}
+.pill.cl{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 50%,transparent)}
+.pill.both{color:var(--fg);border-color:var(--line)}
+.scroll{overflow-x:auto}
+.score{display:flex;gap:10px;margin:0 0 14px;flex-wrap:wrap}
+.score div{background:var(--panel-2);border-radius:6px;padding:8px 12px;font-family:var(--f-mono);font-size:12.5px}
+.score b{font-family:var(--f-display);font-size:20px;margin-right:6px}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;counter-reset:r}
+.rule{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:6px;padding:14px;counter-increment:r}
+.rule h3{margin:0 0 6px;font-size:15px;font-weight:600}
+.rule h3::before{content:"Rule " counter(r) " · ";font-family:var(--f-mono);font-size:11px;color:var(--accent);font-weight:500}
+.rule p{margin:0;font-size:13.5px;color:var(--muted)}
+.rule .ev{margin-top:8px;font-family:var(--f-mono);font-size:11.5px;color:var(--fg)}
+.miss{display:flex;flex-wrap:wrap;gap:8px}
+.miss span{font-family:var(--f-mono);font-size:12.5px;background:var(--panel-2);border:1px solid var(--line);border-radius:5px;padding:6px 10px}
+.miss span b{color:var(--bad);font-weight:500}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.chip{font:inherit;font-family:var(--f-mono);font-size:12px;background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:5px 11px;cursor:pointer}
+.chip.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ledger{width:100%;border-collapse:collapse;font-size:13.5px;min-width:560px}
+.ledger th{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;font-weight:500;padding:0 8px 8px;border-bottom:1px solid var(--line)}
+.ledger td{padding:8px;border-bottom:1px solid var(--line)}
+.ledger td.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.ledger .r{font-family:var(--f-mono);font-size:12px;font-weight:500}
+.r.h{color:var(--good)} .r.m{color:var(--bad)} .r.p{color:var(--muted)}
+.fav{color:var(--warn);font-family:var(--f-mono);font-size:11px;margin-left:6px}
+.tickets{display:flex;flex-direction:column;gap:6px}
+.tk{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;padding:10px 12px;background:var(--panel-2);border-radius:6px;font-size:13.5px}
+.tk .s{font-family:var(--f-mono);font-size:12px}
+.tk.won{outline:1px solid var(--accent)}
+.tk small{display:block;color:var(--muted);font-size:12px}
+.next{border:1px dashed var(--line);border-radius:10px;padding:18px}
+</style>
+
+<div class="wrap">
+<header>
+  <p class="eyebrow">BettorDays · Film room · Wed Nov 4, 2026</p>
+  <h1>Hammer <span>cashed.</span><br>Model holds.</h1>
+  <p class="lede">I graded 62 of the 70 legs against final box scores; the college plays are still pending. The percentages held up, the near misses cost the most, and your convictions carried the money ticket.</p>
+</header>
+
+<section class="verdict" aria-label="Summary">
+  <div class="tile cash"><div class="k">Kalshi $100 7-leg</div><div class="v">+$910</div><div class="d">$100 returned $1,010. All 7 legs hit.</div></div>
+  <div class="tile"><div class="k">Legs graded</div><div class="v">33 / 62</div><div class="d">53% across every line, alts included</div></div>
+  <div class="tile"><div class="k">Moneylines</div><div class="v">4 / 4</div><div class="d">PHI, DEN, POR, LAK</div></div>
+  <div class="tile"><div class="k">Your core favorites</div><div class="v">12 / 15</div><div class="d">80% on your non-ceiling picks</div></div>
+</section>
+
+<section class="two">
+  <div class="card">
+    <p class="eyebrow">Was it variance?</p>
+    <h2>My % vs what happened</h2>
+    <p class="sub">If the model is honest, the green bar should land near the grey one in every tier. It did, so the losses came from parlay math, not a broken model.</p>
+    <div id="calib"></div>
+    <div class="legend"><span><i style="background:var(--est)"></i>My average estimate</span><span><i style="background:var(--accent)"></i>Actual hit rate</span></div>
+  </div>
+  <div class="card">
+    <p class="eyebrow">Where the edge was</p>
+    <h2>Hit rate by bet type</h2>
+    <p class="sub">The white tick marks 50%. Moneylines and overs carried the night. Rebound unders failed.</p>
+    <div class="cats" id="cats"></div>
+  </div>
+</section>
+
+<section class="card">
+  <p class="eyebrow">Your input</p>
+  <h2>Your reads vs my reads</h2>
+  <p class="sub">These are the picks where we disagreed or where you felt strongly. Your input carried real weight last night.</p>
+  <div class="score"><div><b style="color:var(--warn)">5</b>Your read was right</div><div><b style="color:var(--accent)">4</b>My read was right</div><div><b>2</b>We agreed and it hit</div></div>
+  <div class="scroll">
+  <table class="reads">
+    <thead><tr><th>Pick</th><th>You</th><th>Me</th><th>Result</th><th>Edge</th></tr></thead>
+    <tbody>
+      <tr><td>76ers ML</td><td>Strong conviction</td><td>50%, coin flip</td><td class="res">W 112-106</td><td><span class="pill ace">You</span></td></tr>
+      <tr><td>Acuff 20+</td><td>Quick guards beat the Lakers</td><td>58%, inefficient rookie</td><td class="res">22 pts</td><td><span class="pill ace">You</span></td></tr>
+      <tr><td>Bam U20</td><td>Made you nervous</td><td>68%</td><td class="res">35 pts</td><td><span class="pill ace">You</span></td></tr>
+      <tr><td>Giddey o7.5 AST</td><td>Nervous, blowout risk</td><td>58%</td><td class="res">6 ast, lost by 30</td><td><span class="pill ace">You</span></td></tr>
+      <tr><td>Huerter 2+ REB</td><td>Wouldn't have taken it</td><td>78%, Duren out</td><td class="res">1 reb</td><td><span class="pill ace">You</span></td></tr>
+      <tr><td>Herro 20+</td><td>"Wishy-washy," nervous</td><td>67%</td><td class="res">25 pts</td><td><span class="pill cl">Me</span></td></tr>
+      <tr><td>Mobley U20</td><td>Nervous, swapped him out</td><td>Keep (Kalshi 73%)</td><td class="res">16 pts</td><td><span class="pill cl">Me</span></td></tr>
+      <tr><td>Markkanen 6+ REB</td><td>"Always hurt," unsure</td><td>72%, bigs out</td><td class="res">10 reb</td><td><span class="pill cl">Me</span></td></tr>
+      <tr><td>Flagg 25+ / 30+</td><td>"He balls"</td><td>42% / 20%</td><td class="res">19 pts</td><td><span class="pill cl">Me</span></td></tr>
+      <tr><td>KD 20+</td><td>"That's the lock"</td><td>72%</td><td class="res">21 pts</td><td><span class="pill both">Both</span></td></tr>
+      <tr><td>Nuggets ML</td><td>Liked it despite last game</td><td>62%</td><td class="res">W by 19</td><td><span class="pill both">Both</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="sub" style="margin-top:12px">Pattern: your gut is sharp on team results and on guard matchups, and on spotting the leg that feels off. Mine is sharper on rebounding roles and on stars bouncing back. Your ceiling picks (Flagg 25/30, Acuff 25, McDaniels 20, Scheierman DD) went 1 for 6, so keep those as lotto legs.</p>
+</section>
+
+<section>
+  <p class="eyebrow">Lost by one</p>
+  <h2>The near misses</h2>
+  <p class="sub">Seven legs landed right on or one short of the number. That's what lines set at a player's average look like. Rule 1 below fixes it.</p>
+  <div class="miss">
+    <span>Flagg 20+ <b>19</b></span><span>McDaniels 15+ <b>14</b></span><span>Hartenstein 20+ PRA <b>19</b></span><span>Scheierman DD <b>9 pts</b></span><span>KD o22.5 (PrizePicks) <b>21</b></span><span>Herro U25 <b>25</b></span><span>Dame U5 AST <b>5</b></span>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">Upgrades to the model</p>
+  <h2>New rules from last night</h2>
+  <div class="rules" style="margin-top:12px">
+    <div class="rule"><h3>Step one rung below the average</h3><p>When a line sits right on a player's average, take the next rung down or pass.</p><div class="ev">7 legs missed by 1, including KD 21 on 22.5, which cost the $50 bonus.</div></div>
+    <div class="rule"><h3>No rebound unders when frontcourt injuries add minutes</h3><p>If injuries give a player more minutes, his rebounds go up. Flagg (Lively out) and Ighodaro (Fleming out) both cleared their lines.</p><div class="ev">Rebound unders went 2 for 6.</div></div>
+    <div class="rule"><h3>A flagged risk gets cut</h3><p>If I write down the reason a leg could fail, it doesn't go on a big ticket. I flagged Ighodaro's minutes and Flagg's rebounds, then kept both anyway.</p><div class="ev">Ighodaro alone sank two Kalshi tickets.</div></div>
+    <div class="rule"><h3>No rebound overs on shooters just because a big is out</h3><p>Huerter 2+ was my mistake. Detroit's rebounds went to Ausar Thompson (17), not a 3-point shooter.</p><div class="ev">Huerter: 1 rebound, at my 78%.</div></div>
+    <div class="rule"><h3>Your conviction plus my 60%+ makes the hammer</h3><p>When you feel strongly and I grade a pick 60% or higher, it's a hammer candidate. That's how the $1,010 ticket was built.</p><div class="ev">Your core favorites went 12 for 15. Moneylines went 4 for 4.</div></div>
+    <div class="rule"><h3>One ticket per core, no rebuilds mid-game</h3><p>Three Kalshi tickets shared 7 legs. The two built mid-game died on the same two legs (Ighodaro, Bam).</p><div class="ev">$27.49 lost on duplicate exposure.</div></div>
+    <div class="rule"><h3>When Kalshi is 10+ points higher than me on a star, side with Kalshi</h3><p>Kalshi had Mobley's under at 73% (I had 55%) and Acuff 20+ at 73% (I had 58%). Both hit. Kalshi's role-player unders (Ighodaro, Bam) both missed.</p><div class="ev">One night is a small sample. I'll keep tracking it.</div></div>
+  </div>
+</section>
+
+<section class="two">
+  <div class="card">
+    <p class="eyebrow">Ticket results</p>
+    <h2>Every slip</h2>
+    <div class="tickets" style="margin-top:10px">
+      <div class="tk won"><div>Kalshi $100 7-leg<small>McDaniels, KD, Luka, Acuff, Nuggets, Blazers, 76ers</small></div><div class="s" style="color:var(--accent)">CASHED $1,010</div></div>
+      <div class="tk"><div>Kalshi 15-leg ($17.19)<small>Killed by Ighodaro 7 reb and Bam 35</small></div><div class="s" style="color:var(--bad)">LOST</div></div>
+      <div class="tk"><div>Kalshi 14-leg ($10.30)<small>Killed by Ighodaro and Bam</small></div><div class="s" style="color:var(--bad)">LOST</div></div>
+      <div class="tk"><div>PrizePicks $50 bonus Power<small>MPJ 26 and Markkanen 10 hit. KD had 21 on o22.5</small></div><div class="s" style="color:var(--bad)">LOST</div></div>
+      <div class="tk"><div>20-leg<small>Huerter, Flagg, Bam, Ighodaro</small></div><div class="s" style="color:var(--bad)">LOST</div></div>
+      <div class="tk"><div>PrizePicks $5 Tickets 3, 4 and 5<small>Bam, Huerter, Giddey and Flagg</small></div><div class="s" style="color:var(--bad)">LOST</div></div>
+    </div>
+  </div>
+  <div class="card next">
+    <p class="eyebrow">Tonight · Thu Nov 5</p>
+    <h2>Two NBA games</h2>
+    <div class="tickets" style="margin-top:10px">
+      <div class="tk"><div>Magic at Suns<small>6:00 PM PT · Suns 51% per the pregame line</small></div><div class="s">PHX</div></div>
+      <div class="tk"><div>Heat at Warriors<small>7:00 PM PT · Warriors 71% · Miami played overtime in LA last night</small></div><div class="s">GSW</div></div>
+    </div>
+    <p class="sub" style="margin-top:12px">Miami is on the second night of a back-to-back after an overtime game. Expect lower minutes and efficiency from Bam (35 last night), Giannis and Klay. Send me your cappers' board and I'll run it through the new rules.</p>
+  </div>
+</section>
+
+<section class="card">
+  <p class="eyebrow">Full ledger</p>
+  <h2>Every leg: my % vs result</h2>
+  <div class="filters" id="filters" style="margin-top:10px"></div>
+  <div class="scroll"><table class="ledger"><thead><tr><th>Pick</th><th>Team</th><th>My %</th><th>Actual</th><th>Result</th></tr></thead><tbody id="ledger"></tbody></table></div>
+</section>
+</div>
+
+<script>
+// label, team, est, actual, hit(1/0/null), aceFav, type
+const L=[
+["Herro 15+ PTS","MIL",85,"25",1,0,"over"],["LeBron 4+ AST","PHI",80,"8",1,1,"over"],["McDaniels 10+ PTS","MIN",78,"14",1,1,"over"],["Huerter 2+ REB","DET",78,"1",0,0,"over"],
+["Luka 30+ PTS","LAL",74,"40",1,1,"over"],["KD 20+ PTS","HOU",72,"21",1,1,"over"],["Markkanen o5.5 REB","UTA",72,"10",1,0,"over"],["Brunson o4.5 AST","NYK",68,"4",0,0,"over"],
+["Bam U20 PTS","MIA",68,"35",0,0,"under"],["Herro 20+ PTS","MIL",67,"25",1,0,"over"],["Sherwood o1.5 SOG","SJ",66,"2",1,0,"over"],["Jaylen Brown o19.5 PTS","PHI",65,"30",1,0,"over"],
+["KD o21.5 PTS","HOU",65,"21",0,0,"over"],["Flagg 20+ PTS","DAL",64,"19",0,1,"over"],["Mobley U20 PTS","CLE",64,"16",1,0,"under"],["Nuggets ML","DEN",62,"W 128-109",1,1,"ml"],
+["MPJ o20.5 PTS","BKN",60,"26",1,1,"over"],["Jaylen Brown o5.5 REB","PHI",60,"7",1,1,"over"],["Scheierman 4+ REB","BOS",60,"11",1,1,"over"],["Blazers ML","POR",60,"W 132-119",1,1,"ml"],
+["Ighodaro U6 REB","PHX",60,"7",0,0,"ureb"],["Camara U15 PTS","POR",60,"11",1,0,"under"],["Huerter 3+ REB","DET",60,"1",0,1,"over"],["Giddey o7.5 AST","CHI",58,"6",0,0,"over"],
+["LeBron o5.5 REB","PHI",58,"10",1,0,"over"],["Brandon Miller U6 REB","CHA",58,"4",1,0,"ureb"],["Jalen Green U20 PTS","PHX",58,"22",0,0,"under"],["Acuff 20+ PTS","SAC",58,"22",1,1,"over"],
+["Trae Young o9.5 AST","WAS",57,"6",0,0,"over"],["Kings ML (NHL)","LAK",57,"W 7-2",1,0,"ml"],["Murray o5.5 AST","DEN",55,"7",1,0,"over"],["McDaniels 15+ PTS","MIN",55,"14",0,1,"over"],
+["Herro U25 PTS","MIL",55,"25",0,0,"under"],["Hartenstein 20+ PRA","OKC",55,"19",0,0,"over"],["Giannis o0.5 BLK","MIA",55,"3",1,0,"over"],["Scheierman o13.5 P+R","BOS",52,"20",1,0,"over"],
+["Scheierman 10+ PTS","BOS",52,"9",0,0,"over"],["Dunn o16.5 PRA","LAC",52,"13",0,0,"over"],["LeBron 6+ AST","PHI",52,"8",1,1,"over"],["Avdija o1.5 3PM","POR",52,"1",0,0,"over"],
+["76ers ML","PHI",50,"W 112-106",1,1,"ml"],["Daniels o11.5 PTS","ATL",50,"8",0,0,"over"],["Dunn U5 AST","LAC",50,"3",1,0,"under"],["Flagg U8 REB","DAL",48,"10",0,0,"ureb"],
+["Jabari U25 PRA","HOU",45,"17",1,0,"under"],["Powell U20 PTS","CHI",45,"12",1,0,"under"],["Wiggins o0.5 BLK","MIA",45,"1",1,0,"over"],["Maluach U6.5 REB","PHX",45,"6",1,0,"ureb"],
+["Kessler o12.5 PTS","LAL",42,"15",1,0,"over"],["Flagg 25+ PTS","DAL",42,"19",0,1,"ceil"],["Acuff 25+ PTS","SAC",38,"22",0,1,"ceil"],["McCain 3+ REB","OKC",38,"1",0,0,"over"],
+["Flagg U7 REB","DAL",38,"10",0,0,"ureb"],["Dame U6 AST","POR",38,"5",1,0,"under"],["Hartenstein 25+ PRA","OKC",33,"19",0,0,"ceil"],["Herb Jones U3 REB","NOP",30,"5",0,0,"ureb"],
+["McDaniels 20+ PTS","MIN",28,"14",0,1,"ceil"],["LeBron 8+ AST","PHI",25,"8",1,1,"ceil"],["Dame U5 AST","POR",25,"5",0,0,"under"],["Flagg 30+ PTS","DAL",20,"19",0,1,"ceil"],
+["Scheierman Double Double","BOS",10,"9 pts, 11 reb",0,1,"ceil"],["John Collins U15 PTS","DET",null,"16 (flagged)",0,0,"under"],
+["N. Kentucky ML","NCAAB",50,"send result",null,0,"ml"],["LMU ML","NCAAB",63,"send result",null,0,"ml"],["Richter o253.5 pass yds","TOL",48,"send result",null,0,"over"],
+["Hamilton o3.5 rec","NCAAF",45,"send result",null,0,"over"],["Faulkner o50.5 rush yds","NCAAF",47,"send result",null,0,"over"],["Smith Jr. o36.5 rec yds","NCAAF",45,"send result",null,0,"over"],["Clerveaux o35.5 rush yds","NCAAF",47,"send result",null,0,"over"]
+].map(r=>({l:r[0],t:r[1],e:r[2],a:r[3],h:r[4],f:r[5],ty:r[6]}));
+const graded=L.filter(x=>x.h!==null&&x.e!==null);
+
+// Calibration
+const tiers=[["70%+",x=>x.e>=70],["60-69%",x=>x.e>=60&&x.e<70],["50-59%",x=>x.e>=50&&x.e<60],["Under 50%",x=>x.e<50]].map(([n,f])=>{const g=graded.filter(f);return{n,c:g.length,h:g.filter(x=>x.h).length,est:g.reduce((a,x)=>a+x.e,0)/g.length,act:g.filter(x=>x.h).length/g.length*100};});
+(function(){
+  const W=520,H=250,pl=34,pb=40,pt=14,cw=(W-pl-8)/tiers.length,y=v=>pt+(H-pt-pb)*(1-v/100);
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Calibration chart: estimated vs actual hit rate by tier">`;
+  [0,25,50,75,100].forEach(v=>{s+=`<line x1="${pl}" x2="${W-8}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-width="1"/><text x="${pl-6}" y="${y(v)+4}" fill="var(--muted)" font-size="10" text-anchor="end">${v}</text>`;});
+  tiers.forEach((t,i)=>{const x0=pl+i*cw+cw*.18,bw=cw*.3;
+    s+=`<rect x="${x0}" y="${y(t.est)}" width="${bw}" height="${y(0)-y(t.est)}" fill="var(--est)" rx="2"/>`;
+    s+=`<rect x="${x0+bw+4}" y="${y(t.act)}" width="${bw}" height="${y(0)-y(t.act)}" fill="var(--accent)" rx="2"/>`;
+    s+=`<text x="${x0+bw/2}" y="${y(t.est)-5}" fill="var(--muted)" font-size="10.5" text-anchor="middle">${Math.round(t.est)}</text>`;
+    s+=`<text x="${x0+bw*1.5+4}" y="${y(t.act)-5}" fill="var(--fg)" font-size="11" text-anchor="middle">${Math.round(t.act)}</text>`;
+    s+=`<text x="${x0+bw+2}" y="${H-22}" fill="var(--fg)" font-size="11" text-anchor="middle">${t.n}</text>`;
+    s+=`<text x="${x0+bw+2}" y="${H-8}" fill="var(--muted)" font-size="10" text-anchor="middle">${t.h}/${t.c} legs</text>`;});
+  document.getElementById("calib").innerHTML=s+"</svg>";
+})();
+
+// Categories
+const cats=[["Moneylines","ml"],["Player overs","over"],["Points/assist unders","under"],["Rebound unders","ureb"],["Ceiling alts","ceil"]].map(([n,k])=>{const g=graded.filter(x=>x.ty===k);return{n,c:g.length,h:g.filter(x=>x.h).length};});
+document.getElementById("cats").innerHTML=cats.map(c=>{const p=c.h/c.c*100,col=p>=60?"var(--good)":p>=45?"var(--warn)":"var(--bad)";return `<div class="cat"><div class="n">${c.n}<small>${c.h} of ${c.c}</small></div><div class="track"><i style="width:${p}%;background:${col}"></i><b></b></div><div class="p" style="color:${col}">${Math.round(p)}%</div></div>`;}).join("");
+
+// Ledger
+let f="all";
+const F=[["all","All"],["hit","Hits"],["miss","Misses"],["fav","Your favorites"],["pend","Pending"]];
+function render(){
+  document.getElementById("filters").innerHTML=F.map(([k,n])=>`<button class="chip${f===k?" on":""}" id="lf-${k}" data-k="${k}">${n}</button>`).join("");
+  document.querySelectorAll("#filters .chip").forEach(b=>b.onclick=()=>{f=b.dataset.k;render();});
+  let rows=L;
+  if(f==="hit")rows=L.filter(x=>x.h===1);if(f==="miss")rows=L.filter(x=>x.h===0);if(f==="fav")rows=L.filter(x=>x.f);if(f==="pend")rows=L.filter(x=>x.h===null);
+  document.getElementById("ledger").innerHTML=rows.map(x=>`<tr><td>${x.l}${x.f?'<span class="fav">your fav</span>':""}</td><td>${x.t}</td><td class="num">${x.e===null?"flagged":x.e+"%"}</td><td class="num">${x.a}</td><td><span class="r ${x.h===1?"h":x.h===0?"m":"p"}">${x.h===1?"HIT":x.h===0?"MISS":"PENDING"}</span></td></tr>`).join("");
+}
+render();
+</script>

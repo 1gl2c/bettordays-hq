@@ -1,0 +1,496 @@
+
+== all
+  all                                    688-364  65% n=1052 (62-68) ours 61.3  K 64.8 (kn 737) roi 2.2
+
+== week
+  Wk1 Nov 4-8                            183-110  62% n=293  (57-68) ours 54.5  K 61.2 (kn 185) roi 6.1
+  Wk2 Nov 9-15                           392-195  67% n=587  (63-70) ours 63.6  K 65.8 (kn 416) roi 3.0
+  Wk3 Nov 16-17                          113-59   66% n=172  (58-72) ours 65.3  K 66.4 (kn 136) roi -5.5
+
+== date
+  2026-11-04                              33-26   56% n=59   (43-68) ours 54.1  K 57.4 (kn 48) roi -14.0
+  2026-11-05                              41-13   76% n=54   (63-85) ours 58.4  K 62.4 (kn 36) roi 16.8
+  2026-11-06                              33-9    79% n=42   (64-88) ours 62.0  K 66.7 (kn 37) roi 21.4
+  2026-11-07                              29-25   54% n=54   (41-66) ours 60.7  K 66.0 (kn 26) roi -49.1
+  2026-11-08                              47-37   56% n=84   (45-66) ours 44.4  K 56.3 (kn 38) roi 42.7
+  2026-11-09                              32-23   58% n=55   (45-70) ours 63.7  K 65.0 (kn 36) roi 3.2
+  2026-11-10                              39-17   70% n=56   (57-80) ours 63.2  K 66.1 (kn 47) roi 6.9
+  2026-11-11                              70-22   76% n=92   (66-84) ours 65.6  K 67.0 (kn 71) roi 12.9
+  2026-11-12                              78-32   71% n=110  (62-79) ours 59.2  K 66.9 (kn 61) roi 4.2
+  2026-11-13                              62-34   65% n=96   (55-73) ours 70.8  K 68.7 (kn 69) roi -0.6
+  2026-11-14                              39-21   65% n=60   (52-76) ours 61.8  K 67.0 (kn 37) roi -8.6
+  2026-11-15                              72-46   61% n=118  (52-69) ours 61.5  K 61.8 (kn 95) roi 0.1
+  2026-11-16                              74-31   70% n=105  (61-78) ours 66.5  K 68.3 (kn 87) roi 0.4
+  2026-11-17                              39-28   58% n=67   (46-69) ours 63.4  K 63.1 (kn 49) roi -16.0
+
+== sport
+  CBB                                      6-5    55% n=11   (28-79) ours 60.6  K 55.3 (kn 6) roi -15.1
+  CFB                                     27-12   69% n=39   (54-81) ours 61.2  K 68.0 (kn 16) roi -8.3
+  NBA                                    438-204  68% n=642  (65-72) ours 65.0  K 65.8 (kn 536) roi 1.0
+  NCAAB                                    4-5    44% n=9    (19-73) ours 68.9  K 71.2 (kn 3) roi -15.9
+  NCAAF                                    2-0   100% n=2    (34-100) ours 71.5  K None (kn 0) roi None
+  NFL                                    185-122  60% n=307  (55-66) ours 54.4  K 61.5 (kn 176) roi 7.7
+  NHL                                      6-2    75% n=8    (41-93) ours 55.4  K None (kn 0) roi None
+  UFC                                     20-14   59% n=34   (42-74) ours 54.5  K None (kn 0) roi None
+
+== stat
+  3pm                                     36-14   72% n=50   (58-83) ours 65.9  K 66.2 (kn 46) roi 5.9
+  ast                                     64-34   65% n=98   (55-74) ours 64.1  K 64.8 (kn 91) roi -2.5
+  atd                                     20-33   38% n=53   (26-51) ours 35.0  K None (kn 0) roi None
+  att                                      2-0   100% n=2    (34-100) ours 62.5  K None (kn 0) roi None
+  blk                                      2-0   100% n=2    (34-100) ours 50.0  K None (kn 0) roi None
+  combo                                   11-6    65% n=17   (41-83) ours 54.6  K None (kn 0) roi None
+  dd                                       1-0   100% n=1    (21-100) ours 88.0  K None (kn 0) roi None
+  long                                     1-0   100% n=1    (21-100) ours 55.0  K None (kn 0) roi None
+  method                                   3-2    60% n=5    (23-88) ours 41.4  K None (kn 0) roi None
+  ml                                      84-43   66% n=127  (58-74) ours 62.7  K 63.1 (kn 87) roi 4.1
+  other prop                              13-14   48% n=27   (31-66) ours 54.6  K None (kn 0) roi None
+  pa                                       2-0   100% n=2    (34-100) ours 74.0  K None (kn 0) roi None
+  pass                                    17-8    68% n=25   (48-83) ours 63.8  K 65.3 (kn 25) roi 6.7
+  pr                                       1-0   100% n=1    (21-100) ours 72.0  K None (kn 0) roi None
+  pra                                     15-14   52% n=29   (34-69) ours 68.0  K 64.7 (kn 22) roi -36.8
+  pts                                    172-76   69% n=248  (63-75) ours 65.9  K 66.6 (kn 212) roi -1.7
+  reb                                     93-46   67% n=139  (59-74) ours 64.9  K 65.3 (kn 128) roi 6.6
+  rec                                     20-4    83% n=24   (64-93) ours 55.9  K 62.0 (kn 21) roi 22.3
+  recyds                                  38-27   58% n=65   (46-70) ours 59.6  K 62.6 (kn 53) roi -2.2
+  rush                                    40-20   67% n=60   (54-77) ours 56.8  K 60.5 (kn 52) roi 19.7
+  sog                                      1-0   100% n=1    (21-100) ours 66.0  K None (kn 0) roi None
+  spread                                  26-13   67% n=39   (51-79) ours 61.0  K None (kn 0) roi None
+  td                                       4-3    57% n=7    (25-84) ours 27.0  K None (kn 0) roi None
+  total                                   18-5    78% n=23   (58-90) ours 58.1  K None (kn 0) roi None
+  yards (other)                            4-2    67% n=6    (30-90) ours 69.0  K None (kn 0) roi None
+
+== dir
+  over / side                            625-329  66% n=954  (62-68) ours 61.5  K 64.8 (kn 673) roi 2.7
+  under                                   63-35   64% n=98   (54-73) ours 60.2  K 64.6 (kn 64) roi -2.8
+
+== grade
+  85+                                     68-27   72% n=95   (62-80) ours 88.2  K 81.0 (kn 74) roi -15.5
+  80-84                                   79-15   84% n=94   (75-90) ours 81.7  K 78.6 (kn 71) roi 2.8
+  75-79                                   73-19   79% n=92   (70-86) ours 76.7  K 74.3 (kn 79) roi 5.7
+  70-74                                   92-25   79% n=117  (70-85) ours 71.9  K 70.3 (kn 83) roi 15.0
+  65-69                                   66-29   69% n=95   (60-78) ours 66.8  K 68.1 (kn 71) roi -2.4
+  60-64                                   76-32   70% n=108  (61-78) ours 61.7  K 62.6 (kn 84) roi 12.4
+  50-59                                  116-81   59% n=197  (52-66) ours 54.5  K 57.6 (kn 135) roi 2.7
+  <50                                    118-136  46% n=254  (40-53) ours 36.4  K 47.0 (kn 140) roi -2.5
+
+== kalshi
+  ours 8+ above                           72-65   53% n=137  (44-61) ours 72.5  K 58.1 (kn 137) roi -7.1
+  within 7                               299-131  70% n=430  (65-74) ours 65.6  K 65.8 (kn 430) roi 5.0
+  Kalshi 8+ above                        120-50   71% n=170  (63-77) ours 51.1  K 67.4 (kn 170) roi 2.6
+  no price                               197-118  63% n=315  (57-68) ours 56.3  K None (kn 0) roi None
+
+== kalshi_exact_only
+  ours 8+ above                           59-46   56% n=105  (47-65) ours 73.4  K 59.2 (kn 105) roi -1.2
+  within 7                               256-106  71% n=362  (66-75) ours 66.7  K 66.9 (kn 362) roi 5.9
+  Kalshi 8+ above                         99-37   73% n=136  (65-80) ours 52.8  K 69.0 (kn 136) roi 3.4
+  no price                               197-118  63% n=315  (57-68) ours 56.3  K None (kn 0) roi None
+
+== kalshi_x_week
+  Wk1 Nov 4-8 | Kalshi 8+ above           35-11   76% n=46   (62-86) ours 52.2  K 68.7 (kn 46) roi 10.4
+  Wk1 Nov 4-8 | ours 8+ above             13-5    72% n=18   (49-88) ours 68.1  K 54.4 (kn 18) roi 33.8
+  Wk1 Nov 4-8 | within 7                  68-53   56% n=121  (47-65) ours 59.2  K 59.4 (kn 121) roi 0.4
+  Wk2 Nov 9-15 | Kalshi 8+ above          67-34   66% n=101  (57-75) ours 48.5  K 65.4 (kn 101) roi -1.4
+  Wk2 Nov 9-15 | ours 8+ above            47-41   53% n=88   (43-63) ours 74.8  K 60.0 (kn 88) roi -8.6
+  Wk2 Nov 9-15 | within 7                174-53   77% n=227  (71-82) ours 67.8  K 68.2 (kn 227) roi 9.5
+  Wk3 Nov 16-17 | Kalshi 8+ above         18-5    78% n=23   (58-90) ours 60.5  K 73.4 (kn 23) roi 4.9
+  Wk3 Nov 16-17 | ours 8+ above           12-19   39% n=31   (24-56) ours 68.3  K 54.9 (kn 31) roi -26.8
+  Wk3 Nov 16-17 | within 7                57-25   70% n=82   (59-78) ours 68.7  K 68.8 (kn 82) roi -0.4
+
+== kalshi_x_sport
+  CBB | Kalshi 8+ above                    1-0   100% n=1    (21-100) ours 72.0  K 86.5 (kn 1) roi 15.6
+  CBB | within 7                           2-3    40% n=5    (12-77) ours 49.6  K 49.1 (kn 5) roi -21.3
+  CFB | Kalshi 8+ above                    2-0   100% n=2    (34-100) ours 62.0  K 96.5 (kn 2) roi 7.0
+  CFB | ours 8+ above                      0-1     0% n=1    (0-79) ours 65.0  K 32.5 (kn 1) roi -100.0
+  CFB | within 7                           8-5    62% n=13   (36-82) ours 67.1  K 66.3 (kn 13) roi -2.4
+  NBA | Kalshi 8+ above                   84-36   70% n=120  (61-77) ours 52.2  K 67.5 (kn 120) roi 0.5
+  NBA | ours 8+ above                     55-49   53% n=104  (43-62) ours 73.1  K 58.7 (kn 104) roi -8.3
+  NBA | within 7                         225-87   72% n=312  (67-77) ours 67.3  K 67.5 (kn 312) roi 4.3
+  NCAAB | within 7                         2-1    67% n=3    (21-94) ours 72.7  K 71.2 (kn 3) roi -15.9
+  NFL | Kalshi 8+ above                   33-14   70% n=47   (56-81) ours 47.4  K 65.4 (kn 47) roi 7.7
+  NFL | ours 8+ above                     17-15   53% n=32   (36-69) ours 70.5  K 57.2 (kn 32) roi -0.4
+  NFL | within 7                          62-35   64% n=97   (54-73) ours 60.3  K 61.1 (kn 97) roi 10.4
+
+== kalshi_x_grade
+  50-59 | Kalshi 8+ above                 17-9    65% n=26   (46-81) ours 53.9  K 72.1 (kn 26) roi -10.2
+  50-59 | ours 8+ above                    7-6    54% n=13   (29-77) ours 55.5  K 44.7 (kn 13) roi 22.2
+  50-59 | within 7                        56-40   58% n=96   (48-68) ours 54.6  K 55.5 (kn 96) roi 3.6
+  60-64 | Kalshi 8+ above                 23-3    88% n=26   (71-96) ours 62.2  K 74.7 (kn 26) roi 17.9
+  60-64 | ours 8+ above                    9-9    50% n=18   (29-71) ours 61.4  K 46.2 (kn 18) roi 0.7
+  60-64 | within 7                        28-12   70% n=40   (55-82) ours 61.6  K 62.1 (kn 40) roi 14.0
+  65-69 | Kalshi 8+ above                 17-2    89% n=19   (69-97) ours 66.1  K 80.7 (kn 19) roi 11.9
+  65-69 | ours 8+ above                    7-7    50% n=14   (27-73) ours 67.4  K 52.9 (kn 14) roi -8.3
+  65-69 | within 7                        24-14   63% n=38   (47-77) ours 67.0  K 67.4 (kn 38) roi -7.1
+  70-74 | Kalshi 8+ above                 14-0   100% n=14   (78-100) ours 71.4  K 82.5 (kn 14) roi 21.3
+  70-74 | ours 8+ above                   15-7    68% n=22   (47-84) ours 72.3  K 57.3 (kn 22) roi 17.5
+  70-74 | within 7                        38-9    81% n=47   (67-90) ours 72.1  K 72.7 (kn 47) roi 12.0
+  75-79 | Kalshi 8+ above                  6-1    86% n=7    (49-97) ours 76.4  K 88.4 (kn 7) roi -2.6
+  75-79 | ours 8+ above                   10-9    53% n=19   (32-73) ours 76.1  K 59.6 (kn 19) roi -15.0
+  75-79 | within 7                        47-6    89% n=53   (77-95) ours 76.9  K 77.6 (kn 53) roi 14.2
+  80-84 | ours 8+ above                    7-8    47% n=15   (25-70) ours 81.6  K 67.2 (kn 15) roi -29.0
+  80-84 | within 7                        51-5    91% n=56   (81-96) ours 81.7  K 81.6 (kn 56) roi 11.4
+  85+ | Kalshi 8+ above                    1-0   100% n=1    (21-100) ours 86.0  K 94.5 (kn 1) roi 5.8
+  85+ | ours 8+ above                     14-16   47% n=30   (30-64) ours 88.6  K 74.7 (kn 30) roi -39.7
+  85+ | within 7                          37-6    86% n=43   (73-93) ours 87.7  K 85.2 (kn 43) roi 0.9
+  <50 | Kalshi 8+ above                   42-35   55% n=77   (43-65) ours 36.2  K 55.0 (kn 77) roi -3.4
+  <50 | ours 8+ above                      3-3    50% n=6    (19-81) ours 40.0  K 28.6 (kn 6) roi 60.8
+  <50 | within 7                          18-39   32% n=57   (21-44) ours 37.3  K 38.1 (kn 57) roi -8.0
+
+== kalshi_band
+  85+                                     45-3    94% n=48   (83-98) ours 81.4  K 88.4 (kn 48) roi 6.2
+  80-84                                   85-11   89% n=96   (81-93) ours 78.9  K 82.1 (kn 96) roi 7.9
+  75-79                                   71-12   86% n=83   (76-92) ours 73.7  K 77.7 (kn 83) roi 10.0
+  70-74                                   65-28   70% n=93   (60-78) ours 71.7  K 72.4 (kn 93) roi -3.7
+  65-69                                   40-18   69% n=58   (56-79) ours 65.1  K 67.3 (kn 58) roi 2.6
+  60-64                                   47-27   64% n=74   (52-74) ours 60.7  K 62.5 (kn 74) roi 1.9
+  50-59                                  104-66   61% n=170  (54-68) ours 55.7  K 55.2 (kn 170) roi 10.9
+  <50                                     34-81   30% n=115  (22-38) ours 41.8  K 39.3 (kn 115) roi -17.9
+
+== grade_x_week
+  50-59 | Wk1 Nov 4-8                     39-24   62% n=63   (50-73) ours 54.5  K 59.0 (kn 45) roi -8.2
+  50-59 | Wk2 Nov 9-15                    62-46   57% n=108  (48-66) ours 54.5  K 58.1 (kn 74) roi 4.8
+  50-59 | Wk3 Nov 16-17                   15-11   58% n=26   (39-74) ours 54.9  K 52.0 (kn 16) roi 24.0
+  60-64 | Wk1 Nov 4-8                     25-10   71% n=35   (55-84) ours 61.3  K 62.7 (kn 31) roi 8.4
+  60-64 | Wk2 Nov 9-15                    41-18   69% n=59   (57-80) ours 61.9  K 62.8 (kn 41) roi 13.5
+  60-64 | Wk3 Nov 16-17                   10-4    71% n=14   (45-88) ours 61.9  K 61.7 (kn 12) roi 18.7
+  65-69 | Wk1 Nov 4-8                     18-14   56% n=32   (39-72) ours 66.8  K 66.5 (kn 25) roi -19.3
+  65-69 | Wk2 Nov 9-15                    33-10   77% n=43   (62-87) ours 66.7  K 71.7 (kn 31) roi 7.5
+  65-69 | Wk3 Nov 16-17                   15-5    75% n=20   (53-89) ours 67.2  K 63.3 (kn 15) roi 3.9
+  70-74 | Wk1 Nov 4-8                     19-5    79% n=24   (60-91) ours 72.0  K 68.5 (kn 13) roi 26.3
+  70-74 | Wk2 Nov 9-15                    56-12   82% n=68   (72-90) ours 72.0  K 70.3 (kn 50) roi 24.3
+  70-74 | Wk3 Nov 16-17                   17-8    68% n=25   (48-83) ours 71.4  K 71.3 (kn 20) roi -15.6
+  75-79 | Wk1 Nov 4-8                     14-2    88% n=16   (64-97) ours 76.9  K 77.3 (kn 13) roi 8.0
+  75-79 | Wk2 Nov 9-15                    42-7    86% n=49   (73-93) ours 76.8  K 72.6 (kn 40) roi 19.0
+  75-79 | Wk3 Nov 16-17                   17-10   63% n=27   (44-78) ours 76.3  K 75.3 (kn 26) roi -16.1
+  80-84 | Wk1 Nov 4-8                     13-1    93% n=14   (69-99) ours 82.2  K 80.3 (kn 11) roi 14.0
+  80-84 | Wk2 Nov 9-15                    52-12   81% n=64   (70-89) ours 81.5  K 77.6 (kn 48) roi 0.5
+  80-84 | Wk3 Nov 16-17                   14-2    88% n=16   (64-97) ours 81.7  K 80.8 (kn 12) roi 2.1
+  85+ | Wk1 Nov 4-8                        6-1    86% n=7    (49-97) ours 85.4  K 82.2 (kn 4) roi -7.3
+  85+ | Wk2 Nov 9-15                      52-22   70% n=74   (59-79) ours 88.7  K 80.6 (kn 56) roi -16.1
+  85+ | Wk3 Nov 16-17                     10-4    71% n=14   (45-88) ours 87.4  K 82.4 (kn 14) roi -15.6
+  <50 | Wk1 Nov 4-8                       49-53   48% n=102  (39-58) ours 34.6  K 45.5 (kn 43) roi 26.1
+  <50 | Wk2 Nov 9-15                      54-68   44% n=122  (36-53) ours 36.9  K 47.7 (kn 76) roi -13.0
+  <50 | Wk3 Nov 16-17                     15-15   50% n=30   (33-67) ours 40.5  K 47.7 (kn 21) roi -23.6
+
+== style
+  alt                                    389-158  71% n=547  (67-75) ours 68.6  K 69.4 (kn 429) roi -1.7
+  ceil                                    18-12   60% n=30   (42-75) ours 32.0  K 40.4 (kn 23) roi 85.4
+  move                                     4-0   100% n=4    (51-100) ours 71.5  K 79.8 (kn 4) roi 25.5
+  reg                                    277-194  59% n=471  (54-63) ours 54.7  K 59.5 (kn 281) roi 1.1
+
+== kgrade_nov16_17
+  ours 8+ above                           12-17   41% n=29   (26-59) ours 66.7  K 53.9 (kn 27) roi -22.5
+  within 7                                64-26   71% n=90   (61-79) ours 67.9  K 69.2 (kn 73) roi 2.8
+  Kalshi 8+ above                         24-8    75% n=32   (58-87) ours 61.4  K 73.0 (kn 30) roi -2.5
+{
+"brier": {
+"all priced": {
+"n": 737,
+"ours": 0.2106,
+"kalshi_tip": 0.1893,
+"base_rate": 0.2224
+},
+"Wk1 Nov 4-8": {
+"n": 185,
+"ours": 0.2233,
+"kalshi_tip": 0.2079
+},
+"Wk2 Nov 9-15": {
+"n": 416,
+"ours": 0.2006,
+"kalshi_tip": 0.177
+},
+"Wk3 Nov 16-17": {
+"n": 136,
+"ours": 0.224,
+"kalshi_tip": 0.2018
+},
+"2026-11-04": {
+"n": 48,
+"ours": 0.2308,
+"kalshi_tip": 0.2338
+},
+"2026-11-05": {
+"n": 36,
+"ours": 0.2016,
+"kalshi_tip": 0.1821
+},
+"2026-11-06": {
+"n": 37,
+"ours": 0.2011,
+"kalshi_tip": 0.1553
+},
+"2026-11-07": {
+"n": 26,
+"ours": 0.2871,
+"kalshi_tip": 0.2663
+},
+"2026-11-08": {
+"n": 38,
+"ours": 0.2126,
+"kalshi_tip": 0.211
+},
+"2026-11-09": {
+"n": 36,
+"ours": 0.2489,
+"kalshi_tip": 0.2121
+},
+"2026-11-10": {
+"n": 47,
+"ours": 0.1641,
+"kalshi_tip": 0.1618
+},
+"2026-11-11": {
+"n": 71,
+"ours": 0.1626,
+"kalshi_tip": 0.1654
+},
+"2026-11-12": {
+"n": 61,
+"ours": 0.1702,
+"kalshi_tip": 0.144
+},
+"2026-11-13": {
+"n": 69,
+"ours": 0.2114,
+"kalshi_tip": 0.1754
+},
+"2026-11-14": {
+"n": 37,
+"ours": 0.1941,
+"kalshi_tip": 0.1714
+},
+"2026-11-15": {
+"n": 95,
+"ours": 0.2429,
+"kalshi_tip": 0.2043
+},
+"2026-11-16": {
+"n": 87,
+"ours": 0.2083,
+"kalshi_tip": 0.1931
+},
+"2026-11-17": {
+"n": 49,
+"ours": 0.2519,
+"kalshi_tip": 0.2174
+},
+"all graded legs (ours only)": {
+"n": 1052,
+"ours": 0.2141
+},
+"Nov16-17 grading-time vs tip": {
+"n": 130,
+"ours": 0.2186,
+"kalshi_grading_time": 0.2033,
+"kalshi_tip": 0.1999
+}
+},
+"calibration": {
+"ours": {
+"85+": {
+"n": 95,
+"pred": 88.2,
+"actual": 71.6
+},
+"80-84": {
+"n": 94,
+"pred": 81.7,
+"actual": 84.0
+},
+"75-79": {
+"n": 92,
+"pred": 76.7,
+"actual": 79.3
+},
+"70-74": {
+"n": 117,
+"pred": 71.9,
+"actual": 78.6
+},
+"65-69": {
+"n": 95,
+"pred": 66.8,
+"actual": 69.5
+},
+"60-64": {
+"n": 108,
+"pred": 61.7,
+"actual": 70.4
+},
+"50-59": {
+"n": 197,
+"pred": 54.5,
+"actual": 58.9
+},
+"<50": {
+"n": 254,
+"pred": 36.4,
+"actual": 46.5
+}
+},
+"ours_priced": {
+"85+": {
+"n": 74,
+"pred": 88.0,
+"actual": 70.3
+},
+"80-84": {
+"n": 71,
+"pred": 81.7,
+"actual": 81.7
+},
+"75-79": {
+"n": 79,
+"pred": 76.7,
+"actual": 79.7
+},
+"70-74": {
+"n": 83,
+"pred": 72.0,
+"actual": 80.7
+},
+"65-69": {
+"n": 71,
+"pred": 66.9,
+"actual": 67.6
+},
+"60-64": {
+"n": 84,
+"pred": 61.7,
+"actual": 71.4
+},
+"50-59": {
+"n": 135,
+"pred": 54.6,
+"actual": 59.3
+},
+"<50": {
+"n": 140,
+"pred": 36.8,
+"actual": 45.0
+}
+},
+"kalshi_tip": {
+"85+": {
+"n": 48,
+"pred": 88.4,
+"actual": 93.8
+},
+"80-84": {
+"n": 96,
+"pred": 82.1,
+"actual": 88.5
+},
+"75-79": {
+"n": 83,
+"pred": 77.7,
+"actual": 85.5
+},
+"70-74": {
+"n": 93,
+"pred": 72.4,
+"actual": 69.9
+},
+"65-69": {
+"n": 58,
+"pred": 67.3,
+"actual": 69.0
+},
+"60-64": {
+"n": 74,
+"pred": 62.5,
+"actual": 63.5
+},
+"50-59": {
+"n": 170,
+"pred": 55.2,
+"actual": 61.2
+},
+"<50": {
+"n": 115,
+"pred": 39.3,
+"actual": 29.6
+}
+}
+},
+"correlation": {
+"graded legs": 1052,
+"game clusters (known event)": 426,
+"legs with known event": 996,
+"avg legs per game": 2.34,
+"max legs one game": 23,
+"same player same stat ladders": 211,
+"legs inside ladders": 492,
+"same-game pairs": 1720,
+"same-game pairs same result %": 58.3,
+"expected if independent %": 52.5,
+"ladder pairs same result %": 76.7,
+"tickets": 54,
+"ticket legs": 374,
+"ticket legs not matched to a graded leg": 4,
+"distinct legs used on tickets": 174,
+"legs used on 2+ tickets": 77,
+"max tickets one leg": 10,
+"ticket legs with a Kalshi price": 307,
+"ticket legs that were \u26a0 (8+ above Kalshi at tip)": 87
+},
+"bootstrap_by_game": {
+"ours 8+ above": [
+43.0,
+62.5
+],
+"within 7": [
+64.4,
+74.6
+],
+"Kalshi 8+ above": [
+62.5,
+78.4
+],
+"ours-above minus within": [
+-27.6,
+-6.0
+],
+"brier ours minus kalshi": [
+11.6,
+30.7
+]
+}
+}
+
+OOS warn rule on Nov 4-15 (rule made from Nov 16-17) | Legs where our grade was 8+ above Kalshi tip price. None of these legs were used to make the rule.
+    flagged 60 - 46 57 % n 106 (47, 66) ours 73.7 K 59.1
+    not 344 - 151 69 % n 495 (65, 73) ours 60.3 K 65.5
+
+OOS hammer pool on Nov 4-15 (80+ and within 7) | Among 80+ legs: Kalshi within 7 vs not.
+    flagged 67 - 7 91 % n 74 (82, 95) ours 84.4 K 83.2
+    not 23 - 22 51 % n 45 (37, 65) ours 85.9 K 73.2
+
+OOS market-likes-it on Nov 4-15 | Kalshi 8+ above our grade.
+    flagged 102 - 45 69 % n 147 (62, 76) ours 49.6 K 66.5
+    not 302 - 152 67 % n 454 (62, 71) ours 66.9 K 63.7
+
+OOS 85+ cap | Nov 4-10 | 85+ legs vs 80-84 legs
+    flagged 14 - 3 82 % n 17 (59, 94) ours 88.2 K 83.1
+    not 22 - 6 79 % n 28 (60, 90) ours 82.1 K 76.1
+
+OOS 85+ cap | Nov 11-17 | 85+ legs vs 80-84 legs
+    flagged 54 - 24 69 % n 78 (58, 78) ours 88.2 K 80.7
+    not 57 - 9 86 % n 66 (76, 93) ours 81.5 K 79.7
+
+OOS NFL yardage 70+ | Nov 4-10 | NFL yardage vs all other 70+ legs
+    flagged 6 - 1 86 % n 7 (49, 97) ours 77.9 K 83.0
+    not 81 - 16 84 % n 97 (75, 90) ours 78.4 K 75.8
+
+OOS rebounds 80+ | Nov 4-10 | rebounds vs other 80+ legs
+    flagged 3 - 0 100 % n 3 (44, 100) ours 83.7 K 77.1
+    not 33 - 9 79 % n 42 (64, 88) ours 84.5 K 78.6
+
+OOS NFL yardage 70+ | Nov 11-17 | NFL yardage vs all other 70+ legs
+    flagged 31 - 19 62 % n 50 (48, 74) ours 77.6 K 74.4
+    not 194 - 50 80 % n 244 (74, 84) ours 79.9 K 76.0
+
+OOS rebounds 80+ | Nov 11-17 | rebounds vs other 80+ legs
+    flagged 21 - 7 75 % n 28 (57, 87) ours 85.4 K 81.5
+    not 90 - 26 78 % n 116 (69, 84) ours 85.1 K 79.8
