@@ -77,7 +77,11 @@ Re-running gives the same output as the original scripts. Some saved outputs wer
 
 ## Review data packet
 
-`review_packet/build_packet.py` builds the historical data packet attached to every independent AI review run, so each model gets the same data. See `docs/INDEPENDENT_PICK_REVIEW_PROMPT.md`.
+`review_packet/build_packet.py OUT_DIR HIST_END RS_EXPORT_JSON` builds the historical data packet attached to every independent AI review run, so each model gets the same data. It writes the record-status, Kalshi price-type and head-to-head columns described in the packet README. See `docs/INDEPENDENT_PICK_REVIEW_PROMPT.md`.
+
+`review_packet/beta_backfill.py` records Beta line outcomes from ESPN box scores and Kalshi settlement. It never edits the saved pregame predictions. Nov 18 output: `beta/beta_backfill_nov18.json`.
+
+`thu/` is the Nov 19 slate: same scripts as `wed/` and `mon/`, with tonight's inputs and pick list.
 
 `review_packet/rs_export.cjs` exports the Perfect Parlays backtest and hindsight data from the built `index.html`, using a headless browser.
 

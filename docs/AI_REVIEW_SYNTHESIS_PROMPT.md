@@ -1,4 +1,4 @@
-# AI review synthesis prompt (v2, Nov 19, 2026)
+# AI review synthesis prompt (v2.1, Nov 19, 2026)
 
 Use this **after all four runs are finished** (ChatGPT, Gemini, Grok, Claude), each made with `INDEPENDENT_PICK_REVIEW_PROMPT.md` v2 on the same data packet.
 
@@ -20,16 +20,22 @@ All four independent runs are done. Synthesize them. Follow these rules exactly.
 4. **Check every model's Part B against our own data.** Re-run each historical number a model reported from our database or the packet before calling it supported.
    - If a model's load check didn't match, or it couldn't open the files, mark its whole Part B **UNUSABLE** and say why.
    - If a model gives a historical number it couldn't have computed, mark it **UNSUPPORTED**.
-5. **Check outside facts** (odds, injuries, lineups, news) yourself where possible, with source and time. Mark each:
+5. **Check the data rules in every Part B claim.**
+   - Win-loss stats must use only settled rows (`d_in_win_loss_record`), with pushes, voids and unresolved rows kept separate.
+   - Kalshi price types must not be pooled.
+   - Any our-grade-vs-Kalshi accuracy claim must use only `d_head_to_head_eligible` rows. A claim that breaks this is **INVALID COMPARISON**, whatever its conclusion.
+   - A claim that counts the 224 Beta lines as independent observations is **OVERSTATED**.
+
+6. **Check outside facts** (odds, injuries, lineups, news) yourself where possible, with source and time. Mark each:
    - **Verified**
    - **Contradicted** (with what's true)
    - **Stale** (true earlier, outdated now)
    - **Unsupported** (no source, can't confirm)
    - **Can't check**
-6. **Nothing experimental becomes proven.** Anything set after looking at the same data (the ⚠ rule, the Hammer filter, Perfect Parlays rules, Beta) stays PROVISIONAL or EXPERIMENTAL however many models like it.
-7. **No new picks.** Don't turn consensus into a new pick or a moved line unless Ace explicitly asks. A suggested line move is a note, same player and same stat only.
-8. **No site or grading changes** from this synthesis. List proposals; Ace approves before anything changes.
-9. **Keep Ace's rules in force when commenting on tickets:**
+7. **Nothing experimental becomes proven.** Anything set after looking at the same data (the ⚠ rule, the Hammer filter, Perfect Parlays rules, Beta) stays PROVISIONAL or EXPERIMENTAL however many models like it.
+8. **No new picks.** Don't turn consensus into a new pick or a moved line unless Ace explicitly asks. A suggested line move is a note, same player and same stat only.
+9. **No site or grading changes** from this synthesis. List proposals; Ace approves before anything changes.
+10. **Keep Ace's rules in force when commenting on tickets:**
    - cappers' picks only
    - no James Harden
    - no unders on Wemby or Luka
@@ -37,13 +43,13 @@ All four independent runs are done. Synthesize them. Follow these rules exactly.
    - ⚠ legs stay off main tickets
    - Hammer = every leg 80+ with Kalshi within 7
    - after a big loss, half stake the next day
-10. No "lock", "guaranteed" or hype.
+11. No "lock", "guaranteed" or hype.
 
 ## Output
 
 **1. Inputs check**
 
-| Model | Time run | Web | Files opened | Load check matched? | Part B usable? | Notes (stale data, unsupported claims) |
+| Model | Time run | Web | Files opened (row counts vs MANIFEST) | Load check matched? | Part B usable? | Notes (stale data, unsupported claims, invalid comparisons) |
 |---|---|---|---|---|---|---|
 
 **2. Today's picks (Part A)**
@@ -65,7 +71,7 @@ For each section:
   | Claim | Who made it | Status | Our recomputed number (n, dates) |
   |---|---|---|---|
 
-  Status is one of: SUPPORTED by our data (recomputed) / PROVISIONAL / NEEDS MORE DATA / CONTRADICTED / UNSUPPORTED.
+  Status is one of: SUPPORTED by our data (recomputed) / PROVISIONAL / NEEDS MORE DATA / CONTRADICTED / UNSUPPORTED / INVALID COMPARISON / OVERSTATED.
 - **Site content idea:** worth using, labeled Observed / Provisional / Experimental, with honest wording.
 
 **4. Data gaps (from B8):** a merged, ranked list, noting which gaps several models independently raised.

@@ -1,4 +1,4 @@
-# Independent review and research prompt (v2, Nov 19, 2026)
+# Independent review and research prompt (v2.1, Nov 19, 2026)
 
 Run this **in four separate fresh chats**: ChatGPT, Gemini, Grok and Claude.
 
@@ -7,16 +7,17 @@ Run this **in four separate fresh chats**: ChatGPT, Gemini, Grok and Claude.
 **Same inputs in every chat.** Each chat gets the exact same text, picks and files. Don't edit the prompt between runs. If you fix a typo in the picks, start all four over.
 
 1. **Open a new chat** in each model, with web search on. Use code or analysis mode if the model has it, because Part B requires calculations on the files.
-2. **Attach the same data packet files to every chat.** From the folder `BettorDays_data_packet_<date>`, attach these 7 files:
+2. **Attach the same 8 files to every chat**, exactly as listed in the packet's `MANIFEST.md`. Check the row counts there.
    - `README_DATA_PACKET.md`
+   - `MANIFEST.md`
    - `picks_history.csv`
    - `tickets_history.csv`
    - `corrections.csv`
-   - `beta_sim_lines_<date>.csv`
+   - `beta_sim_lines.csv`
    - `perfect_parlays_backtest_and_hindsight.csv`
-   - `todays_picks.csv` (the filled-in template)
+   - `todays_picks.csv`
 
-   If a model only takes one file, attach `BettorDays_data_packet_<date>.zip` instead, and note that in your record.
+   If a model only takes one file, attach the packet's `.zip` instead, and note that in your record.
 3. **Paste everything between the two `=====` lines.** Fill only the bracketed fields at the bottom.
 4. **Keep the runs separate.** Don't show any model another model's answer, and don't ask follow-ups until all four are done. Save each full reply as-is, with the model name and the time you ran it.
 5. **Bring all four replies back to Claude** with `AI_REVIEW_SYNTHESIS_PROMPT.md`.
@@ -96,10 +97,7 @@ The project is **BettorDays**, a sports pick grading system and website. There a
 - A backtest of parlay rules on past nights.
 - One posted night (Nov 18).
 
-**Where the evidence stood** (for context only; verify from the files, don't repeat these numbers as facts):
-- On picks with a Kalshi price, Kalshi has been more accurate than our grades.
-- High grades have hit less often than graded.
-- Nothing has been shown to beat the market.
+**No performance claims are given here on purpose.** Compute everything from the files, following the rules in `README_DATA_PACKET.md`. Nothing about the system has been shown to beat the market.
 
 ## 2. Part A: today's picks (`todays_picks.csv`, or the pasted block at the bottom)
 
@@ -141,7 +139,13 @@ Then:
 
 Read `README_DATA_PACKET.md` first.
 
-**Run the load check** in it and report your numbers. **If your totals don't match, say so and don't continue Part B.**
+**Run the load check** in `MANIFEST.md` and report your numbers. **If your totals don't match, say so and don't continue Part B.**
+
+**Rules for every Part B number:**
+- **Which rows count.** Win-loss, hit-rate and grade-band statistics use only `d_in_win_loss_record = TRUE` (1,146 rows). Pushes (8) and voids (9) are reported as separate counts. The 159 `unresolved` rows are never counted or imputed. Say how many rows a filter excluded and why. Note that unresolved rows skew toward lower grades.
+- **Kalshi prices.** Use the four split columns (`d_kalshi_tip_observed`, `d_kalshi_tip_estimated`, `d_kalshi_grade_observed`, `d_kalshi_grade_estimated`). Never pool them. Say which one every number uses.
+- **Head-to-head accuracy.** Any comparison of our grade with Kalshi (Brier, calibration, "who was closer") must use only `d_head_to_head_eligible = TRUE` rows: same picks, same outcomes, a Kalshi price from grading time, directly quoted, and a grade that didn't use Kalshi. Report n, dates and games. Tip-off prices may describe Kalshi's own accuracy, but must not be used to rank our grade against Kalshi.
+- **Correlation.** Report effective samples by game (`d_game_key`) and by ladder or player (`d_ladder_key`, `d_player_key`), not only by legs.
 
 For **each section below**, answer under these exact sub-headings:
 
@@ -164,12 +168,9 @@ For **each section below**, answer under these exact sub-headings:
 - Don't rank categories with tiny samples. Say where n < 30.
 
 **B2. Does our grade mean anything?**
-- Calibration by grade band: average grade vs hit rate.
-- Brier score of our grade against the Kalshi price, **only on rows that have both**. Report separately for:
-  - `kalshi_price_close` (Nov 4 to 17, tip-off)
-  - `kalshi_price_grade` (Nov 16 to 18, grading time)
-- Exclude or separate `grade_version` v8 rows.
-- Note that interpolated prices are estimates.
+- Calibration by grade band on settled rows: average grade vs hit rate. Exclude `d_grade_uses_market = TRUE` rows, or show them separately.
+- Head-to-head with Kalshi **only** on `d_head_to_head_eligible = TRUE` rows (184 rows, Nov 16 to 18). Give n, games, a range that accounts for same-game clustering, and say plainly that three nights is a small sample.
+- Optionally, Kalshi tip-off calibration on its own, labeled as not comparable with our grades.
 - Does a higher grade predict a higher hit rate after accounting for correlation?
 
 **B3. 70+ picks by night, and 80+ if supported**
@@ -191,13 +192,15 @@ For **each section below**, answer under these exact sub-headings:
 - What, if anything, can be learned.
 - How the section should be worded so no one reads it as predictive.
 
-**B7. Beta Test Mode and simulations**
-- 224 lines, only 15 graded.
-- Simulated vs actual hit rate on the graded 15.
-- Whether `sample_unc_95` swamps `edge_pct`.
-- What the 209 ungraded lines would add once graded.
-- What the simulation adds or doesn't add beyond the grade.
-- Critique of the method from the description, without claiming results it can't show.
+**B7. Beta Test Mode and simulations** (`beta_sim_lines.csv`, one night)
+- 224 lines:
+  - 15 published before games (`shown_on_site`)
+  - 209 saved before games but not published, with outcomes backfilled the next day (`outcome_backfilled`)
+- Report the two groups separately and together. Voids (5) are excluded from hit rates.
+- **These are not 224 independent observations.** They come from 12 games and 127 players, with several lines per player. Report effective samples.
+- Simulated vs actual hit rate (`sim_prob` vs outcomes), and calibration by simulated-probability band.
+- Whether lines with positive `edge` beat their `breakeven`. Whether `sample_unc` swamps `edge`.
+- What the simulation adds or doesn't add beyond the grade, and how many more nights would be needed before saying anything.
 
 **B8. Data gaps and fixes**
 - A ranked list (at most 8) of missing fields or process changes that would most improve the research.
@@ -205,7 +208,7 @@ For **each section below**, answer under these exact sub-headings:
 
 ## 4. Output format (keep it in this order so replies can be compared)
 
-1. **Header:** model, date/time, web yes/no, file access per file.
+1. **Header:** model, date/time, web yes/no, file access per file, and the row counts you loaded for each file.
 2. **Part A:** table, tickets, summary.
 3. **Load check:** your computed numbers next to the expected ones.
 4. **Part B:** B1 to B8, each with sub-headings (a) to (g) (B8 is just the list).
@@ -226,7 +229,7 @@ pick_no | capper | sport | matchup | tip_time_local | market | pick_as_submitted
 [PASTE ROWS OR LEAVE "attached"]
 
 Tickets Ace is considering (optional): [NAME: pick numbers]
-Historical data packet: BettorDays_data_packet_[DATE] (7 files attached; see README_DATA_PACKET.md)
+Historical data packet: BettorDays_data_packet_[DATE] (8 files attached; see MANIFEST.md and README_DATA_PACKET.md)
 ```
 
 Blank fields in today's picks are allowed. Say what each gap stops you from checking.

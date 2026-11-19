@@ -262,17 +262,22 @@ The site source is a single HTML file, `pipeline/bettordays-hq.html`. Edit that,
 ## 4. Limitations and ways the numbers can mislead
 
 1. **Samples are small and correlated.** About 2.3 legs per game, and many player ladders (the same player at 2-4 lines). Ladder legs share a result 77% of the time. The effective sample is far smaller than the leg count.
-2. **The market has been more accurate than our grades.**
-   - Nov 4-17 Brier score: Kalshi 0.189, ours 0.211 (lower is better).
-   - Nov 18: Kalshi 0.234, ours 0.239.
-   - Buying every leg at Kalshi's tip price returned about +2% before fees. **No proven edge.**
+2. **Comparing our grade with Kalshi needs like-for-like rows.**
+   - **Valid comparison** (same settled picks, Kalshi price taken at grading time and directly quoted, grade not using Kalshi): 184 picks from 30 games, Nov 16 to 18.
+     - Brier score: Kalshi 0.210, ours 0.224 (lower is better). Kalshi was ahead on each of the three nights.
+     - The game-clustered 95% range for the gap is 0.003 to 0.027.
+     - **Provisional:** three nights.
+   - **Not a valid comparison:** the earlier audit figure (Nov 4 to 17: Kalshi 0.189, ours 0.211) used Kalshi prices from tip-off, hours after our grades. Those prices include later news, so it does not rank our grade against Kalshi. It is kept only as a description of the tip-off prices.
+   - Buying every leg at Kalshi's tip-off price returned about +2% before fees. **No proven edge.**
+   - Rows whose grade used the Kalshi price (76 rows: v8, "graded at Kalshi's price", and the Nov 16 to 17 NBA team-line average) can never count as independent grades.
 3. **Calibration.** 85+ grades hit 72%; grades under 75 hit more often than graded.
 4. **The "hit rate" is on the cappers' picks only.** It can't be generalized to every line.
 5. **Many steps are manual:** transcription, back-to-back list, spreads, injury flags, ticket building. Typos are possible and have happened (a stat mis-parsed as assists, a dropped line).
 6. **Hindsight.** The "Perfect parlays" hindsight builds and the Beta backtest use rules written after seeing the same nights. The site says this.
 7. **Mixed price timing.** The record mixes tip-off prices (Nov 4-17) and grading-time prices (Nov 18+).
 8. **Unrecorded history.** Before Nov 13 the original capper line and the moved flag were mostly not recorded. Before Nov 8 there are no game times or notes.
-9. **Stale content.** Some Research clue sentences quote fixed numbers. The Method page's first-study panels are Nov 4 to 7 numbers, now labeled that way.
+9. **Record coverage.** The 743-403 record is the 1,146 settled rows out of 1,322 graded picks. The other 176 are 8 pushes, 9 voids and 159 never settled (147 with no result logged). Unsettled rows skew toward lower grades. Full breakdown in the data packet README.
+10. **Stale content.** Some Research clue sentences quote fixed numbers. The Method page's first-study panels are Nov 4 to 7 numbers, now labeled that way.
 
 ### 4.1 Site fixes made Nov 19, and what is still open
 
