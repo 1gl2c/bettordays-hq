@@ -12,8 +12,8 @@ set -u
 cd "$(dirname "$0")"
 export PATH="$HOME/.local/bin:$HOME/.hermes/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 
-MAX_MIN="${BD_MAX_MIN:-40}"          # hard stop per model, minutes (12:40 start + 40 = 1:20 PM)
-LINES_WAIT_UNTIL="${BD_WAIT_UNTIL:-1305}"   # keep checking for today's lines until 1:05 PM
+MAX_MIN="${BD_MAX_MIN:-30}"          # hard stop per model, minutes (lines by ~1:10 PM + 30 = ~1:40 PM)
+LINES_WAIT_UNTIL="${BD_WAIT_UNTIL:-1345}"   # keep checking for today's lines until 1:45 PM (Ace sends picks ~1 PM)
 REPO_RAW="https://raw.githubusercontent.com/1gl2c/bettordays-hq/main/pipeline/daily"
 REPO_DIR="${BD_REPO:-$HOME/bettordays/engine/bettordays-hq}"   # optional clone: replies get pushed for Claude
 MODELS=(
@@ -63,6 +63,8 @@ printf '%s\n' "$PROMPT" > "$OUT/prompt_sent.md"
 say "Running ${#MODELS[@]} models, up to $MAX_MIN minutes each."
 for entry in "${MODELS[@]}"; do
   name="${entry%%|*}"; model="${entry##*|}"
+  if grep -q "BD_V7_END" "$OUT/$name.md" 2>/dev/null; then say "$name: already has a result block, skipping (delete $OUT/$name.md to rerun it)"; continue; fi
+  [ -s "$OUT/$name.md" ] && mv "$OUT/$name.md" "$OUT/$name.failed.$(date +%H%M).md"
   (
     start=$(date +%s)
     hermes -z "$PROMPT" --provider openrouter --model "$model" > "$OUT/$name.md" 2> "$OUT/$name.log" &
