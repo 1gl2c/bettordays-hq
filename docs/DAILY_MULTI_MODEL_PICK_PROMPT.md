@@ -1,17 +1,17 @@
-# Daily multi-model pick prompt (v3, blind)
+# Daily multi-model pick prompt (v4, blind, own simulation)
 
 ## How to run it (for Ace, not part of the prompt)
 
 1. **Use a fresh chat in each model:** ChatGPT, Gemini, Grok. Turn web search on, and memory off if you can.
 2. **Attach the same 3 files to all three chats**, from `pipeline/daily/<date>/`:
    - `BD_DAILY_PICKS_BLIND_<date>.csv`: today's picks only (no grades, no Kalshi, no flags).
-   - `BD_DAILY_BETA_CANDIDATES_<date>.csv`: tonight's Beta candidates from our simulation.
+   - `BD_DAILY_BETA_LINES_BLIND_<date>.csv`: tonight's Beta candidate lines with Kalshi prices only (our simulation results removed).
    - `picks_history.csv`: our settled record, used only for the short research notes.
 3. **Paste everything between the `=====` lines**, unchanged. Fill in only the date at the bottom.
 4. **Keep the runs separate.** Don't show any model another model's answer. Copy each full reply, including the result blocks at the end, and note which model wrote it.
 5. **Paste all three replies back to Claude** with: "Daily reviews for <date>. Merge them." Claude puts each model's grade next to ours and Kalshi's, applies our ⚠ and Hammer rules, checks their sources, then updates the board and the site.
 
-**Why blind:** the models never see our grades, our ⚠ flags or the Kalshi price for the picks, so each gives a truly independent opinion. Our grades and Kalshi get compared only at the merge.
+**Why blind:** the models never see our grades, our ⚠ flags, the Kalshi price for the picks, or our simulation results, so each gives a truly independent opinion and runs its own simulation. Everything gets compared only at the merge, and every model's grades are saved so each can be scored against results over time.
 
 If a model rejects a file, paste its contents into the chat instead and note that.
 
@@ -21,7 +21,7 @@ You are reviewing today's sports picks for BettorDays. Other AI models are doing
 
 **Three attached files:**
 - `BD_DAILY_PICKS_BLIND_<date>.csv`: today's capper picks, in the order submitted, with game and tip time. No grades are included on purpose.
-- `BD_DAILY_BETA_CANDIDATES_<date>.csv`: tonight's Beta Test Mode candidates, with our simulation's output.
+- `BD_DAILY_BETA_LINES_BLIND_<date>.csv`: tonight's Beta candidate lines (Kalshi NBA player lines priced 50 to 60 cents) with price and break-even. Our simulation's results are left out on purpose.
 - `picks_history.csv`: our past graded picks and results (used only in part 9).
 
 If you can't open a file, say so and skip the parts that need it.
@@ -78,17 +78,17 @@ You may drop a leg because of news you verify.
 
 If nothing qualifies, say so.
 
-**Beta Test Mode.** You can't reproduce it: you don't have our code or game logs.
-- **What our system did:**
-  - Took every Kalshi NBA player line tonight priced 50 to 60 cents with a tight spread, for players with 8+ games who aren't ruled out.
-  - Simulated each game 1,000 times by re-sampling each player's season log, with recent games weighted double and shared game and team swings.
-  - Reported `sim_hit_pct`, `breakeven_pct` (ask plus Kalshi's fee) and `edge_pct` (simulated hit rate minus break-even).
-  - `system_rank` is our Top list: highest edge, one line per player, at most 2 per game, questionable players skipped. With 4 games, that allows at most 8 lines.
-- **What you do:** review and re-rank **our** candidates using injuries, minutes, rest, line moves and news, and say whether each simulated rate looks believable.
-  - Up to 15 lines, all from the file, within the per-player and per-game limits. Stop where the limits stop.
-  - Give keep / drop and a reason for each.
-  - **Don't call your ranking simulated.**
-- One night of results so far, and the simulation read high on that night.
+**Beta Test Mode: run your own simulation.**
+- **The task:** for each line in the Beta file, estimate its hit chance with your own simulation, then compute edge = your simulated hit % minus `breakeven_pct`.
+- **Rank your Top 15:** highest edge, at most one line per player and two per game, skipping players who are questionable or out. With 4 games that allows at most 8 lines. Stop where the limits stop.
+- **You may simulate only if you can actually run code and pull real game logs** (this season, with sources). If you can't, write "simulation not run", and either rank by your own judgment, labeled "judgment, not simulated", or skip. Never present numbers as simulated if you didn't run them.
+- **Report your method:**
+  - data source and date range
+  - number of runs
+  - how you handled minutes, injuries, pace, matchup and back-to-backs
+  - how you handled same-game correlation
+- For each line: your simulated hit %, edge, games in your sample, and one risk.
+- Experimental. A simulation is an estimate, not proof.
 
 ## What to deliver, in this order
 
@@ -107,7 +107,7 @@ If nothing qualifies, say so.
    - combined hit chance and its basis
    - weakest leg
 6. **Perfect Parlays attempt (experimental).**
-7. **Beta ranking (experimental):** up to 15, each keep or drop with a reason.
+7. **Beta Top list (experimental):** your own simulation results and method, or "simulation not run" with a judgment ranking.
 8. **Summary:** at most 5 bullets, including what you could not verify.
 9. **Research notes (optional, from `picks_history.csv`):** up to 3 short findings about which kinds of picks have hit.
    - Use only rows where `d_in_win_loss_record` is TRUE. Give the sample size and dates for each.
@@ -126,7 +126,7 @@ BD_TICKET_SUMMARY_START
 ticket_name,payout_estimate,combined_hit_chance,weakest_leg_pick_no
 BD_TICKET_SUMMARY_END
 BD_BETA_START
-your_rank,kalshi_ticker,keep_or_drop,reason
+your_rank,kalshi_ticker,your_hit_pct,edge_pct,sample_games,simulated_yes_no,runs,key_risk
 BD_BETA_END
 ```
 
