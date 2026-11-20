@@ -5,6 +5,7 @@ import json, sys, html, asyncio
 day, label, out = sys.argv[1:4]
 M = json.load(open(f'daily/{day}/v7_merged.json')); L = {l['i']: l for l in M['legs']}
 board = [L[i] for i in M['board']]
+if any(l.get('eng') == 'v8' for l in board): board = [l for l in board if l.get('eng') == 'v8']  # late-game card: only legs from games not started
 top = sorted(board, key=lambda l: (l['tier'] != 'G', -l['pub']))[:8]
 ham = [L[i] for i in M['hammer']['legs']]
 core = next((t for t in M['perfect'] if t['name'] == 'Core' and t['legs']), None)
