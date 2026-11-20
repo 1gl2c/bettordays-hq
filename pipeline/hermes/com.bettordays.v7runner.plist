@@ -4,7 +4,7 @@
 <dict>
   <key>Label</key><string>com.bettordays.v7runner</string>
   <key>ProgramArguments</key>
-  <array><string>/bin/bash</string><string>__ENGINE__/bd_daily_v7.sh</string></array>
+  <array><string>/bin/bash</string><string>__ENGINE__/bd_daily_v8.sh</string></array>
   <key>WorkingDirectory</key><string>__ENGINE__</string>
   <key>StartCalendarInterval</key>
   <dict><key>Hour</key><integer>12</integer><key>Minute</key><integer>40</integer></dict>
