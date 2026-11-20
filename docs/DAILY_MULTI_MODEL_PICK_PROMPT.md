@@ -1,15 +1,17 @@
-# Daily multi-model pick prompt (v2)
+# Daily multi-model pick prompt (v3, blind)
 
 ## How to run it (for Ace, not part of the prompt)
 
 1. **Use a fresh chat in each model:** ChatGPT, Gemini, Grok. Turn web search on, and memory off if you can.
 2. **Attach the same 3 files to all three chats**, from `pipeline/daily/<date>/`:
-   - `BD_DAILY_PICKS_<date>.csv`: today's picks, our grades and flags.
+   - `BD_DAILY_PICKS_BLIND_<date>.csv`: today's picks only (no grades, no Kalshi, no flags).
    - `BD_DAILY_BETA_CANDIDATES_<date>.csv`: tonight's Beta candidates from our simulation.
    - `picks_history.csv`: our settled record, used only for the short research notes.
 3. **Paste everything between the `=====` lines**, unchanged. Fill in only the date at the bottom.
 4. **Keep the runs separate.** Don't show any model another model's answer. Copy each full reply, including the result blocks at the end, and note which model wrote it.
-5. **Paste all three replies back to Claude** with: "Daily reviews for <date>. Merge them." Claude checks them against our data and current sources, then updates the board and the site.
+5. **Paste all three replies back to Claude** with: "Daily reviews for <date>. Merge them." Claude puts each model's grade next to ours and Kalshi's, applies our ⚠ and Hammer rules, checks their sources, then updates the board and the site.
+
+**Why blind:** the models never see our grades, our ⚠ flags or the Kalshi price for the picks, so each gives a truly independent opinion. Our grades and Kalshi get compared only at the merge.
 
 If a model rejects a file, paste its contents into the chat instead and note that.
 
@@ -18,7 +20,7 @@ If a model rejects a file, paste its contents into the chat instead and note tha
 You are reviewing today's sports picks for BettorDays. Other AI models are doing the same review separately. Don't guess at or refer to their answers.
 
 **Three attached files:**
-- `BD_DAILY_PICKS_<date>.csv`: today's capper picks, in the order submitted, with our system's grade and flags.
+- `BD_DAILY_PICKS_BLIND_<date>.csv`: today's capper picks, in the order submitted, with game and tip time. No grades are included on purpose.
 - `BD_DAILY_BETA_CANDIDATES_<date>.csv`: tonight's Beta Test Mode candidates, with our simulation's output.
 - `picks_history.csv`: our past graded picks and results (used only in part 9).
 
@@ -30,50 +32,30 @@ If you can't open a file, say so and skip the parts that need it.
 - **Sources:** for every injury, lineup, news item or odds you use, give the source and the time you checked it. If you can't verify something, write "not verified". Check that each player is active and on the team listed.
 - **No inventing:** never invent stats, odds, injuries, lineups or results. Blank means unknown.
 - **Odds:** the `odds_american` column is blank unless Ace filled it in.
-  - Without odds, say you **cannot assess value** for that pick. Never make up a payout.
-  - `kalshi_price` is the Kalshi prediction-market price for that exact line at the time shown. You may use it as a market price, but say so.
-  - If you find current sportsbook odds, cite them with source and time.
-- **Two views, never blended:**
-  - **System grade:** given in the file. Don't change it. You may say whether it looks too high or too low, and why.
-  - **Your grade:** your own independent hit chance, 0 to 100, with a one-line basis (market price, recent games, matchup, news). If you can't support a number, write "insufficient evidence".
+  - Find current odds yourself for each pick (a sportsbook, or the Kalshi price for that exact line), and cite the source and time.
+  - If you can't find a price, say you **cannot assess value** for that pick. Never make up a payout.
+  - Do not use the Beta file's prices for the capper picks.
+- **Your grade:** your own hit chance for each pick, 0 to 100, with a one-line basis (recent games, role and minutes, matchup, news, market price). If you can't support a number, write "insufficient evidence". You are not shown our grades on purpose. Don't try to guess them.
 - **No hype:** never call a pick or a parlay a lock, guaranteed, safe or perfect. Parlays multiply risk.
 - **Don't change picks silently:** keep each pick number and wording. If you read a pick differently, say how.
-
-## How our system grades (so you can judge it; it is not proven)
-
-**Player props.** Grade = rough hit chance, 5 to 88.
-- Starts from the player's season hit rate on that exact line and his last 5 games (weighted 40%), smoothed by a normal-curve estimate from his average. Then pulled 20% toward 65.
-- Adjustments:
-  - +3 against a bottom-8 defense in that stat; -5 against a top-8 defense.
-  - -2 or -3 on the second night of a back-to-back.
-  - Pulled toward 60 under 8 games played.
-- Caps: 88 for NBA props, 80 for points + rebounds + assists, 75 for NFL props, 62 for anytime TD.
-- **Not modeled:** minutes, role changes, teammate injuries and blowout risk. These appear only in the note.
-
-**Team lines.** The sportsbook spread or total turned into a percent. This is not an independent model.
-- College basketball and hockey are capped at 69.
-- NFL team lines get **no system grade**.
-
-**Kalshi check.** The Kalshi price never changes the grade. `warning_8plus_above_kalshi = YES` (⚠) means our grade is 8 or more above Kalshi.
-
-**Track record:** on comparable picks, the market has been more accurate than our grades. Treat our grade as one opinion.
 
 ## Ticket rules
 
 **Rules for every ticket:**
 - Use only today's submitted picks. No new players, stats or games.
 - Never James Harden. No unders on Wembanyama or Luka Doncic.
-- Leave out void legs, duplicates, legs with no system grade, and games that have started.
+- Leave out void legs (see `status_note`), duplicates, picks with no line, and games that have started.
 - Never the same player twice on one ticket.
 - Explain any two legs from the same game (correlation).
 
 **Hammer:**
-- Every leg graded 80+ with a Kalshi price within 7 of the grade (`hammer_eligible = YES`).
+- Every leg graded 80+ **by your grade**.
+- Every leg has a market price you found, and your grade isn't 8 or more above that price.
 - Pays at least 2x.
 - If no picks qualify, say "No Hammer today".
 
 **Main parlay:**
-- Only `ticket_eligible = YES` legs: graded 60+ and no ⚠.
+- Legs graded 60+ by your grade, and not 8 or more above the market price you found.
 - 6 legs or fewer.
 - Pays at least 2x.
 
@@ -81,7 +63,7 @@ If you can't open a file, say so and skip the parts that need it.
 
 **Long-shot tickets** (the 20-leg ticket and the long-shot list):
 - Experimental, small stake only. Label them that way.
-- They may include ⚠ legs, but must still follow every rule above.
+- They may include legs graded 8+ above market, but must still follow every rule above.
 
 **Payout:** 1 ÷ (product of each leg's price as a decimal), using Kalshi prices or cited sportsbook odds, before fees. If any leg has no price, say the payout can't be calculated reliably.
 
@@ -90,11 +72,11 @@ You may drop a leg because of news you verify.
 ## Experimental sections (label them experimental)
 
 **Perfect Parlays attempt.** Our rules:
-- Legs graded 70 to 86, Kalshi within 7, no ⚠, no PRA, no spreads, game not started.
+- Legs graded 70 to 86 by your grade, market price within 7 of your grade, no PRA, no spreads, game not started.
 - Beta 3: 3 legs, one per game.
 - Beta 10x: same rules, aiming for about 10x, at most 2 legs per game.
 
-If nothing qualifies, say so. Tonight our system found no qualifying legs.
+If nothing qualifies, say so.
 
 **Beta Test Mode.** You can't reproduce it: you don't have our code or game logs.
 - **What our system did:**
@@ -113,7 +95,7 @@ If nothing qualifies, say so. Tonight our system found no qualifying legs.
 1. **Header:** date and time, web yes/no, rows read per file.
 2. **Every pick graded and ranked.** One row per pick number, none skipped, highest of your grades first:
 
-   | Rank | # | Pick | System grade | Your grade (basis) | Value (or "cannot assess: no odds") | Key news (source, time) | Strongest for | Strongest against |
+   | Rank | # | Pick | Your grade (basis) | Market price found (source, time) | Value (or "cannot assess: no price") | Key news (source, time) | Strongest for | Strongest against |
    |---|---|---|---|---|---|---|---|---|
 
 3. **Top 25, any line:** by your grade, from eligible picks.
@@ -135,7 +117,7 @@ If nothing qualifies, say so. Tonight our system found no qualifying legs.
 
 ```
 BD_PICKS_START
-pick_no,your_rank,your_grade,value_verdict,ticket_ok,regular_line,key_risk,sources_checked_at
+pick_no,your_rank,your_grade,market_price,price_source,value_verdict,ticket_ok,regular_line,key_risk,sources_checked_at
 BD_PICKS_END
 BD_TICKETS_START
 ticket_name,leg_pick_no,price_used,price_source
@@ -150,6 +132,7 @@ BD_BETA_END
 
 - `value_verdict`: good / fair / poor / cannot assess.
 - `ticket_ok`, `regular_line`: yes / no.
+- `market_price`: a percent (0 to 100), or blank if none was found.
 - `your_grade`: a number, or "insufficient".
 - `ticket_name`: Hammer / Main / Regular / Long20 / Perfect3 / Perfect10.
 
