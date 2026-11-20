@@ -72,7 +72,7 @@ for entry in "${MODELS[@]}"; do
 done
 wait 2>/dev/null
 A=$(grep -l "BD_V8_END" "$OUT"/chatgpt.md "$OUT"/gemini.md "$OUT"/grok.md "$OUT"/claude.md 2>/dev/null | wc -l | tr -d ' ')
-S=$(grep -l "BD_SIM_END" "$OUT"/*_sim.md 2>/dev/null | wc -l | tr -d ' ')
-if grep -q "402\|credits" "$OUT"/*.md 2>/dev/null; then say "OpenRouter credits ran out on at least one job. Add credits, then run this again (finished jobs are skipped)."; fi
+S=$(grep -l "BD_SIM_END" "$OUT"/chatgpt_sim.md "$OUT"/gemini_sim.md "$OUT"/grok_sim.md "$OUT"/claude_sim.md 2>/dev/null | wc -l | tr -d ' ')
+if grep -lq "HTTP 402" "$OUT"/chatgpt*.md "$OUT"/gemini*.md "$OUT"/grok*.md "$OUT"/claude*.md 2>/dev/null; then say "OpenRouter credits ran out on at least one job. Add credits, then run this again (finished jobs are skipped)."; fi
 say "Done: $A of 4 analyst reports, $S of 4 simulations. Tell Claude: v8 replies for $DAY are ready."
 notify "$A of 4 analyst, $S of 4 sims done. Tell Claude: v8 ready."

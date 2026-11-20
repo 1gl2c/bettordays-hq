@@ -1,10 +1,11 @@
 {
  "date": "2026-11-20",
+ "engine": "v8",
  "models": {
-  "chatgpt": "96 of 109 legs graded",
-  "gemini": "109 of 109 legs graded",
-  "grok": "109 of 109 legs graded",
-  "claude": "109 of 109 legs graded"
+  "chatgpt": "55 of 55 legs graded blind",
+  "gemini": "55 of 55 legs graded blind",
+  "grok": "55 of 55 legs graded blind",
+  "claude": "55 of 55 legs graded blind"
  },
  "legs": [
   {
@@ -24,15 +25,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 62,
+    "gemini": 66,
+    "grok": 64,
+    "claude": 45
+   },
+   "med": 64,
+   "tier": "G",
+   "pub": 64,
+   "spread": 21,
+   "v7models": {
     "chatgpt": 64,
     "gemini": 64,
     "grok": 64,
     "claude": 63
    },
-   "med": 64,
-   "tier": "G",
-   "pub": 64,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Bey took 24 threes over his last three logged games",
+    "gemini": "Hit 2+ 3PM in 8 of L10 and 5 straight at 39.4% with NO shorthanded",
+    "grok": "2.3 makes and 8 of last 10 but Murphy Q can cut his minutes",
+    "claude": "volume of 3PA is main driver; roster/role assumed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 2,
@@ -51,15 +72,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 85,
+    "gemini": 88,
+    "grok": 88,
+    "claude": 76
+   },
+   "med": 88,
+   "tier": "Y",
+   "pub": 88,
+   "spread": 12,
+   "v7models": {
     "chatgpt": 86,
     "gemini": 86,
     "grok": 87,
     "claude": 85
    },
-   "med": 86,
-   "tier": "G",
-   "pub": 86,
-   "spread": 2
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Recent attempt volume supports one make even with colder shooting",
+    "gemini": "39.4% from deep on heavy wing volume against OKC missing Wallace and JDub",
+    "grok": "at least one three in all 16 games on 6 attempts",
+    "claude": "clears 1 on most nights"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 3,
@@ -86,7 +127,14 @@
    "med": 62,
    "tier": "G",
    "pub": 62,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 62,
+    "gemini": 62,
+    "grok": 62,
+    "claude": 62
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 4,
@@ -113,7 +161,14 @@
    "med": 82,
    "tier": "G",
    "pub": 82,
-   "spread": 1
+   "spread": 1,
+   "v7models": {
+    "chatgpt": 82,
+    "gemini": 82,
+    "grok": 83,
+    "claude": 82
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 5,
@@ -132,15 +187,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 62,
+    "gemini": 74,
+    "grok": 70,
+    "claude": 74
+   },
+   "med": 71,
+   "tier": "G",
+   "pub": 71,
+   "spread": 12,
+   "v7models": {
     "chatgpt": 74,
     "gemini": 74,
     "grok": 74,
     "claude": 73
    },
-   "med": 74,
-   "tier": "G",
-   "pub": 74,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Four is reachable but Houston has other initiators",
+    "gemini": "5.5 APG starting PG running top-rated Rockets offense",
+    "grok": "4-plus assists in 10 of 13 and he still runs the offense if Sengun sits",
+    "claude": "playmaking role assumed; health unverified"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 6,
@@ -167,7 +242,14 @@
    "med": 72,
    "tier": "G",
    "pub": 72,
-   "spread": 1
+   "spread": 1,
+   "v7models": {
+    "chatgpt": 72,
+    "gemini": 72,
+    "grok": 72,
+    "claude": 71
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 7,
@@ -194,7 +276,14 @@
    "med": 78,
    "tier": "G",
    "pub": 78,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 78,
+    "gemini": 78,
+    "grok": 78,
+    "claude": 78
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 8,
@@ -214,14 +303,34 @@
    "fl": null,
    "models": {
     "chatgpt": 92,
+    "gemini": 87,
+    "grok": 86,
+    "claude": 93
+   },
+   "med": 87,
+   "tier": "G",
+   "pub": 87,
+   "spread": 7,
+   "v7models": {
+    "chatgpt": 92,
     "gemini": 92,
     "grok": 92,
     "claude": 91
    },
-   "med": 92,
-   "tier": "G",
-   "pub": 92,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Low scoring bar for the primary ball handler",
+    "gemini": "17.5 PPG in 35m with strong FT floor vs #1 pace Bulls defense",
+    "grok": "10-plus points in 13 of 14 and he plays heavy minutes",
+    "claude": "high usage"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 9,
@@ -240,15 +349,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 81,
+    "gemini": 66,
+    "grok": 66,
+    "claude": 78
+   },
+   "med": 66,
+   "tier": "G",
+   "pub": 66,
+   "spread": 15,
+   "v7models": {
     "chatgpt": 72,
     "gemini": 72,
     "grok": 72,
     "claude": 72
    },
-   "med": 72,
-   "tier": "G",
-   "pub": 72,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Free throws help if the jumper is off",
+    "gemini": "Scored 25 vs CHI earlier though 37.1% FG slump creates variance",
+    "grok": "15-plus in 10 of 14 with a cluster of 11-to-14 point games",
+    "claude": "needs usual scoring volume; WSH defense weak"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 10,
@@ -267,15 +396,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 64,
+    "gemini": 66,
+    "grok": 58,
+    "claude": 45
+   },
+   "med": 58,
+   "tier": "N",
+   "pub": 58,
+   "spread": 21,
+   "v7models": {
     "chatgpt": null,
     "gemini": 54,
     "grok": 58,
     "claude": 45
    },
-   "med": 54,
-   "tier": "N",
-   "pub": 54,
-   "spread": 13
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Recent three-start average of 311 yards gives room for regression",
+    "gemini": "311.3 pass ypg over L3 in clean 53F weather for pass-heavy Oregon",
+    "grok": "3 of last 4 cleared 250 but a lead lets Oregon run",
+    "claude": "Oregon big favorite may run clock late"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 11,
@@ -294,15 +443,40 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 60,
+    "gemini": 61,
+    "grok": 48,
+    "claude": 40
+   },
+   "med": 48,
+   "tier": "N",
+   "pub": 48,
+   "spread": 21,
+   "v7models": {
     "chatgpt": null,
     "gemini": 49,
     "grok": 52,
     "claude": 40
    },
-   "med": 49,
-   "tier": "N",
-   "pub": 49,
-   "spread": 12
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Oregon can lean on the run if it gets ahead",
+    "gemini": "311.3 pass ypg L3 with slight Q4 run-clock risk if Oregon rolls",
+    "grok": "246 and 257 in two of the last four sit under 260",
+    "claude": "same as 250 but higher bar"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "claude",
+     "260 yards is a high bar if Oregon runs the ball with a lead"
+    ]
+   ]
   },
   {
    "i": 12,
@@ -329,7 +503,14 @@
    "med": 54,
    "tier": "N",
    "pub": 54,
-   "spread": 23
+   "spread": 23,
+   "v7models": {
+    "chatgpt": null,
+    "gemini": 54,
+    "grok": 56,
+    "claude": 33
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 13,
@@ -356,7 +537,14 @@
    "med": 44,
    "tier": "N",
    "pub": 44,
-   "spread": 12
+   "spread": 12,
+   "v7models": {
+    "chatgpt": null,
+    "gemini": 45,
+    "grok": 44,
+    "claude": 33
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 14,
@@ -383,7 +571,14 @@
    "med": 54,
    "tier": "N",
    "pub": 54,
-   "spread": 19
+   "spread": 19,
+   "v7models": {
+    "chatgpt": null,
+    "gemini": 54,
+    "grok": 57,
+    "claude": 38
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 15,
@@ -410,7 +605,14 @@
    "med": 52,
    "tier": "N",
    "pub": 52,
-   "spread": 18
+   "spread": 18,
+   "v7models": {
+    "chatgpt": null,
+    "gemini": 52,
+    "grok": 60,
+    "claude": 42
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 16,
@@ -437,7 +639,14 @@
    "med": 58,
    "tier": "N",
    "pub": 58,
-   "spread": 17
+   "spread": 17,
+   "v7models": {
+    "chatgpt": null,
+    "gemini": 58,
+    "grok": 63,
+    "claude": 46
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 17,
@@ -456,15 +665,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 86,
+    "gemini": 80,
+    "grok": 74,
+    "claude": 88
+   },
+   "med": 80,
+   "tier": "Y",
+   "pub": 80,
+   "spread": 14,
+   "v7models": {
     "chatgpt": 76,
     "gemini": 79,
     "grok": 77,
     "claude": 76
    },
-   "med": 76,
-   "tier": "G",
-   "pub": 76,
-   "spread": 3
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Houston frontcourt is thin if Adams or Sengun sits",
+    "gemini": "24.1 PPG hitting 20+ in 7 of L8 and 25 vs HOU on Nov 9",
+    "grok": "20-plus in 9 of 13 and Houston is thin inside at altitude",
+    "claude": "elite scorer; blowout risk small vs HOU"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 18,
@@ -483,15 +712,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 76,
+    "gemini": 62,
+    "grok": 74,
+    "claude": 65
+   },
+   "med": 74,
+   "tier": "R",
+   "pub": null,
+   "spread": 14,
+   "v7models": {
     "chatgpt": 62,
     "gemini": 64,
     "grok": 63,
     "claude": 62
    },
-   "med": 62,
-   "tier": "G",
-   "pub": 62,
-   "spread": 2
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Strong shot volume but Denver can force more passing",
+    "gemini": "21.3 PPG on 49.8% FG with usage upside if Sengun is limited",
+    "grok": "20-plus in 13 of 16 including 8 straight before the altitude trip",
+    "claude": "shot volume steady; HOU defense strong"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 19,
@@ -510,15 +759,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 90,
+    "gemini": 84,
+    "grok": 76,
+    "claude": 96
+   },
+   "med": 84,
+   "tier": "G",
+   "pub": 84,
+   "spread": 20,
+   "v7models": {
     "chatgpt": 86,
     "gemini": 85,
     "grok": 86,
     "claude": 86
    },
-   "med": 86,
-   "tier": "G",
-   "pub": 86,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Five points leaves room for a quiet shot night if role holds",
+    "gemini": "9.9 PPG in 23m off Nuggets bench with reliable midrange and FT floor",
+    "grok": "5-plus in 10 of 12 and he gets to the line even in a small role",
+    "claude": "very low line"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 20,
@@ -537,15 +806,44 @@
    "rule": null,
    "fl": "Q",
    "models": {
+    "chatgpt": 69,
+    "gemini": 64,
+    "grok": 46,
+    "claude": 50
+   },
+   "med": 64,
+   "tier": "G",
+   "pub": 64,
+   "spread": 23,
+   "v7models": {
     "chatgpt": null,
     "gemini": 52,
     "grok": 60,
     "claude": 55
    },
-   "med": 55,
-   "tier": "G",
-   "pub": 55,
-   "spread": 8
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Q eye injury grade assumes he plays and Capela is out",
+    "gemini": "Q eye abrasion; 9.3 RPG in full games on #1 REB% Rockets sans Capela",
+    "grok": "9.4 boards but the eye abrasion limited him to 14 minutes last game",
+    "claude": "Q status and minutes cap risk"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "grok",
+     "the eye abrasion already cut him to 14 minutes so the season rebound rate is the trap"
+    ],
+    [
+     "claude",
+     "Q tag plus a possible minutes cap"
+    ]
+   ]
   },
   {
    "i": 21,
@@ -564,15 +862,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 65,
+    "gemini": 60,
+    "grok": 63,
+    "claude": 62
+   },
+   "med": 62,
+   "tier": "G",
+   "pub": 62,
+   "spread": 5,
+   "v7models": {
     "chatgpt": 68,
     "gemini": 68,
     "grok": 66,
     "claude": 68
    },
-   "med": 68,
-   "tier": "G",
-   "pub": 68,
-   "spread": 2
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Markkanen out leaves shots available",
+    "gemini": "16.5 PPG hitting 15+ in 7 of L10 with Markkanen and JJJ out",
+    "grok": "16.5 points and the Jazz stars are out so the usage is real",
+    "claude": "rookie volume; variance high"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 22,
@@ -591,15 +909,40 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 49,
+    "gemini": 68,
+    "grok": 56,
+    "claude": 55
+   },
+   "med": 56,
+   "tier": "G",
+   "pub": 56,
+   "spread": 19,
+   "v7models": {
     "chatgpt": 68,
     "gemini": 68,
     "grok": 65,
     "claude": 66
    },
-   "med": 67,
-   "tier": "G",
-   "pub": 67,
-   "spread": 3
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Extra usage need not translate to extra three-point attempts",
+    "gemini": "6.1 3PA at 36.1% clearing 2+ threes in 9 of L10",
+    "grok": "2.2 makes on about 6 attempts with rookie cold nights",
+    "claude": "rookie 3PA volume uncertain"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Utah's missing scorers create more shots but not necessarily more threes"
+    ]
+   ]
   },
   {
    "i": 23,
@@ -618,15 +961,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 64,
+    "gemini": 57,
+    "grok": 62,
+    "claude": 50
+   },
+   "med": 58,
+   "tier": "G",
+   "pub": 58,
+   "spread": 14,
+   "v7models": {
     "chatgpt": 69,
     "gemini": 69,
     "grok": 69,
     "claude": 69
    },
-   "med": 69,
-   "tier": "G",
-   "pub": 69,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Markkanen and Jackson out leave more creation to George",
+    "gemini": "21.6 PPG and 28.8% usage as lead guard sans Markkanen vs 116.8 DRtg PHX",
+    "grok": "21.6 points but the log has single-digit games mixed with 30s",
+    "claude": "main creator; line near his average"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 24,
@@ -645,15 +1008,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 66,
+    "gemini": 62,
+    "grok": 58,
+    "claude": 65
+   },
+   "med": 65,
+   "tier": "G",
+   "pub": 65,
+   "spread": 8,
+   "v7models": {
     "chatgpt": 72,
     "gemini": 72,
     "grok": 72,
     "claude": 71
    },
-   "med": 72,
-   "tier": "G",
-   "pub": 72,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Lead guard minutes give him multiple perimeter chances",
+    "gemini": "6.3 3PA per game though 31.3% 3P over L10 adds shooting variance",
+    "grok": "2.3 makes and the attempts are there with Lauri and Jackson out",
+    "claude": "high 3PA"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 25,
@@ -672,15 +1055,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 82,
+    "gemini": 78,
+    "grok": 78,
+    "claude": 72
+   },
+   "med": 78,
+   "tier": "G",
+   "pub": 78,
+   "spread": 10,
+   "v7models": {
     "chatgpt": 80,
     "gemini": 80,
     "grok": 80,
     "claude": 80
    },
-   "med": 80,
-   "tier": "G",
-   "pub": 80,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Utah is missing two frontcourt anchors",
+    "gemini": "24.8 PPG on 94.5% FT facing Jazz without JJJ rim protection",
+    "grok": "24.8 points and Utah is missing Markkanen Jackson and Nurkic",
+    "claude": "primary scorer"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 26,
@@ -699,15 +1102,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 74,
+    "gemini": 76,
+    "grok": 70,
+    "claude": 70
+   },
+   "med": 72,
+   "tier": "G",
+   "pub": 72,
+   "spread": 6,
+   "v7models": {
     "chatgpt": 80,
     "gemini": 80,
     "grok": 77,
     "claude": 79
    },
-   "med": 80,
-   "tier": "G",
-   "pub": 80,
-   "spread": 3
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Ten is reachable on secondary volume but attempts can swing",
+    "gemini": "14.9 PPG on 44.8% 3P in steady 29m role vs depleted Jazz",
+    "grok": "14.9 points and 10-plus has stuck outside two quiet nights",
+    "claude": "volume scorer; cold nights happen"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 27,
@@ -726,15 +1149,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 79,
+    "gemini": 83,
+    "grok": 82,
+    "claude": 70
+   },
+   "med": 82,
+   "tier": "G",
+   "pub": 82,
+   "spread": 13,
+   "v7models": {
     "chatgpt": 82,
     "gemini": 82,
     "grok": 82,
     "claude": 81
    },
-   "med": 82,
-   "tier": "G",
-   "pub": 82,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Mark Williams out opens frontcourt rebound chances",
+    "gemini": "6.9 RPG with Mark Williams and Utah entire frontcourt out",
+    "grok": "6.9 rebounds so 4 is a normal night not a ceiling",
+    "claude": "rebound role assumed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 28,
@@ -753,15 +1196,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 68,
+    "gemini": 78,
+    "grok": 68,
+    "claude": 62
+   },
+   "med": 68,
+   "tier": "G",
+   "pub": 68,
+   "spread": 16,
+   "v7models": {
     "chatgpt": 74,
     "gemini": 74,
     "grok": 74,
     "claude": 72
    },
-   "med": 74,
-   "tier": "G",
-   "pub": 74,
-   "spread": 2
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Sharing the floor with Sarr and Young can shift his shot mix",
+    "gemini": "24.6 PPG hitting 20+ in 9 of L10 against soft Bulls interior",
+    "grok": "24.6 points and 20-plus in 9 of 13 with a few quiet 14-to-19 games",
+    "claude": "efficient but minutes managed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 29,
@@ -780,15 +1243,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 65,
+    "gemini": 67,
+    "grok": 72,
+    "claude": 50
+   },
+   "med": 67,
+   "tier": "G",
+   "pub": 67,
+   "spread": 22,
+   "v7models": {
     "chatgpt": 77,
     "gemini": 77,
     "grok": 77,
     "claude": 76
    },
-   "med": 77,
-   "tier": "G",
-   "pub": 77,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Primary creator but eight needs teammates to finish",
+    "gemini": "8.9 APG in 35m and had 9 AST vs CHI in #1 pace matchup",
+    "grok": "8-plus assists in 11 of 14 and he is the offense",
+    "claude": "high assist usage but line near average"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 30,
@@ -807,15 +1290,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 60,
+    "gemini": 54,
+    "grok": 58,
+    "claude": 50
+   },
+   "med": 58,
+   "tier": "G",
+   "pub": 58,
+   "spread": 10,
+   "v7models": {
     "chatgpt": 68,
     "gemini": 68,
     "grok": 68,
     "claude": 68
    },
-   "med": 68,
-   "tier": "G",
-   "pub": 68,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Caleb Wilson out helps minutes more than shot share",
+    "gemini": "15.1 PPG trending up in fast pace vs 117.1 DRtg Wizards",
+    "grok": "15.1 points and Wilson\u2019s minutes should slide toward him",
+    "claude": "growing usage; volatile"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 31,
@@ -834,15 +1337,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 67,
+    "gemini": 60,
+    "grok": 64,
+    "claude": 60
+   },
+   "med": 64,
+   "tier": "G",
+   "pub": 64,
+   "spread": 7,
+   "v7models": {
     "chatgpt": 72,
     "gemini": 72,
     "grok": 72,
     "claude": 71
    },
-   "med": 72,
-   "tier": "G",
-   "pub": 72,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Starting role helps but Young and Davis also need touches",
+    "gemini": "16.3 PPG in 34m with 16+ in 3 straight vs 119.1 DRtg Bulls",
+    "grok": "15-plus in 8 of 12 as a starter next to Davis",
+    "claude": "rookie primary option on weak team"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 32,
@@ -869,7 +1392,14 @@
    "med": 64,
    "tier": "G",
    "pub": 64,
-   "spread": 1
+   "spread": 1,
+   "v7models": {
+    "chatgpt": 64,
+    "gemini": 64,
+    "grok": 64,
+    "claude": 63
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 33,
@@ -896,7 +1426,14 @@
    "med": 68,
    "tier": "G",
    "pub": 68,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 68,
+    "gemini": 68,
+    "grok": 68,
+    "claude": 68
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 34,
@@ -923,7 +1460,14 @@
    "med": 62,
    "tier": "G",
    "pub": 62,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 62,
+    "gemini": 62,
+    "grok": 62,
+    "claude": 62
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 35,
@@ -950,7 +1494,14 @@
    "med": 76,
    "tier": "G",
    "pub": 76,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 76,
+    "gemini": 77,
+    "grok": 76,
+    "claude": 75
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 36,
@@ -969,15 +1520,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 57,
+    "gemini": 69,
+    "grok": 64,
+    "claude": 70
+   },
+   "med": 69,
+   "tier": "Y",
+   "pub": 69,
+   "spread": 13,
+   "v7models": {
     "chatgpt": 68,
     "gemini": 68,
     "grok": 68,
     "claude": 67
    },
-   "med": 68,
-   "tier": "G",
-   "pub": 68,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Assist opportunities do not guarantee double-digit scoring",
+    "gemini": "13.6 PPG on 39.8% 3P in 30m with extra shots if Sengun sits",
+    "grok": "10-plus in 9 of 13 and altitude plus a cold shooting night is the miss",
+    "claude": "scoring is secondary to passing"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 37,
@@ -996,15 +1567,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 72,
+    "gemini": 74,
+    "grok": 72,
+    "claude": 80
+   },
+   "med": 74,
+   "tier": "G",
+   "pub": 74,
+   "spread": 8,
+   "v7models": {
     "chatgpt": 82,
     "gemini": 82,
     "grok": 82,
     "claude": 81
    },
-   "med": 82,
-   "tier": "G",
-   "pub": 82,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Two is modest but Giddey can collect the easy guard boards",
+    "gemini": "2.9 RPG in 30m and 3.2 RPG L5 in high-possession matchup",
+    "grok": "2.8 rebounds in 29 minutes and 2 is his floor most nights",
+    "claude": "low line"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 38,
@@ -1023,15 +1614,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 55,
+    "gemini": 62,
+    "grok": 66,
+    "claude": 75
+   },
+   "med": 66,
+   "tier": "G",
+   "pub": 66,
+   "spread": 20,
+   "v7models": {
     "chatgpt": 74,
     "gemini": 74,
     "grok": 74,
     "claude": 73
    },
-   "med": 74,
-   "tier": "G",
-   "pub": 74,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Giddey handles much of the creation",
+    "gemini": "2.2 APG season and 2.4 L5 as secondary scorer next to Giddey",
+    "grok": "2.4 assists and the ball still finds him with Wilson out",
+    "claude": "low line"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 39,
@@ -1058,7 +1669,14 @@
    "med": 58,
    "tier": "G",
    "pub": 58,
-   "spread": 1
+   "spread": 1,
+   "v7models": {
+    "chatgpt": 58,
+    "gemini": 58,
+    "grok": 58,
+    "claude": 57
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 40,
@@ -1085,7 +1703,14 @@
    "med": 84,
    "tier": "G",
    "pub": 84,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 84,
+    "gemini": 84,
+    "grok": 84,
+    "claude": 84
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 41,
@@ -1104,15 +1729,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 68,
+    "gemini": 70,
+    "grok": 68,
+    "claude": 68
+   },
+   "med": 68,
+   "tier": "G",
+   "pub": 68,
+   "spread": 2,
+   "v7models": {
     "chatgpt": 76,
     "gemini": 76,
     "grok": 76,
     "claude": 75
    },
-   "med": 76,
-   "tier": "G",
-   "pub": 76,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Dejounte Murray out supports ballhandling and attempts",
+    "gemini": "3.9 3PA at 27.1% clears 1+ in 7 of L10 and 12 of 16",
+    "grok": "one or more in 12 of 16 but he is a driver at 27 percent from deep",
+    "claude": "rookie guard volume"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 42,
@@ -1131,15 +1776,52 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 37,
+    "gemini": 31,
+    "grok": 26,
+    "claude": 33
+   },
+   "med": 33,
+   "tier": "G",
+   "pub": 33,
+   "spread": 11,
+   "v7models": {
     "chatgpt": 46,
     "gemini": 46,
     "grok": 46,
     "claude": 45
    },
-   "med": 46,
-   "tier": "G",
-   "pub": 46,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Two makes is a demanding bar on modest perimeter volume",
+    "gemini": "Only 27.1% on 3.9 3PA and cleared 2+ in just 3 of L10",
+    "grok": "two or more in only 4 of 16 on low make rate",
+    "claude": "needs hot night from deep"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Fears can play starter minutes without taking enough threes to make two"
+    ],
+    [
+     "gemini",
+     "Shooting 27.1% on 3.9 3PA and cleared 2+ threes in only 3 of L10"
+    ],
+    [
+     "grok",
+     "he makes 1.1 threes and has two or more in only 4 of 16"
+    ],
+    [
+     "claude",
+     "Needs two threes from a rookie who is a volume guess"
+    ]
+   ]
   },
   {
    "i": 43,
@@ -1158,15 +1840,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 70,
+    "gemini": 58,
+    "grok": 50,
+    "claude": 67
+   },
+   "med": 58,
+   "tier": "Y",
+   "pub": 58,
+   "spread": 20,
+   "v7models": {
     "chatgpt": 56,
     "gemini": 59,
     "grok": 56,
     "claude": 56
    },
-   "med": 56,
-   "tier": "G",
-   "pub": 56,
-   "spread": 3
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Houston center injuries help but Jokic can win by passing",
+    "gemini": "25+ in 6 of L8 including 25 vs HOU with Rockets centers banged up",
+    "grok": "25-plus in only 6 of 13 even with the home bump",
+    "claude": "Jokic efficient; HOU defense tough"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 44,
@@ -1193,7 +1895,14 @@
    "med": 72,
    "tier": "G",
    "pub": 72,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 72,
+    "gemini": 72,
+    "grok": 70,
+    "claude": 71
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 45,
@@ -1220,7 +1929,14 @@
    "med": 55,
    "tier": "G",
    "pub": 55,
-   "spread": 1
+   "spread": 1,
+   "v7models": {
+    "chatgpt": 55,
+    "gemini": 55,
+    "grok": 55,
+    "claude": 54
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 46,
@@ -1247,7 +1963,14 @@
    "med": 74,
    "tier": "G",
    "pub": 74,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 74,
+    "gemini": 74,
+    "grok": 74,
+    "claude": 74
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 47,
@@ -1274,7 +1997,14 @@
    "med": 62,
    "tier": "G",
    "pub": 62,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 62,
+    "gemini": 62,
+    "grok": 62,
+    "claude": 62
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 48,
@@ -1301,7 +2031,14 @@
    "med": 80,
    "tier": "G",
    "pub": 80,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 80,
+    "gemini": 80,
+    "grok": 80,
+    "claude": 80
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 49,
@@ -1320,15 +2057,40 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 65,
+    "gemini": 54,
+    "grok": 58,
+    "claude": 55
+   },
+   "med": 58,
+   "tier": "G",
+   "pub": 58,
+   "spread": 11,
+   "v7models": {
     "chatgpt": 60,
     "gemini": 60,
     "grok": 60,
     "claude": 58
    },
-   "med": 60,
-   "tier": "G",
-   "pub": 60,
-   "spread": 2
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Jalen Williams out raises the creation load but a rout cuts minutes",
+    "gemini": "39.5 PRA avg with massive usage sans Chet and JDub but blowout risk",
+    "grok": "season PRA sits near 40 and he just had 42 in a close home loss",
+    "claude": "blowout risk as large favorite"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Blowout risk against 5-11 Pelicans could cap Q4 minutes right around 39.5 avg"
+    ]
+   ]
   },
   {
    "i": 50,
@@ -1347,15 +2109,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 79,
+    "gemini": 73,
+    "grok": 74,
+    "claude": 78
+   },
+   "med": 78,
+   "tier": "Y",
+   "pub": 78,
+   "spread": 6,
+   "v7models": {
     "chatgpt": 76,
     "gemini": 76,
     "grok": 76,
     "claude": 76
    },
-   "med": 76,
-   "tier": "G",
-   "pub": 76,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Scoring plus assists give him two paths to the threshold",
+    "gemini": "High floor usage vs 118.9 DRtg Pelicans even in 30m blowout",
+    "grok": "usage is 36 percent and 35 is inside a normal SGA night",
+    "claude": "blowout risk only real miss reason"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 51,
@@ -1374,15 +2156,48 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 51,
+    "gemini": 44,
+    "grok": 58,
+    "claude": 30
+   },
+   "med": 51,
+   "tier": "G",
+   "pub": 51,
+   "spread": 28,
+   "v7models": {
     "chatgpt": 55,
     "gemini": 55,
     "grok": 55,
     "claude": 54
    },
-   "med": 55,
-   "tier": "G",
-   "pub": 55,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Reaves out boosts usage but Sacramento may not keep it close",
+    "gemini": "52.7 PRA avg sans Reaves but 1-13 Kings create real Q4 sit risk",
+    "grok": "50-plus PRA in 9 of 14 and the last two weeks have dipped",
+    "claude": "very high ceiling needed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "A comfortable Lakers lead can cost Doncic the fourth-quarter run he needs"
+    ],
+    [
+     "gemini",
+     "Blowout risk against 1-13 Kings threatens Q4 minutes and missed 50+ in 3 of L5"
+    ],
+    [
+     "claude",
+     "50 PRA needs a near-ceiling night"
+    ]
+   ]
   },
   {
    "i": 52,
@@ -1401,15 +2216,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 64,
+    "gemini": 61,
+    "grok": 68,
+    "claude": 48
+   },
+   "med": 64,
+   "tier": "G",
+   "pub": 64,
+   "spread": 20,
+   "v7models": {
     "chatgpt": 72,
     "gemini": 73,
     "grok": 72,
     "claude": 72
    },
-   "med": 72,
-   "tier": "G",
-   "pub": 72,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Extra creation without Reaves offsets some lost-minute risk",
+    "gemini": "52.7 PRA avg with Reaves out vs NBA-worst 120.4 DRtg Kings",
+    "grok": "45-plus in 10 of 14 with Reaves out and the Kings thin up front",
+    "claude": "needs a big night; SAC defense average"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 53,
@@ -1428,15 +2263,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 81,
+    "gemini": 74,
+    "grok": 74,
+    "claude": 55
+   },
+   "med": 74,
+   "tier": "Y",
+   "pub": 74,
+   "spread": 26,
+   "v7models": {
     "chatgpt": 72,
     "gemini": 74,
     "grok": 72,
     "claude": 71
    },
-   "med": 72,
-   "tier": "G",
-   "pub": 72,
-   "spread": 3
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Rebounds and assists cushion an ordinary scoring game",
+    "gemini": "43.6 PRA avg hitting 40+ in 8 straight including 50 vs HOU",
+    "grok": "40-plus PRA in 10 of 13 and he is at home",
+    "claude": "triple double threat"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 54,
@@ -1455,15 +2310,44 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 48,
+    "gemini": 53,
+    "grok": 50,
+    "claude": 45
+   },
+   "med": 50,
+   "tier": "G",
+   "pub": 50,
+   "spread": 8,
+   "v7models": {
     "chatgpt": 62,
     "gemini": 62,
     "grok": 62,
     "claude": 61
    },
-   "med": 62,
-   "tier": "G",
-   "pub": 62,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Needs a scoring spike or substantial production in both side stats",
+    "gemini": "25.2 PRA avg in 34m boosted by CHI pace but 21.3% 3P hurts floor",
+    "grok": "25-plus PRA in 6 of 12 because the assist piece is small",
+    "claude": "needs all three categories"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Dybantsa can reach 15 points without adding enough rebounds or assists"
+    ],
+    [
+     "gemini",
+     "Poor 21.3% three-point shooting creates a low-scoring floor when drives stall"
+    ]
+   ]
   },
   {
    "i": 55,
@@ -1490,7 +2374,14 @@
    "med": 52,
    "tier": "G",
    "pub": 52,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 52,
+    "gemini": 52,
+    "grok": 52,
+    "claude": 52
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 56,
@@ -1517,7 +2408,14 @@
    "med": 60,
    "tier": "G",
    "pub": 60,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 60,
+    "gemini": 60,
+    "grok": 60,
+    "claude": 60
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 57,
@@ -1544,7 +2442,14 @@
    "med": 72,
    "tier": "N",
    "pub": 72,
-   "spread": 17
+   "spread": 17,
+   "v7models": {
+    "chatgpt": null,
+    "gemini": 72,
+    "grok": 72,
+    "claude": 55
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 58,
@@ -1563,15 +2468,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 55,
+    "gemini": 58,
+    "grok": 60,
+    "claude": 42
+   },
+   "med": 58,
+   "tier": "G",
+   "pub": 58,
+   "spread": 18,
+   "v7models": {
     "chatgpt": 60,
     "gemini": 60,
     "grok": 60,
     "claude": 60
    },
-   "med": 60,
-   "tier": "G",
-   "pub": 60,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Close matchup where early-season samples leave wide uncertainty",
+    "gemini": "5-0 IU has Indianapolis crowd edge and beat Arkansas while UK lost by 20 to KU",
+    "grok": "Indiana is 5-0 with the better resume and a home crowd",
+    "claude": "Kentucky favored by priors"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 59,
@@ -1590,15 +2515,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 65,
+    "gemini": 69,
+    "grok": 46,
+    "claude": 50
+   },
+   "med": 65,
+   "tier": "G",
+   "pub": 65,
+   "spread": 23,
+   "v7models": {
     "chatgpt": 76,
     "gemini": 76,
     "grok": 76,
     "claude": 75
    },
-   "med": 76,
-   "tier": "G",
-   "pub": 76,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Georgia has the stronger scoring outlook but road variance matters",
+    "gemini": "Georgia #46 KenPom (+17.7) holds wide efficiency edge over #119 GT",
+    "grok": "both are 5-0 and the home rivalry crowd is the edge",
+    "claude": "near coin flip by priors"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 60,
@@ -1625,7 +2570,14 @@
    "med": 60,
    "tier": "G",
    "pub": 60,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 60,
+    "gemini": 60,
+    "grok": 60,
+    "claude": 60
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 61,
@@ -1644,15 +2596,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 61,
+    "gemini": 60,
+    "grok": 62,
+    "claude": 45
+   },
+   "med": 61,
+   "tier": "G",
+   "pub": 61,
+   "spread": 17,
+   "v7models": {
     "chatgpt": 70,
     "gemini": 70,
     "grok": 70,
     "claude": 70
    },
-   "med": 70,
-   "tier": "G",
-   "pub": 70,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Heavy creation role but eight still needs good conversion",
+    "gemini": "8.5 APG in #1 pace offense against 117.1 DRtg Wizards",
+    "grok": "8.5 assists and 8-plus in 6 of the last 10",
+    "claude": "assist line high for him"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 62,
@@ -1679,7 +2651,14 @@
    "med": 48,
    "tier": "G",
    "pub": 48,
-   "spread": 4
+   "spread": 4,
+   "v7models": {
+    "chatgpt": 48,
+    "gemini": 50,
+    "grok": 48,
+    "claude": 46
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 63,
@@ -1706,7 +2685,14 @@
    "med": 82,
    "tier": "G",
    "pub": 82,
-   "spread": 4
+   "spread": 4,
+   "v7models": {
+    "chatgpt": 82,
+    "gemini": 84,
+    "grok": 82,
+    "claude": 80
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 64,
@@ -1725,15 +2711,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 87,
+    "gemini": 87,
+    "grok": 72,
+    "claude": 93
+   },
+   "med": 87,
+   "tier": "G",
+   "pub": 87,
+   "spread": 21,
+   "v7models": {
     "chatgpt": 90,
     "gemini": 90,
     "grok": 90,
     "claude": 90
    },
-   "med": 90,
-   "tier": "G",
-   "pub": 90,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Oregon has the stronger record and can win even with uneven QB play",
+    "gemini": "CFP-motivated 7-3 Oregon holds 130 ypg edge over 3-7 MSU",
+    "grok": "Oregon scores 34 and Michigan State scores 19",
+    "claude": "big talent gap"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 65,
@@ -1752,15 +2758,48 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 53,
+    "gemini": 58,
+    "grok": 36,
+    "claude": 58
+   },
+   "med": 58,
+   "tier": "G",
+   "pub": 58,
+   "spread": 22,
+   "v7models": {
     "chatgpt": 60,
     "gemini": 66,
     "grok": 60,
     "claude": 58
    },
-   "med": 60,
-   "tier": "G",
-   "pub": 60,
-   "spread": 8
+   "eng": "v8",
+   "why": {
+    "chatgpt": "A two-touchdown margin leaves little room for a slow second half",
+    "gemini": "Oregon 35.3 PPG L3 and CFP urgency vs 18.8 PPG Michigan State",
+    "grok": "most Oregon wins this year have been by one score",
+    "claude": "Oregon may ease off late"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Oregon can win comfortably and still finish inside two touchdowns"
+    ],
+    [
+     "grok",
+     "Oregon\u2019s real wins have been by 3 to 14 and this is on the road"
+    ],
+    [
+     "claude",
+     "14 points leaves room for Oregon to ease off late"
+    ]
+   ]
   },
   {
    "i": 66,
@@ -1779,15 +2818,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 57,
+    "gemini": 70,
+    "grok": 64,
+    "claude": 60
+   },
+   "med": 64,
+   "tier": "G",
+   "pub": 64,
+   "spread": 13,
+   "v7models": {
     "chatgpt": 76,
     "gemini": 75,
     "grok": 76,
     "claude": 75
    },
-   "med": 76,
-   "tier": "G",
-   "pub": 76,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Humphrey gives New Mexico a reliable run option but Wyoming has won five straight",
+    "gemini": "UNM #2 scoring D and #14 rush O dominate WYO #119 rush D",
+    "grok": "New Mexico allows 11.9 points and Wyoming scores 22",
+    "claude": "road favorite by priors"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 67,
@@ -1806,15 +2865,48 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 41,
+    "gemini": 53,
+    "grok": 48,
+    "claude": 45
+   },
+   "med": 48,
+   "tier": "G",
+   "pub": 48,
+   "spread": 12,
+   "v7models": {
     "chatgpt": 60,
     "gemini": 60,
     "grok": 60,
     "claude": 58
    },
-   "med": 60,
-   "tier": "G",
-   "pub": 60,
-   "spread": 2
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Cold conditions and a run-heavy script limit chances to build a margin",
+    "gemini": "Strong rush mismatch but cold windy low-total road spot compresses margin",
+    "grok": "Laramie is near 30 degrees with wind and recent New Mexico wins were by 5",
+    "claude": "margin needs 7+"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "A run-heavy game gives New Mexico fewer possessions to separate"
+    ],
+    [
+     "gemini",
+     "Cold windy Laramie game between two run-first teams compresses scoring margin"
+    ],
+    [
+     "grok",
+     "30 degrees and wind in Laramie plus Wyoming\u2019s 6-1 conference mark at home"
+    ]
+   ]
   },
   {
    "i": 68,
@@ -1841,7 +2933,14 @@
    "med": 52,
    "tier": "N",
    "pub": 52,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": null,
+    "gemini": 52,
+    "grok": 52,
+    "claude": 50
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 69,
@@ -1868,7 +2967,14 @@
    "med": 62,
    "tier": "G",
    "pub": 62,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 62,
+    "gemini": 62,
+    "grok": 64,
+    "claude": 62
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 70,
@@ -1895,7 +3001,14 @@
    "med": 85,
    "tier": "G",
    "pub": 85,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 85,
+    "gemini": 85,
+    "grok": 85,
+    "claude": 85
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 71,
@@ -1914,15 +3027,40 @@
    "rule": "No unders on Wemby or Luka",
    "fl": "RULE",
    "models": {
+    "chatgpt": 66,
+    "gemini": 54,
+    "grok": 36,
+    "claude": 62
+   },
+   "med": 54,
+   "tier": "N",
+   "pub": 54,
+   "spread": 30,
+   "v7models": {
     "chatgpt": null,
     "gemini": 48,
     "grok": 56,
     "claude": 52
    },
-   "med": 52,
-   "tier": "N",
-   "pub": 52,
-   "spread": 8
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Lost fourth-quarter minutes help but Reaves out raises shot volume",
+    "gemini": "Under 37 in 4 of L5 and blowout risk vs 1-13 SAC offset Reaves out",
+    "grok": "under 37 has hit in only 6 of 14 and Reaves is out",
+    "claude": "under 37 clears often"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "he averages 38 and Reaves being out pushes the points up not down"
+    ]
+   ]
   },
   {
    "i": 72,
@@ -1949,7 +3087,14 @@
    "med": 56,
    "tier": "N",
    "pub": 56,
-   "spread": 6
+   "spread": 6,
+   "v7models": {
+    "chatgpt": null,
+    "gemini": 56,
+    "grok": 58,
+    "claude": 52
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 73,
@@ -1976,7 +3121,14 @@
    "med": 49,
    "tier": "G",
    "pub": 49,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 49,
+    "gemini": 49,
+    "grok": 49,
+    "claude": 49
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 74,
@@ -2003,7 +3155,14 @@
    "med": 84,
    "tier": "G",
    "pub": 84,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 84,
+    "gemini": 84,
+    "grok": 84,
+    "claude": 84
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 75,
@@ -2030,7 +3189,14 @@
    "med": 57,
    "tier": "G",
    "pub": 57,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 57,
+    "gemini": 57,
+    "grok": 57,
+    "claude": 57
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 76,
@@ -2057,7 +3223,14 @@
    "med": 80,
    "tier": "G",
    "pub": 80,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 80,
+    "gemini": 80,
+    "grok": 82,
+    "claude": 80
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 77,
@@ -2076,15 +3249,35 @@
    "rule": "No unders on Wemby or Luka",
    "fl": "RULE",
    "models": {
+    "chatgpt": 75,
+    "gemini": 63,
+    "grok": 42,
+    "claude": 75
+   },
+   "med": 63,
+   "tier": "G",
+   "pub": 63,
+   "spread": 33,
+   "v7models": {
     "chatgpt": 65,
     "gemini": 64,
     "grok": 65,
     "claude": 65
    },
-   "med": 65,
-   "tier": "G",
-   "pub": 65,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Thirty-nine still clears this under even with elevated usage",
+    "gemini": "Under 40 in 4 of L5 with strong Q4 sit risk against 1-13 Kings",
+    "grok": "he is at 38 a game and 40 is not a real ceiling with Reaves out",
+    "claude": "under 40 clears more often"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 78,
@@ -2111,7 +3304,14 @@
    "med": 64,
    "tier": "G",
    "pub": 64,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 64,
+    "gemini": 64,
+    "grok": 64,
+    "claude": 64
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 79,
@@ -2138,7 +3338,14 @@
    "med": 66,
    "tier": "N",
    "pub": 66,
-   "spread": 1
+   "spread": 1,
+   "v7models": {
+    "chatgpt": null,
+    "gemini": 67,
+    "grok": 66,
+    "claude": 66
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 80,
@@ -2157,15 +3364,35 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": 60,
-    "gemini": 60,
-    "grok": 60,
+    "chatgpt": 51,
+    "gemini": 56,
+    "grok": 62,
     "claude": 60
    },
    "med": 60,
    "tier": "G",
    "pub": 60,
-   "spread": 0
+   "spread": 11,
+   "v7models": {
+    "chatgpt": 60,
+    "gemini": 60,
+    "grok": 60,
+    "claude": 60
+   },
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Injuries can raise hub touches but four assists needs good finishing",
+    "gemini": "4.6 APG over L10 as hub center with Chet and JDub out",
+    "grok": "4-plus assists in 8 of 15 and the misses are the 18-minute blowouts",
+    "claude": "passing big"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 81,
@@ -2184,15 +3411,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 81,
+    "gemini": 85,
+    "grok": 84,
+    "claude": 88
+   },
+   "med": 85,
+   "tier": "G",
+   "pub": 85,
+   "spread": 7,
+   "v7models": {
     "chatgpt": 92,
     "gemini": 92,
     "grok": 92,
     "claude": 92
    },
-   "med": 92,
-   "tier": "G",
-   "pub": 92,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Two is reachable from normal handoff and short-roll work",
+    "gemini": "Primary DHO hub averaging 4.6 APG L10 with Chet out",
+    "grok": "2-plus assists in 13 of 15 even in short nights",
+    "claude": "low line"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 82,
@@ -2211,15 +3458,40 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 61,
+    "gemini": 66,
+    "grok": 68,
+    "claude": 30
+   },
+   "med": 66,
+   "tier": "Y",
+   "pub": 66,
+   "spread": 38,
+   "v7models": {
     "chatgpt": 64,
     "gemini": 64,
     "grok": 64,
     "claude": 63
    },
-   "med": 64,
-   "tier": "G",
-   "pub": 64,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Holmgren out helps rebounding share but a rout threatens minutes",
+    "gemini": "11.7 RPG L10 with Chet out vs 48.9% REB Pelicans",
+    "grok": "10-plus boards in 10 of 15 as the only real Thunder big",
+    "claude": "10 boards rare"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "claude",
+     "10 rebounds is rare for a 25-minute center"
+    ]
+   ]
   },
   {
    "i": 83,
@@ -2238,15 +3510,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 76,
+    "gemini": 81,
+    "grok": 78,
+    "claude": 55
+   },
+   "med": 78,
+   "tier": "G",
+   "pub": 78,
+   "spread": 26,
+   "v7models": {
     "chatgpt": 80,
     "gemini": 80,
     "grok": 82,
     "claude": 80
    },
-   "med": 80,
-   "tier": "G",
-   "pub": 80,
-   "spread": 2
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Holmgren absence supports a larger share of center rebounds",
+    "gemini": "11.7 RPG L10 and sole starting big sans Holmgren",
+    "grok": "8-plus in 11 of 15 and he still boards in 18 minutes",
+    "claude": "needs strong rebounding night"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 84,
@@ -2273,7 +3565,14 @@
    "med": 68,
    "tier": "G",
    "pub": 68,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 68,
+    "gemini": 68,
+    "grok": 68,
+    "claude": 68
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 85,
@@ -2300,7 +3599,14 @@
    "med": 79,
    "tier": "G",
    "pub": 79,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 79,
+    "gemini": 79,
+    "grok": 79,
+    "claude": 79
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 86,
@@ -2327,7 +3633,14 @@
    "med": 48,
    "tier": "G",
    "pub": 48,
-   "spread": 1
+   "spread": 1,
+   "v7models": {
+    "chatgpt": 48,
+    "gemini": 48,
+    "grok": 48,
+    "claude": 47
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 87,
@@ -2354,7 +3667,14 @@
    "med": 72,
    "tier": "G",
    "pub": 72,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 72,
+    "gemini": 72,
+    "grok": 74,
+    "claude": 72
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 88,
@@ -2381,7 +3701,14 @@
    "med": 60,
    "tier": "G",
    "pub": 60,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 60,
+    "gemini": 60,
+    "grok": 58,
+    "claude": 60
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 89,
@@ -2408,7 +3735,14 @@
    "med": 82,
    "tier": "G",
    "pub": 82,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 82,
+    "gemini": 82,
+    "grok": 80,
+    "claude": 82
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 90,
@@ -2427,15 +3761,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 78,
+    "gemini": 60,
+    "grok": 54,
+    "claude": 60
+   },
+   "med": 60,
+   "tier": "G",
+   "pub": 60,
+   "spread": 24,
+   "v7models": {
     "chatgpt": 73,
     "gemini": 73,
     "grok": 73,
     "claude": 72
    },
-   "med": 73,
-   "tier": "G",
-   "pub": 73,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Six rebounds is a high bar with Jokic collecting inside",
+    "gemini": "5.2 RPG avg facing slow-paced Rockets who rank 1st in REB%",
+    "grok": "under 6 in 7 of 13 with a range from 1 to 10",
+    "claude": "Murray rebounds modest"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 91,
@@ -2454,15 +3808,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 56,
+    "gemini": 63,
+    "grok": 53,
+    "claude": 45
+   },
+   "med": 56,
+   "tier": "G",
+   "pub": 56,
+   "spread": 18,
+   "v7models": {
     "chatgpt": 60,
     "gemini": 60,
     "grok": 60,
     "claude": 60
    },
-   "med": 60,
-   "tier": "G",
-   "pub": 60,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Modest Utah Valley lean with little separation",
+    "gemini": "3-0 UVU beat Nevada on road and holds +8.0 AdjO edge over ECU",
+    "grok": "Utah Valley scores more but a 53 percent three-point start will cool off",
+    "claude": "unknown matchup; neutral prior"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 92,
@@ -2489,7 +3863,14 @@
    "med": 64,
    "tier": "G",
    "pub": 64,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 64,
+    "gemini": 64,
+    "grok": 64,
+    "claude": 64
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 93,
@@ -2508,15 +3889,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 67,
+    "gemini": 55,
+    "grok": 70,
+    "claude": 50
+   },
+   "med": 62,
+   "tier": "G",
+   "pub": 62,
+   "spread": 20,
+   "v7models": {
     "chatgpt": 63,
     "gemini": 65,
     "grok": 63,
     "claude": 63
    },
-   "med": 63,
-   "tier": "G",
-   "pub": 63,
-   "spread": 2
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Eastern Illinois may not score enough even if Illinois runs up its own total",
+    "gemini": "EIU #363 offense averages 56 road PPG offsetting Illinois 113 home PPG",
+    "grok": "Illinois scores 103 and Eastern Illinois scores 67 on the road",
+    "claude": "no pace info checked"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": []
   },
   {
    "i": 94,
@@ -2535,15 +3936,44 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 59,
+    "gemini": 44,
+    "grok": 34,
+    "claude": 55
+   },
+   "med": 55,
+   "tier": "G",
+   "pub": 55,
+   "spread": 25,
+   "v7models": {
     "chatgpt": 61,
     "gemini": 67,
     "grok": 61,
     "claude": 61
    },
-   "med": 61,
-   "tier": "G",
-   "pub": 61,
-   "spread": 6
+   "eng": "v8",
+   "why": {
+    "chatgpt": "The cushion can disappear if Boise scores efficiently in transition",
+    "gemini": "Boise #3 pace (4-0 over 175) vs SHSU #25 pace allowing 95 road PPG",
+    "grok": "Boise scores 95 and both defenses are near the bottom",
+    "claude": "Boise grinds tempo"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Boise State plays #3 pace and is 4-0 over 175 against #25 pace Sam Houston"
+    ],
+    [
+     "grok",
+     "Boise scores 95 and both teams defend poorly at a fast pace"
+    ]
+   ]
   },
   {
    "i": 95,
@@ -2570,7 +4000,14 @@
    "med": 61,
    "tier": "G",
    "pub": 61,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 61,
+    "gemini": 62,
+    "grok": 61,
+    "claude": 60
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 96,
@@ -2597,7 +4034,14 @@
    "med": 57,
    "tier": "G",
    "pub": 57,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 57,
+    "gemini": 59,
+    "grok": 57,
+    "claude": 57
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 97,
@@ -2616,15 +4060,40 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 51,
+    "gemini": 49,
+    "grok": 45,
+    "claude": 55
+   },
+   "med": 51,
+   "tier": "G",
+   "pub": 51,
+   "spread": 10,
+   "v7models": {
     "chatgpt": 56,
     "gemini": 56,
     "grok": 56,
     "claude": 56
    },
-   "med": 56,
-   "tier": "G",
-   "pub": 56,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Home court narrowly offsets Washington's lead creators",
+    "gemini": "Bulls 1-4 home and -8.0 net face healthy AD and Trae",
+    "grok": "Washington has Davis and Young and Chicago just lost its 19-point forward",
+    "claude": "home court vs weaker WSH"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Bulls are 1-4 at home with -8.0 net rating against healthy AD and Trae"
+    ]
+   ]
   },
   {
    "i": 98,
@@ -2643,15 +4112,35 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 80,
+    "gemini": 78,
+    "grok": 68,
+    "claude": 90
+   },
+   "med": 80,
+   "tier": "G",
+   "pub": 80,
+   "spread": 22,
+   "v7models": {
     "chatgpt": 84,
     "gemini": 84,
     "grok": 84,
     "claude": 84
    },
-   "med": 84,
-   "tier": "G",
-   "pub": 84,
-   "spread": 0
+   "eng": "v8",
+   "why": {
+    "chatgpt": "Pelicans are missing Murray and Mathurin but OKC also lacks two stars",
+    "gemini": "OKC 5-1 home with +11.5 net rating edge over 1-4 road NO",
+    "grok": "SGA is enough at home but Chet and Jalen Williams are out",
+    "claude": "much better team at home"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": []
   },
   {
    "i": 99,
@@ -2670,15 +4159,48 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 55,
+    "gemini": 54,
+    "grok": 48,
+    "claude": 58
+   },
+   "med": 55,
+   "tier": "G",
+   "pub": 55,
+   "spread": 10,
+   "v7models": {
     "chatgpt": 58,
     "gemini": 63,
     "grok": 58,
     "claude": 58
    },
-   "med": 58,
-   "tier": "G",
-   "pub": 58,
-   "spread": 5
+   "eng": "v8",
+   "why": {
+    "chatgpt": "OKC can control the game without building a double-digit margin",
+    "gemini": "NO 118.9 DRtg and road woes offset by OKC missing Chet and JDub",
+    "grok": "they just lost at home to Atlanta and the Pelicans can score with Zion",
+    "claude": "blowout and garbage time risk"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "OKC missing Holmgren Jalen Williams and Wallace went 5-5 over L10"
+    ],
+    [
+     "grok",
+     "Thunder are without Chet Jalen Williams and Wallace and just lost at home"
+    ],
+    [
+     "claude",
+     "Thunder starters sit in garbage time against a 9-point spread"
+    ]
+   ]
   },
   {
    "i": 100,
@@ -2705,7 +4227,14 @@
    "med": 66,
    "tier": "G",
    "pub": 66,
-   "spread": 3
+   "spread": 3,
+   "v7models": {
+    "chatgpt": 66,
+    "gemini": 69,
+    "grok": 66,
+    "claude": 66
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 101,
@@ -2732,7 +4261,14 @@
    "med": 48,
    "tier": "G",
    "pub": 48,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 48,
+    "gemini": 50,
+    "grok": 48,
+    "claude": 48
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 102,
@@ -2759,7 +4295,14 @@
    "med": 72,
    "tier": "G",
    "pub": 72,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 72,
+    "gemini": 72,
+    "grok": 72,
+    "claude": 72
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 103,
@@ -2786,7 +4329,14 @@
    "med": 52,
    "tier": "G",
    "pub": 52,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 52,
+    "gemini": 52,
+    "grok": 52,
+    "claude": 52
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 104,
@@ -2813,7 +4363,14 @@
    "med": 50,
    "tier": "G",
    "pub": 50,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 50,
+    "gemini": 52,
+    "grok": 50,
+    "claude": 50
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 105,
@@ -2832,15 +4389,40 @@
    "rule": null,
    "fl": null,
    "models": {
+    "chatgpt": 56,
+    "gemini": 53,
+    "grok": 38,
+    "claude": 50
+   },
+   "med": 53,
+   "tier": "G",
+   "pub": 53,
+   "spread": 18,
+   "v7models": {
     "chatgpt": 54,
     "gemini": 55,
     "grok": 54,
     "claude": 54
    },
-   "med": 54,
-   "tier": "G",
-   "pub": 54,
-   "spread": 1
+   "eng": "v8",
+   "why": {
+    "chatgpt": "The threshold is high but both lead guards can sustain efficient offense",
+    "gemini": "CHI #1 pace and 244 first meeting vs two bottom-10 offenses",
+    "grok": "Washington has been in several 250-point games and Chicago just scored 137",
+    "claude": "no pace/total info checked"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "grok",
+     "both defenses are leaking and Washington\u2019s recent games have lived in the 250s"
+    ]
+   ]
   },
   {
    "i": 106,
@@ -2867,7 +4449,14 @@
    "med": 50,
    "tier": "G",
    "pub": 50,
-   "spread": 3
+   "spread": 3,
+   "v7models": {
+    "chatgpt": 50,
+    "gemini": 53,
+    "grok": 50,
+    "claude": 50
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 107,
@@ -2894,7 +4483,14 @@
    "med": 52,
    "tier": "G",
    "pub": 52,
-   "spread": 0
+   "spread": 0,
+   "v7models": {
+    "chatgpt": 52,
+    "gemini": 52,
+    "grok": 52,
+    "claude": 52
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 108,
@@ -2921,7 +4517,14 @@
    "med": 57,
    "tier": "G",
    "pub": 57,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 57,
+    "gemini": 59,
+    "grok": 57,
+    "claude": 57
+   },
+   "eng": "v7 (game started before the v8 run)"
   },
   {
    "i": 109,
@@ -2948,128 +4551,142 @@
    "med": 56,
    "tier": "G",
    "pub": 56,
-   "spread": 2
+   "spread": 2,
+   "v7models": {
+    "chatgpt": 56,
+    "gemini": 58,
+    "grok": 56,
+    "claude": 56
+   },
+   "eng": "v7 (game started before the v8 run)"
   }
  ],
  "board": [
-  8,
-  81,
-  64,
   2,
-  19,
+  8,
+  64,
   70,
+  81,
+  19,
   40,
   74,
-  98,
   4,
   27,
-  37,
   63,
   89,
-  25,
-  26,
+  17,
   48,
   76,
-  83,
+  98,
   85,
   7,
-  29,
-  17,
-  35,
-  41,
+  25,
   50,
-  59,
-  66,
-  5,
-  28,
-  38,
+  83,
+  35,
+  37,
   46,
-  90,
-  6,
-  9,
-  24,
-  31,
-  44,
-  52,
   53,
+  6,
+  26,
+  44,
   57,
   87,
   102,
-  61
+  5
  ],
  "low": [
-  23,
-  21,
-  30,
-  33,
   36,
+  28,
+  33,
+  41,
   84,
-  22,
+  29,
+  9,
+  38,
   79,
-  100,
-  77,
-  1,
-  32,
-  78,
   82,
+  100,
+  24,
+  59,
+  1,
+  20,
+  31,
+  32,
+  52,
+  66,
+  78,
   92,
-  93,
+  77,
   3,
-  18,
+  21,
   34,
   47,
-  54,
   69,
-  94,
+  93,
+  61,
   95,
-  49,
   56,
-  58,
   60,
-  65,
-  67,
   80,
   88,
-  91,
+  90,
+  10,
   16,
+  23,
+  30,
   39,
-  99,
+  43,
+  49,
+  58,
+  65,
   75,
   96,
   108,
-  43,
+  22,
   72,
-  97,
+  91,
   109,
-  20,
   45,
-  51,
-  10,
+  94,
+  99,
   12,
   14,
+  71,
   105,
   15,
   55,
   68,
-  71,
   103,
   107,
+  51,
+  97,
+  54,
   104,
   106,
-  11,
   73,
+  11,
   62,
+  67,
   86,
   101,
-  42,
-  13
+  13,
+  42
  ],
- "removed": [],
+ "removed": [
+  18
+ ],
  "nograde": [],
  "hammer": {
-  "legs": [],
-  "pay": null,
-  "none": "The best 5 qualifying legs pay only 1.80x at Kalshi's prices, under the 2x minimum. Passing is a win."
+  "legs": [
+   2,
+   8,
+   64,
+   19,
+   25
+  ],
+  "pay": 2.04,
+  "none": null
  },
  "perfect": [
   {
@@ -3082,13 +4699,13 @@
   {
    "name": "Core",
    "legs": [
-    25,
-    76,
+    27,
     83,
-    7
+    37,
+    5
    ],
-   "pay": 2.5,
-   "hit": 40,
+   "pay": 2.51,
+   "hit": 34,
    "none": null
   },
   {
@@ -3100,64 +4717,205 @@
   }
  ],
  "split": [
-  12,
-  14,
-  15,
-  16,
-  57
+  82,
+  77,
+  71,
+  51,
+  53,
+  83,
+  94,
+  90,
+  20,
+  59
  ],
- "agree": [
-  8,
-  81,
-  64,
-  2,
-  19,
-  70,
-  40,
-  74
- ],
+ "agree": [],
  "votes": {
   "8": 4,
-  "81": 4,
-  "64": 4,
-  "2": 4,
   "19": 4,
-  "70": 4,
-  "40": 4,
-  "74": 4,
-  "98": 4,
-  "4": 2,
-  "63": 1,
-  "83": 1
+  "64": 3,
+  "17": 4,
+  "2": 4,
+  "25": 3,
+  "9": 1,
+  "53": 2,
+  "81": 4,
+  "98": 2,
+  "27": 2,
+  "83": 2,
+  "28": 1,
+  "18": 1,
+  "37": 1,
+  "50": 1,
+  "77": 1
  },
  "tips": {
   "chatgpt": [
-   "Show the executable ask and its timestamp beside each injury update so users can see whether the price predates the news.",
-   "Compute last-10 hit counts at each exact rung and show minutes with DNPs and pushes separately.",
-   "Separate hit probability from estimated edge after fees and make both columns sortable.",
-   "Flag projected versus confirmed starters and surface the contract's DNP and exact-number settlement rules on the pick card.",
-   "Group same-player ladders and flag shared game or injury exposure before users combine legs."
+   "Freeze a timestamped injury and lineup snapshot with every submitted grade",
+   "Report season and last-10 exact-line rates alongside rates in comparable minutes",
+   "Flag nested thresholds and same-game legs so bettors do not treat them as independent"
   ],
   "gemini": [
-   "Auto-display consensus sportsbook lines and implied probability next to every Kalshi price and flag 2+ point line discrepancies",
-   "Add a live hourly NBA Injury Report timestamp badge on leg cards with automatic warnings for Questionable or Out players",
-   "Show each player's exact L10 hit rate against the specific alternate rung alongside season average and projected minutes",
-   "Add an interactive Rung Switcher on player prop cards comparing adjacent Kalshi and sportsbook rungs by hit probability vs payout",
-   "Publish a rolling Brier-score calibration dashboard by market type comparing BettorDays grades directly against Kalshi"
+   "Auto-flag NBA Cup point-differential games since starters stay in longer during double-digit Q4 leads",
+   "Surface live frontcourt injury cascades so rebound and assist props adjust immediately when teammates like Holmgren or Markkanen sit",
+   "Display rolling last-10 hit rates alongside opponent pace and defensive rating so high-total traps like Boise State stand out before bettors take big unders"
   ],
   "grok": [
-   "Stamp the official injury-report time on every NBA card and auto-cut a leg that is still Questionable inside a few hours of tip with no upgrade. Sengun 8+ rebounds is that case today.",
-   "Show last-10 hit rate against the exact line on the card and do not display a 70+ grade on yardage or PRA when that hit rate is under 60%. Those are the groups that have missed.",
-   "When Kalshi has two rungs show the price gap on one card. NAW 15+ at 82 versus 20+ at 62 and Bey 1+ at 86 versus 2+ at 64 are the same player not two picks.",
-   "Block any grade 8 or more above Kalshi before it can publish. Those legs have hit much less often than legs where Kalshi was at or above our number.",
-   "Collapse same-game ladders so Bey 1+ and 2+ Raiola 250+ and 260+ and the PRA ladders are not offered as independent tickets."
+   "Show last-10 and season hit rate at the exact number plus minutes on every leg so a 1.1 three-point shooter is not sitting next to a 2.3 shooter with the same look.",
+   "Put official injury status and who takes the minutes if that player sits on the same row as the leg.",
+   "On outdoor football show temperature wind and run rate next to the passing line so a 250-yard number in a clock-killing game is obvious."
   ],
   "claude": [
-   "Show the source and time for every injury note on each pick card, and auto-flag legs whose player is questionable (such as Sengun) so they can't be graded high by default.",
-   "Store each leg's grade next to the Kalshi price at lock time and show the gap, since legs where we sat 8+ above Kalshi hit less often.",
-   "Add a last-10 hit-rate column against the exact line from game logs for every prop, so the reason text is backed by data and not by role claims.",
-   "For legs with no Kalshi price (CFB yardage and interpolated rungs), pull a sportsbook line automatically and cap the grade at 75.",
-   "Re-check the NBA official injury report about 90 minutes before tip and re-grade legs automatically after any status change."
+   "Show injury-report timestamps next to each leg and flag any grade made before the final report",
+   "Show the blowout-minutes risk from the spread beside every player prop",
+   "Group correlated legs (e.g. Jokic points with PRA) so bettors don't stack the same miss"
+  ]
+ },
+ "fades": {
+  "42": [
+   [
+    "chatgpt",
+    "Fears can play starter minutes without taking enough threes to make two"
+   ],
+   [
+    "gemini",
+    "Shooting 27.1% on 3.9 3PA and cleared 2+ threes in only 3 of L10"
+   ],
+   [
+    "grok",
+    "he makes 1.1 threes and has two or more in only 4 of 16"
+   ],
+   [
+    "claude",
+    "Needs two threes from a rookie who is a volume guess"
+   ]
+  ],
+  "67": [
+   [
+    "chatgpt",
+    "A run-heavy game gives New Mexico fewer possessions to separate"
+   ],
+   [
+    "gemini",
+    "Cold windy Laramie game between two run-first teams compresses scoring margin"
+   ],
+   [
+    "grok",
+    "30 degrees and wind in Laramie plus Wyoming\u2019s 6-1 conference mark at home"
+   ]
+  ],
+  "54": [
+   [
+    "chatgpt",
+    "Dybantsa can reach 15 points without adding enough rebounds or assists"
+   ],
+   [
+    "gemini",
+    "Poor 21.3% three-point shooting creates a low-scoring floor when drives stall"
+   ]
+  ],
+  "22": [
+   [
+    "chatgpt",
+    "Utah's missing scorers create more shots but not necessarily more threes"
+   ]
+  ],
+  "51": [
+   [
+    "chatgpt",
+    "A comfortable Lakers lead can cost Doncic the fourth-quarter run he needs"
+   ],
+   [
+    "gemini",
+    "Blowout risk against 1-13 Kings threatens Q4 minutes and missed 50+ in 3 of L5"
+   ],
+   [
+    "claude",
+    "50 PRA needs a near-ceiling night"
+   ]
+  ],
+  "65": [
+   [
+    "chatgpt",
+    "Oregon can win comfortably and still finish inside two touchdowns"
+   ],
+   [
+    "grok",
+    "Oregon\u2019s real wins have been by 3 to 14 and this is on the road"
+   ],
+   [
+    "claude",
+    "14 points leaves room for Oregon to ease off late"
+   ]
+  ],
+  "94": [
+   [
+    "gemini",
+    "Boise State plays #3 pace and is 4-0 over 175 against #25 pace Sam Houston"
+   ],
+   [
+    "grok",
+    "Boise scores 95 and both teams defend poorly at a fast pace"
+   ]
+  ],
+  "97": [
+   [
+    "gemini",
+    "Bulls are 1-4 at home with -8.0 net rating against healthy AD and Trae"
+   ]
+  ],
+  "49": [
+   [
+    "gemini",
+    "Blowout risk against 5-11 Pelicans could cap Q4 minutes right around 39.5 avg"
+   ]
+  ],
+  "99": [
+   [
+    "gemini",
+    "OKC missing Holmgren Jalen Williams and Wallace went 5-5 over L10"
+   ],
+   [
+    "grok",
+    "Thunder are without Chet Jalen Williams and Wallace and just lost at home"
+   ],
+   [
+    "claude",
+    "Thunder starters sit in garbage time against a 9-point spread"
+   ]
+  ],
+  "71": [
+   [
+    "grok",
+    "he averages 38 and Reaves being out pushes the points up not down"
+   ]
+  ],
+  "105": [
+   [
+    "grok",
+    "both defenses are leaking and Washington\u2019s recent games have lived in the 250s"
+   ]
+  ],
+  "20": [
+   [
+    "grok",
+    "the eye abrasion already cut him to 14 minutes so the season rebound rate is the trap"
+   ],
+   [
+    "claude",
+    "Q tag plus a possible minutes cap"
+   ]
+  ],
+  "82": [
+   [
+    "claude",
+    "10 rebounds is rare for a 25-minute center"
+   ]
+  ],
+  "11": [
+   [
+    "claude",
+    "260 yards is a high bar if Oregon runs the ball with a lead"
+   ]
   ]
  }
 }

@@ -1,0 +1,11 @@
+15:32:27 Got 55 legs and 105 sim lines.
+15:32:27 Running 4 models x 2 jobs (analyst + simulation), up to 25 minutes each.
+15:33:00 chatgpt chatgpt.md: exit 0, 33s, 6237 bytes, result: yes
+15:33:01 claude claude.md: exit 0, 33s, 4528 bytes, result: yes
+15:33:27 claude claude_sim.md: exit 0, 60s, 4936 bytes, result: yes
+15:36:11 chatgpt chatgpt_sim.md: exit 0, 224s, 4822 bytes, result: yes
+15:37:12 gemini gemini.md: exit 0, 285s, 7448 bytes, result: yes
+15:38:55 gemini gemini_sim.md: exit 0, 388s, 5110 bytes, result: yes
+15:39:24 grok grok_sim.md: exit 0, 417s, 5281 bytes, result: yes
+15:39:25 grok grok.md: exit 0, 418s, 7738 bytes, result: yes
+15:39:25 Done: 4 of 4 analyst reports, 5 of 4 simulations. Tell Claude: v8 replies for 2026-11-20 are ready.
