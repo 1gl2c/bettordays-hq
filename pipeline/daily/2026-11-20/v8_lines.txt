@@ -1,0 +1,55 @@
+1 | Saddiq Bey 2+ threes | NBA NO@OKC 5:00 PM PT | market: 3pm
+2 | Saddiq Bey 1+ threes | NBA NO@OKC 5:00 PM PT | market: 3pm
+5 | Fred VanVleet 4+ assists | NBA HOU@DEN 7:00 PM PT | market: ast
+8 | Trae Young 10+ points | NBA WSH@CHI 5:00 PM PT | market: pts
+9 | Trae Young 15+ points | NBA WSH@CHI 5:00 PM PT | market: pts
+10 | Dylan Raiola 250+ passing yards | CFB ORE@MSU 5:00 PM PT | market: pass
+11 | Dylan Raiola 260+ passing yards | CFB ORE@MSU 5:00 PM PT | market: pass
+17 | Nikola Jokic 20+ points | NBA HOU@DEN 7:00 PM PT | market: pts
+18 | Kevin Durant 20+ points | NBA HOU@DEN 7:00 PM PT | market: pts
+19 | DeMar DeRozan 5+ points | NBA HOU@DEN 7:00 PM PT | market: pts
+20 | Alperen Sengun 8+ rebounds | NBA HOU@DEN 7:00 PM PT | market: reb | QUESTIONABLE
+21 | Darryn Peterson 15+ points | NBA PHX@UTAH 6:30 PM PT | market: pts
+22 | Darryn Peterson 2+ threes | NBA PHX@UTAH 6:30 PM PT | market: 3pm
+23 | Keyonte George 20+ points | NBA PHX@UTAH 6:30 PM PT | market: pts
+24 | Keyonte George 2+ threes | NBA PHX@UTAH 6:30 PM PT | market: 3pm
+25 | Devin Booker 20+ points | NBA PHX@UTAH 6:30 PM PT | market: pts
+26 | Dillon Brooks 10+ points | NBA PHX@UTAH 6:30 PM PT | market: pts
+27 | Miles Bridges 4+ rebounds | NBA PHX@UTAH 6:30 PM PT | market: reb
+28 | Anthony Davis 20+ points | NBA WSH@CHI 5:00 PM PT | market: pts
+29 | Trae Young 8+ assists | NBA WSH@CHI 5:00 PM PT | market: ast
+30 | Matas Buzelis 15+ points | NBA WSH@CHI 5:00 PM PT | market: pts
+31 | AJ Dybantsa 15+ points | NBA WSH@CHI 5:00 PM PT | market: pts
+36 | Fred VanVleet 10+ points | NBA HOU@DEN 7:00 PM PT | market: pts
+37 | Norman Powell 2+ rebounds | NBA WSH@CHI 5:00 PM PT | market: reb
+38 | Norman Powell 2+ assists | NBA WSH@CHI 5:00 PM PT | market: ast
+41 | Jeremiah Fears 1+ threes | NBA NO@OKC 5:00 PM PT | market: 3pm
+42 | Jeremiah Fears 2+ threes | NBA NO@OKC 5:00 PM PT | market: 3pm
+43 | Nikola Jokic 25+ points | NBA HOU@DEN 7:00 PM PT | market: pts
+49 | Shai Gilgeous-Alexander 40+ points + rebounds + assists | NBA NO@OKC 5:00 PM PT | market: pra
+50 | Shai Gilgeous-Alexander 35+ points + rebounds + assists | NBA NO@OKC 5:00 PM PT | market: pra
+51 | Luka Doncic 50+ points + rebounds + assists | NBA SAC@LAL 7:00 PM PT | market: pra
+52 | Luka Doncic 45+ points + rebounds + assists | NBA SAC@LAL 7:00 PM PT | market: pra
+53 | Nikola Jokic 40+ points + rebounds + assists | NBA HOU@DEN 7:00 PM PT | market: pra
+54 | AJ Dybantsa 25+ points + rebounds + assists | NBA WSH@CHI 5:00 PM PT | market: pra
+58 | Indiana ML v Kentucky | CBB UK v IU 5:00 PM PT | market: ml
+59 | Georgia ML at Georgia Tech | CBB UGA@GT 5:00 PM PT | market: ml
+61 | Josh Giddey 8+ assists | NBA WSH@CHI 5:00 PM PT | market: ast
+64 | Oregon ML at Michigan State | CFB ORE@MSU 5:00 PM PT | market: ml
+65 | Oregon -14 at Michigan State | CFB ORE@MSU 5:00 PM PT | market: spread
+66 | New Mexico ML at Wyoming | CFB UNM@WYO 6:00 PM PT | market: ml
+67 | New Mexico -6.5 at Wyoming | CFB UNM@WYO 6:00 PM PT | market: spread
+71 | Luka Doncic under 37 points | NBA SAC@LAL 7:00 PM PT | market: pts
+77 | Luka Doncic under 40 points | NBA SAC@LAL 7:00 PM PT | market: pts
+80 | Isaiah Hartenstein 4+ assists | NBA NO@OKC 5:00 PM PT | market: ast
+81 | Isaiah Hartenstein 2+ assists | NBA NO@OKC 5:00 PM PT | market: ast
+82 | Isaiah Hartenstein 10+ rebounds | NBA NO@OKC 5:00 PM PT | market: reb
+83 | Isaiah Hartenstein 8+ rebounds | NBA NO@OKC 5:00 PM PT | market: reb
+90 | Jamal Murray under 6 rebounds | NBA HOU@DEN 7:00 PM PT | market: reb
+91 | Utah Valley ML v East Carolina | CBB UVU v ECU 5:00 PM PT | market: ml
+93 | Eastern Illinois v Illinois under 170 total points | CBB EIU@ILL 6:00 PM PT | market: total
+94 | Sam Houston v Boise State under 175 total points | CBB SHSU@BOIS 6:00 PM PT | market: total
+97 | Bulls ML v Wizards | NBA WSH@CHI 5:00 PM PT | market: ml
+98 | Thunder ML v Pelicans | NBA NO@OKC 5:00 PM PT | market: ml
+99 | Thunder -9 v Pelicans | NBA NO@OKC 5:00 PM PT | market: spread
+105 | Wizards v Bulls under 240 total points | NBA WSH@CHI 5:00 PM PT | market: total

@@ -1,0 +1,105 @@
+1 | Aaron Gordon (DEN) 2+ assists | HOU@DEN 7:00 PM PT
+2 | Alperen Sengun (HOU) 35+ points + rebounds + assists | HOU@DEN 7:00 PM PT
+3 | Alperen Sengun (HOU) 20+ points | HOU@DEN 7:00 PM PT
+4 | Amen Thompson (HOU) 4+ assists | HOU@DEN 7:00 PM PT
+5 | Amen Thompson (HOU) 25+ points + rebounds + assists | HOU@DEN 7:00 PM PT
+6 | Amen Thompson (HOU) 15+ points | HOU@DEN 7:00 PM PT
+7 | Cameron Johnson (DEN) 2+ threes | HOU@DEN 7:00 PM PT
+8 | Cameron Johnson (DEN) 2+ assists | HOU@DEN 7:00 PM PT
+9 | Cameron Johnson (DEN) 15+ points + rebounds + assists | HOU@DEN 7:00 PM PT
+10 | Cameron Johnson (DEN) 10+ points | HOU@DEN 7:00 PM PT
+11 | Christian Braun (DEN) 4+ rebounds | HOU@DEN 7:00 PM PT
+12 | DeMar DeRozan (DEN) 10+ points | HOU@DEN 7:00 PM PT
+13 | Fred VanVleet (HOU) 3+ threes | HOU@DEN 7:00 PM PT
+14 | Fred VanVleet (HOU) 20+ points + rebounds + assists | HOU@DEN 7:00 PM PT
+15 | Jabari Smith Jr. (HOU) 2+ assists | HOU@DEN 7:00 PM PT
+16 | Jabari Smith Jr. (HOU) 15+ points | HOU@DEN 7:00 PM PT
+17 | Jamal Murray (DEN) 3+ threes | HOU@DEN 7:00 PM PT
+18 | Jamal Murray (DEN) 6+ assists | HOU@DEN 7:00 PM PT
+19 | Jamal Murray (DEN) 4+ rebounds | HOU@DEN 7:00 PM PT
+20 | Kevin Durant (HOU) 2+ threes | HOU@DEN 7:00 PM PT
+21 | Kevin Durant (HOU) 30+ points + rebounds + assists | HOU@DEN 7:00 PM PT
+22 | Marcus Smart (HOU) 2+ rebounds | HOU@DEN 7:00 PM PT
+23 | Nikola Jokić (DEN) 45+ points + rebounds + assists | HOU@DEN 7:00 PM PT
+24 | Nikola Jokić (DEN) 25+ points | HOU@DEN 7:00 PM PT
+25 | Tari Eason (HOU) 10+ points | HOU@DEN 7:00 PM PT
+26 | Tari Eason (HOU) 6+ rebounds | HOU@DEN 7:00 PM PT
+27 | Aday Mara (OKC) 20+ points + rebounds + assists | NO@OKC 5:00 PM PT
+28 | Aday Mara (OKC) 10+ points | NO@OKC 5:00 PM PT
+29 | Ajay Mitchell (OKC) 4+ assists | NO@OKC 5:00 PM PT
+30 | Ajay Mitchell (OKC) 25+ points + rebounds + assists | NO@OKC 5:00 PM PT
+31 | Isaiah Hartenstein (OKC) 4+ assists | NO@OKC 5:00 PM PT
+32 | Isaiah Hartenstein (OKC) 25+ points + rebounds + assists | NO@OKC 5:00 PM PT
+33 | Jared McCain (OKC) 3+ threes | NO@OKC 5:00 PM PT
+34 | Jared McCain (OKC) 20+ points + rebounds + assists | NO@OKC 5:00 PM PT
+35 | Jared McCain (OKC) 15+ points | NO@OKC 5:00 PM PT
+36 | Jaylin Williams (OKC) 2+ assists | NO@OKC 5:00 PM PT
+37 | Jeremiah Fears (NO) 6+ assists | NO@OKC 5:00 PM PT
+38 | Jeremiah Fears (NO) 15+ points | NO@OKC 5:00 PM PT
+39 | Kenrich Williams (OKC) 2+ assists | NO@OKC 5:00 PM PT
+40 | Kenrich Williams (OKC) 4+ rebounds | NO@OKC 5:00 PM PT
+41 | Shai Gilgeous-Alexander (OKC) 4+ rebounds | NO@OKC 5:00 PM PT
+42 | Zion Williamson (NO) 6+ rebounds | NO@OKC 5:00 PM PT
+43 | Ace Bailey (UTAH) 2+ threes | PHX@UTAH 6:30 PM PT
+44 | Brice Sensabaugh (UTAH) 2+ threes | PHX@UTAH 6:30 PM PT
+45 | Collin Gillespie (PHX) 4+ assists | PHX@UTAH 6:30 PM PT
+46 | Collin Gillespie (PHX) 10+ points | PHX@UTAH 6:30 PM PT
+47 | Darryn Peterson (UTAH) 4+ assists | PHX@UTAH 6:30 PM PT
+48 | Darryn Peterson (UTAH) 25+ points + rebounds + assists | PHX@UTAH 6:30 PM PT
+49 | Devin Booker (PHX) 35+ points + rebounds + assists | PHX@UTAH 6:30 PM PT
+50 | Dillon Brooks (PHX) 2+ threes | PHX@UTAH 6:30 PM PT
+51 | Dillon Brooks (PHX) 2+ assists | PHX@UTAH 6:30 PM PT
+52 | Dillon Brooks (PHX) 20+ points + rebounds + assists | PHX@UTAH 6:30 PM PT
+53 | Dillon Brooks (PHX) 15+ points | PHX@UTAH 6:30 PM PT
+54 | Dillon Brooks (PHX) 4+ rebounds | PHX@UTAH 6:30 PM PT
+55 | Jalen Green (PHX) 20+ points + rebounds + assists | PHX@UTAH 6:30 PM PT
+56 | Jalen Green (PHX) 4+ rebounds | PHX@UTAH 6:30 PM PT
+57 | Jaxson Hayes (UTAH) 2+ assists | PHX@UTAH 6:30 PM PT
+58 | Jaxson Hayes (UTAH) 6+ rebounds | PHX@UTAH 6:30 PM PT
+59 | Jordan Goodwin (PHX) 4+ rebounds | PHX@UTAH 6:30 PM PT
+60 | Josh Green (UTAH) 5+ points | PHX@UTAH 6:30 PM PT
+61 | Keyonte George (UTAH) 35+ points + rebounds + assists | PHX@UTAH 6:30 PM PT
+62 | Keyonte George (UTAH) 4+ rebounds | PHX@UTAH 6:30 PM PT
+63 | Miles Bridges (PHX) 2+ threes | PHX@UTAH 6:30 PM PT
+64 | Miles Bridges (PHX) 6+ rebounds | PHX@UTAH 6:30 PM PT
+65 | Oso Ighodaro (PHX) 15+ points + rebounds + assists | PHX@UTAH 6:30 PM PT
+66 | Oso Ighodaro (PHX) 6+ rebounds | PHX@UTAH 6:30 PM PT
+67 | Collin Sexton (LAL) 2+ rebounds | SAC@LAL 7:00 PM PT
+68 | De'Andre Hunter (SAC) 2+ threes | SAC@LAL 7:00 PM PT
+69 | De'Andre Hunter (SAC) 2+ assists | SAC@LAL 7:00 PM PT
+70 | De'Andre Hunter (SAC) 4+ rebounds | SAC@LAL 7:00 PM PT
+71 | Domantas Sabonis (SAC) 30+ points + rebounds + assists | SAC@LAL 7:00 PM PT
+72 | Domantas Sabonis (SAC) 12+ rebounds | SAC@LAL 7:00 PM PT
+73 | Jake LaRavia (LAL) 1+ threes | SAC@LAL 7:00 PM PT
+74 | Jake LaRavia (LAL) 4+ rebounds | SAC@LAL 7:00 PM PT
+75 | Luka Dončić (LAL) 8+ assists | SAC@LAL 7:00 PM PT
+76 | Luka Dončić (LAL) 50+ points + rebounds + assists | SAC@LAL 7:00 PM PT
+77 | Luka Dončić (LAL) 35+ points | SAC@LAL 7:00 PM PT
+78 | Malik Monk (SAC) 4+ assists | SAC@LAL 7:00 PM PT
+79 | Malik Monk (SAC) 10+ points | SAC@LAL 7:00 PM PT
+80 | Matisse Thybulle (LAL) 10+ points + rebounds + assists | SAC@LAL 7:00 PM PT
+81 | Quentin Grimes (LAL) 4+ rebounds | SAC@LAL 7:00 PM PT
+82 | Sandro Mamukelashvili (LAL) 2+ assists | SAC@LAL 7:00 PM PT
+83 | Sandro Mamukelashvili (LAL) 10+ points | SAC@LAL 7:00 PM PT
+84 | Walker Kessler (LAL) 25+ points + rebounds + assists | SAC@LAL 7:00 PM PT
+85 | Zach LaVine (SAC) 25+ points + rebounds + assists | SAC@LAL 7:00 PM PT
+86 | Alex Sarr (WSH) 2+ assists | WSH@CHI 5:00 PM PT
+87 | Alex Sarr (WSH) 20+ points + rebounds + assists | WSH@CHI 5:00 PM PT
+88 | Anthony Davis (WSH) 35+ points + rebounds + assists | WSH@CHI 5:00 PM PT
+89 | Bilal Coulibaly (WSH) 1+ threes | WSH@CHI 5:00 PM PT
+90 | Bilal Coulibaly (WSH) 4+ rebounds | WSH@CHI 5:00 PM PT
+91 | Isaac Okoro (CHI) 2+ assists | WSH@CHI 5:00 PM PT
+92 | Isaac Okoro (CHI) 15+ points + rebounds + assists | WSH@CHI 5:00 PM PT
+93 | Isaac Okoro (CHI) 10+ points | WSH@CHI 5:00 PM PT
+94 | Jalen Smith (CHI) 2+ threes | WSH@CHI 5:00 PM PT
+95 | Jalen Smith (CHI) 2+ assists | WSH@CHI 5:00 PM PT
+96 | Jalen Smith (CHI) 25+ points + rebounds + assists | WSH@CHI 5:00 PM PT
+97 | Jalen Smith (CHI) 8+ rebounds | WSH@CHI 5:00 PM PT
+98 | Josh Giddey (CHI) 30+ points + rebounds + assists | WSH@CHI 5:00 PM PT
+99 | Kyshawn George (WSH) 25+ points + rebounds + assists | WSH@CHI 5:00 PM PT
+100 | Matas Buzelis (CHI) 25+ points + rebounds + assists | WSH@CHI 5:00 PM PT
+101 | Matas Buzelis (CHI) 6+ rebounds | WSH@CHI 5:00 PM PT
+102 | Norman Powell (CHI) 3+ threes | WSH@CHI 5:00 PM PT
+103 | Trae Young (WSH) 10+ assists | WSH@CHI 5:00 PM PT
+104 | Trae Young (WSH) 30+ points + rebounds + assists | WSH@CHI 5:00 PM PT
+105 | Tre Jones (CHI) 4+ assists | WSH@CHI 5:00 PM PT
