@@ -36,6 +36,10 @@ Strong at 70+:
 
 These are small samples. Use them as a reason to look harder, not as a rule.
 
+## Better lines (you may move a line)
+
+Some legs already include a safer line (marked in the list). If a different line on the same player or game would be clearly better, either a higher hit chance for a small price cut (example: Porter 15+ points instead of 21+) or a better payout at nearly the same hit chance, list it in the BD_ALT block with your probability and the Kalshi price for that line if Kalshi offers it. Only suggest lines a sportsbook or Kalshi actually offers. Don't change the leg's player or side.
+
 ## Then give
 
 - Your TOP 10 legs ranked by real hit probability.
@@ -52,6 +56,9 @@ BD_V7_END
 BD_TOP10_START
 rank,leg_no
 BD_TOP10_END
+BD_ALT_START
+leg_no,better_line,your_prob,kalshi_or_none,why
+BD_ALT_END
 BD_TIPS_START
 tip
 BD_TIPS_END

@@ -25,7 +25,7 @@ for r in rows:
            'sys': r.get('pct'), 'n': r.get('n', ''), 'rule': ace_rule(r['p']), 'fl': r.get('fl')}
     C.append(leg)
     games.setdefault(r['g'], (r['sp'], r['t']))
-    lines.append(f"{i} | {r['p']} | {r['sp']} {r['g']} {r['t']} PM PT | market: {leg['stat']} | Kalshi {leg['k'] if leg['k'] is not None else 'none'} | back-to-back: {'yes' if leg['b2b'] else 'no'}")
+    lines.append(f"{i} | {r['p']} | {r['sp']} {r['g']} {r['t']} PM PT | market: {leg['stat']} | Kalshi {leg['k'] if leg['k'] is not None else 'none'} | back-to-back: {'yes' if leg['b2b'] else 'no'}" + (' | line moved by us (no line given, or a safer rung)' if r.get('moved') else '') + (' | QUESTIONABLE, check status' if r.get('fl')=='Q' else ''))
 json.dump({'date': day, 'legs': C}, open(f'{out}/v7_candidates.json', 'w'), indent=1)
 open(f'{out}/v7_lines.txt', 'w').write('\n'.join(lines) + '\n')
 slate = '; '.join(f"{sp} {g} {t} PM PT" for g, (sp, t) in sorted(games.items(), key=lambda x: x[1][1]))
