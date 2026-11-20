@@ -312,10 +312,10 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
   </section>
 
   <section class="tiles" aria-label="Record">
-    <div class="tile"><span class="lbl">Main tickets</span><b class="acc"><span data-count="26">0</span>-35</b><small>hammers and main parlays, Nov 4 to 15</small></div>
-    <div class="tile"><span class="lbl">Main ticket P&amp;L</span><b class="mono acc">+<span data-count="27">0</span> 🍪</b><small>Sunday lost 14.6 🍪. 2 of 14 tickets cashed. Our worst day.</small></div>
-    <div class="tile"><span class="lbl">70%+ legs</span><b class="mono acc"><span data-count="343">0</span>/442</b><small>78% across 14 days · Tuesday 18 of 27</small></div>
-    <div class="tile"><span class="lbl">Capper boards hit</span><b class="mono"><span data-count="65">0</span>%</b><small>1060 graded legs, all tiers</small></div>
+    <div class="tile"><span class="lbl">Suggested tickets</span><b class="acc" id="tlTk">26-35</b><small id="tlTkS">every ticket we posted, graded leg by leg</small></div>
+    <div class="tile"><span class="lbl">Ledger P&amp;L</span><b class="mono acc">+27 🍪</b><small>Tickets Ace played, Nov 8 to 15. Stakes after Nov 15 were not recorded, so the ledger stops there.</small></div>
+    <div class="tile"><span class="lbl">70%+ legs</span><b class="mono acc" id="tl70">343/442</b><small id="tl70S">78%</small></div>
+    <div class="tile"><span class="lbl">Capper boards hit</span><b class="mono" id="tlAll">65%</b><small id="tlAllS">graded legs, all tiers</small></div>
     <div class="tile"><span class="lbl">Lottos cashed</span><b class="mono bad"><span data-count="0">0</span>/22</b><small>Kalshi pays 10-30% of fair on long ones. Retired.</small></div>
   </section>
 
@@ -563,7 +563,7 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
   
 <section class="panel" id="thursday">
     <div class="dayhead"><span class="lbl" id="dayTag">Picks</span><h2 class="big" id="dayTitle">Thursday · Nov 19</h2>
-      <p class="proof"><b>78%</b> of our 70%+ picks hit · 343 of 442 graded · Tuesday <b>67%</b></p></div>
+      <p class="proof" id="homeProof"><b>78%</b> of our 70%+ picks hit · 343 of 442 graded</p></div>
     <div class="filters" id="thuF" style="margin-top:16px"></div><p class="note" style="margin:6px 0 0">Kalshi = Kalshi's price for that line as of when the board went up, in percent. Green means Kalshi has it at or above our grade. ⚠ means our grade is 8 or more above Kalshi's: on Nov 4 to 15, picks that were not used to make this rule, those legs hit 60 of 106 (57%) against 69% for everything else. So ⚠ legs stay out of Hammers and main tickets. Hammer filter (provisional): graded 80+ and Kalshi within 7. That is a selection rule we are still testing, not proof a leg is safe. Prices move, so check the slip.</p>
     <div class="scroll boardwrap" style="max-height:620px;overflow-y:auto"><table id="thuT" class="board"></table></div>
     <div class="sech"><h3>Top 25</h3><span class="lbl">highest hit % on the board</span></div>
@@ -870,14 +870,14 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
 
   <section class="panel reveal" id="marbles">
     <h2>How easy is three? <small>the model, explained for a 10-year-old</small></h2>
-    <p class="note" style="max-width:760px;margin:0 0 16px">Picture a jar of 100 marbles. 85 are green, 15 are red. That's our 70%+ legs: <b class="acc" id="mbRate">68 of 83</b> hit since Nov 4. A parlay is reaching in and pulling marbles. You only cash if every marble is green.</p>
+    <p class="note" style="max-width:760px;margin:0 0 16px">Picture a jar of 100 marbles. <b id="mbG">78</b> are green, <b id="mbR">22</b> are red. That's our 70%+ legs: <b class="acc" id="mbRate">68 of 83</b> hit since Nov 4. A parlay is reaching in and pulling marbles. You only cash if every marble is green.</p>
     <div class="kpis" id="mbK" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))"></div>
     <div id="mbJar" style="display:grid;grid-template-columns:repeat(20,1fr);gap:5px;max-width:520px;margin:18px 0 6px" aria-label="100 marbles, green for hits, red for misses"></div>
     <p class="note" style="margin:4px 0 14px">Tap the button to pull three marbles from the jar at random.</p>
     <button class="btn on" id="mbPull" type="button">Pull 3 marbles</button> <span class="mono" id="mbOut" style="margin-left:12px"></span>
     <div class="flags" style="margin-top:18px">
-      <div class="flag w"><b>Hitting is not the same as profit</b><div class="r warn">price matters</div><p>Three green marbles happens about 55 times in 100. But Kalshi prices a 3-leg like that around 1.6x to 1.8x, so you win about $0.70 when it hits and lose $1 when it misses. Over time that's close to break-even. The edge comes from legs the market prices worse than we grade them, and from passing on bad prices.</p><div class="who">Grades are our estimates, not promises. 21+, bet what you can lose.</div></div>
-      <div class="flag g"><b>Model v2 · changes after Monday</b><div class="r acc">sharper</div><p>Star unders capped at 5/10, never 9. Any flagged leg drops below 7, no overrides. Team, venue and injury status checked at lock. No 90%+ filler unless it's a real anchor. NBA regular lines in the 45 to 60 zone get a look for upside (7 of 8 Monday).</p><div class="who">Target: keep the 70%+ tier at 82 to 85%</div></div>
+      <div class="flag w"><b>Hitting is not the same as profit</b><div class="r warn">price matters</div><p>Three green marbles happens about <b id="mb3">47</b> times in 100. But Kalshi prices a 3-leg like that around 1.6x to 1.8x, so you win about $0.70 when it hits and lose $1 when it misses. Over time that's close to break-even. The edge comes from legs the market prices worse than we grade them, and from passing on bad prices.</p><div class="who">Grades are our estimates, not promises. 21+, bet what you can lose.</div></div>
+      <div class="flag g"><b>How we use the jar now</b><div class="r acc">current rules</div><p>Tickets are built from 70%+ legs, but legs where our grade is 8 or more above Kalshi (⚠) stay out, because those have hit less often. A Hammer needs every leg graded 80+ with Kalshi within 7. Fewer legs means more green-only pulls.</p><div class="who">Grades are our estimates, not promises. 21+, bet what you can lose.</div></div></div>
     </div>
   </section>
 
@@ -1023,7 +1023,7 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
     <h2>Calibration <small>my grade vs what actually hit</small></h2>
     <div class="two">
       <div>
-        <p class="note">Green bars are what actually hit, white ticks are my average grade. Above 70% my grades sort winners well. Below 70% the bars flatten out: a leg I grade 45 has hit about as often as one I grade 65.</p>
+        <p class="note" id="calNote">Green bars are what actually hit, white ticks are our average grade.</p>
         <svg class="chart" id="calib" viewBox="0 0 560 280" role="img" aria-label="Estimated versus actual hit rate by tier"></svg>
       </div>
       <div>
@@ -1069,8 +1069,8 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
     <div class="two">
       <svg class="chart" id="sports" viewBox="0 0 520 240" role="img" aria-label="Hit rate by sport"></svg>
       <div>
-        <p class="note">NBA is still the engine: 155 legs, and 85% on the top tier. NFL props have been excellent on a small sample, which matters today. College football's top tier hit only 4 of 6.</p>
-        <div class="verdict w">UFC: the women's favorites went 3 for 3 last night (Milosevic, Silva, Suarez). The men's favorites went 6 of 11.</div>
+        <p class="note" id="spNote">NBA is the engine.</p>
+        <div class="verdict w">Small samples swing. A sport with fewer than 30 graded legs is too small to judge.</div>
       </div>
     </div>
   </section>
@@ -1085,7 +1085,7 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
   <!-- LEDGER -->
   <section class="panel" id="ledger">
     <h2>Ticket ledger</h2>
-    <p class="note">We show cookies, not dollars. One 🍪 is one standard ticket.</p>
+    <p class="note">We show cookies, not dollars. One 🍪 is one standard ticket. This ledger covers tickets Ace played from Nov 8 to Nov 15. Tickets played after that are in History with their results, but their stakes were not recorded, so they are not added here.</p>
 <div id="days"></div>
   </section>
 
@@ -1780,6 +1780,7 @@ const BETA={"ts": "2026-11-20T00:13:18Z", "sim_ts": "2026-11-20T00:13:41+00:00",
     return {name,out,legs,lock:x.lock||'',played:/PLAYED|Placed/i.test(name)}});
    nights.push({d,tk})});
   return {nights,w,l,hw,hl,pend,sum:`Suggested tickets ${w}-${l} · Hammers ${hw}-${hl}`}})();
+ window.__TK=TK;
  const R=typeof ROWS!=='undefined'?ROWS:[];const rec=f=>{const x=R.filter(f);return [x.filter(r=>r.hit).length,x.length]};
  const days=[...new Set(R.map(r=>r.day))];const span=days.length?days[0]+' to '+days[days.length-1]:'';
  const st=([h,n])=>`${h}-${n-h} · ${n?Math.round(100*h/n):0}% · ${n} legs`;
@@ -1967,4 +1968,22 @@ const BETAPOST={'Nov 19':{b:'TH19',src:'learning model, posted on this page at a
   T.innerHTML=`<p class="note" style="margin:0">Today's beta parlay shows up here as soon as today's board is posted.</p>`+(q?`<p class="note" style="margin:8px 0 0"><b>Posted ticket, ${last.d}</b> (${BETAPOST[last.d].src}): the Beta 3 went <b>${q.h} of ${q.n}</b>, <span class="res ${q.out==='W'?'w':'l'}">${q.out}</span>: ${q.legs.map(z=>`${z.pick} <span class="res ${z.res==='W'?'w':z.res==='L'?'l':''}">${z.res||'?'}</span>`).join(' · ')}. The Beta 10x went ${q10.h} of ${q10.n}, <span class="res ${q10.out==='W'?'w':'l'}">${q10.out}</span>.</p><p class="tiny" style="margin:6px 0 0">Backtest rebuild for the same night, for comparison only: ${rb}. It differs because the rebuild has no saved Kalshi prices for past nights.</p>`:`<p class="note" style="margin:8px 0 0">No posted ticket is saved for ${last.d}. Backtest rebuild only, not what was posted: ${rb}</p>`)}
  window.__RS={bt,perfect};
 })();
+</script>
+
+<script>
+/* live numbers: everything below is counted from ROWS (graded legs) and TK (posted tickets) */
+(function(){try{const R=typeof ROWS!=='undefined'?ROWS:[];if(!R.length)return;const $=id=>document.getElementById(id);
+ const days=[...new Set(R.map(r=>r.day))],last=days[days.length-1],pc=(h,n)=>n?Math.round(100*h/n):0;
+ const t=R.filter(r=>r.est>=70),th=t.filter(r=>r.hit).length,lt=t.filter(r=>r.day===last),lh=lt.filter(r=>r.hit).length,ah=R.filter(r=>r.hit).length;
+ const nm=new Date(CURD+'T12:00:00').toLocaleDateString('en-US',{weekday:'long'});
+ if($('homeProof'))$('homeProof').innerHTML=`<b>${pc(th,t.length)}%</b> of our 70%+ picks hit · ${th} of ${t.length} graded since ${days[0]} · last night (${last}) <b>${pc(lh,lt.length)}%</b>, ${lh} of ${lt.length}`;
+ if($('tl70')){$('tl70').textContent=`${th}/${t.length}`;$('tl70S').textContent=`${pc(th,t.length)}% across ${days.length} nights · ${last}: ${lh} of ${lt.length}`}
+ if($('tlAll')){$('tlAll').textContent=pc(ah,R.length)+'%';$('tlAllS').textContent=`${ah} of ${R.length} graded legs, all tiers, ${days[0]} to ${last}`}
+ const TK=window.__TK;if(TK&&$('tlTk')){$('tlTk').textContent=`${TK.w}-${TK.l}`;$('tlTkS').textContent=`every ticket we posted, Nov 8 to ${last} · Hammers ${TK.hw}-${TK.hl}${TK.pend?` · ${TK.pend} pending`:''}`}
+ const p=t.length?th/t.length:0,g=Math.round(100*p);if($('mbG')){$('mbG').textContent=g;$('mbR').textContent=100-g;$('mb3').textContent=Math.round(100*p*p*p)}
+ const bands=[['under 60',0,60],['60 to 69',60,70],['70 to 79',70,80],['80 to 89',80,90],['90+',90,101]].map(([n,a,b])=>{const x=R.filter(r=>r.est>=a&&r.est<b);return [n,x.filter(r=>r.hit).length,x.length]});
+ if($('calNote'))$('calNote').innerHTML='Green bars are what actually hit, white ticks are our average grade. '+bands.map(([n,h,c])=>`Graded ${n}: ${h} of ${c} (${pc(h,c)}%)`).join(' · ')+'. Above 70, a higher grade has not meant a higher hit rate so far, so a 90 is not safer than a 75. Below 60 is close to a coin flip.';
+ const sp={};R.forEach(r=>{const k=r.sport==='NCAAB'?'CBB':r.sport==='NCAAF'?'CFB':r.sport;(sp[k]=sp[k]||[0,0,0,0]);sp[k][0]+=r.hit;sp[k][1]++;if(r.est>=70){sp[k][2]+=r.hit;sp[k][3]++}});
+ if($('spNote'))$('spNote').innerHTML=Object.entries(sp).sort((a,b)=>b[1][1]-a[1][1]).map(([k,v])=>`<b>${k}</b> ${v[0]} of ${v[1]} (${pc(v[0],v[1])}%), at 70%+ ${v[2]} of ${v[3]}`).join(' · ')+`. ${days[0]} to ${last}.`;
+}catch(e){console.log('live numbers',e)}})();
 </script>
