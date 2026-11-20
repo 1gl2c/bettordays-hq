@@ -22,8 +22,8 @@ h1{{font:72px/0.98 'Archivo Black';margin:18px 0 10px;letter-spacing:-1px}}h1 em
 .t{{font:500 15px 'JetBrains Mono';font-style:normal;text-align:center;padding:6px 0;border-radius:6px}}.G{{background:#04ff9f22;color:#04ff9f}}.Y{{background:#ffb02022;color:#ffb020}}.N{{background:#ffffff14;color:#c9cfcc}}
 .tk{{margin-top:30px;border:2px solid #04ff9f;border-radius:14px;padding:22px 26px}}.tk h3{{font:30px 'Archivo Black';margin:0 0 10px;color:#04ff9f}}.tk small{{font:500 18px 'JetBrains Mono';color:#9aa3a0;margin-left:10px}}.tl{{font-size:23px;padding:5px 0;font-weight:600}}
 .foot{{position:absolute;bottom:46px;left:64px;right:64px;display:flex;justify-content:space-between;font:500 18px 'JetBrains Mono';color:#7d8582}}.brand{{font:26px 'Archivo Black';color:#f2f4f3}}.brand em{{font-style:normal;color:#04ff9f}}
-</style></head><body><div class=wrap><div class=kick>BETTORDAYS.XYZ · ENGINE V7 · 21+</div><h1>TONIGHT'S<br><em>BOARD.</em></h1>
-<div class=sub>{e(label)} · 4 AI models grade every leg from the Kalshi price. Full board, grades and reasons free on the site.</div>{rows}{tk}</div>
+</style></head><body><div class=wrap><div class=kick>BETTORDAYS.XYZ · ENGINE V8 · 21+</div><h1>TONIGHT'S<br><em>BOARD.</em></h1>
+<div class=sub>{e(label)} · Engine v8: 4 AI analysts grade blind, Kalshi referees after. Full board, each agent's sims and reasons free on the site.</div>{rows}{tk}</div>
 <div class=foot><span>21+ · NOT A GUARANTEE · PLAY SMALL</span><span class=brand>BETTOR<em>DAYS</em></span></div></body></html>"""
 async def main():
     from playwright.async_api import async_playwright
