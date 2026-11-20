@@ -10,15 +10,19 @@ set -u
 cd "$(dirname "$0")"
 export PATH="$HOME/.local/bin:$HOME/.hermes/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 
-MAX_MIN="${BD_MAX_MIN:-30}"
+MAX_MIN="${BD_MAX_MIN:-45}"   # deep research needs time: 12:40 start + 45 = 1:25 PM
 LINES_WAIT_UNTIL="${BD_WAIT_UNTIL:-1305}"
 REPO_RAW="https://raw.githubusercontent.com/1gl2c/bettordays-hq/main/pipeline"
+# Top model from each lab on OpenRouter (checked Nov 20, 2026). Update here when a newer flagship ships.
 MODELS=(
-  "chatgpt|openai/gpt-6.2-sol"
+  "chatgpt|openai/gpt-6.2-astra-pro"
   "gemini|google/gemini-4-neon"
   "grok|x-ai/grok-4.7"
-  "claude|anthropic/claude-sonnet-5.5"
+  "claude|anthropic/claude-fable-5.2"
 )
+# Deep research: web search + a terminal for running the simulation code, plenty of tool steps.
+# Reasoning effort is a Hermes setting, set once with: hermes config set agent.reasoning_effort xhigh
+EXTRA=(-t web,terminal --max-turns 80)
 
 DAY=$(date +%Y-%m-%d)
 OUT="reviews/$DAY-v8"; mkdir -p "$OUT"
@@ -56,14 +60,20 @@ run_job() { # name model promptfile outfile endmarker
   if grep -q "$mark" "$of" 2>/dev/null; then say "$name: $(basename "$of") already done, skipping"; return; fi
   [ -s "$of" ] && mv "$of" "${of%.md}.failed.$(date +%H%M).md"
   local start; start=$(date +%s)
-  hermes -z "$(cat "$pf")" --provider openrouter --model "$model" > "$of" 2> "${of%.md}.log" &
+  # if this Hermes version rejects the extra flags, rerun once without them
+  ( hermes -z "$(cat "$pf")" --provider openrouter --model "$model" "${EXTRA[@]}" > "$of" 2> "${of%.md}.log"
+    if grep -qiE "unrecognized arguments|no such option|unknown option" "${of%.md}.log"; then
+      echo "extra flags not supported, running without them" >> "${of%.md}.log"
+      hermes -z "$(cat "$pf")" --provider openrouter --model "$model" > "$of" 2>> "${of%.md}.log"
+    fi ) &
   local pid=$!
-  ( sleep $((MAX_MIN * 60)); kill "$pid" 2>/dev/null && echo "stopped at $MAX_MIN min" >> "${of%.md}.log" ) &
+  ( sleep $((MAX_MIN * 60)); pkill -P "$pid" 2>/dev/null; kill "$pid" 2>/dev/null && echo "stopped at $MAX_MIN min" >> "${of%.md}.log" ) &
   local dog=$!
   wait "$pid"; local code=$?
   kill "$dog" 2>/dev/null; wait "$dog" 2>/dev/null
   say "$name $(basename "$of"): exit $code, $(( $(date +%s) - start ))s, $(wc -c < "$of" | tr -d ' ') bytes, result: $(grep -q "$mark" "$of" && echo yes || echo NO)"
 }
+say "Models: ${MODELS[*]}"
 say "Running ${#MODELS[@]} models x 2 jobs (analyst + simulation), up to $MAX_MIN minutes each."
 for entry in "${MODELS[@]}"; do
   name="${entry%%|*}"; model="${entry##*|}"
