@@ -1,0 +1,2498 @@
+{
+ "chatgpt": {
+  "picks": [
+   {
+    "pick_no": "39",
+    "your_rank": "1",
+    "your_grade": "89",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Exact price unverified",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "44",
+    "your_rank": "2",
+    "your_grade": "85",
+    "market_price": "88.24",
+    "price_source": "DraftKings",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Colts won the first meeting",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "1",
+    "your_rank": "3",
+    "your_grade": "82",
+    "market_price": "76.19",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "good",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Scramble volatility",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "37",
+    "your_rank": "4",
+    "your_grade": "78",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Exact price unverified",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "9",
+    "your_rank": "5",
+    "your_grade": "73",
+    "market_price": "74.87",
+    "price_source": "DraftKings",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Small early season sample",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "21",
+    "your_rank": "6",
+    "your_grade": "70",
+    "market_price": "57.98",
+    "price_source": "Kalshi via BetSharp",
+    "value_verdict": "good",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Touches split and grade-price gap",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "30",
+    "your_rank": "7",
+    "your_grade": "69",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Exact permitted price unverified",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "10",
+    "your_rank": "8",
+    "your_grade": "68",
+    "market_price": "68.55",
+    "price_source": "DraftKings",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Neutral floor",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "2",
+    "your_rank": "9",
+    "your_grade": "65",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "25 read as 25+ and exact price unverified",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "3",
+    "your_rank": "10",
+    "your_grade": "64",
+    "market_price": "62.26",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Targets shared with Collins and Dell",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "20",
+    "your_rank": "11",
+    "your_grade": "64",
+    "market_price": "57.45",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "good",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Scramble opportunities and kneels",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "4",
+    "your_rank": "12",
+    "your_grade": "62",
+    "market_price": "66.67",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Thin pass volume",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "6",
+    "your_rank": "13",
+    "your_grade": "61",
+    "market_price": "59.18",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Recent workload reduced",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "17",
+    "your_rank": "14",
+    "your_grade": "61",
+    "market_price": "59.18",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "Duplicate of #6",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "43",
+    "your_rank": "15",
+    "your_grade": "61",
+    "market_price": "59.18",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "Duplicate of #6",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "13",
+    "your_rank": "16",
+    "your_grade": "60",
+    "market_price": "61.69",
+    "price_source": "Fanatics",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Bought down compared with main spread",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "15",
+    "your_rank": "17",
+    "your_grade": "60",
+    "market_price": "65.52",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Four hits in eight appearances",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "33",
+    "your_rank": "18",
+    "your_grade": "60",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Exact scoring price unverified",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "41",
+    "your_rank": "19",
+    "your_grade": "59",
+    "market_price": "60.78",
+    "price_source": "BetRivers",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Alternate spread and backdoor risk",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "47",
+    "your_rank": "20",
+    "your_grade": "58",
+    "market_price": "60.94",
+    "price_source": "Kalshi via BetSharp",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "Wembanyama under prohibited",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "48",
+    "your_rank": "21",
+    "your_grade": "57",
+    "market_price": "51.22",
+    "price_source": "BetMGM",
+    "value_verdict": "good",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Late scoring and 30-point settlement",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "16",
+    "your_rank": "22",
+    "your_grade": "56",
+    "market_price": "65.99",
+    "price_source": "Kalshi via BetSharp",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "One hit in five appearances and role uncertainty",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "22",
+    "your_rank": "23",
+    "your_grade": "55",
+    "market_price": "55.56",
+    "price_source": "BetMGM",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Bought down versus main spread",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "23",
+    "your_rank": "24",
+    "your_grade": "55",
+    "market_price": "57.26",
+    "price_source": "FanDuel close",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "Game started",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "24",
+    "your_rank": "25",
+    "your_grade": "55",
+    "market_price": "62.96",
+    "price_source": "BetMGM",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Exactly six pushes and Colorado goalie unverified",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "50",
+    "your_rank": "26",
+    "your_grade": "55",
+    "market_price": "52.38",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Route share on return unclear",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "12",
+    "your_rank": "27",
+    "your_grade": "54",
+    "market_price": "54.55",
+    "price_source": "Fanatics",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Bought down from -5.5",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "36",
+    "your_rank": "28",
+    "your_grade": "54",
+    "market_price": "46.51",
+    "price_source": "BetRivers",
+    "value_verdict": "good",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Minutes and rebounding variance",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "35",
+    "your_rank": "29",
+    "your_grade": "53",
+    "market_price": "58.51",
+    "price_source": "DraftKings",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Seven hits in 14 games",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "11",
+    "your_rank": "30",
+    "your_grade": "52",
+    "market_price": "51.92",
+    "price_source": "DraftKings",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Needs seven-point margin",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "7",
+    "your_rank": "31",
+    "your_grade": "51",
+    "market_price": "57.45",
+    "price_source": "DraftKings",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Goal-line role after groin injury",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "19",
+    "your_rank": "32",
+    "your_grade": "51",
+    "market_price": "57.45",
+    "price_source": "DraftKings",
+    "value_verdict": "poor",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "Duplicate of #7",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "38",
+    "your_rank": "33",
+    "your_grade": "51",
+    "market_price": "59.35",
+    "price_source": "FanDuel",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Seven hits in 14 games",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "42",
+    "your_rank": "34",
+    "your_grade": "51",
+    "market_price": "57.45",
+    "price_source": "DraftKings",
+    "value_verdict": "poor",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "Duplicate of #7",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "29",
+    "your_rank": "35",
+    "your_grade": "50",
+    "market_price": "62.26",
+    "price_source": "BetMGM",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Seven hits in 15 appearances",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "28",
+    "your_rank": "36",
+    "your_grade": "49",
+    "market_price": "50.00",
+    "price_source": "Kalshi via BetSharp",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Scoring volume varies",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "5",
+    "your_rank": "37",
+    "your_grade": "48",
+    "market_price": "68.75",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Recent yardage down",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "18",
+    "your_rank": "38",
+    "your_grade": "47",
+    "market_price": "61.54",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Four or fewer catches in last three",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "40",
+    "your_rank": "39",
+    "your_grade": "47",
+    "market_price": "51.22",
+    "price_source": "Lucky Rebel",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Three appearances",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "8",
+    "your_rank": "40",
+    "your_grade": "46",
+    "market_price": "48.78",
+    "price_source": "Fanatics close",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "Game started and true road game",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "49",
+    "your_rank": "41",
+    "your_grade": "44",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "No verified price for strict over 15",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "14",
+    "your_rank": "42",
+    "your_grade": "40",
+    "market_price": "41.67",
+    "price_source": "Fanatics",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Main total near 154.5 and 150 pushes",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "26",
+    "your_rank": "43",
+    "your_grade": "30",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Two Houston usage samples",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "25",
+    "your_rank": "44",
+    "your_grade": "28",
+    "market_price": "28.17",
+    "price_source": "BetRivers",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Three season appearances",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "34",
+    "your_rank": "45",
+    "your_grade": "25",
+    "market_price": "40.00",
+    "price_source": "Kalshi via BetSharp",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Three hits in 14 games",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "31",
+    "your_rank": "46",
+    "your_grade": "23",
+    "market_price": "32.79",
+    "price_source": "BetRivers",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "One TD in nine appearances",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "32",
+    "your_rank": "47",
+    "your_grade": "22",
+    "market_price": "19.05",
+    "price_source": "DraftKings",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Taylor ahead of him",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "27",
+    "your_rank": "",
+    "your_grade": "insufficient",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "No threshold",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "45",
+    "your_rank": "",
+    "your_grade": "insufficient",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "Void - Turner out",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   },
+   {
+    "pick_no": "46",
+    "your_rank": "",
+    "your_grade": "insufficient",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "Void - Turner out",
+    "sources_checked_at": "2026-11-19 16:35-16:46 PST"
+   }
+  ],
+  "tickets": [
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "9",
+    "price_used": "0.748744",
+    "price_source": "DraftKings"
+   },
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "20",
+    "price_used": "0.574468",
+    "price_source": "Lucky Rebel"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "9",
+    "price_used": "0.748744",
+    "price_source": "DraftKings"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "10",
+    "price_used": "0.685535",
+    "price_source": "DraftKings"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "44",
+    "price_used": "0.882353",
+    "price_source": "DraftKings"
+   }
+  ],
+  "summ": [
+   {
+    "ticket_name": "Main",
+    "payout_estimate": "2.3249",
+    "combined_hit_chance": "46.72",
+    "weakest_leg_pick_no": "20"
+   },
+   {
+    "ticket_name": "Regular",
+    "payout_estimate": "2.2080",
+    "combined_hit_chance": "42.19",
+    "weakest_leg_pick_no": "10"
+   }
+  ],
+  "beta": [
+   {
+    "your_rank": "1",
+    "kalshi_ticker": "KXNBAPTS-26NOV19LACSAS-LACKWAGLER1-10",
+    "your_hit_pct": "84.1",
+    "edge_pct": "28.4",
+    "sample_games": "13",
+    "simulated_yes_no": "yes",
+    "runs": "40000",
+    "key_risk": "Minutes ranged 16 to 29"
+   },
+   {
+    "your_rank": "2",
+    "kalshi_ticker": "KXNBAAST-26NOV19LACSAS-LACDGARLAND10-6",
+    "your_hit_pct": "80.5",
+    "edge_pct": "21.8",
+    "sample_games": "13",
+    "simulated_yes_no": "yes",
+    "runs": "40000",
+    "key_risk": "Spurs favored by double digits"
+   },
+   {
+    "your_rank": "3",
+    "kalshi_ticker": "KXNBAPRA-26NOV19NYKMIN-NYKJBRUNSON11-35",
+    "your_hit_pct": "69.5",
+    "edge_pct": "15.8",
+    "sample_games": "14",
+    "simulated_yes_no": "yes",
+    "runs": "40000",
+    "key_risk": "Minutes ranged 28 to 41"
+   },
+   {
+    "your_rank": "4",
+    "kalshi_ticker": "KXNBAPRA-26NOV19NYKMIN-MINJMCDANIELS3-25",
+    "your_hit_pct": "67.5",
+    "edge_pct": "13.8",
+    "sample_games": "15",
+    "simulated_yes_no": "yes",
+    "runs": "40000",
+    "key_risk": "Minutes ranged 25 to 40"
+   },
+   {
+    "your_rank": "5",
+    "kalshi_ticker": "KXNBA3PT-26NOV19GSWMEM-MEMJGRANT9-2",
+    "your_hit_pct": "65.8",
+    "edge_pct": "13.1",
+    "sample_games": "14",
+    "simulated_yes_no": "yes",
+    "runs": "40000",
+    "key_risk": "Second game in two nights"
+   },
+   {
+    "your_rank": "6",
+    "kalshi_ticker": "KXNBAAST-26NOV19GSWMEM-MEMCCOWARD23-4",
+    "your_hit_pct": "64.4",
+    "edge_pct": "12.7",
+    "sample_games": "14",
+    "simulated_yes_no": "yes",
+    "runs": "40000",
+    "key_risk": "Back-to-back after travel"
+   },
+   {
+    "your_rank": "7",
+    "kalshi_ticker": "KXNBAREB-26NOV19PORMIL-MILRROLLINS13-4",
+    "your_hit_pct": "69.0",
+    "edge_pct": "10.3",
+    "sample_games": "13",
+    "simulated_yes_no": "yes",
+    "runs": "40000",
+    "key_risk": "First game back after two illness absences"
+   },
+   {
+    "your_rank": "8",
+    "kalshi_ticker": "KXNBAREB-26NOV19PORMIL-PORJHOLIDAY5-4",
+    "your_hit_pct": "64.9",
+    "edge_pct": "5.2",
+    "sample_games": "14",
+    "simulated_yes_no": "yes",
+    "runs": "40000",
+    "key_risk": "Only 14 appearances in sample"
+   }
+  ]
+ },
+ "gemini": {
+  "picks": [
+   {
+    "pick_no": "44",
+    "your_rank": "1",
+    "your_grade": "85",
+    "market_price": "84.0",
+    "price_source": "Kalshi via Covers",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Divisional TNF variance",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "1",
+    "your_rank": "2",
+    "your_grade": "82",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Late kneel-downs in blowout",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "30",
+    "your_rank": "3",
+    "your_grade": "77",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Shooting efficiency vs NYK defense",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "9",
+    "your_rank": "4",
+    "your_grade": "76",
+    "market_price": "75.9",
+    "price_source": "Bleacher Nation",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Early-season CBB variance",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "39",
+    "your_rank": "5",
+    "your_grade": "75",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Gobert and KAT paint rebounding",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "33",
+    "your_rank": "6",
+    "your_grade": "73",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Blowout trims 4Q minutes",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "15",
+    "your_rank": "7",
+    "your_grade": "70",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Run-heavy 2H script",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "3",
+    "your_rank": "8",
+    "your_grade": "68",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Target competition and blowout script",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "10",
+    "your_rank": "9",
+    "your_grade": "66",
+    "market_price": "68.8",
+    "price_source": "BetMGM",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Seton Hall 3-1 ATS toughness",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "2",
+    "your_rank": "10",
+    "your_grade": "66",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Route share under 70 pct last 5",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "37",
+    "your_rank": "11",
+    "your_grade": "65",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Blowout risk and Wemby glass",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "5",
+    "your_rank": "12",
+    "your_grade": "65",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Only 1 rec yd last week",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "48",
+    "your_rank": "13",
+    "your_grade": "65",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "High-usage scorer (31 last game)",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "29",
+    "your_rank": "14",
+    "your_grade": "64",
+    "market_price": "61.5",
+    "price_source": "BetMGM via WinDailySports",
+    "value_verdict": "good",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Frontcourt rebound competition",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "4",
+    "your_rank": "15",
+    "your_grade": "64",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Weak IND pass offense behind backup OTs",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "24",
+    "your_rank": "16",
+    "your_grade": "63",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Goalie variance and push at 6",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "13",
+    "your_rank": "17",
+    "your_grade": "62",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "UCSB 4-0 efficiency edge",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "35",
+    "your_rank": "18",
+    "your_grade": "61",
+    "market_price": "56.3",
+    "price_source": "BetMGM via SBD",
+    "value_verdict": "good",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Low 215.5 game total",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "41",
+    "your_rank": "19",
+    "your_grade": "60",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "HOU 0-6 ATS last 6 at home",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "20",
+    "your_rank": "20",
+    "your_grade": "58",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Blowout script and kneel-downs",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "16",
+    "your_rank": "21",
+    "your_grade": "57",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Groin return workload cap",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "22",
+    "your_rank": "22",
+    "your_grade": "57",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Missing Edwards and DiVincenzo",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "6",
+    "your_rank": "23",
+    "your_grade": "56",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Missing both OTs and trailing script",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "17",
+    "your_rank": "24",
+    "your_grade": "56",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "Duplicate of pick 6",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "43",
+    "your_rank": "25",
+    "your_grade": "56",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "Duplicate of pick 6",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "49",
+    "your_rank": "26",
+    "your_grade": "56",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Low-usage 4th option",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "23",
+    "your_rank": "27",
+    "your_grade": "55",
+    "market_price": "56.0",
+    "price_source": "Kalshi via Dimers",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "Game already started",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "11",
+    "your_rank": "28",
+    "your_grade": "55",
+    "market_price": "53.5",
+    "price_source": "BetMGM",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Early CBB margin variance",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "50",
+    "your_rank": "29",
+    "your_grade": "55",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Low target volume variance",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "26",
+    "your_rank": "30",
+    "your_grade": "55",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Backup RB touch share",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "38",
+    "your_rank": "31",
+    "your_grade": "54",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "3 of 8 recent hit rate and blowout",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "12",
+    "your_rank": "32",
+    "your_grade": "54",
+    "market_price": "54.5",
+    "price_source": "FanDuel via Action Network",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Wisconsin 1-3 ATS",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "21",
+    "your_rank": "33",
+    "your_grade": "54",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Negative game script as 12.5-pt dog",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "7",
+    "your_rank": "34",
+    "your_grade": "52",
+    "market_price": "53.0",
+    "price_source": "Kalshi via Covers",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "No HOU rush TD in 32 days",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "19",
+    "your_rank": "35",
+    "your_grade": "52",
+    "market_price": "53.0",
+    "price_source": "Kalshi via Covers",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "Duplicate of pick 7",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "42",
+    "your_rank": "36",
+    "your_grade": "52",
+    "market_price": "53.0",
+    "price_source": "Kalshi via Covers",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "Duplicate of pick 7",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "28",
+    "your_rank": "37",
+    "your_grade": "52",
+    "market_price": "51.7",
+    "price_source": "BetMGM via SBD",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "41.8 pct FG efficiency",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "40",
+    "your_rank": "38",
+    "your_grade": "52",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Hand/shoulder wear and blowout script",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "18",
+    "your_rank": "39",
+    "your_grade": "51",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Poor IND passing attack",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "8",
+    "your_rank": "40",
+    "your_grade": "50",
+    "market_price": "50.5",
+    "price_source": "Fox Sports Radio 1400",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "Game already started",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "14",
+    "your_rank": "41",
+    "your_grade": "46",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "4.5 pts below 154.5 market total",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "34",
+    "your_rank": "42",
+    "your_grade": "43",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "2.5 pts above main line",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "47",
+    "your_rank": "43",
+    "your_grade": "48",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "No Wemby unders rule violation",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "36",
+    "your_rank": "44",
+    "your_grade": "38",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "Market favors U5.5 vs Wemby",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "31",
+    "your_rank": "45",
+    "your_grade": "32",
+    "market_price": "33.3",
+    "price_source": "SportsGambler",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Reduced route share and TD variance",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "25",
+    "your_rank": "46",
+    "your_grade": "29",
+    "market_price": "27.8",
+    "price_source": "SportsGambler",
+    "value_verdict": "good",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "TD variance behind Collins/Montgomery",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "32",
+    "your_rank": "47",
+    "your_grade": "21",
+    "market_price": "21.0",
+    "price_source": "Kalshi via FantasyLabs",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Backup RB on 12.5-pt underdog",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "27",
+    "your_rank": "48",
+    "your_grade": "insufficient",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "No line given",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "45",
+    "your_rank": "49",
+    "your_grade": "insufficient",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "Player ruled out (void)",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   },
+   {
+    "pick_no": "46",
+    "your_rank": "50",
+    "your_grade": "insufficient",
+    "market_price": "",
+    "price_source": "",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "Player ruled out (void)",
+    "sources_checked_at": "2026-11-19 16:35 PT"
+   }
+  ],
+  "tickets": [
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "44",
+    "price_used": "84.0",
+    "price_source": "Kalshi via Covers"
+   },
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "9",
+    "price_used": "75.9",
+    "price_source": "Bleacher Nation"
+   },
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "10",
+    "price_used": "68.8",
+    "price_source": "BetMGM"
+   },
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "29",
+    "price_used": "61.5",
+    "price_source": "BetMGM via WinDailySports"
+   },
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "35",
+    "price_used": "56.3",
+    "price_source": "BetMGM via SBD"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "44",
+    "price_used": "84.0",
+    "price_source": "Kalshi via Covers"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "9",
+    "price_used": "75.9",
+    "price_source": "Bleacher Nation"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "10",
+    "price_used": "68.8",
+    "price_source": "BetMGM"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "35",
+    "price_used": "56.3",
+    "price_source": "BetMGM via SBD"
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "44",
+    "price_used": "84.0",
+    "price_source": "Kalshi via Covers"
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "1",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "30",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "9",
+    "price_used": "75.9",
+    "price_source": "Bleacher Nation"
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "39",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "33",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "15",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "3",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "10",
+    "price_used": "68.8",
+    "price_source": "BetMGM"
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "2",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "37",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "5",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "48",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "4",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "24",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "13",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "16",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "22",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "6",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "49",
+    "price_used": "",
+    "price_source": ""
+   }
+  ],
+  "summ": [
+   {
+    "ticket_name": "Main",
+    "payout_estimate": "6.58x",
+    "combined_hit_chance": "16.65%",
+    "weakest_leg_pick_no": "35"
+   },
+   {
+    "ticket_name": "Regular",
+    "payout_estimate": "4.05x",
+    "combined_hit_chance": "26.01%",
+    "weakest_leg_pick_no": "35"
+   },
+   {
+    "ticket_name": "Long20",
+    "payout_estimate": "cannot calculate",
+    "combined_hit_chance": "0.0324%",
+    "weakest_leg_pick_no": "6"
+   }
+  ],
+  "beta": [
+   {
+    "your_rank": "1",
+    "kalshi_ticker": "KXNBAREB-26NOV19PORMIL-PORDCLINGAN23-12",
+    "your_hit_pct": "66.0",
+    "edge_pct": "4.3",
+    "sample_games": "0",
+    "simulated_yes_no": "no",
+    "runs": "0",
+    "key_risk": "Blowout trims 4Q minutes"
+   },
+   {
+    "your_rank": "2",
+    "kalshi_ticker": "KXNBAPRA-26NOV19GSWMEM-GSWBPODZIEMSKI2-25",
+    "your_hit_pct": "64.0",
+    "edge_pct": "3.3",
+    "sample_games": "0",
+    "simulated_yes_no": "no",
+    "runs": "0",
+    "key_risk": "Shooting variance as primary creator"
+   },
+   {
+    "your_rank": "3",
+    "kalshi_ticker": "KXNBAPTS-26NOV19PORMIL-MILJJAQUEZ24-15",
+    "your_hit_pct": "58.0",
+    "edge_pct": "3.3",
+    "sample_games": "0",
+    "simulated_yes_no": "no",
+    "runs": "0",
+    "key_risk": "Blowout risk vs POR"
+   },
+   {
+    "your_rank": "4",
+    "kalshi_ticker": "KXNBAREB-26NOV19LACSAS-SASVWEMBANYAMA1-12",
+    "your_hit_pct": "56.0",
+    "edge_pct": "3.3",
+    "sample_games": "0",
+    "simulated_yes_no": "no",
+    "runs": "0",
+    "key_risk": "Blowout rest risk (-15.5)"
+   },
+   {
+    "your_rank": "5",
+    "kalshi_ticker": "KXNBAPTS-26NOV19NYKMIN-NYKKTOWNS32-20",
+    "your_hit_pct": "60.0",
+    "edge_pct": "2.3",
+    "sample_games": "0",
+    "simulated_yes_no": "no",
+    "runs": "0",
+    "key_risk": "Foul trouble vs Gobert"
+   },
+   {
+    "your_rank": "6",
+    "kalshi_ticker": "KXNBAPTS-26NOV19GSWMEM-MEMCCOWARD23-15",
+    "your_hit_pct": "60.0",
+    "edge_pct": "2.3",
+    "sample_games": "0",
+    "simulated_yes_no": "no",
+    "runs": "0",
+    "key_risk": "Usage split with Boozer and Wells"
+   },
+   {
+    "your_rank": "7",
+    "kalshi_ticker": "KXNBAPTS-26NOV19NYKMIN-NYKOANUNOBY8-15",
+    "your_hit_pct": "59.0",
+    "edge_pct": "2.3",
+    "sample_games": "0",
+    "simulated_yes_no": "no",
+    "runs": "0",
+    "key_risk": "Low-possession game environment"
+   },
+   {
+    "your_rank": "8",
+    "kalshi_ticker": "KXNBA3PT-26NOV19LACSAS-SASDVASSELL24-2",
+    "your_hit_pct": "59.0",
+    "edge_pct": "2.3",
+    "sample_games": "0",
+    "simulated_yes_no": "no",
+    "runs": "0",
+    "key_risk": "3PT variance and blowout rest"
+   }
+  ]
+ },
+ "grok": {
+  "picks": [
+   {
+    "pick_no": "1",
+    "your_rank": "13",
+    "your_grade": "72",
+    "market_price": "70",
+    "price_source": "Action/DK Nov19",
+    "value_verdict": "good",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "game script",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "2",
+    "your_rank": "15",
+    "your_grade": "60",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "targets",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "3",
+    "your_rank": "21",
+    "your_grade": "50",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "competition",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "4",
+    "your_rank": "22",
+    "your_grade": "48",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "targets",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "5",
+    "your_rank": "16",
+    "your_grade": "55",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "volume",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "6",
+    "your_rank": "3",
+    "your_grade": "68",
+    "market_price": "53",
+    "price_source": "OutKick/DK Nov19",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "script",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "7",
+    "your_rank": "18",
+    "your_grade": "45",
+    "market_price": "45",
+    "price_source": "ATD odds Nov19",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "efficiency",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "8",
+    "your_rank": "34",
+    "your_grade": "48",
+    "market_price": "48",
+    "price_source": "covers Nov19",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "home",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "9",
+    "your_rank": "35",
+    "your_grade": "55",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "10",
+    "your_rank": "36",
+    "your_grade": "55",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "11",
+    "your_rank": "37",
+    "your_grade": "50",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "12",
+    "your_rank": "38",
+    "your_grade": "52",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "13",
+    "your_rank": "39",
+    "your_grade": "52",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "14",
+    "your_rank": "40",
+    "your_grade": "55",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "15",
+    "your_rank": "4",
+    "your_grade": "65",
+    "market_price": "65",
+    "price_source": "LVSB Nov19",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "total",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "16",
+    "your_rank": "19",
+    "your_grade": "50",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "script",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "17",
+    "your_rank": "46",
+    "your_grade": "68",
+    "market_price": "53",
+    "price_source": "same as 6",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "duplicate",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "18",
+    "your_rank": "17",
+    "your_grade": "58",
+    "market_price": "48",
+    "price_source": "odds Nov19",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "efficiency",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "19",
+    "your_rank": "47",
+    "your_grade": "45",
+    "market_price": "45",
+    "price_source": "same",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "duplicate",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "20",
+    "your_rank": "14",
+    "your_grade": "55",
+    "market_price": "55",
+    "price_source": "Action Nov19",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "vs IND",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "21",
+    "your_rank": "28",
+    "your_grade": "60",
+    "market_price": "55",
+    "price_source": "odds",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "script",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "22",
+    "your_rank": "31",
+    "your_grade": "52",
+    "market_price": "50",
+    "price_source": "market",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "Ant out",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "23",
+    "your_rank": "41",
+    "your_grade": "55",
+    "market_price": "57",
+    "price_source": "market",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "started",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "24",
+    "your_rank": "42",
+    "your_grade": "52",
+    "market_price": "50",
+    "price_source": "market",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "pace",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "25",
+    "your_rank": "23",
+    "your_grade": "35",
+    "market_price": "30",
+    "price_source": "ATD",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "role",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "26",
+    "your_rank": "25",
+    "your_grade": "40",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "role",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "27",
+    "your_rank": "50",
+    "your_grade": "insufficient",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "no line",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "28",
+    "your_rank": "1",
+    "your_grade": "62",
+    "market_price": "52",
+    "price_source": "covers Nov19",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "variance",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "29",
+    "your_rank": "43",
+    "your_grade": "60",
+    "market_price": "50",
+    "price_source": "market",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "recent",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "30",
+    "your_rank": "2",
+    "your_grade": "78",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "variance",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "31",
+    "your_rank": "26",
+    "your_grade": "40",
+    "market_price": "35",
+    "price_source": "ATD",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "competition",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "32",
+    "your_rank": "27",
+    "your_grade": "30",
+    "market_price": "25",
+    "price_source": "ATD",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "volume",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "33",
+    "your_rank": "9",
+    "your_grade": "55",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "efficiency",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "34",
+    "your_rank": "10",
+    "your_grade": "40",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "role",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "35",
+    "your_rank": "5",
+    "your_grade": "70",
+    "market_price": "57",
+    "price_source": "Kalshi pattern",
+    "value_verdict": "good",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "defense",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "36",
+    "your_rank": "32",
+    "your_grade": "55",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "minutes",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "37",
+    "your_rank": "33",
+    "your_grade": "70",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "38",
+    "your_rank": "7",
+    "your_grade": "65",
+    "market_price": "59",
+    "price_source": "Kalshi",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "variance",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "39",
+    "your_rank": "8",
+    "your_grade": "60",
+    "market_price": "55",
+    "price_source": "market",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "matchup",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "40",
+    "your_rank": "24",
+    "your_grade": "45",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "consistency",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "41",
+    "your_rank": "29",
+    "your_grade": "45",
+    "market_price": "42",
+    "price_source": "spread",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "ATS",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "42",
+    "your_rank": "48",
+    "your_grade": "45",
+    "market_price": "45",
+    "price_source": "same",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "duplicate",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "43",
+    "your_rank": "49",
+    "your_grade": "68",
+    "market_price": "53",
+    "price_source": "same",
+    "value_verdict": "fair",
+    "ticket_ok": "no",
+    "regular_line": "yes",
+    "key_risk": "duplicate",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "44",
+    "your_rank": "30",
+    "your_grade": "85",
+    "market_price": "87",
+    "price_source": "market",
+    "value_verdict": "poor",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "price",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "45",
+    "your_rank": "44",
+    "your_grade": "insufficient",
+    "market_price": "",
+    "price_source": "void",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "void",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "46",
+    "your_rank": "45",
+    "your_grade": "insufficient",
+    "market_price": "",
+    "price_source": "void",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "no",
+    "regular_line": "no",
+    "key_risk": "void",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "47",
+    "your_rank": "11",
+    "your_grade": "55",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "usage",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "48",
+    "your_rank": "12",
+    "your_grade": "50",
+    "market_price": "",
+    "price_source": "cannot assess",
+    "value_verdict": "cannot assess",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "recent",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "49",
+    "your_rank": "6",
+    "your_grade": "62",
+    "market_price": "57",
+    "price_source": "Kalshi",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "no",
+    "key_risk": "efficiency",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   },
+   {
+    "pick_no": "50",
+    "your_rank": "20",
+    "your_grade": "55",
+    "market_price": "50",
+    "price_source": "market",
+    "value_verdict": "fair",
+    "ticket_ok": "yes",
+    "regular_line": "yes",
+    "key_risk": "volume",
+    "sources_checked_at": "2026-11-19 16:36 PST"
+   }
+  ],
+  "tickets": [
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "30",
+    "price_used": "",
+    "price_source": "cannot calculate"
+   },
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "6",
+    "price_used": "0.53",
+    "price_source": "OutKick"
+   },
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "1",
+    "price_used": "0.70",
+    "price_source": "Action"
+   },
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "35",
+    "price_used": "0.57",
+    "price_source": "Kalshi"
+   },
+   {
+    "ticket_name": "Main",
+    "leg_pick_no": "15",
+    "price_used": "0.65",
+    "price_source": "LVSB"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "6",
+    "price_used": "0.53",
+    "price_source": "OutKick"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "35",
+    "price_used": "0.57",
+    "price_source": "Kalshi"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "15",
+    "price_used": "0.65",
+    "price_source": "LVSB"
+   },
+   {
+    "ticket_name": "Regular",
+    "leg_pick_no": "20",
+    "price_used": "0.55",
+    "price_source": "Action"
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "30",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "6",
+    "price_used": "0.53",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "1",
+    "price_used": "0.70",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "35",
+    "price_used": "0.57",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "15",
+    "price_used": "0.65",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "38",
+    "price_used": "0.59",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "39",
+    "price_used": "0.55",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "49",
+    "price_used": "0.57",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "2",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "5",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "18",
+    "price_used": "0.48",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "7",
+    "price_used": "0.45",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "16",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "3",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "21",
+    "price_used": "0.55",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "50",
+    "price_used": "0.50",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "22",
+    "price_used": "0.50",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "9",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "10",
+    "price_used": "",
+    "price_source": ""
+   },
+   {
+    "ticket_name": "Long20",
+    "leg_pick_no": "24",
+    "price_used": "0.50",
+    "price_source": ""
+   }
+  ],
+  "summ": [
+   {
+    "ticket_name": "Main",
+    "payout_estimate": "cannot calculate",
+    "combined_hit_chance": "28",
+    "weakest_leg_pick_no": "15"
+   },
+   {
+    "ticket_name": "Regular",
+    "payout_estimate": "cannot calculate",
+    "combined_hit_chance": "22",
+    "weakest_leg_pick_no": "15"
+   },
+   {
+    "ticket_name": "Long20",
+    "payout_estimate": "cannot calculate",
+    "combined_hit_chance": "5",
+    "weakest_leg_pick_no": "32"
+   }
+  ],
+  "beta": [
+   {
+    "your_rank": "1",
+    "kalshi_ticker": "KXNBAPRA-26NOV19GSWMEM-GSWBPODZIEMSKI2-25",
+    "your_hit_pct": "65",
+    "edge_pct": "4.3",
+    "sample_games": "",
+    "simulated_yes_no": "no",
+    "runs": "",
+    "key_risk": "minutes"
+   },
+   {
+    "your_rank": "2",
+    "kalshi_ticker": "KXNBAREB-26NOV19GSWMEM-GSWGSANTOS15-4",
+    "your_hit_pct": "68",
+    "edge_pct": "6.3",
+    "sample_games": "",
+    "simulated_yes_no": "no",
+    "runs": "",
+    "key_risk": "minutes"
+   },
+   {
+    "your_rank": "3",
+    "kalshi_ticker": "KXNBAPTS-26NOV19GSWMEM-MEMCCOWARD23-15",
+    "your_hit_pct": "62",
+    "edge_pct": "4.3",
+    "sample_games": "",
+    "simulated_yes_no": "no",
+    "runs": "",
+    "key_risk": "role"
+   },
+   {
+    "your_rank": "4",
+    "kalshi_ticker": "KXNBAPTS-26NOV19LACSAS-SASDFOX4-15",
+    "your_hit_pct": "70",
+    "edge_pct": "11.3",
+    "sample_games": "",
+    "simulated_yes_no": "no",
+    "runs": "",
+    "key_risk": "usage"
+   },
+   {
+    "your_rank": "5",
+    "kalshi_ticker": "KXNBAPTS-26NOV19LACSAS-SASJCHAMPAGNIE30-10",
+    "your_hit_pct": "65",
+    "edge_pct": "6.3",
+    "sample_games": "",
+    "simulated_yes_no": "no",
+    "runs": "",
+    "key_risk": "role"
+   },
+   {
+    "your_rank": "6",
+    "kalshi_ticker": "KXNBAREB-26NOV19NYKMIN-MINADOSUNMU13-4",
+    "your_hit_pct": "65",
+    "edge_pct": "3.3",
+    "sample_games": "",
+    "simulated_yes_no": "no",
+    "runs": "",
+    "key_risk": "minutes"
+   },
+   {
+    "your_rank": "7",
+    "kalshi_ticker": "KXNBAPTS-26NOV19NYKMIN-NYKJBRUNSON11-25",
+    "your_hit_pct": "60",
+    "edge_pct": "0.3",
+    "sample_games": "",
+    "simulated_yes_no": "no",
+    "runs": "",
+    "key_risk": "defense"
+   },
+   {
+    "your_rank": "8",
+    "kalshi_ticker": "KXNBAPTS-26NOV19PORMIL-MILTHERRO11-20",
+    "your_hit_pct": "55",
+    "edge_pct": "-2.7",
+    "sample_games": "",
+    "simulated_yes_no": "no",
+    "runs": "",
+    "key_risk": "recent form"
+   }
+  ]
+ }
+}
