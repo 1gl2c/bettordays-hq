@@ -1,6 +1,6 @@
 import re,json
 s=open('bettordays-hq.html').read()
-DAYK=[('WE18','2026-11-18','Wednesday Nov 18'),('TU17','2026-11-17','Tuesday Nov 17'),('MN16','2026-11-16','Monday Nov 16'),('SN15','2026-11-15','Sunday Nov 15'),('SAT','2026-11-14','Saturday Nov 14'),('FRI','2026-11-13','Friday Nov 13'),('THU','2026-11-12','Thursday Nov 12'),('WED','2026-11-11','Wednesday Nov 11'),('TUE','2026-11-10','Tuesday Nov 10')]
+DAYK=[('TH19','2026-11-19','Thursday Nov 19'),('WE18','2026-11-18','Wednesday Nov 18'),('TU17','2026-11-17','Tuesday Nov 17'),('MN16','2026-11-16','Monday Nov 16'),('SN15','2026-11-15','Sunday Nov 15'),('SAT','2026-11-14','Saturday Nov 14'),('FRI','2026-11-13','Friday Nov 13'),('THU','2026-11-12','Thursday Nov 12'),('WED','2026-11-11','Wednesday Nov 11'),('TUE','2026-11-10','Tuesday Nov 10')]
 for k,day,lab in DAYK:
   m=re.search(r'const '+k+r'=(\[.*?\]);\n',s)
   if m: MON=json.loads(m.group(1)); break
