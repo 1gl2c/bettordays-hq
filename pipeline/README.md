@@ -81,7 +81,7 @@ Re-running gives the same output as the original scripts. Some saved outputs wer
 
 `review_packet/beta_backfill.py` records Beta line outcomes from ESPN box scores and Kalshi settlement. It never edits the saved pregame predictions. Nov 18 output: `beta/beta_backfill_nov18.json`.
 
-`thu/` is the Nov 19 slate: same scripts as `wed/` and `mon/`, with tonight's inputs and pick list.
+`thu/` is the Nov 19 slate: same scripts as `wed/` and `mon/`, with that night's inputs and pick list. `thu/res/` grades its results from ESPN box scores (`fetch.py`, `grade.py` -> `thu/thu_graded.json`), `thu/res/db.sql` is the database update, and `thu/res/record_add.py` appends the night to `record.json`. `thu_res_patch.py` publishes the results, the Beta track record, the AI panel scores and the Thursday recap into the site source. Beta outcomes: `beta19/beta_backfill_nov19.json`.
 
 `review_packet/rs_export.cjs` exports the Perfect Parlays backtest and hindsight data from the built `index.html`, using a headless browser.
 
