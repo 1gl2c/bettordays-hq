@@ -50,11 +50,12 @@ textarea{width:100%;background:var(--p2);color:var(--tx);border:1px solid var(--
     <div class="or">or paste the legs</div>
     <textarea id="txt" placeholder="Trae Young 10+ points&#10;Isaiah Hartenstein 2+ assists&#10;Thunder ML"></textarea>
     <button class="btn go full" id="go" type="button" style="margin-top:12px">Grade it</button>
+    <p class="lbl" id="acct" style="margin:10px 0 0;color:var(--dim,#8a9a93)">Free account needed · 10 grades a day · crop out your name, balance and bet IDs. We keep the legs, not the image.</p>
     <div class="msg" id="msg"></div>
     <div class="load" id="load"><div class="bar"><i></i></div><div class="steps" id="steps"></div></div>
   </div>
   <div id="out"></div>
-  <p class="foot">Grades are estimates, not promises. A parlay only cashes if every leg hits. 21+. Bet what you can lose. If gambling stops being fun, call or text 1-800-GAMBLER.</p>
+  <p class="foot">Grades are estimates, not promises. A parlay only cashes if every leg hits. 21+. Bet what you can lose. If gambling stops being fun, call or text 1-800-MY-RESET.</p>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
 <script src="/sb.js"></script>
@@ -86,14 +87,17 @@ function render(r){
   h+=`<p class="foot">Agents tonight: ${esc((r.agents||[]).join(', ')||'none answered')}. ${r.left!=null?`${r.left} free grades left today.`:''}</p>`;
   $('out').innerHTML=h;$('out').scrollIntoView({behavior:'smooth',block:'start'});
 }
+/* tell people up front, and keep their pasted legs (Nov 20 ChatGPT audit) */
+try{const d=localStorage.getItem('bd_grade_draft');if(d&&!$('txt').value)$('txt').value=d}catch(e){}
+sb&&sb.auth.getSession().then(({data})=>{if(!data.session){$('go').textContent='Join free to grade'}}).catch(()=>{});
 $('go').onclick=async()=>{
   const M=$('msg');M.className='msg';M.textContent='';
   const text=$('txt').value.trim();if(!IMG&&text.length<4){M.className='msg bad';M.textContent='Add a screenshot or paste your legs.';return}
   const s=(await sb.auth.getSession()).data.session;
-  if(!s){M.className='msg bad';M.innerHTML='Grading is free with an account. <a href="/?join=1">Join free</a> or <a href="/?join=1">log in</a>, then come back.';return}
+  if(!s){try{localStorage.setItem('bd_grade_draft',text)}catch(e){}M.className='msg bad';M.innerHTML='Grading is free with an account. <a href="/?join=1">Join free</a> or <a href="/?join=1">log in</a>. Your pasted legs stay here for when you come back.';return}
   $('go').disabled=true;steps(true);$('out').innerHTML='';
   try{const r=await fetch('/api/grade-slip',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+s.access_token},body:JSON.stringify(IMG?{image:IMG}:{text})});
-    const j=await r.json().catch(()=>({error:'Something went wrong.'}));if(!r.ok)throw new Error(j.error||'Something went wrong.');render(j)}
+    const j=await r.json().catch(()=>({error:'Something went wrong.'}));if(!r.ok)throw new Error(j.error||'Something went wrong.');try{localStorage.removeItem('bd_grade_draft')}catch(e){}render(j)}
   catch(e){M.className='msg bad';M.textContent=e.message}
   finally{$('go').disabled=false;steps(false)}};
 })();

@@ -25,7 +25,7 @@ h1{{font:72px/0.98 'Archivo Black';margin:18px 0 10px;letter-spacing:-1px}}h1 em
 .foot{{position:absolute;bottom:46px;left:64px;right:64px;display:flex;justify-content:space-between;font:500 18px 'JetBrains Mono';color:#7d8582}}.brand{{font:26px 'Archivo Black';color:#f2f4f3}}.brand em{{font-style:normal;color:#04ff9f}}
 </style></head><body><div class=wrap><div class=kick>BETTORDAYS.XYZ · ENGINE V8 · 21+</div><h1>TONIGHT'S<br><em>BOARD.</em></h1>
 <div class=sub>{e(label)} · Engine v8: 4 AI analysts grade blind, Kalshi referees after. Full board, each agent's sims and reasons free on the site.</div>{rows}{tk}</div>
-<div class=foot><span>21+ · NOT A GUARANTEE · 1-800-GAMBLER</span><span class=brand>BETTOR<em>DAYS</em></span></div></body></html>"""
+<div class=foot><span>21+ · NOT A GUARANTEE · 1-800-MY-RESET</span><span class=brand>BETTOR<em>DAYS</em></span></div></body></html>"""
 async def main():
     from playwright.async_api import async_playwright
     async with async_playwright() as p:
