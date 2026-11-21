@@ -41,7 +41,7 @@ CLAUDE_NAV = ["1,Tonight,Hammer or We passed with Copy and the Master board", "2
  "5,More,Sign-up offers and how it works and account"]
 
 agents = {}
-for name in ['gemini', 'grok']:
+for name in ['gemini', 'grok', 'chatgpt']:
     t = open(os.path.join(D, name + '.md'), errors='replace').read()
     agents[name] = {'audit': block(t, 'BD_AUDIT'), 'verdict': block(t, 'BD_VERDICT'), 'nav': block(t, 'BD_NAV'), 'bytes': len(t)}
 agents['claude'] = {'audit': CLAUDE_AUDIT, 'verdict': CLAUDE_VERDICT, 'nav': CLAUDE_NAV, 'bytes': 0}
@@ -79,7 +79,7 @@ def bars(rows, lo=-25, hi=25):
                    f'<text x="{(x+5 if v>=0 else x-5):.1f}" y="{y+34}" class="val" text-anchor="{"start" if v>=0 else "end"}">{v:+.1f}%</text>')
     out.append('</svg>'); return ''.join(out)
 
-AG = [('claude', 'Claude', 'Done here in this chat. Fable hit the credit limit.'), ('grok', 'Grok 4.7', '17 KB report'), ('gemini', 'Gemini 4 Neon', '44 KB report')]
+AG = [('chatgpt', 'ChatGPT', ''), ('grok', 'Grok 4.7', ''), ('gemini', 'Gemini 4 Neon', ''), ('claude', 'Claude', '')]
 VIDEAS = ['parlay grader', 'bonus finder', 'referral program', 'paid tier', 'multi-model blend', 'X capper automation']
 def vmap(rows):
     m = {}
@@ -90,8 +90,8 @@ def vmap(rows):
 V = {a: vmap(agents[a]['verdict']) for a, _, _ in AG}
 def tone(v):
     v = v.lower()
-    if any(k in v for k in ['pause', 'later', 'not', 'delay']): return 'wait'
-    if any(k in v for k in ['rebuild', 're-architect', 'ask', 'rewrite', 'unpaid']): return 'fix'
+    if any(k in v for k in ['pause', 'later', 'not', 'delay', 'after']): return 'wait'
+    if any(k in v for k in ['rebuild', 're-architect', 'ask', 'rewrite', 'unpaid', 'informational', 'shadow', 'pilot', 'opt-in']): return 'fix'
     return 'go'
 
 vt = ['<div class="tblwrap"><table class="vt"><thead><tr><th>Idea</th>' + ''.join(f'<th>{n}</th>' for _, n, _ in AG) + '</tr></thead><tbody>']
@@ -123,8 +123,8 @@ def lists(a):
 page = open(os.path.join(D, 'template.html')).read()
 page = (page.replace('{{TIERS}}', bars(ROI['tiers'])).replace('{{WEEKS}}', bars(ROI['weeks']))
             .replace('{{STATS}}', bars(ROI['stats'])).replace('{{VERDICTS}}', ''.join(vt))
-            .replace('{{NAV_claude}}', navs('claude')).replace('{{NAV_grok}}', navs('grok')).replace('{{NAV_gemini}}', navs('gemini'))
-            .replace('{{LIST_claude}}', lists('claude')).replace('{{LIST_grok}}', lists('grok')).replace('{{LIST_gemini}}', lists('gemini')))
+            .replace('{{NAV_claude}}', navs('claude')).replace('{{NAV_chatgpt}}', navs('chatgpt')).replace('{{NAV_grok}}', navs('grok')).replace('{{NAV_gemini}}', navs('gemini'))
+            .replace('{{LIST_claude}}', lists('claude')).replace('{{LIST_chatgpt}}', lists('chatgpt')).replace('{{LIST_grok}}', lists('grok')).replace('{{LIST_gemini}}', lists('gemini')))
 assert '—' not in page, 'em dash in page'
 open(os.path.join(D, 'audit.html'), 'w').write(page)
 print('ok', {k: (len(v['audit']), len(v['verdict']), len(v['nav'])) for k, v in agents.items()})
