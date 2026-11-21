@@ -77,7 +77,8 @@ for m, t in top10.items():
 alltips = {m: tips.get(m, []) for m in MODELS}
 res = {'date': day, 'engine': 'v8', 'models': status, 'legs': legs, 'board': [l['i'] for l in board], 'low': [l['i'] for l in low],
        'removed': [l['i'] for l in removed], 'nograde': [l['i'] for l in legs if l['tier'] == 'X'],
-       'hammer': {'legs': [l['i'] for l in ham] if ham else [], 'pay': round(payout(ham), 2) if ham else None, 'none': ham_why},
+       'hammer': {'legs': [l['i'] for l in ham] if ham else [], 'pay': round(payout(ham), 2) if ham else None, 'none': ham_why,
+                  'hit': ham[0]['_ham'][0] if ham else None, 'pay_net': ham[0]['_ham'][1] if ham else None, 'ev': ham[0]['_ham'][2] if ham else None},
        'perfect': perf, 'split': [l['i'] for l in split], 'agree': [l['i'] for l in agree], 'votes': votes, 'tips': alltips,
        'fades': {str(i): v for i, v in fades.items()}}
 json.dump(res, open(D + 'v7_merged.json', 'w'), indent=1)

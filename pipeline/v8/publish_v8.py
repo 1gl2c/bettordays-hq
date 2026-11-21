@@ -55,19 +55,19 @@ H = M['hammer']
 TIX = []
 if H['legs']:
     hl = [L[i] for i in H['legs']]
-    hit = 1
-    for l in hl: hit *= l['pub'] / 100
-    TIX.append({'t': f'Hammer · {len(hl)} legs', 'c': '#04ff9f', 'legs': [l['p'] for l in hl], 'stake': 'Biggest share',
-                'v': 'Engine v7 Hammer: every leg is published 75+ with Kalshi at or above our grade or within 3, in a strong market (points, assists, threes or a favorite moneyline), from a different game, and not on a back-to-back. A rule we are testing, not proof these hit.',
-                'lock': f"About {H['pay']:.2f}x at Kalshi's prices", 'hit': f'About {round(100 * hit)}% by our grades'})
+    TIX.append({'t': f'Hammer · {len(hl)} legs', 'c': '#04ff9f', 'legs': [l['p'] for l in hl], 'stake': 'Play small',
+                'v': 'EV Hammer: legs Kalshi prices at 80 to 92 cents that our grade agrees with, from different games. Favorites at that price hit 88.5% on our record, a bit more than the price says. The ticket goes up only if that math beats the payout after fees. Being tracked as $1 bets from Nov 21; it switches itself off if it loses.',
+                'lock': f"About {H['pay']:.2f}x at Kalshi's prices", 'hit': f"About {H['hit']}% to hit · {H['ev']:+.1f}% expected after fees" if H.get('hit') else ''})
+    # Nov 20 ChatGPT audit: every ticket shows the win rate it needs next to the win rate we expect
+    TIX[-1]['be'] = round(100 / H['pay_net'], 1) if H.get('pay_net') else None
 
 
 def perf_out(t):
-    o = {'name': t['name'], 'none': t['none'], 'legs': [], 'pay': t['pay'], 'hit': t['hit']}
+    o = {'name': t['name'], 'none': t['none'], 'legs': [], 'pay': t['pay'], 'hit': t['hit'], 'ev': t.get('ev')}
     for i in t['legs']:
         l = L[i]; o['legs'].append({'p': l['p'], 'pub': l['pub'], 'k': l['k'], 'g': l['g']})
     if t['legs']:
-        o['why'] = 'Built from the highest-graded GREEN legs whose combined Kalshi price lands in this payout range.'
+        o['why'] = f"Favorite-edge legs from different games. About {t['hit']}% to hit at {t['pay']}x after fees, {t['ev']:+.1f}% expected." 
     return o
 
 

@@ -93,48 +93,74 @@ def payout(legs):
     return 1 / p
 
 
+def _calib():
+    """Calibration weights and ticket mode from calib.json (built daily by pipeline/calib.py)."""
+    import sys, os
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
+    import calib
+    return calib, calib.load()
+
+
+def edge_pool(legs):
+    """Favorite-edge legs (Ace, Nov 20): Kalshi 80-92c, our grade 75+ and not 8+ above Kalshi, clean flags, models within 12.
+    Each gets p_true (calibrated favorite curve) and ev (per $1 after Kalshi fees)."""
+    C, D = _calib()
+    out = []
+    for l in legs:
+        k = l.get('k')
+        if k is None or not (C.FAV_LO <= k <= C.FAV_HI) or l.get('pub') is None or l['pub'] < 75 or l.get('tier') not in ('G', 'Y'): continue
+        if l.get('b2b') or l.get('rule') or l.get('void') or (l.get('spread') is not None and l['spread'] >= SPLIT_MAX): continue
+        p = C.fav_chance(D['kalshi'], k)
+        out.append(dict(l, p_true=round(p, 4), ev=round(C.ev(p, k), 4)))
+    out.sort(key=lambda l: (-l['p_true'], -l['ev']))
+    return out, C, D
+
+
+def _combo_stats(c, C):
+    hit, cost = 1.0, 1.0
+    for l in c:
+        hit *= l['p_true']; q = l['k'] / 100; cost *= q + C.fee(q)
+    return hit, 1 / cost, hit / cost - 1     # hit chance, payout after fees, EV per $1
+
+
+def _best(pool, C, sizes, min_hit, key):
+    best = None
+    for n in sizes:
+        for c in itertools.combinations(pool[:14], n):
+            if len({l['g'] for l in c}) < n or len({l['player'] for l in c}) < n: continue
+            hit, pay, e = _combo_stats(c, C)
+            if e < 0.02 or hit < min_hit: continue
+            sc = key(hit, e)
+            if best is None or sc > best[0]: best = (sc, c, hit, pay, e)
+    return best
+
+
 def hammer(legs):
-    """v7 Hammer: 3 to 5 legs, each GREEN or within 3 of Kalshi, published 75+, strong market,
-    no two from the same game, no back-to-backs, no Ace-rule legs, pays 2x or more (Ace's rule).
-    Returns (ticket_legs, reason_if_none)."""
-    ok = [l for l in legs if l['pub'] is not None and l['pub'] >= HAM_MIN and l.get('k') is not None
-          and l['k'] >= l['pub'] - HAM_WITHIN and ticket_ok(l)]
-    ok.sort(key=lambda l: (-l['pub'], -l['k']))
-    pick, games, players = [], set(), set()
-    for l in ok:
-        if l['g'] in games or l['player'] in players: continue
-        pick.append(l); games.add(l['g']); players.add(l['player'])
-        pay = payout(pick)
-        if len(pick) >= 3 and pay >= 2: break
-        if len(pick) == 5: break
-    if len(pick) < 3:
-        return None, f"Only {len(pick)} leg{'s' if len(pick)!=1 else ''} qualif{'y' if len(pick)!=1 else 'ies'} (GREEN or within 3 of Kalshi, 75+, points, assists, threes or NBA favorite moneylines, different games, no back-to-backs, models within 12 points). Passing is a win."
-    pay = payout(pick)
-    if pay < 2:
-        return None, f"The best {len(pick)} qualifying legs pay only {pay:.2f}x at Kalshi's prices, under the 2x minimum. Passing is a win."
-    return pick, None
+    """EV Hammer (replaces the 2x minimum, Ace Nov 20): 2 to 4 favorite-edge legs from different games, the highest
+    hit chance whose expected value after Kalshi fees is at least +2%. Any payout is allowed. Returns (legs, reason)."""
+    pool, C, D = edge_pool(legs)
+    if D.get('mode') == 'pass':
+        f = D.get('forward', {})
+        return None, f"Pass mode: the favorite-edge tickets lost money over {f.get('legs')} tracked legs ({f.get('roi')}% after fees), so we only post tickets again once sharp-book prices show a real edge."
+    b = _best(pool, C, (2, 3, 4), 0.5, lambda h, e: (round(h, 3), e))
+    if not b:
+        return None, f"No 2 to 4 legs from different games priced 80-92 cents made money after fees at a 50%+ hit chance ({len(pool)} leg{'s' if len(pool) != 1 else ''} qualified). Passing is a win."
+    for l in b[1]: l['_ham'] = (round(100 * b[2]), round(b[3], 2), round(100 * b[4], 1))
+    return list(b[1]), None
 
 
 def perfect(legs):
-    """Safe / Core / Stretch from GREEN legs only, one leg per game and player.
-    Chooses the combo with the highest product of published grades inside each payout window."""
-    g = [l for l in legs if l['tier'] == 'G' and l['pub'] is not None and l.get('k') is not None and ticket_ok(l)]
-    g.sort(key=lambda l: -l['pub']); g = g[:22]
-    spec = [('Safe', (2, 2), (2.0, 2.5)), ('Core', (3, 4), (2.5, 4.0)), ('Stretch', (4, 5), (4.0, 99))]
-    out = []   # only points, assists, threes and NBA favorite MLs since the Nov 20 audit (rebound parlays were a loss by our own grades)
-    for name, (lo, hi), (pmin, pmax) in spec:
-        best = None
-        for n in range(lo, hi + 1):
-            for c in itertools.combinations(g, n):
-                if len({l['g'] for l in c}) < n or len({l['player'] for l in c}) < n: continue
-                pay = payout(c)
-                if pay is None or not (pmin <= pay <= pmax): continue
-                prob = 1
-                for l in c: prob *= l['pub'] / 100
-                if best is None or prob > best[0]: best = (prob, c, pay)
-        out.append({'name': name, 'legs': [l['i'] for l in best[1]] if best else [], 'pay': round(best[2], 2) if best else None,
-                    'hit': round(100 * best[0]) if best else None,
-                    'none': None if best else f"Not enough GREEN legs at 70+ from different games to reach {pmin:g}x" + (" or more." if pmax >= 99 else f" to {pmax:g}x.")})
+    """Safe / Core / Stretch from favorite-edge legs, one leg per game and player, each +2% EV or better after fees.
+    Safe: 2 legs, highest hit chance. Core: 3 legs, highest EV with 45%+ hit. Stretch: 4-5 legs, highest EV with 30%+ hit."""
+    pool, C, D = edge_pool(legs)
+    spec = [('Safe', (2,), 0.6, lambda h, e: (h, e)), ('Core', (3,), 0.45, lambda h, e: (e, h)), ('Stretch', (4, 5), 0.3, lambda h, e: (e, h))]
+    out = []
+    for name, sizes, mh, key in spec:
+        b = None if D.get('mode') == 'pass' else _best(pool, C, sizes, mh, key)
+        out.append({'name': name, 'legs': [l['i'] for l in b[1]] if b else [], 'pay': round(b[3], 2) if b else None,
+                    'hit': round(100 * b[2]) if b else None, 'ev': round(100 * b[4], 1) if b else None,
+                    'none': None if b else ('Pass mode until sharp-book prices are live.' if D.get('mode') == 'pass' else
+                                            f"No {'-'.join(map(str, sizes))}-leg combo from different games made +2% after fees at a {round(100*mh)}%+ hit chance.")})
     return out
 
 
