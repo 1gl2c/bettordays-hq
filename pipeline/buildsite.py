@@ -1,5 +1,12 @@
 import re,json
 s=open('bettordays-hq.html').read()
+# ROI after Kalshi fees for priced 70+ legs ($1 singles at the logged price), shown next to the hit rate (Nov 20 audit)
+_L=[l for l in json.load(open('/home/claude/bettordays-hq/record.json'))['legs'] if l.get('k') and l['res'] in ('W','L') and l['g']>=70]
+def _roi(ls):
+  c=sum(l['k']/100+0.07*(l['k']/100)*(1-l['k']/100) for l in ls);w=sum(l['res']=='W' for l in ls);return round(100*(w-c)/c,1) if ls else 0
+_R={'all':_roi(_L),'green':_roi([l for l in _L if l['k']>=l['g']]),'n':len(_L)}
+s=re.sub(r'var BD_ROI=\{[^}]*\};','var BD_ROI='+json.dumps(_R,separators=(',',':'))+';',s,count=1)
+open('bettordays-hq.html','w').write(s)
 DAYK=[('FR20','2026-11-20','Friday Nov 20'),('TH19','2026-11-19','Thursday Nov 19'),('WE18','2026-11-18','Wednesday Nov 18'),('TU17','2026-11-17','Tuesday Nov 17'),('MN16','2026-11-16','Monday Nov 16'),('SN15','2026-11-15','Sunday Nov 15'),('SAT','2026-11-14','Saturday Nov 14'),('FRI','2026-11-13','Friday Nov 13'),('THU','2026-11-12','Thursday Nov 12'),('WED','2026-11-11','Wednesday Nov 11'),('TUE','2026-11-10','Tuesday Nov 10')]
 for k,day,lab in DAYK:
   m=re.search(r'const '+k+r'=(\[.*?\]);\n',s)

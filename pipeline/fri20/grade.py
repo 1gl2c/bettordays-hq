@@ -122,7 +122,7 @@ def N(no,p,st):
   lad=ladder(p,st)
   if not lad: SUB[no]=None;print('NO KALSHI LADDER',p,st);return
   x=min(lad,key=lambda x:abs(lad[x]-72))
-  SUB[no]=addp(p,st,x,pre=f"No line was given, so we used {x}+, where Kalshi is near 72. ",moved=True)
+  SUB[no]=addp(p,st,x,pre=f"No line was given, so we used {x}+, the Kalshi rung priced closest to 72. ",moved=True)
 def team(txt,pct,g,t,ty,sp,note,k=None,cap=69,st='reg',fl=None):
   if pct is not None and cap: pct=min(pct,cap)
   r=dict(p=txt,pct=None if pct is None else max(5,round(pct)),g=g,t=t,ty=ty,st=st,n=note,sp=sp)
