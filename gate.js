@@ -41,14 +41,14 @@
   const wall = document.createElement('div'); wall.className = 'bdg-wall'; wall.setAttribute('role', 'dialog'); wall.setAttribute('aria-modal', 'true'); wall.setAttribute('aria-labelledby', 'bdgT');
   wall.innerHTML = `<div class="bdg-card">
     <h2 id="bdgT">Welcome to the <span>family</span></h2>
-    <p>Your free preview is up. Make a free account to keep using the board, the grades and every tool. Still free. Always free.</p>
+    <p>Your free preview is up. Make a free account to keep using the board, the grades and every tool. No card needed.</p>
     <div class="bdg-joke">Relax, we're not stealing your data. We're stealing your weekends. Your email gets picks and updates, nothing else, and we never sell it.</div>
     <div class="bdg-tabs" role="tablist"><button type="button" class="on" data-t="join" role="tab">Join free</button><button type="button" data-t="login" role="tab">Log in</button></div>
     <form id="bdgJoin" novalidate>
       <label for="bdgE">Email</label><input id="bdgE" type="email" autocomplete="email" required>
       <label for="bdgP">Password</label><input id="bdgP" type="password" autocomplete="new-password" minlength="8" required><div class="bdg-hint">8+ characters</div>
       <label for="bdgU">Username</label><input id="bdgU" type="text" autocomplete="username" maxlength="20" required><div class="bdg-hint" id="bdgUH">3 to 20 letters, numbers or _</div>
-      <label for="bdgPh">Phone (optional)</label><input id="bdgPh" type="tel" autocomplete="tel" maxlength="25">
+      <label for="bdgPh">Phone (optional). We never text without a separate yes from you.</label><input id="bdgPh" type="tel" autocomplete="tel" maxlength="25">
       <label class="bdg-chk"><input type="checkbox" id="bdgAge" required> I'm 21 or older.</label>
       <label class="bdg-chk"><input type="checkbox" id="bdgOpt" checked> Send me picks, results and BettorDays updates. Unsubscribe anytime.</label>
       <button class="bdg-go" type="submit">Join the family</button>

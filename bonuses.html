@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Sign-Up Bonuses · BettorDays</title>
-<meta name="description" content="Pick your state: see where online sports betting is legal, which apps to check for a new-player offer, and where prediction markets fit. 21+.">
+<meta name="description" content="Pick your state: see where online sports betting is legal and which licensed apps to check for a new-player offer. 21+. 1-800-GAMBLER.">
 <meta name="theme-color" content="#0b0d0c">
 <link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,8 +32,8 @@ ul.t{margin:8px 0 0;padding-left:18px;color:var(--mu);line-height:1.6;font-size:
 <header class="top"><a class="logo" href="/">Bettor<span>Days</span></a><nav><a href="/">Picks</a><a href="/grade">Grader</a></nav></header>
 <main>
   <span class="lbl" style="color:var(--acc)">Sign-up bonuses · 21+</span>
-  <h1>Free money <em>where you live.</em></h1>
-  <p class="sub">Pick your state. We show whether online sports betting is legal there, which licensed apps to check for a new-player offer, and where prediction markets fit. Offers change every day, so every link goes to the official site, not a number we typed in.</p>
+  <h1>Sign-up offers <em>where you live.</em></h1>
+  <p class="sub">Pick your state. We show whether online sports betting is legal there, which licensed apps to check for a new-player offer. Most offers pay site credit you have to play through, not cash. Offers change every day, so every link goes to the official site, not a number we typed in.</p>
   <label class="lbl" for="state">Your state</label>
   <select id="state" style="margin-top:6px"><option value="">Choose your state</option></select>
   <div id="out"></div>
@@ -61,12 +61,15 @@ const sel=document.getElementById('state'),out=document.getElementById('out');
 sel.innerHTML+=Object.entries(ST).sort((a,b)=>a[1].localeCompare(b[1])).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
 let KAL=null;
 (async()=>{try{const {data}=await window.BD_SB.from('profiles').select('kalshi_link').eq('username','billprinta').maybeSingle();if(data&&/^https:\/\/(www\.)?kalshi\.com\//.test(data.kalshi_link||''))KAL=data.kalshi_link;if(sel.value)draw(sel.value)}catch(e){}})();
+// States whose officials have ordered or sued prediction markets over sports contracts (checked Nov 20, 2026). No link there.
+const PM_CONTESTED=new Set(['AZ','CT','IL','MA','MD','MI','MO','MT','NJ','NV','NY','OH','TN','WA']);
 function draw(k){try{localStorage.setItem('bd_state',k)}catch(e){}
   if(!k){out.innerHTML='';return}
   const name=ST[k],on=ONLINE.has(k),rt=RETAIL.has(k);
   let h=`<div class="card"><span class="st ${on?'ok':rt||k==='WI'?'mid':'no'}">${on?'ONLINE BETTING IS LEGAL':rt?'IN-PERSON ONLY':k==='WI'?'LEGAL, NOT LIVE YET':'NOT LEGAL YET'}</span><h2>${name}</h2>`;
   h+=on?`<p class="sub" style="margin:0">Licensed sportsbook apps can take bets from you here. Each one usually has a new-player offer. Tap an app to see today's offer on its official site. Not every app is live in every legal state.</p>${NOTE[k]?`<p class="sub" style="margin:8px 0 0;color:var(--warn)">${NOTE[k]}</p>`:''}<div class="grid">${BOOKS.map(([n,u])=>`<a class="book" href="${u}" target="_blank" rel="noopener nofollow"><b>${n}</b><span>See today's new-player offer →</span></a>`).join('')}</div>`
        :`<p class="sub" style="margin:0">${NOTE[k]||(rt?'Sports betting is legal here at licensed casinos or retail locations, but not on your phone statewide.':'Online sportsbooks are not legal in '+name+' yet. Skip any app that says otherwise: offshore books are unlicensed and can keep your money.')}</p>`;
+  if(PM_CONTESTED.has(k)){h+=`</div><div class="card"><span class="st mid">PREDICTION MARKETS</span><h2>Under review in ${name}</h2><p class="sub" style="margin:0">State officials in ${name} have challenged sports contracts on prediction markets, so we don't link to any of them here. Our board still shows Kalshi's price as a reference point for every grade.</p></div>`;out.innerHTML=h;return}
   h+=`</div><div class="card"><span class="st mid">PREDICTION MARKETS</span><h2>Kalshi</h2><p class="sub" style="margin:0">Kalshi is a federally regulated exchange where you trade yes-or-no contracts on games and player stats. It is available in most states, but some states are challenging it in court, so check the app for ${name}. Our board shows Kalshi's price next to every grade.</p>${KAL?`<a class="btn" href="${KAL}" target="_blank" rel="noopener">Join Kalshi with the BettorDays invite</a><p class="foot" style="margin-top:8px">Kalshi's referral terms apply. BettorDays may get a referral reward from Kalshi.</p>`:`<a class="btn" href="https://kalshi.com" target="_blank" rel="noopener">Open Kalshi</a>`}</div>`;
   out.innerHTML=h}
 sel.onchange=()=>draw(sel.value);

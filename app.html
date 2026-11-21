@@ -302,7 +302,7 @@ async function vMe() {
     <label class="f lbl" for="mb">Bio</label><input id="mb" maxlength="160" value="${esc(MYP.bio || '')}">
     <label class="f lbl" for="mk">Your Kalshi referral link (shows a Tail button on your profile)</label><input id="mk" type="url" placeholder="https://kalshi.com/sign-up/?referral=..." value="${esc(MYP.kalshi_link || '')}">
     <label class="f lbl" for="mv">Default visibility for new tickets</label><select id="mv"><option value="public">Everyone</option><option value="friends">Friends only</option><option value="private">Only me</option></select>
-    <label class="f lbl" for="mp">Phone (optional, private)</label><input id="mp" type="tel" maxlength="25" value="${esc((MYS && MYS.phone) || '')}">
+    <label class="f lbl" for="mp">Phone (optional, private). We never text without a separate yes from you.</label><input id="mp" type="tel" maxlength="25" value="${esc((MYS && MYS.phone) || '')}">
     <label class="f lbl" style="display:flex;gap:10px;align-items:center;text-transform:none;letter-spacing:0;font:14px Geist,sans-serif;color:var(--tx)"><input type="checkbox" id="mo" style="width:auto" ${MYS && MYS.email_opt_in ? 'checked' : ''}> Email me picks, results and updates</label>
     <button class="btn go" type="submit" style="margin-top:12px">Save</button><div class="msg" id="mm"></div>
   </form>
