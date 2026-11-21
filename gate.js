@@ -1,3 +1,5 @@
+// Referral: keep ?ref=USERNAME until the visitor has an account (claimed in the app after sign-in).
+(function(){try{const r=new URLSearchParams(location.search).get('ref');if(r&&/^[a-z0-9_]{3,20}$/i.test(r))localStorage.setItem('bd_ref',r.toLowerCase())}catch(e){}})();
 // 5 minute free preview, then a free account is required. Signed-in members never see the timer.
 (function () {
   const sb = window.BD_SB;

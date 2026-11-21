@@ -17,7 +17,7 @@ export default async function handler(req, res) {
   const msg = clean(b.msg, MAX);
   if (msg.length < 2) return res.status(400).json({ ok: false, error: 'Message is empty' });
   const user = await getUser(req);
-  const row = { name: clean(b.name, 60) || 'Anonymous', kind: ['idea', 'pick', 'feature', 'other'].includes(b.kind) ? b.kind : 'other', msg, page: clean(b.page, 120) || null, user_id: user ? user.id : null };
+  const row = { name: clean(b.name, 60) || 'Anonymous', kind: ['idea', 'pick', 'feature', 'other', 'survey'].includes(b.kind) ? b.kind : 'other', msg, page: clean(b.page, 120) || null, user_id: user ? user.id : null };
   const r = await fetch(SB_URL + '/rest/v1/feedback', { method: 'POST', headers: { apikey: SB_PUB, Authorization: 'Bearer ' + (user ? user.token : SB_PUB), 'Content-Type': 'application/json', Prefer: 'return=minimal' }, body: JSON.stringify(row) });
   if (!r.ok) { const e = await r.json().catch(() => ({})); return res.status(429).json({ ok: false, error: e.message || 'Could not send right now.' }); }
   await emailBoss(`💬 New message from ${row.name}`, `${row.name} (${row.kind}) wrote:\n\n${msg}\n\nInbox: https://bettordays.xyz/app#/inbox`);

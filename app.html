@@ -96,6 +96,8 @@ label.f{display:block;margin:10px 0 5px}
 .tbox{position:fixed;z-index:9999;width:320px;max-width:calc(100vw - 20px);background:#0e1412;border:1px solid var(--acc);padding:14px;box-shadow:0 10px 40px rgba(0,0,0,.6)}.tbox b{display:block;font:900 20px Kanit,sans-serif;text-transform:uppercase;margin:4px 0}.tbox p{margin:0 0 10px;color:#cfd8d4;font-size:14px;line-height:1.45}
 
 .tabbar,.msheet{display:none}
+.svy{position:fixed;inset:0;z-index:80;background:rgba(0,0,0,.6);backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center;padding:16px}.svy-in{width:100%;max-width:520px;max-height:92vh;overflow:auto}.svy textarea{width:100%}
+@media (max-width:600px){.svy{align-items:flex-end;padding:0}.svy-in{max-width:none;border-radius:14px 14px 0 0}}
 @media (max-width:900px){
  #nav{display:none}
  body{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
@@ -304,6 +306,7 @@ async function vMe() {
     <label class="f lbl" style="display:flex;gap:10px;align-items:center;text-transform:none;letter-spacing:0;font:14px Geist,sans-serif;color:var(--tx)"><input type="checkbox" id="mo" style="width:auto" ${MYS && MYS.email_opt_in ? 'checked' : ''}> Email me picks, results and updates</label>
     <button class="btn go" type="submit" style="margin-top:12px">Save</button><div class="msg" id="mm"></div>
   </form>
+  <div class="card" id="refBox"></div>
   <div class="card" id="kal"></div>
   <div class="row"><a class="btn" href="#/u/${esc(MYP.username)}">View my profile</a><button class="btn bad" id="so" type="button">Sign out</button></div>`;
   V.querySelector('#mv').value = (MYS && MYS.default_visibility) || 'public';
@@ -316,7 +319,7 @@ async function vMe() {
     await loadMe();
   };
   V.querySelector('#so').onclick = async () => { await sb.auth.signOut(); location.href = '/'; };
-  drawKalshi();
+  drawKalshi(); drawRef(V.querySelector('#refBox'));
 }
 
 
@@ -645,6 +648,40 @@ async function vReset() {
   V.querySelector('#rp').onsubmit = async e => { e.preventDefault(); const p = V.querySelector('#np').value; const M = V.querySelector('#rm'); if (p.length < 8) { M.className = 'msg bad'; M.textContent = '8+ characters.'; return; } const { error } = await sb.auth.updateUser({password: p}); M.className = 'msg ' + (error ? 'bad' : 'ok'); M.textContent = error ? error.message : 'Password updated.'; };
 }
 
+/* member survey (Nov 20): one honest question, asked once; answers land in the HQ inbox */
+const SURVEY='nov20';
+function surveyPrompt(){
+  if(!MYS||(MYS.surveys_done||[]).includes(SURVEY))return false;
+  try{if(sessionStorage.getItem('bd_survey_later'))return false}catch(e){}
+  const w=document.createElement('div');w.className='svy';w.innerHTML=`<div class="svy-in card" role="dialog" aria-labelledby="svyH"><span class="lbl" style="color:var(--acc)">Quick question from HQ</span><h2 id="svyH" style="margin:6px 0 4px">Be brutal with us</h2><p class="sub" style="margin:0 0 12px">You've been on bettordays.xyz. Honest answers only, not nice ones.</p>
+   <label class="f lbl" for="sq1">What's the most annoying part of it?</label><textarea id="sq1" rows="2" maxlength="400"></textarea>
+   <label class="f lbl" for="sq2">What almost made you close it?</label><textarea id="sq2" rows="2" maxlength="400"></textarea>
+   <label class="f lbl" for="sq3">If you could change one thing, what would it be?</label><textarea id="sq3" rows="2" maxlength="400"></textarea>
+   <div class="row" style="margin-top:12px"><button class="btn go" id="sqGo" type="button">Send it</button><button class="btn" id="sqLater" type="button">Not now</button><span class="sp"></span><div class="msg" id="sqM"></div></div></div>`;
+  document.body.appendChild(w);
+  w.querySelector('#sqLater').onclick=()=>{try{sessionStorage.setItem('bd_survey_later','1')}catch(e){}w.remove()};
+  w.querySelector('#sqGo').onclick=async()=>{const a=['sq1','sq2','sq3'].map(i=>w.querySelector('#'+i).value.trim());const M=w.querySelector('#sqM');
+    if(!a.some(Boolean)){M.className='msg bad';M.textContent='Answer at least one.';return}
+    const msg=`Most annoying: ${a[0]||'-'}\nAlmost closed it because: ${a[1]||'-'}\nOne change: ${a[2]||'-'}`;
+    const tok=(await sb.auth.getSession()).data.session.access_token;
+    const r=await fetch('/api/feedback',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+tok},body:JSON.stringify({name:'@'+MYP.username,kind:'survey',msg,page:'survey '+SURVEY})});
+    if(!r.ok){M.className='msg bad';M.textContent='Could not send. Try again.';return}
+    const done=[...((MYS&&MYS.surveys_done)||[]),SURVEY];await sb.from('settings').update({surveys_done:done}).eq('id',ME.id);if(MYS)MYS.surveys_done=done;
+    w.querySelector('.svy-in').innerHTML='<h2 style="margin:0 0 6px">Got it. Thank you.</h2><p class="sub" style="margin:0">HQ reads every answer. This is how the app gets better.</p>';setTimeout(()=>w.remove(),1800)};
+  return true}
+/* referrals: claim a saved code after sign-up, show your link on the Me page */
+async function claimRef(){let c=null;try{c=localStorage.getItem('bd_ref')}catch(e){}if(!c||!MYP||c===MYP.username)return;const{data}=await sb.rpc('claim_referral',{code:c});if(data==='ok')toast(`🤝 You joined with <b>@${esc(c)}</b>'s invite.`);try{localStorage.removeItem('bd_ref')}catch(e){}}
+async function drawRef(box){const link=`https://bettordays.xyz/?ref=${encodeURIComponent(MYP.username)}`;
+  const[{count},lead]=await Promise.all([sb.from('referrals').select('*',{count:'exact',head:true}).eq('referrer',ME.id),sb.rpc('referral_leaders')]);
+  const n=count||0;
+  box.innerHTML=`<h2 style="margin-top:0">🤝 Invite friends</h2><p class="sub" style="margin:0 0 10px">Your link gives friends the same free board you use. When paid plans open, every friend who joined through you gets their first month free, and you get a free month for each one. Bring 3 and you keep founders pricing for life.</p>
+   <div class="row" style="gap:8px;flex-wrap:wrap"><input id="refL" readonly value="${esc(link)}" style="flex:1;min-width:220px"><button class="btn go" id="refC" type="button">Copy link</button>${navigator.share?'<button class="btn" id="refS" type="button">Share</button>':''}</div>
+   <div class="row" style="margin-top:12px;gap:18px;flex-wrap:wrap"><div><span class="lbl">Friends joined</span><b style="font-size:26px;display:block">${n}</b></div><div><span class="lbl">Founders pricing</span><b style="font-size:18px;display:block;color:${n>=3?'var(--acc)':'inherit'}">${n>=3?'Unlocked':`${3-n} to go`}</b></div></div>
+   ${(lead.data||[]).length?`<h3 style="margin:16px 0 6px">Top inviters</h3><ol class="sub" style="margin:0;padding-left:18px">${lead.data.slice(0,5).map(x=>`<li>@${esc(x.username)} · ${x.referrals}</li>`).join('')}</ol>`:''}
+   <p class="meta" style="margin:10px 0 0">21+ only. Rewards apply to BettorDays plans only, never cash or betting credit.</p>`;
+  box.querySelector('#refC').onclick=async()=>{try{await navigator.clipboard.writeText(link);box.querySelector('#refC').textContent='Copied'}catch(e){box.querySelector('#refL').select()}};
+  const sh=box.querySelector('#refS');if(sh)sh.onclick=()=>navigator.share({title:'BettorDays',text:'Free board that grades every pick before tip and posts every result. 21+',url:link}).catch(()=>{})}
+
 function setNav(r) { document.querySelectorAll('#nav a').forEach(a => a.classList.toggle('on', a.dataset.r === r)); }
 async function route() {
   if (chan && location.hash !== '#/chat') { sb.removeChannel(chan); chan = null; }
@@ -679,8 +716,9 @@ sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') { history.repl
   if (MYS && MYS.is_admin) { const o = document.createElement('a'); o.href = '#/inbox'; o.dataset.r = 'inbox'; o.textContent = 'Inbox'; document.getElementById('nav').appendChild(o); countUnread(); watchInbox(); }
   document.getElementById('tourA').onclick = () => appTour(true);
   window.addEventListener('hashchange', route);
+  await claimRef();
   await route();
-  setTimeout(() => appTour(false), 900);
+  setTimeout(() => { if (!surveyPrompt()) appTour(false); }, 900);
 })();
 </script>
 <nav class="tabbar" aria-label="App">
