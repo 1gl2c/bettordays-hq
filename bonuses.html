@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sign-Up Bonuses · BettorDays</title>
+<meta name="description" content="Pick your state: see where online sports betting is legal, which apps to check for a new-player offer, and where prediction markets fit. 21+.">
+<meta name="theme-color" content="#0b0d0c">
+<link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@700;900&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#0b0d0c;--p:#111513;--p2:#0f1311;--line:#1f2724;--tx:#eef3f0;--mu:#8a9a93;--dim:#5b6b64;--acc:#04ff9f;--bad:#ff4d5e;--warn:#ffb020;color-scheme:dark}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--tx);font-family:Geist,system-ui,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--acc)}
+.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;padding:12px 16px;background:rgba(11,13,12,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+.logo{font:900 20px Kanit,sans-serif;text-transform:uppercase;color:var(--tx);text-decoration:none}.logo span{color:var(--acc)}
+.top nav{margin-left:auto;display:flex;gap:4px}.top nav a{font:700 11px 'Geist Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--mu);text-decoration:none;padding:8px}
+main{max-width:860px;margin:0 auto;padding:22px 16px 90px}
+.lbl{font:500 11px 'Geist Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--mu)}
+h1{font:900 clamp(36px,9vw,60px)/.95 Kanit,sans-serif;text-transform:uppercase;margin:8px 0 10px}h1 em{font-style:normal;color:var(--acc)}
+h2{font:900 26px Kanit,sans-serif;text-transform:uppercase;margin:0 0 8px}
+.sub{color:var(--mu);font-size:15px;line-height:1.55;margin:0 0 18px;max-width:640px}
+.card{background:var(--p);border:1px solid var(--line);padding:16px;border-radius:12px;margin-top:14px}
+select{width:100%;min-height:52px;background:var(--p2);color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:0 14px;font:600 17px Geist,sans-serif}
+.st{display:inline-block;font:700 11px 'Geist Mono',monospace;letter-spacing:.1em;padding:5px 8px;border-radius:6px;margin-bottom:8px}
+.ok{background:#04ff9f22;color:var(--acc)}.no{background:#ff4d5e22;color:var(--bad)}.mid{background:#ffb02022;color:var(--warn)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-top:10px}
+.book{display:flex;flex-direction:column;gap:4px;background:var(--p2);border:1px solid var(--line);border-radius:10px;padding:14px;text-decoration:none;color:var(--tx);min-height:84px}
+.book b{font-size:16px}.book span{color:var(--mu);font-size:13px}.book:hover{border-color:var(--acc)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 18px;border:1px solid var(--acc);background:var(--acc);color:#04120b;border-radius:10px;font:700 13px 'Geist Mono',monospace;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;margin-top:10px}
+ul.t{margin:8px 0 0;padding-left:18px;color:var(--mu);line-height:1.6;font-size:14px}
+.foot{margin-top:22px;font-size:12px;color:var(--dim);line-height:1.6}
+</style></head><body>
+<header class="top"><a class="logo" href="/">Bettor<span>Days</span></a><nav><a href="/">Picks</a><a href="/grade">Grader</a></nav></header>
+<main>
+  <span class="lbl" style="color:var(--acc)">Sign-up bonuses · 21+</span>
+  <h1>Free money <em>where you live.</em></h1>
+  <p class="sub">Pick your state. We show whether online sports betting is legal there, which licensed apps to check for a new-player offer, and where prediction markets fit. Offers change every day, so every link goes to the official site, not a number we typed in.</p>
+  <label class="lbl" for="state">Your state</label>
+  <select id="state" style="margin-top:6px"><option value="">Choose your state</option></select>
+  <div id="out"></div>
+  <div class="card">
+    <h2>How to use a bonus the smart way</h2>
+    <ul class="t">
+      <li>Read the terms first: most offers pay site credit, not cash, and the credit usually has to be played through.</li>
+      <li>Use the credit on our GREEN legs (graded 70+ with Kalshi at or above our grade) or check the slip in the <a href="/grade">Parlay grader</a> first.</li>
+      <li>One account per person per app. Signing up twice can get you banned.</li>
+      <li>Set a deposit limit in the app on day one.</li>
+    </ul>
+  </div>
+  <p class="foot">State status checked Nov 20, 2026 against <a href="https://www.gambling.com/us/sportsbooks/legal" rel="noopener">Gambling.com</a> (updated Oct 16, 2026) and <a href="https://www.foxsports.com/stories/betting/where-is-sports-betting-legal" rel="noopener">FOX Sports</a> (updated Nov 15, 2026). Laws change, so confirm in the app before you deposit. BettorDays is not a sportsbook and is not paid by any sportsbook for these links. 21+ (18+ for some prediction markets and in a few states). If gambling stops being fun, call or text 1-800-GAMBLER.</p>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="/sb.js"></script>
+<script>
+(function(){
+const ST={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'District of Columbia',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming'};
+const ONLINE=new Set(['AZ','AR','CO','CT','DE','DC','FL','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MO','NV','NH','NJ','NY','NC','OH','OR','PA','RI','TN','VT','VA','WV','WY']);
+const RETAIL=new Set(['MS','MT','NE','NM','ND','SD','WA']);
+const NOTE={FL:'Hard Rock Bet is the only statewide online sportsbook.',LA:'Online betting is allowed in permitted parishes only.',WI:'Online betting became law in April 2026 but has not launched yet, and only tribal operators can run it.',WA:'Betting is on tribal land only, not statewide online.',NV:'Most Nevada sportsbook apps require in-person sign-up at a casino first.',DC:'DC runs its own app plus a few licensed books near stadiums.',OR:'DraftKings is the state\'s main online sportsbook.',NH:'DraftKings is the state\'s main online sportsbook.',DE:'The state lottery runs online betting.',RI:'The state lottery runs online betting.',MT:'Sports betting is through state-licensed retail locations.'};
+const BOOKS=[['DraftKings','https://sportsbook.draftkings.com'],['FanDuel','https://sportsbook.fanduel.com'],['BetMGM','https://www.betmgm.com'],['Caesars Sportsbook','https://www.caesars.com/sportsbook-and-casino'],['Fanatics Sportsbook','https://sportsbook.fanatics.com'],['bet365','https://www.bet365.com']];
+const sel=document.getElementById('state'),out=document.getElementById('out');
+sel.innerHTML+=Object.entries(ST).sort((a,b)=>a[1].localeCompare(b[1])).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
+let KAL=null;
+(async()=>{try{const {data}=await window.BD_SB.from('profiles').select('kalshi_link').eq('username','billprinta').maybeSingle();if(data&&/^https:\/\/(www\.)?kalshi\.com\//.test(data.kalshi_link||''))KAL=data.kalshi_link;if(sel.value)draw(sel.value)}catch(e){}})();
+function draw(k){try{localStorage.setItem('bd_state',k)}catch(e){}
+  if(!k){out.innerHTML='';return}
+  const name=ST[k],on=ONLINE.has(k),rt=RETAIL.has(k);
+  let h=`<div class="card"><span class="st ${on?'ok':rt||k==='WI'?'mid':'no'}">${on?'ONLINE BETTING IS LEGAL':rt?'IN-PERSON ONLY':k==='WI'?'LEGAL, NOT LIVE YET':'NOT LEGAL YET'}</span><h2>${name}</h2>`;
+  h+=on?`<p class="sub" style="margin:0">Licensed sportsbook apps can take bets from you here. Each one usually has a new-player offer. Tap an app to see today's offer on its official site. Not every app is live in every legal state.</p>${NOTE[k]?`<p class="sub" style="margin:8px 0 0;color:var(--warn)">${NOTE[k]}</p>`:''}<div class="grid">${BOOKS.map(([n,u])=>`<a class="book" href="${u}" target="_blank" rel="noopener nofollow"><b>${n}</b><span>See today's new-player offer →</span></a>`).join('')}</div>`
+       :`<p class="sub" style="margin:0">${NOTE[k]||(rt?'Sports betting is legal here at licensed casinos or retail locations, but not on your phone statewide.':'Online sportsbooks are not legal in '+name+' yet. Skip any app that says otherwise: offshore books are unlicensed and can keep your money.')}</p>`;
+  h+=`</div><div class="card"><span class="st mid">PREDICTION MARKETS</span><h2>Kalshi</h2><p class="sub" style="margin:0">Kalshi is a federally regulated exchange where you trade yes-or-no contracts on games and player stats. It is available in most states, but some states are challenging it in court, so check the app for ${name}. Our board shows Kalshi's price next to every grade.</p>${KAL?`<a class="btn" href="${KAL}" target="_blank" rel="noopener">Join Kalshi with the BettorDays invite</a><p class="foot" style="margin-top:8px">Kalshi's referral terms apply. BettorDays may get a referral reward from Kalshi.</p>`:`<a class="btn" href="https://kalshi.com" target="_blank" rel="noopener">Open Kalshi</a>`}</div>`;
+  out.innerHTML=h}
+sel.onchange=()=>draw(sel.value);
+try{const s=localStorage.getItem('bd_state');if(s&&ST[s]){sel.value=s;draw(s)}}catch(e){}
+})();
+</script>
+</body></html>
