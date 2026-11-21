@@ -31,7 +31,7 @@ def mtext(l):
     v = ', '.join(f"{MN[m]} {x}" for m, x in l['models'].items() if x is not None)
     cap = (' Capped at Kalshi + 7.' if l['k'] is not None else ' Capped at 75.') if l['pub'] is not None and l['med'] is not None and l['pub'] < l['med'] else ''
     k = f"Kalshi {l['k']} ({TIERN[l['tier']]})." if l['k'] is not None else 'No Kalshi price, so the grade can be no higher than 75 and the leg is never on the Hammer.'
-    if l.get('eng') == 'v8':
+    if (l.get('eng') or '').startswith('v8'):
         w = next((x for x in (l.get('why') or {}).values() if x), '')
         fd = '; '.join(f"{MN[m]}: {t}" for m, t in (l.get('fade') or [])[:2])
         return (f"Engine v8 blind grades (no price shown): {v}. Our system {l['sys'] if l.get('sys') else 'none'}. Our grade, the middle of all of them: {l['med']}."
