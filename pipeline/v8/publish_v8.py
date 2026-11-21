@@ -56,7 +56,7 @@ TIX = []
 if H['legs']:
     hl = [L[i] for i in H['legs']]
     TIX.append({'t': f"{H.get('kind') or 'Hammer'} · {len(hl)} legs", 'c': '#04ff9f', 'legs': [l['p'] for l in hl], 'stake': 'Play small',
-                'v': 'EV Hammer: legs Kalshi prices at 80 to 92 cents that our grade agrees with, from different games, paying 1.5x or more after fees. Favorites at that price hit 88.5% on our record, a bit more than the price says. The ticket goes up only if that math beats the payout after fees. Being tracked as $1 bets from Nov 21; it switches itself off if it loses.',
+                'v': ('EV Hammer: legs Kalshi prices at 80 to 92 cents that our grade agrees with, from different games, paying 1.5x or more after fees.' if H.get('kind') != 'Safe Hammer' else 'Safe Hammer: no 1.5x ticket made money tonight, so this is the best ticket paying 1.35x or more after fees with a 60%+ chance to hit. Legs Kalshi prices at 80 to 92 cents that our grade agrees with, from different games.') + ' Favorites at that price hit 88.5% on our record, a bit more than the price says. The ticket goes up only if that math beats the payout after fees. Being tracked as $1 bets from Nov 21; it switches itself off if it loses.',
                 'lock': f"About {H['pay']:.2f}x at Kalshi's prices", 'hit': f"About {H['hit']}% to hit · {H['ev']:+.1f}% expected after fees" if H.get('hit') else ''})
     # Nov 20 ChatGPT audit: every ticket shows the win rate it needs next to the win rate we expect
     TIX[-1]['be'] = round(100 / H['pay_net'], 1) if H.get('pay_net') else None
@@ -128,7 +128,7 @@ status = f"{label.split(' · ')[0]} {dd.strftime('%b')} {dd.day} picks are live 
 s = re.sub(r'(<span class="lbl">)(Thursday graded[^<]*|[A-Z][a-z]+day [A-Z][a-z]{2} \d+ picks are live[^<]*|[A-Z][a-z]+day graded[^<]*)(</span>)', lambda m: m.group(1) + status + m.group(3), s, count=1)
 # legend + notes on the board
 a = s.index('<section class="panel" id="thursday">'); e = s.index('</section>', a); secx = s[a:e]
-i = secx.index('<p class="note" style="margin:6px 0 0">Kalshi ='); j = secx.index('</p>', i) + 4
+i = secx.index('<p class="note" style="margin:6px 0 0">Kalshi =') if 'margin:6px 0 0">Kalshi =' in secx else secx.index('<p class="note" style="margin:6px 0 0">Engine v8.'); j = secx.index('</p>', i) + 4
 legend = ('<p class="note" style="margin:6px 0 0">Engine v8. Four AI analysts grade every leg blind (no market price shown), and our grade is the middle of their numbers plus our own system grade. Kalshi is the referee after that. '
           'Kalshi in green: the market has it at or above our grade (GREEN). Grey: we are 1 to 7 above (YELLOW). Legs where we are 8+ above Kalshi are pulled (that gap has lost most often); see '
           '<a href="/research" data-go="research">Research, Tonight</a>. Games that started before the v8 run keep their v7 grade. No Kalshi price: capped at 75 and never on the Hammer. Grades are estimates, not promises. Prices move, so check the slip.</p>')
@@ -137,8 +137,8 @@ kchip = lambda l: f'<small class="kp">K {l["k"]}</small>' if l['k'] is not None 
 lowh = ''.join(f'<li>{html.escape(l["p"])} <span style="color:#8a9a93">{l["pub"]}%</span>{kchip(l)}</li>' for l in low)
 nogr = [L[i] for i in M['nograde']]
 flags = []
-flags.append(f'<div class="flag{" g" if nh else " w"}"><b>{"Hammer" if nh else "No Hammer tonight"}</b><div class="r{" acc" if nh else " warn"}">Engine v7</div><p>' +
-             (f"{nh} legs, about {H['pay']:.2f}x at Kalshi's prices. Every leg passes the v7 Hammer rule." if nh else html.escape(H['none'])) + '</p><div class="who">Passing is a win</div></div>')
+flags.append(f'<div class="flag{" g" if nh else " w"}"><b>{"Hammer" if nh else "No Hammer tonight"}</b><div class="r{" acc" if nh else " warn"}">EV rule</div><p>' +
+             (f"{H.get('kind') or 'Hammer'}: {nh} legs, about {H['pay_net']:.2f}x after fees, about {H['hit']}% to hit, {H['ev']:+.1f}% expected by our math." if nh else html.escape(H['none'])) + '</p><div class="who">Passing is a win</div></div>')
 flags.append(f'<div class="flag w"><b>Market disagrees</b><div class="r warn">{len(M["removed"])} removed</div><p>{len(M["removed"])} leg{"s" if len(M["removed"])!=1 else ""} had the models 8 or more above Kalshi, so {"they are" if len(M["removed"])!=1 else "it is"} off the board, the Hammer and every ticket. Listed on Research, Market check, and graded tomorrow.</p><div class="who">Engine v7</div></div>')
 flags.append('<div class="flag"><b>Models</b><div class="r">who answered</div><p>' + html.escape(' · '.join(f"{MN[k]}: {v}" for k, v in M['models'].items())) + (f" {len(nogr)} leg{'s' if len(nogr)!=1 else ''} got fewer than 2 model numbers and {'are' if len(nogr)!=1 else 'is'} not graded." if nogr else '') + '</p><div class="who">Run through Hermes</div></div>')
 rules = [L[i] for i in M['board'] if L[i].get('rule')]
@@ -159,7 +159,7 @@ open('buildsite.py', 'w').write(t.replace(o, f"DAYK=[('{K}','{day}','{label.repl
 # database load
 def q(v): return 'null' if v is None else "'" + str(v).replace("'", "''") + "'"
 now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%S+00:00')
-place = {i: 'board' for i in M['board']} | {i: 'under70' for i in M['low']} | {i: 'removed' for i in M['removed']} | {i: 'nograde' for i in M['nograde']}
+place = {i: 'board' for i in M['board']} | {i: 'under70' for i in M['low']} | {i: 'removed' for i in M['removed']} | {i: 'nograde' for i in M['nograde']} | {i: 'settled' for i in M.get('settled', [])}
 perfm = {}
 for t in M['perfect']:
     for i in t['legs']: perfm.setdefault(i, []).append(t['name'])

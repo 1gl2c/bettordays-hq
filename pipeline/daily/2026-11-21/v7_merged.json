@@ -1,0 +1,4172 @@
+{
+ "date": "2026-11-21",
+ "engine": "v8",
+ "models": {
+  "chatgpt": "76 of 76 legs graded (some research pages showed prices)",
+  "gemini": "76 of 76 legs graded",
+  "grok": "76 of 76 legs graded",
+  "claude": "76 of 76 legs graded (some research pages showed prices)"
+ },
+ "legs": [
+  {
+   "i": 1,
+   "p": "LaMelo Ball 21+ points",
+   "player": "LaMelo Ball",
+   "g": "MEM@MIN",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "pts",
+   "k": null,
+   "b2b": false,
+   "sys": 39,
+   "n": "Your line was over 20.5 points. Hit 6 of 16 this season, 1 of 5 last 5 (avg 17.6 pts). Matchup: Memphis allows 111.9 pts a game, 20th most in the league. Now with Minnesota.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 47,
+    "gemini": 58,
+    "grok": 58,
+    "claude": 38
+   },
+   "why": {
+    "chatgpt": "Edwards out lifts shot volume but Ball reached 21 in 6 of 16",
+    "gemini": "High-pace MEM matchup boosts volume after 15-pt game vs NYK",
+    "grok": "Edwards out expanded scoring role recent 20+ hits",
+    "claude": "Averaging about 18.5 ppg and Edwards out; Grizzlies hot on road"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Ball reached 21 in only six of 16 even with recent high-volume shooting nights"
+    ],
+    [
+     "grok",
+     "volume and efficiency dips recent,low minutes risk"
+    ],
+    [
+     "claude",
+     "Ball is around 18 ppg and Memphis defends the perimeter well"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 47,
+   "blend": 47,
+   "cap": null,
+   "tier": "N",
+   "pub": 47,
+   "eng": "v8",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 2,
+   "p": "Domantas Sabonis 5+ assists",
+   "player": "Domantas Sabonis",
+   "g": "BOS@SAC",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "ast",
+   "k": null,
+   "b2b": false,
+   "sys": 58,
+   "n": "Your line was over 4.5 assists. Hit 9 of 14 this season, 3 of 5 last 5 (avg 5.4 ast). Matchup: Boston allows 25.2 ast a game, 23rd most in the league (tough spot). Kings +13.5 at home against Boston, blowout risk.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 56,
+    "gemini": 71,
+    "grok": 48,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "Nine of 14 at five assists but Boston plays slowly and he logged 38 minutes last night",
+    "gemini": "Primary hub for SAC offense though blowout risk vs BOS caps 4Q",
+    "grok": "season 5.4 APG recent mixed low assists",
+    "claude": "5.4 apg and 8 in two of last three; Kings on 2nd night of back to back"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 58,
+   "blend": 58,
+   "cap": null,
+   "tier": "N",
+   "pub": 58,
+   "eng": "v8",
+   "spread": 23,
+   "solo": false
+  },
+  {
+   "i": 3,
+   "p": "Tyler Herro 4+ rebounds",
+   "player": "Tyler Herro",
+   "g": "MIL@PHI",
+   "t": "10:00 AM",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "reb",
+   "k": 58,
+   "b2b": false,
+   "sys": 53,
+   "n": "Your line was over 3.5 rebounds. Hit 8 of 15 this season, 2 of 5 last 5 (avg 4.0 reb). Matchup: Philadelphia allows 44.9 reb a game, 10th most in the league. Now with Milwaukee. Bucks are 10.5-point underdogs at Philly, blowout risk. Kalshi: 58.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 53,
+    "gemini": 62,
+    "grok": 52,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "Eight of 15 at four boards and five of the last ten",
+    "gemini": "Leads MIL in scoring and logs heavy minutes on a 1-15 team",
+    "grok": "4.0 RPG recent 2-5 range",
+    "claude": "4.1 rpg sits right on line; Bucks blowout risk cuts minutes"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "claude",
+     "Herro sits right on 4 rebounds and blowout minutes cut volume"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 53,
+   "blend": 53,
+   "cap": null,
+   "tier": "G",
+   "pub": 53,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 4,
+   "p": "Kris Dunn 6+ rebounds + assists",
+   "player": "Kris Dunn",
+   "g": "LAC@DAL",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "ast",
+   "k": null,
+   "b2b": false,
+   "sys": 64,
+   "n": "Your line was over 5.5 rebounds + assists. Hit 10 of 14 this season, 2 of 5 last 5 (avg 7.9 reb+ast). Matchup: Dallas allows 43.6 reb a game, 15th most in the league. Clippers +5.5 at Dallas.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 58,
+    "gemini": 64,
+    "grok": 32,
+    "claude": 70
+   },
+   "why": {
+    "chatgpt": "Ten of 14 cleared six combined but only two of his last five did",
+    "gemini": "Strong defensive guard who racks up rebounds and secondary assists",
+    "grok": "3.7 REB + 4.1 AST volume low",
+    "claude": "3.8 reb plus 4.2 ast avg; Clippers winless on road and Ingram out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "low combined volume,bench risk"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 64,
+   "blend": 64,
+   "cap": null,
+   "tier": "N",
+   "pub": 64,
+   "eng": "v8",
+   "spread": 38,
+   "solo": false
+  },
+  {
+   "i": 5,
+   "p": "Devin Vassell 9+ points",
+   "player": "Devin Vassell",
+   "g": "NO@SA",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "pts",
+   "k": null,
+   "b2b": false,
+   "sys": 71,
+   "n": "Your line was over 8.5 points. Hit 10 of 14 this season, 3 of 5 last 5 (avg 11.4 pts). Matchup: New Orleans allows 122.8 pts a game, 2nd most in the league (good spot). Spurs -18.5, a blowout could cut his minutes.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 72,
+    "gemini": 79,
+    "grok": 78,
+    "claude": 56
+   },
+   "why": {
+    "chatgpt": "Ten of 14 reached nine and Harper is out but a short fourth quarter costs shots",
+    "gemini": "Low scoring bar against a NOP defense allowing 123 PPG",
+    "grok": "11.4 PPG recent 6-15 consistent clear",
+    "claude": "11.0 ppg on 39.8 FG pct; Spurs blowout could trim 4th quarter"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 72,
+   "blend": 72,
+   "cap": null,
+   "tier": "N",
+   "pub": 72,
+   "eng": "v8",
+   "spread": 23,
+   "solo": false
+  },
+  {
+   "i": 6,
+   "p": "LaMelo Ball 20+ points",
+   "player": "LaMelo Ball",
+   "g": "MEM@MIN",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "pts",
+   "k": 52,
+   "b2b": false,
+   "sys": 42,
+   "n": "Hit 7 of 16 this season, 1 of 5 last 5 (avg 17.6 pts). Matchup: Memphis allows 111.9 pts a game, 20th most in the league. Now with Minnesota. Kalshi: 52.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 52,
+    "gemini": 62,
+    "grok": 65,
+    "claude": 43
+   },
+   "why": {
+    "chatgpt": "Seven of 16 reached 20 and Edwards is out against a quicker opponent",
+    "gemini": "One point safer than 21+ in a high-total MEM-MIN spot",
+    "grok": "same as 1 recent volume supports 20",
+    "claude": "Same as leg 1 with one point of cushion"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 52,
+   "blend": 52,
+   "cap": null,
+   "tier": "G",
+   "pub": 52,
+   "eng": "v8",
+   "spread": 22,
+   "solo": false
+  },
+  {
+   "i": 7,
+   "p": "Domantas Sabonis 4+ assists",
+   "player": "Domantas Sabonis",
+   "g": "BOS@SAC",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "ast",
+   "k": 71,
+   "b2b": false,
+   "sys": 63,
+   "n": "Hit 10 of 14 this season, 3 of 5 last 5 (avg 5.4 ast). Matchup: Boston allows 25.2 ast a game, 23rd most in the league (tough spot). Kings +13.5 at home against Boston, blowout risk. Kalshi: 71.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 66,
+    "gemini": 81,
+    "grok": 72,
+    "claude": 76
+   },
+   "why": {
+    "chatgpt": "Ten of 14 reached four but he had one assist last night",
+    "gemini": "Very safe floor for Sabonis even if BOS pulls away late",
+    "grok": "5.4 APG easy clear of 4",
+    "claude": "4+ assists in most games; questionable knee earlier this month"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 72,
+   "blend": 72,
+   "cap": null,
+   "tier": "Y",
+   "pub": 72,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 8,
+   "p": "Tyler Herro 4+ rebounds",
+   "player": "Tyler Herro",
+   "g": "MIL@PHI",
+   "t": "10:00 AM",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "reb",
+   "k": 58,
+   "b2b": false,
+   "sys": 53,
+   "n": "Your line was over 3.5 rebounds. Hit 8 of 15 this season, 2 of 5 last 5 (avg 4.0 reb). Matchup: Philadelphia allows 44.9 reb a game, 10th most in the league. Now with Milwaukee. Bucks are 10.5-point underdogs at Philly, blowout risk. Kalshi: 58.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 53,
+    "gemini": 62,
+    "grok": 52,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "Eight of 15 at four boards and five of the last ten",
+    "gemini": "Same 4+ line as leg 3 with solid guard rebounding rate",
+    "grok": "same as 3",
+    "claude": "Same as leg 3"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 53,
+   "blend": 53,
+   "cap": null,
+   "tier": "G",
+   "pub": 53,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 9,
+   "p": "Kris Dunn 2+ rebounds",
+   "player": "Kris Dunn",
+   "g": "LAC@DAL",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "reb",
+   "k": 74,
+   "b2b": false,
+   "sys": 88,
+   "n": "Hit 14 of 14 this season, 5 of 5 last 5 (avg 3.8 reb). Matchup: Dallas allows 43.6 reb a game, 15th most in the league. Clippers +5.5 at Dallas. Kalshi: 74.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 88,
+    "gemini": 86,
+    "grok": 82,
+    "claude": 88
+   },
+   "why": {
+    "chatgpt": "Two or more boards in all 14 despite several recent games near 20 minutes",
+    "gemini": "Routine floor for Dunn in 25+ minutes against DAL",
+    "grok": "3.7 RPG clear of 2",
+    "claude": "Very low line; 3.8 rpg"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 88,
+   "blend": 88,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 6,
+   "solo": false
+  },
+  {
+   "i": 10,
+   "p": "Kris Dunn 4+ rebounds",
+   "player": "Kris Dunn",
+   "g": "LAC@DAL",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "reb",
+   "k": 34,
+   "b2b": false,
+   "sys": 50,
+   "n": "Hit 8 of 14 this season, 1 of 5 last 5 (avg 3.8 reb). Matchup: Dallas allows 43.6 reb a game, 15th most in the league. Clippers +5.5 at Dallas. Kalshi has this at 34, far below us. Look twice.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 47,
+    "gemini": 41,
+    "grok": 55,
+    "claude": 48
+   },
+   "why": {
+    "chatgpt": "Four boards in eight of 14 but only once in his last five",
+    "gemini": "Needs above-average glass work for a guard in a road spot",
+    "grok": "3.7 RPG borderline 4",
+    "claude": "Coin flip at 3.8 rpg"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Dunn played 20 minutes or less in four of his last five and had four boards only once in that stretch"
+    ],
+    [
+     "gemini",
+     "Kris Dunn 4+ rebounds asks for high-percentile guard glass work on the road"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 14,
+   "solo": false
+  },
+  {
+   "i": 11,
+   "p": "Kris Dunn 2+ assists",
+   "player": "Kris Dunn",
+   "g": "LAC@DAL",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "ast",
+   "k": 78,
+   "b2b": false,
+   "sys": 81,
+   "n": "Hit 12 of 14 this season, 4 of 5 last 5 (avg 4.1 ast). Matchup: Dallas allows 27.7 ast a game, 9th most in the league. Clippers +5.5 at Dallas. Kalshi: 78.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 77,
+    "gemini": 83,
+    "grok": 78,
+    "claude": 87
+   },
+   "why": {
+    "chatgpt": "Twelve of 14 had two assists and four of his last five did",
+    "gemini": "Handles secondary ball-handling duties for LAC",
+    "grok": "4.1 APG clear of 2",
+    "claude": "Low line at 4.2 apg"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 81,
+   "blend": 81,
+   "cap": null,
+   "tier": "Y",
+   "pub": 81,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 12,
+   "p": "Kris Dunn 4+ assists",
+   "player": "Kris Dunn",
+   "g": "LAC@DAL",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "ast",
+   "k": 40,
+   "b2b": false,
+   "sys": 55,
+   "n": "Hit 8 of 14 this season, 2 of 5 last 5 (avg 4.1 ast). Matchup: Dallas allows 27.7 ast a game, 9th most in the league. Clippers +5.5 at Dallas. Kalshi has this at 40, far below us. Look twice.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 46,
+    "gemini": 38,
+    "grok": 48,
+    "claude": 56
+   },
+   "why": {
+    "chatgpt": "Eight of 14 had four assists but he played 20 minutes or less in four of his last five",
+    "gemini": "Requires high-end playmaking volume on a 4-10 Clippers squad",
+    "grok": "4.1 APG borderline 4",
+    "claude": "Hits about half of games plus edge with Ingram out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Kris Dunn 4+ assists is fragile on a 4-10 Clippers offense"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 13,
+   "p": "76ers ML v Bucks",
+   "player": "76ers",
+   "g": "MIL@PHI",
+   "t": "10:00 AM",
+   "sp": "NBA",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 84,
+   "b2b": false,
+   "sys": 81,
+   "n": "Graded from the betting spread (76ers -10.5). Kalshi has it at 84.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 82,
+    "gemini": 89,
+    "grok": 62,
+    "claude": 85
+   },
+   "why": {
+    "chatgpt": "Milwaukee is 1-15 with a minus 12.9 scoring margin but Brown is out and Maxey was Q",
+    "gemini": "PHI 13-3 on W4 vs MIL 1-15 on L12 even with Brown out",
+    "grok": "Maxey Q Brown out but Embiid LeBron available",
+    "claude": "13-3 home vs 1-15 Bucks; Brown out and Maxey Q"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 82,
+   "blend": 82,
+   "cap": null,
+   "tier": "G",
+   "pub": 82,
+   "eng": "v8",
+   "spread": 27,
+   "solo": false
+  },
+  {
+   "i": 14,
+   "p": "Knicks ML v Trail Blazers",
+   "player": "Knicks",
+   "g": "POR@NY",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 59,
+   "b2b": false,
+   "sys": 61,
+   "n": "Graded from the betting spread (Knicks -3.5). Kalshi has it at 59.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 61,
+    "gemini": 57,
+    "grok": 68,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Portland is missing Morant and Sharpe while Towns illness limits the home edge",
+    "gemini": "NYK 9-6 on W3 at MSG vs tough POR 10-5 road team",
+    "grok": "Morant out Knicks deeper",
+    "claude": "Anunoby doubtful and Clarkson out; Towns Q; Blazers missing Morant and Sharpe"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 61,
+   "blend": 61,
+   "cap": null,
+   "tier": "Y",
+   "pub": 61,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 15,
+   "p": "Timberwolves ML v Grizzlies",
+   "player": "Timberwolves",
+   "g": "MEM@MIN",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 68,
+   "b2b": false,
+   "sys": 71,
+   "n": "Graded from the betting spread (Timberwolves -6.5). Kalshi has it at 68.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 52,
+    "gemini": 54,
+    "grok": 72,
+    "claude": 64
+   },
+   "why": {
+    "chatgpt": "Memphis has the better scoring margin and Edwards is out but Memphis is missing Boozer and Grant",
+    "gemini": "MIN 11-5 at home vs hot MEM 12-4 on W5 and 8-0 away",
+    "grok": "Edwards out but Ball step-up Wolves stronger",
+    "claude": "Wolves top defense at home; Memphis on record road streak"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 64,
+   "blend": 64,
+   "cap": null,
+   "tier": "G",
+   "pub": 64,
+   "eng": "v8",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 16,
+   "p": "Celtics ML v Kings",
+   "player": "Celtics",
+   "g": "BOS@SAC",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 86,
+   "b2b": false,
+   "sys": 87,
+   "n": "Graded from the betting spread (Celtics -13.5). Kalshi has it at 86.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 84,
+    "gemini": 87,
+    "grok": 75,
+    "claude": 82
+   },
+   "why": {
+    "chatgpt": "Kings are 1-14 and played last night but Tatum and White were Q",
+    "gemini": "BOS 11-4 vs SAC 1-14 who are 0-9 at home on L8",
+    "grok": "Kings 1-14 Celtics deeper even with Qs",
+    "claude": "Kings 1-14 on back to back; 0-9 at home"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 84,
+   "blend": 84,
+   "cap": null,
+   "tier": "G",
+   "pub": 84,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 17,
+   "p": "Noah Fifita 295+ passing yards",
+   "player": "Noah Fifita",
+   "g": "ARIZ@KSU",
+   "t": "4:00",
+   "sp": "CFB",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "pass",
+   "k": null,
+   "b2b": false,
+   "sys": 69,
+   "n": "College football. Hit 7 of 10 this season, 5 of 5 last 5 (avg 315.0 pass yds). Arizona -10 at Kansas State, total 53.5. No Kalshi market for college player props, so this is capped at 69.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 54,
+    "gemini": 46,
+    "grok": 42,
+    "claude": 43
+   },
+   "why": {
+    "chatgpt": "Seven of ten reached 295 but Kansas State allows 178 pass yards per game and rain is forecast",
+    "gemini": "High yardage bar on the road at Kansas State in November",
+    "grok": "volume high but K-State defense and game script",
+    "claude": "About 290 ypg early season; cold night in Manhattan KS"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "gemini",
+     "295+ passing yards on the road at Kansas State in November weather is tough"
+    ],
+    [
+     "grok",
+     "pass volume vs defense"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 46,
+   "blend": 46,
+   "cap": null,
+   "tier": "N",
+   "pub": 46,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 18,
+   "p": "Jesse Legree 112+ receiving yards",
+   "player": "Jesse Legree",
+   "g": "USU@ORST",
+   "t": "7:30",
+   "sp": "CFB",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "recyds",
+   "k": null,
+   "b2b": false,
+   "sys": 52,
+   "n": "College football. Hit 5 of 10 this season, 2 of 5 last 5 (avg 134.9 rec yds). Oregon State -7.5 at home, total 51.5. No Kalshi market for college player props, so this is capped at 69.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 48,
+    "gemini": 44,
+    "grok": 38,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Five of ten reached 112 and Utah State allows only 5.9 yards per pass attempt",
+    "gemini": "15 TDs in 10 games shows elite ceiling but 112+ is a steep bar",
+    "grok": "volume dependent on Oregon State offense",
+    "claude": "Led nation at about 148 ypg early; recent form not confirmed"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Legree can command double-digit targets and still land near 100 yards"
+    ],
+    [
+     "gemini",
+     "112+ receiving yards is an extreme yardage threshold even for a high-TD WR"
+    ],
+    [
+     "grok",
+     "receiving volume dependent"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "N",
+   "pub": 48,
+   "eng": "v8",
+   "spread": 17,
+   "solo": false
+  },
+  {
+   "i": 19,
+   "p": "L.J. Phillips Jr. 102+ rushing yards",
+   "player": "L.J. Phillips Jr.",
+   "g": "IOWA@ILL",
+   "t": "11:30 AM",
+   "sp": "CFB",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "rush",
+   "k": null,
+   "b2b": false,
+   "sys": 37,
+   "n": "College football. Hit 2 of 7 this season, 2 of 5 last 5 (avg 52.3 rush yds). Iowa -8.5 at Illinois, total 40.5, a run-first script. No Kalshi market for college player props, so this is capped at 69.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 49,
+    "gemini": 48,
+    "grok": 45,
+    "claude": 30
+   },
+   "why": {
+    "chatgpt": "Last two workloads produced 128 and 123 but Illinois allows 3.93 yards per carry",
+    "gemini": "Iowa run-heavy script vs Illinois defense makes 102+ a coin flip",
+    "grok": "Iowa run-heavy but Illinois front",
+    "claude": "Iowa splits carries among several backs; Illinois game total looks low"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "claude",
+     "Iowa splits carries among several backs so 100 yards needs a big share"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 45,
+   "blend": 45,
+   "cap": null,
+   "tier": "N",
+   "pub": 45,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 20,
+   "p": "Carlos Hernandez 94+ receiving yards",
+   "player": "Carlos Hernandez",
+   "g": "WAKE@GT",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "recyds",
+   "k": null,
+   "b2b": false,
+   "sys": 60,
+   "n": "College football. Hit 5 of 9 this season, 3 of 5 last 5 (avg 115.4 rec yds). Started at 9 AM PT. No Kalshi market for college player props, so this is capped at 69. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 45,
+    "gemini": 47,
+    "grok": 48,
+    "claude": 28
+   },
+   "why": {
+    "chatgpt": "Five of ten reached 94 but Georgia Tech is easier to run on EARLY Q1 WAKE 0 GT 0",
+    "gemini": "Steep yardage threshold in ACC road game LIVE 0-0 Q1 14:13",
+    "grok": "ALREADY STARTED pregame volume",
+    "claude": "Wake heavy favorite and run-leaning script; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Georgia Tech has conceded more rushing yards than passing yards per game"
+    ],
+    [
+     "claude",
+     "Wake as a heavy favorite leans on the run and limits targets"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 47,
+   "blend": 47,
+   "cap": null,
+   "tier": "N",
+   "pub": 47,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 21,
+   "p": "Dylan Riley 103+ rushing yards",
+   "player": "Dylan Riley",
+   "g": "SDSU@BOIS",
+   "t": "6:30",
+   "sp": "CFB",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "rush",
+   "k": null,
+   "b2b": false,
+   "sys": 62,
+   "n": "College football. Hit 6 of 10 this season, 3 of 5 last 5 (avg 129.1 rush yds). Boise State -20.5 at home, a big lead could cut his late carries. No Kalshi market for college player props, so this is capped at 69.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 59,
+    "gemini": 53,
+    "grok": 40,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Six of ten reached 103 and SDSU allows 155 rush yards per game but Riley had 14 carries last week",
+    "gemini": "Workhorse back for Boise State with 11 rush TDs in 10 games",
+    "grok": "Boise State run lean SDSU defense",
+    "claude": "About 6.4 ypc; Boise big favorite so late carries may go to backups"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 53,
+   "blend": 53,
+   "cap": null,
+   "tier": "N",
+   "pub": 53,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 22,
+   "p": "Noah Fifita 290+ passing yards",
+   "player": "Noah Fifita",
+   "g": "ARIZ@KSU",
+   "t": "4:00",
+   "sp": "CFB",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "pass",
+   "k": null,
+   "b2b": false,
+   "sys": 69,
+   "n": "College football. Hit 7 of 10 this season, 5 of 5 last 5 (avg 315.0 pass yds). Arizona -10 at Kansas State, total 53.5. No Kalshi market for college player props, so this is capped at 69.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 57,
+    "gemini": 49,
+    "grok": 48,
+    "claude": 46
+   },
+   "why": {
+    "chatgpt": "Five straight over 300 before this trip but Kansas State opponents average only 25 pass attempts",
+    "gemini": "Five yards safer than leg 17 in a tough road Big 12 spot",
+    "grok": "same as 17 slightly safer",
+    "claude": "Same as leg 17"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 49,
+   "blend": 49,
+   "cap": null,
+   "tier": "N",
+   "pub": 49,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 23,
+   "p": "Jesse Legree 110+ receiving yards",
+   "player": "Jesse Legree",
+   "g": "USU@ORST",
+   "t": "7:30",
+   "sp": "CFB",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "recyds",
+   "k": null,
+   "b2b": false,
+   "sys": 52,
+   "n": "College football. Hit 5 of 10 this season, 2 of 5 last 5 (avg 134.9 rec yds). Oregon State -7.5 at home, total 51.5. No Kalshi market for college player props, so this is capped at 69.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 50,
+    "gemini": 46,
+    "grok": 42,
+    "claude": 57
+   },
+   "why": {
+    "chatgpt": "Five of ten reached 110 with other games at 108 and 109 and 140 last week",
+    "gemini": "Two yards safer than leg 18 against Utah State secondary",
+    "grok": "same as 18",
+    "claude": "Same as leg 18"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 50,
+   "blend": 50,
+   "cap": null,
+   "tier": "N",
+   "pub": 50,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 24,
+   "p": "L.J. Phillips Jr. 100+ rushing yards",
+   "player": "L.J. Phillips Jr.",
+   "g": "IOWA@ILL",
+   "t": "11:30 AM",
+   "sp": "CFB",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "rush",
+   "k": null,
+   "b2b": false,
+   "sys": 37,
+   "n": "College football. Hit 2 of 7 this season, 2 of 5 last 5 (avg 52.3 rush yds). Iowa -8.5 at Illinois, total 40.5, a run-first script. No Kalshi market for college player props, so this is capped at 69.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 51,
+    "gemini": 50,
+    "grok": 52,
+    "claude": 32
+   },
+   "why": {
+    "chatgpt": "Moulton is out and Phillips had 21 and 23 carries in his last two games",
+    "gemini": "Even 100-yard mark for Iowa lead back against Illinois",
+    "grok": "same as 19 safer",
+    "claude": "Same as leg 19"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 50,
+   "blend": 50,
+   "cap": null,
+   "tier": "N",
+   "pub": 50,
+   "eng": "v8",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 25,
+   "p": "Carlos Hernandez 90+ receiving yards",
+   "player": "Carlos Hernandez",
+   "g": "WAKE@GT",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "recyds",
+   "k": null,
+   "b2b": false,
+   "sys": 60,
+   "n": "College football. Hit 5 of 9 this season, 3 of 5 last 5 (avg 115.4 rec yds). Started at 9 AM PT. No Kalshi market for college player props, so this is capped at 69. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 48,
+    "gemini": 50,
+    "grok": 55,
+    "claude": 31
+   },
+   "why": {
+    "chatgpt": "Five of ten reached 90 with three other games at 87 to 89 EARLY Q1 WAKE 0 GT 0",
+    "gemini": "Four yards safer than leg 20 LIVE 0-0 Q1 14:13",
+    "grok": "ALREADY STARTED same as 20 safer",
+    "claude": "Same as leg 20; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 50,
+   "blend": 50,
+   "cap": null,
+   "tier": "N",
+   "pub": 50,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 24,
+   "solo": false
+  },
+  {
+   "i": 26,
+   "p": "Dylan Riley 100+ rushing yards",
+   "player": "Dylan Riley",
+   "g": "SDSU@BOIS",
+   "t": "6:30",
+   "sp": "CFB",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "rush",
+   "k": null,
+   "b2b": false,
+   "sys": 62,
+   "n": "College football. Hit 6 of 10 this season, 3 of 5 last 5 (avg 129.1 rush yds). Boise State -20.5 at home, a big lead could cut his late carries. No Kalshi market for college player props, so this is capped at 69.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 61,
+    "gemini": 55,
+    "grok": 48,
+    "claude": 48
+   },
+   "why": {
+    "chatgpt": "Six of ten reached 100 but he has also finished at 86 and 93",
+    "gemini": "Three yards safer than leg 21 at home on the blue turf",
+    "grok": "same as 21 safer",
+    "claude": "Same as leg 21"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "N",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 27,
+   "p": "Nicholls ML v Southern Miss",
+   "player": "Nicholls",
+   "g": "USM v NICH",
+   "t": "2:00",
+   "sp": "CBB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 44,
+   "b2b": false,
+   "sys": 41,
+   "n": "College hoops. Graded from the betting line, capped under 70. Southern Miss -2.5, neutral site, so Nicholls is a small underdog. Kalshi has it at 44.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 46,
+    "gemini": 48,
+    "grok": 55,
+    "claude": 42
+   },
+   "why": {
+    "chatgpt": "Nicholls has yet to win away from home but Southern Miss played double overtime Thursday",
+    "gemini": "Tight mid-major matchup with high early-season variance",
+    "grok": "Nicholls edge in neutral site",
+    "claude": "Nicholls historically weak; limited research"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 46,
+   "blend": 46,
+   "cap": null,
+   "tier": "Y",
+   "pub": 46,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 28,
+   "p": "Wofford ML v Winthrop",
+   "player": "Wofford",
+   "g": "WIN@WOF",
+   "t": "2:00",
+   "sp": "CBB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 70,
+   "b2b": false,
+   "sys": 69,
+   "n": "College hoops. Graded from the betting line, capped under 70. Wofford -6.5 at home. Kalshi has it at 70.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 64,
+    "gemini": 53,
+    "grok": 48,
+    "claude": 56
+   },
+   "why": {
+    "chatgpt": "Winthrop is 0-5 but early team strength ratings put these rosters fairly close",
+    "gemini": "Slight home court edge for Wofford in balanced matchup",
+    "grok": "Wofford slight home",
+    "claude": "Home court; Wofford won this home matchup 70-55 last year"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "G",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 29,
+   "p": "Southern Illinois ML v East Carolina",
+   "player": "Southern Illinois",
+   "g": "SIU v ECU",
+   "t": "2:30",
+   "sp": "CBB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 52,
+   "b2b": false,
+   "sys": 55,
+   "n": "College hoops. Graded from the betting line, capped under 70. Southern Illinois -1.5, neutral site. Kalshi has it at 52.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 52,
+    "gemini": 51,
+    "grok": 52,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Haynes averages 25.4 and Pikaar 9.6 rebounds but SIU played a tight game Friday",
+    "gemini": "Evenly matched neutral-site non-conference game",
+    "grok": "SIU slight edge",
+    "claude": "SIU stronger program on neutral floor; limited research"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 52,
+   "blend": 52,
+   "cap": null,
+   "tier": "G",
+   "pub": 52,
+   "eng": "v8",
+   "spread": 4,
+   "solo": false
+  },
+  {
+   "i": 30,
+   "p": "Army ML v East Carolina",
+   "player": "Army",
+   "g": "ECU@ARMY",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 68,
+   "b2b": false,
+   "sys": 63,
+   "n": "College football. Graded from the betting line, capped under 70. Army -4.5 at home. Kalshi has it at 68. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 64,
+    "gemini": 61,
+    "grok": 45,
+    "claude": 56
+   },
+   "why": {
+    "chatgpt": "Army averages 28.9 against FBS teams and ECU averages 20.8 with limited possessions likely",
+    "gemini": "Army triple-option control at Michie Stadium LIVE 0-0 Q1 12:58",
+    "grok": "ALREADY STARTED Army home edge pregame",
+    "claude": "Army at home with option style; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 61,
+   "blend": 61,
+   "cap": null,
+   "tier": "G",
+   "pub": 61,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 31,
+   "p": "Ohio State ML at Nebraska",
+   "player": "Ohio State",
+   "g": "OSU@NEB",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 74,
+   "b2b": false,
+   "sys": 60,
+   "n": "College football. Graded from the betting line, capped under 70. Ohio State -3.5 on the road. Kalshi has it at 74. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 66,
+    "gemini": 84,
+    "grok": 58,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "Ohio State has the stronger offense but Nebraska allows 15.8 points per FBS game",
+    "gemini": "Ohio State talent edge over Nebraska LIVE 0-0 Q1",
+    "grok": "ALREADY STARTED Ohio State talent edge",
+    "claude": "OSU 7-3 at Nebraska 6-4; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 62,
+   "blend": 62,
+   "cap": null,
+   "tier": "G",
+   "pub": 62,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 26,
+   "solo": false
+  },
+  {
+   "i": 32,
+   "p": "West Virginia +8.5 v Houston",
+   "player": "West Virginia",
+   "g": "HOU@WVU",
+   "t": "10:00 AM",
+   "sp": "CFB",
+   "ty": "spread",
+   "st": "reg",
+   "stat": "spread",
+   "k": 58,
+   "b2b": false,
+   "sys": 54,
+   "n": "College football. Graded from the betting line, capped under 70. Book spread is Houston -7. Kalshi has it at about 58 (estimated between two Kalshi lines).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 66,
+    "gemini": 46,
+    "grok": 52,
+    "claude": 57
+   },
+   "why": {
+    "chatgpt": "Houston starting QB Weigman is out and WVU can lose by eight and still cover",
+    "gemini": "Morgantown home spot helps WVU keep it within a score",
+    "grok": "WVU +8.5 cover lean",
+    "claude": "Houston 7-3 vs WVU 5-5 at home in Morgantown"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "G",
+   "pub": 54,
+   "eng": "v8",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 33,
+   "p": "UAB +7.5 v UTSA",
+   "player": "UAB",
+   "g": "UTSA@UAB",
+   "t": "5:00",
+   "sp": "CFB",
+   "ty": "spread",
+   "st": "reg",
+   "stat": "spread",
+   "k": 62,
+   "b2b": false,
+   "sys": 58,
+   "n": "College football. Graded from the betting line, capped under 70. Book spread is UTSA -4.5. Kalshi has it at 62.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 54,
+    "gemini": 48,
+    "grok": 48,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "UTSA has the stronger offense but UAB allows 23.3 per FBS game and gets a full touchdown plus",
+    "gemini": "UAB at home catching more than a touchdown vs UTSA",
+    "grok": "UAB +7.5 tight",
+    "claude": "Late home spot for UAB; limited research"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "G",
+   "pub": 54,
+   "eng": "v8",
+   "spread": 7,
+   "solo": false
+  },
+  {
+   "i": 34,
+   "p": "Oklahoma ML v Texas A&M",
+   "player": "Oklahoma",
+   "g": "TA&M@OU",
+   "t": "12:45",
+   "sp": "CFB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 72,
+   "b2b": false,
+   "sys": 69,
+   "n": "College football. Graded from the betting line, capped under 70. Oklahoma -7 at home. Kalshi has it at 72.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 65,
+    "gemini": 63,
+    "grok": 55,
+    "claude": 76
+   },
+   "why": {
+    "chatgpt": "Similar scoring offenses give Oklahoma home field and its stronger defense the edge",
+    "gemini": "Oklahoma home edge in Norman against Texas A&M",
+    "grok": "Oklahoma home edge",
+    "claude": "OU 6-4 at home; A&M offense in crisis"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 65,
+   "blend": 65,
+   "cap": null,
+   "tier": "G",
+   "pub": 65,
+   "eng": "v8",
+   "spread": 21,
+   "solo": false
+  },
+  {
+   "i": 35,
+   "p": "Oklahoma -7.5 v Texas A&M",
+   "player": "Oklahoma",
+   "g": "TA&M@OU",
+   "t": "12:45",
+   "sp": "CFB",
+   "ty": "spread",
+   "st": "reg",
+   "stat": "spread",
+   "k": 46,
+   "b2b": false,
+   "sys": 49,
+   "n": "College football. Graded from the betting line, capped under 70. Book spread is Oklahoma -7. Kalshi has it at 46.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 43,
+    "gemini": 44,
+    "grok": 42,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "Both offenses average 22.3 against FBS and a one-score Oklahoma win can still miss",
+    "gemini": "Laying over a touchdown against a physical SEC defense is risky",
+    "grok": "same as 34 -7.5 tighter",
+    "claude": "Low-scoring A&M games make a full TD margin hard"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Oklahoma can win a low-scoring game by a field goal or a touchdown"
+    ],
+    [
+     "gemini",
+     "Oklahoma laying 7.5 vs a physical Texas A&M defense leaves little margin"
+    ],
+    [
+     "grok",
+     "large spread tight cover"
+    ],
+    [
+     "claude",
+     "A&M low-scoring games make a 7.5 margin hard even in an OU win"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 44,
+   "blend": 44,
+   "cap": null,
+   "tier": "G",
+   "pub": 44,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 36,
+   "p": "Oklahoma -3 v Texas A&M",
+   "player": "Oklahoma",
+   "g": "TA&M@OU",
+   "t": "12:45",
+   "sp": "CFB",
+   "ty": "spread",
+   "st": "reg",
+   "stat": "spread",
+   "k": 62,
+   "b2b": false,
+   "sys": 61,
+   "n": "College football. Graded from the betting line, capped under 70. Book spread is Oklahoma -7. Kalshi has it at 62.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 56,
+    "gemini": 56,
+    "grok": 58,
+    "claude": 64
+   },
+   "why": {
+    "chatgpt": "A win by four clears and the Sooners have the stronger adjusted defense",
+    "gemini": "Much safer field-goal spread for Oklahoma at home",
+    "grok": "same as 34 -3 safer",
+    "claude": "Field goal margin much safer"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 58,
+   "blend": 58,
+   "cap": null,
+   "tier": "G",
+   "pub": 58,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 37,
+   "p": "Houston ML at West Virginia",
+   "player": "Houston",
+   "g": "HOU@WVU",
+   "t": "10:00 AM",
+   "sp": "CFB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 68,
+   "b2b": false,
+   "sys": 69,
+   "n": "College football. Graded from the betting line, capped under 70. Houston -7 on the road. Kalshi has it at 68.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 54,
+    "gemini": 62,
+    "grok": 48,
+    "claude": 66
+   },
+   "why": {
+    "chatgpt": "Weigman is out but WVU allows 37.9 points per FBS game",
+    "gemini": "Houston edge over WVU in Big 12 road test",
+    "grok": "Houston road lean",
+    "claude": "Houston better team on road"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 62,
+   "blend": 62,
+   "cap": null,
+   "tier": "G",
+   "pub": 62,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 38,
+   "p": "Indiana ML at Washington",
+   "player": "Indiana",
+   "g": "IU@WASH",
+   "t": "12:30",
+   "sp": "CFB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 76,
+   "b2b": false,
+   "sys": 69,
+   "n": "College football. Graded from the betting line, capped under 70. Indiana -9.5 on the road. Kalshi has it at 76.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 68,
+    "gemini": 60,
+    "grok": 62,
+    "claude": 75
+   },
+   "why": {
+    "chatgpt": "Indiana allows 13.9 per FBS game but a QB change adds road uncertainty",
+    "gemini": "Indiana balanced attack travels well to Seattle",
+    "grok": "Indiana stronger",
+    "claude": "IU 9-1 with elite defense; long trip to Seattle"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 68,
+   "blend": 68,
+   "cap": null,
+   "tier": "G",
+   "pub": 68,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 39,
+   "p": "UCLA ML at Michigan",
+   "player": "UCLA",
+   "g": "UCLA@MICH",
+   "t": "12:30",
+   "sp": "CFB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 62,
+   "b2b": false,
+   "sys": 60,
+   "n": "College football. Graded from the betting line, capped under 70. UCLA -3.5 on the road. Kalshi has it at 62.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 63,
+    "gemini": 34,
+    "grok": 55,
+    "claude": 64
+   },
+   "why": {
+    "chatgpt": "UCLA has the scoring edge while Michigan allows only 17.7 per FBS game",
+    "gemini": "Tough trip to Ann Arbor in late November for UCLA",
+    "grok": "UCLA edge over Michigan",
+    "claude": "UCLA 10-0 vs Michigan 5-5 in Ann Arbor"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 60,
+   "blend": 60,
+   "cap": null,
+   "tier": "G",
+   "pub": 60,
+   "eng": "v8",
+   "spread": 30,
+   "solo": false
+  },
+  {
+   "i": 40,
+   "p": "Oklahoma State ML at Arizona State",
+   "player": "Oklahoma State",
+   "g": "OKST@ASU",
+   "t": "7:15",
+   "sp": "CFB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 56,
+   "b2b": false,
+   "sys": 57,
+   "n": "College football. Graded from the betting line, capped under 70. Oklahoma State -2.5 on the road. Kalshi has it at 56.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 53,
+    "gemini": 42,
+    "grok": 45,
+    "claude": 46
+   },
+   "why": {
+    "chatgpt": "Its offense averages 40.3 against FBS but its defense gives back 33.0",
+    "gemini": "Oklahoma State faces a tough night road test in Tempe",
+    "grok": "ASU home edge",
+    "claude": "Even matchup at 6-4 each and ASU at home"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 46,
+   "blend": 46,
+   "cap": null,
+   "tier": "G",
+   "pub": 46,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 41,
+   "p": "Ohio State at Nebraska under 45 total points",
+   "player": "Ohio State at Nebraska",
+   "g": "OSU@NEB",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "total",
+   "st": "reg",
+   "stat": "total",
+   "k": 42,
+   "b2b": false,
+   "sys": 58,
+   "n": "College football. Graded from the betting total, capped under 70. Book total is 42.5. Kalshi has it at 42. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 50,
+    "gemini": 54,
+    "grok": 52,
+    "claude": 60
+   },
+   "why": {
+    "chatgpt": "Both defenses rate well but Ohio State averages 34.9 against FBS and rain impact is uncertain",
+    "gemini": "Big Ten November defense and cold weather LIVE 0-0 Q1",
+    "grok": "ALREADY STARTED low total pregame",
+    "claude": "Two defense-first teams; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "Y",
+   "pub": 54,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 42,
+   "p": "Northwestern at Minnesota under 45 total points",
+   "player": "Northwestern at Minnesota",
+   "g": "NU@MINN",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "total",
+   "st": "reg",
+   "stat": "total",
+   "k": 74,
+   "b2b": false,
+   "sys": 61,
+   "n": "College football. Graded from the betting total, capped under 70. Book total is 41.5. Kalshi has it at 74. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 52,
+    "gemini": 61,
+    "grok": 48,
+    "claude": 66
+   },
+   "why": {
+    "chatgpt": "Minnesota averages 19.7 against FBS and the forecast calls for possible rain",
+    "gemini": "Classic low-scoring Big Ten West style grind LIVE 0-0 Q1 12:23",
+    "grok": "ALREADY STARTED low total",
+    "claude": "Two low-scoring offenses; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 61,
+   "blend": 61,
+   "cap": null,
+   "tier": "G",
+   "pub": 61,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 43,
+   "p": "Iowa at Illinois under 45 total points",
+   "player": "Iowa at Illinois",
+   "g": "IOWA@ILL",
+   "t": "11:30 AM",
+   "sp": "CFB",
+   "ty": "total",
+   "st": "reg",
+   "stat": "total",
+   "k": 60,
+   "b2b": false,
+   "sys": 64,
+   "n": "College football. Graded from the betting total, capped under 70. Book total is 40.5. Kalshi has it at 60.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 62,
+    "gemini": 64,
+    "grok": 55,
+    "claude": 74
+   },
+   "why": {
+    "chatgpt": "Iowa allows 13.0 per FBS game and its heavier rushing workload favors fewer drives",
+    "gemini": "Iowa defense and run-heavy clock control vs Illinois",
+    "grok": "Iowa-Illinois defensive lean under",
+    "claude": "Iowa games grind clock and stay low"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 64,
+   "blend": 64,
+   "cap": null,
+   "tier": "Y",
+   "pub": 64,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 44,
+   "p": "Wisconsin at Purdue under 50 total points",
+   "player": "Wisconsin at Purdue",
+   "g": "WIS@PUR",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "total",
+   "st": "reg",
+   "stat": "total",
+   "k": 58,
+   "b2b": false,
+   "sys": 61,
+   "n": "College football. Graded from the betting total, capped under 70. Book total is 46.5. Kalshi has it at 58. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 55,
+    "gemini": 57,
+    "grok": 45,
+    "claude": 68
+   },
+   "why": {
+    "chatgpt": "Wisconsin allows 18.0 against FBS but Purdue allows 33.3",
+    "gemini": "Two sluggish Big Ten offenses in West Lafayette LIVE 0-0 Q1 13:23",
+    "grok": "ALREADY STARTED higher total",
+    "claude": "Weak Wisconsin offense; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 57,
+   "blend": 57,
+   "cap": null,
+   "tier": "G",
+   "pub": 57,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 23,
+   "solo": false
+  },
+  {
+   "i": 45,
+   "p": "UCLA at Michigan under 45 total points",
+   "player": "UCLA at Michigan",
+   "g": "UCLA@MICH",
+   "t": "12:30",
+   "sp": "CFB",
+   "ty": "total",
+   "st": "reg",
+   "stat": "total",
+   "k": 72,
+   "b2b": false,
+   "sys": 69,
+   "n": "College football. Graded from the betting total, capped under 70. Book total is 36.5. Kalshi has it at 72.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 66,
+    "gemini": 58,
+    "grok": 50,
+    "claude": 80
+   },
+   "why": {
+    "chatgpt": "Michigan scores 18.3 against FBS and both defenses allow fewer than 18",
+    "gemini": "Michigan ground game and defense in Ann Arbor",
+    "grok": "defensive lean under",
+    "claude": "Both offenses limited and defense led"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 66,
+   "blend": 66,
+   "cap": null,
+   "tier": "G",
+   "pub": 66,
+   "eng": "v8",
+   "spread": 30,
+   "solo": false
+  },
+  {
+   "i": 46,
+   "p": "Indiana at Washington under 50 total points",
+   "player": "Indiana at Washington",
+   "g": "IU@WASH",
+   "t": "12:30",
+   "sp": "CFB",
+   "ty": "total",
+   "st": "reg",
+   "stat": "total",
+   "k": 65,
+   "b2b": false,
+   "sys": 69,
+   "n": "College football. Graded from the betting total, capped under 70. Book total is 43.5. Kalshi has it at about 65 (estimated between two Kalshi lines).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 70,
+    "gemini": 51,
+    "grok": 42,
+    "claude": 79
+   },
+   "why": {
+    "chatgpt": "Indiana and Washington allow 13.9 and 21.7 against FBS and Indiana changed QBs",
+    "gemini": "Moderate total in Seattle with potential wind and rain",
+    "grok": "higher scoring potential",
+    "claude": "IU recent games 23-16 13-6 15-19 20-17 27-13"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 69,
+   "blend": 69,
+   "cap": null,
+   "tier": "Y",
+   "pub": 69,
+   "eng": "v8",
+   "spread": 37,
+   "solo": false
+  },
+  {
+   "i": 47,
+   "p": "Arkansas at Texas under 55 total points",
+   "player": "Arkansas at Texas",
+   "g": "ARK@TEX",
+   "t": "12:30",
+   "sp": "CFB",
+   "ty": "total",
+   "st": "reg",
+   "stat": "total",
+   "k": 72,
+   "b2b": false,
+   "sys": 69,
+   "n": "College football. Graded from the betting total, capped under 70. Book total is 46.5. Kalshi has it at about 72 (estimated between two Kalshi lines).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 69,
+    "gemini": 55,
+    "grok": 38,
+    "claude": 70
+   },
+   "why": {
+    "chatgpt": "Arkansas scores 20.3 against FBS and Texas allows 17.8 but a short field could matter",
+    "gemini": "Texas defense should limit Arkansas scoring in Austin",
+    "grok": "Texas lean higher",
+    "claude": "Arkansas offense limited at Texas"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 69,
+   "blend": 69,
+   "cap": null,
+   "tier": "G",
+   "pub": 69,
+   "eng": "v8",
+   "spread": 32,
+   "solo": false
+  },
+  {
+   "i": 48,
+   "p": "Texas A&M at Oklahoma under 45 total points",
+   "player": "Texas A&M at Oklahoma",
+   "g": "TA&M@OU",
+   "t": "12:45",
+   "sp": "CFB",
+   "ty": "total",
+   "st": "reg",
+   "stat": "total",
+   "k": 71,
+   "b2b": false,
+   "sys": 69,
+   "n": "College football. Graded from the betting total, capped under 70. Book total is 36.5. Kalshi has it at about 71 (estimated between two Kalshi lines).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 64,
+    "gemini": 59,
+    "grok": 55,
+    "claude": 77
+   },
+   "why": {
+    "chatgpt": "Both offenses average 22.3 against FBS and the forecast calls for 16 mph wind",
+    "gemini": "Two tough SEC defensive fronts in Norman",
+    "grok": "Oklahoma-A&M defensive under",
+    "claude": "A&M scored 9 and 6 in recent losses"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [
+    [
+     "grok",
+     "scoring variance over"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 64,
+   "blend": 64,
+   "cap": null,
+   "tier": "G",
+   "pub": 64,
+   "eng": "v8",
+   "spread": 22,
+   "solo": false
+  },
+  {
+   "i": 49,
+   "p": "Cincinnati ML v Colorado",
+   "player": "Cincinnati",
+   "g": "COLO@CIN",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 88,
+   "b2b": false,
+   "sys": 58,
+   "n": "College football. Graded from the betting line, capped under 70. Cincinnati -3 at home. Kalshi has it at 88. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 64,
+    "gemini": 66,
+    "grok": 58,
+    "claude": 60
+   },
+   "why": {
+    "chatgpt": "Colorado scores 18.7 against FBS but Cincinnati allows 32.9",
+    "gemini": "Cincinnati home edge at Nippert Stadium LIVE 7-0 CIN Q1 9:35",
+    "grok": "ALREADY STARTED Cincinnati edge",
+    "claude": "Cincy at home vs Colorado 4-6; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 60,
+   "blend": 60,
+   "cap": null,
+   "tier": "G",
+   "pub": 60,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 50,
+   "p": "Syracuse at Boston College over 50 total points",
+   "player": "Syracuse at Boston College",
+   "g": "SYR@BC",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "total",
+   "st": "reg",
+   "stat": "total",
+   "k": 54,
+   "b2b": false,
+   "sys": 58,
+   "n": "College football. Graded from the betting total, capped under 70. Book total is 52.5. Kalshi has it at 54. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 52,
+    "gemini": 47,
+    "grok": 48,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Both defenses give up roughly 29 per FBS game but BC scores only 20.2",
+    "gemini": "Outdoor November game in Boston despite fast start LIVE 7-0 BC Q1 12:43",
+    "grok": "ALREADY STARTED over lean",
+    "claude": "BC offense limited; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "claude",
+     "BC lacks the offense to push this total over 50"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "G",
+   "pub": 48,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 7,
+   "solo": false
+  },
+  {
+   "i": 51,
+   "p": "Wake Forest -14 at Georgia Tech",
+   "player": "Wake Forest",
+   "g": "WAKE@GT",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "spread",
+   "st": "reg",
+   "stat": "spread",
+   "k": null,
+   "b2b": false,
+   "sys": null,
+   "n": "College football. No book line found for this game before kickoff, so no grade. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 60,
+    "gemini": 45,
+    "grok": 42,
+    "claude": 58
+   },
+   "why": {
+    "chatgpt": "Wake scores 40.2 against FBS but must win by 15 EARLY Q1 WAKE 0 GT 0",
+    "gemini": "Two-touchdown road spread in ACC play LIVE 0-0 Q1 14:13",
+    "grok": "ALREADY STARTED Wake large favorite tight",
+    "claude": "Wake 9-1 vs GT 3-7 but 14 is a lot; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 52,
+   "blend": 52,
+   "cap": null,
+   "tier": "N",
+   "pub": 52,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 52,
+   "p": "Vanderbilt at Florida under 50 total points",
+   "player": "Vanderbilt at Florida",
+   "g": "VAN@FLA",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "total",
+   "st": "reg",
+   "stat": "total",
+   "k": 61,
+   "b2b": false,
+   "sys": 58,
+   "n": "College football. Graded from the betting total, capped under 70. Book total is 47.5. Kalshi has it at 61. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 49,
+    "gemini": 54,
+    "grok": 52,
+    "claude": 58
+   },
+   "why": {
+    "chatgpt": "Vanderbilt scores 20.6 against FBS but both defenses allow about 30 EARLY Q1 VAN 3 FLA 0",
+    "gemini": "SEC defensive battle in Gainesville LIVE 3-0 VAN Q1 10:24",
+    "grok": "ALREADY STARTED under lean",
+    "claude": "LIVE VAN 3-0 Q1"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "G",
+   "pub": 54,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 9,
+   "solo": false
+  },
+  {
+   "i": 53,
+   "p": "Kansas +7.5 v BYU",
+   "player": "Kansas",
+   "g": "BYU@KU",
+   "t": "9:00 AM",
+   "sp": "CFB",
+   "ty": "spread",
+   "st": "reg",
+   "stat": "spread",
+   "k": 68,
+   "b2b": false,
+   "sys": 58,
+   "n": "College football. Graded from the betting line, capped under 70. Book spread is BYU -4.5. Kalshi has it at 68. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 54,
+    "gemini": 51,
+    "grok": 48,
+    "claude": 63
+   },
+   "why": {
+    "chatgpt": "A seven-point home loss still covers and the forecast calls for 15 mph wind EARLY Q1 BYU 0 KU 0",
+    "gemini": "Kansas catching 7.5 at home vs BYU LIVE 0-0 Q1 13:52",
+    "grok": "ALREADY STARTED Kansas +7.5",
+    "claude": "BYU road favorite in Big 12; LIVE score not confirmed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "G",
+   "pub": 54,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 54,
+   "p": "Karl-Anthony Towns under 14 rebounds",
+   "player": "Karl-Anthony Towns",
+   "g": "POR@NY",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "reb",
+   "k": 60,
+   "b2b": false,
+   "sys": 55,
+   "n": "Your line was under 14 rebounds (13 or fewer). Stayed under 8 of 15 this season, 2 of 5 last 5 (avg 13.9 reb). Matchup: Portland allows 42.0 reb a game, 23rd most in the league (good spot). Questionable (illness). If he sits, this leg is void. Kalshi: 60. Towns is questionable (illness). Check before you play it.",
+   "rule": null,
+   "fl": "Q",
+   "models": {
+    "chatgpt": 57,
+    "gemini": 68,
+    "grok": 62,
+    "claude": 64
+   },
+   "why": {
+    "chatgpt": "Q illness and eight of 15 finished at 13 or fewer with five of the last ten under",
+    "gemini": "Healthy status confirmed but 14+ rebounds is a very high bar",
+    "grok": "medium",
+    "claude": "Q illness; double-double streak but illness may cap minutes; Anunoby out adds boards"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "illness limits minutes or sits"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 62,
+   "blend": 62,
+   "cap": null,
+   "tier": "Y",
+   "pub": 62,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 55,
+   "p": "Anfernee Simons 10+ points",
+   "player": "Anfernee Simons",
+   "g": "MIL@PHI",
+   "t": "10:00 AM",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "pts",
+   "k": 62,
+   "b2b": false,
+   "sys": 63,
+   "n": "Hit 8 of 16 this season, 4 of 5 last 5 (avg 10.8 pts). Matchup: Milwaukee allows 121.1 pts a game, 4th most in the league (good spot). Now with Philadelphia. Kalshi: 62.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 63,
+    "gemini": 78,
+    "grok": 68,
+    "claude": 52
+   },
+   "why": {
+    "chatgpt": "Brown out creates minutes but Simons reached ten points in only eight of 16",
+    "gemini": "Expanded scoring role for PHI with Brown out and Maxey DTD",
+    "grok": "Maxey Q boosts role recent 18 pts start",
+    "claude": "Starts if Maxey sits (18 pts in 38 min); 8.8 ppg off bench in November"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 63,
+   "blend": 63,
+   "cap": null,
+   "tier": "Y",
+   "pub": 63,
+   "eng": "v8",
+   "spread": 26,
+   "solo": false
+  },
+  {
+   "i": 56,
+   "p": "Anfernee Simons 2+ assists",
+   "player": "Anfernee Simons",
+   "g": "MIL@PHI",
+   "t": "10:00 AM",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "ast",
+   "k": 57,
+   "b2b": false,
+   "sys": 55,
+   "n": "Hit 8 of 16 this season, 3 of 5 last 5 (avg 1.2 ast). Matchup: Milwaukee allows 27.5 ast a game, 11th most in the league. Now with Philadelphia. Kalshi: 57.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 60,
+    "gemini": 74,
+    "grok": 72,
+    "claude": 48
+   },
+   "why": {
+    "chatgpt": "Six of his last ten had two assists and Maxey availability affects ball handling",
+    "gemini": "Low assist floor especially if Maxey sits or is limited",
+    "grok": "same as 55 assists easy",
+    "claude": "About 1.1 apg in November; 2 ast as starter Wednesday"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 60,
+   "blend": 60,
+   "cap": null,
+   "tier": "Y",
+   "pub": 60,
+   "eng": "v8",
+   "spread": 26,
+   "solo": false
+  },
+  {
+   "i": 57,
+   "p": "Joel Embiid 8+ rebounds",
+   "player": "Joel Embiid",
+   "g": "MIL@PHI",
+   "t": "10:00 AM",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "reb",
+   "k": 59,
+   "b2b": false,
+   "sys": 48,
+   "n": "Hit 6 of 13 this season, 1 of 5 last 5 (avg 8.3 reb). Matchup: Milwaukee allows 47.9 reb a game, 1st most in the league (good spot). 76ers -10.5, a big lead could cut his fourth quarter. Kalshi: 59.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 50,
+    "gemini": 54,
+    "grok": 75,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "Six of 13 reached eight and his last four rebound totals were six five four and six",
+    "gemini": "Blowout risk vs 1-15 MIL could cap Embiid to 3 quarters",
+    "grok": "8.3 RPG recent 4-15 but volume",
+    "claude": "8.3 rpg; blowout vs Bucks may cut 4th quarter"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Embiid collected fewer than eight rebounds in seven of 13 games"
+    ],
+    [
+     "gemini",
+     "PHI 13-3 vs MIL 1-15 creates heavy 4Q blowout benching risk for Embiid"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 50,
+   "blend": 50,
+   "cap": null,
+   "tier": "G",
+   "pub": 50,
+   "eng": "v8",
+   "spread": 25,
+   "solo": false
+  },
+  {
+   "i": 58,
+   "p": "Joel Embiid 6+ rebounds",
+   "player": "Joel Embiid",
+   "g": "MIL@PHI",
+   "t": "10:00 AM",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "reb",
+   "k": 80,
+   "b2b": false,
+   "sys": 78,
+   "n": "Hit 11 of 13 this season, 3 of 5 last 5 (avg 8.3 reb). Matchup: Milwaukee allows 47.9 reb a game, 1st most in the league (good spot). 76ers -10.5, a big lead could cut his fourth quarter. Kalshi: 80.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 82,
+    "gemini": 74,
+    "grok": 85,
+    "claude": 76
+   },
+   "why": {
+    "chatgpt": "Eleven of 13 reached six and Philadelphia has thin center depth",
+    "gemini": "Clears 6 boards easily even in 26-28 minutes of a blowout",
+    "grok": "same as 57 6 clear",
+    "claude": "Floor well above 6 even in short minutes"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 78,
+   "blend": 78,
+   "cap": null,
+   "tier": "G",
+   "pub": 78,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 59,
+   "p": "Joel Embiid 2+ assists",
+   "player": "Joel Embiid",
+   "g": "MIL@PHI",
+   "t": "10:00 AM",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "ast",
+   "k": 90,
+   "b2b": false,
+   "sys": 67,
+   "n": "Hit 9 of 13 this season, 3 of 5 last 5 (avg 3.8 ast). Matchup: Milwaukee allows 27.5 ast a game, 11th most in the league. 76ers -10.5, a big lead could cut his fourth quarter. Kalshi has this at 90, well above us.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 72,
+    "gemini": 82,
+    "grok": 78,
+    "claude": 88
+   },
+   "why": {
+    "chatgpt": "Nine of 13 reached two and Milwaukee has historically drawn passes from him",
+    "gemini": "Routine playmaking floor for Embiid in 3 quarters",
+    "grok": "3.8 APG clear of 2",
+    "claude": "Hub of offense with Brown out; 7 ast Wednesday"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 78,
+   "blend": 78,
+   "cap": null,
+   "tier": "G",
+   "pub": 78,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 60,
+   "p": "Joel Embiid 4+ assists",
+   "player": "Joel Embiid",
+   "g": "MIL@PHI",
+   "t": "10:00 AM",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "ast",
+   "k": 56,
+   "b2b": false,
+   "sys": 45,
+   "n": "Hit 5 of 13 this season, 2 of 5 last 5 (avg 3.8 ast). Matchup: Milwaukee allows 27.5 ast a game, 11th most in the league. 76ers -10.5, a big lead could cut his fourth quarter. Kalshi: 56.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 42,
+    "gemini": 51,
+    "grok": 55,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Only five of 13 reached four and he had one assist in three of his last six",
+    "gemini": "Needs full minutes and high-post touches to reach 4 assists",
+    "grok": "3.8 APG borderline 4",
+    "claude": "3.8 apg season; trending up with Maxey and Brown out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Embiid has reached four assists in only three of his last ten"
+    ],
+    [
+     "gemini",
+     "Embiid 4+ assists is vulnerable if MIL@PHI turns into a 20-point blowout"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 51,
+   "blend": 51,
+   "cap": null,
+   "tier": "G",
+   "pub": 51,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 61,
+   "p": "Cooper Flagg 6+ assists",
+   "player": "Cooper Flagg",
+   "g": "LAC@DAL",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "ast",
+   "k": 58,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 9 of 14 this season, 2 of 5 last 5 (avg 6.4 ast). Matchup: Los Angeles C allows 28.0 ast a game, 5th most in the league (good spot). Mavericks -5.5 at home. Kalshi: 58.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 60,
+    "gemini": 56,
+    "grok": 65,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Nine of 14 reached six including nine assists last game but Lively is out",
+    "gemini": "Averaging 6.3 APG with 9 ast vs GSW on Nov 18",
+    "grok": "6.4 APG recent solid",
+    "claude": "6.4 apg sits right at the line"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 60,
+   "blend": 60,
+   "cap": null,
+   "tier": "Y",
+   "pub": 60,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 62,
+   "p": "Rui Hachimura 4+ rebounds",
+   "player": "Rui Hachimura",
+   "g": "LAC@DAL",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "reb",
+   "k": 70,
+   "b2b": false,
+   "sys": 79,
+   "n": "Hit 10 of 12 this season, 4 of 5 last 5 (avg 6.0 reb). Matchup: Dallas allows 43.6 reb a game, 15th most in the league. Now with the Clippers. Kalshi: 70.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 77,
+    "gemini": 57,
+    "grok": 68,
+    "claude": 72
+   },
+   "why": {
+    "chatgpt": "Ten of 12 reached four and Beal and Ingram are out",
+    "gemini": "Solid wing rebounding role for LAC against DAL",
+    "grok": "6.0 RPG clear of 4",
+    "claude": "6.0 rpg this season"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 72,
+   "blend": 72,
+   "cap": null,
+   "tier": "Y",
+   "pub": 72,
+   "eng": "v8",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 63,
+   "p": "Jiri Prochazka ML v Navajo Stirling",
+   "player": "Jiri Prochazka",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 36,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC. We have no fighter model, so this shows Kalshi's price capped at 69, for reference only. Kalshi has it at 36.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 60,
+    "gemini": 67,
+    "grok": 45,
+    "claude": 36
+   },
+   "why": {
+    "chatgpt": "Prochazka has championship experience but unbeaten Stirling won his last three by TKO",
+    "gemini": "Prochazka experience and chaos edge over undefeated 11-0 Stirling",
+    "grok": "Stirling undefeated recent form Prochazka variance",
+    "claude": "Coming off KO loss to Ulberg vs unbeaten younger Stirling"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "Stirling undefeated form"
+    ],
+    [
+     "claude",
+     "Prochazka is 34 coming off a KO loss against an unbeaten opponent"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 52,
+   "blend": 52,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 31,
+   "solo": false
+  },
+  {
+   "i": 64,
+   "p": "Kevin Vallejos ML v Aljamain Sterling",
+   "player": "Kevin Vallejos",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 52,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC. We have no fighter model, so this shows Kalshi's price capped at 69, for reference only. Kalshi has it at 52.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 56,
+    "gemini": 46,
+    "grok": 52,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Vallejos has seven straight wins but Sterling can take rounds with back control",
+    "gemini": "Sterling elite grappling control poses tough test for Vallejos",
+    "grok": "Vallejos form vs Sterling",
+    "claude": "Sterling wrestling vs Vallejos power and pace"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 49,
+   "blend": 49,
+   "cap": null,
+   "tier": "G",
+   "pub": 49,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 65,
+   "p": "Dan Hooker ML v Brian Ortega",
+   "player": "Dan Hooker",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 64,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC. We have no fighter model, so this shows Kalshi's price capped at 69, for reference only. Kalshi has it at 64.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 62,
+    "gemini": 55,
+    "grok": 48,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Hooker has range at his usual weight but enters on three losses and Ortega threatens submissions",
+    "gemini": "Hooker size and striking volume edge over Ortega at lightweight",
+    "grok": "Hooker experience edge",
+    "claude": "Ortega coming up to 155 after losing 4 of last 5 by Elo"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "G",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 14,
+   "solo": false
+  },
+  {
+   "i": 66,
+   "p": "Kyoji Horiguchi ML v Asu Almabayev",
+   "player": "Kyoji Horiguchi",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 62,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC. We have no fighter model, so this shows Kalshi's price capped at 69, for reference only. Kalshi has it at 62.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 58,
+    "gemini": 60,
+    "grok": 55,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Horiguchi has the cleaner entries and exits but Almabayev can hold him down",
+    "gemini": "Horiguchi elite speed and striking precision vs Almabayev",
+    "grok": "Horiguchi skill",
+    "claude": "Almabayev grappling pace; Horiguchi experience"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "G",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 67,
+   "p": "Ikram Aliskerov ML v Jared Cannonier",
+   "player": "Ikram Aliskerov",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 76,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC. We have no fighter model, so this shows Kalshi's price capped at 69, for reference only. Kalshi has it at 76.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 71,
+    "gemini": 64,
+    "grok": 58,
+    "claude": 72
+   },
+   "why": {
+    "chatgpt": "Aliskerov can combine takedowns with striking and Cannonier needs space for power",
+    "gemini": "Aliskerov youth and grappling upside over aging Cannonier",
+    "grok": "Aliskerov youth edge",
+    "claude": "Cannonier 42 and 1-4 in last five"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 68,
+   "blend": 68,
+   "cap": null,
+   "tier": "G",
+   "pub": 68,
+   "eng": "v8",
+   "spread": 14,
+   "solo": false
+  },
+  {
+   "i": 68,
+   "p": "Ikram Aliskerov wins by decision",
+   "player": "Ikram Aliskerov wins by decision",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "prop",
+   "st": "reg",
+   "stat": "other",
+   "k": null,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC method of victory. No Kalshi market and no fighter model, so no grade.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 30,
+    "gemini": 31,
+    "grok": 42,
+    "claude": 25
+   },
+   "why": {
+    "chatgpt": "Winning rounds is plausible but an Aliskerov stoppage also loses this ticket",
+    "gemini": "Aliskerov is a finisher so decision is a narrower path",
+    "grok": "decision path lower",
+    "claude": "Aliskerov finishes or Cannonier lands late"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Even a dominant Aliskerov performance loses this method bet if he finishes"
+    ],
+    [
+     "gemini",
+     "Ikram Aliskerov is much more likely to finish Cannonier than win on scorecards"
+    ],
+    [
+     "claude",
+     "Aliskerov finishes most wins so the decision outcome is narrow"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 30,
+   "blend": 30,
+   "cap": null,
+   "tier": "N",
+   "pub": 30,
+   "eng": "v8",
+   "spread": 17,
+   "solo": false
+  },
+  {
+   "i": 69,
+   "p": "Aleksandre Topuria ML v Santiago Luna",
+   "player": "Aleksandre Topuria",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 70,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC. We have no fighter model, so this shows Kalshi's price capped at 69, for reference only. Kalshi has it at 70.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 67,
+    "gemini": 58,
+    "grok": 62,
+    "claude": 30
+   },
+   "why": {
+    "chatgpt": "Topuria is 7-1 with two UFC wins but his year away adds uncertainty",
+    "gemini": "Topuria sharp boxing and grappling pedigree vs Luna",
+    "grok": "Topuria edge",
+    "claude": "Luna younger and longer; Topuria 7-1"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 60,
+   "blend": 60,
+   "cap": null,
+   "tier": "G",
+   "pub": 60,
+   "eng": "v8",
+   "spread": 37,
+   "solo": false
+  },
+  {
+   "i": 70,
+   "p": "Shamil Gaziev ML v Tallison Teixeira",
+   "player": "Shamil Gaziev",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": 28,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC. We have no fighter model, so this shows Kalshi's price capped at 69, for reference only. Kalshi has it at 28.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 55,
+    "gemini": 45,
+    "grok": 55,
+    "claude": 48
+   },
+   "why": {
+    "chatgpt": "Gaziev can pressure inside but Teixeira has the reach to hurt him on entry",
+    "gemini": "Teixeira length and finishing power threaten Gaziev at heavyweight",
+    "grok": "Gaziev size",
+    "claude": "Heavyweight coin flip"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 52,
+   "blend": 52,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 71,
+   "p": "Alessandro Costa ML v Amir Albazi",
+   "player": "Alessandro Costa",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": null,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC. We have no fighter model, so this shows Kalshi's price capped at 69, for reference only. No Kalshi price found. Game started at 9 AM PT, before this board. Graded for the record and live bettors only, never on a ticket.",
+   "rule": null,
+   "fl": "LIVE",
+   "models": {
+    "chatgpt": 54,
+    "gemini": 44,
+    "grok": 48,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Costa entered on three wins this year but Albazi won their first fight LIVE per slate",
+    "gemini": "Pregame underdog in rematch vs Albazi FINAL lost",
+    "grok": "pregame lean",
+    "claude": "No result found yet"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 46,
+   "blend": 46,
+   "cap": null,
+   "tier": "N",
+   "pub": 46,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 72,
+   "p": "Jake Matthews wins by decision v Tahir Abdullayev",
+   "player": "Jake Matthews wins by decision v Tahir Abdullayev",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": null,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC prelim. Fight finished before the board, graded for the record only.",
+   "rule": null,
+   "fl": "DONE",
+   "models": {
+    "chatgpt": 29,
+    "gemini": 34,
+    "grok": 0,
+    "claude": 30
+   },
+   "why": {
+    "chatgpt": "Matthews needs both a win and the cards against a heavier opponent FINAL lost by decision",
+    "gemini": "Pregame grappling threat from Abdullayev who missed weight FINAL lost",
+    "grok": "FINAL decision loss",
+    "claude": "FINAL lost (Abdullayev UD)"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": null,
+   "tier": "S",
+   "pub": null,
+   "eng": "settled before the board",
+   "spread": null
+  },
+  {
+   "i": 73,
+   "p": "Jake Matthews ML v Tahir Abdullayev",
+   "player": "Jake Matthews",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": null,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC prelim. Fight finished before the board, graded for the record only.",
+   "rule": null,
+   "fl": "DONE",
+   "models": {
+    "chatgpt": 57,
+    "gemini": 48,
+    "grok": 0,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Matthews had more UFC experience and Abdullayev missed weight FINAL lost by decision",
+    "gemini": "Pregame coin flip vs heavy grappler Abdullayev FINAL lost",
+    "grok": "FINAL loss",
+    "claude": "FINAL lost (Abdullayev UD)"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": null,
+   "tier": "S",
+   "pub": null,
+   "eng": "settled before the board",
+   "spread": null
+  },
+  {
+   "i": 74,
+   "p": "Dom Mar Fan ML v Nikolas Motta",
+   "player": "Dom Mar Fan",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": null,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC prelim. Fight finished before the board, graded for the record only.",
+   "rule": null,
+   "fl": "DONE",
+   "models": {
+    "chatgpt": 49,
+    "gemini": 62,
+    "grok": 65,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "Mar Fan can wrestle but was submitted in his previous appearance FINAL won by decision",
+    "gemini": "Pregame youth and reach edge over Motta FINAL won",
+    "grok": "pregame lean won",
+    "claude": "FINAL won (UD)"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": null,
+   "tier": "S",
+   "pub": null,
+   "eng": "settled before the board",
+   "spread": null
+  },
+  {
+   "i": 75,
+   "p": "Alik Lorenz ML v Diyar Nurgozhay",
+   "player": "Alik Lorenz",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": null,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC prelim. Fight finished before the board, graded for the record only.",
+   "rule": null,
+   "fl": "DONE",
+   "models": {
+    "chatgpt": 37,
+    "gemini": 28,
+    "grok": 35,
+    "claude": 35
+   },
+   "why": {
+    "chatgpt": "Lorenz made his UFC debut against an opponent coming off two UFC wins FINAL lost by R2 TKO",
+    "gemini": "Pregame heavy underdog debutant vs Nurgozhay FINAL lost",
+    "grok": "pregame lost",
+    "claude": "FINAL lost (Nurgozhay TKO R2)"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": null,
+   "tier": "S",
+   "pub": null,
+   "eng": "settled before the board",
+   "spread": null
+  },
+  {
+   "i": 76,
+   "p": "John Mitchell ML v Shoaib Yousaf",
+   "player": "John Mitchell",
+   "g": "UFC",
+   "t": "today",
+   "sp": "UFC",
+   "ty": "ml",
+   "st": "reg",
+   "stat": "ml",
+   "k": null,
+   "b2b": false,
+   "sys": null,
+   "n": "UFC prelim. Fight finished before the board, graded for the record only.",
+   "rule": null,
+   "fl": "DONE",
+   "models": {
+    "chatgpt": 48,
+    "gemini": 58,
+    "grok": 55,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "Mitchell entered 11-3 while Yousaf had six straight wins FINAL won by R1 TKO",
+    "gemini": "Pregame slight edge in lightweight debut FINAL won",
+    "grok": "pregame lean won",
+    "claude": "FINAL won (KO R1)"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": null,
+   "tier": "S",
+   "pub": null,
+   "eng": "settled before the board",
+   "spread": null
+  },
+  {
+   "i": 77,
+   "p": "Tyler Herro 2+ rebounds",
+   "player": "Tyler Herro",
+   "g": "MIL@PHI",
+   "t": "10:00 AM",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "reb",
+   "k": 88,
+   "b2b": false,
+   "sys": 81,
+   "n": "Safer line than the 4+ you sent (Kalshi 58 there). Hit 13 of 15 this season, 4 of 5 last 5 (avg 4.0 reb). Matchup: Philadelphia allows 44.9 reb a game, 10th most in the league. Now with Milwaukee. Bucks are 10.5-point underdogs at Philly, blowout risk. Kalshi: 88.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": null,
+    "gemini": null,
+    "grok": null,
+    "claude": null
+   },
+   "why": {},
+   "conf": {},
+   "fade": [],
+   "alt_rung": true,
+   "med": 81,
+   "blend": 81,
+   "cap": null,
+   "tier": "G",
+   "pub": 81,
+   "eng": "v8",
+   "spread": null,
+   "solo": true
+  },
+  {
+   "i": 78,
+   "p": "LaMelo Ball 15+ points",
+   "player": "LaMelo Ball",
+   "g": "MEM@MIN",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "pts",
+   "k": 76,
+   "b2b": false,
+   "sys": 70,
+   "n": "Safer line than the 20+ you sent (Kalshi 52 there). Hit 11 of 16 this season, 4 of 5 last 5 (avg 17.6 pts). Matchup: Memphis allows 111.9 pts a game, 20th most in the league. Now with Minnesota. Kalshi: 76.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": null,
+    "gemini": null,
+    "grok": null,
+    "claude": 72
+   },
+   "why": {},
+   "conf": {},
+   "fade": [],
+   "alt_rung": true,
+   "med": 71,
+   "blend": 71,
+   "cap": null,
+   "tier": "G",
+   "pub": 71,
+   "eng": "v8",
+   "spread": null,
+   "solo": false
+  },
+  {
+   "i": 79,
+   "p": "Cooper Flagg 4+ assists",
+   "player": "Cooper Flagg",
+   "g": "LAC@DAL",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "alt",
+   "stat": "ast",
+   "k": 84,
+   "b2b": false,
+   "sys": 83,
+   "n": "Safer line than the 6+ you sent (Kalshi 58 there). Hit 12 of 14 this season, 4 of 5 last 5 (avg 6.4 ast). Matchup: Los Angeles C allows 28.0 ast a game, 5th most in the league (good spot). Mavericks -5.5 at home. Kalshi: 84.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": null,
+    "gemini": null,
+    "grok": null,
+    "claude": 80
+   },
+   "why": {},
+   "conf": {},
+   "fade": [],
+   "alt_rung": true,
+   "med": 82,
+   "blend": 82,
+   "cap": null,
+   "tier": "G",
+   "pub": 82,
+   "eng": "v8",
+   "spread": null,
+   "solo": false
+  }
+ ],
+ "board": [
+  16,
+  13,
+  79,
+  11,
+  77,
+  58,
+  59,
+  5,
+  7,
+  62,
+  78
+ ],
+ "low": [
+  46,
+  47,
+  38,
+  67,
+  45,
+  34,
+  4,
+  15,
+  43,
+  48,
+  55,
+  31,
+  37,
+  54,
+  14,
+  30,
+  42,
+  39,
+  49,
+  56,
+  61,
+  69,
+  2,
+  36,
+  44,
+  28,
+  66,
+  26,
+  65,
+  32,
+  33,
+  41,
+  52,
+  53,
+  3,
+  8,
+  21,
+  6,
+  29,
+  51,
+  60,
+  23,
+  24,
+  25,
+  57,
+  22,
+  64,
+  18,
+  50,
+  1,
+  20,
+  17,
+  27,
+  40,
+  71,
+  19,
+  35,
+  68
+ ],
+ "removed": [
+  70,
+  63,
+  9,
+  10,
+  12
+ ],
+ "nograde": [],
+ "settled": [
+  72,
+  73,
+  74,
+  75,
+  76
+ ],
+ "hammer": {
+  "legs": [
+   79,
+   58
+  ],
+  "pay": 1.49,
+  "none": null,
+  "hit": 72,
+  "pay_net": 1.45,
+  "ev": 5.1,
+  "kind": "Safe Hammer"
+ },
+ "perfect": [
+  {
+   "name": "Safe",
+   "legs": [],
+   "pay": null,
+   "hit": null,
+   "ev": null,
+   "none": "No 2-3-leg combo from different games made +2% after fees at a 55%+ hit chance."
+  },
+  {
+   "name": "Core",
+   "legs": [],
+   "pay": null,
+   "hit": null,
+   "ev": null,
+   "none": "No 3-4-leg combo from different games made +2% after fees at a 40%+ hit chance."
+  },
+  {
+   "name": "Stretch",
+   "legs": [],
+   "pay": null,
+   "hit": null,
+   "ev": null,
+   "none": "No 4-5-leg combo from different games made +2% after fees at a 30%+ hit chance."
+  }
+ ],
+ "split": [
+  4,
+  46,
+  69,
+  47,
+  63,
+  39,
+  45,
+  13,
+  31,
+  55
+ ],
+ "agree": [],
+ "votes": {
+  "9": 4,
+  "16": 4,
+  "13": 3,
+  "58": 3,
+  "11": 4,
+  "62": 2,
+  "5": 3,
+  "59": 3,
+  "67": 1,
+  "46": 2,
+  "31": 1,
+  "7": 3,
+  "55": 1,
+  "56": 2,
+  "15": 1,
+  "6": 1,
+  "45": 1,
+  "48": 1
+ },
+ "tips": {
+  "chatgpt": [
+   "Give each identical player and threshold one ID so duplicate feeds cannot double-count a pick",
+   "Stamp each forecast with its creation time and exclude retrospective and price-exposed grades from blind Brier testing",
+   "Show the extra hit probability beside the payout change when a user lowers a line"
+  ],
+  "gemini": [
+   "Add an automatic blowout-risk flag on NBA player props whenever a team has a 10+ game record gap like PHI 13-3 vs MIL 1-15",
+   "Auto-lock or visually separate ALREADY STARTED and ALREADY FINISHED legs into a Live/Settled tab so users do not accidentally parlay dead legs",
+   "Display alt-line probability curves next to main lines so bettors can immediately see when dropping 1-2 units boosts hit rate by 15%+"
+  ],
+  "grok": [
+   "Add live injury and minutes tracker with real-time role changes from official reports and beat writers.",
+   "Include variance heatmaps showing last-10 hit rates and game-to-game range for every prop.",
+   "Build a one-click pregame vs live comparison view for started games so users can see original grade plus current score."
+  ],
+  "claude": [
+   "Show each pick's last-10 hit rate next to the line so bettors can see the misses",
+   "Flag second night of back to backs and game-time decisions automatically on every leg",
+   "Add a confirmed-live-score badge so customers can see which started legs have verified scores"
+  ]
+ },
+ "fades": {
+  "1": [
+   [
+    "chatgpt",
+    "Ball reached 21 in only six of 16 even with recent high-volume shooting nights"
+   ],
+   [
+    "grok",
+    "volume and efficiency dips recent,low minutes risk"
+   ],
+   [
+    "claude",
+    "Ball is around 18 ppg and Memphis defends the perimeter well"
+   ]
+  ],
+  "10": [
+   [
+    "chatgpt",
+    "Dunn played 20 minutes or less in four of his last five and had four boards only once in that stretch"
+   ],
+   [
+    "gemini",
+    "Kris Dunn 4+ rebounds asks for high-percentile guard glass work on the road"
+   ]
+  ],
+  "18": [
+   [
+    "chatgpt",
+    "Legree can command double-digit targets and still land near 100 yards"
+   ],
+   [
+    "gemini",
+    "112+ receiving yards is an extreme yardage threshold even for a high-TD WR"
+   ],
+   [
+    "grok",
+    "receiving volume dependent"
+   ]
+  ],
+  "20": [
+   [
+    "chatgpt",
+    "Georgia Tech has conceded more rushing yards than passing yards per game"
+   ],
+   [
+    "claude",
+    "Wake as a heavy favorite leans on the run and limits targets"
+   ]
+  ],
+  "35": [
+   [
+    "chatgpt",
+    "Oklahoma can win a low-scoring game by a field goal or a touchdown"
+   ],
+   [
+    "gemini",
+    "Oklahoma laying 7.5 vs a physical Texas A&M defense leaves little margin"
+   ],
+   [
+    "grok",
+    "large spread tight cover"
+   ],
+   [
+    "claude",
+    "A&M low-scoring games make a 7.5 margin hard even in an OU win"
+   ]
+  ],
+  "57": [
+   [
+    "chatgpt",
+    "Embiid collected fewer than eight rebounds in seven of 13 games"
+   ],
+   [
+    "gemini",
+    "PHI 13-3 vs MIL 1-15 creates heavy 4Q blowout benching risk for Embiid"
+   ]
+  ],
+  "60": [
+   [
+    "chatgpt",
+    "Embiid has reached four assists in only three of his last ten"
+   ],
+   [
+    "gemini",
+    "Embiid 4+ assists is vulnerable if MIL@PHI turns into a 20-point blowout"
+   ]
+  ],
+  "68": [
+   [
+    "chatgpt",
+    "Even a dominant Aliskerov performance loses this method bet if he finishes"
+   ],
+   [
+    "gemini",
+    "Ikram Aliskerov is much more likely to finish Cannonier than win on scorecards"
+   ],
+   [
+    "claude",
+    "Aliskerov finishes most wins so the decision outcome is narrow"
+   ]
+  ],
+  "12": [
+   [
+    "gemini",
+    "Kris Dunn 4+ assists is fragile on a 4-10 Clippers offense"
+   ]
+  ],
+  "17": [
+   [
+    "gemini",
+    "295+ passing yards on the road at Kansas State in November weather is tough"
+   ],
+   [
+    "grok",
+    "pass volume vs defense"
+   ]
+  ],
+  "4": [
+   [
+    "grok",
+    "low combined volume,bench risk"
+   ]
+  ],
+  "48": [
+   [
+    "grok",
+    "scoring variance over"
+   ]
+  ],
+  "54": [
+   [
+    "grok",
+    "illness limits minutes or sits"
+   ]
+  ],
+  "63": [
+   [
+    "grok",
+    "Stirling undefeated form"
+   ],
+   [
+    "claude",
+    "Prochazka is 34 coming off a KO loss against an unbeaten opponent"
+   ]
+  ],
+  "19": [
+   [
+    "claude",
+    "Iowa splits carries among several backs so 100 yards needs a big share"
+   ]
+  ],
+  "50": [
+   [
+    "claude",
+    "BC lacks the offense to push this total over 50"
+   ]
+  ],
+  "3": [
+   [
+    "claude",
+    "Herro sits right on 4 rebounds and blowout minutes cut volume"
+   ]
+  ]
+ },
+ "alts": {
+  "chatgpt": [
+   [
+    "1",
+    "LaMelo Ball 20+ points",
+    52,
+    "Exactly 20 now cashes and that happened once this season"
+   ],
+   [
+    "2",
+    "Domantas Sabonis 4+ assists",
+    66,
+    "One fewer conversion matters on the second night of a back-to-back"
+   ],
+   [
+    "10",
+    "Kris Dunn 2+ rebounds",
+    88,
+    "Adds both two-board and three-board games"
+   ],
+   [
+    "12",
+    "Kris Dunn 2+ assists",
+    77,
+    "Twelve of 14 cleared two versus eight of 14 at four"
+   ],
+   [
+    "35",
+    "Oklahoma -3",
+    56,
+    "A four-to-seven-point win cashes and exactly three can push under standard spread rules"
+   ],
+   [
+    "57",
+    "Joel Embiid 6+ rebounds",
+    82,
+    "Adds five games from his 13-game sample"
+   ],
+   [
+    "60",
+    "Joel Embiid 2+ assists",
+    72,
+    "Adds four games from his 13-game sample"
+   ]
+  ],
+  "gemini": [
+   [
+    "57",
+    "Joel Embiid 6+ rebounds",
+    74,
+    "Protects against 4th-quarter blowout rest vs 1-15 Bucks"
+   ],
+   [
+    "35",
+    "Oklahoma -3",
+    56,
+    "Avoids the hook above a touchdown in an SEC rivalry game"
+   ],
+   [
+    "1",
+    "LaMelo Ball 18+ points",
+    70,
+    "Absorbs a cold shooting night like his 15-pt game vs NYK"
+   ],
+   [
+    "2",
+    "Domantas Sabonis 4+ assists",
+    81,
+    "Safer floor in case Celtics blow out 1-14 Kings early"
+   ],
+   [
+    "61",
+    "Cooper Flagg 5+ assists",
+    68,
+    "Better buffer under his 6.3 APG season average"
+   ]
+  ],
+  "grok": [
+   [
+    "1",
+    "20+ points",
+    65,
+    "same player safer volume line"
+   ],
+   [
+    "2",
+    "4+ assists",
+    72,
+    "same player clearer"
+   ],
+   [
+    "3",
+    "3+ rebounds",
+    68,
+    "same player safer"
+   ],
+   [
+    "57",
+    "6+ rebounds",
+    85,
+    "same player clearer"
+   ],
+   [
+    "60",
+    "2+ assists",
+    78,
+    "same player safer"
+   ]
+  ],
+  "claude": [
+   [
+    "1",
+    "LaMelo 15+ points",
+    72,
+    "Floor is mid-teens even on bad shooting nights"
+   ],
+   [
+    "3",
+    "Herro 3+ rebounds",
+    72,
+    "Gives one rebound of cushion"
+   ],
+   [
+    "18",
+    "Legree 80+ receiving yards",
+    72,
+    "Target share holds even if the long play misses"
+   ],
+   [
+    "21",
+    "Riley 75+ rushing yards",
+    68,
+    "Covers a split backfield and a fourth-quarter rest"
+   ],
+   [
+    "17",
+    "Fifita 250+ passing yards",
+    66,
+    "Volume floor while avoiding wind risk"
+   ],
+   [
+    "61",
+    "Flagg 4+ assists",
+    80,
+    "6.4 apg makes 4 very safe"
+   ],
+   [
+    "5",
+    "Vassell 7+ points",
+    68,
+    "Survives a cold shooting night"
+   ],
+   [
+    "35",
+    "Oklahoma -3",
+    64,
+    "Field goal cushion in a low-scoring game"
+   ]
+  ]
+ },
+ "kalshi_ts": "2026-11-21T17:31:08+00:00"
+}
