@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Parlay Grader · BettorDays</title>
+<meta name="description" content="Screenshot any parlay. Every leg graded with ten signals and four AI agents, the weakest leg flagged and a safer swap. 21+.">
+<meta name="theme-color" content="#0b0d0c">
+<link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@700;900&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#0b0d0c;--p:#111513;--p2:#0f1311;--line:#1f2724;--tx:#eef3f0;--mu:#8a9a93;--dim:#5b6b64;--acc:#04ff9f;--bad:#ff4d5e;--warn:#ffb020;color-scheme:dark}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--tx);font-family:Geist,system-ui,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--acc)}
+.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;padding:12px 16px;background:rgba(11,13,12,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+.logo{font:900 20px Kanit,sans-serif;text-transform:uppercase;color:var(--tx);text-decoration:none}.logo span{color:var(--acc)}
+.top nav{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap}.top nav a{font:700 11px 'Geist Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--mu);text-decoration:none;padding:8px 8px}
+main{max-width:880px;margin:0 auto;padding:22px 16px 90px}
+.lbl{font:500 11px 'Geist Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--mu)}
+h1{font:900 clamp(38px,9vw,64px)/.95 Kanit,sans-serif;text-transform:uppercase;margin:8px 0 10px}h1 em{font-style:normal;color:var(--acc)}
+.sub{color:var(--mu);font-size:15px;line-height:1.55;margin:0 0 18px;max-width:640px}
+.card{background:var(--p);border:1px solid var(--line);padding:16px;border-radius:12px}
+.drop{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:170px;border:1.5px dashed #2c3833;border-radius:12px;cursor:pointer;text-align:center;padding:18px;transition:border-color .15s}
+.drop:hover,.drop.on{border-color:var(--acc)}.drop b{font-size:17px}.drop img{max-height:220px;max-width:100%;border-radius:8px}
+textarea{width:100%;background:var(--p2);color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:12px;font:15px Geist,sans-serif;resize:vertical;min-height:84px}
+.or{display:flex;align-items:center;gap:10px;margin:14px 0;color:var(--dim)}.or:before,.or:after{content:"";flex:1;height:1px;background:var(--line)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border:1px solid var(--line);background:none;color:var(--tx);border-radius:10px;font:700 13px 'Geist Mono',monospace;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;text-decoration:none}
+.btn.go{background:var(--acc);border-color:var(--acc);color:#04120b}.btn:disabled{opacity:.5;cursor:wait}.full{width:100%}
+.msg{margin-top:10px;font-size:14px;color:var(--mu)}.msg.bad{color:var(--bad)}
+.load{display:none;margin-top:16px}.load.on{display:block}.bar{height:3px;background:var(--line);border-radius:3px;overflow:hidden}.bar i{display:block;height:100%;width:30%;background:var(--acc);animation:sl 1.2s infinite ease-in-out}@keyframes sl{0%{transform:translateX(-100%)}100%{transform:translateX(340%)}}
+.steps{margin-top:10px;font:13px 'Geist Mono',monospace;color:var(--mu);line-height:1.9}
+.sum{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.kpi{background:var(--p);border:1px solid var(--line);border-radius:12px;padding:12px}.kpi b{display:block;font:900 30px Kanit,sans-serif;margin-top:4px}.kpi small{color:var(--mu);font-size:12px}
+.score b{color:var(--acc)}
+.weak{margin-top:12px;border-color:var(--warn)}.weak h3{margin:0 0 6px;color:var(--warn);font-size:15px}
+.leg{margin-top:12px}.lh{display:flex;align-items:flex-start;gap:12px}.lh .t{flex:1;font-weight:600;font-size:16px;line-height:1.35}.lh .t small{display:block;color:var(--mu);font:500 12px 'Geist Mono',monospace;margin-top:3px}
+.g{font:900 34px/1 Kanit,sans-serif;min-width:58px;text-align:right}.tier{font:700 10px 'Geist Mono',monospace;letter-spacing:.1em;padding:4px 6px;border-radius:5px;display:inline-block;margin-top:4px}
+.G{background:#04ff9f22;color:var(--acc)}.Y{background:#ffb02022;color:var(--warn)}.R{background:#ff4d5e22;color:var(--bad)}.N{background:#ffffff12;color:var(--mu)}
+.sig{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:12px}.s{background:var(--p2);border:1px solid var(--line);border-radius:8px;padding:8px 6px;text-align:center}.s span{display:block;font:500 9.5px 'Geist Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--dim)}.s b{display:block;font:700 16px 'Geist Mono',monospace;margin-top:3px}
+.why{margin:10px 0 0;padding:0;list-style:none;font-size:13px;color:var(--mu);line-height:1.5}.why li{margin-top:3px}.why b{color:var(--tx);font-weight:600}
+.fl{margin-top:8px;font-size:13px;color:var(--warn);line-height:1.45}
+.foot{margin-top:22px;font-size:12px;color:var(--dim);line-height:1.6}
+@media (max-width:620px){.sum{grid-template-columns:repeat(2,1fr)}.sig{grid-template-columns:repeat(5,1fr)}.s b{font-size:14px}.g{font-size:30px}.top nav a:not(.k){display:none}}
+</style></head><body>
+<header class="top"><a class="logo" href="/">Bettor<span>Days</span></a><nav><a href="/">Picks</a><a href="/research">Research</a><a class="k" href="/app">App</a></nav></header>
+<main>
+  <span class="lbl" style="color:var(--acc)">New · Parlay grader · 21+</span>
+  <h1>Grade your <em>parlay.</em></h1>
+  <p class="sub">Drop a screenshot of any slip from any book. Every leg gets ten signals: our board grade, Kalshi's live price, four AI agents grading blind, last-10 and season hit rates, our record for that bet type, and red flags. You get the weakest leg and a safer swap in about a minute.</p>
+  <div class="card">
+    <label class="drop" id="drop" for="file"><span style="font-size:30px">📸</span><b>Tap to add your slip screenshot</b><span class="lbl">or drag it here · PNG or JPG</span></label>
+    <input id="file" type="file" accept="image/*" hidden>
+    <div class="or">or paste the legs</div>
+    <textarea id="txt" placeholder="Trae Young 10+ points&#10;Isaiah Hartenstein 2+ assists&#10;Thunder ML"></textarea>
+    <button class="btn go full" id="go" type="button" style="margin-top:12px">Grade it</button>
+    <div class="msg" id="msg"></div>
+    <div class="load" id="load"><div class="bar"><i></i></div><div class="steps" id="steps"></div></div>
+  </div>
+  <div id="out"></div>
+  <p class="foot">Grades are estimates, not promises. A parlay only cashes if every leg hits. 21+. Bet what you can lose. If gambling stops being fun, call or text 1-800-GAMBLER.</p>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="/sb.js"></script>
+<script>
+(function(){
+const sb=window.BD_SB,$=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let IMG=null;
+const shrink=f=>new Promise((ok,no)=>{const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const M=1600,sc=Math.min(1,M/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.round(im.width*sc);c.height=Math.round(im.height*sc);c.getContext('2d').drawImage(im,0,0,c.width,c.height);ok(c.toDataURL('image/jpeg',.86))};im.onerror=no;im.src=r.result};r.onerror=no;r.readAsDataURL(f)});
+const take=async f=>{if(!f||!/^image\//.test(f.type))return;IMG=await shrink(f);$('drop').innerHTML=`<img src="${IMG}" alt="Your slip"><span class="lbl">Tap to change</span>`};
+$('file').onchange=e=>take(e.target.files[0]);
+const d=$('drop');['dragover','dragenter'].forEach(ev=>d.addEventListener(ev,e=>{e.preventDefault();d.classList.add('on')}));['dragleave','drop'].forEach(ev=>d.addEventListener(ev,e=>{e.preventDefault();d.classList.remove('on')}));d.addEventListener('drop',e=>take(e.dataTransfer.files[0]));
+document.addEventListener('paste',e=>{const it=[...(e.clipboardData||{}).items||[]].find(i=>i.type.startsWith('image/'));if(it)take(it.getAsFile())});
+const STEPS=['Reading your slip','Matching legs to tonight\'s board','Pulling live Kalshi prices','Checking last-10 and season hit rates','Four AI agents grading blind','Combining ten signals per leg'];
+let st=null;const steps=on=>{$('load').classList.toggle('on',on);clearInterval(st);if(!on)return;let i=0;const draw=()=>{$('steps').innerHTML=STEPS.map((s,j)=>`${j<i?'✓':j===i?'›':'·'} ${s}`).join('<br>')};draw();st=setInterval(()=>{i=Math.min(STEPS.length-1,i+1);draw()},6500)};
+const c=v=>v==null?'-':v;
+function render(r){
+  const T=r.ticket;
+  let h=`<div class="sum"><div class="kpi score"><span class="lbl">Slip score</span><b>${T.score}/10</b><small>${r.legs.length} legs</small></div><div class="kpi"><span class="lbl">Hit chance</span><b>${T.hit}%</b><small>by our combined grades</small></div><div class="kpi"><span class="lbl">Fair payout</span><b>${T.fair}x</b><small>${T.pays?`your book pays ${T.pays}x`:'add the payout to compare'}</small></div><div class="kpi"><span class="lbl">Market says</span><b>${T.market_hit!=null?T.market_hit+'%':'-'}</b><small>${T.market_hit!=null?'hit chance at Kalshi prices':'not every leg has a Kalshi price'}</small></div></div>`;
+  if(T.value)h+=`<p class="sub" style="margin:12px 0 0">${esc(T.value)}</p>`;
+  if(T.weakest)h+=`<div class="card weak"><h3>Weakest leg: ${esc(T.weakest.text)} (${c(T.weakest.grade)})</h3><div style="font-size:14px;line-height:1.5">${T.weakest.swap?`Safer swap on the same player: <b>${esc(T.weakest.swap.line)}</b>, priced ${T.weakest.swap.k} on Kalshi. It pays a little less and hits a lot more often.`:'Cut it, or swap it for a GREEN leg from tonight\'s board.'} <a href="/">See tonight's board →</a></div></div>`;
+  h+=r.legs.map(l=>{const ag=Object.entries(l.agents||{});const f=l.form;
+    const sig=[['Ours',c(l.ours)],['Kalshi',c(l.kalshi)],...['ChatGPT','Claude','Gemini','Grok'].map(n=>[n,c((l.agents[n]||{}).p)]),['Last 10',f?`${f.l10}/${f.l10n}`:'-'],['Season',f?f.season+'%':'-'],['Our record',l.group?l.group.pct+'%':'-'],['Flags',l.flags.length||'0']];
+    return `<div class="card leg"><div class="lh"><div class="t">${esc(l.text)}<small>${esc(l.game||'')}${f&&f.avg!=null?` · avg ${f.avg}`:''} · ${l.signals}/10 signals</small></div><div style="text-align:right"><div class="g" style="color:${l.tier==='R'?'var(--bad)':l.grade>=70?'var(--acc)':'var(--tx)'}">${c(l.grade)}</div><span class="tier ${l.tier}">${{G:'GREEN',Y:'YELLOW',R:'MARKET DISAGREES',N:'NO KALSHI'}[l.tier]}</span></div></div>
+    <div class="sig">${sig.map(([k,v])=>`<div class="s"><span>${k}</span><b>${esc(v)}</b></div>`).join('')}</div>
+    ${ag.length?`<ul class="why">${ag.filter(([,a])=>a&&a.why).map(([n,a])=>`<li><b>${esc(n)} ${a.p}:</b> ${esc(a.why)}</li>`).join('')}</ul>`:''}
+    ${l.group?`<div class="why" style="margin-top:6px">Our record on ${esc(l.group.label)}: ${l.group.w}-${l.group.l}.</div>`:''}
+    ${l.swap&&l.grade<75?`<div class="fl" style="color:var(--acc)">Safer line: ${esc(l.swap.line)} (Kalshi ${l.swap.k}).</div>`:''}
+    ${l.flags.map(x=>`<div class="fl">⚠ ${esc(x)}</div>`).join('')}</div>`}).join('');
+  h+=`<p class="foot">Agents tonight: ${esc((r.agents||[]).join(', ')||'none answered')}. ${r.left!=null?`${r.left} free grades left today.`:''}</p>`;
+  $('out').innerHTML=h;$('out').scrollIntoView({behavior:'smooth',block:'start'});
+}
+$('go').onclick=async()=>{
+  const M=$('msg');M.className='msg';M.textContent='';
+  const text=$('txt').value.trim();if(!IMG&&text.length<4){M.className='msg bad';M.textContent='Add a screenshot or paste your legs.';return}
+  const s=(await sb.auth.getSession()).data.session;
+  if(!s){M.className='msg bad';M.innerHTML='Grading is free with an account. <a href="/?join=1">Join free</a> or <a href="/?join=1">log in</a>, then come back.';return}
+  $('go').disabled=true;steps(true);$('out').innerHTML='';
+  try{const r=await fetch('/api/grade-slip',{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+s.access_token},body:JSON.stringify(IMG?{image:IMG}:{text})});
+    const j=await r.json().catch(()=>({error:'Something went wrong.'}));if(!r.ok)throw new Error(j.error||'Something went wrong.');render(j)}
+  catch(e){M.className='msg bad';M.textContent=e.message}
+  finally{$('go').disabled=false;steps(false)}};
+})();
+</script>
+</body></html>
