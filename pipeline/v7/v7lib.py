@@ -8,7 +8,8 @@ BOARD_MIN = 70      # board shows GREEN and YELLOW legs at 70+
 HAM_MIN = 75        # Hammer legs published 75+
 HAM_WITHIN = 3      # Hammer legs GREEN or within 3 of Kalshi
 MIN_MODELS = 2      # a leg needs at least 2 model numbers to get a v7 grade
-MIN_PAY = 1.5       # Ace, Nov 20: a posted ticket pays at least 1.5x after fees, so a miss never costs 6 wins
+MIN_PAY = 1.5       # Ace, Nov 20: the Hammer pays at least 1.5x after fees, so a miss never costs 6 wins
+SAFE_PAY = 1.35     # if no 1.5x Hammer makes money, the best +EV ticket at 1.35x+ posts as the Safe Hammer
 SPLIT_MAX = 12      # models 12+ points apart: the leg stays off the Hammer and the parlays (Nov 20 audit)
 
 
@@ -143,10 +144,12 @@ def hammer(legs):
     if D.get('mode') == 'pass':
         f = D.get('forward', {})
         return None, f"Pass mode: the favorite-edge tickets lost money over {f.get('legs')} tracked legs ({f.get('roi')}% after fees), so we only post tickets again once sharp-book prices show a real edge."
-    b = _best(pool, C, (2, 3, 4, 5), 0.45, lambda h, e: (round(h, 3), e))
+    b = _best(pool, C, (2, 3, 4, 5), 0.45, lambda h, e: (round(h, 3), e)); kind = 'Hammer'
+    if not b:   # Ace, Nov 20: don't pass on a money-making ticket just because it pays 1.35x to 1.5x
+        b = _best(pool, C, (2, 3, 4), 0.6, lambda h, e: (round(h, 3), e), min_pay=SAFE_PAY); kind = 'Safe Hammer'
     if not b:
-        return None, f"No 2 to 5 legs from different games priced 80-92 cents paid {MIN_PAY}x or more after fees with a 45%+ hit chance and a profit by our math ({len(pool)} leg{'s' if len(pool) != 1 else ''} qualified). Passing is a win."
-    for l in b[1]: l['_ham'] = (round(100 * b[2]), round(b[3], 2), round(100 * b[4], 1))
+        return None, f"No 2 to 5 legs from different games priced 80-92 cents paid {SAFE_PAY}x or more after fees with a 45%+ hit chance and a profit by our math ({len(pool)} leg{'s' if len(pool) != 1 else ''} qualified). Passing is a win."
+    for l in b[1]: l['_ham'] = (round(100 * b[2]), round(b[3], 2), round(100 * b[4], 1), kind)
     return list(b[1]), None
 
 
