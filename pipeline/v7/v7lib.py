@@ -8,6 +8,7 @@ BOARD_MIN = 70      # board shows GREEN and YELLOW legs at 70+
 HAM_MIN = 75        # Hammer legs published 75+
 HAM_WITHIN = 3      # Hammer legs GREEN or within 3 of Kalshi
 MIN_MODELS = 2      # a leg needs at least 2 model numbers to get a v7 grade
+MIN_PAY = 1.5       # Ace, Nov 20: a posted ticket pays at least 1.5x after fees, so a miss never costs 6 wins
 SPLIT_MAX = 12      # models 12+ points apart: the leg stays off the Hammer and the parlays (Nov 20 audit)
 
 
@@ -123,28 +124,28 @@ def _combo_stats(c, C):
     return hit, 1 / cost, hit / cost - 1     # hit chance, payout after fees, EV per $1
 
 
-def _best(pool, C, sizes, min_hit, key):
+def _best(pool, C, sizes, min_hit, key, min_pay=MIN_PAY):
     best = None
     for n in sizes:
         for c in itertools.combinations(pool[:14], n):
             if len({l['g'] for l in c}) < n or len({l['player'] for l in c}) < n: continue
             hit, pay, e = _combo_stats(c, C)
-            if e < 0.02 or hit < min_hit: continue
+            if e < 0.02 or hit < min_hit or pay < min_pay: continue
             sc = key(hit, e)
             if best is None or sc > best[0]: best = (sc, c, hit, pay, e)
     return best
 
 
 def hammer(legs):
-    """EV Hammer (replaces the 2x minimum, Ace Nov 20): 2 to 4 favorite-edge legs from different games, the highest
-    hit chance whose expected value after Kalshi fees is at least +2%. Any payout is allowed. Returns (legs, reason)."""
+    """EV Hammer (replaces the 2x minimum, Ace Nov 20): 2 to 5 favorite-edge legs from different games paying 1.5x+
+    after fees, the highest hit chance whose expected value after Kalshi fees is at least +2%. Returns (legs, reason)."""
     pool, C, D = edge_pool(legs)
     if D.get('mode') == 'pass':
         f = D.get('forward', {})
         return None, f"Pass mode: the favorite-edge tickets lost money over {f.get('legs')} tracked legs ({f.get('roi')}% after fees), so we only post tickets again once sharp-book prices show a real edge."
-    b = _best(pool, C, (2, 3, 4), 0.5, lambda h, e: (round(h, 3), e))
+    b = _best(pool, C, (2, 3, 4, 5), 0.45, lambda h, e: (round(h, 3), e))
     if not b:
-        return None, f"No 2 to 4 legs from different games priced 80-92 cents made money after fees at a 50%+ hit chance ({len(pool)} leg{'s' if len(pool) != 1 else ''} qualified). Passing is a win."
+        return None, f"No 2 to 5 legs from different games priced 80-92 cents paid {MIN_PAY}x or more after fees with a 45%+ hit chance and a profit by our math ({len(pool)} leg{'s' if len(pool) != 1 else ''} qualified). Passing is a win."
     for l in b[1]: l['_ham'] = (round(100 * b[2]), round(b[3], 2), round(100 * b[4], 1))
     return list(b[1]), None
 
@@ -153,7 +154,7 @@ def perfect(legs):
     """Safe / Core / Stretch from favorite-edge legs, one leg per game and player, each +2% EV or better after fees.
     Safe: 2 legs, highest hit chance. Core: 3 legs, highest EV with 45%+ hit. Stretch: 4-5 legs, highest EV with 30%+ hit."""
     pool, C, D = edge_pool(legs)
-    spec = [('Safe', (2,), 0.6, lambda h, e: (h, e)), ('Core', (3,), 0.45, lambda h, e: (e, h)), ('Stretch', (4, 5), 0.3, lambda h, e: (e, h))]
+    spec = [('Safe', (2, 3), 0.55, lambda h, e: (h, e)), ('Core', (3, 4), 0.4, lambda h, e: (e, h)), ('Stretch', (4, 5), 0.3, lambda h, e: (e, h))]
     out = []
     for name, sizes, mh, key in spec:
         b = None if D.get('mode') == 'pass' else _best(pool, C, sizes, mh, key)

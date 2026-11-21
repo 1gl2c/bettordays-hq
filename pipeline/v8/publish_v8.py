@@ -56,7 +56,7 @@ TIX = []
 if H['legs']:
     hl = [L[i] for i in H['legs']]
     TIX.append({'t': f'Hammer · {len(hl)} legs', 'c': '#04ff9f', 'legs': [l['p'] for l in hl], 'stake': 'Play small',
-                'v': 'EV Hammer: legs Kalshi prices at 80 to 92 cents that our grade agrees with, from different games. Favorites at that price hit 88.5% on our record, a bit more than the price says. The ticket goes up only if that math beats the payout after fees. Being tracked as $1 bets from Nov 21; it switches itself off if it loses.',
+                'v': 'EV Hammer: legs Kalshi prices at 80 to 92 cents that our grade agrees with, from different games, paying 1.5x or more after fees. Favorites at that price hit 88.5% on our record, a bit more than the price says. The ticket goes up only if that math beats the payout after fees. Being tracked as $1 bets from Nov 21; it switches itself off if it loses.',
                 'lock': f"About {H['pay']:.2f}x at Kalshi's prices", 'hit': f"About {H['hit']}% to hit · {H['ev']:+.1f}% expected after fees" if H.get('hit') else ''})
     # Nov 20 ChatGPT audit: every ticket shows the win rate it needs next to the win rate we expect
     TIX[-1]['be'] = round(100 / H['pay_net'], 1) if H.get('pay_net') else None
