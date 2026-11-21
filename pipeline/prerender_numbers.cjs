@@ -2,7 +2,7 @@
 // or zero counts before the script runs (Nov 20 audit: /results showed 0/6 and 26-35 next to 21-44).
 // Usage (repo root): node pipeline/prerender_numbers.cjs   -> patches pipeline/bettordays-hq.html, then run buildsite.py
 const { chromium } = require('playwright'); const fs = require('fs'); const path = require('path');
-const SRC = path.join(__dirname, 'bettordays-hq.html'); const IDS = ['tlTk', 'tlTkS', 'tl70', 'tl70S', 'tlAll', 'tlAllS', 'homeProof'];
+const SRC = path.join(__dirname, 'bettordays-hq.html'); const IDS = ['tlTk', 'tlTkS', 'tl70', 'tl70S', 'tlAll', 'tlAllS', 'tlRoi', 'tlRoiS', 'homeProof'];
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage();
   await p.route('**/*', r => /^file:|^data:/.test(r.request().url()) ? r.continue() : r.abort());

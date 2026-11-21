@@ -88,6 +88,9 @@ pk = PK.lower()
 rep(f"const CUR={PK},CTIX={PK[:2]}TIX,CURD='{pday}';" if f"const CUR={PK},CTIX={PK[:2]}TIX,CURD='{pday}';" in s else re.search(r"const CUR=[^;]*;", s).group(0),
     f"const {K}={json.dumps(board)};\nconst {K[:2]}TIX={json.dumps(TIX)};\nconst CUR={K},CTIX={K[:2]}TIX,CURD='{day}';")
 s = re.sub(r"const V7D=[^\n]*;\n", lambda m: 'const V7D=' + json.dumps(V7D) + ';\n', s, count=1)
+# why there is no Hammer tonight, for the Tonight hero (empty when there is one)
+hn = 'var HAMNOTE=' + json.dumps('' if H['legs'] else (H['none'] or '')) + ';'
+s = re.sub(r"var HAMNOTE=[^\n]*;", lambda m: hn, s, count=1) if 'var HAMNOTE=' in s else s.replace("const V7D=", hn + "\nconst V7D=", 1)
 from zoneinfo import ZoneInfo
 pt = datetime.datetime.now(ZoneInfo('America/Los_Angeles'))
 m = re.search(r'const CURCUT=[^;]*;\n', s)

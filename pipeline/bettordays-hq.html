@@ -161,7 +161,24 @@ blockquote.ace cite{display:block;margin-top:8px;font-family:var(--mono);font-si
 .proof b{color:var(--acc);font-weight:700}
 .sech{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:26px 0 6px}
 .sech h3{margin:0;font-size:20px}
+/* Tonight hero (Nov 20 audit: the first phone screen is tonight's play or a pass) */
+#tonight{border-color:var(--acc)}
+.tn-head{display:flex;flex-direction:column;gap:2px}
+.tn-card{margin-top:14px;border:1px solid var(--line);background:var(--panel2);padding:14px}
+.tn-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.tn-top h3{margin:0;font-family:var(--display);font-size:20px;text-transform:uppercase;letter-spacing:.01em}
+.tn-pay{font-family:var(--display);font-size:34px;line-height:1;color:var(--acc)}
+.tn-pay small{display:block;font:500 11px var(--mono);color:var(--mute);text-align:right;margin-top:4px}
+.tn-legs{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column}
+.tn-legs li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:10px 0;border-top:1px solid var(--line)}
+.tn-legs li span{font-weight:600}.tn-legs li small{grid-column:1/-1;font:11px var(--mono);color:var(--mute)}
+.tn-legs li b{font-family:var(--display);font-size:20px;color:var(--acc)}
+.tn-legs li.w span::before{content:"✓ ";color:var(--acc)}.tn-legs li.l span{color:var(--bad)}.tn-legs li.l span::before{content:"✗ "}
+.tn-pass h3{color:var(--warn)}
+.tn-act{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 12px}
+.tn-act .btn{flex:1 1 140px;text-align:center;justify-content:center}
 .tabbar{display:none}
+body:not(.show-older) .older{display:none!important}.older-btn{display:block;margin:18px auto;width:100%;max-width:420px}
 .sheet{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.55);backdrop-filter:blur(3px)}
 .sheet[hidden]{display:none}
 .sheet .in{position:absolute;left:0;right:0;bottom:0;background:var(--panel);border-top:1px solid var(--acc);padding:18px max(16px,env(safe-area-inset-left,0px)) calc(18px + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:1fr 1fr;gap:8px;animation:shup .25s cubic-bezier(.2,.8,.2,1)}
@@ -270,7 +287,7 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
       <div class="brand">BettorDays <span>HQ</span></div>
     </div>
     <nav class="nav" aria-label="Pages">
-      <a class="btn" data-go="home" href="/">Picks</a><a class="btn" data-go="easy" href="/easy">Ticket builder</a><a class="btn" href="/grade" style="border-color:var(--acc);color:var(--acc)">Grade my parlay</a><a class="btn" data-go="research" href="/research">Research</a><a class="btn" data-go="history" href="/history">History</a><a class="btn" data-go="results" href="/results">Results</a><a class="btn" data-go="method" href="/method">How it works</a><a class="btn hot" href="/app#/board">Pick &amp; post</a><a class="btn" href="/app#/chat">Chat</a><a class="btn" href="/app#/leaders">Leaders</a><button class="btn" id="tourBtn" type="button" aria-label="Take the tour">? Tour</button>
+      <a class="btn" data-go="home" href="/">Tonight</a><a class="btn" data-go="easy" href="/easy">Ticket</a><a class="btn" href="/grade" style="border-color:var(--acc);color:var(--acc)">Grade my parlay</a><a class="btn" data-go="record" href="/record">Record</a><a class="btn" data-go="research" href="/research">Research lab</a><a class="btn" data-go="history" href="/history">Past nights</a><a class="btn" data-go="method" href="/method">How it works</a><a class="btn hot" href="/app#/board">Pick &amp; post</a><button class="btn" id="tourBtn" type="button" aria-label="Take the tour">? Tour</button>
     </nav>
   </header>
 
@@ -314,7 +331,7 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
 
   <section class="tiles" aria-label="Record">
     <div class="tile"><span class="lbl">Suggested tickets</span><b class="acc" id="tlTk">21-44</b><small id="tlTkS">every ticket we posted, Nov 8 to Nov 19 · Hammers 7-6 · 1 pending</small></div>
-    <div class="tile"><span class="lbl">Ledger P&amp;L</span><b class="mono acc">+27 🍪</b><small>Tickets Ace played, Nov 8 to 15. Stakes after Nov 15 were not recorded, so the ledger stops there.</small></div>
+    <div class="tile"><span class="lbl">Return after fees</span><b class="mono bad" id="tlRoi">−0.2%</b><small id="tlRoiS">344 priced 70+ legs as $1 singles at Kalshi's price · GREEN legs +6.5%</small></div>
     <div class="tile"><span class="lbl">70%+ legs</span><b class="mono acc" id="tl70">345/448</b><small id="tl70S">77% across 16 nights · Nov 19: 2 of 6</small></div>
     <div class="tile"><span class="lbl">Capper boards hit</span><b class="mono" id="tlAll">64%</b><small id="tlAllS">755 of 1187 graded legs, all tiers, Nov 4 to Nov 19</small></div>
     <div class="tile"><span class="lbl">Lottos cashed</span><b class="mono bad"><span data-count="0">0</span>/22</b><small>Kalshi pays 10-30% of fair on long ones. Retired.</small></div>
@@ -584,9 +601,16 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
   </section>
 
   
-<section class="panel" id="thursday">
-    <div class="dayhead"><span class="lbl" id="dayTag">Picks</span><h2 class="big" id="dayTitle">Friday · Nov 20</h2>
-      <p class="proof" id="homeProof"><b>77%</b> of our 70%+ picks hit · 345 of 448 graded since Nov 4 · last night (Nov 19) <b>33%</b>, 2 of 6 · as $1 singles at Kalshi's price after fees: <b>-0.2%</b> (GREEN +6.5%)</p></div>
+<section class="panel" id="tonight">
+    <div class="tn-head"><span class="lbl acc" id="tnTag">Tonight</span><h2 class="big" id="tnTitle">Tonight</h2></div>
+    <div class="tn-card" id="tnCard"><p class="note" style="margin:0">Loading tonight's play…</p></div>
+    <div class="tn-act"><button type="button" class="btn on" id="tnCopy" hidden>Copy the Hammer</button><a class="btn" data-go="easy" href="/easy">Build a ticket</a><a class="btn" href="/grade">Grade my slip</a><a class="btn" href="#thursday" id="tnBoard">See the board</a></div>
+    <p class="proof" id="homeProof"><b>77%</b> of our 70%+ picks hit · 345 of 448 graded since Nov 4 · last night (Nov 19) <b>33%</b>, 2 of 6 · as $1 singles at Kalshi's price after fees: <b style="color:var(--bad)">-0.2%</b> (GREEN +6.5%)</p>
+    <p class="tiny" style="margin:10px 0 0;color:var(--mute)">21+. Grades are estimates, not guarantees. Bet small. If it stops being fun, call or text 1-800-GAMBLER.</p>
+  </section>
+
+  <section class="panel" id="thursday">
+    <div class="dayhead"><span class="lbl" id="dayTag">Picks</span><h2 class="big" id="dayTitle">Friday · Nov 20</h2></div>
     <div class="filters" id="thuF" style="margin-top:16px"></div><p class="note" style="margin:6px 0 0">Engine v8. Four AI analysts grade every leg blind (no market price shown), and our grade is the middle of their numbers plus our own system grade. Kalshi is the referee after that. Kalshi in green: the market has it at or above our grade (GREEN). Grey: we are 1 to 7 above (YELLOW). Legs where we are 8+ above Kalshi are pulled (that gap has lost most often); see <a href="/research" data-go="research">Research, Tonight</a>. Games that started before the v8 run keep their v7 grade. No Kalshi price: capped at 75 and never on the Hammer. Grades are estimates, not promises. Prices move, so check the slip.</p>
     <div class="scroll boardwrap" style="max-height:620px;overflow-y:auto"><table id="thuT" class="board"></table></div>
     <div class="sech"><h3>Top 25</h3><span class="lbl">highest hit % on the board</span></div>
@@ -1144,19 +1168,21 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
 
 <p class="foot" style="text-align:center;margin:26px 0 0">21+ only. Picks are opinions, not guarantees, and BettorDays never places bets for you. If gambling stops being fun, call or text <b>1-800-GAMBLER</b>. <a href="/legal.html" style="color:var(--acc)">Terms and privacy</a></p>
 <nav class="tabbar" aria-label="App">
-  <a data-go="home" href="/"><i>📋</i>Picks</a>
-  <a data-go="easy" href="/easy"><i>🧩</i>Build</a>
-  <a class="post" href="/app#/board"><i>+</i>Post</a>
-  <a data-go="research" href="/research"><i>🔬</i>Research</a>
+  <a data-go="home" href="/"><i>🎯</i>Tonight</a>
+  <a data-go="easy" href="/easy"><i>🧩</i>Ticket</a>
+  <a class="post" href="/grade"><i>📸</i>Grade</a>
+  <a data-go="record" href="/record"><i>📈</i>Record</a>
   <button type="button" id="moreBtn" aria-haspopup="dialog"><i>☰</i>More</button>
 </nav>
 <div class="sheet" id="moreSheet" hidden><div class="in" role="dialog" aria-label="More">
   <span class="lbl acc" id="moreWho">More</span>
   <div id="moreMember" style="display:contents"></div>
-  <a href="/grade" style="color:var(--acc)">📸 Grade my parlay</a><a href="/app#/me">🤝 Invite friends</a><a href="/bonuses">🎁 Sign-up bonuses</a>
+  <a data-go="research" href="/research" style="color:var(--acc)">🔬 Research lab</a><a href="/app#/board">➕ Pick &amp; post</a>
+  <a data-go="history" href="/history">🗂 Past nights</a><a data-go="results" href="/results">🧾 Older recaps</a>
+  <a data-go="method" href="/method">🧠 How it works</a><a href="/bonuses">🎁 Sign-up offers</a>
   <a href="/app#/leaders">🏆 Leaderboard</a><a href="/app#/feed">🎟 Feed</a>
-  <a href="/app#/chat">💬 Chat</a><a href="/app#/me">👤 My profile</a>
-  <a data-go="record" href="/record">📊 Record explorer</a><a data-go="founders" href="/founders">⭐ Founders list</a><a data-go="results" href="/results">📈 Results</a><a data-go="history" href="/history">🗂 History</a><a data-go="method" href="/method">🧠 How it works</a>
+  <a href="/app#/chat">💬 Chat</a><a href="/app#/me">👤 Profile and invites</a>
+  <a data-go="founders" href="/founders">⭐ Founders list</a>
   <button type="button" data-more="fb">✋ Talk to Ace</button><button type="button" data-more="tour">❔ Tour</button>
 </div></div>
 <button class="fbtn" id="fbOpen" type="button" aria-haspopup="dialog">Talk to us</button>
@@ -1699,11 +1725,27 @@ document.getElementById('frhTix').innerHTML=FTIX.map(t=>{const pl=t.t.includes('
 
 document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('PLAYED'),k=t.res;return `<div class="st"${k==='W'?' style="border-color:var(--acc);box-shadow:0 0 22px rgba(4,255,159,.22)"':''}>${pl?'<span class="lbl acc" style="display:block;margin-bottom:4px">● Placed</span>':''}<h3 style="color:${t.c}">${t.t}${k?` <span class="res ${k==='W'?'w':'l'}">${k==='W'?'CASHED':'MISSED'}</span>`:''}</h3>${t.legs.map(l=>{const r=THU.find(x=>x.p===l);const q=r&&r.r;return `<div class="row"${q==='L'?' style="color:var(--bad)"':''}><span>${q==='W'?'✓ ':q==='L'?'✗ ':''}${l}</span><b>${r?r.pct:''}${r&&r.k!=null?`<small class="kp">${r.pct>=r.k+8?'⚠ ':''}K ${r.k}</small>`:''}</b></div>`}).join('')}<div class="row"><span>Hit chance</span><b>${t.hit}</b></div><div class="row"><span>Stake</span><b>${t.stake}</b></div><div class="row"><span>Lock at</span><b>${t.lock}</b></div><p class="note" style="margin:10px 0 0">${t.v}</p></div>`}).join('');
 
+/* Tonight hero: the Hammer or a pass, one Copy button (Nov 20 audit) */
+(function(){const card=document.getElementById('tnCard');if(!card||typeof CTIX==='undefined')return;
+ const esc=x=>String(x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const LBL=typeof V7D!=='undefined'&&V7D.d===CURD?V7D.label:(typeof BOARD!=='undefined'?BOARD.label:'');const t=document.getElementById('tnTitle');if(t&&LBL)t.textContent=LBL;
+ const H=CTIX.find(x=>/^Hammer/i.test(x.t));const btn=document.getElementById('tnCopy');
+ if(!H){card.classList.add('tn-pass');card.innerHTML=`<div class="tn-top"><h3>We passed on a Hammer tonight</h3></div><p class="note" style="margin:8px 0 0">${esc(typeof HAMNOTE!=='undefined'&&HAMNOTE?HAMNOTE:'Not enough legs passed every Hammer rule at a 2x payout. Passing is a win.')} The board below has the best single legs.</p>`;return}
+ const rows=H.legs.map(l=>({l,r:CUR.find(x=>x.p===l)}));const pay=(H.lock||'').match(/([\d.]+)x/);
+ card.innerHTML=`<div class="tn-top"><h3>The Hammer · ${H.legs.length} legs</h3><div class="tn-pay">${pay?pay[1]+'x':''}<small>${esc(H.hit||'')}</small></div></div><ul class="tn-legs">${rows.map(({l,r})=>`<li class="${r&&r.r==='W'?'w':r&&r.r==='L'?'l':''}"><span>${esc(l)}</span><b>${r?r.pct:''}</b><small>${r?(r.g||'')+(r.t?' · '+r.t:'')+(r.k!=null?' · Kalshi '+r.k:''):''}${r&&r.fl?' · '+esc(r.fl):''}</small></li>`).join('')}</ul><p class="note" style="margin:10px 0 0">${esc(H.lock||'')}. Lock at this price or better; if it moved, skip it.</p>`;
+ btn.hidden=false;btn.onclick=async()=>{const txt=`BettorDays Hammer · ${LBL}\n`+rows.map(({l,r})=>`• ${l}${r?` (our grade ${r.pct}${r.k!=null?', Kalshi '+r.k:''})`:''}`).join('\n')+`\n${H.lock||''}\n21+ · not a guarantee · 1-800-GAMBLER · bettordays.xyz`;
+  try{await navigator.clipboard.writeText(txt);btn.textContent='Copied'}catch(e){const ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');btn.textContent='Copied'}catch(_){btn.textContent='Copy failed'}ta.remove()}setTimeout(()=>btn.textContent='Copy the Hammer',1800)};
+ const sb=document.getElementById('tnBoard');if(sb)sb.onclick=e=>{e.preventDefault();document.getElementById('thursday').scrollIntoView({block:'start'})};
+})();
+/* Return-after-fees tile, from BD_ROI (buildsite.py) */
+(function(){const e=document.getElementById('tlRoi');if(!e||typeof BD_ROI==='undefined')return;const f=v=>(v>0?'+':v<0?'−':'')+Math.abs(v)+'%';e.textContent=f(BD_ROI.all);e.className='mono '+(BD_ROI.all>0?'acc':'bad');document.getElementById('tlRoiS').textContent=`${BD_ROI.n} priced 70+ legs as $1 singles at Kalshi's price · GREEN legs ${f(BD_ROI.green)}`})();
 /* pages router */
-(function(){const MAP={v7lab:'research',drop:'off',aipanel:'home',methodnow:'method',record:'record',founders:'founders',thursday:'home',easy:'easy',research:'research',perfect:'research',betalab:'research',review19:'results',review18:'results',review17:'results',review16:'results',review15:'results',review14:'results',review13:'results',review12:'results',review11:'history',th19hist:'history',wedhist:'history',tuehist:'history',monhist:'history',sunhist:'history',sathist:'history',frihist:'history',thuhist:'history',wednesday:'history',review10:'history',tuesday:'history',monday:'history',recap9:'history',recap:'history',sunday:'history',ledger:'results',legs:'results',marbles:'method',thesis:'method',edge:'method',structure:'method',lotto:'method'};
- const T=document.querySelector('.tiles');if(T)T.dataset.pg='results';
+(function(){const MAP={tonight:'home',v7lab:'research',drop:'off',aipanel:'history',methodnow:'method',record:'record',founders:'founders',thursday:'home',easy:'easy',research:'research',perfect:'research',betalab:'research',review19:'record',review18:'record',review17:'record',review16:'results',review15:'results',review14:'results',review13:'results',review12:'results',review11:'history',th19hist:'history',wedhist:'history',tuehist:'history',monhist:'history',sunhist:'history',sathist:'history',frihist:'history',thuhist:'history',wednesday:'history',review10:'history',tuesday:'history',monday:'history',recap9:'history',recap:'history',sunday:'history',ledger:'results',legs:'results',marbles:'method',thesis:'method',edge:'method',structure:'method',lotto:'method'};
+ const T=document.querySelector('.tiles');if(T)T.dataset.pg='record';
  Object.entries(MAP).forEach(([id,p])=>{const e=document.getElementById(id);if(e)e.dataset.pg=p});
- document.querySelectorAll('.wrap > section').forEach(e=>{if(e.dataset.pg)return;const h=(e.querySelector('h2')||{}).textContent||'';e.dataset.pg=/Calibration|Scoreboard/.test(h)?'results':/Red flags|Rulebook/.test(h)?'method':'history'});
+ document.querySelectorAll('.wrap > section, body > section').forEach(e=>{if(e.dataset.pg)return;const h=(e.querySelector('h2')||{}).textContent||'';e.dataset.pg=/Calibration|Scoreboard/.test(h)?'record':/Red flags|Rulebook/.test(h)?'method':'history'});
+ /* Past nights: newest 3 first, the rest behind one button (Nov 20 audit: History was 275 phone screens) */
+ {const H=[...document.querySelectorAll('[data-pg="history"]')];if(H.length>3){H.slice(3).forEach(e=>e.classList.add('older'));const b=document.createElement('button');b.type='button';b.className='btn older-btn';b.dataset.pg='history';b.textContent='Show '+(H.length-3)+' older nights';b.onclick=()=>{document.body.classList.add('show-older');b.remove()};H[2].after(b)}}
  const PAGES=['home','easy','research','history','results','method','record','founders'];
  const cur=()=>{const h=location.hash.replace(/^#\/?/,'');if(PAGES.includes(h))return h;const e=h&&document.getElementById(h);if(e&&e.dataset.pg)return e.dataset.pg;const p=location.pathname.replace(/^\/|\/$/g,'');return PAGES.includes(p)?p:'home'};
  const go=(p,id)=>{document.querySelectorAll('[data-pg]').forEach(e=>e.hidden=e.dataset.pg!==p);document.querySelectorAll('[data-go]').forEach(a=>a.classList.toggle('on',a.dataset.go===p));const e=id&&document.getElementById(id);if(e)e.scrollIntoView({block:'start'});else window.scrollTo(0,0)};
@@ -1713,7 +1755,7 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);const e=document.getElementById(h);if(e)go(e.dataset.pg||'home',h);else go(cur())});
  const h0=location.hash.slice(1);go(cur(),document.getElementById(h0)?h0:null);})();
 /* guided tour */
-(function(){const S=[['#dayTitle','Picks','Every pick on the board. The big number is how often we expect it to hit.'],['#thuF','Filter','Tap a sport, a start time, or 70%+. Swipe the buttons sideways on your phone.'],['#thuAny','Top 25','The 25 highest hit % picks on the board.'],['#thuTix','Suggested parlays','Our tickets for the night. Lock each one at the payout shown or better.'],['.tabbar [data-go="easy"]','Build','Build a ticket from the board. See our grade, Kalshi, the payout and every warning.'],['.tabbar .post','Post','Free account. Post your ticket and climb the leaderboard.']];
+(function(){const S=[['#tonight','Tonight','Tonight\'s Hammer, or a pass when nothing clears our rules. One tap copies it.'],['#thuF','The board','The Master filter is on: only our best groups. Tap Off to see every leg.'],['.tabbar [data-go="easy"]','Ticket','Build your own ticket. See our grade, Kalshi, the payout and every warning.'],['.tabbar .post','Grade','Screenshot any slip from any app and see its weakest leg.'],['.tabbar [data-go="record"]','Record','Every graded leg, wins and losses, and what each group returns after fees.']];
  let i=0,box,ring;const end=()=>{box&&box.remove();ring&&ring.remove();try{localStorage.setItem('bd_tour','1')}catch(e){}};
  const show=()=>{const [sel,h,t]=S[i];const el=[...document.querySelectorAll(sel)].find(x=>x.getClientRects().length);if(!el){i++;return i<S.length?show():end()}
   el.scrollIntoView({block:'center'});const r=el.getBoundingClientRect();
@@ -1825,6 +1867,7 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
 })();
 (function(){const m=document.getElementById('moreSheet'),b=document.getElementById('moreBtn');if(!m||!b)return;
  const close=()=>m.hidden=true;b.onclick=()=>m.hidden=false;
+ if(location.hash==='#more'){m.hidden=false;try{history.replaceState(null,'',location.pathname)}catch(e){}}
  m.addEventListener('click',e=>{if(e.target===m)return close();const x=e.target.closest('[data-more],a');if(!x)return;close();
   if(x.dataset.more==='fb')document.getElementById('fbOpen').click();if(x.dataset.more==='tour'){const t=document.getElementById('tourBtn');t&&t.click()}});
  document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});})();
@@ -2090,7 +2133,7 @@ const BETAPOST={'Nov 19':{b:'TH19',src:'learning model, posted on this page at a
  const days=[...new Set(R.map(r=>r.day))],last=days[days.length-1],pc=(h,n)=>n?Math.round(100*h/n):0;
  const t=R.filter(r=>r.est>=70),th=t.filter(r=>r.hit).length,lt=t.filter(r=>r.day===last),lh=lt.filter(r=>r.hit).length,ah=R.filter(r=>r.hit).length;
  const nm=new Date(CURD+'T12:00:00').toLocaleDateString('en-US',{weekday:'long'});
- if($('homeProof'))$('homeProof').innerHTML=`<b>${pc(th,t.length)}%</b> of our 70%+ picks hit · ${th} of ${t.length} graded since ${days[0]} · last night (${last}) <b>${pc(lh,lt.length)}%</b>, ${lh} of ${lt.length}`+(typeof BD_ROI!=='undefined'?` · as $1 singles at Kalshi's price after fees: <b>${BD_ROI.all>0?'+':''}${BD_ROI.all}%</b> (GREEN ${BD_ROI.green>0?'+':''}${BD_ROI.green}%)`:'');
+ if($('homeProof'))$('homeProof').innerHTML=`<b>${pc(th,t.length)}%</b> of our 70%+ picks hit · ${th} of ${t.length} graded since ${days[0]} · last night (${last}) <b>${pc(lh,lt.length)}%</b>, ${lh} of ${lt.length}`+(typeof BD_ROI!=='undefined'?` · as $1 singles at Kalshi's price after fees: <b style="color:${BD_ROI.all<0?'var(--bad)':'var(--acc)'}">${BD_ROI.all>0?'+':''}${BD_ROI.all}%</b> (GREEN ${BD_ROI.green>0?'+':''}${BD_ROI.green}%)`:'');
  if($('tl70')){$('tl70').textContent=`${th}/${t.length}`;$('tl70S').textContent=`${pc(th,t.length)}% across ${days.length} nights · ${last}: ${lh} of ${lt.length}`}
  if($('tlAll')){$('tlAll').textContent=pc(ah,R.length)+'%';$('tlAllS').textContent=`${ah} of ${R.length} graded legs, all tiers, ${days[0]} to ${last}`}
  const TK=window.__TK;if(TK&&$('tlTk')){$('tlTk').textContent=`${TK.w}-${TK.l}`;$('tlTkS').textContent=`every ticket we posted, Nov 8 to ${last} · Hammers ${TK.hw}-${TK.hl}${TK.pend?` · ${TK.pend} pending`:''}`}

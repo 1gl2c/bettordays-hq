@@ -98,4 +98,7 @@ $('go').onclick=async()=>{
   finally{$('go').disabled=false;steps(false)}};
 })();
 </script>
+<!-- shared phone tabs (Nov 20 audit: same bottom nav on every page) -->
+<style>.bdtabs{display:none}@media (max-width:760px){body{padding-bottom:calc(74px + env(safe-area-inset-bottom,0px))}.bdtabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));position:fixed;left:0;right:0;bottom:0;z-index:45;background:rgba(8,12,10,.96);backdrop-filter:blur(10px);border-top:1px solid #1f2724;padding:6px max(6px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px))}.bdtabs a{display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;color:#8a9a93;font:600 10px 'Geist Mono',ui-monospace,monospace;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;white-space:nowrap}.bdtabs i{font-style:normal;font-size:21px;line-height:1;filter:grayscale(1);opacity:.75;width:30px;height:30px;display:grid;place-items:center}.bdtabs .on{color:#04ff9f}.bdtabs .on i{filter:none;opacity:1}.bdtabs .post i{background:#04ff9f;border-radius:50%;filter:none;opacity:1}.bdtabs a:focus-visible{outline:2px solid #04ff9f;outline-offset:-2px}}</style>
+<nav class="bdtabs" aria-label="App"><a href="/"><i>🎯</i>Tonight</a><a href="/easy"><i>🧩</i>Ticket</a><a class="post on" href="/grade"><i>📸</i>Grade</a><a href="/record"><i>📈</i>Record</a><a class="" href="/#more"><i>☰</i>More</a></nav>
 </body></html>
