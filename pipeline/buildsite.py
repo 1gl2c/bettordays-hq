@@ -2,8 +2,8 @@ import re,json
 s=open('bettordays-hq.html').read()
 # ROI after Kalshi fees for priced 70+ legs ($1 singles at the logged price), shown next to the hit rate (Nov 20 audit)
 _L=[l for l in json.load(open('/home/claude/bettordays-hq/record.json'))['legs'] if l.get('k') and l['res'] in ('W','L') and l['g']>=70]
-def _roi(ls):
-  c=sum(l['k']/100+0.07*(l['k']/100)*(1-l['k']/100) for l in ls);w=sum(l['res']=='W' for l in ls);return round(100*(w-c)/c,1) if ls else 0
+def _roi(ls):  # equal $1 stakes (ChatGPT audit, Nov 20): each pick risks $1 at its price plus Kalshi's fee
+  return round(100*sum((1/(l['k']/100+0.07*(l['k']/100)*(1-l['k']/100))-1) if l['res']=='W' else -1 for l in ls)/len(ls),1) if ls else 0
 _R={'all':_roi(_L),'green':_roi([l for l in _L if l['k']>=l['g']]),'n':len(_L)}
 s=re.sub(r'var BD_ROI=\{[^}]*\};','var BD_ROI='+json.dumps(_R,separators=(',',':'))+';',s,count=1)
 _C=json.load(open('/home/claude/bettordays-hq/calib.json'))['kalshi']

@@ -130,7 +130,8 @@ if __name__ == '__main__':
     W = fit(L); K = fit_kalshi(L)
     # forward record of the favorite-edge legs since the mode started (flat $1 singles at the logged price, after fees)
     fw = [l for l in L if l['date'] >= MODE_START and l.get('k') and FAV_LO <= l['k'] <= FAV_HI and l['g'] >= 75 and l['g'] - l['k'] < 8]
-    cost = sum(l['k'] / 100 + fee(l['k'] / 100) for l in fw); roi = (sum(l['y'] for l in fw) - cost) / cost if fw else None
+    # equal $1 stakes: a win returns 1/(price+fee) per dollar, a loss loses the dollar
+    roi = sum((1 / (l['k'] / 100 + fee(l['k'] / 100)) - 1) if l['y'] else -1 for l in fw) / len(fw) if fw else None
     mode = 'pass' if (len(fw) >= MODE_MIN_LEGS and roi is not None and roi < 0) else 'favorite'
     json.dump({'built': str(datetime.date.today()), 'walk_forward_brier': rep, 'weights': W, 'kalshi': K,
                'mode': mode, 'forward': {'since': str(MODE_START), 'legs': len(fw), 'wins': sum(l['y'] for l in fw), 'roi': None if roi is None else round(100 * roi, 1)}},

@@ -23,15 +23,15 @@
   .bdt-sheet .lbl{grid-column:1/-1;font:600 11px 'Geist Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#04ff9f}`;
   const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
   const bar = document.createElement('nav'); bar.className = 'bdt-bar'; bar.setAttribute('aria-label', 'App');
-  bar.innerHTML = `<a href="/"><i>🎯</i>Board</a><a class="post${on('grade')}" href="/grade"><i>📸</i>Grader</a><a href="/record"><i>📈</i>Proof</a><button type="button" aria-haspopup="dialog"><i>👤</i>Me</button>`;
+  bar.innerHTML = `<a href="/"><i>🎯</i>Board</a><a class="post${on('grade')}" href="/grade"${on('grade') ? ' aria-current="page"' : ''}><i>📸</i>Grader</a><a href="/record"><i>📈</i>Proof</a><button type="button" aria-haspopup="dialog"><i>👤</i>Me</button>`;
   const sh = document.createElement('div'); sh.className = 'bdt-sheet'; sh.hidden = true;
   sh.innerHTML = `<div class="in" role="dialog" aria-label="Me"><span class="lbl">Me</span>
-    <a href="/app#/me" style="color:#04ff9f">👤 Profile and invites</a><a href="/board">📋 Full board and top 25</a>
-    <a href="/research">🔬 Research lab</a><a href="/app#/board">➕ Pick &amp; post</a>
+    <a href="/app#/me" style="color:#04ff9f">👤 Profile and invites <small style="opacity:.6">· account</small></a><a href="/board">📋 Full board and top 25</a>
+    <a href="/research">🔬 Research lab</a><a href="/app#/board">➕ Pick &amp; post <small style="opacity:.6">· account</small></a>
     <a href="/history">🗂 Past nights</a><a href="/results">🧾 Older recaps</a>
     <a href="/method">🧠 How it works</a><a href="/bonuses">🎁 Sign-up offers</a>
-    <a href="/app#/leaders">🏆 Leaderboard</a><a href="/app#/feed">🎟 Feed</a>
-    <a href="/app#/chat">💬 Chat</a><a href="/founders">⭐ Founders list</a>
+    <a href="/app#/leaders">🏆 Leaderboard <small style="opacity:.6">· account</small></a><a href="/app#/feed">🎟 Feed <small style="opacity:.6">· account</small></a>
+    <a href="/app#/chat">💬 Chat <small style="opacity:.6">· account</small></a><a href="/founders">⭐ Founders list</a>
     <a href="/legal">📄 Terms and privacy</a><a href="/#talk">✋ Talk to Ace</a></div>`;
   bar.querySelector('button').onclick = () => { sh.hidden = false; };
   sh.onclick = e => { if (e.target === sh || e.target.closest('a')) sh.hidden = true; };

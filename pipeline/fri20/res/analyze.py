@@ -10,12 +10,12 @@ fee = lambda q: 0.07 * q * (1 - q)
 def roi(ls):
     ls = [l for l in ls if l.get('k')]
     if not ls: return None
-    c = sum(l['k']/100 + fee(l['k']/100) for l in ls); return round(100 * (sum(y(l) for l in ls) - c) / c, 1)
+    return round(100 * sum((1 / (l['k']/100 + fee(l['k']/100)) - 1) if y(l) else -1 for l in ls) / len(ls), 1)   # equal $1 stakes
 out = {}
 board = [l for l in gr if l['i'] in M['board']]
 out['board_70'] = (rec(board), roi(board))
 for t in 'GYNR': ls = [l for l in gr if l['tier'] == t and (t == 'R' or (l['pub'] or 0) >= 70)]; out['tier_' + t] = (rec(ls), roi(ls))
-out['all_graded'] = rec(gr)
+out['all_graded'] = rec([l for l in gr if l['tier'] != 'R'])
 for lo, hi in [(85, 101), (80, 85), (75, 80), (70, 75), (60, 70), (0, 60)]:
     ls = [l for l in gr if l['pub'] is not None and lo <= l['pub'] < hi]; out[f'pub_{lo}-{hi-1}'] = (rec(ls), roi(ls))
 fav = [l for l in gr if l.get('k') and 80 <= l['k'] <= 92 and (l['pub'] or 0) >= 75 and l['tier'] in ('G', 'Y')]
@@ -32,7 +32,7 @@ B['system'] = (br([(l['sys'] / 100, l) for l in v8 if l.get('sys') is not None])
 B['our_grade(med)'] = (br([(l['med'] / 100, l) for l in v8]), len(v8))
 B['kalshi'] = (br([(l['k'] / 100, l) for l in v8]), len(v8))
 out['brier_v8_legs (model, n, kalshi on the same legs)'] = B
-pk = [l for l in gr if l.get('k')]
+pk = [l for l in gr if l.get('k') and l['tier'] != 'R' and l['pub'] is not None]
 out['brier_all_priced'] = {'published': br([(l['pub'] / 100, l) for l in pk if l['pub'] is not None]), 'system': br([(l['sys'] / 100, l) for l in pk if l.get('sys') is not None]), 'kalshi': br([(l['k'] / 100, l) for l in pk]), 'n': len(pk)}
 LL = {l['i']: l for l in L}
 out['hammer'] = [(LL[i]['p'], LL[i]['r']) for i in M['hammer']['legs']]

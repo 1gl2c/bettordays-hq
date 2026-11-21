@@ -53,7 +53,7 @@
       <label for="bdgU">Username</label><input id="bdgU" type="text" autocomplete="username" maxlength="20" required><div class="bdg-hint" id="bdgUH">3 to 20 letters, numbers or _</div>
       <label for="bdgPh">Phone (optional). We never text without a separate yes from you.</label><input id="bdgPh" type="tel" autocomplete="tel" maxlength="25">
       <label class="bdg-chk"><input type="checkbox" id="bdgAge" required> I'm 21 or older.</label>
-      <label class="bdg-chk"><input type="checkbox" id="bdgOpt" checked> Send me picks, results and BettorDays updates. Unsubscribe anytime.</label>
+      <label class="bdg-chk"><input type="checkbox" id="bdgOpt"> Send me picks, results and BettorDays updates. Unsubscribe anytime.</label>
       <button class="bdg-go" type="submit">Join the family</button>
     </form>
     <form id="bdgLogin" novalidate hidden>
