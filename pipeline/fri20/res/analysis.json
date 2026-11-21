@@ -1,0 +1,2474 @@
+{
+ "legs": [
+  {
+   "i": 1,
+   "p": "Saddiq Bey 2+ threes",
+   "pub": 64,
+   "sys": 78,
+   "med": 64,
+   "k": 64,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 62,
+    "gemini": 66,
+    "grok": 64,
+    "claude": 45
+   },
+   "r": "W",
+   "act": 4,
+   "sp": "NBA",
+   "stat": "3pm",
+   "ty": "prop"
+  },
+  {
+   "i": 2,
+   "p": "Saddiq Bey 1+ threes",
+   "pub": 88,
+   "sys": 88,
+   "med": 88,
+   "k": 86,
+   "tier": "Y",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 85,
+    "gemini": 88,
+    "grok": 88,
+    "claude": 76
+   },
+   "r": "W",
+   "act": 4,
+   "sp": "NBA",
+   "stat": "3pm",
+   "ty": "prop"
+  },
+  {
+   "i": 3,
+   "p": "Nickeil Alexander-Walker 20+ points",
+   "pub": 62,
+   "sys": 56,
+   "med": 62,
+   "k": 62,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 62,
+    "gemini": 62,
+    "grok": 62,
+    "claude": 62
+   },
+   "r": "L",
+   "act": 17,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 4,
+   "p": "Nickeil Alexander-Walker 15+ points",
+   "pub": 82,
+   "sys": 77,
+   "med": 82,
+   "k": 82,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 82,
+    "gemini": 82,
+    "grok": 83,
+    "claude": 82
+   },
+   "r": "W",
+   "act": 17,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 5,
+   "p": "Fred VanVleet 4+ assists",
+   "pub": 71,
+   "sys": 71,
+   "med": 71,
+   "k": 74,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 62,
+    "gemini": 74,
+    "grok": 70,
+    "claude": 74
+   },
+   "r": "W",
+   "act": 9,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 6,
+   "p": "Donovan Mitchell 4+ rebounds",
+   "pub": 72,
+   "sys": 80,
+   "med": 72,
+   "k": 72,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 72,
+    "gemini": 72,
+    "grok": 72,
+    "claude": 71
+   },
+   "r": "L",
+   "act": 3,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 7,
+   "p": "Moussa Diabate 8+ rebounds",
+   "pub": 78,
+   "sys": 81,
+   "med": 78,
+   "k": 78,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 78,
+    "gemini": 78,
+    "grok": 78,
+    "claude": 78
+   },
+   "r": "W",
+   "act": 15,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 8,
+   "p": "Trae Young 10+ points",
+   "pub": 87,
+   "sys": 84,
+   "med": 87,
+   "k": 92,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 92,
+    "gemini": 87,
+    "grok": 86,
+    "claude": 93
+   },
+   "r": "W",
+   "act": 16,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 9,
+   "p": "Trae Young 15+ points",
+   "pub": 66,
+   "sys": 64,
+   "med": 66,
+   "k": 72,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 81,
+    "gemini": 66,
+    "grok": 66,
+    "claude": 78
+   },
+   "r": "W",
+   "act": 16,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 10,
+   "p": "Dylan Raiola 250+ passing yards",
+   "pub": 58,
+   "sys": 54,
+   "med": 58,
+   "k": null,
+   "tier": "N",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 64,
+    "gemini": 66,
+    "grok": 58,
+    "claude": 45
+   },
+   "r": "L",
+   "act": 234,
+   "sp": "CFB",
+   "stat": "pass",
+   "ty": "prop"
+  },
+  {
+   "i": 11,
+   "p": "Dylan Raiola 260+ passing yards",
+   "pub": 48,
+   "sys": 43,
+   "med": 48,
+   "k": null,
+   "tier": "N",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 60,
+    "gemini": 61,
+    "grok": 48,
+    "claude": 40
+   },
+   "r": "L",
+   "act": 234,
+   "sp": "CFB",
+   "stat": "pass",
+   "ty": "prop"
+  },
+  {
+   "i": 12,
+   "p": "Aiden Flora 130+ rushing yards",
+   "pub": 54,
+   "sys": 55,
+   "med": 54,
+   "k": null,
+   "tier": "N",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": null,
+    "gemini": 54,
+    "grok": 56,
+    "claude": 33
+   },
+   "r": "W",
+   "act": 171,
+   "sp": "CFB",
+   "stat": "rush",
+   "ty": "prop"
+  },
+  {
+   "i": 13,
+   "p": "Josh Derry 85+ receiving yards",
+   "pub": 44,
+   "sys": 40,
+   "med": 44,
+   "k": null,
+   "tier": "N",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": null,
+    "gemini": 45,
+    "grok": 44,
+    "claude": 33
+   },
+   "r": "W",
+   "act": 125,
+   "sp": "CFB",
+   "stat": "recyds",
+   "ty": "prop"
+  },
+  {
+   "i": 14,
+   "p": "Nate Sheppard 115+ rushing yards",
+   "pub": 54,
+   "sys": 57,
+   "med": 54,
+   "k": null,
+   "tier": "N",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": null,
+    "gemini": 54,
+    "grok": 57,
+    "claude": 38
+   },
+   "r": "W",
+   "act": 116,
+   "sp": "CFB",
+   "stat": "rush",
+   "ty": "prop"
+  },
+  {
+   "i": 15,
+   "p": "Adjatay Dabbs 65+ receiving yards",
+   "pub": 52,
+   "sys": 69,
+   "med": 52,
+   "k": null,
+   "tier": "N",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": null,
+    "gemini": 52,
+    "grok": 60,
+    "claude": 42
+   },
+   "r": "L",
+   "act": 37,
+   "sp": "CFB",
+   "stat": "recyds",
+   "ty": "prop"
+  },
+  {
+   "i": 16,
+   "p": "Adjatay Dabbs 60+ receiving yards",
+   "pub": 58,
+   "sys": 69,
+   "med": 58,
+   "k": null,
+   "tier": "N",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": null,
+    "gemini": 58,
+    "grok": 63,
+    "claude": 46
+   },
+   "r": "L",
+   "act": 37,
+   "sp": "CFB",
+   "stat": "recyds",
+   "ty": "prop"
+  },
+  {
+   "i": 17,
+   "p": "Nikola Jokic 20+ points",
+   "pub": 80,
+   "sys": 71,
+   "med": 80,
+   "k": 76,
+   "tier": "Y",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 86,
+    "gemini": 80,
+    "grok": 74,
+    "claude": 88
+   },
+   "r": "W",
+   "act": 26,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 18,
+   "p": "Kevin Durant 20+ points",
+   "pub": null,
+   "sys": 81,
+   "med": 74,
+   "k": 62,
+   "tier": "R",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 76,
+    "gemini": 62,
+    "grok": 74,
+    "claude": 65
+   },
+   "r": "L",
+   "act": 16,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 19,
+   "p": "DeMar DeRozan 5+ points",
+   "pub": 84,
+   "sys": 74,
+   "med": 84,
+   "k": 86,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 90,
+    "gemini": 84,
+    "grok": 76,
+    "claude": 96
+   },
+   "r": "W",
+   "act": 15,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 20,
+   "p": "Alperen Sengun 8+ rebounds",
+   "pub": 64,
+   "sys": 64,
+   "med": 64,
+   "k": 67,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 69,
+    "gemini": 64,
+    "grok": 46,
+    "claude": 50
+   },
+   "r": "W",
+   "act": 11,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 21,
+   "p": "Darryn Peterson 15+ points",
+   "pub": 62,
+   "sys": 59,
+   "med": 62,
+   "k": 68,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 65,
+    "gemini": 60,
+    "grok": 63,
+    "claude": 62
+   },
+   "r": "W",
+   "act": 20,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 22,
+   "p": "Darryn Peterson 2+ threes",
+   "pub": 56,
+   "sys": 74,
+   "med": 56,
+   "k": 68,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 49,
+    "gemini": 68,
+    "grok": 56,
+    "claude": 55
+   },
+   "r": "L",
+   "act": 0,
+   "sp": "NBA",
+   "stat": "3pm",
+   "ty": "prop"
+  },
+  {
+   "i": 23,
+   "p": "Keyonte George 20+ points",
+   "pub": 58,
+   "sys": 58,
+   "med": 58,
+   "k": 69,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 64,
+    "gemini": 57,
+    "grok": 62,
+    "claude": 50
+   },
+   "r": "L",
+   "act": 14,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 24,
+   "p": "Keyonte George 2+ threes",
+   "pub": 65,
+   "sys": 69,
+   "med": 65,
+   "k": 72,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 66,
+    "gemini": 62,
+    "grok": 58,
+    "claude": 65
+   },
+   "r": "L",
+   "act": 0,
+   "sp": "NBA",
+   "stat": "3pm",
+   "ty": "prop"
+  },
+  {
+   "i": 25,
+   "p": "Devin Booker 20+ points",
+   "pub": 78,
+   "sys": 71,
+   "med": 78,
+   "k": 80,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 82,
+    "gemini": 78,
+    "grok": 78,
+    "claude": 72
+   },
+   "r": "W",
+   "act": 23,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 26,
+   "p": "Dillon Brooks 10+ points",
+   "pub": 72,
+   "sys": 72,
+   "med": 72,
+   "k": 80,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 74,
+    "gemini": 76,
+    "grok": 70,
+    "claude": 70
+   },
+   "r": "W",
+   "act": 18,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 27,
+   "p": "Miles Bridges 4+ rebounds",
+   "pub": 82,
+   "sys": 84,
+   "med": 82,
+   "k": 82,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 79,
+    "gemini": 83,
+    "grok": 82,
+    "claude": 70
+   },
+   "r": "W",
+   "act": 9,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 28,
+   "p": "Anthony Davis 20+ points",
+   "pub": 68,
+   "sys": 75,
+   "med": 68,
+   "k": 74,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 68,
+    "gemini": 78,
+    "grok": 68,
+    "claude": 62
+   },
+   "r": "W",
+   "act": 36,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 29,
+   "p": "Trae Young 8+ assists",
+   "pub": 67,
+   "sys": 77,
+   "med": 67,
+   "k": 77,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 65,
+    "gemini": 67,
+    "grok": 72,
+    "claude": 50
+   },
+   "r": "L",
+   "act": 5,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 30,
+   "p": "Matas Buzelis 15+ points",
+   "pub": 58,
+   "sys": 59,
+   "med": 58,
+   "k": 68,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 60,
+    "gemini": 54,
+    "grok": 58,
+    "claude": 50
+   },
+   "r": "L",
+   "act": 9,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 31,
+   "p": "AJ Dybantsa 15+ points",
+   "pub": 64,
+   "sys": 67,
+   "med": 64,
+   "k": 72,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 67,
+    "gemini": 60,
+    "grok": 64,
+    "claude": 60
+   },
+   "r": "W",
+   "act": 20,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 32,
+   "p": "Scottie Barnes 20+ points",
+   "pub": 64,
+   "sys": 71,
+   "med": 64,
+   "k": 64,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 64,
+    "gemini": 64,
+    "grok": 64,
+    "claude": 63
+   },
+   "r": "W",
+   "act": 29,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 33,
+   "p": "Scottie Barnes 6+ rebounds",
+   "pub": 68,
+   "sys": 74,
+   "med": 68,
+   "k": 68,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 68,
+    "gemini": 68,
+    "grok": 68,
+    "claude": 68
+   },
+   "r": "L",
+   "act": 5,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 34,
+   "p": "Ausar Thompson 10+ points",
+   "pub": 62,
+   "sys": 70,
+   "med": 62,
+   "k": 62,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 62,
+    "gemini": 62,
+    "grok": 62,
+    "claude": 62
+   },
+   "r": "W",
+   "act": 13,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 35,
+   "p": "Ausar Thompson 6+ rebounds",
+   "pub": 76,
+   "sys": 79,
+   "med": 76,
+   "k": 76,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 76,
+    "gemini": 77,
+    "grok": 76,
+    "claude": 75
+   },
+   "r": "W",
+   "act": 6,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 36,
+   "p": "Fred VanVleet 10+ points",
+   "pub": 69,
+   "sys": 72,
+   "med": 69,
+   "k": 68,
+   "tier": "Y",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 57,
+    "gemini": 69,
+    "grok": 64,
+    "claude": 70
+   },
+   "r": "W",
+   "act": 25,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 37,
+   "p": "Norman Powell 2+ rebounds",
+   "pub": 74,
+   "sys": 82,
+   "med": 74,
+   "k": 82,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 72,
+    "gemini": 74,
+    "grok": 72,
+    "claude": 80
+   },
+   "r": "W",
+   "act": 3,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 38,
+   "p": "Norman Powell 2+ assists",
+   "pub": 66,
+   "sys": 73,
+   "med": 66,
+   "k": 74,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 55,
+    "gemini": 62,
+    "grok": 66,
+    "claude": 75
+   },
+   "r": "W",
+   "act": 2,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 39,
+   "p": "Jalen Suggs 20+ points + rebounds + assists",
+   "pub": 58,
+   "sys": 59,
+   "med": 58,
+   "k": 58,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 58,
+    "gemini": 58,
+    "grok": 58,
+    "claude": 57
+   },
+   "r": "L",
+   "act": 16,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 40,
+   "p": "Jalen Suggs 15+ points + rebounds + assists",
+   "pub": 84,
+   "sys": 69,
+   "med": 84,
+   "k": 84,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 84,
+    "gemini": 84,
+    "grok": 84,
+    "claude": 84
+   },
+   "r": "W",
+   "act": 16,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 41,
+   "p": "Jeremiah Fears 1+ threes",
+   "pub": 68,
+   "sys": 77,
+   "med": 68,
+   "k": 76,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 68,
+    "gemini": 70,
+    "grok": 68,
+    "claude": 68
+   },
+   "r": "W",
+   "act": 3,
+   "sp": "NBA",
+   "stat": "3pm",
+   "ty": "prop"
+  },
+  {
+   "i": 42,
+   "p": "Jeremiah Fears 2+ threes",
+   "pub": 33,
+   "sys": 40,
+   "med": 33,
+   "k": 46,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 37,
+    "gemini": 31,
+    "grok": 26,
+    "claude": 33
+   },
+   "r": "W",
+   "act": 3,
+   "sp": "NBA",
+   "stat": "3pm",
+   "ty": "prop"
+  },
+  {
+   "i": 43,
+   "p": "Nikola Jokic 25+ points",
+   "pub": 58,
+   "sys": 57,
+   "med": 58,
+   "k": 56,
+   "tier": "Y",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 70,
+    "gemini": 58,
+    "grok": 50,
+    "claude": 67
+   },
+   "r": "W",
+   "act": 26,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 44,
+   "p": "Cade Cunningham 35+ points + rebounds + assists",
+   "pub": 72,
+   "sys": 62,
+   "med": 72,
+   "k": 72,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 72,
+    "gemini": 72,
+    "grok": 70,
+    "claude": 71
+   },
+   "r": "W",
+   "act": 37,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 45,
+   "p": "Scottie Barnes 35+ points + rebounds + assists",
+   "pub": 55,
+   "sys": 55,
+   "med": 55,
+   "k": 55,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 55,
+    "gemini": 55,
+    "grok": 55,
+    "claude": 54
+   },
+   "r": "W",
+   "act": 39,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 46,
+   "p": "Scottie Barnes 30+ points + rebounds + assists",
+   "pub": 74,
+   "sys": 62,
+   "med": 74,
+   "k": 74,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 74,
+    "gemini": 74,
+    "grok": 74,
+    "claude": 74
+   },
+   "r": "W",
+   "act": 39,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 47,
+   "p": "Jalen Johnson 35+ points + rebounds + assists",
+   "pub": 62,
+   "sys": 47,
+   "med": 62,
+   "k": 62,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 62,
+    "gemini": 62,
+    "grok": 62,
+    "claude": 62
+   },
+   "r": "W",
+   "act": 38,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 48,
+   "p": "Jalen Johnson 30+ points + rebounds + assists",
+   "pub": 80,
+   "sys": 74,
+   "med": 80,
+   "k": 80,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 80,
+    "gemini": 80,
+    "grok": 80,
+    "claude": 80
+   },
+   "r": "W",
+   "act": 38,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 49,
+   "p": "Shai Gilgeous-Alexander 40+ points + rebounds + assists",
+   "pub": 58,
+   "sys": 60,
+   "med": 58,
+   "k": 60,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 65,
+    "gemini": 54,
+    "grok": 58,
+    "claude": 55
+   },
+   "r": "W",
+   "act": 51,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 50,
+   "p": "Shai Gilgeous-Alexander 35+ points + rebounds + assists",
+   "pub": 78,
+   "sys": 80,
+   "med": 78,
+   "k": 76,
+   "tier": "Y",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 79,
+    "gemini": 73,
+    "grok": 74,
+    "claude": 78
+   },
+   "r": "W",
+   "act": 51,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 51,
+   "p": "Luka Doncic 50+ points + rebounds + assists",
+   "pub": 51,
+   "sys": 66,
+   "med": 51,
+   "k": 55,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 51,
+    "gemini": 44,
+    "grok": 58,
+    "claude": 30
+   },
+   "r": "L",
+   "act": 37,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 52,
+   "p": "Luka Doncic 45+ points + rebounds + assists",
+   "pub": 64,
+   "sys": 71,
+   "med": 64,
+   "k": 72,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 64,
+    "gemini": 61,
+    "grok": 68,
+    "claude": 48
+   },
+   "r": "L",
+   "act": 37,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 53,
+   "p": "Nikola Jokic 40+ points + rebounds + assists",
+   "pub": 74,
+   "sys": 74,
+   "med": 74,
+   "k": 72,
+   "tier": "Y",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 81,
+    "gemini": 74,
+    "grok": 74,
+    "claude": 55
+   },
+   "r": "W",
+   "act": 44,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 54,
+   "p": "AJ Dybantsa 25+ points + rebounds + assists",
+   "pub": 50,
+   "sys": 54,
+   "med": 50,
+   "k": 62,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 48,
+    "gemini": 53,
+    "grok": 50,
+    "claude": 45
+   },
+   "r": "W",
+   "act": 36,
+   "sp": "NBA",
+   "stat": "pra",
+   "ty": "prop"
+  },
+  {
+   "i": 55,
+   "p": "Utah ML v Dayton",
+   "pub": 52,
+   "sys": 55,
+   "med": 52,
+   "k": 52,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 52,
+    "gemini": 52,
+    "grok": 52,
+    "claude": 52
+   },
+   "r": "L",
+   "act": "Lost 46-63",
+   "sp": "CBB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 56,
+   "p": "Wisconsin ML v Murray State",
+   "pub": 60,
+   "sys": 62,
+   "med": 60,
+   "k": 60,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 60,
+    "gemini": 60,
+    "grok": 60,
+    "claude": 60
+   },
+   "r": "L",
+   "act": "Lost 53-70",
+   "sp": "CBB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 57,
+   "p": "Mississippi State ML v Tulsa",
+   "pub": 72,
+   "sys": 69,
+   "med": 72,
+   "k": null,
+   "tier": "N",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": null,
+    "gemini": 72,
+    "grok": 72,
+    "claude": 55
+   },
+   "r": "W",
+   "act": "Won 72-61",
+   "sp": "CBB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 58,
+   "p": "Indiana ML v Kentucky",
+   "pub": 58,
+   "sys": 62,
+   "med": 58,
+   "k": 60,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 55,
+    "gemini": 58,
+    "grok": 60,
+    "claude": 42
+   },
+   "r": "W",
+   "act": "Won 90-76",
+   "sp": "CBB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 59,
+   "p": "Georgia ML at Georgia Tech",
+   "pub": 65,
+   "sys": 69,
+   "med": 65,
+   "k": 76,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 65,
+    "gemini": 69,
+    "grok": 46,
+    "claude": 50
+   },
+   "r": "W",
+   "act": "Won 88-82",
+   "sp": "CBB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 60,
+   "p": "Xavier ML v Iowa",
+   "pub": 60,
+   "sys": 62,
+   "med": 60,
+   "k": 60,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 60,
+    "gemini": 60,
+    "grok": 60,
+    "claude": 60
+   },
+   "r": "L",
+   "act": "Lost 65-83",
+   "sp": "CBB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 61,
+   "p": "Josh Giddey 8+ assists",
+   "pub": 61,
+   "sys": 63,
+   "med": 61,
+   "k": 70,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 61,
+    "gemini": 60,
+    "grok": 62,
+    "claude": 45
+   },
+   "r": "L",
+   "act": 7,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 62,
+   "p": "UCF ML v Iowa State",
+   "pub": 48,
+   "sys": 46,
+   "med": 48,
+   "k": 48,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 48,
+    "gemini": 50,
+    "grok": 48,
+    "claude": 46
+   },
+   "r": "W",
+   "act": "Won 48-17",
+   "sp": "CFB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 63,
+   "p": "Duke ML v Clemson",
+   "pub": 82,
+   "sys": 69,
+   "med": 82,
+   "k": 82,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 82,
+    "gemini": 84,
+    "grok": 82,
+    "claude": 80
+   },
+   "r": "L",
+   "act": "Lost 10-20",
+   "sp": "CFB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 64,
+   "p": "Oregon ML at Michigan State",
+   "pub": 87,
+   "sys": 69,
+   "med": 87,
+   "k": 90,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 87,
+    "gemini": 87,
+    "grok": 72,
+    "claude": 93
+   },
+   "r": "W",
+   "act": "Won 45-7",
+   "sp": "CFB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 65,
+   "p": "Oregon -14 at Michigan State",
+   "pub": 58,
+   "sys": 60,
+   "med": 58,
+   "k": 60,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 53,
+    "gemini": 58,
+    "grok": 36,
+    "claude": 58
+   },
+   "r": "W",
+   "act": "Won by 38",
+   "sp": "CFB",
+   "stat": "spread",
+   "ty": "spread"
+  },
+  {
+   "i": 66,
+   "p": "New Mexico ML at Wyoming",
+   "pub": 64,
+   "sys": 69,
+   "med": 64,
+   "k": 76,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 57,
+    "gemini": 70,
+    "grok": 64,
+    "claude": 60
+   },
+   "r": "W",
+   "act": "Won 24-17",
+   "sp": "CFB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 67,
+   "p": "New Mexico -6.5 at Wyoming",
+   "pub": 48,
+   "sys": 58,
+   "med": 48,
+   "k": 60,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 41,
+    "gemini": 53,
+    "grok": 48,
+    "claude": 45
+   },
+   "r": "W",
+   "act": "Won by 7",
+   "sp": "CFB",
+   "stat": "spread",
+   "ty": "spread"
+  },
+  {
+   "i": 68,
+   "p": "Michael Porter Jr. 21+ points",
+   "pub": 52,
+   "sys": 61,
+   "med": 52,
+   "k": null,
+   "tier": "N",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": null,
+    "gemini": 52,
+    "grok": 52,
+    "claude": 50
+   },
+   "r": "L",
+   "act": 16,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 69,
+   "p": "Tyrese Proctor 2+ threes",
+   "pub": 62,
+   "sys": 73,
+   "med": 62,
+   "k": 62,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 62,
+    "gemini": 62,
+    "grok": 64,
+    "claude": 62
+   },
+   "r": "L",
+   "act": 1,
+   "sp": "NBA",
+   "stat": "3pm",
+   "ty": "prop"
+  },
+  {
+   "i": 70,
+   "p": "Tyrese Proctor 1+ threes",
+   "pub": 85,
+   "sys": 81,
+   "med": 85,
+   "k": 85,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 85,
+    "gemini": 85,
+    "grok": 85,
+    "claude": 85
+   },
+   "r": "W",
+   "act": 1,
+   "sp": "NBA",
+   "stat": "3pm",
+   "ty": "prop"
+  },
+  {
+   "i": 71,
+   "p": "Luka Doncic under 37 points",
+   "pub": 54,
+   "sys": 51,
+   "med": 54,
+   "k": null,
+   "tier": "N",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 66,
+    "gemini": 54,
+    "grok": 36,
+    "claude": 62
+   },
+   "r": "W",
+   "act": 25,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 72,
+   "p": "Tristan da Silva 12+ points",
+   "pub": 56,
+   "sys": 81,
+   "med": 56,
+   "k": null,
+   "tier": "N",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": null,
+    "gemini": 56,
+    "grok": 58,
+    "claude": 52
+   },
+   "r": "L",
+   "act": 6,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 73,
+   "p": "Sion James 4+ assists",
+   "pub": 49,
+   "sys": 62,
+   "med": 49,
+   "k": 49,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 49,
+    "gemini": 49,
+    "grok": 49,
+    "claude": 49
+   },
+   "r": "L",
+   "act": 2,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 74,
+   "p": "Sion James 2+ assists",
+   "pub": 84,
+   "sys": 76,
+   "med": 84,
+   "k": 84,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 84,
+    "gemini": 84,
+    "grok": 84,
+    "claude": 84
+   },
+   "r": "W",
+   "act": 2,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 75,
+   "p": "Michael Porter Jr. 20+ points",
+   "pub": 57,
+   "sys": 61,
+   "med": 57,
+   "k": 57,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 57,
+    "gemini": 57,
+    "grok": 57,
+    "claude": 57
+   },
+   "r": "L",
+   "act": 16,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 76,
+   "p": "Michael Porter Jr. 15+ points",
+   "pub": 80,
+   "sys": 76,
+   "med": 80,
+   "k": 80,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 80,
+    "gemini": 80,
+    "grok": 82,
+    "claude": 80
+   },
+   "r": "W",
+   "act": 16,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 77,
+   "p": "Luka Doncic under 40 points",
+   "pub": 63,
+   "sys": 55,
+   "med": 63,
+   "k": 65,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 75,
+    "gemini": 63,
+    "grok": 42,
+    "claude": 75
+   },
+   "r": "W",
+   "act": 25,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 78,
+   "p": "Tristan da Silva 10+ points",
+   "pub": 64,
+   "sys": 86,
+   "med": 64,
+   "k": 64,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 64,
+    "gemini": 64,
+    "grok": 64,
+    "claude": 64
+   },
+   "r": "L",
+   "act": 6,
+   "sp": "NBA",
+   "stat": "pts",
+   "ty": "prop"
+  },
+  {
+   "i": 79,
+   "p": "Sion James 3+ assists",
+   "pub": 66,
+   "sys": 74,
+   "med": 66,
+   "k": null,
+   "tier": "N",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": null,
+    "gemini": 67,
+    "grok": 66,
+    "claude": 66
+   },
+   "r": "L",
+   "act": 2,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 80,
+   "p": "Isaiah Hartenstein 4+ assists",
+   "pub": 60,
+   "sys": 65,
+   "med": 60,
+   "k": 60,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 51,
+    "gemini": 56,
+    "grok": 62,
+    "claude": 60
+   },
+   "r": "W",
+   "act": 4,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 81,
+   "p": "Isaiah Hartenstein 2+ assists",
+   "pub": 85,
+   "sys": 88,
+   "med": 85,
+   "k": 92,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 81,
+    "gemini": 85,
+    "grok": 84,
+    "claude": 88
+   },
+   "r": "W",
+   "act": 4,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 82,
+   "p": "Isaiah Hartenstein 10+ rebounds",
+   "pub": 66,
+   "sys": 69,
+   "med": 66,
+   "k": 64,
+   "tier": "Y",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 61,
+    "gemini": 66,
+    "grok": 68,
+    "claude": 30
+   },
+   "r": "L",
+   "act": 8,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 83,
+   "p": "Isaiah Hartenstein 8+ rebounds",
+   "pub": 78,
+   "sys": 78,
+   "med": 78,
+   "k": 80,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 76,
+    "gemini": 81,
+    "grok": 78,
+    "claude": 55
+   },
+   "r": "W",
+   "act": 8,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 84,
+   "p": "Dyson Daniels 6+ rebounds",
+   "pub": 68,
+   "sys": 73,
+   "med": 68,
+   "k": 68,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 68,
+    "gemini": 68,
+    "grok": 68,
+    "claude": 68
+   },
+   "r": "W",
+   "act": 8,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 85,
+   "p": "Dyson Daniels 4+ assists",
+   "pub": 79,
+   "sys": 82,
+   "med": 79,
+   "k": 79,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 79,
+    "gemini": 79,
+    "grok": 79,
+    "claude": 79
+   },
+   "r": "W",
+   "act": 10,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 86,
+   "p": "Franz Wagner 8+ assists",
+   "pub": 48,
+   "sys": 63,
+   "med": 48,
+   "k": 48,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 48,
+    "gemini": 48,
+    "grok": 48,
+    "claude": 47
+   },
+   "r": "L",
+   "act": 7,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 87,
+   "p": "Franz Wagner 6+ assists",
+   "pub": 72,
+   "sys": 76,
+   "med": 72,
+   "k": 72,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 72,
+    "gemini": 72,
+    "grok": 74,
+    "claude": 72
+   },
+   "r": "W",
+   "act": 7,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 88,
+   "p": "Cade Cunningham 8+ assists",
+   "pub": 60,
+   "sys": 61,
+   "med": 60,
+   "k": 60,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 60,
+    "gemini": 60,
+    "grok": 58,
+    "claude": 60
+   },
+   "r": "W",
+   "act": 9,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 89,
+   "p": "Cade Cunningham 6+ assists",
+   "pub": 82,
+   "sys": 88,
+   "med": 82,
+   "k": 82,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 82,
+    "gemini": 82,
+    "grok": 80,
+    "claude": 82
+   },
+   "r": "W",
+   "act": 9,
+   "sp": "NBA",
+   "stat": "ast",
+   "ty": "prop"
+  },
+  {
+   "i": 90,
+   "p": "Jamal Murray under 6 rebounds",
+   "pub": 60,
+   "sys": 61,
+   "med": 60,
+   "k": 73,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 78,
+    "gemini": 60,
+    "grok": 54,
+    "claude": 60
+   },
+   "r": "W",
+   "act": 2,
+   "sp": "NBA",
+   "stat": "reb",
+   "ty": "prop"
+  },
+  {
+   "i": 91,
+   "p": "Utah Valley ML v East Carolina",
+   "pub": 56,
+   "sys": 62,
+   "med": 56,
+   "k": 60,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 56,
+    "gemini": 63,
+    "grok": 53,
+    "claude": 45
+   },
+   "r": "W",
+   "act": "Won 90-79",
+   "sp": "CBB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 92,
+   "p": "Iona ML v Kansas City",
+   "pub": 64,
+   "sys": 66,
+   "med": 64,
+   "k": 64,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 64,
+    "gemini": 64,
+    "grok": 64,
+    "claude": 64
+   },
+   "r": "W",
+   "act": "Won 62-61",
+   "sp": "CBB",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 93,
+   "p": "Eastern Illinois v Illinois under 170 total points",
+   "pub": 62,
+   "sys": 62,
+   "med": 62,
+   "k": 63,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 67,
+    "gemini": 55,
+    "grok": 70,
+    "claude": 50
+   },
+   "r": "W",
+   "act": "166 total",
+   "sp": "CBB",
+   "stat": "total",
+   "ty": "total"
+  },
+  {
+   "i": 94,
+   "p": "Sam Houston v Boise State under 175 total points",
+   "pub": 55,
+   "sys": 62,
+   "med": 55,
+   "k": 61,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 59,
+    "gemini": 44,
+    "grok": 34,
+    "claude": 55
+   },
+   "r": "W",
+   "act": "152 total",
+   "sp": "CBB",
+   "stat": "total",
+   "ty": "total"
+  },
+  {
+   "i": 95,
+   "p": "UT Martin v Southern Illinois over 145 total points",
+   "pub": 61,
+   "sys": 62,
+   "med": 61,
+   "k": 61,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 61,
+    "gemini": 62,
+    "grok": 61,
+    "claude": 60
+   },
+   "r": "W",
+   "act": "149 total",
+   "sp": "CBB",
+   "stat": "total",
+   "ty": "total"
+  },
+  {
+   "i": 96,
+   "p": "Saint Joseph's v Drexel over 135 total points",
+   "pub": 57,
+   "sys": 59,
+   "med": 57,
+   "k": 57,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 57,
+    "gemini": 59,
+    "grok": 57,
+    "claude": 57
+   },
+   "r": "W",
+   "act": "139 total",
+   "sp": "CBB",
+   "stat": "total",
+   "ty": "total"
+  },
+  {
+   "i": 97,
+   "p": "Bulls ML v Wizards",
+   "pub": 51,
+   "sys": 58,
+   "med": 51,
+   "k": 56,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 51,
+    "gemini": 49,
+    "grok": 45,
+    "claude": 55
+   },
+   "r": "L",
+   "act": "Lost 94-98",
+   "sp": "NBA",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 98,
+   "p": "Thunder ML v Pelicans",
+   "pub": 80,
+   "sys": 83,
+   "med": 80,
+   "k": 84,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 80,
+    "gemini": 78,
+    "grok": 68,
+    "claude": 90
+   },
+   "r": "W",
+   "act": "Won 126-120",
+   "sp": "NBA",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 99,
+   "p": "Thunder -9 v Pelicans",
+   "pub": 55,
+   "sys": 58,
+   "med": 55,
+   "k": 58,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 55,
+    "gemini": 54,
+    "grok": 48,
+    "claude": 58
+   },
+   "r": "L",
+   "act": "Won by 6",
+   "sp": "NBA",
+   "stat": "spread",
+   "ty": "spread"
+  },
+  {
+   "i": 100,
+   "p": "Cavs ML v Pacers",
+   "pub": 66,
+   "sys": 68,
+   "med": 66,
+   "k": 66,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 66,
+    "gemini": 69,
+    "grok": 66,
+    "claude": 66
+   },
+   "r": "W",
+   "act": "Won 128-119",
+   "sp": "NBA",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 101,
+   "p": "Cavs -6 v Pacers",
+   "pub": 48,
+   "sys": 48,
+   "med": 48,
+   "k": 48,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 48,
+    "gemini": 50,
+    "grok": 48,
+    "claude": 48
+   },
+   "r": "W",
+   "act": "Won by 9",
+   "sp": "NBA",
+   "stat": "spread",
+   "ty": "spread"
+  },
+  {
+   "i": 102,
+   "p": "Pistons ML v Raptors",
+   "pub": 72,
+   "sys": 71,
+   "med": 72,
+   "k": 72,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 72,
+    "gemini": 72,
+    "grok": 72,
+    "claude": 72
+   },
+   "r": "L",
+   "act": "Lost 102-105",
+   "sp": "NBA",
+   "stat": "ml",
+   "ty": "ml"
+  },
+  {
+   "i": 103,
+   "p": "Pistons -6 v Raptors",
+   "pub": 52,
+   "sys": 52,
+   "med": 52,
+   "k": 52,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 52,
+    "gemini": 52,
+    "grok": 52,
+    "claude": 52
+   },
+   "r": "L",
+   "act": "Lost by 3",
+   "sp": "NBA",
+   "stat": "spread",
+   "ty": "spread"
+  },
+  {
+   "i": 104,
+   "p": "Nets +6.5 v Magic",
+   "pub": 50,
+   "sys": 50,
+   "med": 50,
+   "k": 50,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 50,
+    "gemini": 52,
+    "grok": 50,
+    "claude": 50
+   },
+   "r": "W",
+   "act": "Lost by 2",
+   "sp": "NBA",
+   "stat": "spread",
+   "ty": "spread"
+  },
+  {
+   "i": 105,
+   "p": "Wizards v Bulls under 240 total points",
+   "pub": 53,
+   "sys": 54,
+   "med": 53,
+   "k": 54,
+   "tier": "G",
+   "eng": "v8",
+   "models": {
+    "chatgpt": 56,
+    "gemini": 53,
+    "grok": 38,
+    "claude": 50
+   },
+   "r": "W",
+   "act": "192 total",
+   "sp": "NBA",
+   "stat": "total",
+   "ty": "total"
+  },
+  {
+   "i": 106,
+   "p": "Pacers v Cavs under 235 total points",
+   "pub": 50,
+   "sys": 51,
+   "med": 50,
+   "k": 50,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 50,
+    "gemini": 53,
+    "grok": 50,
+    "claude": 50
+   },
+   "r": "L",
+   "act": "247 total",
+   "sp": "NBA",
+   "stat": "total",
+   "ty": "total"
+  },
+  {
+   "i": 107,
+   "p": "Raptors v Pistons over 215 total points",
+   "pub": 52,
+   "sys": 51,
+   "med": 52,
+   "k": 52,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 52,
+    "gemini": 52,
+    "grok": 52,
+    "claude": 52
+   },
+   "r": "L",
+   "act": "207 total",
+   "sp": "NBA",
+   "stat": "total",
+   "ty": "total"
+  },
+  {
+   "i": 108,
+   "p": "Hornets v Hawks over 215 total points",
+   "pub": 57,
+   "sys": 58,
+   "med": 57,
+   "k": 57,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 57,
+    "gemini": 59,
+    "grok": 57,
+    "claude": 57
+   },
+   "r": "L",
+   "act": "208 total",
+   "sp": "NBA",
+   "stat": "total",
+   "ty": "total"
+  },
+  {
+   "i": 109,
+   "p": "Magic v Nets over 220 total points",
+   "pub": 56,
+   "sys": 58,
+   "med": 56,
+   "k": 56,
+   "tier": "G",
+   "eng": "v7 (game started before the v8 run)",
+   "models": {
+    "chatgpt": 56,
+    "gemini": 58,
+    "grok": 56,
+    "claude": 56
+   },
+   "r": "W",
+   "act": "224 total",
+   "sp": "NBA",
+   "stat": "total",
+   "ty": "total"
+  }
+ ],
+ "summary": {
+  "board_70": [
+   "29-3 (91%)",
+   11.1
+  ],
+  "tier_G": [
+   "24-3 (89%)",
+   8.8
+  ],
+  "tier_Y": [
+   "4-0 (100%)",
+   27.1
+  ],
+  "tier_N": [
+   "1-0 (100%)",
+   null
+  ],
+  "tier_R": [
+   "0-1 (0%)",
+   -100.0
+  ],
+  "all_graded": "72-37 (66%)",
+  "pub_85-100": [
+   "5-0 (100%)",
+   11.5
+  ],
+  "pub_80-84": [
+   "10-1 (91%)",
+   9.5
+  ],
+  "pub_75-79": [
+   "6-0 (100%)",
+   26.0
+  ],
+  "pub_70-74": [
+   "8-2 (80%)",
+   2.7
+  ],
+  "pub_60-69": [
+   "23-12 (66%)",
+   -1.6
+  ],
+  "pub_0-59": [
+   "20-21 (49%)",
+   -10.8
+  ],
+  "favorite_edge_legs": [
+   "16-1 (94%)",
+   10.6,
+   [
+    "Saddiq Bey 1+ threes W",
+    "Nickeil Alexander-Walker 15+ points W",
+    "Trae Young 10+ points W",
+    "DeMar DeRozan 5+ points W",
+    "Devin Booker 20+ points W",
+    "Miles Bridges 4+ rebounds W",
+    "Jalen Suggs 15+ points + rebounds + assists W",
+    "Jalen Johnson 30+ points + rebounds + assists W",
+    "Duke ML v Clemson L",
+    "Oregon ML at Michigan State W",
+    "Tyrese Proctor 1+ threes W",
+    "Sion James 2+ assists W",
+    "Michael Porter Jr. 15+ points W",
+    "Isaiah Hartenstein 2+ assists W",
+    "Isaiah Hartenstein 8+ rebounds W",
+    "Cade Cunningham 6+ assists W",
+    "Thunder ML v Pelicans W"
+   ]
+  ],
+  "all_kalshi_80_92": [
+   "18-1 (95%)",
+   11.7
+  ],
+  "brier_v8_legs (model, n, kalshi on the same legs)": {
+   "chatgpt": [
+    0.176,
+    52,
+    0.173
+   ],
+   "gemini": [
+    0.1748,
+    52,
+    0.173
+   ],
+   "grok": [
+    0.2109,
+    52,
+    0.173
+   ],
+   "claude": [
+    0.1742,
+    52,
+    0.173
+   ],
+   "system": [
+    0.1884,
+    52
+   ],
+   "our_grade(med)": [
+    0.179,
+    52
+   ],
+   "kalshi": [
+    0.173,
+    52
+   ]
+  },
+  "brier_all_priced": {
+   "published": 0.1916,
+   "system": 0.2113,
+   "kalshi": 0.192,
+   "n": 97
+  },
+  "hammer": [
+   [
+    "Saddiq Bey 1+ threes",
+    "W"
+   ],
+   [
+    "Trae Young 10+ points",
+    "W"
+   ],
+   [
+    "Oregon ML at Michigan State",
+    "W"
+   ],
+   [
+    "DeMar DeRozan 5+ points",
+    "W"
+   ],
+   [
+    "Devin Booker 20+ points",
+    "W"
+   ]
+  ],
+  "perfect": {
+   "Safe": [],
+   "Core": [
+    [
+     "Miles Bridges 4+ rebounds",
+     "W"
+    ],
+    [
+     "Isaiah Hartenstein 8+ rebounds",
+     "W"
+    ],
+    [
+     "Norman Powell 2+ rebounds",
+     "W"
+    ],
+    [
+     "Fred VanVleet 4+ assists",
+     "W"
+    ]
+   ],
+   "Stretch": []
+  },
+  "misses_70": [
+   [
+    72,
+    "Donovan Mitchell 4+ rebounds",
+    3,
+    "G",
+    72
+   ],
+   [
+    82,
+    "Duke ML v Clemson",
+    "Lost 10-20",
+    "G",
+    82
+   ],
+   [
+    72,
+    "Pistons ML v Raptors",
+    "Lost 102-105",
+    "G",
+    72
+   ]
+  ]
+ }
+}
