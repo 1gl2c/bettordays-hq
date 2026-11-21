@@ -1,0 +1,39 @@
+1 | LaMelo Ball 20+ points | NBA MEM@MIN 5:00 PM PT (Ball now plays for Minnesota) | market: pts
+2 | LaMelo Ball 21+ points (over 20.5) | NBA MEM@MIN 5:00 PM PT | market: pts
+3 | Domantas Sabonis 4+ assists | NBA BOS@SAC 7:00 PM PT | market: ast
+4 | Domantas Sabonis 5+ assists (over 4.5) | NBA BOS@SAC 7:00 PM PT | market: ast
+5 | Kris Dunn 6+ rebounds + assists (over 5.5) | NBA LAC@DAL 5:00 PM PT | market: reb+ast
+6 | Kris Dunn 2+ rebounds | NBA LAC@DAL 5:00 PM PT | market: reb
+7 | Kris Dunn 4+ rebounds | NBA LAC@DAL 5:00 PM PT | market: reb
+8 | Kris Dunn 2+ assists | NBA LAC@DAL 5:00 PM PT | market: ast
+9 | Kris Dunn 4+ assists | NBA LAC@DAL 5:00 PM PT | market: ast
+10 | Devin Vassell 9+ points (over 8.5) | NBA NO@SA 5:00 PM PT | market: pts
+11 | Knicks ML v Trail Blazers | NBA POR@NY 4:30 PM PT | market: moneyline
+12 | Timberwolves ML v Grizzlies | NBA MEM@MIN 5:00 PM PT | market: moneyline
+13 | Celtics ML at Kings | NBA BOS@SAC 7:00 PM PT | market: moneyline
+14 | Karl-Anthony Towns under 14 rebounds (13 or fewer) | NBA POR@NY 4:30 PM PT (Towns questionable, illness) | market: reb under
+15 | Cooper Flagg 6+ assists | NBA LAC@DAL 5:00 PM PT | market: ast
+16 | Rui Hachimura 4+ rebounds | NBA LAC@DAL 5:00 PM PT | market: reb
+17 | Noah Fifita (Arizona QB) 295+ passing yards (over 294.5) | CFB Arizona at Kansas State 4:00 PM PT | market: passing yards
+18 | Noah Fifita 290+ passing yards | CFB Arizona at Kansas State 4:00 PM PT | market: passing yards
+19 | Jesse Legree (Oregon State WR) 112+ receiving yards (over 111.5) | CFB Utah State at Oregon State 7:30 PM PT | market: receiving yards
+20 | Jesse Legree 110+ receiving yards | CFB Utah State at Oregon State 7:30 PM PT | market: receiving yards
+21 | L.J. Phillips Jr. (Iowa RB) 102+ rushing yards (over 101.5) | CFB Iowa at Illinois 11:30 AM PT | market: rushing yards
+22 | L.J. Phillips Jr. 100+ rushing yards | CFB Iowa at Illinois 11:30 AM PT | market: rushing yards
+23 | Dylan Riley (Boise State RB) 103+ rushing yards (over 102.5) | CFB San Diego State at Boise State 6:30 PM PT | market: rushing yards
+24 | Dylan Riley 100+ rushing yards | CFB San Diego State at Boise State 6:30 PM PT | market: rushing yards
+25 | Nicholls ML v Southern Miss | CBB neutral 2:00 PM PT | market: moneyline
+26 | Wofford ML v Winthrop | CBB Winthrop at Wofford 2:00 PM PT | market: moneyline
+27 | Southern Illinois ML v East Carolina | CBB neutral 2:30 PM PT | market: moneyline
+28 | UAB +7.5 v UTSA | CFB UTSA at UAB 5:00 PM PT | market: spread
+29 | Oklahoma ML v Texas A&M | CFB Texas A&M at Oklahoma 12:45 PM PT | market: moneyline
+30 | Oklahoma -7.5 v Texas A&M | CFB Texas A&M at Oklahoma 12:45 PM PT | market: spread
+31 | Oklahoma -3 v Texas A&M | CFB Texas A&M at Oklahoma 12:45 PM PT | market: spread
+32 | Indiana ML at Washington | CFB Indiana at Washington 12:30 PM PT | market: moneyline
+33 | UCLA ML at Michigan | CFB UCLA at Michigan 12:30 PM PT | market: moneyline
+34 | Oklahoma State ML at Arizona State | CFB Oklahoma State at Arizona State 7:15 PM PT | market: moneyline
+35 | Iowa at Illinois under 45 total points | CFB 11:30 AM PT | market: total under
+36 | UCLA at Michigan under 45 total points | CFB 12:30 PM PT | market: total under
+37 | Indiana at Washington under 50 total points | CFB 12:30 PM PT | market: total under
+38 | Arkansas at Texas under 55 total points | CFB 12:30 PM PT | market: total under
+39 | Texas A&M at Oklahoma under 45 total points | CFB 12:45 PM PT | market: total under
