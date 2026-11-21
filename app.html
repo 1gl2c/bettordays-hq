@@ -101,7 +101,7 @@ label.f{display:block;margin:10px 0 5px}
 @media (max-width:900px){
  #nav{display:none}
  body{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))}
- .tabbar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:start;position:fixed;left:0;right:0;bottom:0;z-index:45;background:rgba(8,12,10,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:6px max(6px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px))}
+ .tabbar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));align-items:start;position:fixed;left:0;right:0;bottom:0;z-index:45;background:rgba(8,12,10,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:6px max(6px,env(safe-area-inset-left,0px)) calc(6px + env(safe-area-inset-bottom,0px))}
  .tabbar a,.tabbar button{display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;background:none;border:0;color:var(--mu);font:600 10.5px 'Geist Mono',monospace;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer}
  .tabbar i{font-style:normal;font-size:21px;line-height:1;filter:grayscale(1);opacity:.75;width:30px;height:30px;display:grid;place-items:center}
 .tabbar a,.tabbar button{min-width:0;white-space:nowrap;font-size:10px;letter-spacing:.04em;position:relative}
@@ -120,7 +120,7 @@ label.f{display:block;margin:10px 0 5px}
 <div class="top">
   <a class="logo" href="/">Bettor<span>Days</span></a>
   <nav id="nav" aria-label="App">
-    <a href="#/board" data-r="board">Board</a><a href="#/feed" data-r="feed">Feed</a><a href="#/chat" data-r="chat">Chat</a><a href="#/leaders" data-r="leaders">Leaders</a><a href="#/people" data-r="people">People</a><a href="#/me" data-r="me">Me</a><a href="/" data-r="hq">HQ</a>
+    <a href="#/board" data-r="board">Post</a><a href="#/feed" data-r="feed">Feed</a><a href="#/chat" data-r="chat">Chat</a><a href="#/leaders" data-r="leaders">Leaders</a><a href="#/people" data-r="people">People</a><a href="#/me" data-r="me">Me</a><a href="/" data-r="hq">Picks</a>
   </nav>
   <button class="btn" id="tourA" type="button" aria-label="App tour" title="Tour" style="padding:6px 9px">?</button>
   <button class="btn" id="bell" type="button" aria-label="Ring the bell for picks" title="Ring the bell" style="padding:6px 9px;font-size:16px">🛎️</button>
@@ -722,21 +722,24 @@ sb.auth.onAuthStateChange(ev => { if (ev === 'PASSWORD_RECOVERY') { history.repl
 })();
 </script>
 <nav class="tabbar" aria-label="App">
-  <a href="/"><i>📋</i>Picks</a>
-  <a href="/easy"><i>✌️</i>Tap 3</a>
-  <a class="post" href="#/board" data-t="board"><i>+</i>Post</a>
-  <a href="/research"><i>🔬</i>Research</a>
-  <button type="button" id="mMore"><i>☰</i>More</button>
+  <a href="/"><i>🎯</i>Board</a>
+  <a class="post" href="/grade"><i>📸</i>Grader</a>
+  <a href="/record"><i>📈</i>Proof</a>
+  <button type="button" id="mMore"><i>👤</i>Me</button>
 </nav>
-<div class="msheet" id="mSheet" hidden><div class="in" role="dialog" aria-label="More">
-  <span class="lbl" style="color:var(--acc)">More</span>
-  <a href="/grade">📸 Grade my parlay</a><a href="/bonuses">🎁 Sign-up bonuses</a><a href="#/feed">🎟 Feed</a><a href="#/leaders">🏆 Leaderboard</a>
+<div class="msheet" id="mSheet" hidden><div class="in" role="dialog" aria-label="Me">
+  <span class="lbl" style="color:var(--acc)">Me</span>
+  <a href="#/me" style="color:var(--acc)">👤 Profile and invites</a><a href="/board">📋 Full board and top 25</a>
+  <a href="/research">🔬 Research lab</a><a href="#/board">➕ Pick &amp; post</a>
+  <a href="/history">🗂 Past nights</a><a href="/results">🧾 Older recaps</a>
+  <a href="/method">🧠 How it works</a><a href="/bonuses">🎁 Sign-up offers</a>
+  <a href="#/leaders">🏆 Leaderboard</a><a href="#/feed">🎟 Feed</a>
   <a href="#/chat">💬 Chat</a><a href="#/people">👥 People</a>
-  <a href="#/me">👤 My profile</a><a href="/results">📈 Results</a><a href="#/inbox" id="mInbox" hidden>📬 Inbox</a>
+  <a href="#/inbox" id="mInbox" hidden>📬 Inbox</a><a href="/founders">⭐ Founders list</a>
   <button type="button" id="mBell">🛎️ Ring the bell</button><button type="button" id="mTour">❔ Tour</button>
 </div></div>
 <script>(function(){const m=document.getElementById('mSheet');document.getElementById('mMore').onclick=()=>{const ib=document.querySelector('#nav a[data-r="inbox"]');const mi=document.getElementById('mInbox');if(ib){mi.hidden=false;mi.textContent='📬 '+ib.textContent}m.hidden=false};
  m.onclick=e=>{if(e.target===m||e.target.closest('a,button'))m.hidden=true;const t=e.target.closest('button');if(!t)return;if(t.id==='mBell')document.getElementById('bell').click();if(t.id==='mTour')document.getElementById('tourA').click()};
- const sync=()=>{const on=/^#\/?board/.test(location.hash)||location.hash===''||location.hash==='#';document.querySelector('.tabbar .post').classList.toggle('on',on)};window.addEventListener('hashchange',sync);sync();})();</script>
+ /* Me is lit while a member page is open */ const sync=()=>{document.getElementById('mMore').classList.add('on')};sync();})();</script>
 </body>
 </html>

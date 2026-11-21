@@ -1904,6 +1904,7 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
 (function(){const m=document.getElementById('moreSheet'),b=document.getElementById('moreBtn');if(!m||!b)return;
  const close=()=>m.hidden=true;b.onclick=()=>m.hidden=false;
  if(location.hash==='#more'){m.hidden=false;try{history.replaceState(null,'',location.pathname)}catch(e){}}
+ if(location.hash==='#talk'){setTimeout(()=>{const f=document.getElementById('fbOpen');if(f)f.click()},400);try{history.replaceState(null,'',location.pathname)}catch(e){}}
  m.addEventListener('click',e=>{if(e.target===m)return close();const x=e.target.closest('[data-more],a');if(!x)return;close();
   if(x.dataset.more==='fb')document.getElementById('fbOpen').click();if(x.dataset.more==='tour'){const t=document.getElementById('tourBtn');t&&t.click()}});
  document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});})();
