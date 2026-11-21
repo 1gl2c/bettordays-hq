@@ -6,13 +6,16 @@ day, label, out = sys.argv[1:4]
 M = json.load(open(f'daily/{day}/v7_merged.json')); L = {l['i']: l for l in M['legs']}
 board = [L[i] for i in M['board']]
 if any(l.get('eng') == 'v8' for l in board): board = [l for l in board if l.get('eng') == 'v8']  # late-game card: only legs from games not started
+import os
+SKIP = set(filter(None, os.environ.get('SKIPG', '').split(',')))  # games already started when the card is made
+board = [l for l in board if l['g'] not in SKIP]
 top = sorted(board, key=lambda l: (l['tier'] != 'G', -l['pub']))[:8]
 ham = [L[i] for i in M['hammer']['legs']]
 core = next((t for t in M['perfect'] if t['name'] == 'Core' and t['legs']), None)
-tk_name, tk_legs, tk_pay = ('THE HAMMER', ham, M['hammer']['pay']) if ham else (('CORE TICKET', [L[i] for i in core['legs']], core['pay']) if core else (None, [], None))
+tk_name, tk_legs, tk_pay = ((M['hammer'].get('kind') or 'Hammer').upper().replace('HAMMER','HAMMER'), ham, M['hammer'].get('pay_net') or M['hammer']['pay']) if ham else (('CORE TICKET', [L[i] for i in core['legs']], core['pay']) if core else (None, [], None))
 e = html.escape
 rows = ''.join(f"<div class=row><span class=p>{e(l['p'])}</span><span class=g>{e(l['g'])}</span><b>{l['pub']}</b><i class='t {l['tier']}'>{'GREEN' if l['tier']=='G' else 'YELLOW' if l['tier']=='Y' else 'NO KALSHI'}</i></div>" for l in top)
-tk = (f"<div class=tk><h3>{tk_name} <small>{len(tk_legs)} legs · about {tk_pay}x at Kalshi prices</small></h3>" + ''.join(f"<div class=tl>{e(l['p'])}</div>" for l in tk_legs) + "</div>") if tk_legs else "<div class=tk><h3>NO HAMMER TONIGHT</h3><div class=tl>Not enough legs passed every check. Passing is a win.</div></div>"
+tk = (f"<div class=tk><h3>{tk_name} <small>{len(tk_legs)} legs · about {tk_pay}x after fees</small></h3>" + ''.join(f"<div class=tl>{e(l['p'])}</div>" for l in tk_legs) + "</div>") if tk_legs else "<div class=tk><h3>NO HAMMER TONIGHT</h3><div class=tl>Not enough legs passed every check. Passing is a win.</div></div>"
 page = f"""<!doctype html><html><head><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap" rel=stylesheet><style>
 body{{margin:0;width:1080px;height:1350px;background:#0d0f0e;color:#f2f4f3;font-family:Inter;position:relative;overflow:hidden}}
 .wrap{{padding:70px 64px}}.kick{{font:500 22px 'JetBrains Mono';color:#04ff9f;letter-spacing:3px}}
