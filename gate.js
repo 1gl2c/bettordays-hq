@@ -1,6 +1,7 @@
 // Referral: keep ?ref=USERNAME until the visitor has an account (claimed in the app after sign-in).
 (function(){try{const r=new URLSearchParams(location.search).get('ref');if(r&&/^[a-z0-9_]{3,20}$/i.test(r))localStorage.setItem('bd_ref',r.toLowerCase())}catch(e){}})();
-// 5 minute free preview, then a free account is required. Signed-in members never see the timer.
+// Open site (Nov 20 audits: no countdown wall). After 5 minutes a visitor sees one dismissible invite to join free,
+// at most once a day. ?join=1 opens it right away. Signed-in members never see it.
 (function () {
   const sb = window.BD_SB;
   const PREVIEW = 300;
@@ -13,6 +14,7 @@
   @media (max-width:900px){.bdg-pill{bottom:calc(84px + env(safe-area-inset-bottom,0px));left:12px}}
   .bdg-wall{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(6,8,7,.72);backdrop-filter:blur(14px)}
   .bdg-wall.on{display:flex}
+  .bdg-x{display:block;margin:0 0 12px auto;background:none;border:1px solid #1f2724;color:#8a9a93;padding:6px 10px;font:600 11px 'Geist Mono',monospace;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
   .bdg-card{width:100%;max-width:440px;max-height:calc(100vh - 32px);overflow:auto;background:#0f1311;border:1px solid #04ff9f;box-shadow:0 0 60px rgba(4,255,159,.18);padding:26px 24px;color:#eef3f0;font-family:Geist,system-ui,sans-serif}
   .bdg-card h2{font:900 34px/1 Kanit,sans-serif;text-transform:uppercase;margin:0 0 8px}
   .bdg-card h2{display:block!important;padding:0!important;border:0!important}
@@ -41,8 +43,9 @@
   const wall = document.createElement('div'); wall.className = 'bdg-wall'; wall.setAttribute('role', 'dialog'); wall.setAttribute('aria-modal', 'true'); wall.setAttribute('aria-labelledby', 'bdgT');
   wall.innerHTML = `<div class="bdg-card">
     <h2 id="bdgT">Welcome to the <span>family</span></h2>
-    <p>Your free preview is up. Make a free account to keep using the board, the grades and every tool. No card needed.</p>
+    <p>Join free to save slips, grade your parlays and get the board the minute it drops. No card needed.</p>
     <div class="bdg-joke">Relax, we're not stealing your data. We're stealing your weekends. Your email gets picks and updates, nothing else, and we never sell it.</div>
+    <button type="button" class="bdg-x" id="bdgX" aria-label="Keep browsing">Keep browsing ✕</button>
     <div class="bdg-tabs" role="tablist"><button type="button" class="on" data-t="join" role="tab">Join free</button><button type="button" data-t="login" role="tab">Log in</button></div>
     <form id="bdgJoin" novalidate>
       <label for="bdgE">Email</label><input id="bdgE" type="email" autocomplete="email" required>
@@ -71,6 +74,9 @@
 
   function mount() { document.body.appendChild(pill); document.body.appendChild(wall); }
   function lock() { wall.classList.add('on'); document.documentElement.style.overflow = 'hidden'; setTimeout(() => $('bdgE').focus(), 50); }
+  function unlock() { wall.classList.remove('on'); document.documentElement.style.overflow = ''; }
+  wall.addEventListener('click', e => { if (e.target === wall || e.target.id === 'bdgX') unlock(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && wall.classList.contains('on')) unlock(); });
 
   wall.querySelector('.bdg-tabs').onclick = e => {
     const b = e.target.closest('button'); if (!b) return;
@@ -156,17 +162,11 @@
       document.dispatchEvent(new CustomEvent('bdg:member', { detail: info }));
       return;
     }
+    pill.remove();
     let t0 = +store.get('bd_preview_start');
     if (!t0) { t0 = Date.now(); store.set('bd_preview_start', String(t0)); }
-    const tick = () => {
-      const left = Math.max(0, PREVIEW - Math.floor((Date.now() - t0) / 1000));
-      const mm = Math.floor(left / 60), ss = String(left % 60).padStart(2, '0');
-      pill.innerHTML = `<span>Free preview <b>${mm}:${ss}</b></span><button type="button" id="bdgBell" aria-label="Ring the bell for picks" title="Ring the bell">🛎️</button><button type="button" id="bdgJoinNow">Join free</button>`;
-      pill.querySelector('#bdgJoinNow').onclick = lock;
-      pill.querySelector('#bdgBell').onclick = () => { lock(); msg('Make a free account to ring the bell. HQ wants to know who ordered. 🛎️', 1); };
-      if (left === 0) { clearInterval(iv); lock(); }
-    };
-    const iv = setInterval(tick, 1000); tick();
+    const today = new Date().toISOString().slice(0, 10);
+    if (store.get('bd_join_prompted') !== today) setTimeout(() => { if (!wall.classList.contains('on')) { store.set('bd_join_prompted', today); lock(); } }, Math.max(0, PREVIEW * 1000 - (Date.now() - t0)));
     if (/[?&]join=1/.test(location.search)) lock();
   }
   sb.auth.onAuthStateChange((ev) => { if (ev === 'SIGNED_IN' && wall.classList.contains('on')) location.reload(); });
