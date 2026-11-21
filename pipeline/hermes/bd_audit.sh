@@ -1,5 +1,6 @@
 #!/bin/bash
-# BettorDays product audit: the same 4 flagship models as the daily runner each audit bettordays.xyz.
+# BettorDays product audit: 4 flagship models each audit bettordays.xyz, one at a time
+# (running all 4 at once made OpenRouter reserve credit for every in-flight 77K prompt and return 402).
 #   bash bd_audit.sh        replies land in reviews/<date>-audit/<model>.md (finished ones are skipped)
 set -u
 cd "$(dirname "$0")"
@@ -28,7 +29,7 @@ for entry in "${MODELS[@]}"; do
     ( sleep $((MAX_MIN * 60)); pkill -P "$pid" 2>/dev/null; kill "$pid" 2>/dev/null ) & dog=$!
     wait "$pid"; kill "$dog" 2>/dev/null
     say "$name ($model): $(( $(date +%s) - start ))s, $(wc -c < "$of" | tr -d ' ') bytes, result: $(grep -q BD_AUDIT_END "$of" && echo yes || echo NO)"
-  ) &
+  )
 done
 wait
 say "Done. Tell Claude: audit replies for $DAY are ready."
