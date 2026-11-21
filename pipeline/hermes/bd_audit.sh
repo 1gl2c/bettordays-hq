@@ -4,9 +4,9 @@
 set -u
 cd "$(dirname "$0")"
 export PATH="$HOME/.local/bin:$HOME/.hermes/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
-MAX_MIN="${BD_MAX_MIN:-30}"
-read -r -a MODELS <<< "${BD_MODELS:-chatgpt|openai/gpt-6.2-astra-pro claude|anthropic/claude-fable-5.2 gemini|google/gemini-4-neon grok|x-ai/grok-4.7}"   # full panel; the site snapshot is in the prompt, so no browsing (much cheaper)
-EXTRA=()   # no tools: everything they need is in the prompt
+MAX_MIN="${BD_MAX_MIN:-40}"
+read -r -a MODELS <<< "${BD_MODELS:-chatgpt|openai/gpt-6.2-astra-pro claude|anthropic/claude-fable-5.2 gemini|google/gemini-4-neon grok|x-ai/grok-4.7}"   # full panel
+EXTRA=(-t web,browser)   # snapshot in the prompt plus live browsing (falls back to plain if a flag is rejected)
 DAY=$(date +%Y-%m-%d); OUT="reviews/$DAY-audit"; mkdir -p "$OUT"; LOG="$OUT/runner.log"
 say() { echo "$(date '+%H:%M:%S') $*" | tee -a "$LOG"; }
 curl -fsS "https://raw.githubusercontent.com/1gl2c/bettordays-hq/main/pipeline/hermes/bd_audit.md" -o bd_audit.md 2>/dev/null || true
