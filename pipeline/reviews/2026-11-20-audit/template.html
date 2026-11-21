@@ -1,0 +1,206 @@
+<title>BettorDays Audit Room</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@600;800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column, brand charcoal with the BettorDays green used only for wins and the key number */
+:root{
+  --bg:#121414; --panel:#1a1d1d; --line:#2a2f2e; --fg:#eef2f0; --mute:#9aa5a1; --green:#04ff9f; --red:#ff5d5d; --amber:#ffc34d;
+  --display:"Kanit","Arial Black",system-ui,sans-serif; --body:"Geist",system-ui,-apple-system,sans-serif; --mono:"Geist Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--body);margin:0}
+.wrap{max-width:860px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:44px}
+h1,h2{font-family:var(--display);text-transform:uppercase;letter-spacing:.01em;margin:0;text-wrap:balance}
+h1{font-size:clamp(30px,7vw,52px);line-height:1}
+h2{font-size:22px}
+h3{font-size:15px;margin:0;font-weight:600}
+p{margin:0}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.lede{color:var(--mute);max-width:62ch}
+section{display:flex;flex-direction:column;gap:16px}
+.seats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.seat{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.seat b{font-family:var(--display);font-size:17px;text-transform:uppercase}
+.seat .st{font:500 12px var(--mono)}
+.ok{color:var(--green)} .bad{color:var(--red)}
+.chartbox{background:var(--panel);border-radius:12px;padding:16px;overflow-x:auto}
+.chart{width:100%;max-width:600px;height:auto;display:block;overflow:visible}
+.chart .lab{fill:var(--fg);font:600 12px var(--body)} .chart .sub{fill:var(--mute);font:9.5px var(--mono)}
+.chart .val{fill:var(--fg);font:600 10.5px var(--mono)} .chart .tick{fill:var(--mute);font:9px var(--mono)}
+.chart .grid{stroke:var(--line);stroke-width:1} .chart .axis{stroke:var(--mute);stroke-width:1}
+.chart .pos{fill:var(--green)} .chart .neg{fill:var(--red)}
+.big{display:flex;gap:18px;flex-wrap:wrap;align-items:baseline}
+.big .n{font:800 44px var(--display);color:var(--green);line-height:1}
+.big .n.r{color:var(--red)}
+.big div{display:flex;flex-direction:column;gap:2px;min-width:0}
+.big span{color:var(--mute);font-size:13px}
+.agree{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.agree li{display:grid;grid-template-columns:1fr auto;gap:4px 12px;border-bottom:1px solid var(--line);padding-bottom:10px}
+.agree li p{color:var(--mute);font-size:14px;grid-column:1/-1}
+.who{font:500 11px var(--mono);color:var(--green);white-space:nowrap}
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.card{border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.card p{color:var(--mute);font-size:14px}
+.tblwrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:640px}
+th,td{text-align:left;vertical-align:top;padding:10px;border-bottom:1px solid var(--line)}
+thead th{font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--mute)}
+tbody th{font-weight:600;width:130px}
+td p{color:var(--mute);font-size:13px;margin-top:6px}
+.pill{display:inline-block;font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.05em;padding:3px 8px;border-radius:99px;border:1px solid}
+.pill.go{color:var(--green)} .pill.fix{color:var(--amber)} .pill.wait{color:var(--red)}
+.fc td:first-child{width:38%}
+.verdict{font:600 12px var(--mono);white-space:nowrap}
+.navs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+ol.nav{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px;counter-reset:n}
+ol.nav li{display:flex;flex-direction:column;border-left:2px solid var(--line);padding-left:10px}
+ol.nav li span{color:var(--mute);font-size:13px}
+details{border:1px solid var(--line);border-radius:10px}
+summary{cursor:pointer;padding:14px;font:600 15px var(--body);list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::after{content:"+";font-family:var(--mono);color:var(--mute)}
+details[open] summary::after{content:"−"}
+summary:focus-visible,a:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+ol.list{margin:0;padding:0 14px 14px;list-style:none;display:flex;flex-direction:column;gap:12px;counter-reset:r}
+ol.list li{display:grid;grid-template-columns:28px 1fr auto;gap:10px;counter-increment:r;align-items:start}
+ol.list li::before{content:counter(r);font:500 13px var(--mono);color:var(--mute);grid-row:1;grid-column:1}
+ol.list .area{display:none}
+ol.list li div{grid-column:2;min-width:0} ol.list li p{color:var(--mute);font-size:13px}
+ol.list .eff{grid-column:3;font:500 12px var(--mono);color:var(--mute);white-space:nowrap}
+.tag{font:500 11px var(--mono);color:var(--mute);text-transform:uppercase;letter-spacing:.08em}
+.plan{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.plan ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;color:var(--mute);font-size:14px}
+.plan ul b{color:var(--fg);font-weight:600}
+footer{color:var(--mute);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+
+<div class="wrap">
+<header style="display:flex;flex-direction:column;gap:10px">
+  <span class="eyebrow">BettorDays · Product audit · Fri Nov 20, 2026</span>
+  <h1>The audit room</h1>
+  <p class="lede">Each model played six people at once: developer, gaming lawyer, Hormozi-style consultant, pro capper, social marketer and product designer. Each read a snapshot of every page on bettordays.xyz and answered the same seven questions. Below is what each one said, where they agree, what our own record says, and the build order.</p>
+</header>
+
+<section>
+  <span class="eyebrow">Who answered</span>
+  <div class="seats">
+    <div class="seat"><b>Grok 4.7</b><span class="st ok">Done · 17 KB</span><span class="tag">Sharpest critique</span></div>
+    <div class="seat"><b>Gemini 4 Neon</b><span class="st ok">Done · 44 KB</span><span class="tag">Most detail</span></div>
+    <div class="seat"><b>Claude</b><span class="st ok">Done in this chat</span><span class="tag">Fable hit the credit cap, so Claude Opus took the seat</span></div>
+    <div class="seat"><b>ChatGPT</b><span class="st bad">Not run · credits</span><span class="tag">Add about $5 on OpenRouter and rerun</span></div>
+  </div>
+  <p class="lede">Neither outside model could click the site. Both read the pages as text, so speed and tap problems still need a person on a phone.</p>
+</section>
+
+<section>
+  <span class="eyebrow">The number that matters</span>
+  <h2>Hit rate is not profit</h2>
+  <p class="lede">Grok and Gemini both hit the same point: an 88% leg bought at 88 cents makes nothing. So we priced every graded 70+ leg from Nov 4 to 19 as a single $1 Kalshi buy at the price we logged, with Kalshi's fee taken out.</p>
+  <div class="big">
+    <div><span class="n">+6.5%</span><span>GREEN singles, 141 legs</span></div>
+    <div><span class="n r">−10.2%</span><span>GREEN singles last week only</span></div>
+    <div><span class="n r">−18.1%</span><span>Legs we graded 8+ above Kalshi</span></div>
+  </div>
+  <div class="chartbox">{{TIERS}}</div>
+  <p class="lede">GREEN made money overall, and the REMOVED rule saved us. But look at GREEN week by week. Almost all of the profit came from one hot week (Nov 9 to 15, 73 wins and 2 losses). The last week lost money.</p>
+  <div class="chartbox">{{WEEKS}}</div>
+  <p class="lede">By stat type, the Master filter groups (threes, NBA moneylines, assists) are the only ones in the green. PRA and rebounds lose money even at 70+.</p>
+  <div class="chartbox">{{STATS}}</div>
+  <p class="lede">Small samples. Threes is 23 legs and PRA is 16, so read these as direction, not law. Parlays lose more than singles because Kalshi pays less than fair on combos.</p>
+</section>
+
+<section>
+  <span class="eyebrow">Consensus</span>
+  <h2>Where all three agree</h2>
+  <ul class="agree">
+    <li><h3>Take "FREE MONEY" off /bonuses and "making people money" off the popup</h3><span class="who">ALL 3</span><p>The lawyer seat in every report called these the lines a regulator or the FTC quotes. Add 1-800-GAMBLER to every page and post, and drop the old 8 to 10% bankroll line.</p></li>
+    <li><h3>Stop paying models to browse. Feed them one fact pack per game</h3><span class="who">ALL 3</span><p>Injury report, last 10 games, minutes, spread, price. Browsing is what made the $9 day. With a fixed pack the cost drops below $1 a day and the models become comparable.</p></li>
+    <li><h3>Run simulations in code, not in a chat model</h3><span class="who">ALL 3</span><p>The AI sims disagreed wildly (Brooks 2+ threes: Claude 83, ChatGPT 54). Our own code sim already exists. It costs $0 and gives the same answer every time.</p></li>
+    <li><h3>The first phone screen should be tonight's play, with one Copy button</h3><span class="who">ALL 3</span><p>Home is 26 phone screens and History is 275. Show the Hammer (or "we passed") and last night's result, and put the rest one tap away.</p></li>
+    <li><h3>Parlay Grader is the best lead magnet. Make it a main tab</h3><span class="who">ALL 3</span><p>It's the only one-screen page. Use cheap vision to read the slip, look the legs up in our graded board, and circle the leg that kills it.</p></li>
+    <li><h3>No paid tier yet</h3><span class="who">ALL 3</span><p>Wait until a logged record beats the closing price. A paid pick is the claim a regulator reads first.</p></li>
+    <li><h3>Pause the referral push and keep bonus links unpaid</h3><span class="who">ALL 3</span><p>At 23 members, referrals have nothing to spread yet. Paid sportsbook links need a state license in most states.</p></li>
+    <li><h3>Cappers: ask them first, X API as backup, never scrape</h3><span class="who">ALL 3</span><p>Grok: ask for a fixed-format drop. Gemini: the official X API (it claims about $9 to $15 a month for 20 cappers, not yet verified).</p></li>
+  </ul>
+</section>
+
+<section>
+  <span class="eyebrow">Disagreements</span>
+  <h2>Where they split</h2>
+  <div class="split">
+    <div class="card"><h3>Who referees the price</h3><p><b>Gemini:</b> drop Kalshi as the referee and pay for sharp sportsbook odds (Pinnacle, FanDuel, DraftKings) at about $30 to $50 a month. <b>Grok:</b> keep it simple, report ROI and closing-line value first.</p></div>
+    <div class="card"><h3>How to make money</h3><p><b>Gemini:</b> a $29 Pro tier plus pay-per-signup affiliate links in states with no license fee, for about $10,300 a month at scale. <b>Grok:</b> $0 until 60 logged nights beat the close, and paid links are a licensing problem.</p></div>
+    <div class="card"><h3>Which models to trust</h3><p><b>Gemini:</b> Claude was the outlier on Nov 20, so stop being Claude-only. <b>Grok:</b> four models reading the same news is one opinion four times. No weights until each has 150 graded legs.</p></div>
+    <div class="card"><h3>Bottom nav</h3><p><b>Gemini:</b> 4 tabs (Board, Grader, Proof, Me). <b>Grok and Claude:</b> 5 tabs (Tonight, Ticket, Grade, Record, More).</p></div>
+  </div>
+</section>
+
+<section>
+  <span class="eyebrow">Fact check</span>
+  <h2>What held up when checked against our files</h2>
+  <div class="tblwrap"><table class="fc">
+    <thead><tr><th>Claim</th><th>Verdict</th><th>What the data shows</th></tr></thead>
+    <tbody>
+      <tr><td>Oregon ML was published at 87 and put on the Hammer, past its own 69 cap (Grok, Gemini)</td><td class="verdict bad">TRUE · BUG</td><td>System grade 69, model median 87, published 87, on tonight's Hammer. The v8 merge skips the caps. Fix first.</td></tr>
+      <tr><td>KD 20+ "models' middle 74" is really Grok's number (Grok)</td><td class="verdict ok">WRONG</td><td>Our grade is the middle of the 4 models plus the system grade (81). The middle of 62, 65, 74, 76, 81 is 74. The leg was correctly REMOVED.</td></tr>
+      <tr><td>DeRozan's card shows two Kalshi prices (Grok, Gemini)</td><td class="verdict bad">TRUE</td><td>The card text still says "near 72" from the 1 PM run, and the price is now 86. The card copy needs to refresh with the price.</td></tr>
+      <tr><td>GREEN buys negative EV by our own number (Gemini)</td><td class="verdict" style="color:var(--amber)">HALF</td><td>In theory, yes. In practice GREEN singles made +6.5%, because Kalshi underpriced them. The last week was −10.2%, though.</td></tr>
+      <tr><td>Core parlay tonight was 2.51x at a 34% hit chance (Grok, Gemini)</td><td class="verdict bad">TRUE</td><td>34% × 2.51 = 0.85, so a loss by our own grades. Three of its 4 legs are rebounds, our worst 70+ group.</td></tr>
+      <tr><td>Claude is the outlier model (Gemini)</td><td class="verdict" style="color:var(--amber)">ONE NIGHT</td><td>True on Nov 20 for Hartenstein and Brooks threes. One night can't decide weights. Grade each model at 9 AM daily.</td></tr>
+      <tr><td>X retired its $200 Basic plan and is pay-per-use now (Gemini)</td><td class="verdict" style="color:var(--amber)">UNVERIFIED</td><td>Check on the X developer site before we budget for it.</td></tr>
+    </tbody></table></div>
+</section>
+
+<section>
+  <span class="eyebrow">Verdicts</span>
+  <h2>The six ideas, side by side</h2>
+  {{VERDICTS}}
+</section>
+
+<section>
+  <span class="eyebrow">Navigation</span>
+  <h2>Proposed bottom tabs</h2>
+  <div class="navs">
+    <div class="card"><h3>Claude</h3>{{NAV_claude}}</div>
+    <div class="card"><h3>Grok</h3>{{NAV_grok}}</div>
+    <div class="card"><h3>Gemini</h3>{{NAV_gemini}}</div>
+  </div>
+</section>
+
+<section>
+  <span class="eyebrow">Full lists</span>
+  <h2>Each agent's 20 ranked changes</h2>
+  <p class="lede">Ranked by impact. The number on the right is estimated build days.</p>
+  <details open><summary>Grok 4.7</summary>{{LIST_grok}}</details>
+  <details><summary>Gemini 4 Neon</summary>{{LIST_gemini}}</details>
+  <details><summary>Claude</summary>{{LIST_claude}}</details>
+</section>
+
+<section>
+  <span class="eyebrow">Build order</span>
+  <h2>What we do, in order</h2>
+  <div class="plan">
+    <div class="card"><h3>Tonight / tomorrow AM</h3><ul>
+      <li><b>Fix the cap bug</b> in the v8 merge so no blend beats a cap</li>
+      <li><b>Legal copy pass:</b> free money, making people money, 8 to 10%, helpline on every page</li>
+      <li><b>Master filter on</b> by default; PRA, receiving yards and TDs off the board</li>
+      <li><b>12+ point model split</b> keeps a leg off the Hammer</li>
+      <li><b>ROI after fees</b> shown next to every hit rate</li>
+    </ul></div>
+    <div class="card"><h3>This weekend</h3><ul>
+      <li><b>Fact pack</b> per game and models stop browsing</li>
+      <li><b>Sims in our own code</b> only</li>
+      <li><b>One record query</b> feeds every number; fix 0/6</li>
+      <li><b>Tonight screen</b> plus the 5-tab nav</li>
+    </ul></div>
+    <div class="card"><h3>Next week</h3><ul>
+      <li><b>Grader</b> as a main tab, cheap vision, 3 free a day</li>
+      <li><b>3:45 PM injury auto-pull</b></li>
+      <li><b>Capper drop</b> via Telegram or a form</li>
+      <li><b>Closing-line value</b> logging and public timestamps</li>
+    </ul></div>
+  </div>
+</section>
+
+<footer>ROI = $1 single buys at the logged Kalshi price, Kalshi fee of 0.07 × P × (1 − P) included, pushes excluded, 344 priced 70+ legs from record.json. Agent replies are saved in pipeline/reviews/2026-11-20-audit. 21+. Opinions, not guarantees. 1-800-GAMBLER.</footer>
+</div>
