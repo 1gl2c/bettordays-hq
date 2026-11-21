@@ -8,7 +8,7 @@ Usage (from pipeline/): python3 v8/merge_v8.py DATE V8_REPLIES_DIR
 Writes daily/DATE/v7_merged.json (the publisher's input; the v7-only file is kept as v7_merged_v7only.json)."""
 import json, sys, os, re, statistics, shutil
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'v7'))
-from v7lib import hammer, perfect, payout, BOARD_MIN, NO_K_MAX, GAP_REMOVE
+from v7lib import hammer, perfect, payout, cap_for, BOARD_MIN, NO_K_MAX, GAP_REMOVE
 day, rdir = sys.argv[1], sys.argv[2]
 D = f'daily/{day}/'
 MODELS = ['chatgpt', 'gemini', 'grok', 'claude']
@@ -51,12 +51,13 @@ for l in V7['legs']:
         ms = {m: nums[m].get(i) for m in MODELS}; v = [x for x in ms.values() if x is not None]
         if len(v) >= 1:
             voices = v + ([c['sys']] if c.get('sys') is not None else [])
-            ours = round(statistics.median(voices)); k = l['k']
+            blend = round(statistics.median(voices)); cap = cap_for({**c, **l}); ours = min(blend, cap); k = l['k']
             if k is None: t, pub = 'N', min(ours, NO_K_MAX)
             elif ours - k >= GAP_REMOVE: t, pub = 'R', None
             elif ours > k: t, pub = 'Y', ours
             else: t, pub = 'G', ours
-            l.update(models=ms, med=ours, tier=t, pub=pub, eng='v8', spread=max(v) - min(v), why=why.get(i, {}), conf=conf.get(i, {}), fade=fades.get(i, []))
+            l.update(models=ms, med=ours, blend=blend, cap=cap if blend > cap else None, tier=t, pub=pub, eng='v8', spread=max(v) - min(v),
+                     why=why.get(i, {}), conf=conf.get(i, {}), fade=fades.get(i, []))
         else: l['eng'] = 'v7'
     else: l['eng'] = 'v7 (game started before the v8 run)'
     legs.append(l)

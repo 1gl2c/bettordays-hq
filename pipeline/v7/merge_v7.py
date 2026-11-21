@@ -11,7 +11,7 @@ Writes daily/DATE/v7_merged.json and prints a summary. Rules live in v7lib.py:
 """
 import json, sys, os, re, statistics
 sys.path.insert(0, os.path.dirname(__file__))
-from v7lib import grade_leg, hammer, perfect, payout, BOARD_MIN, MIN_MODELS
+from v7lib import cap_for, grade_leg, hammer, perfect, payout, BOARD_MIN, MIN_MODELS
 
 day, rdir = sys.argv[1], sys.argv[2]
 C = json.load(open(f'daily/{day}/v7_candidates.json'))['legs']
@@ -53,6 +53,8 @@ for l in C:
         l['med'], l['tier'], l['pub'] = None, 'X', None
     else:
         l['med'], l['tier'], l['pub'] = g
+        cap = cap_for(l)   # caps hold after the model median (Nov 20 audit)
+        if l['pub'] is not None and l['pub'] > cap: l['pub'] = cap
     v = [x for x in l['models'].values() if x is not None]
     l['spread'] = (max(v) - min(v)) if len(v) >= 2 else None
 

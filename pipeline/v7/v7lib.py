@@ -8,6 +8,18 @@ BOARD_MIN = 70      # board shows GREEN and YELLOW legs at 70+
 HAM_MIN = 75        # Hammer legs published 75+
 HAM_WITHIN = 3      # Hammer legs GREEN or within 3 of Kalshi
 MIN_MODELS = 2      # a leg needs at least 2 model numbers to get a v7 grade
+SPLIT_MAX = 12      # models 12+ points apart: the leg stays off the Hammer and the parlays (Nov 20 audit)
+
+
+def cap_for(leg):
+    """Highest grade a leg may ever publish, applied AFTER any model blend (Nov 20 audit: Oregon ML,
+    system 69, was published at 87 because the v8 median skipped the cap)."""
+    sp, ty, st = leg.get('sp'), leg.get('ty'), leg.get('stat')
+    if sp in ('CFB', 'CBB', 'NCAAF', 'NCAAB'): return 69          # every college line and prop
+    if sp == 'NBA' and ty in ('ml', 'spread'): return 88
+    if sp == 'NBA' and ty == 'total': return 80
+    if st == 'pra': return 80
+    return 88
 
 
 def stat_of(p, ty):
@@ -30,9 +42,15 @@ def strong_market(leg):
     st = leg['stat']
     if st in ('pts', 'ast', '3pm'):
         return True
-    if st == 'ml':
-        return leg.get('k') is not None and leg['k'] >= 50
+    if st == 'ml':   # NBA favorites only: college moneylines went 24-16 (Nov 4-19)
+        return leg.get('sp') == 'NBA' and leg.get('k') is not None and leg['k'] >= 50
     return False
+
+
+def ticket_ok(l):
+    """A leg may go on a published ticket: strong market, no rule, not void, not a back-to-back, models not split."""
+    return (strong_market(l) and not l.get('b2b') and not l.get('rule') and not l.get('void')
+            and (l.get('spread') is None or l['spread'] < SPLIT_MAX))
 
 
 def ace_rule(p):
@@ -80,8 +98,7 @@ def hammer(legs):
     no two from the same game, no back-to-backs, no Ace-rule legs, pays 2x or more (Ace's rule).
     Returns (ticket_legs, reason_if_none)."""
     ok = [l for l in legs if l['pub'] is not None and l['pub'] >= HAM_MIN and l.get('k') is not None
-          and l['k'] >= l['pub'] - HAM_WITHIN and strong_market(l) and not l.get('b2b') and not l.get('rule')
-          and not l.get('void')]
+          and l['k'] >= l['pub'] - HAM_WITHIN and ticket_ok(l)]
     ok.sort(key=lambda l: (-l['pub'], -l['k']))
     pick, games, players = [], set(), set()
     for l in ok:
@@ -91,7 +108,7 @@ def hammer(legs):
         if len(pick) >= 3 and pay >= 2: break
         if len(pick) == 5: break
     if len(pick) < 3:
-        return None, f"Only {len(pick)} leg{'s' if len(pick)!=1 else ''} qualif{'y' if len(pick)!=1 else 'ies'} (GREEN or within 3 of Kalshi, 75+, points, assists, threes or favorite moneylines, different games, no back-to-backs). Passing is a win."
+        return None, f"Only {len(pick)} leg{'s' if len(pick)!=1 else ''} qualif{'y' if len(pick)!=1 else 'ies'} (GREEN or within 3 of Kalshi, 75+, points, assists, threes or NBA favorite moneylines, different games, no back-to-backs, models within 12 points). Passing is a win."
     pay = payout(pick)
     if pay < 2:
         return None, f"The best {len(pick)} qualifying legs pay only {pay:.2f}x at Kalshi's prices, under the 2x minimum. Passing is a win."
@@ -101,11 +118,10 @@ def hammer(legs):
 def perfect(legs):
     """Safe / Core / Stretch from GREEN legs only, one leg per game and player.
     Chooses the combo with the highest product of published grades inside each payout window."""
-    g = [l for l in legs if l['tier'] == 'G' and l['pub'] is not None and l.get('k') is not None
-         and not l.get('rule') and not l.get('void')]
+    g = [l for l in legs if l['tier'] == 'G' and l['pub'] is not None and l.get('k') is not None and ticket_ok(l)]
     g.sort(key=lambda l: -l['pub']); g = g[:22]
     spec = [('Safe', (2, 2), (2.0, 2.5)), ('Core', (3, 4), (2.5, 4.0)), ('Stretch', (4, 5), (4.0, 99))]
-    out = []
+    out = []   # only points, assists, threes and NBA favorite MLs since the Nov 20 audit (rebound parlays were a loss by our own grades)
     for name, (lo, hi), (pmin, pmax) in spec:
         best = None
         for n in range(lo, hi + 1):
