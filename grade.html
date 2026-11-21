@@ -33,17 +33,17 @@ textarea{width:100%;background:var(--p2);color:var(--tx);border:1px solid var(--
 .leg{margin-top:12px}.lh{display:flex;align-items:flex-start;gap:12px}.lh .t{flex:1;font-weight:600;font-size:16px;line-height:1.35}.lh .t small{display:block;color:var(--mu);font:500 12px 'Geist Mono',monospace;margin-top:3px}
 .g{font:900 34px/1 Kanit,sans-serif;min-width:58px;text-align:right}.tier{font:700 10px 'Geist Mono',monospace;letter-spacing:.1em;padding:4px 6px;border-radius:5px;display:inline-block;margin-top:4px}
 .G{background:#04ff9f22;color:var(--acc)}.Y{background:#ffb02022;color:var(--warn)}.R{background:#ff4d5e22;color:var(--bad)}.N{background:#ffffff12;color:var(--mu)}
-.sig{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:12px}.s{background:var(--p2);border:1px solid var(--line);border-radius:8px;padding:8px 6px;text-align:center}.s span{display:block;font:500 9.5px 'Geist Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--dim)}.s b{display:block;font:700 16px 'Geist Mono',monospace;margin-top:3px}
+.sig{display:grid;grid-template-columns:repeat(auto-fit,minmax(64px,1fr));gap:6px;margin-top:12px}.s{background:var(--p2);border:1px solid var(--line);border-radius:8px;padding:8px 6px;text-align:center}.s span{display:block;font:500 9.5px 'Geist Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--dim)}.s b{display:block;font:700 16px 'Geist Mono',monospace;margin-top:3px}
 .why{margin:10px 0 0;padding:0;list-style:none;font-size:13px;color:var(--mu);line-height:1.5}.why li{margin-top:3px}.why b{color:var(--tx);font-weight:600}
 .fl{margin-top:8px;font-size:13px;color:var(--warn);line-height:1.45}
 .foot{margin-top:22px;font-size:12px;color:var(--dim);line-height:1.6}
-@media (max-width:620px){.sum{grid-template-columns:repeat(2,1fr)}.sig{grid-template-columns:repeat(5,1fr)}.s b{font-size:14px}.g{font-size:30px}.top nav a:not(.k){display:none}}
+@media (max-width:620px){.sum{grid-template-columns:repeat(2,1fr)}.sig{grid-template-columns:repeat(4,1fr)}.s b{font-size:14px}.g{font-size:30px}.top nav a:not(.k){display:none}}
 </style></head><body>
 <header class="top"><a class="logo" href="/">Bettor<span>Days</span></a><nav><a href="/">Picks</a><a href="/research">Research</a><a class="k" href="/app">App</a></nav></header>
 <main>
   <span class="lbl" style="color:var(--acc)">New · Parlay grader · 21+</span>
   <h1>Grade your <em>parlay.</em></h1>
-  <p class="sub">Drop a screenshot of any slip from any book. Every leg gets ten signals: our board grade, Kalshi's live price, four AI agents grading blind, last-10 and season hit rates, our record for that bet type, and red flags. You get the weakest leg and a safer swap in about a minute.</p>
+  <p class="sub">Drop a screenshot of any slip from any book. Every leg gets graded on every signal we have: our board grade, Kalshi's live price, Claude grading it blind, last-10 and season hit rates, our record for that bet type, and red flags. You get the weakest leg and a safer swap in about a minute.</p>
   <div class="card">
     <label class="drop" id="drop" for="file"><span style="font-size:30px">📸</span><b>Tap to add your slip screenshot</b><span class="lbl">or drag it here · PNG or JPG</span></label>
     <input id="file" type="file" accept="image/*" hidden>
@@ -67,7 +67,7 @@ const take=async f=>{if(!f||!/^image\//.test(f.type))return;IMG=await shrink(f);
 $('file').onchange=e=>take(e.target.files[0]);
 const d=$('drop');['dragover','dragenter'].forEach(ev=>d.addEventListener(ev,e=>{e.preventDefault();d.classList.add('on')}));['dragleave','drop'].forEach(ev=>d.addEventListener(ev,e=>{e.preventDefault();d.classList.remove('on')}));d.addEventListener('drop',e=>take(e.dataTransfer.files[0]));
 document.addEventListener('paste',e=>{const it=[...(e.clipboardData||{}).items||[]].find(i=>i.type.startsWith('image/'));if(it)take(it.getAsFile())});
-const STEPS=['Reading your slip','Matching legs to tonight\'s board','Pulling live Kalshi prices','Checking last-10 and season hit rates','Four AI agents grading blind','Combining ten signals per leg'];
+const STEPS=['Reading your slip','Matching legs to tonight\'s board','Pulling live Kalshi prices','Checking last-10 and season hit rates','Claude grading every leg blind','Combining ten signals per leg'];
 let st=null;const steps=on=>{$('load').classList.toggle('on',on);clearInterval(st);if(!on)return;let i=0;const draw=()=>{$('steps').innerHTML=STEPS.map((s,j)=>`${j<i?'✓':j===i?'›':'·'} ${s}`).join('<br>')};draw();st=setInterval(()=>{i=Math.min(STEPS.length-1,i+1);draw()},6500)};
 const c=v=>v==null?'-':v;
 function render(r){
@@ -76,8 +76,8 @@ function render(r){
   if(T.value)h+=`<p class="sub" style="margin:12px 0 0">${esc(T.value)}</p>`;
   if(T.weakest)h+=`<div class="card weak"><h3>Weakest leg: ${esc(T.weakest.text)} (${c(T.weakest.grade)})</h3><div style="font-size:14px;line-height:1.5">${T.weakest.swap?`Safer swap on the same player: <b>${esc(T.weakest.swap.line)}</b>, priced ${T.weakest.swap.k} on Kalshi. It pays a little less and hits a lot more often.`:'Cut it, or swap it for a GREEN leg from tonight\'s board.'} <a href="/">See tonight's board →</a></div></div>`;
   h+=r.legs.map(l=>{const ag=Object.entries(l.agents||{});const f=l.form;
-    const sig=[['Ours',c(l.ours)],['Kalshi',c(l.kalshi)],...['ChatGPT','Claude','Gemini','Grok'].map(n=>[n,c((l.agents[n]||{}).p)]),['Last 10',f?`${f.l10}/${f.l10n}`:'-'],['Season',f?f.season+'%':'-'],['Our record',l.group?l.group.pct+'%':'-'],['Flags',l.flags.length||'0']];
-    return `<div class="card leg"><div class="lh"><div class="t">${esc(l.text)}<small>${esc(l.game||'')}${f&&f.avg!=null?` · avg ${f.avg}`:''} · ${l.signals}/10 signals</small></div><div style="text-align:right"><div class="g" style="color:${l.tier==='R'?'var(--bad)':l.grade>=70?'var(--acc)':'var(--tx)'}">${c(l.grade)}</div><span class="tier ${l.tier}">${{G:'GREEN',Y:'YELLOW',R:'MARKET DISAGREES',N:'NO KALSHI'}[l.tier]}</span></div></div>
+    const sig=[['Ours',c(l.ours)],['Kalshi',c(l.kalshi)],...(Object.keys(l.agents||{}).length?Object.keys(l.agents):['Claude']).map(n=>[n,c((l.agents[n]||{}).p)]),['Last 10',f?`${f.l10}/${f.l10n}`:'-'],['Season',f?f.season+'%':'-'],['Our record',l.group?l.group.pct+'%':'-'],['Flags',l.flags.length||'0']];
+    return `<div class="card leg"><div class="lh"><div class="t">${esc(l.text)}<small>${esc(l.game||'')}${f&&f.avg!=null?` · avg ${f.avg}`:''} · ${l.signals} signals</small></div><div style="text-align:right"><div class="g" style="color:${l.tier==='R'?'var(--bad)':l.grade>=70?'var(--acc)':'var(--tx)'}">${c(l.grade)}</div><span class="tier ${l.tier}">${{G:'GREEN',Y:'YELLOW',R:'MARKET DISAGREES',N:'NO KALSHI'}[l.tier]}</span></div></div>
     <div class="sig">${sig.map(([k,v])=>`<div class="s"><span>${k}</span><b>${esc(v)}</b></div>`).join('')}</div>
     ${ag.length?`<ul class="why">${ag.filter(([,a])=>a&&a.why).map(([n,a])=>`<li><b>${esc(n)} ${a.p}:</b> ${esc(a.why)}</li>`).join('')}</ul>`:''}
     ${l.group?`<div class="why" style="margin-top:6px">Our record on ${esc(l.group.label)}: ${l.group.w}-${l.group.l}.</div>`:''}

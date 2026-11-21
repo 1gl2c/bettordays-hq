@@ -1,7 +1,7 @@
 """Engine v8 merge: our own grade first, Kalshi as referee after.
 Usage (from pipeline/): python3 v8/merge_v8.py DATE V8_REPLIES_DIR
   Our grade = median of the blind model numbers (BD_V8 blocks, no price shown) plus our system grade.
-  Needs 2+ model numbers, otherwise the leg keeps its v7 result (games that started before the v8 run do too).
+  Needs 1+ agent number (Claude only by default since Nov 20 night), otherwise the leg keeps its v7 result (games that started before the v8 run do too).
   Referee: GREEN Kalshi at or above our grade · YELLOW we are 1 to 7 above · REMOVED we are 8+ above (Research only)
            no Kalshi price: max 75, never on the Hammer. Published grade = our grade (not copied from Kalshi).
   Simulations: BD_SIM blocks per model -> daily/DATE/v8_sims.json (each agent's lines, consensus, edge vs break-even).
@@ -42,14 +42,14 @@ for m in MODELS:
     tips[m] = [r.strip().strip('"') for r in block(t, 'BD_TIPS')][:3]
     status[m] = f'{len(nums[m])} of {len(v8legs)} legs graded blind'
 live = [m for m in MODELS if nums[m]]
-if len(live) < 2: sys.exit(f'Only {len(live)} v8 analyst report(s): {status}')
+if len(live) < 1: sys.exit(f'Only {len(live)} v8 analyst report(s): {status}')
 
 legs = []
 for l in V7['legs']:
     i = l['i']; c = CAND[i]; l = dict(l); l['sys'] = c.get('sys'); l['v7models'] = l['models']
     if i in v8legs:
         ms = {m: nums[m].get(i) for m in MODELS}; v = [x for x in ms.values() if x is not None]
-        if len(v) >= 2:
+        if len(v) >= 1:
             voices = v + ([c['sys']] if c.get('sys') is not None else [])
             ours = round(statistics.median(voices)); k = l['k']
             if k is None: t, pub = 'N', min(ours, NO_K_MAX)

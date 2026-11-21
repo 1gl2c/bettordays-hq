@@ -13,13 +13,9 @@ export PATH="$HOME/.local/bin:$HOME/.hermes/bin:/opt/homebrew/bin:/usr/local/bin
 MAX_MIN="${BD_MAX_MIN:-45}"   # deep research needs time: 12:40 start + 45 = 1:25 PM
 LINES_WAIT_UNTIL="${BD_WAIT_UNTIL:-1305}"
 REPO_RAW="https://raw.githubusercontent.com/1gl2c/bettordays-hq/main/pipeline"
-# Top model from each lab on OpenRouter (checked Nov 20, 2026). Update here when a newer flagship ships.
-MODELS=(
-  "chatgpt|openai/gpt-6.2-astra-pro"
-  "gemini|google/gemini-4-neon"
-  "grok|x-ai/grok-4.7"
-  "claude|anthropic/claude-fable-5.2"
-)
+# Claude only by default to keep the daily cost low (about $1 a day or less on Sonnet). To run the full panel again:
+#   BD_MODELS="chatgpt|openai/gpt-6.2-astra-pro claude|anthropic/claude-fable-5.2 gemini|google/gemini-4-neon grok|x-ai/grok-4.7" bash bd_daily_v8.sh
+read -r -a MODELS <<< "${BD_MODELS:-claude|anthropic/claude-sonnet-5.5}"
 # Deep research: web search + a terminal for running the simulation code, plenty of tool steps.
 # Reasoning effort is a Hermes setting, set once with: hermes config set agent.reasoning_effort xhigh
 EXTRA=(-t web,terminal)
@@ -81,8 +77,8 @@ for entry in "${MODELS[@]}"; do
   run_job "$name" "$model" "$OUT/prompt_sim.md" "$OUT/${name}_sim.md" "BD_SIM_END" &
 done
 wait 2>/dev/null
-A=$(grep -l "BD_V8_END" "$OUT"/chatgpt.md "$OUT"/gemini.md "$OUT"/grok.md "$OUT"/claude.md 2>/dev/null | wc -l | tr -d ' ')
+A=$(grep -l "BD_V8_END" "$OUT"/chatgpt.md "$OUT"/gemini.md "$OUT"/grok.md "$OUT"/claude.md 2>/dev/null | wc -l | tr -d ' '); N=${#MODELS[@]}
 S=$(grep -l "BD_SIM_END" "$OUT"/chatgpt_sim.md "$OUT"/gemini_sim.md "$OUT"/grok_sim.md "$OUT"/claude_sim.md 2>/dev/null | wc -l | tr -d ' ')
 if grep -lq "HTTP 402" "$OUT"/chatgpt*.md "$OUT"/gemini*.md "$OUT"/grok*.md "$OUT"/claude*.md 2>/dev/null; then say "OpenRouter credits ran out on at least one job. Add credits, then run this again (finished jobs are skipped)."; fi
-say "Done: $A of 4 analyst reports, $S of 4 simulations. Tell Claude: v8 replies for $DAY are ready."
-notify "$A of 4 analyst, $S of 4 sims done. Tell Claude: v8 ready."
+say "Done: $A of $N analyst reports, $S of $N simulations. Tell Claude: v8 replies for $DAY are ready."
+notify "$A of $N analyst, $S of $N sims done. Tell Claude: v8 ready."

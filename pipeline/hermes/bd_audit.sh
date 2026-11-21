@@ -5,7 +5,7 @@ set -u
 cd "$(dirname "$0")"
 export PATH="$HOME/.local/bin:$HOME/.hermes/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 MAX_MIN="${BD_MAX_MIN:-30}"
-MODELS=("chatgpt|openai/gpt-6.2-astra-pro" "gemini|google/gemini-4-neon" "grok|x-ai/grok-4.7" "claude|anthropic/claude-fable-5.2")
+read -r -a MODELS <<< "${BD_MODELS:-claude|anthropic/claude-fable-5.2}"   # one deep audit by Claude; set BD_MODELS for more
 EXTRA=(-t web,browser)
 DAY=$(date +%Y-%m-%d); OUT="reviews/$DAY-audit"; mkdir -p "$OUT"; LOG="$OUT/runner.log"
 say() { echo "$(date '+%H:%M:%S') $*" | tee -a "$LOG"; }
