@@ -396,7 +396,7 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
   </section>
   <section class="panel rsv" id="perfect" data-v="perfect">
     <div class="dayhead"><span class="lbl" style="color:var(--warn)">EXPERIMENTAL · hindsight lab</span><h2 class="big">The perfect parlay</h2>
-    <p class="proof">For every past night: the parlay we could have built using only picks that hit. One 3-5x and one 10x+. Payouts are estimated from our grades, not real Kalshi prices. Nobody can bet hindsight. The point is to study what the winning legs had in common.</p></div>
+    <p class="proof">Hindsight only, never offered: for every past night, the parlay we could have built using only picks that hit. One 3-5x and one 10x+. Payouts are estimated from our grades, not real Kalshi prices. Nobody can bet hindsight. The point is to study what the winning legs had in common.</p></div>
     <div id="rsPerfect"></div>
     <div class="sech"><h3>What perfect parlays are made of</h3></div>
     <div class="chips" id="rsMix"></div>
@@ -1998,7 +1998,7 @@ const BETA={"sim_ts": "2026-11-20T23:13:21+00:00", "ts": "2026-11-20T23:13:21Z",
   ['n80','80+ picks by night','Every night\'s 80%+ legs.',st(rec(r=>r.est>=80))],
   ['lines','Results by sport and line type','Regular lines, alts, and each sport.',days.length+' nights · '+span],
   ['clues','Clues for building a parlay','What the data says so far.','Updated each graded night'],
-  ['perfect','Perfect parlays','Tonight\'s attempt, every suggested ticket graded leg by leg, and the hindsight builds.',TK.sum,'TEST'],
+  ['perfect','Perfect parlays','Our pregame attempts graded leg by leg, plus hindsight builds marked as never offered.',TK.sum,'TEST'],
   ['beta','Beta Test Mode: simulations','Each AI agent and our own model run 1,000 sims per game on near-even lines, compared to the price.',`Tonight: ${BETA.n_games} games · our sim ran ${BETA.n_lines} lines${typeof V8SIM!=='undefined'&&V8SIM&&V8SIM.n_lines?`, the agents got ${V8SIM.n_lines} of them`:''} · record ${BETA.hist.reduce((a,h)=>a+h.w,0)}-${BETA.hist.reduce((a,h)=>a+h.l,0)}`,'SIMS TONIGHT'],
   ['record','Record explorer','Stack any filters, see W-L and sample size.',R.length+' graded legs']];
 
@@ -2138,8 +2138,8 @@ const BETA={"sim_ts": "2026-11-20T23:13:21+00:00", "ts": "2026-11-20T23:13:21Z",
   const miss=day.filter(r=>!r.hit).sort((x,y)=>y.est-x.est)[0];
   return {d,a,b,miss,n:day.length,h:hits.length}}).reverse();
  const legrow=r=>`<li><span>${r.pick}</span><b>${r.est}</b></li>`;
- const card=(t,p,col)=>`<div class="pcard" style="border-top-color:${col}"><div class="ph"><b style="color:${col}">${t}</b><span class="mono">${p.ok?'about '+p.x.toFixed(1)+'x':'not enough clean hits'}</span></div><ol class="pl">${p.legs.map(legrow).join('')}</ol><small>${p.legs.length} legs, all hit</small></div>`;
- $('rsPerfect').innerHTML=perfect.map((p,i)=>`<details class="pday"${i===0?' open':''}><summary><b>${p.d}</b><span class="mono">${p.h} of ${p.n} picks hit</span></summary><div class="two" style="margin-top:10px">${card('3-5x · the clean one',p.a,'var(--acc)')}${card('10x+ · the stretch',p.b,'#ffb020')}</div>${p.miss?`<p class="tiny" style="margin:8px 0 0">The trap that night: <b style="color:var(--bad)">${p.miss.pick}</b>, graded ${p.miss.est}, missed.</p>`:''}</details>`).join('');
+ const card=(t,p,col)=>`<div class="pcard" style="border-top-color:${col}"><div class="ph"><b style="color:${col}">${t}</b><span class="mono">${p.ok?'about '+p.x.toFixed(1)+'x':'not enough clean hits'}</span></div><ol class="pl">${p.legs.map(legrow).join('')}</ol><small>Built after the games from legs that hit. Never offered, can't be bet.</small></div>`;
+ $('rsPerfect').innerHTML=perfect.map((p,i)=>`<details class="pday"${i===0?' open':''}><summary><b>${p.d}</b><span class="mono">${p.h} of ${p.n} picks hit</span></summary><div class="two" style="margin-top:10px">${card('Hindsight 3-5x · not a pick',p.a,'var(--mute)')}${card('Hindsight 10x+ · not a pick',p.b,'var(--mute)')}</div>${p.miss?`<p class="tiny" style="margin:8px 0 0">The trap that night: <b style="color:var(--bad)">${p.miss.pick}</b>, graded ${p.miss.est}, missed.</p>`:''}</details>`).join('');
  const pl=perfect.flatMap(p=>[...p.a.legs,...p.b.legs]),mix={};pl.forEach(r=>mix[r.stat]=(mix[r.stat]||0)+1);
  $('rsMix').innerHTML=Object.entries(mix).sort((a,b)=>b[1]-a[1]).slice(0,7).map(([k,n])=>`<span class="chip">${LBL[k]||k} · ${Math.round(100*n/pl.length)}%</span>`).join('')+`<p class="tiny" style="margin:8px 0 0">Average grade of a perfect-parlay leg: <b>${Math.round(sum(pl,r=>r.est)/pl.length)}</b>. They come from the 70s, not the 90s. That's where a leg still pays something.</p>`;
  // ---------- beta: rules learned from the data, tested on every past night with only the data before it
