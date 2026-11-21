@@ -128,7 +128,7 @@ def _combo_stats(c, C):
 def _best(pool, C, sizes, min_hit, key, min_pay=MIN_PAY):
     best = None
     for n in sizes:
-        for c in itertools.combinations(pool[:14], n):
+        for c in itertools.combinations(pool[:24 if n <= 3 else 16], n):   # ChatGPT audit: search more than the first 14 legs
             if len({l['g'] for l in c}) < n or len({l['player'] for l in c}) < n: continue
             hit, pay, e = _combo_stats(c, C)
             if e < 0.02 or hit < min_hit or pay < min_pay: continue
