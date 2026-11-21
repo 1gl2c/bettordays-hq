@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 export PATH="$HOME/.local/bin:$HOME/.hermes/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 MAX_MIN="${BD_MAX_MIN:-30}"
 MODELS=("chatgpt|openai/gpt-6.2-astra-pro" "gemini|google/gemini-4-neon" "grok|x-ai/grok-4.7" "claude|anthropic/claude-fable-5.2")
-EXTRA=(-t web,browser --max-turns 80)
+EXTRA=(-t web,browser)
 DAY=$(date +%Y-%m-%d); OUT="reviews/$DAY-audit"; mkdir -p "$OUT"; LOG="$OUT/runner.log"
 say() { echo "$(date '+%H:%M:%S') $*" | tee -a "$LOG"; }
 curl -fsS "https://raw.githubusercontent.com/1gl2c/bettordays-hq/main/pipeline/hermes/bd_audit.md" -o bd_audit.md 2>/dev/null || true
@@ -19,8 +19,8 @@ for entry in "${MODELS[@]}"; do
   (
     start=$(date +%s)
     ( hermes -z "$(cat "$OUT/prompt.md")" --provider openrouter --model "$model" "${EXTRA[@]}" > "$of" 2> "${of%.md}.log"
-      if grep -qiE "unrecognized arguments|no such option|unknown option|unknown toolset" "${of%.md}.log"; then
-        hermes -z "$(cat "$OUT/prompt.md")" --provider openrouter --model "$model" -t web > "$of" 2>> "${of%.md}.log"
+      if grep -qiE "unrecognized arguments|no such option|unknown option|is not a .hermes. command|unknown toolset|Usage:|unknown toolset" "${of%.md}.log"; then
+        hermes -z "$(cat "$OUT/prompt.md")" --provider openrouter --model "$model" > "$of" 2>> "${of%.md}.log"
       fi ) &
     pid=$!
     ( sleep $((MAX_MIN * 60)); pkill -P "$pid" 2>/dev/null; kill "$pid" 2>/dev/null ) & dog=$!

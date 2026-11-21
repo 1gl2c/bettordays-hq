@@ -22,7 +22,7 @@ MODELS=(
 )
 # Deep research: web search + a terminal for running the simulation code, plenty of tool steps.
 # Reasoning effort is a Hermes setting, set once with: hermes config set agent.reasoning_effort xhigh
-EXTRA=(-t web,terminal --max-turns 80)
+EXTRA=(-t web,terminal)
 
 DAY=$(date +%Y-%m-%d)
 OUT="reviews/$DAY-v8"; mkdir -p "$OUT"
@@ -62,7 +62,7 @@ run_job() { # name model promptfile outfile endmarker
   local start; start=$(date +%s)
   # if this Hermes version rejects the extra flags, rerun once without them
   ( hermes -z "$(cat "$pf")" --provider openrouter --model "$model" "${EXTRA[@]}" > "$of" 2> "${of%.md}.log"
-    if grep -qiE "unrecognized arguments|no such option|unknown option" "${of%.md}.log"; then
+    if grep -qiE "unrecognized arguments|no such option|unknown option|is not a .hermes. command|unknown toolset|Usage:" "${of%.md}.log"; then
       echo "extra flags not supported, running without them" >> "${of%.md}.log"
       hermes -z "$(cat "$pf")" --provider openrouter --model "$model" > "$of" 2>> "${of%.md}.log"
     fi ) &
