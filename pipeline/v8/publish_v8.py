@@ -46,6 +46,9 @@ def row(l):
     if l.get('b2b'): r['b2b'] = True
     if l.get('sys'): r['sys'] = l['sys']
     if l.get('rule'): r['fl'] = 'ACE RULE'
+    elif l.get('fl') == 'Q': r['fl'] = 'Q'
+    if l.get('ku'): r['ku'] = l['ku']   # Kalshi page for this leg (Nov 22)
+    if l.get('bk') is not None: r['bk'] = round(l['bk'])
     return r
 
 

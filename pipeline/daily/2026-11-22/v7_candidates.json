@@ -34,7 +34,7 @@
    "stat": "3pm",
    "k": 54.5,
    "sys": 72,
-   "fl": null
+   "fl": "Q"
   },
   {
    "i": 4,
@@ -46,7 +46,7 @@
    "stat": "3pm",
    "k": 82.0,
    "sys": 88,
-   "fl": null
+   "fl": "Q"
   },
   {
    "i": 5,
@@ -226,7 +226,7 @@
    "stat": "rec",
    "k": 72.0,
    "sys": 85,
-   "fl": null
+   "fl": "Q"
   },
   {
    "i": 20,
@@ -238,7 +238,7 @@
    "stat": "rec",
    "k": 54.5,
    "sys": 71,
-   "fl": null
+   "fl": "Q"
   },
   {
    "i": 21,
@@ -322,7 +322,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 52,
-   "fl": null
+   "fl": "Q"
   },
   {
    "i": 28,
@@ -742,7 +742,7 @@
    "stat": "atd",
    "k": 50.5,
    "sys": 62,
-   "fl": null
+   "fl": "Q"
   },
   {
    "i": 63,
@@ -790,7 +790,7 @@
    "stat": "recyds",
    "k": 72.5,
    "sys": 67,
-   "fl": null
+   "fl": "Q"
   },
   {
    "i": 67,
@@ -1138,7 +1138,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 68,
-   "fl": null
+   "fl": "Q"
   },
   {
    "i": 96,
@@ -1162,7 +1162,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 77,
-   "fl": null
+   "fl": "Q"
   },
   {
    "i": 98,

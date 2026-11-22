@@ -2,10 +2,10 @@
  "date": "2026-11-22",
  "engine": "v8",
  "models": {
-  "chatgpt": "waiting",
-  "gemini": "waiting",
+  "chatgpt": "133 of 133 legs graded",
+  "gemini": "133 of 133 legs graded",
   "grok": "waiting",
-  "claude": "waiting"
+  "claude": "133 of 133 legs graded"
  },
  "legs": [
   {
@@ -27,20 +27,31 @@
    "rule": null,
    "fl": "LIVE",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 53,
+    "gemini": 53,
     "grok": null,
-    "claude": null
+    "claude": 60
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Alcaraz leads the series 7-6 and has won 13 straight matches. His taped thigh and longer semifinal narrow the edge. LIVE at first ball 0-0 in games at 9:14 AM P",
+    "gemini": "42-5 YTD but 0-3 indoors vs Zverev who is 4-0 without dropping a set in Turin",
+    "claude": "Alcaraz on 13-match streak but played thigh issue through 3-set semi; Zverev unbroken all week on fast court"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": null,
-   "tier": "X",
-   "pub": null,
-   "eng": "v8",
-   "spread": null
+   "med": 53,
+   "blend": 53,
+   "cap": null,
+   "tier": "G",
+   "pub": 53,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 2,
@@ -61,20 +72,36 @@
    "rule": null,
    "fl": "LIVE",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 26,
+    "gemini": 30,
     "grok": null,
-    "claude": null
+    "claude": 33
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Zverev held serve in every match through the semifinal. One tiebreak loss can end this leg. LIVE at first ball 0-0 in games at 9:14 AM PT.",
+    "gemini": "Zverev winning 81-88% first-serve pts in Turin makes a 2-0 sweep tough after Alcaraz 3-set SF",
+    "claude": "Zverev serve makes tiebreaks likely; straight sets needs Alcaraz to break a serve that held all week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Alexander Zverev has not dropped a set in Turin and is 3-0 indoors vs Alcaraz"
+    ]
+   ],
    "alt_rung": false,
-   "med": null,
-   "tier": "X",
-   "pub": null,
-   "eng": "v8",
-   "spread": null
+   "med": 30,
+   "blend": 30,
+   "cap": null,
+   "tier": "G",
+   "pub": 30,
+   "eng": "v8 (started, pregame grade)",
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 3,
@@ -93,25 +120,33 @@
    "sys": 72,
    "n": "Hit 11 of 15 this season, 4 of 5 last 5 (avg 2.0).",
    "rule": null,
-   "fl": null,
+   "fl": "Q",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 59,
+    "gemini": 64,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Q per secondary listing. Official Knicks filing pending. Made 3 of 7 against Indiana on Nov 13 and made at least two in 8 of his last 10.",
+    "gemini": "Q illness; 2+ threes in 11 of 15 games and went 3-for-7 vs IND on Nov 13",
+    "claude": "About 5 three attempts a night; today's status unverified so check report"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 72,
-   "blend": 72,
+   "med": 62,
+   "blend": 62,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "Y",
+   "pub": 62,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 12,
+   "solo": false
   },
   {
    "i": 4,
@@ -130,25 +165,33 @@
    "sys": 88,
    "n": "Hit 14 of 15 this season, 5 of 5 last 5 (avg 2.0).",
    "rule": null,
-   "fl": null,
+   "fl": "Q",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 85,
+    "gemini": 86,
     "grok": null,
-    "claude": null
+    "claude": 82
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Q per secondary listing. Official Knicks filing pending. Made a three in 14 of 15 games. His last two attempt counts were 8 and 2.",
+    "gemini": "Q illness; 1+ three in 14 of 15 games on 5.2 3PA per game",
+    "claude": "One make on 4 to 6 attempts; check report"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 88,
-   "blend": 88,
+   "med": 86,
+   "blend": 86,
    "cap": null,
    "tier": "Y",
-   "pub": 88,
+   "pub": 86,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 4,
+   "solo": false
   },
   {
    "i": 5,
@@ -169,23 +212,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 70,
+    "gemini": 56,
     "grok": null,
-    "claude": null
+    "claude": 45
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Eight boards in 8 of his last 10 and nine in the first Wizards game. Anthony Davis can pull him away from the rim.",
+    "gemini": "8 8 and 7 boards in last 3 games playing 30-39 min vs weak Wizards glass",
+    "claude": "Banchero out so thin frontcourt; Wizards bigs contest boards; status unverified"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 68,
-   "blend": 68,
+   "med": 62,
+   "blend": 62,
    "cap": null,
    "tier": "Y",
-   "pub": 68,
+   "pub": 62,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 25,
+   "solo": false
   },
   {
    "i": 6,
@@ -206,23 +257,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 87,
+    "gemini": 80,
     "grok": null,
-    "claude": null
+    "claude": 68
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Six boards in 14 of 15 games. Banchero and Isaac are out and Carter played 35 minutes Friday.",
+    "gemini": "Consistent 30+ min role with strong offensive-glass floor against Washington",
+    "claude": "Low line for a starting center; main miss reason foul trouble"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 84,
-   "blend": 84,
+   "med": 82,
+   "blend": 82,
    "cap": null,
    "tier": "Y",
-   "pub": 84,
+   "pub": 82,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 19,
+   "solo": false
   },
   {
    "i": 7,
@@ -243,23 +302,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 48,
+    "gemini": 62,
     "grok": null,
-    "claude": null
+    "claude": 58
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Under in 2 of 6 passing appearances. Rain and Monangai returning both favor fewer attempts but 247 was a narrow hit.",
+    "gemini": "91% rain and 15 mph wind gusts 24 mph at Soldier Field plus heavy favorite run script",
+    "claude": "Bears run heavy at 142 rush ypg and lead script trims late passing"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 43,
-   "blend": 43,
+   "med": 53,
+   "blend": 53,
    "cap": null,
    "tier": "N",
-   "pub": 43,
+   "pub": 53,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 14,
+   "solo": false
   },
   {
    "i": 8,
@@ -280,23 +347,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 25,
+    "gemini": 26,
     "grok": null,
-    "claude": null
+    "claude": 26
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Eleven catches last week after four on debut. No TD in either game and the Saints are missing two starting linemen.",
+    "gemini": "Saints 3-6 road dogs in driving rain and wind against 7-2 Bears defense",
+    "claude": "37% target share but no TDs in 2 games; Saints lost C McCoy and RT Fuaga to inactives"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 15,
-   "blend": 15,
+   "med": 26,
+   "blend": 26,
    "cap": null,
-   "tier": "G",
-   "pub": 15,
+   "tier": "Y",
+   "pub": 26,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 1,
+   "solo": false
   },
   {
    "i": 9,
@@ -317,23 +392,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 62,
+    "gemini": 60,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "At least 10 carries in all four appearances but exactly 10 in three. First game back from a toe injury.",
+    "gemini": "Healthy return to 31-54% snap share in projected rain-soaked blowout run script",
+    "claude": "Lead script adds carries but Swift owns goal line"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 80,
-   "blend": 80,
+   "med": 61,
+   "blend": 61,
    "cap": null,
    "tier": "N",
-   "pub": 75,
+   "pub": 61,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 10,
@@ -354,23 +437,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 74,
+    "gemini": 83,
     "grok": null,
-    "claude": null
+    "claude": 76
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Chicago scores 26.8 per game. New Orleans is missing Fuaga and McCoy and has to sustain drives on the road.",
+    "gemini": "7-2 Bears vs 3-6 Saints at Soldier Field with superior defense and run game",
+    "claude": "7-2 Bears vs 3-6 Saints missing two OL starters and LB Werner"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 80,
-   "blend": 80,
+   "med": 78,
+   "blend": 78,
    "cap": null,
    "tier": "G",
-   "pub": 80,
+   "pub": 78,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 9,
+   "solo": false
   },
   {
    "i": 11,
@@ -391,23 +482,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 63,
+    "gemini": 73,
     "grok": null,
-    "claude": null
+    "claude": 76
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Detroit scores 28.6 per game. Mayfield is starting with foot and thumb injuries but Tampa allows under 20 per game.",
+    "gemini": "7-2 Lions are 5-0 at Ford Field vs 3-6 Bucs with Baker Mayfield nursing foot injury",
+    "claude": "Lions won 5 straight; Mayfield plays through plantar fasciitis"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 60,
-   "blend": 60,
+   "med": 68,
+   "blend": 68,
    "cap": null,
-   "tier": "G",
-   "pub": 60,
+   "tier": "Y",
+   "pub": 68,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 13,
+   "solo": false
   },
   {
    "i": 12,
@@ -428,13 +527,21 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 67,
+    "gemini": 68,
     "grok": null,
-    "claude": null
+    "claude": 63
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Jacksonville scores 29.9 and allows 16.0 per game. New York's strong pass defense trims the road edge.",
+    "gemini": "7-2 Jaguars boast +125 point differential against 5-3-1 Giants",
+    "claude": "7-2 Jags vs 5-3-1 Giants who are explosive under McCarthy"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
    "med": 67,
@@ -443,8 +550,8 @@
    "tier": "G",
    "pub": 67,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 5,
+   "solo": false
   },
   {
    "i": 13,
@@ -465,23 +572,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 58,
+    "gemini": 62,
     "grok": null,
-    "claude": null
+    "claude": 70
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Milton starts after the bye with receivers returning. A seven-point loss is a push.",
+    "gemini": "Key number +7 push is not a win; Eagles 2-7 with Joe Milton starting and Baun on IR",
+    "claude": "Eagles 2-7 with Milton but 7 covers most one-score losses"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 58,
-   "blend": 58,
+   "med": 60,
+   "blend": 60,
    "cap": null,
    "tier": "N",
-   "pub": 58,
+   "pub": 60,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 12,
+   "solo": false
   },
   {
    "i": 14,
@@ -502,23 +617,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 41,
+    "gemini": 45,
     "grok": null,
-    "claude": null
+    "claude": 45
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Baltimore is starting Brissett and is without Madubuike and Humphrey. Henry still has a favorable rush matchup.",
+    "gemini": "4-5 Ravens on 5-game skid and short week off MNF loss at 4-5 Panthers",
+    "claude": "Ravens lost 5 straight and sit Humphrey Madubuike and Hawkins"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 43,
-   "blend": 43,
+   "med": 44,
+   "blend": 44,
    "cap": null,
-   "tier": "G",
-   "pub": 43,
+   "tier": "Y",
+   "pub": 44,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 4,
+   "solo": false
   },
   {
    "i": 15,
@@ -539,23 +662,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 36,
+    "gemini": 27,
     "grok": null,
-    "claude": null
+    "claude": 23
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Mayfield will start. Tampa's rush defense allows 79.1 yards per game but his foot limits the escape game.",
+    "gemini": "3-6 Bucs facing unbeaten-at-home 7-2 Lions with Mayfield dealing with foot issue",
+    "claude": "Hobbled Mayfield; Bucs have NFL-low 6 pass TDs"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 40,
-   "blend": 40,
+   "med": 32,
+   "blend": 32,
    "cap": null,
-   "tier": "Y",
-   "pub": 40,
+   "tier": "G",
+   "pub": 32,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 13,
+   "solo": false
   },
   {
    "i": 16,
@@ -576,23 +707,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 52,
+    "gemini": 66,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Herbert and home field provide a narrow edge. An offense scoring 16.0 per game leaves the Jets in it.",
+    "gemini": "Chargers fresh off MNF win over Ravens face 2-8 Jets on 5-game losing streak",
+    "claude": "Both teams bad; Geno ankle limited all week"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 59,
-   "blend": 59,
+   "med": 57,
+   "blend": 57,
    "cap": null,
    "tier": "G",
-   "pub": 59,
+   "pub": 57,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 14,
+   "solo": false
   },
   {
    "i": 17,
@@ -613,13 +752,21 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 33,
+    "gemini": 32,
     "grok": null,
-    "claude": null
+    "claude": 37
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "New York allows only 184.1 passing yards per game. Its offense faces a defense giving up 16 points per game.",
+    "gemini": "5-3-1 Giants with J.J. McCarthy face elite +125 Jaguars squad",
+    "claude": "Needs a big McCarthy game vs a strong Jags D"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
    "med": 33,
@@ -628,8 +775,8 @@
    "tier": "Y",
    "pub": 33,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 5,
+   "solo": false
   },
   {
    "i": 18,
@@ -650,23 +797,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 46,
+    "gemini": 61,
     "grok": null,
-    "claude": null
+    "claude": 62
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "No interceptions on his first 37 NFL attempts. Denver has eight picks and 26 sacks. Pressure raises the risk.",
+    "gemini": "Rookie in 2nd NFL start took 6 sacks vs SEA now faces 7-2 Broncos pass rush in Denver",
+    "claude": "Elite Denver D at altitude; Bowers iffy"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 14,
-   "blend": 14,
+   "med": 54,
+   "blend": 54,
    "cap": null,
    "tier": "G",
-   "pub": 14,
+   "pub": 54,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 16,
+   "solo": false
   },
   {
    "i": 19,
@@ -685,25 +840,33 @@
    "sys": 85,
    "n": "Hit 10 of 10 this season, 5 of 5 last 5 (avg 4.6).",
    "rule": null,
-   "fl": null,
+   "fl": "Q",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 86,
+    "gemini": 82,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Three catches in all 10 games and four in Mendoza's first start. Short outlets give him a path even when trailing.",
+    "gemini": "3+ receptions in all 10 games in 2026 averaging 4.6 rec per game; Bowers Q boosts checkdowns",
+    "claude": "Q sprain so check inactives; checkdowns vs pressure"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 85,
-   "blend": 85,
+   "med": 84,
+   "blend": 84,
    "cap": null,
    "tier": "R",
    "pub": null,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 31,
+   "solo": false
   },
   {
    "i": 20,
@@ -722,25 +885,33 @@
    "sys": 71,
    "n": "Hit 7 of 10 this season, 4 of 5 last 5 (avg 4.6).",
    "rule": null,
-   "fl": null,
+   "fl": "Q",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 64,
+    "gemini": 64,
     "grok": null,
-    "claude": null
+    "claude": 38
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Four catches in 7 of 10. Three games ended at exactly three despite his stable receiving role.",
+    "gemini": "4+ catches in 7 of 10 games with heavy trailing game script expected at Denver",
+    "claude": "Q sprain; 4 catches needs a heavy dump-off game"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 71,
-   "blend": 71,
+   "med": 64,
+   "blend": 64,
    "cap": null,
    "tier": "R",
    "pub": null,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 26,
+   "solo": false
   },
   {
    "i": 21,
@@ -761,23 +932,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 65,
+    "gemini": 52,
     "grok": null,
-    "claude": null
+    "claude": 40
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Reached 15 in 7 of 9. Minnesota's pressure can force scrambles but sacks do not count as rushing yards.",
+    "gemini": "Mobile extender in Mexico City altitude against aggressive Vikings front",
+    "claude": "Low designed run volume; 2 runs last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 71,
-   "blend": 71,
+   "med": 58,
+   "blend": 58,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "Y",
+   "pub": 58,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 25,
+   "solo": false
   },
   {
    "i": 22,
@@ -798,23 +977,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 55,
+    "gemini": 50,
     "grok": null,
-    "claude": null
+    "claude": 42
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Cleared 40 in 5 of 10. Ferguson is out and Tennessee allows a league-high 266.9 passing yards per game.",
+    "gemini": "High-volume Cowboys passing attack vs 4-6 Titans in indoor dome shootout environment",
+    "claude": "Pickens back takes volume; Ferguson out helps"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 61,
-   "blend": 61,
+   "med": 52,
+   "blend": 52,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "Y",
+   "pub": 52,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 13,
+   "solo": false
   },
   {
    "i": 23,
@@ -835,23 +1022,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 65,
+    "gemini": 56,
     "grok": null,
-    "claude": null
+    "claude": 48
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Cleared 35 in 7 of 10 including games of 37 and 38. Ferguson's absence helps the shorter line.",
+    "gemini": "Lower 35-yard threshold benefits from Dak 50-attempt ceiling in fast indoor track",
+    "claude": "6-71 last week; needs 3 or 4 catches"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 76,
-   "blend": 76,
+   "med": 60,
+   "blend": 60,
    "cap": null,
    "tier": "N",
-   "pub": 75,
+   "pub": 60,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 17,
+   "solo": false
   },
   {
    "i": 24,
@@ -872,23 +1067,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 61,
+    "gemini": 47,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Six of nine cleared 25 including the last three. Nabers and Likely draw substantially more targets.",
+    "gemini": "Giants likely trailing Jaguars with McCarthy throwing 28-36 times",
+    "claude": "3-62 last game but behind Nabers and Likely"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 66,
-   "blend": 66,
+   "med": 56,
+   "blend": 56,
    "cap": null,
-   "tier": "Y",
-   "pub": 66,
+   "tier": "G",
+   "pub": 56,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 14,
+   "solo": false
   },
   {
    "i": 25,
@@ -909,20 +1112,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 55,
+    "gemini": 56,
     "grok": null,
-    "claude": null
+    "claude": 28
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "SGA and Giannis are both Q. Holmgren and Jalen Williams are out. Miami's edge changes substantially with either star.",
+    "gemini": "Heat at Kaseya Center beat OKC 122-120 in prior meeting and hold home edge",
+    "claude": "Thunder are the far better team"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": null,
-   "tier": "X",
-   "pub": null,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "G",
+   "pub": 55,
    "eng": "v8",
-   "spread": null
+   "spread": 28,
+   "solo": false
   },
   {
    "i": 26,
@@ -943,20 +1157,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 56,
+    "gemini": 57,
     "grok": null,
-    "claude": null
+    "claude": 57
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Jarry and Hofer start. Both teams played Saturday but Edmonton traveled from Carolina and Hyman is questionable.",
+    "gemini": "McDavid 57 pts and Draisaitl 46 pts with strong goaltending edge even with RNH out",
+    "claude": "Oilers 12-3-3 but 2nd night of back-to-back after Carolina; likely backup goalie"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": null,
-   "tier": "X",
+   "med": 57,
+   "blend": 57,
+   "cap": null,
+   "tier": "R",
    "pub": null,
    "eng": "v8",
-   "spread": null
+   "spread": 1,
+   "solo": false
   },
   {
    "i": 27,
@@ -975,25 +1200,33 @@
    "sys": 52,
    "n": "Hit 3 of 7 this season, 3 of 5 last 5 (avg 59.0).",
    "rule": null,
-   "fl": null,
+   "fl": "Q",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 46,
+    "gemini": 48,
     "grok": null,
-    "claude": null
+    "claude": 35
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Q on Friday and active after a shoulder injury. Three of seven appearances reached 60 with another at 58.",
+    "gemini": "Titans rookie faces leaky Cowboys secondary that just gave up 46 pts to SF",
+    "claude": "Shoulder kept him out last week; trailing script helps volume"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 52,
-   "blend": 52,
+   "med": 47,
+   "blend": 47,
    "cap": null,
    "tier": "N",
-   "pub": 52,
+   "pub": 47,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 13,
+   "solo": false
   },
   {
    "i": 28,
@@ -1014,23 +1247,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 27,
+    "gemini": 29,
     "grok": null,
-    "claude": null
+    "claude": 30
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "One multi-TD game in nine despite a score in eight. Allen has 15 carries inside the five.",
+    "gemini": "Scored in 8 straight games vs 1-8 Dolphins but only one 2-TD game in 2026",
+    "claude": "Blowout lets Ray Davis steal late work; Allen vultures"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 26,
-   "blend": 26,
+   "med": 28,
+   "blend": 28,
    "cap": null,
    "tier": "Y",
-   "pub": 26,
+   "pub": 28,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 3,
+   "solo": false
   },
   {
    "i": 29,
@@ -1051,23 +1292,40 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 23,
+    "gemini": 14,
     "grok": null,
-    "claude": null
+    "claude": 10
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Two multi-TD games in ten. Tennessee's weak pass defense helps but Pickens and the ground game split finishes.",
+    "gemini": "Elite target share 77 rec 976 yds but multi-TD games remain high-variance",
+    "claude": "Pickens took 3 TDs last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "A one-touchdown Lamb game still loses and Pickens can take a red-zone target."
+    ],
+    [
+     "claude",
+     "Pickens is the red zone alpha now"
+    ]
+   ],
    "alt_rung": false,
-   "med": 29,
-   "blend": 29,
+   "med": 18,
+   "blend": 18,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "G",
+   "pub": 18,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 13,
+   "solo": false
   },
   {
    "i": 30,
@@ -1088,23 +1346,40 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 20,
+    "gemini": 11,
     "grok": null,
-    "claude": null
+    "claude": 17
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Three multi-TD games in nine. Monangai returns after five games out and can take goal-line work.",
+    "gemini": "Monangai healthy return cuts into goal-line and total carry share",
+    "claude": "Two scores needs Bears to stall near the goal line twice"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Monangai is back to take carries near the stripe."
+    ],
+    [
+     "gemini",
+     "Kyle Monangai returning healthy splits Bears backfield and red-zone touches with Swift"
+    ]
+   ],
    "alt_rung": false,
-   "med": 30,
-   "blend": 30,
+   "med": 18,
+   "blend": 18,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "G",
+   "pub": 18,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 9,
+   "solo": false
   },
   {
    "i": 31,
@@ -1125,23 +1400,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 22,
+    "gemini": 21,
     "grok": null,
-    "claude": null
+    "claude": 18
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Two receiving TDs in his only start. Rushing and receiving paths help but one start gives little evidence for two scores.",
+    "gemini": "Walker OUT; just scored 2 TDs in first start vs weak ARI run defense",
+    "claude": "Workhorse but KC may pull starters before Thanksgiving game"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Kansas City can win comfortably while Mahomes distributes the scoring."
+    ]
+   ],
    "alt_rung": false,
-   "med": 24,
-   "blend": 24,
+   "med": 22,
+   "blend": 22,
    "cap": null,
    "tier": "G",
-   "pub": 24,
+   "pub": 22,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 4,
+   "solo": false
   },
   {
    "i": 32,
@@ -1162,23 +1450,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 73,
+    "gemini": 76,
     "grok": null,
-    "claude": null
+    "claude": 68
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in 8 of 9 and has 23 carries inside the five. Allen still has a substantial goal-line share.",
+    "gemini": "Rushing TD in 8 straight games averaging 20.8 carries vs 1-8 Dolphins (-76 net pts)",
+    "claude": "Bills 32.8 ppg vs depleted Dolphins DL"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "high"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 70,
+   "blend": 70,
    "cap": null,
-   "tier": "G",
-   "pub": 62,
+   "tier": "Y",
+   "pub": 70,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 8,
+   "solo": false
   },
   {
    "i": 33,
@@ -1199,23 +1495,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 54,
+    "gemini": 55,
     "grok": null,
-    "claude": null
+    "claude": 45
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in 6 of 10. Tennessee ranks last in pass yards allowed and Ferguson is inactive.",
+    "gemini": "976 receiving yards leads offense in high-scoring dome matchup vs Titans",
+    "claude": "Red zone share split with Pickens"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 61,
-   "blend": 61,
+   "med": 54,
+   "blend": 54,
    "cap": null,
-   "tier": "Y",
-   "pub": 61,
+   "tier": "G",
+   "pub": 54,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 10,
+   "solo": false
   },
   {
    "i": 34,
@@ -1236,23 +1540,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 50,
+    "gemini": 48,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in five of nine. Monangai scored three times in his four appearances and is back today.",
+    "gemini": "Rainy run-heavy script helps but Monangai return splits red-zone work",
+    "claude": "3 TDs on 27 carries at Seattle; Bears lead NFL red zone yards"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 51,
+   "blend": 51,
    "cap": null,
-   "tier": "Y",
-   "pub": 62,
+   "tier": "G",
+   "pub": 51,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 4,
+   "solo": false
   },
   {
    "i": 35,
@@ -1273,23 +1585,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 64,
+    "gemini": 62,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Walker is out. Johnson had 22 carries and six catches last week but Kansas City is missing two starting blockers.",
+    "gemini": "Walker OUT; workhorse RB1 role for heavy home favorite vs 3-7 Cardinals",
+    "claude": "Walker inactive; 2 rec TDs last week"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 46,
-   "blend": 46,
+   "med": 58,
+   "blend": 58,
    "cap": null,
    "tier": "G",
-   "pub": 46,
+   "pub": 58,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 9,
+   "solo": false
   },
   {
    "i": 36,
@@ -1310,23 +1630,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 24,
+    "gemini": 24,
     "grok": null,
-    "claude": null
+    "claude": 25
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Four catches and a TD last week for Kansas City. Rice and Kelce also compete for short scoring targets.",
+    "gemini": "Only 1 TD in 8 games this season and KC likely run-heavy with huge lead",
+    "claude": "Still learning offense; KC spreads scores"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 33,
-   "blend": 33,
+   "med": 24,
+   "blend": 24,
    "cap": null,
-   "tier": "Y",
-   "pub": 33,
+   "tier": "G",
+   "pub": 24,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 1,
+   "solo": false
   },
   {
    "i": 37,
@@ -1347,23 +1675,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 55,
+    "gemini": 41,
     "grok": null,
-    "claude": null
+    "claude": 28
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in four of nine games and owns 15 carries inside the five. Dallas gives up 154.1 rushing yards per game.",
+    "gemini": "Cowboys defense bleeds points though negative game script risks late-game carries",
+    "claude": "Singleton inactive so more work; weak Titans offense"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 53,
-   "blend": 53,
+   "med": 47,
+   "blend": 47,
    "cap": null,
    "tier": "G",
-   "pub": 53,
+   "pub": 47,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 27,
+   "solo": false
   },
   {
    "i": 38,
@@ -1384,23 +1720,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 40,
+    "gemini": 44,
     "grok": null,
-    "claude": null
+    "claude": 32
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in five of nine with seven TDs. Jacksonville gives up only 16 points per game and his groin bears watching.",
+    "gemini": "7 TDs in 9 games as red-zone focal point for Giants though Jags defense is tough",
+    "claude": "McCarthy's top red zone look"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 42,
+   "blend": 42,
    "cap": null,
    "tier": "R",
    "pub": null,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 12,
+   "solo": false
   },
   {
    "i": 39,
@@ -1421,23 +1765,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 71,
+    "gemini": 60,
     "grok": null,
-    "claude": null
+    "claude": 60
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in eight straight games by run or catch. Minnesota allows just 14 points per game.",
+    "gemini": "Workhorse red-zone touch share for 8-1 49ers in high-altitude Mexico City game",
+    "claude": "Elite 49ers red zone offense"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 61,
+   "blend": 61,
    "cap": null,
    "tier": "Y",
-   "pub": 62,
+   "pub": 61,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 11,
+   "solo": false
   },
   {
    "i": 40,
@@ -1458,23 +1810,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 85,
+    "gemini": 63,
     "grok": null,
-    "claude": null
+    "claude": 76
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Five catches in all ten games and seven or more in nine. Josh Johnson's first start for Arizona adds downside.",
+    "gemini": "Had 5 catches on 5 targets last week despite 108-yd Carson Beck outing; heavy trailing script",
+    "claude": "7.3 catches per game; Cards trailing script"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "high"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 85,
-   "blend": 85,
+   "med": 80,
+   "blend": 80,
    "cap": null,
    "tier": "R",
    "pub": null,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 22,
+   "solo": false
   },
   {
    "i": 41,
@@ -1495,23 +1855,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 75,
+    "gemini": 49,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "At least two catches in eight of ten and five last game. A two-down Henry game is the main miss path.",
+    "gemini": "Ravens on short week off MNF could lean on checkdowns if trailing Carolina",
+    "claude": "Henry gets early downs; Hill gets passing snaps"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 81,
-   "blend": 81,
+   "med": 65,
+   "blend": 65,
    "cap": null,
-   "tier": "Y",
-   "pub": 81,
+   "tier": "G",
+   "pub": 65,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 26,
+   "solo": false
   },
   {
    "i": 42,
@@ -1532,23 +1900,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 68,
+    "gemini": 72,
     "grok": null,
-    "claude": null
+    "claude": 62
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Reached 50 in 6 of 10 and four straight. Tennessee allows 124.0 rush yards per game but Booker is out.",
+    "gemini": "Projected top-10 weekly RB role for home favorite Cowboys indoors vs 4-6 Titans",
+    "claude": "About 69 ypg with near monopoly on RB touches"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 67,
-   "blend": 67,
+   "med": 68,
+   "blend": 68,
    "cap": null,
    "tier": "G",
-   "pub": 67,
+   "pub": 68,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 10,
+   "solo": false
   },
   {
    "i": 43,
@@ -1569,23 +1945,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 79,
+    "gemini": 74,
     "grok": null,
-    "claude": null
+    "claude": 70
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Reached 70 in 8 of 9 with a low of 57. Miami is missing defensive-line depth and Buffalo can lean on him late.",
+    "gemini": "Cleared 70+ rushing yards in 8 of 9 games averaging 107.9 YPG vs 1-8 Dolphins",
+    "claude": "About 102 ypg; only risk is late rest in blowout"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 85,
-   "blend": 85,
+   "med": 76,
+   "blend": 76,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "Y",
+   "pub": 76,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 9,
+   "solo": false
   },
   {
    "i": 44,
@@ -1606,23 +1990,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 53,
+    "gemini": 46,
     "grok": null,
-    "claude": null
+    "claude": 50
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Four of six games with a recorded receiving line reached 46. Two zeroes and Wilson's target share widen the range.",
+    "gemini": "22.2% target share and 17.05 YPR with Geno Smith but low 45.2% catch rate creates floor risk",
+    "claude": "Cooper and I. Williams DNP all week so more targets"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 63,
-   "blend": 63,
+   "med": 52,
+   "blend": 52,
    "cap": null,
    "tier": "N",
-   "pub": 63,
+   "pub": 52,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 45,
@@ -1643,23 +2035,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 44,
+    "gemini": 34,
     "grok": null,
-    "claude": null
+    "claude": 37
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Three of six recorded lines reached 60. Last week's 59 shows how little separates this from the lower rung.",
+    "gemini": "Boom-or-bust deep threat profile on 2-8 Jets traveling west to Chargers",
+    "claude": "Needs a chunk play; Geno ankle"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 40,
+   "blend": 40,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "Y",
+   "pub": 40,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 10,
+   "solo": false
   },
   {
    "i": 46,
@@ -1680,23 +2080,40 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 25,
+    "gemini": 20,
     "grok": null,
-    "claude": null
+    "claude": 20
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Only the 142-yard game reached 80 in six recorded receiving lines. Cooper is out but Wilson remains the first read.",
+    "gemini": "Requires multiple chunk plays with low catch efficiency against disciplined LAC secondary",
+    "claude": "Ceiling game only"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Only one recorded receiving line reached 80 and Wilson still commands targets."
+    ],
+    [
+     "claude",
+     "Needs a ceiling game with a hobbled Geno"
+    ]
+   ],
    "alt_rung": false,
-   "med": 29,
-   "blend": 29,
+   "med": 22,
+   "blend": 22,
    "cap": null,
    "tier": "Y",
-   "pub": 29,
+   "pub": 22,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 5,
+   "solo": false
   },
   {
    "i": 47,
@@ -1717,13 +2134,21 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 55,
+    "gemini": 50,
     "grok": null,
-    "claude": null
+    "claude": 47
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Five of ten reached 279. Tennessee allows 266.9 net pass yards per game but a Dallas lead could cut fourth-quarter throws.",
+    "gemini": "Dropped back 51 times vs SF last week; dome track helps but blowout could trim 4Q passes",
+    "claude": "Lead script vs Titans cuts 4th Q volume"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
    "med": 50,
@@ -1732,8 +2157,8 @@
    "tier": "N",
    "pub": 50,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 8,
+   "solo": false
   },
   {
    "i": 48,
@@ -1754,23 +2179,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 37,
+    "gemini": 53,
     "grok": null,
-    "claude": null
+    "claude": 42
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "One of eight receiving appearances reached 85. Addison is out and Cousins targeted Jefferson heavily last week.",
+    "gemini": "Kirk Cousins at QB and Jordan Addison DNP Wed/Thu boosts target share in altitude",
+    "claude": "Addison out so more targets"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 20,
-   "blend": 20,
+   "med": 40,
+   "blend": 40,
    "cap": null,
    "tier": "N",
-   "pub": 20,
+   "pub": 40,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 16,
+   "solo": false
   },
   {
    "i": 49,
@@ -1791,14 +2224,27 @@
    "rule": null,
    "fl": "OUT",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 0,
+    "gemini": 0,
     "grok": null,
-    "claude": null
+    "claude": 0
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "OUT with a groin injury on Kansas City's official inactive list.",
+    "gemini": "OUT officially inactive with groin injury",
+    "claude": "OUT - inactive (groin)"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "claude": "high"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Officially ruled OUT inactive with groin injury"
+    ]
+   ],
    "alt_rung": false,
    "med": 0,
    "tier": "X",
@@ -1825,23 +2271,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 50,
+    "gemini": 45,
     "grok": null,
-    "claude": null
+    "claude": 42
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Five of nine recorded receiving lines reached 69. Flowers had 74 in Brissett's Ravens debut last week.",
+    "gemini": "Ravens short week off MNF and Panthers activated CB Mike Jackson from IR",
+    "claude": "Brissett threw 340 in debut but Flowers fumbled"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 54,
-   "blend": 54,
+   "med": 48,
+   "blend": 48,
    "cap": null,
    "tier": "N",
-   "pub": 54,
+   "pub": 48,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 8,
+   "solo": false
   },
   {
    "i": 51,
@@ -1862,23 +2316,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 60,
+    "gemini": 55,
     "grok": null,
-    "claude": null
+    "claude": 51
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Six of nine reached 91. The line needs sustained carries or an explosive run and Allen can finish drives himself.",
+    "gemini": "90+ rushing yards in 6 of 9 games; blowout risk could rest starters late in 4Q",
+    "claude": "Late carries can go to Davis"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 69,
-   "blend": 69,
+   "med": 58,
+   "blend": 58,
    "cap": null,
    "tier": "N",
-   "pub": 69,
+   "pub": 58,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 9,
+   "solo": false
   },
   {
    "i": 52,
@@ -1899,13 +2361,21 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 59,
+    "gemini": 56,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Six of ten reached 270 including one at 276 and one at 279. Tennessee ranks last in pass yards allowed.",
+    "gemini": "More forgiving threshold for high-volume Dallas pass game indoors vs Titans",
+    "claude": "Third-ranked pass offense; script risk"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
    "med": 56,
@@ -1914,8 +2384,8 @@
    "tier": "N",
    "pub": 56,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 53,
@@ -1936,23 +2406,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 42,
+    "gemini": 58,
     "grok": null,
-    "claude": null
+    "claude": 46
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "One of eight reached 80 but two misses landed at 74 and 79. A larger share with Cousins raises the projection.",
+    "gemini": "High-floor target share with Cousins in Mexico City and Addison potentially limited",
+    "claude": "Addison out"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 21,
-   "blend": 21,
+   "med": 44,
+   "blend": 44,
    "cap": null,
    "tier": "G",
-   "pub": 21,
+   "pub": 44,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 16,
+   "solo": false
   },
   {
    "i": 54,
@@ -1973,14 +2451,27 @@
    "rule": null,
    "fl": "OUT",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 0,
+    "gemini": 0,
     "grok": null,
-    "claude": null
+    "claude": 0
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "OUT with a groin injury. The lower rushing threshold has the same inactive status.",
+    "gemini": "OUT officially inactive with groin injury",
+    "claude": "OUT - inactive (groin)"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "claude": "high"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Officially ruled OUT inactive with groin injury"
+    ]
+   ],
    "alt_rung": false,
    "med": 0,
    "tier": "X",
@@ -2007,23 +2498,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 60,
+    "gemini": 55,
     "grok": null,
-    "claude": null
+    "claude": 50
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Six of nine recorded receiving lines reached 60 including a 66 that misses the higher rung.",
+    "gemini": "Solid WR1 target share clears 60 more reliably than 69 against healthier CAR corners",
+    "claude": "New QB chemistry still forming"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 64,
-   "blend": 64,
+   "med": 58,
+   "blend": 58,
    "cap": null,
-   "tier": "Y",
-   "pub": 64,
+   "tier": "G",
+   "pub": 58,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 10,
+   "solo": false
   },
   {
    "i": 56,
@@ -2044,23 +2543,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 61,
+    "gemini": 56,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Six of nine reached 90 with none exactly at 90. A one-yard reduction adds little modeled probability.",
+    "gemini": "Averaging 107.9 YPG on 20.8 carries with 6 of 9 games hitting 90+",
+    "claude": "Late carries can go to Davis"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 69,
-   "blend": 69,
+   "med": 58,
+   "blend": 58,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "Y",
+   "pub": 58,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 9,
+   "solo": false
   },
   {
    "i": 57,
@@ -2081,23 +2588,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 62,
+    "gemini": 64,
     "grok": null,
-    "claude": null
+    "claude": 62
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Pittsburgh allows 20.2 points per game. Milton threw for 169 in his last start and now has Smith back.",
+    "gemini": "6-3 Steelers face 2-7 Eagles starting Joe Milton with LBs Baun and Mondon out",
+    "claude": "Rodgers vs Milton; Steelers missing Herbig"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 60,
-   "blend": 60,
+   "med": 62,
+   "blend": 62,
    "cap": null,
    "tier": "G",
-   "pub": 60,
+   "pub": 62,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 2,
+   "solo": false
   },
   {
    "i": 58,
@@ -2118,23 +2633,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 58,
+    "gemini": 55,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Hubbard can attack a Baltimore front without Madubuike. A defense allowing 26.2 keeps the game close.",
+    "gemini": "4-5 Panthers at home catch 4-5 Ravens on 5-game skid and short week off MNF",
+    "claude": "Ravens D missing 3 starters; Hubbard Q but active"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 57,
-   "blend": 57,
+   "med": 56,
+   "blend": 56,
    "cap": null,
    "tier": "G",
-   "pub": 57,
+   "pub": 56,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 3,
+   "solo": false
   },
   {
    "i": 59,
@@ -2155,23 +2678,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 51,
+    "gemini": 50,
     "grok": null,
-    "claude": null
+    "claude": 45
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Jacksonville's point differential is strong but New York's pass defense and home field narrow the margin.",
+    "gemini": "Jaguars +125 net pts strong enough to win by 6+ though Giants are competitive at home",
+    "claude": "Giants explosive at home"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 51,
-   "blend": 51,
+   "med": 50,
+   "blend": 50,
    "cap": null,
    "tier": "G",
-   "pub": 51,
+   "pub": 50,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 60,
@@ -2192,23 +2723,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 60,
+    "gemini": 52,
     "grok": null,
-    "claude": null
+    "claude": 58
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Denver is only 12 points ahead of opponents over nine games. Mendoza's limited starting experience is the main risk.",
+    "gemini": "Broncos +12 net pts despite 7-2 record suggests close games even vs rookie QB Mendoza",
+    "claude": "Broncos offense modest; 10.5 is a lot"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 55,
+   "blend": 55,
    "cap": null,
    "tier": "Y",
-   "pub": 50,
+   "pub": 55,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 8,
+   "solo": false
   },
   {
    "i": 61,
@@ -2229,23 +2768,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 60,
+    "gemini": 52,
     "grok": null,
-    "claude": null
+    "claude": 40
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in six of nine including receiving scores. Owns 27 carries inside the five and Baltimore is thin up front.",
+    "gemini": "Heavy weekly RB1 projection at home vs struggling Ravens defense on short week",
+    "claude": "Q but active; Ravens DT Madubuike out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 56,
+   "blend": 56,
    "cap": null,
    "tier": "Y",
-   "pub": 62,
+   "pub": 56,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 20,
+   "solo": false
   },
   {
    "i": 62,
@@ -2264,25 +2811,33 @@
    "sys": 62,
    "n": "Scored in 6 of 9 games, 4 of 5 last 5.",
    "rule": null,
-   "fl": null,
+   "fl": "Q",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 55,
+    "gemini": 48,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in six of nine. He has 14 carries inside the five and the Giants allow 121.6 rushing yards per game.",
+    "gemini": "Q; high weekly RB projection for heavy road favorite Jaguars at MetLife",
+    "claude": "4-game TD streak and 11 red zone carries last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 54,
+   "blend": 54,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "Y",
+   "pub": 54,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 63,
@@ -2303,23 +2858,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 57,
+    "gemini": 40,
     "grok": null,
-    "claude": null
+    "claude": 45
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in three of his four games with carries. Las Vegas allows 151.1 rushing yards per game.",
+    "gemini": "7-2 Broncos big home favorites vs Raiders give positive red-zone rushing script",
+    "claude": "77% snaps vs Raiders worst rush DVOA"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 51,
+   "blend": 51,
    "cap": null,
-   "tier": "Y",
-   "pub": 62,
+   "tier": "G",
+   "pub": 51,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 17,
+   "solo": false
   },
   {
    "i": 64,
@@ -2340,23 +2903,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 57,
+    "gemini": 51,
     "grok": null,
-    "claude": null
+    "claude": 38
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Rushing TD in seven of nine games with 15 carries inside the five. Passing TDs do not count here.",
+    "gemini": "Red-zone rushing threat for 8-1 Bills though huge lead could limit designed QB runs late",
+    "claude": "Blowout lowers his rushing TD chances"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 54,
+   "blend": 54,
    "cap": null,
-   "tier": "Y",
-   "pub": 62,
+   "tier": "G",
+   "pub": 54,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 19,
+   "solo": false
   },
   {
    "i": 65,
@@ -2377,23 +2948,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 72,
+    "gemini": 64,
     "grok": null,
-    "claude": null
+    "claude": 62
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in eight of nine with 26 carries inside the five. Tampa's 79.1 rush yards allowed trims the estimate.",
+    "gemini": "Highest-projected RB on slate for 7-2 Lions at home vs 3-6 Bucs",
+    "claude": "153 yards and 2 TDs last week; Bucs weak"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "high"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 63,
+   "blend": 63,
    "cap": null,
    "tier": "G",
-   "pub": 62,
+   "pub": 63,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 10,
+   "solo": false
   },
   {
    "i": 66,
@@ -2412,25 +2991,33 @@
    "sys": 67,
    "n": "Hit 5 of 8 this season, 4 of 5 last 5 (avg 41.0).",
    "rule": null,
-   "fl": null,
+   "fl": "Q",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 60,
+    "gemini": 61,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Five of eight receiving lines reached 30 and another was 29. Addison is out and Hockenson is cleared.",
+    "gemini": "Q wrist limited Fri; steady intermediate outlet for Cousins especially if Addison sits",
+    "claude": "Limited early in week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 67,
-   "blend": 67,
+   "med": 60,
+   "blend": 60,
    "cap": null,
    "tier": "G",
-   "pub": 67,
+   "pub": 60,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 67,
@@ -2451,23 +3038,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 70,
+    "gemini": 58,
     "grok": null,
-    "claude": null
+    "claude": 60
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Seven of nine cleared 40. Minnesota allows 161.4 net passing yards per game and Evans is expected back.",
+    "gemini": "Key target for Purdy in Mexico City though Mike Evans nearing return could trim share",
+    "claude": "6-74 last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 76,
-   "blend": 76,
+   "med": 65,
+   "blend": 65,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "Y",
+   "pub": 65,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 12,
+   "solo": false
   },
   {
    "i": 68,
@@ -2488,13 +3083,21 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 50,
+    "gemini": 66,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Four of nine reached 90 with three misses at 83 to 88. Minnesota is the toughest scoring defense on this slate.",
+    "gemini": "Dual-threat workhorse for 8-1 49ers in clean high-altitude conditions",
+    "claude": "161 receiving yards last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
    "med": 54,
@@ -2503,8 +3106,8 @@
    "tier": "N",
    "pub": 54,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 16,
+   "solo": false
   },
   {
    "i": 69,
@@ -2525,23 +3128,40 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 32,
+    "gemini": 36,
     "grok": null,
-    "claude": null
+    "claude": 30
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Eight catches in two of eight appearances. Nine last week with Cousins supports upside but requires sustained volume.",
+    "gemini": "High bar at 8+ catches even with Cousins and Addison injury uncertainty",
+    "claude": "8 catches is a high bar"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Jefferson has only two eight-catch games in eight receiving appearances."
+    ],
+    [
+     "claude",
+     "8 catches is a high bar even with Addison out"
+    ]
+   ],
    "alt_rung": false,
-   "med": 31,
-   "blend": 31,
+   "med": 32,
+   "blend": 32,
    "cap": null,
    "tier": "G",
-   "pub": 31,
+   "pub": 32,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 70,
@@ -2562,23 +3182,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 50,
+    "gemini": 68,
     "grok": null,
-    "claude": null
+    "claude": 60
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Had nine carries in his only 2026 start. A returning Smith gives him another outlet but the sample is thin.",
+    "gemini": "Projected ~5.4 rush attempts in Week 11; Steelers pass rush forces quick throws",
+    "claude": "Mobile but 8+ rush attempts is rare"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 28,
-   "blend": 28,
+   "med": 55,
+   "blend": 55,
    "cap": null,
    "tier": "N",
-   "pub": 28,
+   "pub": 55,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 18,
+   "solo": false
   },
   {
    "i": 71,
@@ -2599,23 +3227,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 71,
+    "gemini": 65,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Seven of nine cleared 50. Minnesota allows 111.9 rush yards per game but three of his games had 10 or 11 carries.",
+    "gemini": "Strong floor for 8-1 49ers bellcow though Vikings defense allows only 14.0 PPG",
+    "claude": "Vikings run D solid"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 74,
-   "blend": 74,
+   "med": 68,
+   "blend": 68,
    "cap": null,
    "tier": "R",
    "pub": null,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 16,
+   "solo": false
   },
   {
    "i": 72,
@@ -2636,23 +3272,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 57,
+    "gemini": 56,
     "grok": null,
-    "claude": null
+    "claude": 50
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Cleared 40 in three of four before the toe injury. His first game back could be closer to ten carries than 20.",
+    "gemini": "Healthy return in 91% rain blowout script gives 10-13 carry projection vs Saints",
+    "claude": "Lead script adds carries"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 74,
-   "blend": 74,
+   "med": 56,
+   "blend": 56,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "G",
+   "pub": 56,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 73,
@@ -2673,23 +3317,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 41,
+    "gemini": 45,
     "grok": null,
-    "claude": null
+    "claude": 67
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Only one of six recorded receiving lines reached 20. Addison is out but Jennings' route share on return is unclear.",
+    "gemini": "Listed Slot 3rd behind Jefferson and Addison; only rises if Addison is ruled out",
+    "claude": "Addison out; full practice on calf"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "The lower-looking yardage line hides a player returning from a calf injury with little established volume."
+    ]
+   ],
    "alt_rung": false,
-   "med": 27,
-   "blend": 27,
+   "med": 43,
+   "blend": 43,
    "cap": null,
    "tier": "G",
-   "pub": 27,
+   "pub": 43,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 26,
+   "solo": false
   },
   {
    "i": 74,
@@ -2710,23 +3367,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 48,
+    "gemini": 54,
     "grok": null,
-    "claude": null
+    "claude": 76
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Only one of six recorded lines reached 15. A larger role with Addison out helps but a short cameo still misses.",
+    "gemini": "Low 15-yard bar doable on 2 catches if Addison misses with thumb injury",
+    "claude": "Low line on a WR2"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 29,
-   "blend": 29,
+   "med": 51,
+   "blend": 51,
    "cap": null,
    "tier": "G",
-   "pub": 29,
+   "pub": 51,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 28,
+   "solo": false
   },
   {
    "i": 75,
@@ -2747,23 +3412,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 48,
+    "gemini": 43,
     "grok": null,
-    "claude": null
+    "claude": 40
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Caught four in the last game but one or fewer in four of the preceding five games with carries. McCord may lean short.",
+    "gemini": "Hit 2+ catches in only 3 of 8 games in 2026 though trailing script vs BUF adds checkdowns",
+    "claude": "Backup to Achane; trailing script helps catches"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 37,
-   "blend": 37,
+   "med": 42,
+   "blend": 42,
    "cap": null,
    "tier": "G",
-   "pub": 37,
+   "pub": 42,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 8,
+   "solo": false
   },
   {
    "i": 76,
@@ -2784,23 +3457,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 31,
+    "gemini": 24,
     "grok": null,
-    "claude": null
+    "claude": 22
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Only two of eight games with carries produced three catches. Playing from behind helps without ensuring targets.",
+    "gemini": "Hit 3+ catches in just 2 of 8 games despite heavy snap volume",
+    "claude": "Backup role"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Ollie Gordon II has hit 3+ receptions in just 2 of 8 games this season"
+    ]
+   ],
    "alt_rung": false,
-   "med": 29,
-   "blend": 29,
+   "med": 26,
+   "blend": 26,
    "cap": null,
    "tier": "G",
-   "pub": 29,
+   "pub": 26,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 9,
+   "solo": false
   },
   {
    "i": 77,
@@ -2821,23 +3507,40 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 39,
+    "gemini": 41,
     "grok": null,
-    "claude": null
+    "claude": 50
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Only three of nine were under 49.5. Recent totals of 127 and 53 outweigh the appeal of a tight end under.",
+    "gemini": "Likely averages 63.9 YPG on 55 rec in 9 games making under 49.5 risky",
+    "claude": "About 56 ypg on the season"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Likely went over this line in six of nine games and gets substantial targets from McCarthy."
+    ],
+    [
+     "gemini",
+     "Isaiah Likely is a primary target for NYG averaging 63.9 YPG making under 49.5 a volume trap"
+    ]
+   ],
    "alt_rung": false,
-   "med": 37,
-   "blend": 37,
+   "med": 40,
+   "blend": 40,
    "cap": null,
    "tier": "G",
-   "pub": 37,
+   "pub": 40,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 11,
+   "solo": false
   },
   {
    "i": 78,
@@ -2858,23 +3561,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 53,
+    "gemini": 45,
     "grok": null,
-    "claude": null
+    "claude": 41
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Tampa's run defense can keep it close. A six-point Detroit win pushes.",
+    "gemini": "Push at 6 is not a win; 7-2 Lions unbeaten at home vs banged-up Mayfield",
+    "claude": "Short of the key number 7"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 55,
-   "blend": 55,
+   "med": 49,
+   "blend": 49,
    "cap": null,
    "tier": "N",
-   "pub": 55,
+   "pub": 49,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 12,
+   "solo": false
   },
   {
    "i": 79,
@@ -2895,23 +3606,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 57,
+    "gemini": 49,
     "grok": null,
-    "claude": null
+    "claude": 43
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Detroit winning by exactly six pays here. A seven-point loss still misses.",
+    "gemini": "Gets past key number 6 but Lions +58 net pts and 5-0 home mark are tough",
+    "claude": "Short of the key number 7"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 59,
-   "blend": 59,
+   "med": 53,
+   "blend": 53,
    "cap": null,
-   "tier": "Y",
-   "pub": 59,
+   "tier": "G",
+   "pub": 53,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 14,
+   "solo": false
   },
   {
    "i": 80,
@@ -2932,13 +3651,21 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 51,
+    "gemini": 53,
     "grok": null,
-    "claude": null
+    "claude": 58
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Philadelphia can lose by four and cover. Smith's return helps Milton against a defense stronger against the run.",
+    "gemini": "Gets above key number 3 and 4 at home though Milton start raises turnover risk",
+    "claude": "Steelers win by 3 to 4 often"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
    "med": 53,
@@ -2947,8 +3674,8 @@
    "tier": "G",
    "pub": 53,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 81,
@@ -2969,13 +3696,21 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 49,
+    "gemini": 48,
     "grok": null,
-    "claude": null
+    "claude": 57
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Jacksonville is plus-125 in nine games. A six-point Giants loss pushes.",
+    "gemini": "Push at 6 is not a win; Giants 5-3-1 at home vs +125 Jaguars",
+    "claude": "Jags by a touchdown loses"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
    "med": 48,
@@ -2984,8 +3719,8 @@
    "tier": "N",
    "pub": 48,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 9,
+   "solo": false
   },
   {
    "i": 82,
@@ -3006,23 +3741,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 39,
+    "gemini": 54,
     "grok": null,
-    "claude": null
+    "claude": 27
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "New Orleans' line injuries help Chicago but the spread must clear in only two quarters.",
+    "gemini": "7-2 Bears strong at home vs 3-6 Saints though heavy rain can suppress early scoring",
+    "claude": "Big first-half number"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "claude",
+     "First-half lines this big rarely cover even for good teams"
+    ]
+   ],
    "alt_rung": false,
-   "med": 47,
-   "blend": 47,
+   "med": 43,
+   "blend": 43,
    "cap": null,
    "tier": "G",
-   "pub": 47,
+   "pub": 43,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 27,
+   "solo": false
   },
   {
    "i": 83,
@@ -3043,23 +3791,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 46,
+    "gemini": 53,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "San Francisco scores 31.2 per game and Minnesota allows 14.0. A 46-point game wins this over.",
+    "gemini": "Mexico City altitude and 49ers high-octane offense offset stingy Vikings defense",
+    "claude": "49ers scored 46 last week; altitude"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 53,
-   "blend": 53,
+   "med": 52,
+   "blend": 52,
    "cap": null,
    "tier": "Y",
-   "pub": 53,
+   "pub": 52,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 84,
@@ -3080,13 +3836,21 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 53,
+    "gemini": 50,
     "grok": null,
-    "claude": null
+    "claude": 47
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Hubbard's workload and home field support Carolina. The defense can still let Baltimore stay within two.",
+    "gemini": "Panthers at home catch Ravens on 5-game skid and short week off MNF",
+    "claude": "Near coin flip"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
    "med": 50,
@@ -3095,8 +3859,8 @@
    "tier": "G",
    "pub": 50,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 85,
@@ -3117,23 +3881,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 40,
+    "gemini": 46,
     "grok": null,
-    "claude": null
+    "claude": 33
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Chicago has the stronger run game and rested after a bye. Winning by two scores is a higher bar.",
+    "gemini": "Large spread in 91% rain and 24 mph gusts makes 12+ point margin harder to separate",
+    "claude": "Needs a blowout"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "claude",
+     "Bears run heavy and can win by 7 to 10"
+    ]
+   ],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 43,
+   "blend": 43,
    "cap": null,
    "tier": "N",
-   "pub": 50,
+   "pub": 43,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 13,
+   "solo": false
   },
   {
    "i": 86,
@@ -3154,23 +3931,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 47,
+    "gemini": 36,
     "grok": null,
-    "claude": null
+    "claude": 33
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "A field-goal loss covers. A four-point loss fails even with Tampa's strong run defense.",
+    "gemini": "Tough ask to stay within a field goal at Ford Field against 7-2 Lions",
+    "claude": "Needs a close game"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 42,
+   "blend": 42,
    "cap": null,
-   "tier": "Y",
-   "pub": 50,
+   "tier": "G",
+   "pub": 42,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 14,
+   "solo": false
   },
   {
    "i": 87,
@@ -3191,23 +3976,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 48,
+    "gemini": 52,
     "grok": null,
-    "claude": null
+    "claude": 50
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "These defenses allow 25.9 and 26.2 per game. Brissett and a run-heavy script pull the projection down.",
+    "gemini": "Ravens short week fatigue and healthier Panthers secondary favor slower pace",
+    "claude": "Ravens D depleted but offense unsettled"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 47,
-   "blend": 47,
+   "med": 49,
+   "blend": 49,
    "cap": null,
    "tier": "Y",
-   "pub": 47,
+   "pub": 49,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 4,
+   "solo": false
   },
   {
    "i": 88,
@@ -3228,23 +4021,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 43,
+    "gemini": 45,
     "grok": null,
-    "claude": null
+    "claude": 44
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Buffalo's run game has the edge. A 14-point win still falls short and late scores matter.",
+    "gemini": "Massive 16.5-point spread risks backdoor cover once Bills pull starters late",
+    "claude": "Bills may coast late"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 44,
+   "blend": 44,
    "cap": null,
    "tier": "G",
-   "pub": 50,
+   "pub": 44,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 2,
+   "solo": false
   },
   {
    "i": 89,
@@ -3265,23 +4066,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 52,
+    "gemini": 52,
     "grok": null,
-    "claude": null
+    "claude": 47
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Pittsburgh's front has the advantage but a field-goal road win misses.",
+    "gemini": "Steelers 6-3 face 2-7 Eagles starting backup QB Joe Milton with depleted LB corps",
+    "claude": "Rodgers vs Milton"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 51,
+   "blend": 51,
    "cap": null,
    "tier": "Y",
-   "pub": 50,
+   "pub": 51,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 5,
+   "solo": false
   },
   {
    "i": 90,
@@ -3302,23 +4111,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 55,
+    "gemini": 52,
     "grok": null,
-    "claude": null
+    "claude": 47
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Jacksonville allows 16.0 points per game and the Giants rank third in pass defense. Turnovers can create short fields.",
+    "gemini": "Jaguars allow just 16.0 PPG and Giants defense keeps MetLife games tight",
+    "claude": "Two explosive offenses"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 51,
+   "blend": 51,
    "cap": null,
    "tier": "G",
-   "pub": 50,
+   "pub": 51,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 8,
+   "solo": false
   },
   {
    "i": 91,
@@ -3339,23 +4156,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 46,
+    "gemini": 58,
     "grok": null,
-    "claude": null
+    "claude": 48
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Home field helps the Chargers but 16.0 points per game leaves little room for error.",
+    "gemini": "Chargers clear talent edge over 2-8 Jets below the key number of 3",
+    "claude": "1-8 team laying points"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 51,
-   "blend": 51,
+   "med": 50,
+   "blend": 50,
    "cap": null,
    "tier": "G",
-   "pub": 51,
+   "pub": 50,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 12,
+   "solo": false
   },
   {
    "i": 92,
@@ -3376,23 +4201,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 40,
+    "gemini": 48,
     "grok": null,
-    "claude": null
+    "claude": 42
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Denver has rest and a rookie opposing QB but ranks 30th in offensive yards per game.",
+    "gemini": "Broncos are 7-2 but only +12 net pts so winning by 11+ is a stretch",
+    "claude": "Broncos offense modest"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Denver can control the game and win by seven while this double-digit spread loses."
+    ]
+   ],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 45,
+   "blend": 45,
    "cap": null,
    "tier": "G",
-   "pub": 50,
+   "pub": 45,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 8,
+   "solo": false
   },
   {
    "i": 93,
@@ -3413,23 +4251,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 54,
+    "gemini": 54,
     "grok": null,
-    "claude": null
+    "claude": 50
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Mexico City removes the usual home advantage. Minnesota's top scoring defense narrows the 49ers' offensive edge.",
+    "gemini": "8-1 49ers (+85 net pts) hold slight offensive edge over 7-2 Vikings in Mexico City",
+    "claude": "Coin flip"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 53,
-   "blend": 53,
+   "med": 54,
+   "blend": 54,
    "cap": null,
    "tier": "G",
-   "pub": 53,
+   "pub": 54,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 4,
+   "solo": false
   },
   {
    "i": 94,
@@ -3450,23 +4296,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 43,
+    "gemini": 49,
     "grok": null,
-    "claude": null
+    "claude": 49
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "San Francisco's explosive offense faces Minnesota's top scoring defense. Exactly 46 fails.",
+    "gemini": "Half-point tighter at 46.5 against a Vikings defense allowing 14.0 PPG",
+    "claude": "Coin flip"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 49,
+   "blend": 49,
    "cap": null,
    "tier": "Y",
-   "pub": 50,
+   "pub": 49,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 95,
@@ -3485,25 +4339,33 @@
    "sys": 68,
    "n": "Stayed under 6 of 8 this season, 3 of 5 last 5 (avg 41.0).",
    "rule": null,
-   "fl": null,
+   "fl": "Q",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 66,
+    "gemini": 55,
     "grok": null,
-    "claude": null
+    "claude": 68
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Six of eight receiving lines were below 48. Addison's absence increases the risk he gets more targets.",
+    "gemini": "Q wrist limited Fri; 49ers defense and Jefferson dominance cap TE yardage ceiling",
+    "claude": "Jefferson and Jennings eat targets"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 68,
-   "blend": 68,
+   "med": 67,
+   "blend": 67,
    "cap": null,
    "tier": "N",
-   "pub": 68,
+   "pub": 67,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 13,
+   "solo": false
   },
   {
    "i": 96,
@@ -3524,23 +4386,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 59,
+    "gemini": 55,
     "grok": null,
-    "claude": null
+    "claude": 46
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Seven catches in six of nine. Tampa's run defense encourages throws but Detroit can spread targets.",
+    "gemini": "High-volume slot WR1 at home indoors vs Bucs secondary that allowed 279 pass yds to CHI",
+    "claude": "Rib injury; only 5 targets last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 64,
-   "blend": 64,
+   "med": 57,
+   "blend": 57,
    "cap": null,
-   "tier": "Y",
-   "pub": 64,
+   "tier": "G",
+   "pub": 57,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 13,
+   "solo": false
   },
   {
    "i": 97,
@@ -3559,25 +4429,33 @@
    "sys": 77,
    "n": "Hit 8 of 10 this season, 4 of 5 last 5 (avg 42.2).",
    "rule": null,
-   "fl": null,
+   "fl": "Q",
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 69,
+    "gemini": 66,
     "grok": null,
-    "claude": null
+    "claude": 35
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Eight of ten reached 29 and he had 46 with Mendoza last week. The other two were 15 and minus five.",
+    "gemini": "Cleared 29+ rec yards in 8 of 10 games averaging 41.7 YPG; Broncos 13th-most allowed to RBs",
+    "claude": "Q sprain"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 77,
-   "blend": 77,
+   "med": 68,
+   "blend": 68,
    "cap": null,
    "tier": "N",
-   "pub": 75,
+   "pub": 68,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 34,
+   "solo": false
   },
   {
    "i": 98,
@@ -3598,23 +4476,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 49,
+    "gemini": 53,
     "grok": null,
-    "claude": null
+    "claude": 40
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "His first start produced 22 carries. One comparable start and two missing blockers leave a wide workload range.",
+    "gemini": "Walker OUT; huge home favorite script supports 20+ carries unless KC rotates late",
+    "claude": "Thanksgiving short week so KC may lighten load late"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "claude",
+     "Short week before Thanksgiving so KC can cut his carries in a blowout"
+    ]
+   ],
    "alt_rung": false,
-   "med": 23,
-   "blend": 23,
+   "med": 44,
+   "blend": 44,
    "cap": null,
    "tier": "N",
-   "pub": 23,
+   "pub": 44,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 13,
+   "solo": false
   },
   {
    "i": 99,
@@ -3635,20 +4526,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 71,
+    "gemini": 52,
     "grok": null,
-    "claude": null
+    "claude": 57
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Seven of nine finished below eight combined tackles. He played almost every defensive snap in his last game.",
+    "gemini": "Had 9 combined tackles vs TB in Week 9; 3-6 Saints in rain may run less if trailing big",
+    "claude": "Team role unverified; 7.5 is a high tackle line"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": null,
-   "tier": "X",
-   "pub": null,
+   "med": 57,
+   "blend": 57,
+   "cap": null,
+   "tier": "N",
+   "pub": 57,
    "eng": "v8",
-   "spread": null
+   "spread": 19,
+   "solo": false
   },
   {
    "i": 100,
@@ -3669,23 +4571,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 51,
+    "gemini": 48,
     "grok": null,
-    "claude": null
+    "claude": 40
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Four of six recorded lines reached 49 including 70 and 71 in his last two. McCord has limited NFL starting experience.",
+    "gemini": "Averaging 61.2 YPG in 6 starts on 16.7 YPR; trailing script helps vs Bills missing CB Benford",
+    "claude": "Role unverified; Dolphins trailing script"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 65,
-   "blend": 65,
+   "med": 50,
+   "blend": 50,
    "cap": null,
    "tier": "N",
-   "pub": 65,
+   "pub": 50,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 11,
+   "solo": false
   },
   {
    "i": 101,
@@ -3706,23 +4616,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 69,
+    "gemini": 51,
     "grok": null,
-    "claude": null
+    "claude": 48
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Three catches in four of five appearances. He also loses snaps to Braelon Allen.",
+    "gemini": "Healthy after missing 5 games but splitting work with Braelon Allen on 2-8 Jets",
+    "claude": "Jets trailing script"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 75,
-   "blend": 75,
+   "med": 60,
+   "blend": 60,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "Y",
+   "pub": 60,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 21,
+   "solo": false
   },
   {
    "i": 102,
@@ -3743,23 +4661,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 51,
+    "gemini": 49,
     "grok": null,
-    "claude": null
+    "claude": 50
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Scored in seven of ten including a receiving TD. His 25 carries inside the five matter more than last week's ten rush yards.",
+    "gemini": "Short week off MNF and 5-game skid hurt script though still Ravens goal-line back",
+    "claude": "TD pace slowed by QB chaos"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 50,
+   "blend": 50,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "G",
+   "pub": 50,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 2,
+   "solo": false
   },
   {
    "i": 103,
@@ -3780,23 +4706,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 53,
+    "gemini": 56,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Five of nine longest catches were below 21. The Giants allow 184.1 net passing yards per game.",
+    "gemini": "Possession slot/intermediate route tree with Brian Thomas Jr handling deep shots",
+    "claude": "Ankle; short possession routes"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 54,
+   "blend": 54,
    "cap": null,
    "tier": "N",
-   "pub": 62,
+   "pub": 54,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 4,
+   "solo": false
   },
   {
    "i": 104,
@@ -3817,23 +4751,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 47,
+    "gemini": 58,
     "grok": null,
-    "claude": null
+    "claude": 42
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Went for 101 on 22 carries in his only start. Arizona allows 129.9 rush yards per game but two KC blockers are out.",
+    "gemini": "Walker OUT; Cardinals just gave up 202 rushing yards to Rams in Week 10",
+    "claude": "101 on 22 last week"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 23,
-   "blend": 23,
+   "med": 44,
+   "blend": 44,
    "cap": null,
    "tier": "N",
-   "pub": 23,
+   "pub": 44,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 16,
+   "solo": false
   },
   {
    "i": 105,
@@ -3854,23 +4796,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 60,
+    "gemini": 54,
     "grok": null,
-    "claude": null
+    "claude": 50
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Covers a touchdown loss. Tampa has allowed fewer than 20 points per game.",
+    "gemini": "Hook above 7 gives valuable cushion if Bucs score a late backdoor TD",
+    "claude": "Hook on 7"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 62,
-   "blend": 62,
+   "med": 57,
+   "blend": 57,
    "cap": null,
    "tier": "G",
-   "pub": 62,
+   "pub": 57,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 10,
+   "solo": false
   },
   {
    "i": 106,
@@ -3891,23 +4841,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 48,
+    "gemini": 54,
     "grok": null,
-    "claude": null
+    "claude": 50
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Buffalo averages 31.9 points but has topped 30 in six of nine. Miami's offensive struggles can shorten the game.",
+    "gemini": "8-1 Bills averaging 31.9 PPG face 1-8 Dolphins allowing 24.9 PPG",
+    "claude": "Bills may coast late"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 52,
-   "blend": 52,
+   "med": 51,
+   "blend": 51,
    "cap": null,
    "tier": "G",
-   "pub": 52,
+   "pub": 51,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 107,
@@ -3928,20 +4886,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 69,
+    "gemini": 55,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Utah is 3-14 and missing Markkanen and Jackson. Dallas traveled after playing Saturday and its lineup was pending.",
+    "gemini": "9-7 Mavs beat 3-14 Jazz 112-100 on Nov 6 though Utah altitude and young guards keep it live",
+    "claude": "Utah altitude"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": null,
-   "tier": "X",
-   "pub": null,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "Y",
+   "pub": 55,
    "eng": "v8",
-   "spread": null
+   "spread": 17,
+   "solo": false
   },
   {
    "i": 108,
@@ -3962,23 +4931,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 45,
+    "gemini": 46,
     "grok": null,
-    "claude": null
+    "claude": 40
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Arizona starts Josh Johnson. Kansas City is missing Walker and two offensive linemen so a late score can erase the cover.",
+    "gemini": "Chiefs 92% win prob vs 3-7 Cardinals but 16.5-point spreads carry garbage-time risk",
+    "claude": "16.5 is huge"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "claude",
+     "16.5 is too many for an offense missing Walker and G Trey Smith"
+    ]
+   ],
    "alt_rung": false,
-   "med": 47,
-   "blend": 47,
+   "med": 46,
+   "blend": 46,
    "cap": null,
-   "tier": "Y",
-   "pub": 47,
+   "tier": "G",
+   "pub": 46,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 109,
@@ -3999,23 +4981,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 41,
+    "gemini": 53,
     "grok": null,
-    "claude": null
+    "claude": 41
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "A three-point win pushes. Los Angeles has the league's lowest scoring average.",
+    "gemini": "Push at 3 is not a win; Chargers clear edge over 2-8 Jets at SoFi",
+    "claude": "Push at 3 is not a win"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "claude",
+     "A 3-point Chargers win is a push and they are 1-8"
+    ]
+   ],
    "alt_rung": false,
-   "med": 48,
-   "blend": 48,
+   "med": 44,
+   "blend": 44,
    "cap": null,
    "tier": "N",
-   "pub": 48,
+   "pub": 44,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 12,
+   "solo": false
   },
   {
    "i": 110,
@@ -4036,23 +5031,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 57,
+    "gemini": 51,
     "grok": null,
-    "claude": null
+    "claude": 51
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Minnesota allows only 14.0 points per game. A finish of exactly 46 still wins this under.",
+    "gemini": "Vikings allow just 14.0 PPG which can keep Mexico City clash under 47",
+    "claude": "Coin flip"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 51,
+   "blend": 51,
    "cap": null,
    "tier": "G",
-   "pub": 50,
+   "pub": 51,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 111,
@@ -4073,23 +5076,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 57,
+    "gemini": 59,
     "grok": null,
-    "claude": null
+    "claude": 45
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Cleared 50 in all four recorded appearances but has yet to establish a full-game target share with Milton.",
+    "gemini": "Projected ~63.3 rec yards on ~5 catches with Dontayvion Wicks placed on IR",
+    "claude": "Hamstring limited; Milton accuracy"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 85,
-   "blend": 85,
+   "med": 58,
+   "blend": 58,
    "cap": null,
-   "tier": "R",
-   "pub": null,
+   "tier": "Y",
+   "pub": 58,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 14,
+   "solo": false
   },
   {
    "i": 112,
@@ -4110,23 +5121,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 58,
+    "gemini": 62,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Finished above 30 in the last three games but only four of nine overall. A run-heavy lead limits attempts.",
+    "gemini": "Trusted veteran target for Broncos at home against struggling Raiders secondary",
+    "claude": "Shares targets with Waddle"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 53,
-   "blend": 53,
+   "med": 56,
+   "blend": 56,
    "cap": null,
-   "tier": "G",
-   "pub": 53,
+   "tier": "Y",
+   "pub": 56,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 113,
@@ -4147,23 +5166,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 47,
+    "gemini": 52,
     "grok": null,
-    "claude": null
+    "claude": 53
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "A three-point Panthers win pushes. A loss by one or two covers.",
+    "gemini": "Push at 3 is not a win; Ravens on 5-game skid and short week at Carolina",
+    "claude": "Push at 3 so same win chance as plus 2.5"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 49,
-   "blend": 49,
+   "med": 50,
+   "blend": 50,
    "cap": null,
    "tier": "N",
-   "pub": 49,
+   "pub": 50,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 114,
@@ -4184,23 +5211,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 52,
+    "gemini": 46,
     "grok": null,
-    "claude": null
+    "claude": 49
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "A total of 43 pushes. The offenses can attack two defenses allowing over 25 points per game.",
+    "gemini": "Push at 43 is not a win; Ravens fatigue and healthier Panthers CB room lean under",
+    "claude": "43 push risk"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 53,
-   "blend": 53,
+   "med": 50,
+   "blend": 50,
    "cap": null,
    "tier": "N",
-   "pub": 53,
+   "pub": 50,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 115,
@@ -4221,23 +5256,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 55,
+    "gemini": 58,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Five of nine reached 66. Philadelphia allows 126.1 rushing yards per game but he had seven carries last week.",
+    "gemini": "Projected ~75.2 rush yards on 15+ carries vs Eagles defense missing LBs Baun and Mondon",
+    "claude": "Eagles 25th run D; 5.7 ypc"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 59,
-   "blend": 59,
+   "med": 56,
+   "blend": 56,
    "cap": null,
    "tier": "N",
-   "pub": 59,
+   "pub": 56,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 116,
@@ -4258,23 +5301,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 43,
+    "gemini": 47,
     "grok": null,
-    "claude": null
+    "claude": 33
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Only three of ten reached 78. He had 63 last week but got at least 20 carries in three of the prior four.",
+    "gemini": "High bar at 78+ yards even in positive script as Dallas leans heavily on Dak",
+    "claude": "High bar"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 40,
-   "blend": 40,
+   "med": 42,
+   "blend": 42,
    "cap": null,
    "tier": "N",
-   "pub": 40,
+   "pub": 42,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 14,
+   "solo": false
   },
   {
    "i": 117,
@@ -4295,23 +5346,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 45,
+    "gemini": 48,
     "grok": null,
-    "claude": null
+    "claude": 45
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Two of five reached 49. He had 11 of the Jets' 23 carries last week and Allen remains involved.",
+    "gemini": "Splitting carries with Braelon Allen 638 yds on 2-8 Jets likely trailing at Chargers",
+    "claude": "Jets trailing script"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 48,
-   "blend": 48,
+   "med": 46,
+   "blend": 46,
    "cap": null,
    "tier": "N",
-   "pub": 48,
+   "pub": 46,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 3,
+   "solo": false
   },
   {
    "i": 118,
@@ -4332,23 +5391,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 49,
+    "gemini": 52,
     "grok": null,
-    "claude": null
+    "claude": 40
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Ran for 22 on six attempts in his first start. Only one other game offers any NFL rushing evidence.",
+    "gemini": "Took 6 sacks vs SEA; scrambling against Denver rush creates upside if sacks stay manageable",
+    "claude": "Denver pressure forces scrambles"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 31,
-   "blend": 31,
+   "med": 44,
+   "blend": 44,
    "cap": null,
    "tier": "N",
-   "pub": 31,
+   "pub": 44,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 12,
+   "solo": false
   },
   {
    "i": 119,
@@ -4369,23 +5436,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 43,
+    "gemini": 46,
     "grok": null,
-    "claude": null
+    "claude": 48
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "One run of 15 or longer in four games with carries. More work against a weak Raiders front raises his chance.",
+    "gemini": "Positive home-favorite volume vs Raiders gives chances for one 15+ chunk run",
+    "claude": "Raiders worst rush DVOA"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 35,
-   "blend": 35,
+   "med": 44,
+   "blend": 44,
    "cap": null,
    "tier": "G",
-   "pub": 35,
+   "pub": 44,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 5,
+   "solo": false
   },
   {
    "i": 120,
@@ -4406,23 +5481,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 46,
+    "gemini": 49,
     "grok": null,
-    "claude": null
+    "claude": 52
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Five of ten reached 64 but none of his last five did. Carolina allows 124.0 rush yards per game.",
+    "gemini": "Short week off MNF and trailing-script risk on 5-game skid cap carry volume",
+    "claude": "About 70 ypg"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 42,
-   "blend": 42,
+   "med": 48,
+   "blend": 48,
    "cap": null,
    "tier": "N",
-   "pub": 42,
+   "pub": 48,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 121,
@@ -4443,23 +5526,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 70,
+    "gemini": 63,
     "grok": null,
-    "claude": null
+    "claude": 53
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Seven of nine reached 51. The one-yard change costs little but an early pass-heavy game can sink both lines.",
+    "gemini": "Just 1 yard higher than 50+ for 49ers bellcow against tough Vikings front",
+    "claude": "Vikings run D solid"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 74,
-   "blend": 74,
+   "med": 66,
+   "blend": 66,
    "cap": null,
    "tier": "N",
-   "pub": 74,
+   "pub": 66,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 17,
+   "solo": false
   },
   {
    "i": 122,
@@ -4480,23 +5571,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 52,
+    "gemini": 50,
     "grok": null,
-    "claude": null
+    "claude": 45
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Three of four reached 44 before his absence. He finished at 47 in one of those games.",
+    "gemini": "Healthy return in rainy run-heavy script but 1B split with Swift caps ceiling around 40-50",
+    "claude": "Lead script adds carries"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 74,
-   "blend": 74,
+   "med": 51,
+   "blend": 51,
    "cap": null,
    "tier": "N",
-   "pub": 74,
+   "pub": 51,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 7,
+   "solo": false
   },
   {
    "i": 123,
@@ -4517,23 +5616,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 38,
+    "gemini": 39,
     "grok": null,
-    "claude": null
+    "claude": 49
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "Three of nine finished below 49. A game near the threshold can flip this relative to the 49.5 under.",
+    "gemini": "Likely averages 63.9 YPG with 55 catches in 9 games so under 48.5 is fighting heavy volume",
+    "claude": "About 56 ypg"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Isaiah Likely averages 63.9 receiving yards per game on 55 catches in 9 games for NYG"
+    ]
+   ],
    "alt_rung": false,
-   "med": 37,
-   "blend": 37,
+   "med": 38,
+   "blend": 38,
    "cap": null,
    "tier": "N",
-   "pub": 37,
+   "pub": 38,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 11,
+   "solo": false
   },
   {
    "i": 124,
@@ -4554,23 +5666,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 48,
+    "gemini": 48,
     "grok": null,
-    "claude": null
+    "claude": 53
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "A field-goal loss wins. Four or more does not cover.",
+    "gemini": "Home underdog getting the hook above 3 but Joe Milton start creates turnover floor risk",
+    "claude": "Steelers win by 3 to 4 often"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 50,
-   "blend": 50,
+   "med": 49,
+   "blend": 49,
    "cap": null,
    "tier": "G",
-   "pub": 50,
+   "pub": 49,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 5,
+   "solo": false
   },
   {
    "i": 125,
@@ -4591,13 +5711,21 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 47,
+    "gemini": 50,
     "grok": null,
-    "claude": null
+    "claude": 53
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Losing by three misses here. It pushes the plus-three line instead.",
+    "gemini": "Coin-flip margin between two 4-5 teams with Ravens on short week",
+    "claude": "Coin flip game"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
    "med": 50,
@@ -4606,8 +5734,8 @@
    "tier": "Y",
    "pub": 50,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 6,
+   "solo": false
   },
   {
    "i": 126,
@@ -4628,13 +5756,21 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 46,
+    "gemini": 51,
     "grok": null,
-    "claude": null
+    "claude": 50
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Dallas has a favorable pass matchup but allows a league-worst 154.1 rush yards per game.",
+    "gemini": "Explosive Cowboys offense vs 4-6 Titans but Dallas defense gives up big backdoor points",
+    "claude": "Leaky Cowboys D allows backdoor"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
    "med": 50,
@@ -4643,8 +5779,8 @@
    "tier": "Y",
    "pub": 50,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 5,
+   "solo": false
   },
   {
    "i": 127,
@@ -4665,23 +5801,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 54,
+    "gemini": 49,
     "grok": null,
-    "claude": null
+    "claude": 49
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Only 45 or fewer wins. Exactly 46 pushes this line and wins the 46.5 under.",
+    "gemini": "Push at 46 is not a win; Mexico City altitude adds scoring variance against MIN defense",
+    "claude": "Coin flip"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 46,
-   "blend": 46,
+   "med": 49,
+   "blend": 49,
    "cap": null,
    "tier": "N",
-   "pub": 46,
+   "pub": 49,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 5,
+   "solo": false
   },
   {
    "i": 128,
@@ -4702,23 +5846,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 37,
+    "gemini": 36,
     "grok": null,
-    "claude": null
+    "claude": 38
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Milton's mobility and Smith's return help. The offense has scored only 16.4 per game this season.",
+    "gemini": "2-7 Eagles starting Joe Milton with depleted linebacker group vs 6-3 Steelers",
+    "claude": "Milton vs Watt"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 40,
-   "blend": 40,
+   "med": 38,
+   "blend": 38,
    "cap": null,
    "tier": "Y",
-   "pub": 40,
+   "pub": 38,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 2,
+   "solo": false
   },
   {
    "i": 129,
@@ -4739,23 +5891,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 67,
+    "gemini": 63,
     "grok": null,
-    "claude": null
+    "claude": 57
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Seven of nine reached 33 including one at 34. Kincaid is inactive but a big Buffalo lead can cap pass volume.",
+    "gemini": "Dalton Kincaid officially OUT frees up middle-of-field targets vs 1-8 Dolphins",
+    "claude": "Kincaid inactive opens targets"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 75,
-   "blend": 75,
+   "med": 65,
+   "blend": 65,
    "cap": null,
    "tier": "N",
-   "pub": 75,
+   "pub": 65,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 10,
+   "solo": false
   },
   {
    "i": 130,
@@ -4776,23 +5936,36 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 49,
+    "gemini": 38,
     "grok": null,
-    "claude": null
+    "claude": 48
    },
-   "why": {},
-   "conf": {},
-   "fade": [],
+   "why": {
+    "chatgpt": "His four games with passes went for 243 then 252 then 127 then 293. Jacksonville allows 228.2 net passing yards per game.",
+    "gemini": "Cleared 221.5 in 3 of 4 starts 243 252 127 293 and likely trailing Jaguars",
+    "claude": "8.8 YPA but strong Jags D"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "gemini",
+     "J.J. McCarthy cleared 221.5 passing yards in 3 of 4 starts and faces a trailing script vs JAX"
+    ]
+   ],
    "alt_rung": false,
-   "med": 49,
-   "blend": 49,
+   "med": 48,
+   "blend": 48,
    "cap": null,
    "tier": "N",
-   "pub": 49,
+   "pub": 48,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 11,
+   "solo": false
   },
   {
    "i": 131,
@@ -4813,23 +5986,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 59,
+    "gemini": 52,
     "grok": null,
-    "claude": null
+    "claude": 45
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Reached 92 scrimmage yards in six of nine. He has 16 catches over his last three games plus 65 carries.",
+    "gemini": "Workhorse RB1 projection at home vs struggling Ravens defense on short week",
+    "claude": "Median near 91"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "low"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 69,
-   "blend": 69,
+   "med": 56,
+   "blend": 56,
    "cap": null,
    "tier": "N",
-   "pub": 69,
+   "pub": 56,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 14,
+   "solo": false
   },
   {
    "i": 132,
@@ -4850,23 +6031,31 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 45,
+    "gemini": 51,
     "grok": null,
-    "claude": null
+    "claude": 57
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Four of nine were below 56. The extra six yards capture his 53-yard game and materially improve the under.",
+    "gemini": "More breathing room at 55.5 against stingy Jaguars defense though Likely averages 63.9 YPG",
+    "claude": "Cushion above his average"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 47,
-   "blend": 47,
+   "med": 49,
+   "blend": 49,
    "cap": null,
    "tier": "N",
-   "pub": 47,
+   "pub": 49,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 12,
+   "solo": false
   },
   {
    "i": 133,
@@ -4887,171 +6076,179 @@
    "rule": null,
    "fl": null,
    "models": {
-    "chatgpt": null,
-    "gemini": null,
+    "chatgpt": 55,
+    "gemini": 54,
     "grok": null,
-    "claude": null
+    "claude": 55
    },
-   "why": {},
-   "conf": {},
+   "why": {
+    "chatgpt": "Five of nine receiving appearances cleared 67. Tennessee allows 266.9 net passing yards per game but Lamb shares the upside.",
+    "gemini": "High-volume Cowboys pass attack indoors vs Titans gives strong chunk-play upside",
+    "claude": "18 targets last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "claude": "medium"
+   },
    "fade": [],
    "alt_rung": false,
-   "med": 59,
-   "blend": 59,
+   "med": 55,
+   "blend": 55,
    "cap": null,
    "tier": "N",
-   "pub": 59,
+   "pub": 55,
    "eng": "v8",
-   "spread": null,
-   "solo": true
+   "spread": 1,
+   "solo": false
   }
  ],
  "board": [
   4,
   6,
-  41,
   10,
-  9,
-  23,
-  97,
-  129,
-  121,
-  122
+  43,
+  32
  ],
  "low": [
-  51,
-  131,
-  5,
-  95,
-  12,
-  42,
-  66,
-  24,
-  100,
-  55,
-  96,
-  44,
-  32,
-  34,
-  39,
-  61,
-  63,
-  64,
-  65,
-  103,
-  105,
-  33,
   11,
+  42,
+  97,
+  12,
+  95,
+  121,
+  41,
+  67,
+  129,
+  65,
+  3,
+  5,
   57,
-  16,
-  79,
-  115,
-  133,
+  9,
+  39,
   13,
-  58,
+  23,
+  66,
+  101,
+  21,
+  35,
+  51,
+  55,
+  56,
+  111,
+  16,
+  96,
+  99,
+  105,
+  24,
   52,
-  78,
-  50,
-  68,
-  37,
-  80,
-  83,
-  93,
+  58,
+  61,
+  72,
   112,
-  114,
-  27,
-  106,
-  59,
-  91,
-  47,
+  115,
+  131,
+  25,
   60,
-  84,
-  85,
-  86,
-  88,
+  70,
+  107,
+  133,
+  18,
+  33,
+  62,
+  64,
+  68,
+  93,
+  103,
+  1,
+  7,
+  79,
+  80,
+  22,
+  44,
+  83,
+  34,
+  63,
+  74,
   89,
   90,
-  92,
-  94,
+  106,
   110,
-  124,
+  122,
+  47,
+  59,
+  84,
+  91,
+  100,
+  102,
+  113,
+  114,
   125,
   126,
-  113,
-  130,
-  81,
-  109,
-  117,
-  82,
+  78,
   87,
-  108,
-  132,
-  35,
+  94,
+  124,
   127,
-  7,
-  14,
+  132,
+  50,
+  81,
   120,
-  15,
-  116,
-  128,
-  75,
-  77,
-  123,
-  119,
-  17,
-  36,
-  69,
-  118,
-  46,
-  74,
-  76,
-  70,
-  73,
-  28,
-  31,
+  130,
+  27,
+  37,
+  108,
+  117,
+  92,
+  14,
+  53,
+  88,
   98,
   104,
-  53,
+  109,
+  118,
+  119,
+  73,
+  82,
+  85,
+  75,
+  86,
+  116,
+  45,
   48,
+  77,
+  123,
+  128,
+  17,
+  15,
+  69,
+  2,
+  28,
   8,
-  18
+  76,
+  36,
+  31,
+  46,
+  29,
+  30
  ],
  "removed": [
   38,
-  111,
-  101,
   71,
-  3,
-  20,
-  67,
-  72,
-  40,
-  56,
-  21,
   19,
-  45,
-  62,
-  43,
-  22,
-  30,
-  29,
-  102
+  26,
+  20,
+  40
  ],
  "nograde": [
-  1,
-  2,
-  25,
-  26,
   49,
-  54,
-  99,
-  107
+  54
  ],
  "settled": [],
  "hammer": {
   "legs": [],
   "pay": null,
-  "none": "No 2 to 5 legs from different games priced 80-92 cents paid 1.35x or more after fees with a 45%+ hit chance and a profit by our math (0 legs qualified). Passing is a win.",
+  "none": "No 2 to 5 legs from different games priced 80-92 cents paid 1.35x or more after fees with a 45%+ hit chance and a profit by our math (1 leg qualified). Passing is a win.",
   "hit": null,
   "pay_net": null,
   "ev": null,
@@ -5083,20 +6280,385 @@
    "none": "No 4-5-leg combo from different games made +2% after fees at a 30%+ hit chance."
   }
  ],
- "split": [],
- "agree": [],
- "votes": {},
- "tips": {
-  "chatgpt": [],
-  "gemini": [],
-  "grok": [],
-  "claude": []
+ "split": [
+  97,
+  19,
+  25,
+  74,
+  37,
+  82,
+  20,
+  41,
+  73,
+  5
+ ],
+ "agree": [
+  4
+ ],
+ "votes": {
+  "6": 3,
+  "19": 2,
+  "4": 3,
+  "40": 2,
+  "43": 3,
+  "41": 1,
+  "10": 3,
+  "32": 3,
+  "65": 1,
+  "39": 1,
+  "11": 2,
+  "42": 1,
+  "12": 1,
+  "70": 1,
+  "74": 1,
+  "13": 1,
+  "95": 1
  },
- "fades": {},
- "alts": {},
+ "tips": {
+  "chatgpt": [
+   "Show each player's status with the source time. Allow a separate estimate if active and flag confirmed OUT rows for void handling.",
+   "Group alternate thresholds for each player and show the probability gained beside the added cost after fees.",
+   "Count shared players and games in the slip. Show when one leg contains another before calculating joint probability."
+  ],
+  "gemini": [
+   "Auto-flag NFL 90-minute official inactives directly on prop cards so users instantly see OUT statuses like Kenneth Walker III and Dalton Kincaid before locking tickets",
+   "Display real-time venue weather and altitude tags like Soldier Field 24 mph gusts and Mexico City 7200 ft directly next to passing and total markets",
+   "Add a 1-click ladder comparison view that shows a player's season hit rate across adjacent thresholds like Ashton Jeanty 3+ vs 4+ catches and James Cook 70+ vs 90+ yards"
+  ],
+  "grok": [],
+  "claude": [
+   "Auto-flag any leg tied to a Q player and re-run it when inactives post 90 minutes before kickoff",
+   "Show push risk on whole-number spreads and totals so users can see that +3 and +2.5 can be the same bet",
+   "Add a \"script check\" tag on blowout spreads warning that starters may sit late"
+  ]
+ },
+ "fades": {
+  "29": [
+   [
+    "chatgpt",
+    "A one-touchdown Lamb game still loses and Pickens can take a red-zone target."
+   ],
+   [
+    "claude",
+    "Pickens is the red zone alpha now"
+   ]
+  ],
+  "30": [
+   [
+    "chatgpt",
+    "Monangai is back to take carries near the stripe."
+   ],
+   [
+    "gemini",
+    "Kyle Monangai returning healthy splits Bears backfield and red-zone touches with Swift"
+   ]
+  ],
+  "31": [
+   [
+    "chatgpt",
+    "Kansas City can win comfortably while Mahomes distributes the scoring."
+   ]
+  ],
+  "46": [
+   [
+    "chatgpt",
+    "Only one recorded receiving line reached 80 and Wilson still commands targets."
+   ],
+   [
+    "claude",
+    "Needs a ceiling game with a hobbled Geno"
+   ]
+  ],
+  "69": [
+   [
+    "chatgpt",
+    "Jefferson has only two eight-catch games in eight receiving appearances."
+   ],
+   [
+    "claude",
+    "8 catches is a high bar even with Addison out"
+   ]
+  ],
+  "73": [
+   [
+    "chatgpt",
+    "The lower-looking yardage line hides a player returning from a calf injury with little established volume."
+   ]
+  ],
+  "77": [
+   [
+    "chatgpt",
+    "Likely went over this line in six of nine games and gets substantial targets from McCarthy."
+   ],
+   [
+    "gemini",
+    "Isaiah Likely is a primary target for NYG averaging 63.9 YPG making under 49.5 a volume trap"
+   ]
+  ],
+  "92": [
+   [
+    "chatgpt",
+    "Denver can control the game and win by seven while this double-digit spread loses."
+   ]
+  ],
+  "49": [
+   [
+    "gemini",
+    "Officially ruled OUT inactive with groin injury"
+   ]
+  ],
+  "54": [
+   [
+    "gemini",
+    "Officially ruled OUT inactive with groin injury"
+   ]
+  ],
+  "123": [
+   [
+    "gemini",
+    "Isaiah Likely averages 63.9 receiving yards per game on 55 catches in 9 games for NYG"
+   ]
+  ],
+  "130": [
+   [
+    "gemini",
+    "J.J. McCarthy cleared 221.5 passing yards in 3 of 4 starts and faces a trailing script vs JAX"
+   ]
+  ],
+  "2": [
+   [
+    "gemini",
+    "Alexander Zverev has not dropped a set in Turin and is 3-0 indoors vs Alcaraz"
+   ]
+  ],
+  "76": [
+   [
+    "gemini",
+    "Ollie Gordon II has hit 3+ receptions in just 2 of 8 games this season"
+   ]
+  ],
+  "98": [
+   [
+    "claude",
+    "Short week before Thanksgiving so KC can cut his carries in a blowout"
+   ]
+  ],
+  "108": [
+   [
+    "claude",
+    "16.5 is too many for an offense missing Walker and G Trey Smith"
+   ]
+  ],
+  "82": [
+   [
+    "claude",
+    "First-half lines this big rarely cover even for good teams"
+   ]
+  ],
+  "109": [
+   [
+    "claude",
+    "A 3-point Chargers win is a push and they are 1-8"
+   ]
+  ],
+  "85": [
+   [
+    "claude",
+    "Bears run heavy and can win by 7 to 10"
+   ]
+  ]
+ },
+ "alts": {
+  "chatgpt": [
+   [
+    "3",
+    "Karl-Anthony Towns 1+ threes",
+    85,
+    "One make has cleared in 14 of 15 appearances and costs one fewer made three."
+   ],
+   [
+    "5",
+    "Wendell Carter Jr. 6+ rebounds",
+    87,
+    "Six retains two common outcomes of six or seven boards."
+   ],
+   [
+    "20",
+    "Ashton Jeanty 3+ receptions",
+    86,
+    "Three games finished with exactly three catches."
+   ],
+   [
+    "22",
+    "Ryan Flournoy 35+ receiving yards",
+    65,
+    "The lower rung also catches his 37-yard and 38-yard games."
+   ],
+   [
+    "28",
+    "James Cook anytime touchdown",
+    73,
+    "Seven of Cook's eight scoring games ended with exactly one TD."
+   ],
+   [
+    "29",
+    "CeeDee Lamb anytime touchdown",
+    54,
+    "One touchdown captures four more of Lamb's ten games."
+   ],
+   [
+    "30",
+    "D'Andre Swift anytime touchdown",
+    50,
+    "Swift shares the backfield again. One scoring carry is enough."
+   ],
+   [
+    "31",
+    "Emmett Johnson anytime touchdown",
+    64,
+    "Walker's absence expands usage but two TDs depend on how drives finish."
+   ],
+   [
+    "46",
+    "Adonai Mitchell 46+ receiving yards (over 45.5)",
+    53,
+    "The lower threshold captures his games of 59 and 63 without needing a long gain."
+   ],
+   [
+    "51",
+    "James Cook 70+ rushing yards",
+    79,
+    "The lower line captures his games of 75 and 80."
+   ],
+   [
+    "76",
+    "Ollie Gordon II 2+ receptions",
+    48,
+    "Two lets the leg win on one fewer checkdown."
+   ],
+   [
+    "86",
+    "Buccaneers +7.5 at Lions",
+    60,
+    "A seven-point Tampa loss also covers the larger cushion."
+   ],
+   [
+    "89",
+    "Steelers ML at Eagles",
+    62,
+    "A Pittsburgh win by one to three also wins the moneyline."
+   ],
+   [
+    "116",
+    "Javonte Williams 50+ rushing yards",
+    68,
+    "Six of ten cleared 50 and only three cleared 78."
+   ],
+   [
+    "123",
+    "Isaiah Likely under 55.5 receiving yards",
+    45,
+    "The 53-yard game switches from a loss to a win."
+   ]
+  ],
+  "gemini": [
+   [
+    "45",
+    "Adonai Mitchell 40+ receiving yards",
+    53,
+    "Low 45.2% catch rate makes 60+ volatile while 40+ can clear on two catches"
+   ],
+   [
+    "50",
+    "Zay Flowers 55+ receiving yards",
+    60,
+    "Panthers activated CB Mike Jackson and Ravens are on a short week off MNF"
+   ],
+   [
+    "116",
+    "Javonte Williams 60+ rushing yards",
+    64,
+    "78+ is vulnerable to Dak pass volume while 60+ fits his bellcow floor"
+   ],
+   [
+    "69",
+    "Justin Jefferson 6+ receptions",
+    65,
+    "8+ catches is a steep ceiling even with Cousins and Addison questionable"
+   ],
+   [
+    "88",
+    "Bills -10.5 v Dolphins",
+    64,
+    "Avoids 16.5-point garbage-time backdoor risk if Buffalo rests starters late"
+   ],
+   [
+    "108",
+    "Chiefs -10.5 v Cardinals",
+    66,
+    "Captures KC dominance over Carson Beck without 16.5-point late-game variance"
+   ],
+   [
+    "91",
+    "Chargers ML v Jets",
+    66,
+    "Eliminates field-goal push and close-game spread risk against 2-8 Jets"
+   ]
+  ],
+  "claude": [
+   [
+    "98",
+    "Emmett Johnson 15+ rush attempts",
+    68,
+    "Clears even if KC rests him late"
+   ],
+   [
+    "104",
+    "Emmett Johnson 60+ rush yards",
+    65,
+    "Workhorse vs a bottom-5 run D"
+   ],
+   [
+    "45",
+    "Adonai Mitchell 46+ receiving yards",
+    50,
+    "Extra targets from Jets WR injuries"
+   ],
+   [
+    "27",
+    "Carnell Tate 40+ receiving yards",
+    55,
+    "Trailing script with shoulder risk"
+   ],
+   [
+    "48",
+    "Justin Jefferson 60+ receiving yards",
+    63,
+    "Addison out raises his floor"
+   ],
+   [
+    "47",
+    "Dak Prescott 250+ passing yards",
+    63,
+    "Clears even if the 4th quarter is run-heavy"
+   ],
+   [
+    "85",
+    "Bears -3.5",
+    62,
+    "Clears on a normal win"
+   ],
+   [
+    "108",
+    "Chiefs -9.5",
+    58,
+    "Room for a late garbage-time score"
+   ]
+  ]
+ },
  "kalshi_ts": "2026-11-22T17:07:51+00:00",
  "lotto": null,
- "lotto_none": "No 3 to 8 legs from different games paid 5-10x after fees with +5% or better by our math (0 legs qualified). No lotto beats a forced lotto.",
+ "lotto_none": "No 3 to 8 legs from different games paid 5-10x after fees with +5% or better by our math (1 legs qualified). No lotto beats a forced lotto.",
  "master_v2": [],
- "merged_at": "09:11 PT"
+ "merged_at": "09:22 PT"
 }
