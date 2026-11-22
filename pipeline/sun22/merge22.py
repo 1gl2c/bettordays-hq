@@ -18,7 +18,7 @@ MODELS = ['chatgpt', 'gemini', 'grok', 'claude']
 S = json.load(open('sun22/sun22.json')); ROWS = S['rows']; NLEG = len(ROWS)
 BK = json.load(open(f'daily/{DAY}/book_fair.json'))
 EXTRA, ALTMATCH = {}, {}
-# questionable at merge time (AI rooms and team reports, 9:20 AM PT): shown on the board, kept off tickets until confirmed active
+# questionable at merge time (AI rooms and team reports, 9:20 AM PT): shown as 'could sit'. Ace, Nov 22: a player who does not play voids the leg (money back), so Q players stay eligible for tickets
 QLEGS = {3, 4, 19, 20, 97, 62, 66, 95, 27}   # Towns (illness, missed Saturday), Jeanty (sprain), Tuten, Hockenson (wrist), Tate (shoulder)
 # a game counts as started once its kickoff or tip has passed (Pacific time) when this merge runs
 NOW = _dt.datetime.now(_dt.timezone(_dt.timedelta(hours=-8)))
@@ -96,8 +96,8 @@ board = sorted([l for l in pubd if l['pub'] >= BOARD_MIN], key=lambda l: -l['pub
 low = sorted([l for l in pubd if l['pub'] < BOARD_MIN], key=lambda l: -l['pub'])
 removed = sorted([l for l in legs if l['tier'] == 'R'], key=lambda l: -(l['med'] - l['k']))
 # tickets: games not started, at least one AI number, no fade flag from 2+ agents, not UFC (no system grade)
-fresh = [l for l in board if l.get('fl') not in ('LIVE', 'DONE', 'Q') and not l.get('solo') and l['sp'] not in ('UFC', 'TENNIS', 'NHL') and len(l['fade']) < 2]
-open_all = [l for l in pubd if l.get('fl') not in ('LIVE', 'DONE', 'Q') and not l.get('solo') and l['sp'] not in ('UFC', 'TENNIS', 'NHL') and len(l['fade']) < 2]
+fresh = [l for l in board if l.get('fl') not in ('LIVE', 'DONE') and not l.get('solo') and l['sp'] not in ('UFC', 'TENNIS', 'NHL') and len(l['fade']) < 2]
+open_all = [l for l in pubd if l.get('fl') not in ('LIVE', 'DONE') and not l.get('solo') and l['sp'] not in ('UFC', 'TENNIS', 'NHL') and len(l['fade']) < 2]
 lot, lot_why = lotto(open_all)
 ms2 = [l['i'] for l in pubd if master_v2(l)]
 ham, ham_why = hammer(fresh)

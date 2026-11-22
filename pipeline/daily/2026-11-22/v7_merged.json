@@ -6246,13 +6246,16 @@
  ],
  "settled": [],
  "hammer": {
-  "legs": [],
-  "pay": null,
-  "none": "No 2 to 5 legs from different games priced 80-92 cents paid 1.35x or more after fees with a 45%+ hit chance and a profit by our math (1 leg qualified). Passing is a win.",
-  "hit": null,
-  "pay_net": null,
-  "ev": null,
-  "kind": null
+  "legs": [
+   10,
+   4
+  ],
+  "pay": 1.44,
+  "none": null,
+  "hit": 75,
+  "pay_net": 1.41,
+  "ev": 5.2,
+  "kind": "Safe Hammer"
  },
  "perfect": [
   {
@@ -6658,7 +6661,7 @@
  },
  "kalshi_ts": "2026-11-22T17:07:51+00:00",
  "lotto": null,
- "lotto_none": "No 3 to 8 legs from different games paid 5-10x after fees with +5% or better by our math (1 legs qualified). No lotto beats a forced lotto.",
+ "lotto_none": "No 3 to 8 legs from different games paid 5-10x after fees with +5% or better by our math (2 legs qualified). No lotto beats a forced lotto.",
  "master_v2": [],
- "merged_at": "09:22 PT"
+ "merged_at": "09:35 PT"
 }
