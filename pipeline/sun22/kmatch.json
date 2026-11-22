@@ -1,0 +1,800 @@
+{
+ "1": {
+  "p": "Carlos Alcaraz ML v Alexander Zverev",
+  "k": 64.5,
+  "ev": "KXATPMATCH-26NOV22ZVEALC",
+  "note": ""
+ },
+ "2": {
+  "p": "Carlos Alcaraz wins in straight sets (2-0) v Alexander Zverev",
+  "k": 39.5,
+  "ev": "KXATPEXACTMATCH-26NOV22ZVEALC",
+  "note": ""
+ },
+ "3": {
+  "p": "Karl-Anthony Towns 2+ threes",
+  "k": 54.5,
+  "ev": "KXNBA3PT-26NOV22INDNYK",
+  "note": ""
+ },
+ "4": {
+  "p": "Karl-Anthony Towns 1+ threes",
+  "k": 82.0,
+  "ev": "KXNBA3PT-26NOV22INDNYK",
+  "note": ""
+ },
+ "5": {
+  "p": "Wendell Carter Jr. 8+ rebounds",
+  "k": 60.5,
+  "ev": "KXNBAREB-26NOV22ORLWAS",
+  "note": ""
+ },
+ "6": {
+  "p": "Wendell Carter Jr. 6+ rebounds",
+  "k": 81.5,
+  "ev": "KXNBAREB-26NOV22ORLWAS",
+  "note": ""
+ },
+ "7": {
+  "p": "Caleb Williams under 250 passing yards",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22NOCHI",
+  "note": ""
+ },
+ "8": {
+  "p": "Jordyn Tyson anytime touchdown",
+  "k": 22.5,
+  "ev": "KXNFLTD-26NOV22NOCHI",
+  "note": ""
+ },
+ "9": {
+  "p": "Kyle Monangai 10+ rushing attempts",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22NOCHI",
+  "note": ""
+ },
+ "10": {
+  "p": "Bears ML v Saints",
+  "k": 84.5,
+  "ev": "KXNFLGAME-26NOV22NOCHI",
+  "note": ""
+ },
+ "11": {
+  "p": "Lions ML v Buccaneers",
+  "k": 66.5,
+  "ev": "KXNFLGAME-26NOV22TBDET",
+  "note": ""
+ },
+ "12": {
+  "p": "Jaguars ML at Giants",
+  "k": 70.5,
+  "ev": "KXNFLGAME-26NOV22JACNYG",
+  "note": ""
+ },
+ "13": {
+  "p": "Eagles +7 v Steelers",
+  "k": null,
+  "ev": "KXNFLSPREAD-26NOV22PITPHI",
+  "note": "whole-number spread can push; Kalshi lists only .5 lines"
+ },
+ "14": {
+  "p": "Ravens ML at Panthers",
+  "k": 43.5,
+  "ev": "KXNFLGAME-26NOV22BALCAR",
+  "note": ""
+ },
+ "15": {
+  "p": "Buccaneers ML at Lions",
+  "k": 33.5,
+  "ev": "KXNFLGAME-26NOV22TBDET",
+  "note": ""
+ },
+ "16": {
+  "p": "Chargers ML v Jets",
+  "k": 60.5,
+  "ev": "KXNFLGAME-26NOV22NYJLAC",
+  "note": ""
+ },
+ "17": {
+  "p": "Giants ML v Jaguars",
+  "k": 29.5,
+  "ev": "KXNFLGAME-26NOV22JACNYG",
+  "note": ""
+ },
+ "18": {
+  "p": "Fernando Mendoza 1+ interceptions (over 0.5)",
+  "k": 57.5,
+  "ev": "KXNFLPASSINT-26NOV22LVDEN",
+  "note": ""
+ },
+ "19": {
+  "p": "Ashton Jeanty 3+ receptions",
+  "k": 72.0,
+  "ev": "KXNFLREC-26NOV22LVDEN",
+  "note": ""
+ },
+ "20": {
+  "p": "Ashton Jeanty 4+ receptions",
+  "k": 54.5,
+  "ev": "KXNFLREC-26NOV22LVDEN",
+  "note": ""
+ },
+ "21": {
+  "p": "Brock Purdy 15+ rushing yards",
+  "k": 57.5,
+  "ev": "KXNFLRSHYDS-26NOV22MINSF",
+  "note": ""
+ },
+ "22": {
+  "p": "Ryan Flournoy 40+ receiving yards",
+  "k": 50.5,
+  "ev": "KXNFLRECYDS-26NOV22TENDAL",
+  "note": ""
+ },
+ "23": {
+  "p": "Ryan Flournoy 35+ receiving yards",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22TENDAL",
+  "note": ""
+ },
+ "24": {
+  "p": "Malachi Fields 25+ receiving yards",
+  "k": 58.5,
+  "ev": "KXNFLRECYDS-26NOV22JACNYG",
+  "note": ""
+ },
+ "25": {
+  "p": "Heat ML v Thunder",
+  "k": 60.5,
+  "ev": "KXNBAGAME-26NOV22OKCMIA",
+  "note": ""
+ },
+ "26": {
+  "p": "Oilers ML at Blues",
+  "k": 46.5,
+  "ev": "KXNHLGAME-26NOV22EDMSTL",
+  "note": ""
+ },
+ "27": {
+  "p": "Carnell Tate 60+ receiving yards",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22TENDAL",
+  "note": ""
+ },
+ "28": {
+  "p": "James Cook 2+ touchdowns",
+  "k": 22.5,
+  "ev": "KXNFLTD-26NOV22MIABUF",
+  "note": ""
+ },
+ "29": {
+  "p": "CeeDee Lamb 2+ touchdowns",
+  "k": 20.5,
+  "ev": "KXNFLTD-26NOV22TENDAL",
+  "note": ""
+ },
+ "30": {
+  "p": "D'Andre Swift 2+ touchdowns",
+  "k": 19.5,
+  "ev": "KXNFLTD-26NOV22NOCHI",
+  "note": ""
+ },
+ "31": {
+  "p": "Emmett Johnson 2+ touchdowns",
+  "k": 24.5,
+  "ev": "KXNFLTD-26NOV22ARIKC",
+  "note": ""
+ },
+ "32": {
+  "p": "James Cook anytime touchdown",
+  "k": 62.5,
+  "ev": "KXNFLTD-26NOV22MIABUF",
+  "note": ""
+ },
+ "33": {
+  "p": "CeeDee Lamb anytime touchdown",
+  "k": 57.5,
+  "ev": "KXNFLTD-26NOV22TENDAL",
+  "note": ""
+ },
+ "34": {
+  "p": "D'Andre Swift anytime touchdown",
+  "k": 56.5,
+  "ev": "KXNFLTD-26NOV22NOCHI",
+  "note": ""
+ },
+ "35": {
+  "p": "Emmett Johnson anytime touchdown",
+  "k": 64.5,
+  "ev": "KXNFLTD-26NOV22ARIKC",
+  "note": ""
+ },
+ "36": {
+  "p": "Josh Downs anytime touchdown",
+  "k": 30.5,
+  "ev": "KXNFLTD-26NOV22ARIKC",
+  "note": ""
+ },
+ "37": {
+  "p": "Tony Pollard anytime touchdown",
+  "k": 54.5,
+  "ev": "KXNFLTD-26NOV22TENDAL",
+  "note": ""
+ },
+ "38": {
+  "p": "Isaiah Likely anytime touchdown",
+  "k": 28.5,
+  "ev": "KXNFLTD-26NOV22JACNYG",
+  "note": ""
+ },
+ "39": {
+  "p": "Christian McCaffrey anytime touchdown",
+  "k": 57.5,
+  "ev": "KXNFLTD-26NOV22MINSF",
+  "note": ""
+ },
+ "40": {
+  "p": "Trey McBride 5+ receptions",
+  "k": 70.5,
+  "ev": "KXNFLREC-26NOV22ARIKC",
+  "note": ""
+ },
+ "41": {
+  "p": "Justice Hill 2+ receptions",
+  "k": 78.5,
+  "ev": "KXNFLREC-26NOV22BALCAR",
+  "note": ""
+ },
+ "42": {
+  "p": "Javonte Williams 50+ rushing yards",
+  "k": 77.5,
+  "ev": "KXNFLRSHYDS-26NOV22TENDAL",
+  "note": ""
+ },
+ "43": {
+  "p": "James Cook 70+ rushing yards",
+  "k": 74.0,
+  "ev": "KXNFLRSHYDS-26NOV22MIABUF",
+  "note": ""
+ },
+ "44": {
+  "p": "Adonai Mitchell 46+ receiving yards (over 45.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22NYJLAC",
+  "note": ""
+ },
+ "45": {
+  "p": "Adonai Mitchell 60+ receiving yards",
+  "k": 37.5,
+  "ev": "KXNFLRECYDS-26NOV22NYJLAC",
+  "note": ""
+ },
+ "46": {
+  "p": "Adonai Mitchell 80+ receiving yards",
+  "k": 21.5,
+  "ev": "KXNFLRECYDS-26NOV22NYJLAC",
+  "note": ""
+ },
+ "47": {
+  "p": "Dak Prescott 279+ passing yards (over 278.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22TENDAL",
+  "note": ""
+ },
+ "48": {
+  "p": "Justin Jefferson 85+ receiving yards (over 84.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22MINSF",
+  "note": ""
+ },
+ "49": {
+  "p": "Kenneth Walker III 83+ rushing yards (over 82.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22ARIKC",
+  "note": ""
+ },
+ "50": {
+  "p": "Zay Flowers 69+ receiving yards (over 68.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22BALCAR",
+  "note": ""
+ },
+ "51": {
+  "p": "James Cook 91+ rushing yards (over 90.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22MIABUF",
+  "note": ""
+ },
+ "52": {
+  "p": "Dak Prescott 270+ passing yards",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22TENDAL",
+  "note": ""
+ },
+ "53": {
+  "p": "Justin Jefferson 80+ receiving yards",
+  "k": 56.5,
+  "ev": "KXNFLRECYDS-26NOV22MINSF",
+  "note": ""
+ },
+ "54": {
+  "p": "Kenneth Walker III 80+ rushing yards",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22ARIKC",
+  "note": ""
+ },
+ "55": {
+  "p": "Zay Flowers 60+ receiving yards",
+  "k": 58.5,
+  "ev": "KXNFLRECYDS-26NOV22BALCAR",
+  "note": ""
+ },
+ "56": {
+  "p": "James Cook 90+ rushing yards",
+  "k": 54.5,
+  "ev": "KXNFLRSHYDS-26NOV22MIABUF",
+  "note": ""
+ },
+ "57": {
+  "p": "Steelers ML at Eagles",
+  "k": 64.5,
+  "ev": "KXNFLGAME-26NOV22PITPHI",
+  "note": ""
+ },
+ "58": {
+  "p": "Panthers ML v Ravens",
+  "k": 57.5,
+  "ev": "KXNFLGAME-26NOV22BALCAR",
+  "note": ""
+ },
+ "59": {
+  "p": "Jaguars -5.5 at Giants",
+  "k": 51.5,
+  "ev": "KXNFLSPREAD-26NOV22JACNYG",
+  "note": ""
+ },
+ "60": {
+  "p": "Raiders +10.5 at Broncos",
+  "k": 48.5,
+  "ev": "KXNFLSPREAD-26NOV22LVDEN",
+  "note": ""
+ },
+ "61": {
+  "p": "Chuba Hubbard anytime touchdown",
+  "k": 54.5,
+  "ev": "KXNFLTD-26NOV22BALCAR",
+  "note": ""
+ },
+ "62": {
+  "p": "Bhayshul Tuten anytime touchdown",
+  "k": 50.5,
+  "ev": "KXNFLTD-26NOV22JACNYG",
+  "note": ""
+ },
+ "63": {
+  "p": "Jonah Coleman anytime touchdown",
+  "k": 56.5,
+  "ev": "KXNFLTD-26NOV22LVDEN",
+  "note": ""
+ },
+ "64": {
+  "p": "Josh Allen anytime touchdown",
+  "k": 58.5,
+  "ev": "KXNFLTD-26NOV22MIABUF",
+  "note": ""
+ },
+ "65": {
+  "p": "Jahmyr Gibbs anytime touchdown",
+  "k": 67.5,
+  "ev": "KXNFLTD-26NOV22TBDET",
+  "note": ""
+ },
+ "66": {
+  "p": "T.J. Hockenson 30+ receiving yards",
+  "k": 72.5,
+  "ev": "KXNFLRECYDS-26NOV22MINSF",
+  "note": ""
+ },
+ "67": {
+  "p": "George Kittle 40+ receiving yards",
+  "k": 59.5,
+  "ev": "KXNFLRECYDS-26NOV22MINSF",
+  "note": ""
+ },
+ "68": {
+  "p": "Christian McCaffrey 90+ rushing + receiving yards",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22MINSF",
+  "note": "Kalshi does not list this market"
+ },
+ "69": {
+  "p": "Justin Jefferson 8+ receptions",
+  "k": 45.5,
+  "ev": "KXNFLREC-26NOV22MINSF",
+  "note": ""
+ },
+ "70": {
+  "p": "Joe Milton under 7.5 rushing attempts",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22PITPHI",
+  "note": ""
+ },
+ "71": {
+  "p": "Christian McCaffrey 50+ rushing yards",
+  "k": 54.5,
+  "ev": "KXNFLRSHYDS-26NOV22MINSF",
+  "note": ""
+ },
+ "72": {
+  "p": "Kyle Monangai 40+ rushing yards",
+  "k": 58.5,
+  "ev": "KXNFLRSHYDS-26NOV22NOCHI",
+  "note": ""
+ },
+ "73": {
+  "p": "Jauan Jennings 20+ receiving yards",
+  "k": 52.5,
+  "ev": "KXNFLRECYDS-26NOV22MINSF",
+  "note": ""
+ },
+ "74": {
+  "p": "Jauan Jennings 15+ receiving yards",
+  "k": 60.5,
+  "ev": "KXNFLRECYDS-26NOV22MINSF",
+  "note": ""
+ },
+ "75": {
+  "p": "Ollie Gordon II 2+ receptions",
+  "k": 74.5,
+  "ev": "KXNFLREC-26NOV22MIABUF",
+  "note": ""
+ },
+ "76": {
+  "p": "Ollie Gordon II 3+ receptions",
+  "k": 53.5,
+  "ev": "KXNFLREC-26NOV22MIABUF",
+  "note": ""
+ },
+ "77": {
+  "p": "Isaiah Likely under 49.5 receiving yards",
+  "k": 54.0,
+  "ev": "KXNFLRECYDS-26NOV22JACNYG",
+  "note": ""
+ },
+ "78": {
+  "p": "Buccaneers +6 at Lions",
+  "k": null,
+  "ev": "KXNFLSPREAD-26NOV22TBDET",
+  "note": "whole-number spread can push; Kalshi lists only .5 lines"
+ },
+ "79": {
+  "p": "Buccaneers +6.5 at Lions",
+  "k": 58.5,
+  "ev": "KXNFLSPREAD-26NOV22TBDET",
+  "note": ""
+ },
+ "80": {
+  "p": "Eagles +4.5 v Steelers",
+  "k": 54.5,
+  "ev": "KXNFLSPREAD-26NOV22PITPHI",
+  "note": ""
+ },
+ "81": {
+  "p": "Giants +6 v Jaguars",
+  "k": null,
+  "ev": "KXNFLSPREAD-26NOV22JACNYG",
+  "note": "whole-number spread can push; Kalshi lists only .5 lines"
+ },
+ "82": {
+  "p": "Bears -6.5 first half v Saints",
+  "k": 59.5,
+  "ev": "KXNFL1HSPREAD-26NOV22NOCHI",
+  "note": ""
+ },
+ "83": {
+  "p": "Vikings v 49ers over 45.5 total points",
+  "k": 50.5,
+  "ev": "KXNFLTOTAL-26NOV22MINSF",
+  "note": ""
+ },
+ "84": {
+  "p": "Panthers -2.5 v Ravens",
+  "k": 51.5,
+  "ev": "KXNFLSPREAD-26NOV22BALCAR",
+  "note": ""
+ },
+ "85": {
+  "p": "Bears -11.5 v Saints",
+  "k": null,
+  "ev": "KXNFLSPREAD-26NOV22NOCHI",
+  "note": ""
+ },
+ "86": {
+  "p": "Buccaneers +3.5 at Lions",
+  "k": 49.5,
+  "ev": "KXNFLSPREAD-26NOV22TBDET",
+  "note": ""
+ },
+ "87": {
+  "p": "Ravens at Panthers under 43.5 total points",
+  "k": 46.5,
+  "ev": "KXNFLTOTAL-26NOV22BALCAR",
+  "note": ""
+ },
+ "88": {
+  "p": "Bills -16.5 v Dolphins",
+  "k": 51.5,
+  "ev": "KXNFLSPREAD-26NOV22MIABUF",
+  "note": ""
+ },
+ "89": {
+  "p": "Steelers -3.5 at Eagles",
+  "k": 49.5,
+  "ev": "KXNFLSPREAD-26NOV22PITPHI",
+  "note": ""
+ },
+ "90": {
+  "p": "Jaguars at Giants under 45.5 total points",
+  "k": 51.5,
+  "ev": "KXNFLTOTAL-26NOV22JACNYG",
+  "note": ""
+ },
+ "91": {
+  "p": "Chargers -2.5 v Jets",
+  "k": 55.5,
+  "ev": "KXNFLSPREAD-26NOV22NYJLAC",
+  "note": ""
+ },
+ "92": {
+  "p": "Broncos -10.5 v Raiders",
+  "k": 51.5,
+  "ev": "KXNFLSPREAD-26NOV22LVDEN",
+  "note": ""
+ },
+ "93": {
+  "p": "49ers -2.5 v Vikings",
+  "k": 58.5,
+  "ev": "KXNFLSPREAD-26NOV22MINSF",
+  "note": ""
+ },
+ "94": {
+  "p": "Vikings v 49ers over 46.5 total points",
+  "k": 47.5,
+  "ev": "KXNFLTOTAL-26NOV22MINSF",
+  "note": ""
+ },
+ "95": {
+  "p": "T.J. Hockenson under 47.5 receiving yards",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22MINSF",
+  "note": ""
+ },
+ "96": {
+  "p": "Amon-Ra St. Brown 7+ receptions (over 6.5)",
+  "k": 59.5,
+  "ev": "KXNFLREC-26NOV22TBDET",
+  "note": ""
+ },
+ "97": {
+  "p": "Ashton Jeanty 29+ receiving yards (over 28.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22LVDEN",
+  "note": ""
+ },
+ "98": {
+  "p": "Emmett Johnson 20+ rushing attempts (over 19.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22ARIKC",
+  "note": ""
+ },
+ "99": {
+  "p": "Devin Bush under 7.5 tackles + assists",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22NOCHI",
+  "note": "Kalshi does not list this market"
+ },
+ "100": {
+  "p": "Caleb Douglas 49+ receiving yards (over 48.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22MIABUF",
+  "note": ""
+ },
+ "101": {
+  "p": "Breece Hall 3+ receptions (over 2.5)",
+  "k": 53.5,
+  "ev": "KXNFLREC-26NOV22NYJLAC",
+  "note": ""
+ },
+ "102": {
+  "p": "Derrick Henry anytime touchdown",
+  "k": 53.5,
+  "ev": "KXNFLTD-26NOV22BALCAR",
+  "note": ""
+ },
+ "103": {
+  "p": "Jakobi Meyers under 20.5 longest reception",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22JACNYG",
+  "note": ""
+ },
+ "104": {
+  "p": "Emmett Johnson 85+ rushing yards (over 84.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22ARIKC",
+  "note": ""
+ },
+ "105": {
+  "p": "Buccaneers +7.5 at Lions",
+  "k": 64.5,
+  "ev": "KXNFLSPREAD-26NOV22TBDET",
+  "note": ""
+ },
+ "106": {
+  "p": "Bills team total over 30.5 points",
+  "k": 52.5,
+  "ev": "KXNFLTEAMTOTAL-26NOV22MIABUF",
+  "note": ""
+ },
+ "107": {
+  "p": "Mavericks ML at Jazz",
+  "k": 49.5,
+  "ev": "KXNBAGAME-26NOV22DALUTA",
+  "note": ""
+ },
+ "108": {
+  "p": "Chiefs -16.5 v Cardinals",
+  "k": 46.5,
+  "ev": "KXNFLSPREAD-26NOV22ARIKC",
+  "note": ""
+ },
+ "109": {
+  "p": "Chargers -3 v Jets",
+  "k": null,
+  "ev": "KXNFLSPREAD-26NOV22NYJLAC",
+  "note": "whole-number spread can push; Kalshi lists only .5 lines"
+ },
+ "110": {
+  "p": "Vikings v 49ers under 46.5 total points",
+  "k": 52.5,
+  "ev": "KXNFLTOTAL-26NOV22MINSF",
+  "note": ""
+ },
+ "111": {
+  "p": "DeVonta Smith 50+ receiving yards",
+  "k": 57.5,
+  "ev": "KXNFLRECYDS-26NOV22PITPHI",
+  "note": ""
+ },
+ "112": {
+  "p": "Courtland Sutton 30+ receiving yards",
+  "k": 54.5,
+  "ev": "KXNFLRECYDS-26NOV22LVDEN",
+  "note": ""
+ },
+ "113": {
+  "p": "Ravens +3 at Panthers",
+  "k": null,
+  "ev": "KXNFLSPREAD-26NOV22BALCAR",
+  "note": "whole-number spread can push; Kalshi lists only .5 lines"
+ },
+ "114": {
+  "p": "Ravens at Panthers over 43 total points",
+  "k": null,
+  "ev": "KXNFLTOTAL-26NOV22BALCAR",
+  "note": "whole-number total can push; Kalshi lists only .5 lines"
+ },
+ "115": {
+  "p": "Jaylen Warren 66+ rushing yards (over 65.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22PITPHI",
+  "note": ""
+ },
+ "116": {
+  "p": "Javonte Williams 78+ rushing yards (over 77.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22TENDAL",
+  "note": ""
+ },
+ "117": {
+  "p": "Breece Hall 49+ rushing yards (over 48.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22NYJLAC",
+  "note": ""
+ },
+ "118": {
+  "p": "Fernando Mendoza 17+ rushing yards (over 16.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22LVDEN",
+  "note": ""
+ },
+ "119": {
+  "p": "Jonah Coleman 15+ yard longest rush (over 14.5)",
+  "k": 50.5,
+  "ev": "KXNFLLONGRSH-26NOV22LVDEN",
+  "note": ""
+ },
+ "120": {
+  "p": "Derrick Henry 64+ rushing yards (over 63.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22BALCAR",
+  "note": ""
+ },
+ "121": {
+  "p": "Christian McCaffrey 51+ rushing yards (over 50.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22MINSF",
+  "note": ""
+ },
+ "122": {
+  "p": "Kyle Monangai 44+ rushing yards (over 43.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22NOCHI",
+  "note": ""
+ },
+ "123": {
+  "p": "Isaiah Likely under 48.5 receiving yards",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22JACNYG",
+  "note": ""
+ },
+ "124": {
+  "p": "Eagles +3.5 v Steelers",
+  "k": 50.5,
+  "ev": "KXNFLSPREAD-26NOV22PITPHI",
+  "note": ""
+ },
+ "125": {
+  "p": "Ravens +2.5 at Panthers",
+  "k": 48.5,
+  "ev": "KXNFLSPREAD-26NOV22BALCAR",
+  "note": ""
+ },
+ "126": {
+  "p": "Cowboys -7.5 v Titans",
+  "k": 48.5,
+  "ev": "KXNFLSPREAD-26NOV22TENDAL",
+  "note": ""
+ },
+ "127": {
+  "p": "Vikings v 49ers under 46 total points",
+  "k": null,
+  "ev": "KXNFLTOTAL-26NOV22MINSF",
+  "note": "whole-number total can push; Kalshi lists only .5 lines"
+ },
+ "128": {
+  "p": "Eagles ML v Steelers",
+  "k": 34.5,
+  "ev": "KXNFLGAME-26NOV22PITPHI",
+  "note": ""
+ },
+ "129": {
+  "p": "Khalil Shakir 33+ receiving yards (over 32.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22MIABUF",
+  "note": ""
+ },
+ "130": {
+  "p": "J.J. McCarthy under 221.5 passing yards",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22JACNYG",
+  "note": ""
+ },
+ "131": {
+  "p": "Chuba Hubbard 92+ rushing + receiving yards (over 91.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22BALCAR",
+  "note": "Kalshi does not list this market"
+ },
+ "132": {
+  "p": "Isaiah Likely under 55.5 receiving yards",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22JACNYG",
+  "note": ""
+ },
+ "133": {
+  "p": "George Pickens 67+ receiving yards (over 66.5)",
+  "k": null,
+  "ev": "KXNFLGAME-26NOV22TENDAL",
+  "note": ""
+ }
+}

@@ -11,7 +11,11 @@ daily run as daily/DATE/book_novig.json. Output: fair_rung(rows, player, stat, r
 """
 import math, json, re, unicodedata
 
-MARKET = {'pts': 'player_points', 'reb': 'player_rebounds', 'ast': 'player_assists', '3pm': 'player_threes'}
+MARKET = {'pts': 'player_points', 'reb': 'player_rebounds', 'ast': 'player_assists', '3pm': 'player_threes',
+          # NFL (Nov 22): yards use a normal curve, counts use Poisson
+          'recyds': 'player_reception_yds', 'rushyds': 'player_rush_yds', 'passyds': 'player_pass_yds',
+          'rec': 'player_receptions', 'rushatt': 'player_rush_attempts', 'int': 'player_pass_interceptions'}
+SD = {'pts': lambda mu: max(3.5, 0.33 * mu), 'recyds': lambda mu: max(14.0, 0.55 * mu), 'rushyds': lambda mu: max(16.0, 0.45 * mu), 'passyds': lambda mu: max(38.0, 0.2 * mu)}
 
 
 def norm_name(n):
@@ -51,9 +55,10 @@ def fair_rung(rows, player, stat, rung):
     r = sorted(cand, key=lambda r: (-int(r['books']), abs(float(r['line']) + 0.5 - rung)))[0]
     line, p = float(r['line']), float(r['fair_over'])
     need = math.floor(line) + 1                     # Over 22.5 means 23 or more
-    if stat == 'pts':
-        sdf = lambda mu: max(3.5, 0.33 * mu)
-        mu = _solve(lambda m: norm_ge(m, sdf(m), need), p, 0.0, 80.0)
+    if need == rung: return round(p, 4), int(r['books']), line   # the books price this exact rung
+    if stat in SD:
+        sdf = SD[stat]
+        mu = _solve(lambda m: norm_ge(m, sdf(m), need), p, 0.0, 600.0)
         q = norm_ge(mu, sdf(mu), rung)
     else:
         lam = _solve(lambda l: pois_ge(l, need), p, 0.0, 40.0)

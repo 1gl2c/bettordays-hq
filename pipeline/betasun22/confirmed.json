@@ -1,0 +1,57 @@
+{
+ "picks": [],
+ "check_news": [
+  {
+   "player": "Bilal Coulibaly",
+   "team": "WSH",
+   "st": "reb",
+   "k": 4,
+   "ask": 0.51,
+   "be": 52.7,
+   "sim": 68.4,
+   "edge": 15.7,
+   "g": "ORL@WSH",
+   "ticker": "KXNBAREB-26NOV22ORLWAS-WASBCOULIBALY0-4",
+   "books": 49.4
+  },
+  {
+   "player": "Karl-Anthony Towns",
+   "team": "NY",
+   "st": "3pm",
+   "k": 2,
+   "ask": 0.55,
+   "be": 56.7,
+   "sim": 71.9,
+   "edge": 15.2,
+   "g": "IND@NY",
+   "ticker": "KXNBA3PT-26NOV22INDNYK-NYKKTOWNS32-2",
+   "books": 52.6
+  },
+  {
+   "player": "Jalen Brunson",
+   "team": "NY",
+   "st": "3pm",
+   "k": 3,
+   "ask": 0.54,
+   "be": 55.7,
+   "sim": 74.9,
+   "edge": 19.2,
+   "g": "IND@NY",
+   "ticker": "KXNBA3PT-26NOV22INDNYK-NYKJBRUNSON11-3",
+   "books": 55.5
+  },
+  {
+   "player": "Anthony Black",
+   "team": "ORL",
+   "st": "3pm",
+   "k": 2,
+   "ask": 0.51,
+   "be": 52.7,
+   "sim": 68.7,
+   "edge": 16.0,
+   "g": "ORL@WSH",
+   "ticker": "KXNBA3PT-26NOV22ORLWAS-ORLABLACK0-2",
+   "books": 49.8
+  }
+ ]
+}
