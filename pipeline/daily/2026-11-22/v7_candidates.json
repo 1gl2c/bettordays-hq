@@ -82,7 +82,7 @@
    "stat": "pass",
    "k": null,
    "sys": 43,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 8,
@@ -94,7 +94,7 @@
    "stat": "atd",
    "k": 22.5,
    "sys": 15,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 9,
@@ -106,7 +106,7 @@
    "stat": "other",
    "k": null,
    "sys": 80,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 10,
@@ -118,7 +118,7 @@
    "stat": "ml",
    "k": 84.5,
    "sys": 80,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 11,
@@ -130,7 +130,7 @@
    "stat": "ml",
    "k": 66.5,
    "sys": 60,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 12,
@@ -142,7 +142,7 @@
    "stat": "ml",
    "k": 70.5,
    "sys": 67,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 13,
@@ -154,7 +154,7 @@
    "stat": "spread",
    "k": null,
    "sys": 58,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 14,
@@ -166,7 +166,7 @@
    "stat": "ml",
    "k": 43.5,
    "sys": 43,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 15,
@@ -178,7 +178,7 @@
    "stat": "ml",
    "k": 33.5,
    "sys": 40,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 16,
@@ -190,7 +190,7 @@
    "stat": "ml",
    "k": 60.5,
    "sys": 59,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 17,
@@ -202,7 +202,7 @@
    "stat": "ml",
    "k": 29.5,
    "sys": 33,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 18,
@@ -214,7 +214,7 @@
    "stat": "other",
    "k": 57.5,
    "sys": 14,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 19,
@@ -226,7 +226,7 @@
    "stat": "rec",
    "k": 72.0,
    "sys": 85,
-   "fl": "Q"
+   "fl": "LIVE"
   },
   {
    "i": 20,
@@ -238,7 +238,7 @@
    "stat": "rec",
    "k": 54.5,
    "sys": 71,
-   "fl": "Q"
+   "fl": "LIVE"
   },
   {
    "i": 21,
@@ -262,7 +262,7 @@
    "stat": "recyds",
    "k": 50.5,
    "sys": 61,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 23,
@@ -274,7 +274,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 76,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 24,
@@ -286,7 +286,7 @@
    "stat": "recyds",
    "k": 58.5,
    "sys": 66,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 25,
@@ -298,7 +298,7 @@
    "stat": "ml",
    "k": 60.5,
    "sys": null,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 26,
@@ -322,7 +322,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 52,
-   "fl": "Q"
+   "fl": "LIVE"
   },
   {
    "i": 28,
@@ -334,7 +334,7 @@
    "stat": "atd",
    "k": 22.5,
    "sys": 26,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 29,
@@ -346,7 +346,7 @@
    "stat": "atd",
    "k": 20.5,
    "sys": 29,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 30,
@@ -358,7 +358,7 @@
    "stat": "atd",
    "k": 19.5,
    "sys": 30,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 31,
@@ -370,7 +370,7 @@
    "stat": "atd",
    "k": 24.5,
    "sys": 24,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 32,
@@ -382,7 +382,7 @@
    "stat": "atd",
    "k": 62.5,
    "sys": 62,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 33,
@@ -394,7 +394,7 @@
    "stat": "atd",
    "k": 57.5,
    "sys": 61,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 34,
@@ -406,7 +406,7 @@
    "stat": "atd",
    "k": 56.5,
    "sys": 62,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 35,
@@ -418,7 +418,7 @@
    "stat": "atd",
    "k": 64.5,
    "sys": 46,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 36,
@@ -430,7 +430,7 @@
    "stat": "atd",
    "k": 30.5,
    "sys": 33,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 37,
@@ -442,7 +442,7 @@
    "stat": "atd",
    "k": 54.5,
    "sys": 53,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 38,
@@ -454,7 +454,7 @@
    "stat": "atd",
    "k": 28.5,
    "sys": 62,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 39,
@@ -478,7 +478,7 @@
    "stat": "rec",
    "k": 70.5,
    "sys": 85,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 41,
@@ -490,7 +490,7 @@
    "stat": "rec",
    "k": 78.5,
    "sys": 81,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 42,
@@ -502,7 +502,7 @@
    "stat": "rush",
    "k": 77.5,
    "sys": 67,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 43,
@@ -514,7 +514,7 @@
    "stat": "rush",
    "k": 74.0,
    "sys": 85,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 44,
@@ -526,7 +526,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 63,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 45,
@@ -538,7 +538,7 @@
    "stat": "recyds",
    "k": 37.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 46,
@@ -550,7 +550,7 @@
    "stat": "recyds",
    "k": 21.5,
    "sys": 29,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 47,
@@ -562,7 +562,7 @@
    "stat": "pass",
    "k": null,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 48,
@@ -598,7 +598,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 54,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 51,
@@ -610,7 +610,7 @@
    "stat": "rush",
    "k": null,
    "sys": 69,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 52,
@@ -622,7 +622,7 @@
    "stat": "pass",
    "k": null,
    "sys": 56,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 53,
@@ -658,7 +658,7 @@
    "stat": "recyds",
    "k": 58.5,
    "sys": 64,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 56,
@@ -670,7 +670,7 @@
    "stat": "rush",
    "k": 54.5,
    "sys": 69,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 57,
@@ -682,7 +682,7 @@
    "stat": "ml",
    "k": 64.5,
    "sys": 60,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 58,
@@ -694,7 +694,7 @@
    "stat": "ml",
    "k": 57.5,
    "sys": 57,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 59,
@@ -706,7 +706,7 @@
    "stat": "spread",
    "k": 51.5,
    "sys": 51,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 60,
@@ -718,7 +718,7 @@
    "stat": "spread",
    "k": 48.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 61,
@@ -730,7 +730,7 @@
    "stat": "atd",
    "k": 54.5,
    "sys": 62,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 62,
@@ -742,7 +742,7 @@
    "stat": "atd",
    "k": 50.5,
    "sys": 62,
-   "fl": "Q"
+   "fl": "LIVE"
   },
   {
    "i": 63,
@@ -754,7 +754,7 @@
    "stat": "atd",
    "k": 56.5,
    "sys": 62,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 64,
@@ -766,7 +766,7 @@
    "stat": "atd",
    "k": 58.5,
    "sys": 62,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 65,
@@ -778,7 +778,7 @@
    "stat": "atd",
    "k": 67.5,
    "sys": 62,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 66,
@@ -790,7 +790,7 @@
    "stat": "recyds",
    "k": 72.5,
    "sys": 67,
-   "fl": "Q"
+   "fl": null
   },
   {
    "i": 67,
@@ -838,7 +838,7 @@
    "stat": "other",
    "k": null,
    "sys": 28,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 71,
@@ -862,7 +862,7 @@
    "stat": "rush",
    "k": 58.5,
    "sys": 74,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 73,
@@ -898,7 +898,7 @@
    "stat": "rec",
    "k": 74.5,
    "sys": 37,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 76,
@@ -910,7 +910,7 @@
    "stat": "rec",
    "k": 53.5,
    "sys": 29,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 77,
@@ -922,7 +922,7 @@
    "stat": "recyds",
    "k": 54.0,
    "sys": 37,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 78,
@@ -934,7 +934,7 @@
    "stat": "spread",
    "k": null,
    "sys": 55,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 79,
@@ -946,7 +946,7 @@
    "stat": "spread",
    "k": 58.5,
    "sys": 59,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 80,
@@ -958,7 +958,7 @@
    "stat": "spread",
    "k": 54.5,
    "sys": 53,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 81,
@@ -970,7 +970,7 @@
    "stat": "spread",
    "k": null,
    "sys": 48,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 82,
@@ -982,7 +982,7 @@
    "stat": "spread",
    "k": 59.5,
    "sys": 47,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 83,
@@ -1006,7 +1006,7 @@
    "stat": "spread",
    "k": 51.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 85,
@@ -1018,7 +1018,7 @@
    "stat": "spread",
    "k": null,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 86,
@@ -1030,7 +1030,7 @@
    "stat": "spread",
    "k": 49.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 87,
@@ -1042,7 +1042,7 @@
    "stat": "total",
    "k": 46.5,
    "sys": 47,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 88,
@@ -1054,7 +1054,7 @@
    "stat": "spread",
    "k": 51.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 89,
@@ -1066,7 +1066,7 @@
    "stat": "spread",
    "k": 49.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 90,
@@ -1078,7 +1078,7 @@
    "stat": "total",
    "k": 51.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 91,
@@ -1090,7 +1090,7 @@
    "stat": "spread",
    "k": 55.5,
    "sys": 51,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 92,
@@ -1102,7 +1102,7 @@
    "stat": "spread",
    "k": 51.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 93,
@@ -1138,7 +1138,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 68,
-   "fl": "Q"
+   "fl": null
   },
   {
    "i": 96,
@@ -1150,7 +1150,7 @@
    "stat": "rec",
    "k": 59.5,
    "sys": 64,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 97,
@@ -1162,7 +1162,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 77,
-   "fl": "Q"
+   "fl": "LIVE"
   },
   {
    "i": 98,
@@ -1174,7 +1174,7 @@
    "stat": "other",
    "k": null,
    "sys": 23,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 99,
@@ -1186,7 +1186,7 @@
    "stat": "ast",
    "k": null,
    "sys": null,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 100,
@@ -1198,7 +1198,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 65,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 101,
@@ -1210,7 +1210,7 @@
    "stat": "rec",
    "k": 53.5,
    "sys": 75,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 102,
@@ -1222,7 +1222,7 @@
    "stat": "atd",
    "k": 53.5,
    "sys": 62,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 103,
@@ -1234,7 +1234,7 @@
    "stat": "rec",
    "k": null,
    "sys": 62,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 104,
@@ -1246,7 +1246,7 @@
    "stat": "rush",
    "k": null,
    "sys": 23,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 105,
@@ -1258,7 +1258,7 @@
    "stat": "spread",
    "k": 64.5,
    "sys": 62,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 106,
@@ -1270,7 +1270,7 @@
    "stat": "total",
    "k": 52.5,
    "sys": 52,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 107,
@@ -1294,7 +1294,7 @@
    "stat": "spread",
    "k": 46.5,
    "sys": 47,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 109,
@@ -1306,7 +1306,7 @@
    "stat": "spread",
    "k": null,
    "sys": 48,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 110,
@@ -1330,7 +1330,7 @@
    "stat": "recyds",
    "k": 57.5,
    "sys": 85,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 112,
@@ -1342,7 +1342,7 @@
    "stat": "recyds",
    "k": 54.5,
    "sys": 53,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 113,
@@ -1354,7 +1354,7 @@
    "stat": "spread",
    "k": null,
    "sys": 49,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 114,
@@ -1366,7 +1366,7 @@
    "stat": "total",
    "k": null,
    "sys": 53,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 115,
@@ -1378,7 +1378,7 @@
    "stat": "rush",
    "k": null,
    "sys": 59,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 116,
@@ -1390,7 +1390,7 @@
    "stat": "rush",
    "k": null,
    "sys": 40,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 117,
@@ -1402,7 +1402,7 @@
    "stat": "rush",
    "k": null,
    "sys": 48,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 118,
@@ -1414,7 +1414,7 @@
    "stat": "rush",
    "k": null,
    "sys": 31,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 119,
@@ -1426,7 +1426,7 @@
    "stat": "other",
    "k": 50.5,
    "sys": 35,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 120,
@@ -1438,7 +1438,7 @@
    "stat": "rush",
    "k": null,
    "sys": 42,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 121,
@@ -1462,7 +1462,7 @@
    "stat": "rush",
    "k": null,
    "sys": 74,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 123,
@@ -1474,7 +1474,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 37,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 124,
@@ -1486,7 +1486,7 @@
    "stat": "spread",
    "k": 50.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 125,
@@ -1498,7 +1498,7 @@
    "stat": "spread",
    "k": 48.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 126,
@@ -1510,7 +1510,7 @@
    "stat": "spread",
    "k": 48.5,
    "sys": 50,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 127,
@@ -1534,7 +1534,7 @@
    "stat": "ml",
    "k": 34.5,
    "sys": 40,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 129,
@@ -1546,7 +1546,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 75,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 130,
@@ -1558,7 +1558,7 @@
    "stat": "pass",
    "k": null,
    "sys": 49,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 131,
@@ -1570,7 +1570,7 @@
    "stat": "combo",
    "k": null,
    "sys": 69,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 132,
@@ -1582,7 +1582,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 47,
-   "fl": null
+   "fl": "LIVE"
   },
   {
    "i": 133,
@@ -1594,7 +1594,7 @@
    "stat": "recyds",
    "k": null,
    "sys": 59,
-   "fl": null
+   "fl": "LIVE"
   }
  ]
 }

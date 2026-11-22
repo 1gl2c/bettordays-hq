@@ -19,7 +19,7 @@ S = json.load(open('sun22/sun22.json')); ROWS = S['rows']; NLEG = len(ROWS)
 BK = json.load(open(f'daily/{DAY}/book_fair.json'))
 EXTRA, ALTMATCH = {}, {}
 # questionable at merge time (AI rooms and team reports, 9:20 AM PT): shown as 'could sit'. Ace, Nov 22: a player who does not play voids the leg (money back), so Q players stay eligible for tickets
-QLEGS = {3, 4, 19, 20, 97, 62, 66, 95, 27}   # Towns (illness, missed Saturday), Jeanty (sprain), Tuten, Hockenson (wrist), Tate (shoulder)
+QLEGS = {3, 4, 19, 20, 97, 62, 27}   # Towns (illness, still day-to-day at 3:15 PM), Jeanty, Tuten, Tate. Hockenson cleared (active, off the injury report at 3:15 PM)
 # a game counts as started once its kickoff or tip has passed (Pacific time) when this merge runs
 NOW = _dt.datetime.now(_dt.timezone(_dt.timedelta(hours=-8)))
 def started(t):
