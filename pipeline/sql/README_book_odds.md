@@ -12,3 +12,8 @@ credits a pull. Free plan 500/month (about 12 pulls) to test; $30 plan 20,000/mo
 
 EV use: where a Kalshi rung matches a book line, true chance = no-vig consensus; EV = fair / (Kalshi price + fee) - 1.
 Track the consensus Brier against Kalshi on our legs for a week before trusting it over the favorite-edge mode.
+
+## Any sport (Nov 22)
+`select public.pull_book_odds_sport('americanfootball_nfl', 'player_reception_yds,player_receptions,player_rush_yds,player_pass_yds,player_anytime_td', 8);`
+Same Vault key, same `book_odds` table and `book_novig` view. Sport and market names are checked against `^[a-z_,]+$` before any request.
+Execute is revoked from public, anon and authenticated.
