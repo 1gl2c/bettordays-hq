@@ -1,0 +1,70 @@
+# Nov 22 capper slate, deduplicated, in Ace's order. (text, sport, game, time PT, market)
+G={'BUF':('MIA@BUF','10:00 AM'),'MIA':('MIA@BUF','10:00 AM'),'CHI':('NO@CHI','10:00 AM'),'NO':('NO@CHI','10:00 AM'),'DAL':('TEN@DAL','10:00 AM'),'TEN':('TEN@DAL','10:00 AM'),
+ 'DET':('TB@DET','10:00 AM'),'TB':('TB@DET','10:00 AM'),'KC':('ARI@KC','10:00 AM'),'ARI':('ARI@KC','10:00 AM'),'PHI':('PIT@PHI','10:00 AM'),'PIT':('PIT@PHI','10:00 AM'),
+ 'BAL':('BAL@CAR','10:00 AM'),'CAR':('BAL@CAR','10:00 AM'),'NYJ':('NYJ@LAC','1:05 PM'),'LAC':('NYJ@LAC','1:05 PM'),'LV':('LV@DEN','1:25 PM'),'DEN':('LV@DEN','1:25 PM'),
+ 'JAX':('JAX@NYG','1:25 PM'),'NYG':('JAX@NYG','1:25 PM'),'MIN':('MIN v SF','5:20 PM'),'SF':('MIN v SF','5:20 PM')}
+T={'Caleb Williams':'CHI','Jordyn Tyson':'NO','Kyle Monangai':'CHI','Fernando Mendoza':'LV','Ashton Jeanty':'LV','Brock Purdy':'SF','Ryan Flournoy':'DAL','Malachi Fields':'NYG','Carnell Tate':'TEN',
+ 'James Cook':'BUF','CeeDee Lamb':'DAL',"D'Andre Swift":'CHI','Emmett Johnson':'KC','Josh Downs':'KC','Tony Pollard':'TEN','Isaiah Likely':'NYG','Christian McCaffrey':'SF','Trey McBride':'ARI',
+ 'Justice Hill':'BAL','Javonte Williams':'DAL','Adonai Mitchell':'NYJ','Dak Prescott':'DAL','Justin Jefferson':'MIN','Kenneth Walker III':'KC','Zay Flowers':'BAL','Chuba Hubbard':'CAR',
+ 'Bhayshul Tuten':'JAX','Jonah Coleman':'DEN','Josh Allen':'BUF','Jahmyr Gibbs':'DET','T.J. Hockenson':'MIN','George Kittle':'SF','Joe Milton':'PHI','Jauan Jennings':'MIN','Ollie Gordon II':'MIA',
+ 'Amon-Ra St. Brown':'DET','Devin Bush':'CHI','Caleb Douglas':'MIA','Breece Hall':'NYJ','Derrick Henry':'BAL','Jakobi Meyers':'JAX','DeVonta Smith':'PHI','Courtland Sutton':'DEN',
+ 'Jaylen Warren':'PIT','Khalil Shakir':'BUF','J.J. McCarthy':'NYG','George Pickens':'DAL'}
+TEAMS={'Bears':'CHI','Lions':'DET','Jaguars':'JAX','Eagles':'PHI','Ravens':'BAL','Buccaneers':'TB','Chargers':'LAC','Giants':'NYG','Steelers':'PIT','Panthers':'CAR','Raiders':'LV','Bills':'BUF',
+ 'Broncos':'DEN','49ers':'SF','Vikings':'MIN','Chiefs':'KC','Cowboys':'DAL'}
+NFL_PROP=lambda t,p,m:(t,'NFL',)+G[T[p]]+(m,)
+L=[
+('Carlos Alcaraz ML v Alexander Zverev','TENNIS','ATP Finals final: Alcaraz v Zverev','9:10 AM','ml'),
+('Carlos Alcaraz wins in straight sets (2-0) v Alexander Zverev','TENNIS','ATP Finals final: Alcaraz v Zverev','9:10 AM','sets'),
+('Karl-Anthony Towns 2+ threes','NBA','IND@NY','5:00 PM','3pm'),('Karl-Anthony Towns 1+ threes','NBA','IND@NY','5:00 PM','3pm'),
+('Wendell Carter Jr. 8+ rebounds','NBA','ORL@WSH','4:00 PM','reb'),('Wendell Carter Jr. 6+ rebounds','NBA','ORL@WSH','4:00 PM','reb'),
+NFL_PROP('Caleb Williams under 250 passing yards','Caleb Williams','pass'),NFL_PROP('Jordyn Tyson anytime touchdown','Jordyn Tyson','td'),
+NFL_PROP('Kyle Monangai 10+ rushing attempts','Kyle Monangai','rush att'),
+('Bears ML v Saints','NFL')+G['CHI']+('ml',),('Lions ML v Buccaneers','NFL')+G['DET']+('ml',),('Jaguars ML at Giants','NFL')+G['JAX']+('ml',),
+('Eagles +7 v Steelers','NFL')+G['PHI']+('spread',),('Ravens ML at Panthers','NFL')+G['BAL']+('ml',),('Buccaneers ML at Lions','NFL')+G['TB']+('ml',),
+('Chargers ML v Jets','NFL')+G['LAC']+('ml',),('Giants ML v Jaguars','NFL')+G['NYG']+('ml',),
+NFL_PROP('Fernando Mendoza 1+ interceptions (over 0.5)','Fernando Mendoza','int'),NFL_PROP('Ashton Jeanty 3+ receptions','Ashton Jeanty','rec'),NFL_PROP('Ashton Jeanty 4+ receptions','Ashton Jeanty','rec'),
+NFL_PROP('Brock Purdy 15+ rushing yards','Brock Purdy','rush'),NFL_PROP('Ryan Flournoy 40+ receiving yards','Ryan Flournoy','recyds'),NFL_PROP('Ryan Flournoy 35+ receiving yards','Ryan Flournoy','recyds'),
+NFL_PROP('Malachi Fields 25+ receiving yards','Malachi Fields','recyds'),
+('Heat ML v Thunder','NBA','OKC@MIA','3:00 PM','ml'),('Oilers ML at Blues','NHL','EDM@STL','4:00 PM','ml'),
+NFL_PROP('Carnell Tate 60+ receiving yards','Carnell Tate','recyds'),
+NFL_PROP('James Cook 2+ touchdowns','James Cook','td'),NFL_PROP('CeeDee Lamb 2+ touchdowns','CeeDee Lamb','td'),NFL_PROP("D'Andre Swift 2+ touchdowns","D'Andre Swift",'td'),NFL_PROP('Emmett Johnson 2+ touchdowns','Emmett Johnson','td'),
+NFL_PROP('James Cook anytime touchdown','James Cook','td'),NFL_PROP('CeeDee Lamb anytime touchdown','CeeDee Lamb','td'),NFL_PROP("D'Andre Swift anytime touchdown","D'Andre Swift",'td'),NFL_PROP('Emmett Johnson anytime touchdown','Emmett Johnson','td'),
+NFL_PROP('Josh Downs anytime touchdown','Josh Downs','td'),NFL_PROP('Tony Pollard anytime touchdown','Tony Pollard','td'),NFL_PROP('Isaiah Likely anytime touchdown','Isaiah Likely','td'),NFL_PROP('Christian McCaffrey anytime touchdown','Christian McCaffrey','td'),
+NFL_PROP('Trey McBride 5+ receptions','Trey McBride','rec'),NFL_PROP('Justice Hill 2+ receptions','Justice Hill','rec'),NFL_PROP('Javonte Williams 50+ rushing yards','Javonte Williams','rush'),
+NFL_PROP('James Cook 70+ rushing yards','James Cook','rush'),NFL_PROP('Adonai Mitchell 46+ receiving yards (over 45.5)','Adonai Mitchell','recyds'),NFL_PROP('Adonai Mitchell 60+ receiving yards','Adonai Mitchell','recyds'),
+NFL_PROP('Adonai Mitchell 80+ receiving yards','Adonai Mitchell','recyds'),NFL_PROP('Dak Prescott 279+ passing yards (over 278.5)','Dak Prescott','pass'),NFL_PROP('Justin Jefferson 85+ receiving yards (over 84.5)','Justin Jefferson','recyds'),
+NFL_PROP('Kenneth Walker III 83+ rushing yards (over 82.5)','Kenneth Walker III','rush'),NFL_PROP('Zay Flowers 69+ receiving yards (over 68.5)','Zay Flowers','recyds'),NFL_PROP('James Cook 91+ rushing yards (over 90.5)','James Cook','rush'),
+NFL_PROP('Dak Prescott 270+ passing yards','Dak Prescott','pass'),NFL_PROP('Justin Jefferson 80+ receiving yards','Justin Jefferson','recyds'),NFL_PROP('Kenneth Walker III 80+ rushing yards','Kenneth Walker III','rush'),
+NFL_PROP('Zay Flowers 60+ receiving yards','Zay Flowers','recyds'),NFL_PROP('James Cook 90+ rushing yards','James Cook','rush'),
+('Steelers ML at Eagles','NFL')+G['PIT']+('ml',),('Panthers ML v Ravens','NFL')+G['CAR']+('ml',),('Jaguars -5.5 at Giants','NFL')+G['JAX']+('spread',),('Raiders +10.5 at Broncos','NFL')+G['LV']+('spread',),
+NFL_PROP('Chuba Hubbard anytime touchdown','Chuba Hubbard','td'),NFL_PROP('Bhayshul Tuten anytime touchdown','Bhayshul Tuten','td'),NFL_PROP('Jonah Coleman anytime touchdown','Jonah Coleman','td'),
+NFL_PROP('Josh Allen anytime touchdown','Josh Allen','td'),NFL_PROP('Jahmyr Gibbs anytime touchdown','Jahmyr Gibbs','td'),
+NFL_PROP('T.J. Hockenson 30+ receiving yards','T.J. Hockenson','recyds'),NFL_PROP('George Kittle 40+ receiving yards','George Kittle','recyds'),NFL_PROP('Christian McCaffrey 90+ rushing + receiving yards','Christian McCaffrey','rr'),
+NFL_PROP('Justin Jefferson 8+ receptions','Justin Jefferson','rec'),NFL_PROP('Joe Milton under 7.5 rushing attempts','Joe Milton','rush att'),NFL_PROP('Christian McCaffrey 50+ rushing yards','Christian McCaffrey','rush'),
+NFL_PROP('Kyle Monangai 40+ rushing yards','Kyle Monangai','rush'),NFL_PROP('Jauan Jennings 20+ receiving yards','Jauan Jennings','recyds'),NFL_PROP('Jauan Jennings 15+ receiving yards','Jauan Jennings','recyds'),
+NFL_PROP('Ollie Gordon II 2+ receptions','Ollie Gordon II','rec'),NFL_PROP('Ollie Gordon II 3+ receptions','Ollie Gordon II','rec'),NFL_PROP('Isaiah Likely under 49.5 receiving yards','Isaiah Likely','recyds'),
+('Buccaneers +6 at Lions','NFL')+G['TB']+('spread',),('Buccaneers +6.5 at Lions','NFL')+G['TB']+('spread',),('Eagles +4.5 v Steelers','NFL')+G['PHI']+('spread',),('Giants +6 v Jaguars','NFL')+G['NYG']+('spread',),
+('Bears -6.5 first half v Saints','NFL')+G['CHI']+('1h spread',),('Vikings v 49ers over 45.5 total points','NFL')+G['SF']+('total',),('Panthers -2.5 v Ravens','NFL')+G['CAR']+('spread',),
+('Bears -11.5 v Saints','NFL')+G['CHI']+('spread',),('Buccaneers +3.5 at Lions','NFL')+G['TB']+('spread',),('Ravens at Panthers under 43.5 total points','NFL')+G['BAL']+('total',),
+('Bills -16.5 v Dolphins','NFL')+G['BUF']+('spread',),('Steelers -3.5 at Eagles','NFL')+G['PIT']+('spread',),('Jaguars at Giants under 45.5 total points','NFL')+G['JAX']+('total',),
+('Chargers -2.5 v Jets','NFL')+G['LAC']+('spread',),('Broncos -10.5 v Raiders','NFL')+G['DEN']+('spread',),('49ers -2.5 v Vikings','NFL')+G['SF']+('spread',),('Vikings v 49ers over 46.5 total points','NFL')+G['SF']+('total',),
+NFL_PROP('T.J. Hockenson under 47.5 receiving yards','T.J. Hockenson','recyds'),NFL_PROP('Amon-Ra St. Brown 7+ receptions (over 6.5)','Amon-Ra St. Brown','rec'),NFL_PROP('Ashton Jeanty 29+ receiving yards (over 28.5)','Ashton Jeanty','recyds'),
+NFL_PROP('Emmett Johnson 20+ rushing attempts (over 19.5)','Emmett Johnson','rush att'),NFL_PROP('Devin Bush under 7.5 tackles + assists','Devin Bush','tackles'),NFL_PROP('Caleb Douglas 49+ receiving yards (over 48.5)','Caleb Douglas','recyds'),
+NFL_PROP('Breece Hall 3+ receptions (over 2.5)','Breece Hall','rec'),NFL_PROP('Derrick Henry anytime touchdown','Derrick Henry','td'),NFL_PROP('Jakobi Meyers under 20.5 longest reception','Jakobi Meyers','long'),
+NFL_PROP('Emmett Johnson 85+ rushing yards (over 84.5)','Emmett Johnson','rush'),('Buccaneers +7.5 at Lions','NFL')+G['TB']+('spread',),('Bills team total over 30.5 points','NFL')+G['BUF']+('team total',),
+('Mavericks ML at Jazz','NBA','DAL@UTAH','4:00 PM','ml'),('Chiefs -16.5 v Cardinals','NFL')+G['KC']+('spread',),('Chargers -3 v Jets','NFL')+G['LAC']+('spread',),('Vikings v 49ers under 46.5 total points','NFL')+G['SF']+('total',),
+NFL_PROP('DeVonta Smith 50+ receiving yards','DeVonta Smith','recyds'),NFL_PROP('Courtland Sutton 30+ receiving yards','Courtland Sutton','recyds'),('Ravens +3 at Panthers','NFL')+G['BAL']+('spread',),
+('Ravens at Panthers over 43 total points','NFL')+G['BAL']+('total',),NFL_PROP('Jaylen Warren 66+ rushing yards (over 65.5)','Jaylen Warren','rush'),NFL_PROP('Javonte Williams 78+ rushing yards (over 77.5)','Javonte Williams','rush'),
+NFL_PROP('Breece Hall 49+ rushing yards (over 48.5)','Breece Hall','rush'),NFL_PROP('Fernando Mendoza 17+ rushing yards (over 16.5)','Fernando Mendoza','rush'),NFL_PROP('Jonah Coleman 15+ yard longest rush (over 14.5)','Jonah Coleman','long'),
+NFL_PROP('Derrick Henry 64+ rushing yards (over 63.5)','Derrick Henry','rush'),NFL_PROP('Christian McCaffrey 51+ rushing yards (over 50.5)','Christian McCaffrey','rush'),NFL_PROP('Kyle Monangai 44+ rushing yards (over 43.5)','Kyle Monangai','rush'),
+NFL_PROP('Isaiah Likely under 48.5 receiving yards','Isaiah Likely','recyds'),('Eagles +3.5 v Steelers','NFL')+G['PHI']+('spread',),('Ravens +2.5 at Panthers','NFL')+G['BAL']+('spread',),
+('Cowboys -7.5 v Titans','NFL')+G['DAL']+('spread',),('Vikings v 49ers under 46 total points','NFL')+G['SF']+('total',),('Eagles ML v Steelers','NFL')+G['PHI']+('ml',),
+NFL_PROP('Khalil Shakir 33+ receiving yards (over 32.5)','Khalil Shakir','recyds'),NFL_PROP('J.J. McCarthy under 221.5 passing yards','J.J. McCarthy','pass'),NFL_PROP('Chuba Hubbard 92+ rushing + receiving yards (over 91.5)','Chuba Hubbard','rr'),
+NFL_PROP('Isaiah Likely under 55.5 receiving yards','Isaiah Likely','recyds'),NFL_PROP('George Pickens 67+ receiving yards (over 66.5)','George Pickens','recyds'),
+]
+if __name__=='__main__':
+  import json
+  json.dump([dict(zip(('p','sp','g','t','mkt'),x)) for x in L],open('sun22/legs.json','w'),indent=1)
+  with open('daily/2026-11-22/v8_lines.txt','w') as f:
+    for i,x in enumerate(L,1): f.write(f"{i} | {x[0]} | {x[1]} {x[2]} {x[3]} PT | market: {x[4]}\n")
+  print(len(L))

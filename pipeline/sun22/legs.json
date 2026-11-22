@@ -1,0 +1,933 @@
+[
+ {
+  "p": "Carlos Alcaraz ML v Alexander Zverev",
+  "sp": "TENNIS",
+  "g": "ATP Finals final: Alcaraz v Zverev",
+  "t": "9:10 AM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Carlos Alcaraz wins in straight sets (2-0) v Alexander Zverev",
+  "sp": "TENNIS",
+  "g": "ATP Finals final: Alcaraz v Zverev",
+  "t": "9:10 AM",
+  "mkt": "sets"
+ },
+ {
+  "p": "Karl-Anthony Towns 2+ threes",
+  "sp": "NBA",
+  "g": "IND@NY",
+  "t": "5:00 PM",
+  "mkt": "3pm"
+ },
+ {
+  "p": "Karl-Anthony Towns 1+ threes",
+  "sp": "NBA",
+  "g": "IND@NY",
+  "t": "5:00 PM",
+  "mkt": "3pm"
+ },
+ {
+  "p": "Wendell Carter Jr. 8+ rebounds",
+  "sp": "NBA",
+  "g": "ORL@WSH",
+  "t": "4:00 PM",
+  "mkt": "reb"
+ },
+ {
+  "p": "Wendell Carter Jr. 6+ rebounds",
+  "sp": "NBA",
+  "g": "ORL@WSH",
+  "t": "4:00 PM",
+  "mkt": "reb"
+ },
+ {
+  "p": "Caleb Williams under 250 passing yards",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "pass"
+ },
+ {
+  "p": "Jordyn Tyson anytime touchdown",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "Kyle Monangai 10+ rushing attempts",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "rush att"
+ },
+ {
+  "p": "Bears ML v Saints",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Lions ML v Buccaneers",
+  "sp": "NFL",
+  "g": "TB@DET",
+  "t": "10:00 AM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Jaguars ML at Giants",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Eagles +7 v Steelers",
+  "sp": "NFL",
+  "g": "PIT@PHI",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Ravens ML at Panthers",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Buccaneers ML at Lions",
+  "sp": "NFL",
+  "g": "TB@DET",
+  "t": "10:00 AM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Chargers ML v Jets",
+  "sp": "NFL",
+  "g": "NYJ@LAC",
+  "t": "1:05 PM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Giants ML v Jaguars",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Fernando Mendoza 1+ interceptions (over 0.5)",
+  "sp": "NFL",
+  "g": "LV@DEN",
+  "t": "1:25 PM",
+  "mkt": "int"
+ },
+ {
+  "p": "Ashton Jeanty 3+ receptions",
+  "sp": "NFL",
+  "g": "LV@DEN",
+  "t": "1:25 PM",
+  "mkt": "rec"
+ },
+ {
+  "p": "Ashton Jeanty 4+ receptions",
+  "sp": "NFL",
+  "g": "LV@DEN",
+  "t": "1:25 PM",
+  "mkt": "rec"
+ },
+ {
+  "p": "Brock Purdy 15+ rushing yards",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Ryan Flournoy 40+ receiving yards",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Ryan Flournoy 35+ receiving yards",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Malachi Fields 25+ receiving yards",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Heat ML v Thunder",
+  "sp": "NBA",
+  "g": "OKC@MIA",
+  "t": "3:00 PM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Oilers ML at Blues",
+  "sp": "NHL",
+  "g": "EDM@STL",
+  "t": "4:00 PM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Carnell Tate 60+ receiving yards",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "James Cook 2+ touchdowns",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "CeeDee Lamb 2+ touchdowns",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "D'Andre Swift 2+ touchdowns",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "Emmett Johnson 2+ touchdowns",
+  "sp": "NFL",
+  "g": "ARI@KC",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "James Cook anytime touchdown",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "CeeDee Lamb anytime touchdown",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "D'Andre Swift anytime touchdown",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "Emmett Johnson anytime touchdown",
+  "sp": "NFL",
+  "g": "ARI@KC",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "Josh Downs anytime touchdown",
+  "sp": "NFL",
+  "g": "ARI@KC",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "Tony Pollard anytime touchdown",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "Isaiah Likely anytime touchdown",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "td"
+ },
+ {
+  "p": "Christian McCaffrey anytime touchdown",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "td"
+ },
+ {
+  "p": "Trey McBride 5+ receptions",
+  "sp": "NFL",
+  "g": "ARI@KC",
+  "t": "10:00 AM",
+  "mkt": "rec"
+ },
+ {
+  "p": "Justice Hill 2+ receptions",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "rec"
+ },
+ {
+  "p": "Javonte Williams 50+ rushing yards",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "James Cook 70+ rushing yards",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Adonai Mitchell 46+ receiving yards (over 45.5)",
+  "sp": "NFL",
+  "g": "NYJ@LAC",
+  "t": "1:05 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Adonai Mitchell 60+ receiving yards",
+  "sp": "NFL",
+  "g": "NYJ@LAC",
+  "t": "1:05 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Adonai Mitchell 80+ receiving yards",
+  "sp": "NFL",
+  "g": "NYJ@LAC",
+  "t": "1:05 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Dak Prescott 279+ passing yards (over 278.5)",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "pass"
+ },
+ {
+  "p": "Justin Jefferson 85+ receiving yards (over 84.5)",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Kenneth Walker III 83+ rushing yards (over 82.5)",
+  "sp": "NFL",
+  "g": "ARI@KC",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Zay Flowers 69+ receiving yards (over 68.5)",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "James Cook 91+ rushing yards (over 90.5)",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Dak Prescott 270+ passing yards",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "pass"
+ },
+ {
+  "p": "Justin Jefferson 80+ receiving yards",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Kenneth Walker III 80+ rushing yards",
+  "sp": "NFL",
+  "g": "ARI@KC",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Zay Flowers 60+ receiving yards",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "James Cook 90+ rushing yards",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Steelers ML at Eagles",
+  "sp": "NFL",
+  "g": "PIT@PHI",
+  "t": "10:00 AM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Panthers ML v Ravens",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Jaguars -5.5 at Giants",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Raiders +10.5 at Broncos",
+  "sp": "NFL",
+  "g": "LV@DEN",
+  "t": "1:25 PM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Chuba Hubbard anytime touchdown",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "Bhayshul Tuten anytime touchdown",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "td"
+ },
+ {
+  "p": "Jonah Coleman anytime touchdown",
+  "sp": "NFL",
+  "g": "LV@DEN",
+  "t": "1:25 PM",
+  "mkt": "td"
+ },
+ {
+  "p": "Josh Allen anytime touchdown",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "Jahmyr Gibbs anytime touchdown",
+  "sp": "NFL",
+  "g": "TB@DET",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "T.J. Hockenson 30+ receiving yards",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "George Kittle 40+ receiving yards",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Christian McCaffrey 90+ rushing + receiving yards",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "rr"
+ },
+ {
+  "p": "Justin Jefferson 8+ receptions",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "rec"
+ },
+ {
+  "p": "Joe Milton under 7.5 rushing attempts",
+  "sp": "NFL",
+  "g": "PIT@PHI",
+  "t": "10:00 AM",
+  "mkt": "rush att"
+ },
+ {
+  "p": "Christian McCaffrey 50+ rushing yards",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Kyle Monangai 40+ rushing yards",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Jauan Jennings 20+ receiving yards",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Jauan Jennings 15+ receiving yards",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Ollie Gordon II 2+ receptions",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "rec"
+ },
+ {
+  "p": "Ollie Gordon II 3+ receptions",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "rec"
+ },
+ {
+  "p": "Isaiah Likely under 49.5 receiving yards",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Buccaneers +6 at Lions",
+  "sp": "NFL",
+  "g": "TB@DET",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Buccaneers +6.5 at Lions",
+  "sp": "NFL",
+  "g": "TB@DET",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Eagles +4.5 v Steelers",
+  "sp": "NFL",
+  "g": "PIT@PHI",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Giants +6 v Jaguars",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Bears -6.5 first half v Saints",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "1h spread"
+ },
+ {
+  "p": "Vikings v 49ers over 45.5 total points",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "total"
+ },
+ {
+  "p": "Panthers -2.5 v Ravens",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Bears -11.5 v Saints",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Buccaneers +3.5 at Lions",
+  "sp": "NFL",
+  "g": "TB@DET",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Ravens at Panthers under 43.5 total points",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "total"
+ },
+ {
+  "p": "Bills -16.5 v Dolphins",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Steelers -3.5 at Eagles",
+  "sp": "NFL",
+  "g": "PIT@PHI",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Jaguars at Giants under 45.5 total points",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "total"
+ },
+ {
+  "p": "Chargers -2.5 v Jets",
+  "sp": "NFL",
+  "g": "NYJ@LAC",
+  "t": "1:05 PM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Broncos -10.5 v Raiders",
+  "sp": "NFL",
+  "g": "LV@DEN",
+  "t": "1:25 PM",
+  "mkt": "spread"
+ },
+ {
+  "p": "49ers -2.5 v Vikings",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Vikings v 49ers over 46.5 total points",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "total"
+ },
+ {
+  "p": "T.J. Hockenson under 47.5 receiving yards",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Amon-Ra St. Brown 7+ receptions (over 6.5)",
+  "sp": "NFL",
+  "g": "TB@DET",
+  "t": "10:00 AM",
+  "mkt": "rec"
+ },
+ {
+  "p": "Ashton Jeanty 29+ receiving yards (over 28.5)",
+  "sp": "NFL",
+  "g": "LV@DEN",
+  "t": "1:25 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Emmett Johnson 20+ rushing attempts (over 19.5)",
+  "sp": "NFL",
+  "g": "ARI@KC",
+  "t": "10:00 AM",
+  "mkt": "rush att"
+ },
+ {
+  "p": "Devin Bush under 7.5 tackles + assists",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "tackles"
+ },
+ {
+  "p": "Caleb Douglas 49+ receiving yards (over 48.5)",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Breece Hall 3+ receptions (over 2.5)",
+  "sp": "NFL",
+  "g": "NYJ@LAC",
+  "t": "1:05 PM",
+  "mkt": "rec"
+ },
+ {
+  "p": "Derrick Henry anytime touchdown",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "td"
+ },
+ {
+  "p": "Jakobi Meyers under 20.5 longest reception",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "long"
+ },
+ {
+  "p": "Emmett Johnson 85+ rushing yards (over 84.5)",
+  "sp": "NFL",
+  "g": "ARI@KC",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Buccaneers +7.5 at Lions",
+  "sp": "NFL",
+  "g": "TB@DET",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Bills team total over 30.5 points",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "team total"
+ },
+ {
+  "p": "Mavericks ML at Jazz",
+  "sp": "NBA",
+  "g": "DAL@UTAH",
+  "t": "4:00 PM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Chiefs -16.5 v Cardinals",
+  "sp": "NFL",
+  "g": "ARI@KC",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Chargers -3 v Jets",
+  "sp": "NFL",
+  "g": "NYJ@LAC",
+  "t": "1:05 PM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Vikings v 49ers under 46.5 total points",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "total"
+ },
+ {
+  "p": "DeVonta Smith 50+ receiving yards",
+  "sp": "NFL",
+  "g": "PIT@PHI",
+  "t": "10:00 AM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Courtland Sutton 30+ receiving yards",
+  "sp": "NFL",
+  "g": "LV@DEN",
+  "t": "1:25 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Ravens +3 at Panthers",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Ravens at Panthers over 43 total points",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "total"
+ },
+ {
+  "p": "Jaylen Warren 66+ rushing yards (over 65.5)",
+  "sp": "NFL",
+  "g": "PIT@PHI",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Javonte Williams 78+ rushing yards (over 77.5)",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Breece Hall 49+ rushing yards (over 48.5)",
+  "sp": "NFL",
+  "g": "NYJ@LAC",
+  "t": "1:05 PM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Fernando Mendoza 17+ rushing yards (over 16.5)",
+  "sp": "NFL",
+  "g": "LV@DEN",
+  "t": "1:25 PM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Jonah Coleman 15+ yard longest rush (over 14.5)",
+  "sp": "NFL",
+  "g": "LV@DEN",
+  "t": "1:25 PM",
+  "mkt": "long"
+ },
+ {
+  "p": "Derrick Henry 64+ rushing yards (over 63.5)",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Christian McCaffrey 51+ rushing yards (over 50.5)",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Kyle Monangai 44+ rushing yards (over 43.5)",
+  "sp": "NFL",
+  "g": "NO@CHI",
+  "t": "10:00 AM",
+  "mkt": "rush"
+ },
+ {
+  "p": "Isaiah Likely under 48.5 receiving yards",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "Eagles +3.5 v Steelers",
+  "sp": "NFL",
+  "g": "PIT@PHI",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Ravens +2.5 at Panthers",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Cowboys -7.5 v Titans",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "spread"
+ },
+ {
+  "p": "Vikings v 49ers under 46 total points",
+  "sp": "NFL",
+  "g": "MIN v SF",
+  "t": "5:20 PM",
+  "mkt": "total"
+ },
+ {
+  "p": "Eagles ML v Steelers",
+  "sp": "NFL",
+  "g": "PIT@PHI",
+  "t": "10:00 AM",
+  "mkt": "ml"
+ },
+ {
+  "p": "Khalil Shakir 33+ receiving yards (over 32.5)",
+  "sp": "NFL",
+  "g": "MIA@BUF",
+  "t": "10:00 AM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "J.J. McCarthy under 221.5 passing yards",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "pass"
+ },
+ {
+  "p": "Chuba Hubbard 92+ rushing + receiving yards (over 91.5)",
+  "sp": "NFL",
+  "g": "BAL@CAR",
+  "t": "10:00 AM",
+  "mkt": "rr"
+ },
+ {
+  "p": "Isaiah Likely under 55.5 receiving yards",
+  "sp": "NFL",
+  "g": "JAX@NYG",
+  "t": "1:25 PM",
+  "mkt": "recyds"
+ },
+ {
+  "p": "George Pickens 67+ receiving yards (over 66.5)",
+  "sp": "NFL",
+  "g": "TEN@DAL",
+  "t": "10:00 AM",
+  "mkt": "recyds"
+ }
+]

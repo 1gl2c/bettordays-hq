@@ -1,0 +1,398 @@
+{
+ "Caleb Williams": {
+  "id": "4431611",
+  "disp": "Caleb Williams",
+  "team": "CHI",
+  "pos": "QB",
+  "status": "active",
+  "inj": []
+ },
+ "Jordyn Tyson": {
+  "id": "4880281",
+  "disp": "Jordyn Tyson",
+  "team": "NO",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Kyle Monangai": {
+  "id": "4608686",
+  "disp": "Kyle Monangai",
+  "team": "CHI",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Fernando Mendoza": {
+  "id": "4837248",
+  "disp": "Fernando Mendoza",
+  "team": "LV",
+  "pos": "QB",
+  "status": "active",
+  "inj": []
+ },
+ "Ashton Jeanty": {
+  "id": "4890973",
+  "disp": "Ashton Jeanty",
+  "team": "LV",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Brock Purdy": {
+  "id": "4361741",
+  "disp": "Brock Purdy",
+  "team": "SF",
+  "pos": "QB",
+  "status": "active",
+  "inj": []
+ },
+ "Ryan Flournoy": {
+  "id": "5083754",
+  "disp": "Ryan Flournoy",
+  "team": "DAL",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Malachi Fields": {
+  "id": "4682648",
+  "disp": "Malachi Fields",
+  "team": "NYG",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Carnell Tate": {
+  "id": "4871023",
+  "disp": "Carnell Tate",
+  "team": "TEN",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "James Cook": {
+  "id": "4379399",
+  "disp": "James Cook III",
+  "team": "BUF",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "CeeDee Lamb": {
+  "id": "4241389",
+  "disp": "CeeDee Lamb",
+  "team": "DAL",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "D'Andre Swift": {
+  "id": "4259545",
+  "disp": "D'Andre Swift",
+  "team": "CHI",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Emmett Johnson": {
+  "id": "4832955",
+  "disp": "Emmett Johnson",
+  "team": "KC",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Josh Downs": {
+  "id": "4688813",
+  "disp": "Josh Downs",
+  "team": "KC",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Tony Pollard": {
+  "id": "3916148",
+  "disp": "Tony Pollard",
+  "team": "TEN",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Isaiah Likely": {
+  "id": "4361050",
+  "disp": "Isaiah Likely",
+  "team": "NYG",
+  "pos": "TE",
+  "status": "active",
+  "inj": []
+ },
+ "Christian McCaffrey": {
+  "id": "3117251",
+  "disp": "Christian McCaffrey",
+  "team": "SF",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Trey McBride": {
+  "id": "4361307",
+  "disp": "Trey McBride",
+  "team": "ARI",
+  "pos": "TE",
+  "status": "active",
+  "inj": []
+ },
+ "Justice Hill": {
+  "id": "4038441",
+  "disp": "Justice Hill",
+  "team": "BAL",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Javonte Williams": {
+  "id": "4361579",
+  "disp": "Javonte Williams",
+  "team": "DAL",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Adonai Mitchell": {
+  "id": "4597500",
+  "disp": "Adonai Mitchell",
+  "team": "NYJ",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Dak Prescott": {
+  "id": "2577417",
+  "disp": "Dak Prescott",
+  "team": "DAL",
+  "pos": "QB",
+  "status": "active",
+  "inj": []
+ },
+ "Justin Jefferson": {
+  "id": "4262921",
+  "disp": "Justin Jefferson",
+  "team": "MIN",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Kenneth Walker III": {
+  "id": "4567048",
+  "disp": "Kenneth Walker III",
+  "team": "KC",
+  "pos": "RB",
+  "status": "active",
+  "inj": [
+   "Out"
+  ]
+ },
+ "Zay Flowers": {
+  "id": "4429615",
+  "disp": "Zay Flowers",
+  "team": "BAL",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Chuba Hubbard": {
+  "id": "4241416",
+  "disp": "Chuba Hubbard",
+  "team": "CAR",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Bhayshul Tuten": {
+  "id": "4882093",
+  "disp": "Bhayshul Tuten",
+  "team": "JAX",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Jonah Coleman": {
+  "id": "4702555",
+  "disp": "Jonah Coleman",
+  "team": "DEN",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Josh Allen": {
+  "id": "3918298",
+  "disp": "Josh Allen",
+  "team": "BUF",
+  "pos": "QB",
+  "status": "active",
+  "inj": []
+ },
+ "Jahmyr Gibbs": {
+  "id": "4429795",
+  "disp": "Jahmyr Gibbs",
+  "team": "DET",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "T.J. Hockenson": {
+  "id": "4036133",
+  "disp": "T.J. Hockenson",
+  "team": "MIN",
+  "pos": "TE",
+  "status": "active",
+  "inj": []
+ },
+ "George Kittle": {
+  "id": "3040151",
+  "disp": "George Kittle",
+  "team": "SF",
+  "pos": "TE",
+  "status": "active",
+  "inj": []
+ },
+ "Joe Milton": {
+  "id": "4360698",
+  "disp": "Joe Milton",
+  "team": "PHI",
+  "pos": "QB",
+  "status": "active",
+  "inj": []
+ },
+ "Jauan Jennings": {
+  "id": "3886598",
+  "disp": "Jauan Jennings",
+  "team": "MIN",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Ollie Gordon": {
+  "id": "4711533",
+  "disp": "Ollie Gordon II",
+  "team": "MIA",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Amon-Ra St. Brown": {
+  "id": "4374302",
+  "disp": "Amon-Ra St. Brown",
+  "team": "DET",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Devin Bush": {
+  "id": "4036261",
+  "disp": "Devin Bush",
+  "team": "CHI",
+  "pos": "LB",
+  "status": "active",
+  "inj": []
+ },
+ "Caleb Douglas": {
+  "id": "4869645",
+  "disp": "Caleb Douglas",
+  "team": "MIA",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Breece Hall": {
+  "id": "4427366",
+  "disp": "Breece Hall",
+  "team": "NYJ",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Derrick Henry": {
+  "id": "3043078",
+  "disp": "Derrick Henry",
+  "team": "BAL",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Jakobi Meyers": {
+  "id": "3916433",
+  "disp": "Jakobi Meyers",
+  "team": "JAX",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "DeVonta Smith": {
+  "id": "4241478",
+  "disp": "DeVonta Smith",
+  "team": "PHI",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Courtland Sutton": {
+  "id": "3128429",
+  "disp": "Courtland Sutton",
+  "team": "DEN",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Jaylen Warren": {
+  "id": "4569987",
+  "disp": "Jaylen Warren",
+  "team": "PIT",
+  "pos": "RB",
+  "status": "active",
+  "inj": []
+ },
+ "Khalil Shakir": {
+  "id": "4373678",
+  "disp": "Khalil Shakir",
+  "team": "BUF",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "J.J. McCarthy": {
+  "id": "4433970",
+  "disp": "J.J. McCarthy",
+  "team": "NYG",
+  "pos": "QB",
+  "status": "active",
+  "inj": []
+ },
+ "George Pickens": {
+  "id": "4426354",
+  "disp": "George Pickens",
+  "team": "DAL",
+  "pos": "WR",
+  "status": "active",
+  "inj": []
+ },
+ "Karl-Anthony Towns": {
+  "id": "3136195",
+  "disp": "Karl-Anthony Towns",
+  "team": "NY",
+  "pos": "C",
+  "status": "active",
+  "inj": [
+   "Day-To-Day"
+  ]
+ },
+ "Wendell Carter Jr.": {
+  "id": "4277847",
+  "disp": "Wendell Carter Jr.",
+  "team": "ORL",
+  "pos": "C",
+  "status": "active",
+  "inj": []
+ }
+}

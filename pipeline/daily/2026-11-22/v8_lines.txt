@@ -1,0 +1,133 @@
+1 | Carlos Alcaraz ML v Alexander Zverev | TENNIS ATP Finals final: Alcaraz v Zverev 9:10 AM PT | market: ml
+2 | Carlos Alcaraz wins in straight sets (2-0) v Alexander Zverev | TENNIS ATP Finals final: Alcaraz v Zverev 9:10 AM PT | market: sets
+3 | Karl-Anthony Towns 2+ threes | NBA IND@NY 5:00 PM PT | market: 3pm
+4 | Karl-Anthony Towns 1+ threes | NBA IND@NY 5:00 PM PT | market: 3pm
+5 | Wendell Carter Jr. 8+ rebounds | NBA ORL@WSH 4:00 PM PT | market: reb
+6 | Wendell Carter Jr. 6+ rebounds | NBA ORL@WSH 4:00 PM PT | market: reb
+7 | Caleb Williams under 250 passing yards | NFL NO@CHI 10:00 AM PT | market: pass
+8 | Jordyn Tyson anytime touchdown | NFL NO@CHI 10:00 AM PT | market: td
+9 | Kyle Monangai 10+ rushing attempts | NFL NO@CHI 10:00 AM PT | market: rush att
+10 | Bears ML v Saints | NFL NO@CHI 10:00 AM PT | market: ml
+11 | Lions ML v Buccaneers | NFL TB@DET 10:00 AM PT | market: ml
+12 | Jaguars ML at Giants | NFL JAX@NYG 1:25 PM PT | market: ml
+13 | Eagles +7 v Steelers | NFL PIT@PHI 10:00 AM PT | market: spread
+14 | Ravens ML at Panthers | NFL BAL@CAR 10:00 AM PT | market: ml
+15 | Buccaneers ML at Lions | NFL TB@DET 10:00 AM PT | market: ml
+16 | Chargers ML v Jets | NFL NYJ@LAC 1:05 PM PT | market: ml
+17 | Giants ML v Jaguars | NFL JAX@NYG 1:25 PM PT | market: ml
+18 | Fernando Mendoza 1+ interceptions (over 0.5) | NFL LV@DEN 1:25 PM PT | market: int
+19 | Ashton Jeanty 3+ receptions | NFL LV@DEN 1:25 PM PT | market: rec
+20 | Ashton Jeanty 4+ receptions | NFL LV@DEN 1:25 PM PT | market: rec
+21 | Brock Purdy 15+ rushing yards | NFL MIN v SF 5:20 PM PT | market: rush
+22 | Ryan Flournoy 40+ receiving yards | NFL TEN@DAL 10:00 AM PT | market: recyds
+23 | Ryan Flournoy 35+ receiving yards | NFL TEN@DAL 10:00 AM PT | market: recyds
+24 | Malachi Fields 25+ receiving yards | NFL JAX@NYG 1:25 PM PT | market: recyds
+25 | Heat ML v Thunder | NBA OKC@MIA 3:00 PM PT | market: ml
+26 | Oilers ML at Blues | NHL EDM@STL 4:00 PM PT | market: ml
+27 | Carnell Tate 60+ receiving yards | NFL TEN@DAL 10:00 AM PT | market: recyds
+28 | James Cook 2+ touchdowns | NFL MIA@BUF 10:00 AM PT | market: td
+29 | CeeDee Lamb 2+ touchdowns | NFL TEN@DAL 10:00 AM PT | market: td
+30 | D'Andre Swift 2+ touchdowns | NFL NO@CHI 10:00 AM PT | market: td
+31 | Emmett Johnson 2+ touchdowns | NFL ARI@KC 10:00 AM PT | market: td
+32 | James Cook anytime touchdown | NFL MIA@BUF 10:00 AM PT | market: td
+33 | CeeDee Lamb anytime touchdown | NFL TEN@DAL 10:00 AM PT | market: td
+34 | D'Andre Swift anytime touchdown | NFL NO@CHI 10:00 AM PT | market: td
+35 | Emmett Johnson anytime touchdown | NFL ARI@KC 10:00 AM PT | market: td
+36 | Josh Downs anytime touchdown | NFL ARI@KC 10:00 AM PT | market: td
+37 | Tony Pollard anytime touchdown | NFL TEN@DAL 10:00 AM PT | market: td
+38 | Isaiah Likely anytime touchdown | NFL JAX@NYG 1:25 PM PT | market: td
+39 | Christian McCaffrey anytime touchdown | NFL MIN v SF 5:20 PM PT | market: td
+40 | Trey McBride 5+ receptions | NFL ARI@KC 10:00 AM PT | market: rec
+41 | Justice Hill 2+ receptions | NFL BAL@CAR 10:00 AM PT | market: rec
+42 | Javonte Williams 50+ rushing yards | NFL TEN@DAL 10:00 AM PT | market: rush
+43 | James Cook 70+ rushing yards | NFL MIA@BUF 10:00 AM PT | market: rush
+44 | Adonai Mitchell 46+ receiving yards (over 45.5) | NFL NYJ@LAC 1:05 PM PT | market: recyds
+45 | Adonai Mitchell 60+ receiving yards | NFL NYJ@LAC 1:05 PM PT | market: recyds
+46 | Adonai Mitchell 80+ receiving yards | NFL NYJ@LAC 1:05 PM PT | market: recyds
+47 | Dak Prescott 279+ passing yards (over 278.5) | NFL TEN@DAL 10:00 AM PT | market: pass
+48 | Justin Jefferson 85+ receiving yards (over 84.5) | NFL MIN v SF 5:20 PM PT | market: recyds
+49 | Kenneth Walker III 83+ rushing yards (over 82.5) | NFL ARI@KC 10:00 AM PT | market: rush
+50 | Zay Flowers 69+ receiving yards (over 68.5) | NFL BAL@CAR 10:00 AM PT | market: recyds
+51 | James Cook 91+ rushing yards (over 90.5) | NFL MIA@BUF 10:00 AM PT | market: rush
+52 | Dak Prescott 270+ passing yards | NFL TEN@DAL 10:00 AM PT | market: pass
+53 | Justin Jefferson 80+ receiving yards | NFL MIN v SF 5:20 PM PT | market: recyds
+54 | Kenneth Walker III 80+ rushing yards | NFL ARI@KC 10:00 AM PT | market: rush
+55 | Zay Flowers 60+ receiving yards | NFL BAL@CAR 10:00 AM PT | market: recyds
+56 | James Cook 90+ rushing yards | NFL MIA@BUF 10:00 AM PT | market: rush
+57 | Steelers ML at Eagles | NFL PIT@PHI 10:00 AM PT | market: ml
+58 | Panthers ML v Ravens | NFL BAL@CAR 10:00 AM PT | market: ml
+59 | Jaguars -5.5 at Giants | NFL JAX@NYG 1:25 PM PT | market: spread
+60 | Raiders +10.5 at Broncos | NFL LV@DEN 1:25 PM PT | market: spread
+61 | Chuba Hubbard anytime touchdown | NFL BAL@CAR 10:00 AM PT | market: td
+62 | Bhayshul Tuten anytime touchdown | NFL JAX@NYG 1:25 PM PT | market: td
+63 | Jonah Coleman anytime touchdown | NFL LV@DEN 1:25 PM PT | market: td
+64 | Josh Allen anytime touchdown | NFL MIA@BUF 10:00 AM PT | market: td
+65 | Jahmyr Gibbs anytime touchdown | NFL TB@DET 10:00 AM PT | market: td
+66 | T.J. Hockenson 30+ receiving yards | NFL MIN v SF 5:20 PM PT | market: recyds
+67 | George Kittle 40+ receiving yards | NFL MIN v SF 5:20 PM PT | market: recyds
+68 | Christian McCaffrey 90+ rushing + receiving yards | NFL MIN v SF 5:20 PM PT | market: rr
+69 | Justin Jefferson 8+ receptions | NFL MIN v SF 5:20 PM PT | market: rec
+70 | Joe Milton under 7.5 rushing attempts | NFL PIT@PHI 10:00 AM PT | market: rush att
+71 | Christian McCaffrey 50+ rushing yards | NFL MIN v SF 5:20 PM PT | market: rush
+72 | Kyle Monangai 40+ rushing yards | NFL NO@CHI 10:00 AM PT | market: rush
+73 | Jauan Jennings 20+ receiving yards | NFL MIN v SF 5:20 PM PT | market: recyds
+74 | Jauan Jennings 15+ receiving yards | NFL MIN v SF 5:20 PM PT | market: recyds
+75 | Ollie Gordon II 2+ receptions | NFL MIA@BUF 10:00 AM PT | market: rec
+76 | Ollie Gordon II 3+ receptions | NFL MIA@BUF 10:00 AM PT | market: rec
+77 | Isaiah Likely under 49.5 receiving yards | NFL JAX@NYG 1:25 PM PT | market: recyds
+78 | Buccaneers +6 at Lions | NFL TB@DET 10:00 AM PT | market: spread
+79 | Buccaneers +6.5 at Lions | NFL TB@DET 10:00 AM PT | market: spread
+80 | Eagles +4.5 v Steelers | NFL PIT@PHI 10:00 AM PT | market: spread
+81 | Giants +6 v Jaguars | NFL JAX@NYG 1:25 PM PT | market: spread
+82 | Bears -6.5 first half v Saints | NFL NO@CHI 10:00 AM PT | market: 1h spread
+83 | Vikings v 49ers over 45.5 total points | NFL MIN v SF 5:20 PM PT | market: total
+84 | Panthers -2.5 v Ravens | NFL BAL@CAR 10:00 AM PT | market: spread
+85 | Bears -11.5 v Saints | NFL NO@CHI 10:00 AM PT | market: spread
+86 | Buccaneers +3.5 at Lions | NFL TB@DET 10:00 AM PT | market: spread
+87 | Ravens at Panthers under 43.5 total points | NFL BAL@CAR 10:00 AM PT | market: total
+88 | Bills -16.5 v Dolphins | NFL MIA@BUF 10:00 AM PT | market: spread
+89 | Steelers -3.5 at Eagles | NFL PIT@PHI 10:00 AM PT | market: spread
+90 | Jaguars at Giants under 45.5 total points | NFL JAX@NYG 1:25 PM PT | market: total
+91 | Chargers -2.5 v Jets | NFL NYJ@LAC 1:05 PM PT | market: spread
+92 | Broncos -10.5 v Raiders | NFL LV@DEN 1:25 PM PT | market: spread
+93 | 49ers -2.5 v Vikings | NFL MIN v SF 5:20 PM PT | market: spread
+94 | Vikings v 49ers over 46.5 total points | NFL MIN v SF 5:20 PM PT | market: total
+95 | T.J. Hockenson under 47.5 receiving yards | NFL MIN v SF 5:20 PM PT | market: recyds
+96 | Amon-Ra St. Brown 7+ receptions (over 6.5) | NFL TB@DET 10:00 AM PT | market: rec
+97 | Ashton Jeanty 29+ receiving yards (over 28.5) | NFL LV@DEN 1:25 PM PT | market: recyds
+98 | Emmett Johnson 20+ rushing attempts (over 19.5) | NFL ARI@KC 10:00 AM PT | market: rush att
+99 | Devin Bush under 7.5 tackles + assists | NFL NO@CHI 10:00 AM PT | market: tackles
+100 | Caleb Douglas 49+ receiving yards (over 48.5) | NFL MIA@BUF 10:00 AM PT | market: recyds
+101 | Breece Hall 3+ receptions (over 2.5) | NFL NYJ@LAC 1:05 PM PT | market: rec
+102 | Derrick Henry anytime touchdown | NFL BAL@CAR 10:00 AM PT | market: td
+103 | Jakobi Meyers under 20.5 longest reception | NFL JAX@NYG 1:25 PM PT | market: long
+104 | Emmett Johnson 85+ rushing yards (over 84.5) | NFL ARI@KC 10:00 AM PT | market: rush
+105 | Buccaneers +7.5 at Lions | NFL TB@DET 10:00 AM PT | market: spread
+106 | Bills team total over 30.5 points | NFL MIA@BUF 10:00 AM PT | market: team total
+107 | Mavericks ML at Jazz | NBA DAL@UTAH 4:00 PM PT | market: ml
+108 | Chiefs -16.5 v Cardinals | NFL ARI@KC 10:00 AM PT | market: spread
+109 | Chargers -3 v Jets | NFL NYJ@LAC 1:05 PM PT | market: spread
+110 | Vikings v 49ers under 46.5 total points | NFL MIN v SF 5:20 PM PT | market: total
+111 | DeVonta Smith 50+ receiving yards | NFL PIT@PHI 10:00 AM PT | market: recyds
+112 | Courtland Sutton 30+ receiving yards | NFL LV@DEN 1:25 PM PT | market: recyds
+113 | Ravens +3 at Panthers | NFL BAL@CAR 10:00 AM PT | market: spread
+114 | Ravens at Panthers over 43 total points | NFL BAL@CAR 10:00 AM PT | market: total
+115 | Jaylen Warren 66+ rushing yards (over 65.5) | NFL PIT@PHI 10:00 AM PT | market: rush
+116 | Javonte Williams 78+ rushing yards (over 77.5) | NFL TEN@DAL 10:00 AM PT | market: rush
+117 | Breece Hall 49+ rushing yards (over 48.5) | NFL NYJ@LAC 1:05 PM PT | market: rush
+118 | Fernando Mendoza 17+ rushing yards (over 16.5) | NFL LV@DEN 1:25 PM PT | market: rush
+119 | Jonah Coleman 15+ yard longest rush (over 14.5) | NFL LV@DEN 1:25 PM PT | market: long
+120 | Derrick Henry 64+ rushing yards (over 63.5) | NFL BAL@CAR 10:00 AM PT | market: rush
+121 | Christian McCaffrey 51+ rushing yards (over 50.5) | NFL MIN v SF 5:20 PM PT | market: rush
+122 | Kyle Monangai 44+ rushing yards (over 43.5) | NFL NO@CHI 10:00 AM PT | market: rush
+123 | Isaiah Likely under 48.5 receiving yards | NFL JAX@NYG 1:25 PM PT | market: recyds
+124 | Eagles +3.5 v Steelers | NFL PIT@PHI 10:00 AM PT | market: spread
+125 | Ravens +2.5 at Panthers | NFL BAL@CAR 10:00 AM PT | market: spread
+126 | Cowboys -7.5 v Titans | NFL TEN@DAL 10:00 AM PT | market: spread
+127 | Vikings v 49ers under 46 total points | NFL MIN v SF 5:20 PM PT | market: total
+128 | Eagles ML v Steelers | NFL PIT@PHI 10:00 AM PT | market: ml
+129 | Khalil Shakir 33+ receiving yards (over 32.5) | NFL MIA@BUF 10:00 AM PT | market: recyds
+130 | J.J. McCarthy under 221.5 passing yards | NFL JAX@NYG 1:25 PM PT | market: pass
+131 | Chuba Hubbard 92+ rushing + receiving yards (over 91.5) | NFL BAL@CAR 10:00 AM PT | market: rr
+132 | Isaiah Likely under 55.5 receiving yards | NFL JAX@NYG 1:25 PM PT | market: recyds
+133 | George Pickens 67+ receiving yards (over 66.5) | NFL TEN@DAL 10:00 AM PT | market: recyds
