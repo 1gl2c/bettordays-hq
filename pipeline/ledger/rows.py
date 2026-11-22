@@ -29,6 +29,12 @@ for l in L:
              kalshi_close=l.get('k_close') if l.get('k_close') is not None else c.get('k_close'), kalshi_close_ts=l.get('k_close_ts') or c.get('k_close_ts'),
              kalshi_close_kind=l.get('k_close_kind') or ('last quote before start' if c.get('k_close') is not None else None),
              result=res, actual=l.get('actual') if isinstance(l.get('actual'), (int, float)) else None)
+    # priced before the game? price time vs game start when both are known, else the merge-time flag
+    st = r['game_start'] or None
+    if r['kalshi_pick'] is None: pre = None
+    elif r['kalshi_pick_ts'] and st: pre = r['kalshi_pick_ts'].replace('Z', '+00:00') < st.replace('Z', '+00:00') if False else __import__('datetime').datetime.fromisoformat(r['kalshi_pick_ts'].replace('Z', '+00:00')) < __import__('datetime').datetime.fromisoformat(st.replace('Z', '+00:00'))
+    else: pre = r['flag'] not in ('LIVE', 'DONE', 'started', 'finished')
+    r['priced_pregame'] = pre
     gaps = [k for k in ('kalshi_pick', 'books_pick', 'grade_chatgpt', 'reasons', 'stats', 'injuries', 'opponent', 'rest_days', 'kalshi_close', 'result') if r[k] in (None, [], {})]
     r['data_gaps'] = gaps
     rows.append(r)

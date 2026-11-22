@@ -25,14 +25,15 @@ for i, r in enumerate(T, 1):
                   k_close=None, k_close_kind=None, k_close_ts=None, b2b=None, matchup=r.get('mu'), notes=r.get('n'), result=r.get('r'), actual=r.get('act'), status=None))
 RES = {'2026-11-20': 'fri20/res/analysis.json', '2026-11-21': 'sat21/res/analysis.json'}
 for d in ('2026-11-20', '2026-11-21', '2026-11-22'):
-    M = json.load(open(f'daily/{d}/v7_merged.json'))
+    import os   # the board as posted (frozen copy) wins over any later re-merge of the same day
+    M = json.load(open(f'daily/{d}/v7_merged_pick.json' if os.path.exists(f'daily/{d}/v7_merged_pick.json') else f'daily/{d}/v7_merged.json'))
     R = {x['i']: x for x in json.load(open(RES[d]))['legs']} if d in RES else {}
     for l in M['legs']:
         rr = R.get(l['i'], {})
         L.append(dict(key=f"{d}|v7|{l['i']}", date=d, src='model_v7_legs', leg_no=l['i'], sport=l.get('sp'), event=l.get('g'), t=l.get('t'), player=l.get('player'),
                       market=l.get('ty'), stat=l.get('stat'), dir=None, line=None, pick=l['p'], ticker=None, event_ticker=None,
                       grade=l.get('pub') if l.get('pub') is not None else l.get('med'), grade_version=l.get('eng'), grade_uses_market=False,
-                      k_pick=l.get('k'), k_pick_kind='logged at merge' if l.get('k') is not None else None, k_pick_ts=None,
+                      k_pick=l.get('k'), k_pick_kind='logged at merge' if l.get('k') is not None else None, k_pick_ts=M.get('kalshi_ts') if l.get('k') is not None else None,
                       k_close=None, k_close_kind=None, k_close_ts=None, b2b=l.get('b2b'), matchup=None, notes=l.get('n'),
                       result=rr.get('r'), actual=rr.get('act'), status=None, fl=l.get('fl'), tier=l.get('tier'), placement=l.get('pl'),
                       sys=l.get('sys'), med=l.get('med'), models=l.get('models'), why=l.get('why'), conf=l.get('conf'), bk=l.get('bk')))
