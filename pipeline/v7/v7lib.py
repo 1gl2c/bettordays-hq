@@ -168,6 +168,54 @@ def perfect(legs):
     return out
 
 
+LOTTO_PAY = (5.0, 10.0)   # Ace, Nov 22: the best 5-10x ticket, built like the Hammer, never forced
+LOTTO_MAX_LEGS = 8
+
+
+def lotto_pool(legs):
+    """Lotto legs: every favorite-edge leg, plus legs priced 50-79 cents where BOTH our grade and the sportsbooks' no-vig
+    price sit 4+ above Kalshi (two independent sources agree the price is cheap). Chance for those = the average of
+    the books and Kalshi, so the edge we count is half of what the books see."""
+    pool, C, D = edge_pool(legs)
+    seen = {l['i'] for l in pool}
+    for l in legs:
+        k, bk, pub = l.get('k'), l.get('bk'), l.get('pub')
+        if l['i'] in seen or k is None or bk is None or pub is None or not (50 <= k < C.FAV_LO): continue
+        if l.get('tier') not in ('G', 'Y') or l.get('rule') or l.get('void') or l.get('fl') or (l.get('spread') is not None and l['spread'] >= SPLIT_MAX): continue
+        if pub - k < 4 or bk - k < 4: continue
+        p = (bk + k) / 200
+        pool.append(dict(l, p_true=round(p, 4), ev=round(C.ev(p, k), 4)))
+    pool.sort(key=lambda l: (-l['ev'], -l['p_true']))
+    return pool, C, D
+
+
+def lotto(legs):
+    """The best 5-10x ticket after fees: 3 to 8 legs from different games and players, expected value +5% or better by our
+    math, highest hit chance among those. Returns (ticket dict or None, reason)."""
+    pool, C, D = lotto_pool(legs)
+    if D.get('mode') == 'pass': return None, 'Pass mode: favorite-edge tickets are off until the forward record turns positive.'
+    best = None
+    for n in range(3, LOTTO_MAX_LEGS + 1):
+        top = pool[:16 if n <= 5 else 13]
+        for c in itertools.combinations(top, n):
+            if len({l['g'] for l in c}) < n or len({l['player'] for l in c}) < n: continue
+            hit, pay, e = _combo_stats(c, C)
+            if not (LOTTO_PAY[0] <= pay <= LOTTO_PAY[1]) or e < 0.05: continue
+            sc = (round(hit, 3), e, -n)
+            if best is None or sc > best[0]: best = (sc, c, hit, pay, e)
+    if not best:
+        return None, f"No 3 to {LOTTO_MAX_LEGS} legs from different games paid 5-10x after fees with +5% or better by our math ({len(pool)} legs qualified). No lotto beats a forced lotto."
+    return {'legs': [l['i'] for l in best[1]], 'pay_net': round(best[3], 2), 'hit': round(100 * best[2], 1), 'ev': round(100 * best[4], 1)}, None
+
+
+def master_v2(l):
+    """Master filter v2 (Nov 22, from the record): NBA overs on points, assists or threes, our grade 70+, Kalshi 80+ and at or
+    above our grade, no flags. Nov 4-21: 55-3 (95%), +11% as $1 singles after fees. Tracked forward from Nov 22."""
+    st = l.get('stat') or ''
+    return (l.get('sp') == 'NBA' and l.get('ty') == 'prop' and ' under ' not in l['p'].lower() and st in ('pts', 'ast', '3pm')
+            and (l.get('pub') or 0) >= 70 and l.get('k') is not None and l['k'] >= 80 and l['k'] >= l['pub'] and not l.get('fl') and not l.get('rule'))
+
+
 def player_of(p):
     m = re.match(r"(.+?) (?:\d+\+|under|over|anytime|ML|[+-]\d)", p)
     return (m.group(1) if m else p).strip()
