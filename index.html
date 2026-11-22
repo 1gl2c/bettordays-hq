@@ -1968,7 +1968,7 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
  const recP=g=>{const x=REC[band(g)];return x&&x[1]>=20?x[0]/x[1]:g/100};
  const G={ms:'on',sp:'all',gr:'all',k:'all',tm:all.some(open)?'up':'any'};
  const stOf=r=>{const t=r.p.toLowerCase();if(r.ty&&r.ty!=='prop')return r.ty;if(/points \+ rebounds \+ assists|pra/.test(t))return 'pra';if(/rebound/.test(t))return 'reb';if(/assist/.test(t))return 'ast';if(/three/.test(t))return '3pm';if(/reception/.test(t))return 'rec';if(/yard|touchdown/.test(t))return 'yds';if(/point/.test(t))return 'pts';return 'oth'};
- const MS=r=>{const st=stOf(r),u=/\bunder\b/i.test(r.p);return r.pct>=70&&r.k!=null&&r.k>=r.pct&&!(r.fl&&/RULE|OUT|Q/.test(r.fl))&&((r.sp==='NBA'&&((st==='pts'&&!u)||st==='ast'||(st==='3pm'&&!u)||(st==='ml'&&r.k>=50)))||(r.sp==='NFL'&&st==='rec'&&!u))};if(!all.some(MS))G.ms='all'; /* Nov 22: Master filter v2 is NBA-only, so on a day with no qualifying legs the board opens with it off */
+ /* Master filter v2 (Nov 22): NBA points, assists and threes overs, grade 70+, Kalshi 80+ and at or above us. 55-3 Nov 4-21. */const MS=r=>{const st=stOf(r),u=/\bunder\b/i.test(r.p);return r.sp==='NBA'&&r.ty==='prop'&&!u&&(st==='pts'||st==='ast'||st==='3pm')&&r.pct>=70&&r.k!=null&&r.k>=80&&r.k>=r.pct&&!(r.fl&&/RULE|OUT|Q/.test(r.fl))};if(!all.some(MS))G.ms='all'; /* Nov 22: Master filter v2 is NBA-only, so on a day with no qualifying legs the board opens with it off */
  const fb=document.createElement('div');fb.className='bfil';L.before(fb);
  const cap=document.createElement('p');cap.className='proof';cap.style.margin='0 0 12px';L.before(cap);
  const sports=[...new Set(all.map(r=>r.sp))];
