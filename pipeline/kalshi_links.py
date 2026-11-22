@@ -6,7 +6,7 @@ Usage: from kalshi_links import link; link('KXNBAPTS-26NOV21LACDAL')  ->  url or
 import json, os, re, subprocess
 CACHE = os.path.join(os.path.dirname(__file__), 'kalshi_series.json')
 _C = json.load(open(CACHE)) if os.path.exists(CACHE) else {}
-REF = os.environ.get('KALSHI_REF', '')   # Ace's referral code, added once he sends it
+REF_URL = 'https://kalshi.com/r/27715b4c-2e36-431e-a6e4-18391eba78c0'   # Ace's Kalshi referral link (Nov 22): used on 'Join Kalshi' buttons, not on market links
 
 
 def slug(t): return re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')
@@ -27,7 +27,7 @@ def link(event_ticker):
     t = title(series)
     if not t: return None
     u = f'https://kalshi.com/markets/{series.lower()}/{slug(t)}/{event_ticker.lower()}'
-    return u + (f'?referral={REF}' if REF else '')
+    return u
 
 
 if __name__ == '__main__':

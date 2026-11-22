@@ -2,5 +2,20 @@
  "KXNBAGAME": "NBA Game",
  "KXNBAPTS": "NBA Player Points",
  "KXNBAAST": "NBA Player Assists",
- "KXNBAREB": "NBA Player Rebounds"
+ "KXNBAREB": "NBA Player Rebounds",
+ "KXATPMATCH": "ATP Tennis Match",
+ "KXATPEXACTMATCH": "ATP Exact Match Score",
+ "KXNBA3PT": "NBA Player Threes",
+ "KXNFLGAME": "NFL Game",
+ "KXNFLTD": "Pro Football Touchdowns",
+ "KXNFLSPREAD": "Pro Football Spread",
+ "KXNFLPASSINT": "Pro Football Passing Interceptions",
+ "KXNFLREC": "Pro Football Player Receptions",
+ "KXNFLRSHYDS": "Pro Football Rushing Yards",
+ "KXNFLRECYDS": "Pro Football Receiving Yards",
+ "KXNHLGAME": "NHL Game",
+ "KXNFL1HSPREAD": "Pro Football 1st Half Spread",
+ "KXNFLTOTAL": "Pro Football Total Points",
+ "KXNFLTEAMTOTAL": "Pro Football Team Total Points",
+ "KXNFLLONGRSH": "Longest Rush"
 }
