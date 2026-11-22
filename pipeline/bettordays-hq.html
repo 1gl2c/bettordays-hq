@@ -282,6 +282,36 @@ body[data-rsv="hits"] .rsv[data-v="hits"]:not([hidden]),body[data-rsv="grade"] .
 
 .kp{display:inline-block;margin-left:6px;padding:1px 5px;border:1px solid #2a3330;font:500 10.5px 'Geist Mono',monospace;color:#8a9a93;letter-spacing:.02em;vertical-align:1px}.gsf .row{display:flex;gap:6px;flex-wrap:wrap}.gsc{border:1px solid var(--line);background:transparent;color:var(--mute);padding:7px 10px;font:600 12px var(--mono);cursor:pointer;border-radius:999px}.gsc small{opacity:.65;margin-left:3px}.gsc.on{border-color:var(--acc);color:var(--acc);background:rgba(4,255,159,.08)}.gsc:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 </style>
+<style id="gsMobile">
+@media (max-width:700px){
+.gsT thead{display:none}
+.gsT,.gsT tbody{display:block;width:100%}
+.gsT tr{display:grid;grid-template-columns:repeat(3,1fr);gap:8px 10px;padding:12px 2px;border-bottom:1px solid var(--line)}
+.gsT tr.gsOn{border-left:3px solid var(--acc);padding-left:10px}
+.gsT tr.gsRem{opacity:.6}
+.gsT td,.gsT td:nth-child(3){display:block!important;padding:0;border:0;white-space:normal}
+.gsT td:first-child{grid-column:1/-1;font-size:15px;font-weight:600;line-height:1.35}
+.gsT td:first-child small{font-weight:400}
+.gsT td[data-l]::before{content:attr(data-l);display:block;font:600 9.5px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin-bottom:2px}
+.gsT td[data-l="Game"]{grid-column:1/-1;font-size:12px;color:var(--mute);margin-top:-4px}
+.gsT td[data-l="Game"]::before{display:none}
+.gsT td.gsPub b{font-size:17px;color:var(--acc)}
+.gsT td.gsAi{grid-column:1/-1}
+.gsT td.gsSplit,.gsT td.gsWhere{display:none!important}
+.gsT td.note{grid-column:1/-1}
+.gsT tr{grid-template-columns:repeat(5,1fr);gap:6px 8px}
+.gsT td:first-child br+small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:12.5px;color:var(--mute);margin-top:4px}
+.gsT td[data-l]::before{font-size:8.5px;letter-spacing:.03em}
+.gsT td[data-l="Kalshi vs ours"]::before{content:"vs ours"}
+.gsT td[data-l="Our system"]::before{content:"System"}
+.gsT td.mono{font-size:14px}
+.gsT td.gsPub b{font-size:18px}
+#gsV,#gsSp{justify-content:flex-start!important;border-bottom:0!important;flex-wrap:nowrap!important;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}
+#gsV::-webkit-scrollbar,#gsSp::-webkit-scrollbar{display:none}
+#gsV .gsc,#gsSp .gsc{flex:0 0 auto;white-space:nowrap}
+#gsTop+p.note{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-size:13px}
+}
+</style>
 
 <div class="wrap">
   <header class="top">
@@ -2033,7 +2063,7 @@ const BETA={"sim_ts": "2026-11-22T17:10:59+00:00", "ts": "2026-11-22T17:10:46+00
  const row=x=>`<li>${x.p} <small class="kp">K ${x.k==null?'none':x.k}</small> <small>${ms(x.ms)}</small>${rs(x)}</li>`;
  h+=`<div class="two" style="margin-top:20px"><div><h3>Where the models agreed</h3><ul class="tueo" style="font-size:12.5px;line-height:1.75">${V7D.agree.map(row).join('')||'<li>No 70+ leg had all models within 5.</li>'}</ul></div><div><h3>Where they split (15+ apart)</h3><ul class="tueo" style="font-size:12.5px;line-height:1.75">${V7D.split.map(row).join('')||'<li>No big splits today.</li>'}</ul></div></div>`;
  /* tips are shown once, at the top (Nov 20 audit: they rendered twice) */
- if(V7D.all){h+=`<h3 style="margin-top:20px" id="gsTop">Full grade sheet <small id="gsCount">all ${V7D.all.length} legs, under 70 included</small></h3><p class="note" style="max-width:780px">Published = what the board shows. Our grade is the middle of the four blind AI numbers plus our system grade. <b>Our system</b> is our own grade from game logs and matchup, computed before the models ran. <b>Books</b> = the sportsbooks' fair chance with the vig removed (NBA props only, from Nov 21). <b>Kalshi vs ours</b> = Kalshi minus our published grade: plus means the market likes the leg more than we do. When our grade is 8+ above Kalshi the leg is pulled (market disagrees).</p><div id="gsF" class="gsf"></div><div class="scroll"><table class="rtab"><thead><tr><th>Leg</th><th>Game</th><th>Published</th><th>Kalshi</th><th>Kalshi vs ours</th><th title="DraftKings, FanDuel and other books with the vig removed">Books</th><th>Our system</th><th>ChatGPT · Gemini · Grok · Claude</th><th>AI split</th><th>Where</th></tr></thead><tbody id="gsB"></tbody></table></div>`;
+ if(V7D.all){h+=`<h3 style="margin-top:20px" id="gsTop">Full grade sheet <small id="gsCount">all ${V7D.all.length} legs, under 70 included</small></h3><p class="note" style="max-width:780px">Published = what the board shows. Our grade is the middle of the four blind AI numbers plus our system grade. <b>Our system</b> is our own grade from game logs and matchup, computed before the models ran. <b>Books</b> = the sportsbooks' fair chance with the vig removed (NBA from Nov 21, NFL from Nov 22). <b>Kalshi vs ours</b> = Kalshi minus our published grade: plus means the market likes the leg more than we do. When our grade is 8+ above Kalshi the leg is pulled (market disagrees).</p><div id="gsF" class="gsf"></div><div class="scroll"><table class="rtab gsT"><thead><tr><th>Leg</th><th>Game</th><th>Published</th><th>Kalshi</th><th>Kalshi vs ours</th><th title="DraftKings, FanDuel and other books with the vig removed">Books</th><th>Our system</th><th>ChatGPT · Gemini · Grok · Claude</th><th>AI split</th><th>Where</th></tr></thead><tbody id="gsB"></tbody></table></div>`;
   setTimeout(gsInit,0)}
  function gsInit(){const A=V7D.all,box=document.getElementById('gsF'),tb=document.getElementById('gsB');if(!box||!tb)return;
   const ai=x=>['chatgpt','gemini','grok','claude'].map(k=>x.ms[k]).filter(v=>v!=null);
@@ -2064,7 +2094,7 @@ const BETA={"sim_ts": "2026-11-22T17:10:59+00:00", "ts": "2026-11-22T17:10:46+00
    const key={pub:x=>-(x.pub??-1),kup:x=>-(kv(x)??-99),k:x=>-(x.k??-1),bk:x=>-(x.bk??-1),split:x=>-(split(x)??-1),game:tmin}[st.so];
    R=R.slice().sort((a,b)=>key(a)-key(b));
    document.getElementById('gsCount').textContent=`${R.length} of ${A.length} legs`;
-   tb.innerHTML=R.map(x=>{const d=kv(x),sp=split(x);return `<tr${x.rule?' style="opacity:.55"':''}><td>${x.p}${x.rule?' <small>(Ace rule)</small>':''}${x.fl==='Q'?' <small>(questionable)</small>':(x.fl==='started'||(begun(x)&&x.fl!=='finished'))?' <small style="color:var(--warn)">(started, pregame grade)</small>':x.fl==='finished'?' <small>(finished before the board)</small>':''}${x.fade?` <small style="color:var(--warn)">fade flag x${x.fade}</small>`:''}${x.why?`<br><small>${x.why}</small>`:''}${x.ku?` <a href="${x.ku}" target="_blank" rel="noopener" style="font:600 11px var(--mono);color:var(--acc);white-space:nowrap">Kalshi ↗</a>`:''}</td><td class="lbl">${x.g} ${x.t}</td><td class="mono"><b>${x.pub??'-'}</b></td><td class="mono">${x.k??'none'}</td><td class="mono" style="color:${d==null?'inherit':d>0?'var(--acc)':d<0?'var(--warn)':'inherit'}">${d==null?'-':(d>0?'+':'')+d}</td><td class="mono">${x.bk??'-'}</td><td class="mono">${x.sys??'-'}</td><td class="mono"><small>${['chatgpt','gemini','grok','claude'].map(k=>x.ms[k]??'-').join(' · ')}</small></td><td class="mono" style="color:${sp!=null&&sp>=15?'var(--warn)':'inherit'}">${sp??'-'}</td><td class="lbl">${x.pl}</td></tr>`}).join('')||'<tr><td colspan="10" class="note">No legs match these filters.</td></tr>'};
+   tb.innerHTML=R.map(x=>{const d=kv(x),sp=split(x);return `<tr class="${x.pl==='board'?'gsOn':x.pl==='removed'?'gsRem':''}"${x.rule?' style="opacity:.55"':''}><td>${x.p}${x.rule?' <small>(Ace rule)</small>':''}${x.fl==='Q'?' <small>(questionable)</small>':(x.fl==='started'||(begun(x)&&x.fl!=='finished'))?' <small style="color:var(--warn)">(started, pregame grade)</small>':x.fl==='finished'?' <small>(finished before the board)</small>':''}${x.fade?` <small style="color:var(--warn)">fade flag x${x.fade}</small>`:''}${x.why?`<br><small>${x.why}</small>`:''}${x.ku?` <a href="${x.ku}" target="_blank" rel="noopener" style="font:600 11px var(--mono);color:var(--acc);white-space:nowrap">Kalshi ↗</a>`:''}</td><td class="lbl" data-l="Game">${x.g} ${x.t}</td><td class="mono gsPub" data-l="Ours"><b>${x.pub??'-'}</b></td><td class="mono" data-l="Kalshi">${x.k??'none'}</td><td class="mono" data-l="Kalshi vs ours" style="color:${d==null?'inherit':d>0?'var(--acc)':d<0?'var(--warn)':'inherit'}">${d==null?'-':(d>0?'+':'')+d}</td><td class="mono" data-l="Books">${x.bk??'-'}</td><td class="mono" data-l="Our system">${x.sys??'-'}</td><td class="mono gsAi" data-l="ChatGPT · Gemini · Grok · Claude"><small>${['chatgpt','gemini','grok','claude'].map(k=>x.ms[k]??'-').join(' · ')}</small></td><td class="mono gsSplit" data-l="AI split" style="color:${sp!=null&&sp>=15?'var(--warn)':'inherit'}">${sp??'-'}</td><td class="lbl gsWhere" data-l="Where">${x.pl}</td></tr>`}).join('')||'<tr><td colspan="10" class="note">No legs match these filters.</td></tr>'};
   box.addEventListener('click',e=>{const b=e.target.closest('button.gsc');if(!b)return;if(b.dataset.g==='v')st.v=b.dataset.k;else st.sp=b.dataset.k;draw()});
   qi.addEventListener('input',()=>{st.q=qi.value;draw()});so.addEventListener('change',()=>{st.so=so.value;draw()});
   draw()}
