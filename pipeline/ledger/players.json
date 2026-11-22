@@ -1,0 +1,8073 @@
+{
+"2026-11-04|herro15+pts": {
+"name_raw": "Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|herro20+pts": {
+"name_raw": "Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|herrou25pts": {
+"name_raw": "Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|lebron4+ast": {
+"name_raw": "LeBron",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|lebrono5.5reb": {
+"name_raw": "LeBron",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|lebron6+ast": {
+"name_raw": "LeBron",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|lebron8+ast": {
+"name_raw": "LeBron",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|mcdaniels10+pts": {
+"name_raw": "McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|mcdaniels15+pts": {
+"name_raw": "McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|mcdaniels20+pts": {
+"name_raw": "McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|huerter2+reb": {
+"name_raw": "Huerter",
+"espn_id": "4066372",
+"name": "Kevin Huerter",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|huerter3+reb": {
+"name_raw": "Huerter",
+"espn_id": "4066372",
+"name": "Kevin Huerter",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|luka30+pts": {
+"name_raw": "Luka",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|kd20+pts": {
+"name_raw": "KD",
+"espn_id": "3202",
+"name": "Kevin Durant",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|kdo21.5pts": {
+"name_raw": "KD",
+"espn_id": "3202",
+"name": "Kevin Durant",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|markkaneno5.5reb": {
+"name_raw": "Markkanen",
+"espn_id": "4066336",
+"name": "Lauri Markkanen",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|brunsono4.5ast": {
+"name_raw": "Brunson",
+"espn_id": "3934672",
+"name": "Jalen Brunson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|bamu20pts": {
+"name_raw": "Bam",
+"espn_id": "4066261",
+"name": "Bam Adebayo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|browno19.5pts": {
+"name_raw": "Brown",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (3 players)",
+"sport": "NBA"
+},
+"2026-11-04|browno5.5reb": {
+"name_raw": "Brown",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (3 players)",
+"sport": "NBA"
+},
+"2026-11-04|flagg20+pts": {
+"name_raw": "Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|flaggu8reb": {
+"name_raw": "Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|flagg25+pts": {
+"name_raw": "Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|flaggu7reb": {
+"name_raw": "Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|flagg30+pts": {
+"name_raw": "Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|mobleyu20pts": {
+"name_raw": "Mobley",
+"espn_id": "4432158",
+"name": "Evan Mobley",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|mpjo20.5pts": {
+"name_raw": "MPJ",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|scheierman4+reb": {
+"name_raw": "Scheierman",
+"espn_id": "4593841",
+"name": "Baylor Scheierman",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|scheiermano13.5p+r": {
+"name_raw": "Scheierman",
+"espn_id": "4593841",
+"name": "Baylor Scheierman",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|scheierman10+pts": {
+"name_raw": "Scheierman",
+"espn_id": "4593841",
+"name": "Baylor Scheierman",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|ighodarou6reb": {
+"name_raw": "Ighodaro",
+"espn_id": "4601023",
+"name": "Oso Ighodaro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|camarau15pts": {
+"name_raw": "Camara",
+"espn_id": "4431736",
+"name": "Toumani Camara",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|giddeyo7.5ast": {
+"name_raw": "Giddey",
+"espn_id": "4871145",
+"name": "Josh Giddey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|milleru6reb": {
+"name_raw": "Miller",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (4 players)",
+"sport": "NBA"
+},
+"2026-11-04|greenu20pts": {
+"name_raw": "Green",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (5 players)",
+"sport": "NBA"
+},
+"2026-11-04|acuff20+pts": {
+"name_raw": "Acuff",
+"espn_id": null,
+"name": null,
+"how": "unresolved (1 search hits)",
+"sport": "NBA"
+},
+"2026-11-04|acuff25+pts": {
+"name_raw": "Acuff",
+"espn_id": null,
+"name": null,
+"how": "unresolved (1 search hits)",
+"sport": "NBA"
+},
+"2026-11-04|traeo9.5ast": {
+"name_raw": "Trae",
+"espn_id": "4277905",
+"name": "Trae Young",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|murrayo5.5ast": {
+"name_raw": "Murray",
+"espn_id": "3936299",
+"name": "Jamal Murray",
+"how": "roster+event",
+"sport": "NBA"
+},
+"2026-11-04|hartenstein20+pra": {
+"name_raw": "Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|hartenstein25+pra": {
+"name_raw": "Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|gianniso0.5blk": {
+"name_raw": "Giannis",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|dunno16.5pra": {
+"name_raw": "Dunn",
+"espn_id": "2991139",
+"name": "Kris Dunn",
+"how": "roster+event",
+"sport": "NBA"
+},
+"2026-11-04|dunnu5ast": {
+"name_raw": "Dunn",
+"espn_id": "2991139",
+"name": "Kris Dunn",
+"how": "roster+event",
+"sport": "NBA"
+},
+"2026-11-04|avdijao1.53pm": {
+"name_raw": "Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|danielso11.5pts": {
+"name_raw": "Daniels",
+"espn_id": "4869342",
+"name": "Dyson Daniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|jabariu25pra": {
+"name_raw": "Jabari",
+"espn_id": "4432639",
+"name": "Jabari Smith Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|powellu20pts": {
+"name_raw": "Powell",
+"espn_id": "2595516",
+"name": "Norman Powell",
+"how": "roster+event",
+"sport": "NBA"
+},
+"2026-11-04|wigginso0.5blk": {
+"name_raw": "Wiggins",
+"espn_id": "3059319",
+"name": "Andrew Wiggins",
+"how": "roster+event",
+"sport": "NBA"
+},
+"2026-11-04|maluachu6.5reb": {
+"name_raw": "Maluach",
+"espn_id": "5203685",
+"name": "Khaman Maluach",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|kesslero12.5pts": {
+"name_raw": "Kessler",
+"espn_id": "4433136",
+"name": "Walker Kessler",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|mccain3+reb": {
+"name_raw": "McCain",
+"espn_id": "4683778",
+"name": "Jared McCain",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|dameu6ast": {
+"name_raw": "Dame",
+"espn_id": "6606",
+"name": "Damian Lillard",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|dameu5ast": {
+"name_raw": "Dame",
+"espn_id": "6606",
+"name": "Damian Lillard",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|herbjonesu3reb": {
+"name_raw": "Herb Jones",
+"espn_id": "4277813",
+"name": "Herbert Jones",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-04|scheiermandd": {
+"name_raw": "Scheierman DD",
+"espn_id": "4593841",
+"name": "Baylor Scheierman",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|lawrence150+pass": {
+"name_raw": "Lawrence",
+"espn_id": null,
+"name": null,
+"how": "unresolved (5 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|lawrence175+pass": {
+"name_raw": "Lawrence",
+"espn_id": null,
+"name": null,
+"how": "unresolved (5 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|lawrence200+pass": {
+"name_raw": "Lawrence",
+"espn_id": null,
+"name": null,
+"how": "unresolved (5 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|curry20+": {
+"name_raw": "Curry",
+"espn_id": "3975",
+"name": "Stephen Curry",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|curry25+": {
+"name_raw": "Curry",
+"espn_id": "3975",
+"name": "Stephen Curry",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|curryo28.5pra": {
+"name_raw": "Curry",
+"espn_id": "3975",
+"name": "Stephen Curry",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|black10+": {
+"name_raw": "Black",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (2 players)",
+"sport": "NBA"
+},
+"2026-11-05|blacko14.5": {
+"name_raw": "Black",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (2 players)",
+"sport": "NBA"
+},
+"2026-11-05|henry30+rush+rec": {
+"name_raw": "Henry",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|henryu21att": {
+"name_raw": "Henry",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|henryu17.5att": {
+"name_raw": "Henry",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|henryatd": {
+"name_raw": "Henry",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|giannis20+": {
+"name_raw": "Giannis",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|gianniso29.5": {
+"name_raw": "Giannis",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|giannis8+reb": {
+"name_raw": "Giannis",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|giannisu11.5reb": {
+"name_raw": "Giannis",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|lendeborg15+": {
+"name_raw": "Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|henry40+rush": {
+"name_raw": "Henry",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|henry50+rush": {
+"name_raw": "Henry",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|fagnano100+pass": {
+"name_raw": "Fagnano",
+"espn_id": null,
+"name": null,
+"how": "unresolved (1 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|lendeborg20+p+a": {
+"name_raw": "Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|lendeborgo22.5p+a": {
+"name_raw": "Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|bane15+": {
+"name_raw": "Bane",
+"espn_id": "4066320",
+"name": "Desmond Bane",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|franz20+": {
+"name_raw": "Franz",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|wcj6+reb": {
+"name_raw": "WCJ",
+"espn_id": "4277847",
+"name": "Wendell Carter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|brooksu6reb": {
+"name_raw": "Brooks",
+"espn_id": "3155526",
+"name": "Dillon Brooks",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|brooksu5reb": {
+"name_raw": "Brooks",
+"espn_id": "3155526",
+"name": "Dillon Brooks",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|flowers15+yds": {
+"name_raw": "Flowers",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|lendeborg6+reb": {
+"name_raw": "Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|bam15+": {
+"name_raw": "Bam",
+"espn_id": "4066261",
+"name": "Bam Adebayo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|wiggins15+pra": {
+"name_raw": "Wiggins",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (2 players)",
+"sport": "NBA"
+},
+"2026-11-05|podzo3.5ast": {
+"name_raw": "Podz",
+"espn_id": "4709138",
+"name": "Brandin Podziemski",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|podz6+ast": {
+"name_raw": "Podz",
+"espn_id": "4709138",
+"name": "Brandin Podziemski",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|bookero3.5reb": {
+"name_raw": "Booker",
+"espn_id": "3136193",
+"name": "Devin Booker",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|bridges6+reb": {
+"name_raw": "Bridges",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (2 players)",
+"sport": "NBA"
+},
+"2026-11-05|p.washington50+yds": {
+"name_raw": "P.Washington",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|p.washingtonatd": {
+"name_raw": "P.Washington",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|wcj10+pts": {
+"name_raw": "WCJ",
+"espn_id": "4277847",
+"name": "Wendell Carter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|wcjo11.5pts": {
+"name_raw": "WCJ",
+"espn_id": "4277847",
+"name": "Wendell Carter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|franzo5.5reb": {
+"name_raw": "Franz",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|black6+ast": {
+"name_raw": "Black",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (2 players)",
+"sport": "NBA"
+},
+"2026-11-05|dasilva2+3pm": {
+"name_raw": "da Silva",
+"espn_id": "4702382",
+"name": "Tristan da Silva",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-05|flowers5+rec": {
+"name_raw": "Flowers",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|black6+reb": {
+"name_raw": "Black",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (2 players)",
+"sport": "NBA"
+},
+"2026-11-05|franzo6ast": {
+"name_raw": "Franz",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|podz6+reb": {
+"name_raw": "Podz",
+"espn_id": "4709138",
+"name": "Brandin Podziemski",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-05|tutenatd": {
+"name_raw": "Tuten",
+"espn_id": null,
+"name": null,
+"how": "unresolved (1 search hits)",
+"sport": "NFL"
+},
+"2026-11-05|j.hillatd": {
+"name_raw": "J.Hill",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NFL"
+},
+"2026-11-06|pjo0.53pm": {
+"name_raw": "PJ",
+"espn_id": null,
+"name": null,
+"how": "unresolved (2 search hits)",
+"sport": "NBA"
+},
+"2026-11-06|pjo1.53pm": {
+"name_raw": "PJ",
+"espn_id": null,
+"name": null,
+"how": "unresolved (2 search hits)",
+"sport": "NBA"
+},
+"2026-11-06|jerome15+": {
+"name_raw": "Jerome",
+"espn_id": "4065733",
+"name": "Ty Jerome",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|luka30+": {
+"name_raw": "Luka",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|luka35+": {
+"name_raw": "Luka",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|brown15+": {
+"name_raw": "Brown",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (3 players)",
+"sport": "NBA"
+},
+"2026-11-06|sga25+": {
+"name_raw": "SGA",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|sgau6.5ast": {
+"name_raw": "SGA",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|castle4+reb": {
+"name_raw": "Castle",
+"espn_id": "4845367",
+"name": "Stephon Castle",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|acuffo1.53pm": {
+"name_raw": "Acuff",
+"espn_id": null,
+"name": null,
+"how": "unresolved (1 search hits)",
+"sport": "NBA"
+},
+"2026-11-06|coward10+": {
+"name_raw": "Coward",
+"espn_id": "4903027",
+"name": "Cedric Coward",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|coward12+": {
+"name_raw": "Coward",
+"espn_id": "4903027",
+"name": "Cedric Coward",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|cowardo1.53pm": {
+"name_raw": "Coward",
+"espn_id": "4903027",
+"name": "Cedric Coward",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|flagg20+": {
+"name_raw": "Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|peterson10+": {
+"name_raw": "Peterson",
+"espn_id": "5041955",
+"name": "Darryn Peterson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|peterson12+": {
+"name_raw": "Peterson",
+"espn_id": "5041955",
+"name": "Darryn Peterson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|avdija20+": {
+"name_raw": "Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|lillardo16.5": {
+"name_raw": "Lillard",
+"espn_id": "6606",
+"name": "Damian Lillard",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|lukao6.5ast": {
+"name_raw": "Luka",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|jaquezu3.5ast": {
+"name_raw": "Jaquez",
+"espn_id": "4432848",
+"name": "Jaime Jaquez Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|lamelo15+": {
+"name_raw": "LaMelo",
+"espn_id": "4432816",
+"name": "LaMelo Ball",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|markkanen15+": {
+"name_raw": "Markkanen",
+"espn_id": "4066336",
+"name": "Lauri Markkanen",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|ajaymitchell15+": {
+"name_raw": "Ajay Mitchell",
+"espn_id": "4900671",
+"name": "Ajay Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|dosunmu15+": {
+"name_raw": "Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|nazreid15+": {
+"name_raw": "Naz Reid",
+"espn_id": "4396971",
+"name": "Naz Reid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|mcdaniels15+": {
+"name_raw": "McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|zion20+": {
+"name_raw": "Zion",
+"espn_id": "4395628",
+"name": "Zion Williamson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|tatum7+ast": {
+"name_raw": "Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|fears4+reb": {
+"name_raw": "Fears",
+"espn_id": "5144091",
+"name": "Jeremiah Fears",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|lebron7+ast": {
+"name_raw": "LeBron",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|lavineo2.5reb": {
+"name_raw": "LaVine",
+"espn_id": "3064440",
+"name": "Zach LaVine",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|j.hayes4+reb": {
+"name_raw": "J.Hayes",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NBA"
+},
+"2026-11-06|lebrono13.5r+a": {
+"name_raw": "LeBron",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|lebron7+reb": {
+"name_raw": "LeBron",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|barrett20+": {
+"name_raw": "Barrett",
+"espn_id": "4395625",
+"name": "RJ Barrett",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|barrett25+": {
+"name_raw": "Barrett",
+"espn_id": "4395625",
+"name": "RJ Barrett",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|clinganu11.5": {
+"name_raw": "Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|shead4+ast": {
+"name_raw": "Shead",
+"espn_id": "4432241",
+"name": "Jamal Shead",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|shead6+ast": {
+"name_raw": "Shead",
+"espn_id": "4432241",
+"name": "Jamal Shead",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-06|r.williamso12.5p+r": {
+"name_raw": "R.Williams",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NBA"
+},
+"2026-11-06|d.mitchello24.5": {
+"name_raw": "D.Mitchell",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NBA"
+},
+"2026-11-06|tatum7+reb": {
+"name_raw": "Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|mccollum10+": {
+"name_raw": "McCollum",
+"espn_id": "2490149",
+"name": "CJ McCollum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|mccollumo13.5": {
+"name_raw": "McCollum",
+"espn_id": "2490149",
+"name": "CJ McCollum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|shamet6+": {
+"name_raw": "Shamet",
+"espn_id": "3914044",
+"name": "Landry Shamet",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|shameto6.5": {
+"name_raw": "Shamet",
+"espn_id": "3914044",
+"name": "Landry Shamet",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|shamet5+": {
+"name_raw": "Shamet",
+"espn_id": "3914044",
+"name": "Landry Shamet",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|avdija20+": {
+"name_raw": "Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|avdijao23.5": {
+"name_raw": "Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|avdija15+": {
+"name_raw": "Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|avdija18+": {
+"name_raw": "Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|nembhard2+reb": {
+"name_raw": "Nembhard",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (2 players)",
+"sport": "NBA"
+},
+"2026-11-07|nembhardo2.5reb": {
+"name_raw": "Nembhard",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (2 players)",
+"sport": "NBA"
+},
+"2026-11-07|mpj20+": {
+"name_raw": "MPJ",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|mpjo21.5": {
+"name_raw": "MPJ",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|mpj15+": {
+"name_raw": "MPJ",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|holiday20+pra": {
+"name_raw": "Holiday",
+"espn_id": "3995",
+"name": "Jrue Holiday",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|holidayo21.5pra": {
+"name_raw": "Holiday",
+"espn_id": "3995",
+"name": "Jrue Holiday",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|harpero4.5ast": {
+"name_raw": "Harper",
+"espn_id": "5037871",
+"name": "Dylan Harper",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|harden10+": {
+"name_raw": "Harden",
+"espn_id": "3992",
+"name": "James Harden",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-07|hardeno16.5": {
+"name_raw": "Harden",
+"espn_id": "3992",
+"name": "James Harden",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-08|lamb50+recyds": {
+"name_raw": "Lamb",
+"espn_id": "4241389",
+"name": "CeeDee Lamb",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-08|lambo83.5recyds": {
+"name_raw": "Lamb",
+"espn_id": "4241389",
+"name": "CeeDee Lamb",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-08|genoo200passyds": {
+"name_raw": "Geno",
+"espn_id": "15864",
+"name": "Geno Smith",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|jsno25.5longestrec": {
+"name_raw": "JSN",
+"espn_id": "4430878",
+"name": "Jaxon Smith-Njigba",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|shedeuro180passyds": {
+"name_raw": "Shedeur",
+"espn_id": "4432762",
+"name": "Shedeur Sanders",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|shedeur30+longestcomp": {
+"name_raw": "Shedeur",
+"espn_id": "4432762",
+"name": "Shedeur Sanders",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|lutherburden50+recyds": {
+"name_raw": "Luther Burden",
+"espn_id": "4685278",
+"name": "Luther Burden III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-08|mcdaniels10+pts": {
+"name_raw": "McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-08|mcdanielso12.5pts": {
+"name_raw": "McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-08|mcdaniels15+pts": {
+"name_raw": "McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-08|fearso3.5reb": {
+"name_raw": "Fears",
+"espn_id": "5144091",
+"name": "Jeremiah Fears",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-08|reaveso3.5reb": {
+"name_raw": "Reaves",
+"espn_id": "4066457",
+"name": "Austin Reaves",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-08|breecehall2+rec": {
+"name_raw": "Breece Hall",
+"espn_id": "4427366",
+"name": "Breece Hall",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|nabers50+recyds": {
+"name_raw": "Nabers",
+"espn_id": "4595348",
+"name": "Malik Nabers",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-08|nabers60+recyds": {
+"name_raw": "Nabers",
+"espn_id": "4595348",
+"name": "Malik Nabers",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-08|st.brown50+recyds": {
+"name_raw": "St. Brown",
+"espn_id": "4374302",
+"name": "Amon-Ra St. Brown",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-08|cokeru60recyds": {
+"name_raw": "Coker",
+"espn_id": "4695883",
+"name": "Jalen Coker",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-08|cokeru52.5recyds": {
+"name_raw": "Coker",
+"espn_id": "4695883",
+"name": "Jalen Coker",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-08|joemilton20+rush": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|joemiltono23.5rush": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|joemilton30+rush": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|joemilton40+rush": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|joemilton50+rush": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|joemilton60+rush": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|joemiltono69.5rush": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-08|kittle60+recyds": {
+"name_raw": "Kittle",
+"espn_id": "3040151",
+"name": "George Kittle",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-08|kittleo68.5recyds": {
+"name_raw": "Kittle",
+"espn_id": "3040151",
+"name": "George Kittle",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-08|laporta40+recyds": {
+"name_raw": "LaPorta",
+"espn_id": "4430027",
+"name": "Sam LaPorta",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|cook50+rushyds": {
+"name_raw": "Cook",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-09|allen200+passyds": {
+"name_raw": "Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|alleno237.5passyds": {
+"name_raw": "Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|allenu23completions": {
+"name_raw": "Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|allenu21completions": {
+"name_raw": "Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|allenu19.5completions": {
+"name_raw": "Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|allenatd": {
+"name_raw": "Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|allenu25completions": {
+"name_raw": "Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|shakir3+rec": {
+"name_raw": "Shakir",
+"espn_id": "4373678",
+"name": "Khalil Shakir",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|djmooreatd": {
+"name_raw": "DJ Moore",
+"espn_id": "3915416",
+"name": "DJ Moore",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|tyjohnsonu15.5recyds": {
+"name_raw": "Ty Johnson",
+"espn_id": "3915411",
+"name": "Ty Johnson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-09|jeffersonu8rec": {
+"name_raw": "Jefferson",
+"espn_id": "4262921",
+"name": "Justin Jefferson",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|jeffersonu7rec": {
+"name_raw": "Jefferson",
+"espn_id": "4262921",
+"name": "Justin Jefferson",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|jeffersonatd": {
+"name_raw": "Jefferson",
+"espn_id": "4262921",
+"name": "Justin Jefferson",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|wentzo0.5passtd": {
+"name_raw": "Wentz",
+"espn_id": "2573079",
+"name": "Carson Wentz",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|wentzo1.5passtds": {
+"name_raw": "Wentz",
+"espn_id": "2573079",
+"name": "Carson Wentz",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|wentz200+passyds": {
+"name_raw": "Wentz",
+"espn_id": "2573079",
+"name": "Carson Wentz",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|wentzo211.5passyds": {
+"name_raw": "Wentz",
+"espn_id": "2573079",
+"name": "Carson Wentz",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|wentz15+completions": {
+"name_raw": "Wentz",
+"espn_id": "2573079",
+"name": "Carson Wentz",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|wentzo18.5completions": {
+"name_raw": "Wentz",
+"espn_id": "2573079",
+"name": "Carson Wentz",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|hockensonatd": {
+"name_raw": "Hockenson",
+"espn_id": "4036133",
+"name": "T.J. Hockenson",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-09|wembyu55pra": {
+"name_raw": "Wemby",
+"espn_id": "5104157",
+"name": "Victor Wembanyama",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|wembyu50pra": {
+"name_raw": "Wemby",
+"espn_id": "5104157",
+"name": "Victor Wembanyama",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|wembyu45pra": {
+"name_raw": "Wemby",
+"espn_id": "5104157",
+"name": "Victor Wembanyama",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|ziairewilliams5+pts": {
+"name_raw": "Ziaire Williams",
+"espn_id": "4433137",
+"name": "Ziaire Williams",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|milesbridges20+pra": {
+"name_raw": "Miles Bridges",
+"espn_id": "4066383",
+"name": "Miles Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|kyshawngeorge20+pra": {
+"name_raw": "Kyshawn George",
+"espn_id": "5174563",
+"name": "Kyshawn George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|kyshawngeorgeo4.5reb": {
+"name_raw": "Kyshawn George",
+"espn_id": "5174563",
+"name": "Kyshawn George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|bookero18.5pts": {
+"name_raw": "Booker",
+"espn_id": "3136193",
+"name": "Devin Booker",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|bookero1.53pm": {
+"name_raw": "Booker",
+"espn_id": "3136193",
+"name": "Devin Booker",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|booker15+pts": {
+"name_raw": "Booker",
+"espn_id": "3136193",
+"name": "Devin Booker",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|sengunu0.5threes": {
+"name_raw": "Sengun",
+"espn_id": "4871144",
+"name": "Alperen Sengun",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|okongwuo0.53pm": {
+"name_raw": "Okongwu",
+"espn_id": "4431680",
+"name": "Onyeka Okongwu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|okongwuo1.53pm": {
+"name_raw": "Okongwu",
+"espn_id": "4431680",
+"name": "Onyeka Okongwu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|fearso3.5ast": {
+"name_raw": "Fears",
+"espn_id": "5144091",
+"name": "Jeremiah Fears",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|siakamu25pts": {
+"name_raw": "Siakam",
+"espn_id": "3149673",
+"name": "Pascal Siakam",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|camspenceru4reb": {
+"name_raw": "Cam Spencer",
+"espn_id": "4433083",
+"name": "Cam Spencer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|camspenceru3reb": {
+"name_raw": "Cam Spencer",
+"espn_id": "4433083",
+"name": "Cam Spencer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|jamalmurrayu4.5reb": {
+"name_raw": "Jamal Murray",
+"espn_id": "3936299",
+"name": "Jamal Murray",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|jakobewaltero11.5pts": {
+"name_raw": "Ja'Kobe Walter",
+"espn_id": "4684272",
+"name": "Ja'Kobe Walter",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|kesslero23.5p+r": {
+"name_raw": "Kessler",
+"espn_id": "4433136",
+"name": "Walker Kessler",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|derozanu20pra": {
+"name_raw": "DeRozan",
+"espn_id": "3978",
+"name": "DeMar DeRozan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|johncollinso5.5reb": {
+"name_raw": "John Collins",
+"espn_id": "3908845",
+"name": "John Collins",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|castleo4.5reb": {
+"name_raw": "Castle",
+"espn_id": "4845367",
+"name": "Stephon Castle",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|cadeo8.5ast": {
+"name_raw": "Cade",
+"espn_id": "4432166",
+"name": "Cade Cunningham",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-09|dylanharpero21.5p+r": {
+"name_raw": "Dylan Harper",
+"espn_id": "5037871",
+"name": "Dylan Harper",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|jaylenbrownover22.5points": {
+"name_raw": "Jaylen Brown",
+"espn_id": "3917376",
+"name": "Jaylen Brown",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|jaylenbrownover20points": {
+"name_raw": "Jaylen Brown",
+"espn_id": "3917376",
+"name": "Jaylen Brown",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|khamanmaluachover5.5rebounds": {
+"name_raw": "Khaman Maluach",
+"espn_id": "5203685",
+"name": "Khaman Maluach",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|robertwilliamsunder6.5rebounds": {
+"name_raw": "Robert Williams",
+"espn_id": "4066211",
+"name": "Robert Williams III",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-10|karlanthonytownsunder1.5threes": {
+"name_raw": "Karl Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|karlanthonytownsunder2threesmade": {
+"name_raw": "Karl Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|karlanthonytownsunder3threesmade": {
+"name_raw": "Karl Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|karlanthonytowns15+points": {
+"name_raw": "Karl Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|donovanclinganunder12rebounds": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|donovanclinganunder13rebounds": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|donovanclinganunder14rebounds": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|alexcarusounder3assist": {
+"name_raw": "Alex Caruso",
+"espn_id": "2991350",
+"name": "Alex Caruso",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|alexcarusounder4assist": {
+"name_raw": "Alex Caruso",
+"espn_id": "2991350",
+"name": "Alex Caruso",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|jaysontatum20+points": {
+"name_raw": "Jayson Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|jaysontatumover7.5rebounds": {
+"name_raw": "Jayson Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|jaylenbrown15+points": {
+"name_raw": "Jaylen BRown",
+"espn_id": "3917376",
+"name": "Jaylen Brown",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|tyresemaxey15+points": {
+"name_raw": "Tyrese Maxey",
+"espn_id": "4431678",
+"name": "Tyrese Maxey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|tyresemaxeyo5.5ast": {
+"name_raw": "Tyrese Maxey",
+"espn_id": "4431678",
+"name": "Tyrese Maxey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|joelembiid6+rebounds": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|jalenbrunson20+points": {
+"name_raw": "Jalen Brunson",
+"espn_id": "3934672",
+"name": "Jalen Brunson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|acebaileyo15.5pts": {
+"name_raw": "Ace Bailey",
+"espn_id": "4873138",
+"name": "Ace Bailey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|acebailey12+pts": {
+"name_raw": "Ace Bailey",
+"espn_id": "4873138",
+"name": "Ace Bailey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|dariusacuffjr.o3.5reb": {
+"name_raw": "Darius Acuff Jr.",
+"espn_id": "5142620",
+"name": "Darius Acuff Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|dariusacuffjr.o2.5threesmade": {
+"name_raw": "Darius Acuff Jr.",
+"espn_id": "5142620",
+"name": "Darius Acuff Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|dariusacuffjr.o0.5threesmade": {
+"name_raw": "Darius Acuff Jr.",
+"espn_id": "5142620",
+"name": "Darius Acuff Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|dariusacuffjr.o1.5threesmade": {
+"name_raw": "Darius Acuff Jr.",
+"espn_id": "5142620",
+"name": "Darius Acuff Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|jamalcaino3.5reb": {
+"name_raw": "Jamal Cain",
+"espn_id": "4278572",
+"name": "Jamal Cain",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|bamadebayoo6.5reb": {
+"name_raw": "Bam Adebayo",
+"espn_id": "4066261",
+"name": "Bam Adebayo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|ruihachimura15+points": {
+"name_raw": "Rui Hachimura",
+"espn_id": "4066648",
+"name": "Rui Hachimura",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|ruihachimura10+points": {
+"name_raw": "Rui Hachimura",
+"espn_id": "4066648",
+"name": "Rui Hachimura",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|deniavdijaover1.53pointersmade": {
+"name_raw": "Deni Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|deniavdijaover0.53pointersmade": {
+"name_raw": "Deni Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|deniavdija6+assists": {
+"name_raw": "Deni Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|darrynpeterson20+points": {
+"name_raw": "Darryn Peterson",
+"espn_id": "5041955",
+"name": "Darryn Peterson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|darrynpeterson15+points": {
+"name_raw": "Darryn Peterson",
+"espn_id": "5041955",
+"name": "Darryn Peterson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|franzwagner8+assists": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|franzwagner5+ast": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|dariusacuff6+assists": {
+"name_raw": "Darius Acuff",
+"espn_id": "5142620",
+"name": "Darius Acuff Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-10|jalenbrunsun6+assists": {
+"name_raw": "Jalen Brunsun",
+"espn_id": "3934672",
+"name": "Jalen Brunson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|giannisantetokounmpo6+assists": {
+"name_raw": "Giannis Antetokounmpo",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|maluach4+reb": {
+"name_raw": "Maluach",
+"espn_id": "5203685",
+"name": "Khaman Maluach",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|tatum5+reb": {
+"name_raw": "Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|tristandasilvaover17.5pts+reb": {
+"name_raw": "Tristan Da Silva",
+"espn_id": "4702382",
+"name": "Tristan da Silva",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|shaigilgeousalexander4+rebounds": {
+"name_raw": "Shai Gilgeous Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|shaigilgeousalexander2+rebounds": {
+"name_raw": "Shai Gilgeous Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|shaigilgeousalexander5+rebounds": {
+"name_raw": "Shai Gilgeous Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|shaigilgeousalexander25+points": {
+"name_raw": "Shai Gilgeous Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-10|buckley75+rushyds": {
+"name_raw": "Buckley",
+"espn_id": "5085006",
+"name": "Jalen Buckley",
+"how": "search+event team",
+"sport": "CFB"
+},
+"2026-11-10|wayneharris50+recyds": {
+"name_raw": "Wayne Harris",
+"espn_id": "5147053",
+"name": "Wayne Harris",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-11|michaelporterover21.5points": {
+"name_raw": "Michael Porter",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-11|draymondgreenover9.5pts+reb": {
+"name_raw": "Draymond Green",
+"espn_id": "6589",
+"name": "Draymond Green",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jeremiahfearsover4.5assists": {
+"name_raw": "Jeremiah Fears",
+"espn_id": "5144091",
+"name": "Jeremiah Fears",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jeremiahfearsover4assists": {
+"name_raw": "Jeremiah Fears",
+"espn_id": "5144091",
+"name": "Jeremiah Fears",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jeremiahfearsover5assists": {
+"name_raw": "Jeremiah Fears",
+"espn_id": "5144091",
+"name": "Jeremiah Fears",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|karlanthonytownsunder3.5assists": {
+"name_raw": "Karl-Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|cameronboozerover9rebounds": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|cameronboozerover8rebounds": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|cameronboozero4.5ast": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|cameronboozeroverrebounds": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|cameronboozeroverassets": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|michealporterover20points": {
+"name_raw": "Micheal Porter",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|juliusrandleover4assists": {
+"name_raw": "Julius Randle",
+"espn_id": "3064514",
+"name": "Julius Randle",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|juliusrandleover5assists": {
+"name_raw": "Julius Randle",
+"espn_id": "3064514",
+"name": "Julius Randle",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|juliusrandle15+points": {
+"name_raw": "Julius Randle",
+"espn_id": "3064514",
+"name": "Julius Randle",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|deaaronfoxunder7assists": {
+"name_raw": "De\u2019Aaron Fox",
+"espn_id": "4066259",
+"name": "De'Aaron Fox",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|deaaronfoxunder8assists": {
+"name_raw": "De\u2019Aaron fox",
+"espn_id": "4066259",
+"name": "De'Aaron Fox",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|andredrummondunder5points": {
+"name_raw": "Andre Drummond",
+"espn_id": "6585",
+"name": "Andre Drummond",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|karlanthonytownsunder4assists": {
+"name_raw": "Karl Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|karlanthonytownsunder5assists": {
+"name_raw": "Karl Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|karlanthonytowns15+points": {
+"name_raw": "Karl Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jaysontatum20+points": {
+"name_raw": "Jayson Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|neemiasqueta4+rebounds": {
+"name_raw": "Neemias Queta",
+"espn_id": "4397424",
+"name": "Neemias Queta",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|evanmobleyover10points": {
+"name_raw": "Evan Mobley",
+"espn_id": "4432158",
+"name": "Evan Mobley",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|evanmobleyover15points": {
+"name_raw": "Evan Mobley",
+"espn_id": "4432158",
+"name": "Evan Mobley",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|ogannuoubyover4rebounds": {
+"name_raw": "Og Annuouby",
+"espn_id": "3934719",
+"name": "OG Anunoby",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|anthonydavisover15points": {
+"name_raw": "Anthony Davis",
+"espn_id": "6583",
+"name": "Anthony Davis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|alexsarrover4rebounds": {
+"name_raw": "Alex Sarr",
+"espn_id": "5160992",
+"name": "Alex Sarr",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|alexsarrover6.5rebounds": {
+"name_raw": "Alex Sarr",
+"espn_id": "5160992",
+"name": "Alex Sarr",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|walkerkesslerover10points": {
+"name_raw": "Walker Kessler",
+"espn_id": "4433136",
+"name": "Walker Kessler",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|walkerkesslerover10rebounds": {
+"name_raw": "Walker Kessler",
+"espn_id": "4433136",
+"name": "Walker Kessler",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|walkerkesslerover8rebounds": {
+"name_raw": "Walker Kessler",
+"espn_id": "4433136",
+"name": "Walker Kessler",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|walkerkesslerover6rebounds": {
+"name_raw": "Walker Kessler",
+"espn_id": "4433136",
+"name": "Walker Kessler",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|walkerkesslero24.5points+rebounds": {
+"name_raw": "Walker Kessler",
+"espn_id": "4433136",
+"name": "Walker Kessler",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|braydenburriesover0.53pointersmade": {
+"name_raw": "Brayden Burries",
+"espn_id": "5082206",
+"name": "Brayden Burries",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|zionwilliamson15+points": {
+"name_raw": "Zion Williamson",
+"espn_id": "4395628",
+"name": "Zion Williamson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|zionwilliamsonover20+points": {
+"name_raw": "Zion Williamson",
+"espn_id": "4395628",
+"name": "Zion Williamson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|zionwilliamsono14.5pts": {
+"name_raw": "Zion Williamson",
+"espn_id": "4395628",
+"name": "Zion Williamson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|nikolajokicdoubledouble": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|calebwilson20+pra": {
+"name_raw": "Caleb Wilson",
+"espn_id": "5095151",
+"name": "Caleb Wilson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|steponcastle20+pra": {
+"name_raw": "Stepon Castle",
+"espn_id": "4845367",
+"name": "Stephon Castle",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|desmondbane2+3pointersmade": {
+"name_raw": "Desmond Bane",
+"espn_id": "4066320",
+"name": "Desmond Bane",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|franzwagnerover15points": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|franzwagnerover20points": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|alperensenguunover15points": {
+"name_raw": "Alperen Senguun",
+"espn_id": "4871144",
+"name": "Alperen Sengun",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|yaxellenderborg20+pra": {
+"name_raw": "Yaxel LEnderborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|isaiahhartensteinover8rebounds": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|isaiahhartensteinover3.5asts": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|paytonpritchardover20+pra": {
+"name_raw": "Payton Pritchard",
+"espn_id": "4066354",
+"name": "Payton Pritchard",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|stephoncastle4+rebounds": {
+"name_raw": "Stephon Castle",
+"espn_id": "4845367",
+"name": "Stephon Castle",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|ivicazubacover9.5rebs": {
+"name_raw": "Ivica Zubac",
+"espn_id": "4017837",
+"name": "Ivica Zubac",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|cedriccowardover1.53pm": {
+"name_raw": "Cedric Coward",
+"espn_id": "4903027",
+"name": "Cedric Coward",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jalenbrunson20+points": {
+"name_raw": "Jalen Brunson",
+"espn_id": "3934672",
+"name": "Jalen Brunson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jalenbrunson6+assists": {
+"name_raw": "Jalen Brunson",
+"espn_id": "3934672",
+"name": "Jalen Brunson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jalenbrunson25+": {
+"name_raw": "Jalen Brunson",
+"espn_id": "3934672",
+"name": "Jalen Brunson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|donovanmitchell20+points": {
+"name_raw": "Donovan Mitchell",
+"espn_id": "3908809",
+"name": "Donovan Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jakobewaltero12.5pts": {
+"name_raw": "Ja\u2019Kobe Walter",
+"espn_id": "4684272",
+"name": "Ja'Kobe Walter",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|quentonjacksono2.5reb": {
+"name_raw": "Quenton Jackson",
+"espn_id": "4592829",
+"name": "Quenton Jackson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|mikalbridgeso2.5reb": {
+"name_raw": "Mikal Bridges",
+"espn_id": "3147657",
+"name": "Mikal Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|yaxellendeborgo22.5points+assists": {
+"name_raw": "Yaxel Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|ziairewilliamso1.5threesmade": {
+"name_raw": "Ziaire Williams",
+"espn_id": "4433137",
+"name": "Ziaire Williams",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|dylanharpero17.5points": {
+"name_raw": "Dylan Harper",
+"espn_id": "5037871",
+"name": "Dylan Harper",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|kyshawngeorgeo19.5points+assists": {
+"name_raw": "Kyshawn George",
+"espn_id": "5174563",
+"name": "Kyshawn George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jaylontysono7.5points105": {
+"name_raw": "Jaylon Tyson",
+"espn_id": "4683747",
+"name": "Jaylon Tyson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jaylontyson10+points+180": {
+"name_raw": "Jaylon Tyson",
+"espn_id": "4683747",
+"name": "Jaylon Tyson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jaylontyson15+points": {
+"name_raw": "Jaylon Tyson",
+"espn_id": "4683747",
+"name": "Jaylon Tyson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|mpj15+pts": {
+"name_raw": "MPJ",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|sarr4+reb": {
+"name_raw": "Sarr",
+"espn_id": "5160992",
+"name": "Alex Sarr",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|boozer7+reb": {
+"name_raw": "Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|boozer3+ast": {
+"name_raw": "Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|boozer6+reb": {
+"name_raw": "Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|fears3+ast": {
+"name_raw": "Fears",
+"espn_id": "5144091",
+"name": "Jeremiah Fears",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|randle3+ast": {
+"name_raw": "Randle",
+"espn_id": "3064514",
+"name": "Julius Randle",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|sga20+pts": {
+"name_raw": "SGA",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|hartenstein6+reb": {
+"name_raw": "Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|coward1+three": {
+"name_raw": "Coward",
+"espn_id": "4903027",
+"name": "Cedric Coward",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|brunson4+ast": {
+"name_raw": "Brunson",
+"espn_id": "3934672",
+"name": "Jalen Brunson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|walter8+pts": {
+"name_raw": "Walter",
+"espn_id": "4684272",
+"name": "Ja'Kobe Walter",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|lendeborg18+p+a": {
+"name_raw": "Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|lendeborg25+pra": {
+"name_raw": "Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|lendeborg30+pra": {
+"name_raw": "Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|kessler15+p+r": {
+"name_raw": "Kessler",
+"espn_id": "4433136",
+"name": "Walker Kessler",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|ziaire1+three": {
+"name_raw": "Ziaire",
+"espn_id": "4433137",
+"name": "Ziaire Williams",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|harper12+pts": {
+"name_raw": "Harper",
+"espn_id": "5037871",
+"name": "Dylan Harper",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|george14+p+a": {
+"name_raw": "George",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (3 players)",
+"sport": "NBA"
+},
+"2026-11-11|bridges2+reb": {
+"name_raw": "Bridges",
+"espn_id": null,
+"name": null,
+"how": "ambiguous (2 players)",
+"sport": "NBA"
+},
+"2026-11-11|nolantraoreover10.5pts": {
+"name_raw": "Nolan Traore",
+"espn_id": "5279130",
+"name": "Nolan Traore",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-11|jamesharden4+assists": {
+"name_raw": "James Harden",
+"espn_id": "3992",
+"name": "James Harden",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|danissjenkinsover1.53pointersmade": {
+"name_raw": "Daniss Jenkins",
+"espn_id": "5107199",
+"name": "Daniss Jenkins",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|danissjenkinsover0.53pointersmade": {
+"name_raw": "Daniss Jenkins",
+"espn_id": "5107199",
+"name": "Daniss Jenkins",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|maliknabers50+receivingyards": {
+"name_raw": "Malik Nabers",
+"espn_id": "4595348",
+"name": "Malik Nabers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|maliknabers4+receptions": {
+"name_raw": "Malik Nabers",
+"espn_id": "4595348",
+"name": "Malik Nabers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|maliknabers50+receivingyards2": {
+"name_raw": "Malik Nabers",
+"espn_id": "4595348",
+"name": "Malik Nabers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|maliknaberso67.5recyds": {
+"name_raw": "Malik Nabers",
+"espn_id": "4595348",
+"name": "Malik Nabers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|camskattebo40+rushingyards": {
+"name_raw": "Cam Skattebo",
+"espn_id": "4696981",
+"name": "Cam Skattebo",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|camskatteboo64.5r+ryds": {
+"name_raw": "Cam Skattebo",
+"espn_id": "4696981",
+"name": "Cam Skattebo",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|camskattebo55+rushingyards": {
+"name_raw": "Cam Skattebo",
+"espn_id": "4696981",
+"name": "Cam Skattebo",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|jaydendaniels25+rushingyards": {
+"name_raw": "Jayden Daniels",
+"espn_id": "4426348",
+"name": "Jayden Daniels",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|jaydendanielsunder0.5interceptions": {
+"name_raw": "Jayden Daniels",
+"espn_id": "4426348",
+"name": "Jayden Daniels",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|jaydendanielso30.5passatt": {
+"name_raw": "Jayden Daniels",
+"espn_id": "4426348",
+"name": "Jayden Daniels",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|antoniowilliams25+receivingyards": {
+"name_raw": "Antonio Williams",
+"espn_id": null,
+"name": null,
+"how": "unresolved (2 search hits)",
+"sport": "NFL"
+},
+"2026-11-12|chigoziemokonkwo3+receptions": {
+"name_raw": "Chigoziem",
+"espn_id": "4360635",
+"name": "Chig Okonkwo",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-12|chigoziemokonkwo20+receivingyards": {
+"name_raw": "Chigoziem",
+"espn_id": "4360635",
+"name": "Chig Okonkwo",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-12|malachifields2+receptions": {
+"name_raw": "Malachi Fields",
+"espn_id": "4682648",
+"name": "Malachi Fields",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|malachifieldsover24.5receivingyards": {
+"name_raw": "Malachi Fields",
+"espn_id": "4682648",
+"name": "Malachi Fields",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|jaydendanielsanytimetouchdowns": {
+"name_raw": "Jayden Daniels any time touchdowns",
+"espn_id": "4426348",
+"name": "Jayden Daniels",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|j.j.mccarthyanytimetouchdowns": {
+"name_raw": "J.J. McCarthy any time touchdowns",
+"espn_id": "4433970",
+"name": "J.J. McCarthy",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|devinsingletaryunder8.5longestrush": {
+"name_raw": "Devin Singletary",
+"espn_id": "4040761",
+"name": "Devin Singletary",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|rachaadwhiteover54.5rush+recyards": {
+"name_raw": "Rachaad White",
+"espn_id": "4697815",
+"name": "Rachaad White",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|rachaadwhite5+receivingyards": {
+"name_raw": "Rachaad White",
+"espn_id": "4697815",
+"name": "Rachaad White",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|rachaadwhite25+rushingyards": {
+"name_raw": "Rachaad White",
+"espn_id": "4697815",
+"name": "Rachaad White",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|rachaadwhiteover53.5rush+receivingyards": {
+"name_raw": "Rachaad White",
+"espn_id": "4697815",
+"name": "Rachaad White",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|rachaadwhiteunder3receptions": {
+"name_raw": "Rachaad White",
+"espn_id": "4697815",
+"name": "Rachaad White",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|stefondiggs25+receivingyards": {
+"name_raw": "Stefon Diggs",
+"espn_id": "2976212",
+"name": "Stefon Diggs",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|stefondiggso3.5rec": {
+"name_raw": "Stefon Diggs",
+"espn_id": "2976212",
+"name": "Stefon Diggs",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|austinekelerover25rushingyards": {
+"name_raw": "Austin Ekeler",
+"espn_id": "3068267",
+"name": "Austin Ekeler",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|austinekelerover30rushingyards": {
+"name_raw": "Austin Ekeler",
+"espn_id": "3068267",
+"name": "Austin Ekeler",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|austinekeler40+rushyards+188": {
+"name_raw": "Austin Ekeler",
+"espn_id": "3068267",
+"name": "Austin Ekeler",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|austinekeler60+rushyards+630": {
+"name_raw": "Austin Ekeler",
+"espn_id": "3068267",
+"name": "Austin Ekeler",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|austinekeler30+rushingyards": {
+"name_raw": "Austin Ekeler",
+"espn_id": "3068267",
+"name": "Austin Ekeler",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|cadecunningham20+points": {
+"name_raw": "Cade Cunningham",
+"espn_id": "4432166",
+"name": "Cade Cunningham",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|anthonydavis20+points": {
+"name_raw": "Anthony Davis",
+"espn_id": "6583",
+"name": "Anthony Davis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|anthonydavis8+rebounds": {
+"name_raw": "Anthony Davis",
+"espn_id": "6583",
+"name": "Anthony Davis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|traeyoung15points": {
+"name_raw": "Trae Young",
+"espn_id": "4277905",
+"name": "Trae Young",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|dominiczvadao6.5kickpoints": {
+"name_raw": "Dominic Zvada",
+"espn_id": "5082424",
+"name": "Dominic Zvada",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|joelembiid6+rebounds": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|joelembiid20+points": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|joelembiid15+points": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|rudygobert8+rebounds": {
+"name_raw": "Rudy Gobert",
+"espn_id": "3032976",
+"name": "Rudy Gobert",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|nazreid8+rebounds": {
+"name_raw": "Naz Reid",
+"espn_id": "4396971",
+"name": "Naz Reid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|nazreid20+points": {
+"name_raw": "Naz Reid",
+"espn_id": "4396971",
+"name": "Naz Reid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|nazreid15+points": {
+"name_raw": "Naz Reid",
+"espn_id": "4396971",
+"name": "Naz Reid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|chigokonkwolongestcatchover15yards": {
+"name_raw": "Chig",
+"espn_id": "4360635",
+"name": "Chig Okonkwo",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-12|camskatteboanytimetouchdown": {
+"name_raw": "Cam Skattebo any time touchdown",
+"espn_id": "4696981",
+"name": "Cam Skattebo",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|deanwade4+rebounds": {
+"name_raw": "Dean Wade",
+"espn_id": "3912848",
+"name": "Dean Wade",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|deanwade2+rebounds": {
+"name_raw": "Dean Wade",
+"espn_id": "3912848",
+"name": "Dean Wade",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|ayodosunmuover15points": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|ayodosunmuover20points": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|ayodosunmuover10points": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|ayodosunmuover2assists": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|ayodosunmuover4assists": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|sionjames10+points": {
+"name_raw": "Sion James",
+"espn_id": "4602025",
+"name": "Sion James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|sionjames8+pts": {
+"name_raw": "Sion James",
+"espn_id": "4602025",
+"name": "Sion James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|danielgafford10+points": {
+"name_raw": "Daniel Gafford",
+"espn_id": "4278049",
+"name": "Daniel Gafford",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|milesbridges15+points": {
+"name_raw": "Miles Bridges",
+"espn_id": "4066383",
+"name": "Miles Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|milesbridges10+points": {
+"name_raw": "Miles Bridges",
+"espn_id": "4066383",
+"name": "Miles Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|alexsarr6+rebounds": {
+"name_raw": "Alex Sarr",
+"espn_id": "5160992",
+"name": "Alex Sarr",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|alexsarr4+rebounds": {
+"name_raw": "Alex Sarr",
+"espn_id": "5160992",
+"name": "Alex Sarr",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|jadenmcdaniels4+rebounds": {
+"name_raw": "Jaden Mcdaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|ausarthomspon4+assists": {
+"name_raw": "Ausar THomspon",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|ausarthompson2+assist": {
+"name_raw": "Ausar Thompson",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|devinsingletarylongestrushunder10yards": {
+"name_raw": "Devin Singletary longest rush",
+"espn_id": "4040761",
+"name": "Devin Singletary",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|cameskattebo50+rushingyards": {
+"name_raw": "Came SKattebo",
+"espn_id": "4696981",
+"name": "Cam Skattebo",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-12|daniels15+rushyds": {
+"name_raw": "Daniels",
+"espn_id": null,
+"name": null,
+"how": "unresolved (3 search hits)",
+"sport": "NFL"
+},
+"2026-11-12|okonkwo2+rec": {
+"name_raw": "Okonkwo",
+"espn_id": null,
+"name": null,
+"how": "unresolved (1 search hits)",
+"sport": "NFL"
+},
+"2026-11-12|a.williams15+recyds": {
+"name_raw": "A. Williams",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NFL"
+},
+"2026-11-12|nabers3+rec": {
+"name_raw": "Nabers",
+"espn_id": "4595348",
+"name": "Malik Nabers",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-12|ayo12+pts": {
+"name_raw": "Ayo",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|zvada5+kickpts": {
+"name_raw": "Zvada",
+"espn_id": "5082424",
+"name": "Dominic Zvada",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-12|skattebo30+rush": {
+"name_raw": "Skattebo",
+"espn_id": "4696981",
+"name": "Cam Skattebo",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-12|white40+r+r": {
+"name_raw": "White",
+"espn_id": null,
+"name": null,
+"how": "unresolved (1 search hits)",
+"sport": "NFL"
+},
+"2026-11-12|ekeler15+rush": {
+"name_raw": "Ekeler",
+"espn_id": null,
+"name": null,
+"how": "unresolved (2 search hits)",
+"sport": "NFL"
+},
+"2026-11-12|bridges8+pts": {
+"name_raw": "Bridges",
+"espn_id": "4066383",
+"name": "Miles Bridges",
+"how": "roster+event",
+"sport": "NBA"
+},
+"2026-11-12|sarr5+reb": {
+"name_raw": "Sarr",
+"espn_id": "5160992",
+"name": "Alex Sarr",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|ausar3+ast": {
+"name_raw": "Ausar",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-12|ad15+pts": {
+"name_raw": "AD",
+"espn_id": "6583",
+"name": "Anthony Davis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|jalenjohnson6+assists": {
+"name_raw": "Jalen Johnson",
+"espn_id": "4701230",
+"name": "Jalen Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|jalenjohnson8+assists": {
+"name_raw": "Jalen Johnson",
+"espn_id": "4701230",
+"name": "Jalen Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|jalenjohnson4+assists": {
+"name_raw": "Jalen Johnson",
+"espn_id": "4701230",
+"name": "Jalen Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dariusgarlandover2.53pointersmade": {
+"name_raw": "Darius Garland",
+"espn_id": "4396907",
+"name": "Darius Garland",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dariusgarlandover1.53pointersmade": {
+"name_raw": "Darius Garland",
+"espn_id": "4396907",
+"name": "Darius Garland",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dariusgarlandover0.53pointersmade": {
+"name_raw": "Darius Garland",
+"espn_id": "4396907",
+"name": "Darius Garland",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|sabonis30+pra": {
+"name_raw": "Sabonis",
+"espn_id": "3155942",
+"name": "Domantas Sabonis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|sabonis25+pra": {
+"name_raw": "Sabonis",
+"espn_id": "3155942",
+"name": "Domantas Sabonis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|shaigilgeousalexanderover35pra": {
+"name_raw": "Shai Gilgeous-Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|shaigilgeousalexanderover40pra": {
+"name_raw": "Shai Gilgeous-Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|shaigilgeousalexanderover30pra": {
+"name_raw": "Shai Gilgeous-Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|shaigilgeousalexander25+points": {
+"name_raw": "Shai Gilgeous-Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|shaigilgeousalexander20+points": {
+"name_raw": "Shai Gilgeous-Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dylanharperover15points": {
+"name_raw": "Dylan Harper",
+"espn_id": "5037871",
+"name": "Dylan Harper",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dylanharperover10points": {
+"name_raw": "Dylan Harper",
+"espn_id": "5037871",
+"name": "Dylan Harper",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|peytonwatson10+points": {
+"name_raw": "Peyton Watson",
+"espn_id": "4576087",
+"name": "Peyton Watson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|peytonwatson15+points": {
+"name_raw": "Peyton Watson",
+"espn_id": "4576087",
+"name": "Peyton Watson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|peytonwatsono13.5points": {
+"name_raw": "Peyton Watson",
+"espn_id": "4576087",
+"name": "Peyton Watson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|sidycissokoover1.53pm": {
+"name_raw": "Sidy Cissoko",
+"espn_id": "5081727",
+"name": "Sidy Cissoko",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|sidycissokoover0.53pm": {
+"name_raw": "Sidy Cissoko",
+"espn_id": "5081727",
+"name": "Sidy Cissoko",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|joshhart10+points": {
+"name_raw": "Josh Hart",
+"espn_id": "3062679",
+"name": "Josh Hart",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|matasbuzelis15+points": {
+"name_raw": "Matas Buzelis",
+"espn_id": "4711294",
+"name": "Matas Buzelis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|matasbuzelis10+points": {
+"name_raw": "Matas Buzelis",
+"espn_id": "4711294",
+"name": "Matas Buzelis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|alperensengunover6assists": {
+"name_raw": "Alperen Sengun",
+"espn_id": "4871144",
+"name": "Alperen Sengun",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|alperensengunover5assists": {
+"name_raw": "Alperen Sengun",
+"espn_id": "4871144",
+"name": "Alperen Sengun",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|alperensengunover7assists": {
+"name_raw": "Alperen Sengun",
+"espn_id": "4871144",
+"name": "Alperen Sengun",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|alperensengun4+assists": {
+"name_raw": "Alperen Sengun",
+"espn_id": "4871144",
+"name": "Alperen Sengun",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|isaiahjacksono6rebounds": {
+"name_raw": "Isaiah Jackson",
+"espn_id": "4432170",
+"name": "Isaiah Jackson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|isaiahjacksono7rebounds": {
+"name_raw": "Isaiah Jackson",
+"espn_id": "4432170",
+"name": "Isaiah Jackson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|isaiahjacksono4rebounds": {
+"name_raw": "Isaiah Jackson",
+"espn_id": "4432170",
+"name": "Isaiah Jackson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|herbertjoneso1.5rebounds": {
+"name_raw": "Herbert Jones",
+"espn_id": "4277813",
+"name": "Herbert Jones",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|herbertjoneso2.5rebounds": {
+"name_raw": "Herbert Jones",
+"espn_id": "4277813",
+"name": "Herbert Jones",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|jaylenwellso7.5points": {
+"name_raw": "Jaylen Wells",
+"espn_id": "5112087",
+"name": "Jaylen Wells",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|jaylenwells10+points": {
+"name_raw": "Jaylen Wells",
+"espn_id": "5112087",
+"name": "Jaylen Wells",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|okongwuo0.53pm": {
+"name_raw": "Okongwu",
+"espn_id": "4431680",
+"name": "Onyeka Okongwu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|jaimejaquez10+points": {
+"name_raw": "Jaime Jaquez",
+"espn_id": "4432848",
+"name": "Jaime Jaquez Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-13|jaimejaquez2+assists": {
+"name_raw": "Jaime Jaquez",
+"espn_id": "4432848",
+"name": "Jaime Jaquez Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-13|donovanmitchell25+points": {
+"name_raw": "Donovan Mitchell",
+"espn_id": "3908809",
+"name": "Donovan Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|donovanmitchell20+points": {
+"name_raw": "Donovan Mitchell",
+"espn_id": "3908809",
+"name": "Donovan Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|donovanmitchell4+assists": {
+"name_raw": "Donovan Mitchell",
+"espn_id": "3908809",
+"name": "Donovan Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|donovanmitchell6+assists": {
+"name_raw": "Donovan Mitchell",
+"espn_id": "3908809",
+"name": "Donovan Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|pascalsiakam15+points": {
+"name_raw": "Pascal Siakam",
+"espn_id": "3149673",
+"name": "Pascal Siakam",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|pascalsiakam20+points": {
+"name_raw": "Pascal Siakam",
+"espn_id": "3149673",
+"name": "Pascal Siakam",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|karlanthonytowns10+rebounds": {
+"name_raw": "Karl-Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|karlanthonytowns8+rebounds": {
+"name_raw": "Karl-Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|tylerherro15+points": {
+"name_raw": "Tyler Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|tylerherro20+points": {
+"name_raw": "Tyler Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|braydenburriesover0.53pm": {
+"name_raw": "Brayden Burries",
+"espn_id": "5082206",
+"name": "Brayden Burries",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|davionmitchell10+points": {
+"name_raw": "Davion Mitchell",
+"espn_id": "4278053",
+"name": "Davion Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|davionmitchell6+assists": {
+"name_raw": "Davion Mitchell",
+"espn_id": "4278053",
+"name": "Davion Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|jarrettallen6+rebounds": {
+"name_raw": "Jarrett Allen",
+"espn_id": "4066328",
+"name": "Jarrett Allen",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|jarrettallen8+rebounds": {
+"name_raw": "Jarrett Allen",
+"espn_id": "4066328",
+"name": "Jarrett Allen",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|nickeilalexanderwalker15+points": {
+"name_raw": "Nickeil Alexander-Walker",
+"espn_id": "4278039",
+"name": "Nickeil Alexander-Walker",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|nickeilalexanderwalker2+threes": {
+"name_raw": "Nickeil Alexander-Walker",
+"espn_id": "4278039",
+"name": "Nickeil Alexander-Walker",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|joshgiddey6+assists": {
+"name_raw": "Josh Giddey",
+"espn_id": "4871145",
+"name": "Josh Giddey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|tyjerome15+points": {
+"name_raw": "Ty Jerome",
+"espn_id": "4065733",
+"name": "Ty Jerome",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|cameronboozer4+assists": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|cameronboozer10+rebounds": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|cameronboozer8+rebounds": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|cameronboozer6+rebounds": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|jabarismith15+points": {
+"name_raw": "Jabari Smith",
+"espn_id": "4432639",
+"name": "Jabari Smith Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-13|jabarismith10+points": {
+"name_raw": "Jabari Smith",
+"espn_id": "4432639",
+"name": "Jabari Smith Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-13|jabarismith6+rebounds": {
+"name_raw": "Jabari Smith",
+"espn_id": "4432639",
+"name": "Jabari Smith Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-13|jabarismith4+rebounds": {
+"name_raw": "Jabari Smith",
+"espn_id": "4432639",
+"name": "Jabari Smith Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-13|jabarismitho6.5rebounds": {
+"name_raw": "Jabari Smith",
+"espn_id": "4432639",
+"name": "Jabari Smith Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-13|kevindurant15+points": {
+"name_raw": "Kevin Durant",
+"espn_id": "3202",
+"name": "Kevin Durant",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|yaxellendeborg15+points": {
+"name_raw": "Yaxel Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|yaxellendeborg10+points": {
+"name_raw": "Yaxel Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|isaiahhartenstein15+pra": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|isaiahhartenstein20+pra": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|isaiahhartenstein8+rebounds": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|deniavdija20+points": {
+"name_raw": "Deni Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|deniavdija15+points": {
+"name_raw": "Deni Avdija",
+"espn_id": "4683021",
+"name": "Deni Avdija",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dariusacuffjr30+pra": {
+"name_raw": "Darius Acuff Jr",
+"espn_id": "5142620",
+"name": "Darius Acuff Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dariusacuffjr20+points": {
+"name_raw": "Darius Acuff Jr",
+"espn_id": "5142620",
+"name": "Darius Acuff Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|donovanclingano11.5points": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|donovanclingan10+points": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dysondaniels6+assists": {
+"name_raw": "Dyson Daniels",
+"espn_id": "4869342",
+"name": "Dyson Daniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dysondaniels4+assists": {
+"name_raw": "Dyson Daniels",
+"espn_id": "4869342",
+"name": "Dyson Daniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dysondaniels6+rebounds": {
+"name_raw": "Dyson Daniels",
+"espn_id": "4869342",
+"name": "Dyson Daniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dysondaniels4+rebounds": {
+"name_raw": "Dyson Daniels",
+"espn_id": "4869342",
+"name": "Dyson Daniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|domantassaboniso11.5rebounds": {
+"name_raw": "Domantas Sabonis",
+"espn_id": "3155942",
+"name": "Domantas Sabonis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|domantassabonis10+rebounds": {
+"name_raw": "Domantas Sabonis",
+"espn_id": "3155942",
+"name": "Domantas Sabonis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|fredvanvleet15+points": {
+"name_raw": "Fred VanVleet",
+"espn_id": "2991230",
+"name": "Fred VanVleet",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|fredvanvleet10+points": {
+"name_raw": "Fred VanVleet",
+"espn_id": "2991230",
+"name": "Fred VanVleet",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|reedsheppard10+points": {
+"name_raw": "Reed Sheppard",
+"espn_id": "4711272",
+"name": "Reed Sheppard",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dejountemurrayunder25pra": {
+"name_raw": "Dejounte Murray",
+"espn_id": "3907497",
+"name": "Dejounte Murray",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-13|dejountemurrayunder30pra": {
+"name_raw": "Dejounte Murray",
+"espn_id": "3907497",
+"name": "Dejounte Murray",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|johncollins10+points": {
+"name_raw": "John Collins",
+"espn_id": "3908845",
+"name": "John Collins",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|johncollinsover10.5points": {
+"name_raw": "John Collins",
+"espn_id": "3908845",
+"name": "John Collins",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|johncollins15+points": {
+"name_raw": "John Collins",
+"espn_id": "3908845",
+"name": "John Collins",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|jaylontysonover11.5points": {
+"name_raw": "Jaylon Tyson",
+"espn_id": "4683747",
+"name": "Jaylon Tyson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|jaylontyson10+points": {
+"name_raw": "Jaylon Tyson",
+"espn_id": "4683747",
+"name": "Jaylon Tyson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|jaylontyson15+points": {
+"name_raw": "Jaylon Tyson",
+"espn_id": "4683747",
+"name": "Jaylon Tyson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|nolantraore10+points": {
+"name_raw": "Nolan Traore",
+"espn_id": "5279130",
+"name": "Nolan Traore",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|nolantraoreover11.5points": {
+"name_raw": "Nolan Traore",
+"espn_id": "5279130",
+"name": "Nolan Traore",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|nolantraore15+points": {
+"name_raw": "Nolan Traore",
+"espn_id": "5279130",
+"name": "Nolan Traore",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|nolantraore8+points": {
+"name_raw": "Nolan Traore",
+"espn_id": "5279130",
+"name": "Nolan Traore",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|jamalmurrayunder5rebounds": {
+"name_raw": "Jamal Murray",
+"espn_id": "3936299",
+"name": "Jamal Murray",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|jamalmurrayunder6rebounds": {
+"name_raw": "Jamal Murray",
+"espn_id": "3936299",
+"name": "Jamal Murray",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|jamalmurrayunder4.5rebounds": {
+"name_raw": "Jamal Murray",
+"espn_id": "3936299",
+"name": "Jamal Murray",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|jamalmurray2+threes": {
+"name_raw": "Jamal Murray",
+"espn_id": "3936299",
+"name": "Jamal Murray",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|ayodosunmuunder5assists": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|ayodosunmuunder6assists": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|ayodosunmuunder4.5assists": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|ayodosunmu10+points": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|nikolajokic25+points": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|nikolajokic6+assists": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|nikolajokic20+points": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|cameronboozer4+assists": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|cameronboozer6+rebounds": {
+"name_raw": "Cameron Boozer",
+"espn_id": "5041935",
+"name": "Cameron Boozer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|cadecunningham4+rebounds": {
+"name_raw": "Cade Cunningham",
+"espn_id": "4432166",
+"name": "Cade Cunningham",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|cadecunningham6+rebounds": {
+"name_raw": "Cade Cunningham",
+"espn_id": "4432166",
+"name": "Cade Cunningham",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|cadecunningham6+assists": {
+"name_raw": "Cade Cunningham",
+"espn_id": "4432166",
+"name": "Cade Cunningham",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|cadecunningham15+points": {
+"name_raw": "Cade Cunningham",
+"espn_id": "4432166",
+"name": "Cade Cunningham",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|cadecunningham20+points": {
+"name_raw": "Cade Cunningham",
+"espn_id": "4432166",
+"name": "Cade Cunningham",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|p.j.washington20+pra": {
+"name_raw": "P.J. Washington",
+"espn_id": "4278078",
+"name": "P.J. Washington",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|p.j.washington4+rebounds": {
+"name_raw": "P.J. Washington",
+"espn_id": "4278078",
+"name": "P.J. Washington",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|giannisantetokounmpo20+points": {
+"name_raw": "Giannis Antetokounmpo",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|giannisantetokounmpo25+points": {
+"name_raw": "Giannis Antetokounmpo",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|giannisantetokounmpo8+rebounds": {
+"name_raw": "Giannis Antetokounmpo",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|danissjenkins1+three": {
+"name_raw": "Daniss Jenkins",
+"espn_id": "5107199",
+"name": "Daniss Jenkins",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-14|danissjenkins2+threes": {
+"name_raw": "Daniss Jenkins",
+"espn_id": "5107199",
+"name": "Daniss Jenkins",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|justinjefferson50+receivingyards": {
+"name_raw": "Justin Jefferson",
+"espn_id": "4262921",
+"name": "Justin Jefferson",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-15|justinjeffersonover80receivingyards": {
+"name_raw": "Justin Jefferson",
+"espn_id": "4262921",
+"name": "Justin Jefferson",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-15|christianwatson50+receivingyards": {
+"name_raw": "Christian Watson",
+"espn_id": "4248528",
+"name": "Christian Watson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|christianwatson40+receivingyards": {
+"name_raw": "Christian Watson",
+"espn_id": "4248528",
+"name": "Christian Watson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|brockbowers50+receivingyards": {
+"name_raw": "Brock Bowers",
+"espn_id": "4432665",
+"name": "Brock Bowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|brockbowers60+receivingyards": {
+"name_raw": "Brock Bowers",
+"espn_id": "4432665",
+"name": "Brock Bowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jaxonsmithnjigba50+receivingyards": {
+"name_raw": "Jaxon Smith-Njigba",
+"espn_id": "4430878",
+"name": "Jaxon Smith-Njigba",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jaxonsmithnjigbaanytimetouchdown": {
+"name_raw": "Jaxon Smith-Njigba",
+"espn_id": "4430878",
+"name": "Jaxon Smith-Njigba",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jaxonsmithnjigba70+receivingyards": {
+"name_raw": "Jaxon Smith-Njigba",
+"espn_id": "4430878",
+"name": "Jaxon Smith-Njigba",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jamarrchase50+receivingyards": {
+"name_raw": "Ja'Marr Chase",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NFL"
+},
+"2026-11-15|jamarrchaseanytimetouchdown": {
+"name_raw": "Ja'Marr Chase",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NFL"
+},
+"2026-11-15|jamarrchase40+receivingyards": {
+"name_raw": "Ja'Marr Chase",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NFL"
+},
+"2026-11-15|teehiggins50+receivingyards": {
+"name_raw": "Tee Higgins",
+"espn_id": "4239993",
+"name": "Tee Higgins",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|teehiggins60+receivingyards": {
+"name_raw": "Tee Higgins",
+"espn_id": "4239993",
+"name": "Tee Higgins",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|teehiggins40+receivingyards": {
+"name_raw": "Tee Higgins",
+"espn_id": "4239993",
+"name": "Tee Higgins",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|drakelondon50+receivingyards": {
+"name_raw": "Drake London",
+"espn_id": "4426502",
+"name": "Drake London",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|drakelondon40+receivingyards": {
+"name_raw": "Drake London",
+"espn_id": "4426502",
+"name": "Drake London",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|chrisolave50+receivingyards": {
+"name_raw": "Chris",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-15|chrisolave40+receivingyards": {
+"name_raw": "Chris",
+"espn_id": null,
+"name": null,
+"how": "unresolved (4 search hits)",
+"sport": "NFL"
+},
+"2026-11-15|treymcbride50+receivingyards": {
+"name_raw": "Trey McBride",
+"espn_id": "4361307",
+"name": "Trey McBride",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|treymcbride40+receivingyards": {
+"name_raw": "Trey McBride",
+"espn_id": "4361307",
+"name": "Trey McBride",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|ceedeelamb50+receivingyards": {
+"name_raw": "CeeDee Lamb",
+"espn_id": "4241389",
+"name": "CeeDee Lamb",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|ceedeelambover90receivingyards": {
+"name_raw": "CeeDee Lamb",
+"espn_id": "4241389",
+"name": "CeeDee Lamb",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jakobimeyers50+receivingyards": {
+"name_raw": "Jakobi Meyers",
+"espn_id": "3916433",
+"name": "Jakobi Meyers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jaylenwarren50+rushingyards": {
+"name_raw": "Jaylen Warren",
+"espn_id": "4569987",
+"name": "Jaylen Warren",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jaylenwarrenover90rushing+receivingyards": {
+"name_raw": "Jaylen Warren",
+"espn_id": "4569987",
+"name": "Jaylen Warren",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jaylenwarrenover60rushingyards": {
+"name_raw": "Jaylen Warren",
+"espn_id": "4569987",
+"name": "Jaylen Warren",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jaylenwarren40+rushingyards": {
+"name_raw": "Jaylen Warren",
+"espn_id": "4569987",
+"name": "Jaylen Warren",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jonathantaylor50+rushingyards": {
+"name_raw": "Jonathan Taylor",
+"espn_id": "4242335",
+"name": "Jonathan Taylor",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jonathantaylorover70rushingyards": {
+"name_raw": "Jonathan Taylor",
+"espn_id": "4242335",
+"name": "Jonathan Taylor",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jamescook50+rushingyards": {
+"name_raw": "James Cook",
+"espn_id": "4379399",
+"name": "James Cook III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-15|jamescook70+rushingyards": {
+"name_raw": "James Cook",
+"espn_id": "4379399",
+"name": "James Cook III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-15|joshhart10+points": {
+"name_raw": "Josh Hart",
+"espn_id": "3062679",
+"name": "Josh Hart",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|joshhart4+rebounds": {
+"name_raw": "Josh Hart",
+"espn_id": "3062679",
+"name": "Josh Hart",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|jalenjohnson6+assists": {
+"name_raw": "Jalen Johnson",
+"espn_id": "4701230",
+"name": "Jalen Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|jalenjohnson6+rebounds": {
+"name_raw": "Jalen Johnson",
+"espn_id": "4701230",
+"name": "Jalen Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|jalenjohnson10+points": {
+"name_raw": "Jalen Johnson",
+"espn_id": "4701230",
+"name": "Jalen Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|jalenjohnson15+points": {
+"name_raw": "Jalen Johnson",
+"espn_id": "4701230",
+"name": "Jalen Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|keyontegeorge3+rebounds": {
+"name_raw": "Keyonte George",
+"espn_id": "4433627",
+"name": "Keyonte George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|keyontegeorge4+rebounds": {
+"name_raw": "Keyonte George",
+"espn_id": "4433627",
+"name": "Keyonte George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|keyontegeorge15+points": {
+"name_raw": "Keyonte George",
+"espn_id": "4433627",
+"name": "Keyonte George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|keyontegeorge4+assists": {
+"name_raw": "Keyonte George",
+"espn_id": "4433627",
+"name": "Keyonte George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|anferneesimons3+rebounds": {
+"name_raw": "Anfernee Simons",
+"espn_id": "4351851",
+"name": "Anfernee Simons",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|anferneesimons4+rebounds": {
+"name_raw": "Anfernee Simons",
+"espn_id": "4351851",
+"name": "Anfernee Simons",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|pascalsiakam15+points": {
+"name_raw": "Pascal Siakam",
+"espn_id": "3149673",
+"name": "Pascal Siakam",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|pascalsiakam20+points": {
+"name_raw": "Pascal Siakam",
+"espn_id": "3149673",
+"name": "Pascal Siakam",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|christianmccaffreyanytimetouchdown": {
+"name_raw": "Christian McCaffrey",
+"espn_id": "3117251",
+"name": "Christian McCaffrey",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|christianmccaffrey40+rushingyards": {
+"name_raw": "Christian McCaffrey",
+"espn_id": "3117251",
+"name": "Christian McCaffrey",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|javontewilliamsanytimetouchdown": {
+"name_raw": "Javonte Williams",
+"espn_id": "4361579",
+"name": "Javonte Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|kyrenwilliamsanytimetouchdown": {
+"name_raw": "Kyren Williams",
+"espn_id": "4430737",
+"name": "Kyren Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|kyrenwilliams40+rushingyards": {
+"name_raw": "Kyren Williams",
+"espn_id": "4430737",
+"name": "Kyren Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|bijanrobinsonanytimetouchdown": {
+"name_raw": "Bijan Robinson",
+"espn_id": "4430807",
+"name": "Bijan Robinson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|bijanrobinsonover80rushingyards": {
+"name_raw": "Bijan Robinson",
+"espn_id": "4430807",
+"name": "Bijan Robinson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|bijanrobinson50+rushingyards": {
+"name_raw": "Bijan Robinson",
+"espn_id": "4430807",
+"name": "Bijan Robinson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|bijanrobinson60+rushingyards": {
+"name_raw": "Bijan Robinson",
+"espn_id": "4430807",
+"name": "Bijan Robinson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|aaronrodgers200+passingyards": {
+"name_raw": "Aaron Rodgers",
+"espn_id": "8439",
+"name": "Aaron Rodgers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|joeburrow275+passingyards": {
+"name_raw": "Joe Burrow",
+"espn_id": "3915511",
+"name": "Joe Burrow",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|joeburrowover290passingyards": {
+"name_raw": "Joe Burrow",
+"espn_id": "3915511",
+"name": "Joe Burrow",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|joeburrow225+passingyards": {
+"name_raw": "Joe Burrow",
+"espn_id": "3915511",
+"name": "Joe Burrow",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|joeburrow250+passingyards": {
+"name_raw": "Joe Burrow",
+"espn_id": "3915511",
+"name": "Joe Burrow",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|joeburrow10+rushingyards": {
+"name_raw": "Joe Burrow",
+"espn_id": "3915511",
+"name": "Joe Burrow",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|joeburrowover6.5rushingyards": {
+"name_raw": "Joe Burrow",
+"espn_id": "3915511",
+"name": "Joe Burrow",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|patrickmahomes175+passingyards": {
+"name_raw": "Patrick Mahomes",
+"espn_id": "3139477",
+"name": "Patrick Mahomes",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|patrickmahomes200+passingyards": {
+"name_raw": "Patrick Mahomes",
+"espn_id": "3139477",
+"name": "Patrick Mahomes",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|michaelpenixjr.175+passingyards": {
+"name_raw": "Michael Penix Jr.",
+"espn_id": "4360423",
+"name": "Michael Penix Jr.",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|trevorlawrence200+passingyards": {
+"name_raw": "Trevor Lawrence",
+"espn_id": "4360310",
+"name": "Trevor Lawrence",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|trevorlawrence250+passingyards": {
+"name_raw": "Trevor Lawrence",
+"espn_id": "4360310",
+"name": "Trevor Lawrence",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|camward200+passingyards": {
+"name_raw": "Cam Ward",
+"espn_id": "4688380",
+"name": "Cam Ward",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|tuckerkraft30+receivingyards": {
+"name_raw": "Tucker Kraft",
+"espn_id": "4572680",
+"name": "Tucker Kraft",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|tuckerkraftunder5receptions": {
+"name_raw": "Tucker Kraft",
+"espn_id": "4572680",
+"name": "Tucker Kraft",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|mylespriceover10receivingyards": {
+"name_raw": "Myles Price",
+"espn_id": "4430656",
+"name": "Myles Price",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|mylesprice25+receivingyards": {
+"name_raw": "Myles Price",
+"espn_id": "4430656",
+"name": "Myles Price",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|mylesprice40+receivingyards": {
+"name_raw": "Myles Price",
+"espn_id": "4430656",
+"name": "Myles Price",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|mylesprice60+receivingyards": {
+"name_raw": "Myles Price",
+"espn_id": "4430656",
+"name": "Myles Price",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|xavierhutchinsonover30receivingyards": {
+"name_raw": "Xavier Hutchinson",
+"espn_id": "4686422",
+"name": "Xavier Hutchinson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|xavierhutchinson50+receivingyards": {
+"name_raw": "Xavier Hutchinson",
+"espn_id": "4686422",
+"name": "Xavier Hutchinson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|xavierhutchinson80+receivingyards": {
+"name_raw": "Xavier Hutchinson",
+"espn_id": "4686422",
+"name": "Xavier Hutchinson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jaylenbrownover0.5threes": {
+"name_raw": "Jaylen Brown",
+"espn_id": "3917376",
+"name": "Jaylen Brown",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|jaylenbrownover1.5threes": {
+"name_raw": "Jaylen Brown",
+"espn_id": "3917376",
+"name": "Jaylen Brown",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|jaylenbrown15+points": {
+"name_raw": "Jaylen Brown",
+"espn_id": "3917376",
+"name": "Jaylen Brown",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|anthonygouldover0.5receptions": {
+"name_raw": "Anthony Gould",
+"espn_id": "4429684",
+"name": "Anthony Gould",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|anthonygouldover1.5receptions": {
+"name_raw": "Anthony Gould",
+"espn_id": "4429684",
+"name": "Anthony Gould",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|anthonygould3+receptions": {
+"name_raw": "Anthony Gould",
+"espn_id": "4429684",
+"name": "Anthony Gould",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|anthonygould4+receptions": {
+"name_raw": "Anthony Gould",
+"espn_id": "4429684",
+"name": "Anthony Gould",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|jadarianprice10+receivingyards": {
+"name_raw": "Jadarian Price",
+"espn_id": "4685512",
+"name": "Jadarian Price",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|brockpurdyover19.5rushingyards": {
+"name_raw": "Brock Purdy",
+"espn_id": "4361741",
+"name": "Brock Purdy",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|brockpurdy20+rushingyards": {
+"name_raw": "Brock Purdy",
+"espn_id": "4361741",
+"name": "Brock Purdy",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|brockpurdy200+passingyards": {
+"name_raw": "Brock Purdy",
+"espn_id": "4361741",
+"name": "Brock Purdy",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|breecehallover15receivingyards": {
+"name_raw": "Breece Hall",
+"espn_id": "4427366",
+"name": "Breece Hall",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|sethmcgowanover24.5rushingyards": {
+"name_raw": "Seth McGowan",
+"espn_id": "4686468",
+"name": "Seth McGowan",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|tommytrembleover10receivingyards": {
+"name_raw": "Tommy Tremble",
+"espn_id": "4372780",
+"name": "Tommy Tremble",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|genosmith30+passingattempts": {
+"name_raw": "Geno Smith",
+"espn_id": "15864",
+"name": "Geno Smith",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|emmettjohnsonover70rushingyards": {
+"name_raw": "Emmett Johnson",
+"espn_id": "4832955",
+"name": "Emmett Johnson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|emmettjohnson30+rushingyards": {
+"name_raw": "Emmett Johnson",
+"espn_id": "4832955",
+"name": "Emmett Johnson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|emmettjohnson50+rushingyards": {
+"name_raw": "Emmett Johnson",
+"espn_id": "4832955",
+"name": "Emmett Johnson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|chrisrodriguezjr.over30rushingyards": {
+"name_raw": "Chris Rodriguez Jr.",
+"espn_id": "4362619",
+"name": "Chris Rodriguez Jr.",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|deshaunwatsonunder25rushingyards": {
+"name_raw": "Deshaun Watson",
+"espn_id": "3122840",
+"name": "Deshaun Watson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|deshaunwatsonunder30rushingyards": {
+"name_raw": "Deshaun Watson",
+"espn_id": "3122840",
+"name": "Deshaun Watson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|mikewashingtonunder30rushingyards": {
+"name_raw": "Mike Washington",
+"espn_id": "4686658",
+"name": "Mike Washington Jr.",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-15|joshallenunder0.5interceptions": {
+"name_raw": "Josh Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-15|joshallen200+passingyards": {
+"name_raw": "Josh Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-15|chasebrownover45rushingyards": {
+"name_raw": "Chase Brown",
+"espn_id": "4362238",
+"name": "Chase Brown",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|chasebrown40+rushingyards": {
+"name_raw": "Chase Brown",
+"espn_id": "4362238",
+"name": "Chase Brown",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|lukadoncic30+points": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|lukadoncic25+points": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-15|aaronjones20+rushingyards": {
+"name_raw": "Aaron Jones",
+"espn_id": "3042519",
+"name": "Aaron Jones Sr.",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-15|keenanallenover20receivingyards": {
+"name_raw": "Keenan Allen",
+"espn_id": "15818",
+"name": "Keenan Allen",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-15|kennethwalkeriiiover90rushingyards": {
+"name_raw": "Kenneth Walker III",
+"espn_id": "4567048",
+"name": "Kenneth Walker III",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|franzwagner6+rebounds": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|franzwagner4+rebounds": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|franzwagner15+points": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|franzwagner20+points": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|franzwagner6+assists": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|franzwagner4+assists": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jaysontatum2+threes": {
+"name_raw": "Jayson Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jaysontatum1+threes": {
+"name_raw": "Jayson Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jaysontatum20+points": {
+"name_raw": "Jayson Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jaysontatum15+points": {
+"name_raw": "Jayson Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jaysontatum4+assists": {
+"name_raw": "Jayson Tatum",
+"espn_id": "4065648",
+"name": "Jayson Tatum",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|davionmitchell2+threes": {
+"name_raw": "Davion Mitchell",
+"espn_id": "4278053",
+"name": "Davion Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|davionmitchell1+threes": {
+"name_raw": "Davion Mitchell",
+"espn_id": "4278053",
+"name": "Davion Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|fredvanvleet10+points": {
+"name_raw": "Fred VanVleet",
+"espn_id": "2991230",
+"name": "Fred VanVleet",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|fredvanvleet15+points": {
+"name_raw": "Fred VanVleet",
+"espn_id": "2991230",
+"name": "Fred VanVleet",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|nikolajokic20+points": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|nikolajokic25+points": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|nikolajokic15+points": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|nikolajokic8+rebounds": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|nikolajokic10+rebounds": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|nikolajokic12+rebounds": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|nikolajokic6+assists": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|nikolajokic8+assists": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jadenmcdaniels20+points+rebounds+assists": {
+"name_raw": "Jaden McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jadenmcdaniels10+points": {
+"name_raw": "Jaden McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jadenmcdaniels15+points": {
+"name_raw": "Jaden McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|wendellcarterjr.6+rebounds": {
+"name_raw": "Wendell Carter Jr.",
+"espn_id": "4277847",
+"name": "Wendell Carter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|wendellcarterjr.4+rebounds": {
+"name_raw": "Wendell Carter Jr.",
+"espn_id": "4277847",
+"name": "Wendell Carter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|dillonbrooks15+points": {
+"name_raw": "Dillon Brooks",
+"espn_id": "3155526",
+"name": "Dillon Brooks",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|dillonbrooks10+points": {
+"name_raw": "Dillon Brooks",
+"espn_id": "3155526",
+"name": "Dillon Brooks",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|draymondgreen6+assists": {
+"name_raw": "Draymond Green",
+"espn_id": "6589",
+"name": "Draymond Green",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|draymondgreen4+assists": {
+"name_raw": "Draymond Green",
+"espn_id": "6589",
+"name": "Draymond Green",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jordanwalsh2+rebounds": {
+"name_raw": "Jordan Walsh",
+"espn_id": "4683689",
+"name": "Jordan Walsh",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jordanwalsh4+rebounds": {
+"name_raw": "Jordan Walsh",
+"espn_id": "4683689",
+"name": "Jordan Walsh",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|noahclowney4+rebounds": {
+"name_raw": "Noah Clowney",
+"espn_id": "4712896",
+"name": "Noah Clowney",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|noahclowney6+rebounds": {
+"name_raw": "Noah Clowney",
+"espn_id": "4712896",
+"name": "Noah Clowney",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|camspencer6+assists": {
+"name_raw": "Cam Spencer",
+"espn_id": "4433083",
+"name": "Cam Spencer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|camspencer8+assists": {
+"name_raw": "Cam Spencer",
+"espn_id": "4433083",
+"name": "Cam Spencer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|camspencer10+assists": {
+"name_raw": "Cam Spencer",
+"espn_id": "4433083",
+"name": "Cam Spencer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|camspencer4+assists": {
+"name_raw": "Cam Spencer",
+"espn_id": "4433083",
+"name": "Cam Spencer",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|collingillespie10+points": {
+"name_raw": "Collin Gillespie",
+"espn_id": "4278585",
+"name": "Collin Gillespie",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|dayronsharpe4+assists": {
+"name_raw": "Day'Ron Sharpe",
+"espn_id": "4432194",
+"name": "Day'Ron Sharpe",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|dayronsharpe2+assists": {
+"name_raw": "Day'Ron Sharpe",
+"espn_id": "4432194",
+"name": "Day'Ron Sharpe",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|dayronsharpe6+rebounds": {
+"name_raw": "Day'Ron Sharpe",
+"espn_id": "4432194",
+"name": "Day'Ron Sharpe",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|ayodosunmuunder4assists": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|ayodosunmuunder6assists": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|ayodosunmuunder4assists": {
+"name_raw": "Ayo Dosunmu",
+"espn_id": "4397002",
+"name": "Ayo Dosunmu",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|donovanmitchell25+points": {
+"name_raw": "Donovan Mitchell",
+"espn_id": "3908809",
+"name": "Donovan Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|donovanmitchell20+points": {
+"name_raw": "Donovan Mitchell",
+"espn_id": "3908809",
+"name": "Donovan Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|zionwilliamson20+points": {
+"name_raw": "Zion Williamson",
+"espn_id": "4395628",
+"name": "Zion Williamson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|zionwilliamson15+points": {
+"name_raw": "Zion Williamson",
+"espn_id": "4395628",
+"name": "Zion Williamson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|michaelporterjr.15+points": {
+"name_raw": "Michael Porter Jr.",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|michaelporterjr.20+points": {
+"name_raw": "Michael Porter Jr.",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|alexsarr6+rebounds": {
+"name_raw": "Alex Sarr",
+"espn_id": "5160992",
+"name": "Alex Sarr",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|alexsarr4+rebounds": {
+"name_raw": "Alex Sarr",
+"espn_id": "5160992",
+"name": "Alex Sarr",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jordangoodwin1+threes": {
+"name_raw": "Jordan Goodwin",
+"espn_id": "4278402",
+"name": "Jordan Goodwin",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jordangoodwin2+threes": {
+"name_raw": "Jordan Goodwin",
+"espn_id": "4278402",
+"name": "Jordan Goodwin",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|donovanclingan1+threes": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|donovanclingan8+rebounds": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|donovanclingan10+rebounds": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|donovanclingan8+rebounds": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|donovanclingan10+points": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|donovanclingan5+points": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|toumanicamaraunder3threes": {
+"name_raw": "Toumani Camara",
+"espn_id": "4431736",
+"name": "Toumani Camara",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|toumanicamaraunder3threes": {
+"name_raw": "Toumani Camara",
+"espn_id": "4431736",
+"name": "Toumani Camara",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|toumanicamaraunder4threes": {
+"name_raw": "Toumani Camara",
+"espn_id": "4431736",
+"name": "Toumani Camara",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jalengreenunder4assists": {
+"name_raw": "Jalen Green",
+"espn_id": "4437244",
+"name": "Jalen Green",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|jalengreenunder6assists": {
+"name_raw": "Jalen Green",
+"espn_id": "4437244",
+"name": "Jalen Green",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-16|markandrews3+receptions": {
+"name_raw": "Mark Andrews",
+"espn_id": "3116365",
+"name": "Mark Andrews",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|markandrews2+receptions": {
+"name_raw": "Mark Andrews",
+"espn_id": "3116365",
+"name": "Mark Andrews",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|derrickhenry40+rushingyards": {
+"name_raw": "Derrick Henry",
+"espn_id": "3043078",
+"name": "Derrick Henry",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|derrickhenry50+rushingyards": {
+"name_raw": "Derrick Henry",
+"espn_id": "3043078",
+"name": "Derrick Henry",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|derrickhenry60+rushingyards": {
+"name_raw": "Derrick Henry",
+"espn_id": "3043078",
+"name": "Derrick Henry",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|derrickhenry80+rushingyards": {
+"name_raw": "Derrick Henry",
+"espn_id": "3043078",
+"name": "Derrick Henry",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|jacobybrissett200+passingyards": {
+"name_raw": "Jacoby Brissett",
+"espn_id": "2578570",
+"name": "Jacoby Brissett",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|jacobybrissett175+passingyards": {
+"name_raw": "Jacoby Brissett",
+"espn_id": "2578570",
+"name": "Jacoby Brissett",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|jacobybrissett150+passingyards": {
+"name_raw": "Jacoby Brissett",
+"espn_id": "2578570",
+"name": "Jacoby Brissett",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|jacobybrissett225+passingyards": {
+"name_raw": "Jacoby Brissett",
+"espn_id": "2578570",
+"name": "Jacoby Brissett",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|zayflowersanytimetouchdown": {
+"name_raw": "Zay Flowers",
+"espn_id": "4429615",
+"name": "Zay Flowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|zayflowers70+receivingyards": {
+"name_raw": "Zay Flowers",
+"espn_id": "4429615",
+"name": "Zay Flowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|zayflowers30+receivingyards": {
+"name_raw": "Zay Flowers",
+"espn_id": "4429615",
+"name": "Zay Flowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|zayflowers40+receivingyards": {
+"name_raw": "Zay Flowers",
+"espn_id": "4429615",
+"name": "Zay Flowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|zayflowers6+receptions": {
+"name_raw": "Zay Flowers",
+"espn_id": "4429615",
+"name": "Zay Flowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|zayflowers7+receptions": {
+"name_raw": "Zay Flowers",
+"espn_id": "4429615",
+"name": "Zay Flowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|zayflowers4+receptions": {
+"name_raw": "Zay Flowers",
+"espn_id": "4429615",
+"name": "Zay Flowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|kimanividal20+rushingyards": {
+"name_raw": "Kimani Vidal",
+"espn_id": "4430968",
+"name": "Kimani Vidal",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|quentinjohnston20+receivingyards": {
+"name_raw": "Quentin Johnston",
+"espn_id": "4429025",
+"name": "Quentin Johnston",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|quentinjohnstonunder40receivingyards": {
+"name_raw": "Quentin Johnston",
+"espn_id": "4429025",
+"name": "Quentin Johnston",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|justicehill2+receptions": {
+"name_raw": "Justice Hill",
+"espn_id": "4038441",
+"name": "Justice Hill",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|justicehill30+rushing+receivingyards": {
+"name_raw": "Justice Hill",
+"espn_id": "4038441",
+"name": "Justice Hill",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|justicehillanytimetouchdown": {
+"name_raw": "Justice Hill",
+"espn_id": "4038441",
+"name": "Justice Hill",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|omarionhampton15+rushingyards": {
+"name_raw": "Omarion Hampton",
+"espn_id": "4685382",
+"name": "Omarion Hampton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|omarionhampton25+rushingyards": {
+"name_raw": "Omarion Hampton",
+"espn_id": "4685382",
+"name": "Omarion Hampton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|omarionhampton40+rushing+receivingyards": {
+"name_raw": "Omarion Hampton",
+"espn_id": "4685382",
+"name": "Omarion Hampton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|omarionhamptonanytimetouchdown": {
+"name_raw": "Omarion Hampton",
+"espn_id": "4685382",
+"name": "Omarion Hampton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|justinherbert150+passingyards": {
+"name_raw": "Justin Herbert",
+"espn_id": "4038941",
+"name": "Justin Herbert",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|justinherbert175+passingyards": {
+"name_raw": "Justin Herbert",
+"espn_id": "4038941",
+"name": "Justin Herbert",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|justinherbertanytimetouchdown": {
+"name_raw": "Justin Herbert",
+"espn_id": "4038941",
+"name": "Justin Herbert",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-16|jakobilaneunder3receptions": {
+"name_raw": "Ja'Kobi Lane",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NFL"
+},
+"2026-11-16|keandrelambertsmith10+receivingyards": {
+"name_raw": "KeAndre Lambert-Smith",
+"espn_id": "4430870",
+"name": "KeAndre Lambert-Smith",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-17|quentingrimes10+points": {
+"name_raw": "Quentin Grimes",
+"espn_id": "4397014",
+"name": "Quentin Grimes",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|quentingrimes5+points": {
+"name_raw": "Quentin Grimes",
+"espn_id": "4397014",
+"name": "Quentin Grimes",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|victorwembanyama25+points": {
+"name_raw": "Victor Wembanyama",
+"espn_id": "5104157",
+"name": "Victor Wembanyama",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|victorwembanyama20+points": {
+"name_raw": "Victor Wembanyama",
+"espn_id": "5104157",
+"name": "Victor Wembanyama",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|dariusgarland20+points": {
+"name_raw": "Darius Garland",
+"espn_id": "4396907",
+"name": "Darius Garland",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|dariusgarland15+points": {
+"name_raw": "Darius Garland",
+"espn_id": "4396907",
+"name": "Darius Garland",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|dariusgarlandunder8assists": {
+"name_raw": "Darius Garland",
+"espn_id": "4396907",
+"name": "Darius Garland",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|sandromamukelashvili3+threes": {
+"name_raw": "Sandro Mamukelashvili",
+"espn_id": "4278580",
+"name": "Sandro Mamukelashvili",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|sandromamukelashvili2+threes": {
+"name_raw": "Sandro Mamukelashvili",
+"espn_id": "4278580",
+"name": "Sandro Mamukelashvili",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|sandromamukelashvili1+threes": {
+"name_raw": "Sandro Mamukelashvili",
+"espn_id": "4278580",
+"name": "Sandro Mamukelashvili",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|karlanthonytowns20+points": {
+"name_raw": "Karl-Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|karlanthonytowns15+points": {
+"name_raw": "Karl-Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|keyontegeorge20+points": {
+"name_raw": "Keyonte George",
+"espn_id": "4433627",
+"name": "Keyonte George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|keyontegeorge15+points": {
+"name_raw": "Keyonte George",
+"espn_id": "4433627",
+"name": "Keyonte George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|scottiebarnes6+assists": {
+"name_raw": "Scottie Barnes",
+"espn_id": "4433134",
+"name": "Scottie Barnes",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|scottiebarnes4+assists": {
+"name_raw": "Scottie Barnes",
+"espn_id": "4433134",
+"name": "Scottie Barnes",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|brooklopez6+rebounds": {
+"name_raw": "Brook Lopez",
+"espn_id": "3448",
+"name": "Brook Lopez",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|brooklopez4+rebounds": {
+"name_raw": "Brook Lopez",
+"espn_id": "3448",
+"name": "Brook Lopez",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|mikalbridges4+rebounds": {
+"name_raw": "Mikal Bridges",
+"espn_id": "3147657",
+"name": "Mikal Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|mikalbridges3+rebounds": {
+"name_raw": "Mikal Bridges",
+"espn_id": "3147657",
+"name": "Mikal Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|mikalbridges15+points+rebounds+assists": {
+"name_raw": "Mikal Bridges",
+"espn_id": "3147657",
+"name": "Mikal Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|ausarthompson10+points": {
+"name_raw": "Ausar Thompson",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|ausarthompson8+points": {
+"name_raw": "Ausar Thompson",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|rudygobert8+rebounds": {
+"name_raw": "Rudy Gobert",
+"espn_id": "3032976",
+"name": "Rudy Gobert",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|rudygobert10+rebounds": {
+"name_raw": "Rudy Gobert",
+"espn_id": "3032976",
+"name": "Rudy Gobert",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|ziairewilliams10+points": {
+"name_raw": "Ziaire Williams",
+"espn_id": "4433137",
+"name": "Ziaire Williams",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|ziairewilliams9+points": {
+"name_raw": "Ziaire Williams",
+"espn_id": "4433137",
+"name": "Ziaire Williams",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|ziairewilliams8+points": {
+"name_raw": "Ziaire Williams",
+"espn_id": "4433137",
+"name": "Ziaire Williams",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|darrynpeterson20+points": {
+"name_raw": "Darryn Peterson",
+"espn_id": "5041955",
+"name": "Darryn Peterson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|darrynpeterson15+points": {
+"name_raw": "Darryn Peterson",
+"espn_id": "5041955",
+"name": "Darryn Peterson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|lukadoncic9+assists": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|lukadoncic8+assists": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|lukadoncic6+assists": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|lukadoncic30+points": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|lukadoncic25+points": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|lukadoncic35+points": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|keldonjohnson5+rebounds": {
+"name_raw": "Keldon Johnson",
+"espn_id": "4395723",
+"name": "Keldon Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|keldonjohnson6+rebounds": {
+"name_raw": "Keldon Johnson",
+"espn_id": "4395723",
+"name": "Keldon Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|keldonjohnson4+rebounds": {
+"name_raw": "Keldon Johnson",
+"espn_id": "4395723",
+"name": "Keldon Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|lameloballunder25points": {
+"name_raw": "LaMelo Ball",
+"espn_id": "4432816",
+"name": "LaMelo Ball",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|wayneharris68+receivingyards": {
+"name_raw": "Wayne Harris",
+"espn_id": "5147053",
+"name": "Wayne Harris",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-17|wayneharris30+receivingyards": {
+"name_raw": "Wayne Harris",
+"espn_id": "5147053",
+"name": "Wayne Harris",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-17|donovanhamilton56+receivingyards": {
+"name_raw": "Donovan Hamilton",
+"espn_id": "5191056",
+"name": "Donovan Hamilton",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-17|donovanhamilton35+receivingyards": {
+"name_raw": "Donovan Hamilton",
+"espn_id": "5191056",
+"name": "Donovan Hamilton",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-17|dshawntaejones66+rushingyards": {
+"name_raw": "D'Shawntae Jones",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "CFB"
+},
+"2026-11-17|dshawntaejones25+rushingyards": {
+"name_raw": "D'Shawntae Jones",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "CFB"
+},
+"2026-11-17|rileyneer60+receivingyards": {
+"name_raw": "Riley Neer",
+"espn_id": "5228764",
+"name": "Riley Neer",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-17|rileyneer40+receivingyards": {
+"name_raw": "Riley Neer",
+"espn_id": "5228764",
+"name": "Riley Neer",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-17|graysonallen10+points": {
+"name_raw": "Grayson Allen",
+"espn_id": "3135045",
+"name": "Grayson Allen",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|graysonallen4+assists": {
+"name_raw": "Grayson Allen",
+"espn_id": "3135045",
+"name": "Grayson Allen",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|graysonallen5+assists": {
+"name_raw": "Grayson Allen",
+"espn_id": "3135045",
+"name": "Grayson Allen",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|graysonallen3+assists": {
+"name_raw": "Grayson Allen",
+"espn_id": "3135045",
+"name": "Grayson Allen",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-17|jalenbuckley96+rushingyards": {
+"name_raw": "Jalen Buckley",
+"espn_id": "5085006",
+"name": "Jalen Buckley",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-17|jalenbuckley60+rushingyards": {
+"name_raw": "Jalen Buckley",
+"espn_id": "5085006",
+"name": "Jalen Buckley",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-18|ivicazubac10+points": {
+"name_raw": "Ivica Zubac",
+"espn_id": "4017837",
+"name": "Ivica Zubac",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|ivicazubac8+rebounds": {
+"name_raw": "Ivica Zubac",
+"espn_id": "4017837",
+"name": "Ivica Zubac",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|ivicazubac20+points+rebounds+assists": {
+"name_raw": "Ivica Zubac",
+"espn_id": "4017837",
+"name": "Ivica Zubac",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|jabarismithjr.15+points": {
+"name_raw": "Jabari Smith Jr.",
+"espn_id": "4432639",
+"name": "Jabari Smith Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|juliusrandle4+assists": {
+"name_raw": "Julius Randle",
+"espn_id": "3064514",
+"name": "Julius Randle",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|juliusrandle5+assists": {
+"name_raw": "Julius Randle",
+"espn_id": "3064514",
+"name": "Julius Randle",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|deanwade4+rebounds": {
+"name_raw": "Dean Wade",
+"espn_id": "3912848",
+"name": "Dean Wade",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|aaronwiggins3+rebounds": {
+"name_raw": "Aaron Wiggins",
+"espn_id": "4397183",
+"name": "Aaron Wiggins",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|domantassabonis10+points": {
+"name_raw": "Domantas Sabonis",
+"espn_id": "3155942",
+"name": "Domantas Sabonis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|lukadoncic30+points": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|lukadoncic25+points": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|lukadoncic50+points+rebounds+assists": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|lebronjames6+assists": {
+"name_raw": "LeBron James",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|lebronjames8+assists": {
+"name_raw": "LeBron James",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|lebronjames10+assists": {
+"name_raw": "LeBron James",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|lebronjames6+rebounds": {
+"name_raw": "LeBron James",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|lebronjames4+rebounds": {
+"name_raw": "LeBron James",
+"espn_id": "1966",
+"name": "LeBron James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|joelembiid20+points": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|joelembiid25+points": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|joelembiid30+points": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|jalensuggs10+points": {
+"name_raw": "Jalen Suggs",
+"espn_id": "4432165",
+"name": "Jalen Suggs",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|tyresemaxey20+points": {
+"name_raw": "Tyrese Maxey",
+"espn_id": "4431678",
+"name": "Tyrese Maxey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|tyresemaxey25+points": {
+"name_raw": "Tyrese Maxey",
+"espn_id": "4431678",
+"name": "Tyrese Maxey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|tyresemaxey35+points+rebounds+assists": {
+"name_raw": "Tyrese Maxey",
+"espn_id": "4431678",
+"name": "Tyrese Maxey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|tyresemaxey30+points+rebounds+assists": {
+"name_raw": "Tyrese Maxey",
+"espn_id": "4431678",
+"name": "Tyrese Maxey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|alperensengun30+points+rebounds+assists": {
+"name_raw": "Alperen Sengun",
+"espn_id": "4871144",
+"name": "Alperen Sengun",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|alperensengun25+points+rebounds+assists": {
+"name_raw": "Alperen Sengun",
+"espn_id": "4871144",
+"name": "Alperen Sengun",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|giannisantetokounmpo40+points+rebounds+assists": {
+"name_raw": "Giannis Antetokounmpo",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|giannisantetokounmpo30+points": {
+"name_raw": "Giannis Antetokounmpo",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|giannisantetokounmpo25+points": {
+"name_raw": "Giannis Antetokounmpo",
+"espn_id": "3032977",
+"name": "Giannis Antetokounmpo",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|zachedey6+rebounds": {
+"name_raw": "Zach Edey",
+"espn_id": "4600663",
+"name": "Zach Edey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|nolantraore10+points": {
+"name_raw": "Nolan Traore",
+"espn_id": "5279130",
+"name": "Nolan Traore",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|scottiebarnes30+points+rebounds+assists": {
+"name_raw": "Scottie Barnes",
+"espn_id": "4433134",
+"name": "Scottie Barnes",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|shaigilgeousalexander25+points": {
+"name_raw": "Shai Gilgeous-Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|shaigilgeousalexander30+points": {
+"name_raw": "Shai Gilgeous-Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|ausarthompson6+rebounds": {
+"name_raw": "Ausar Thompson",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|ausarthompson8+rebounds": {
+"name_raw": "Ausar Thompson",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|ausarthompson4+assists": {
+"name_raw": "Ausar Thompson",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|ausarthompson6+assists": {
+"name_raw": "Ausar Thompson",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|paulgeorge25+points+rebounds+assists": {
+"name_raw": "Paul George",
+"espn_id": "4251",
+"name": "Paul George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|paulgeorge15+points": {
+"name_raw": "Paul George",
+"espn_id": "4251",
+"name": "Paul George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|paulgeorge20+points": {
+"name_raw": "Paul George",
+"espn_id": "4251",
+"name": "Paul George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|paulgeorge4+rebounds": {
+"name_raw": "Paul George",
+"espn_id": "4251",
+"name": "Paul George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|guisantos4+rebounds": {
+"name_raw": "Gui Santos",
+"espn_id": "4997536",
+"name": "Gui Santos",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|guisantos2+rebounds": {
+"name_raw": "Gui Santos",
+"espn_id": "4997536",
+"name": "Gui Santos",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|guisantos2+assists": {
+"name_raw": "Gui Santos",
+"espn_id": "4997536",
+"name": "Gui Santos",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|milesbridges20+points+rebounds+assists": {
+"name_raw": "Miles Bridges",
+"espn_id": "4066383",
+"name": "Miles Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|milesbridges15+points+rebounds+assists": {
+"name_raw": "Miles Bridges",
+"espn_id": "4066383",
+"name": "Miles Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|acebailey10+points": {
+"name_raw": "Ace Bailey",
+"espn_id": "4873138",
+"name": "Ace Bailey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|acebailey4+rebounds": {
+"name_raw": "Ace Bailey",
+"espn_id": "4873138",
+"name": "Ace Bailey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|isaiahhartenstein10+rebounds": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|isaiahhartenstein8+rebounds": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|isaiahhartenstein2+assists": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|isaiahhartenstein4+assists": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|yaxellendeborg20+points": {
+"name_raw": "Yaxel Lendeborg",
+"espn_id": "5175737",
+"name": "Yaxel Lendeborg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|zachlavine20+points+rebounds+assists": {
+"name_raw": "Zach LaVine",
+"espn_id": "3064440",
+"name": "Zach LaVine",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|zachlavine15+points+rebounds+assists": {
+"name_raw": "Zach LaVine",
+"espn_id": "3064440",
+"name": "Zach LaVine",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|darrynpeterson15+points": {
+"name_raw": "Darryn Peterson",
+"espn_id": "5041955",
+"name": "Darryn Peterson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|davionmitchell10+points": {
+"name_raw": "Davion Mitchell",
+"espn_id": "4278053",
+"name": "Davion Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|davionmitchell8+assists": {
+"name_raw": "Davion Mitchell",
+"espn_id": "4278053",
+"name": "Davion Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|anthonyblack25+points+rebounds+assists": {
+"name_raw": "Anthony Black",
+"espn_id": "4712849",
+"name": "Anthony Black",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|anthonyblack20+points+rebounds+assists": {
+"name_raw": "Anthony Black",
+"espn_id": "4712849",
+"name": "Anthony Black",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|jamalmurray30+points+rebounds+assists": {
+"name_raw": "Jamal Murray",
+"espn_id": "3936299",
+"name": "Jamal Murray",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|jamalmurray25+points+rebounds+assists": {
+"name_raw": "Jamal Murray",
+"espn_id": "3936299",
+"name": "Jamal Murray",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|tylerherro15+points": {
+"name_raw": "Tyler Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|tylerherro20+points": {
+"name_raw": "Tyler Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|tylerherro25+points": {
+"name_raw": "Tyler Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|yvesmissi9+rebounds": {
+"name_raw": "Yves Missi",
+"espn_id": "5061589",
+"name": "Yves Missi",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|yvesmissi7+rebounds": {
+"name_raw": "Yves Missi",
+"espn_id": "5061589",
+"name": "Yves Missi",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|yvesmissi6+rebounds": {
+"name_raw": "Yves Missi",
+"espn_id": "5061589",
+"name": "Yves Missi",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|cooperflagg7+assists": {
+"name_raw": "Cooper Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|cooperflagg5+assists": {
+"name_raw": "Cooper Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|cooperflagg4+assists": {
+"name_raw": "Cooper Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|dariusacuff3+threes": {
+"name_raw": "Darius Acuff",
+"espn_id": "5142620",
+"name": "Darius Acuff Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-18|dariusacuff2+threes": {
+"name_raw": "Darius Acuff",
+"espn_id": "5142620",
+"name": "Darius Acuff Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-18|dariusacuff1+threes": {
+"name_raw": "Darius Acuff",
+"espn_id": "5142620",
+"name": "Darius Acuff Jr.",
+"how": "search single",
+"sport": "NBA"
+},
+"2026-11-18|michaelporterjr.2+assists": {
+"name_raw": "Michael Porter Jr.",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|kyrieirvingunder4threes": {
+"name_raw": "Kyrie Irving",
+"espn_id": "6442",
+"name": "Kyrie Irving",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|luguentzdort2+threes": {
+"name_raw": "Luguentz Dort",
+"espn_id": "4397020",
+"name": "Luguentz Dort",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|luguentzdort1+threes": {
+"name_raw": "Luguentz Dort",
+"espn_id": "4397020",
+"name": "Luguentz Dort",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|saddiqbey4+rebounds": {
+"name_raw": "Saddiq Bey",
+"espn_id": "4397136",
+"name": "Saddiq Bey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-18|saddiqbey2+assists": {
+"name_raw": "Saddiq Bey",
+"espn_id": "4397136",
+"name": "Saddiq Bey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|1": {
+"name_raw": "C.J. Stroud",
+"espn_id": "4432577",
+"name": "C.J. Stroud",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|18": {
+"name_raw": "C.J. Stroud",
+"espn_id": "4432577",
+"name": "C.J. Stroud",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|2": {
+"name_raw": "Dalton Schultz",
+"espn_id": "3117256",
+"name": "Dalton Schultz",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|28": {
+"name_raw": "Dalton Schultz",
+"espn_id": "3117256",
+"name": "Dalton Schultz",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|3": {
+"name_raw": "Xavier Hutchinson",
+"espn_id": "4686422",
+"name": "Xavier Hutchinson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|4": {
+"name_raw": "Laquon Treadwell",
+"espn_id": "3051889",
+"name": "Laquon Treadwell",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|5": {
+"name_raw": "Tyler Warren",
+"espn_id": "4431459",
+"name": "Tyler Warren",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|17": {
+"name_raw": "Tyler Warren",
+"espn_id": "4431459",
+"name": "Tyler Warren",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|6": {
+"name_raw": "Jonathan Taylor",
+"espn_id": "4242335",
+"name": "Jonathan Taylor",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|19": {
+"name_raw": "Jonathan Taylor",
+"espn_id": "4242335",
+"name": "Jonathan Taylor",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|7": {
+"name_raw": "David Montgomery",
+"espn_id": "4035538",
+"name": "David Montgomery",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|16": {
+"name_raw": "David Montgomery",
+"espn_id": "4035538",
+"name": "David Montgomery",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|45": {
+"name_raw": "David Montgomery",
+"espn_id": "4035538",
+"name": "David Montgomery",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|15": {
+"name_raw": "Nico Collins",
+"espn_id": "4258173",
+"name": "Nico Collins",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|23": {
+"name_raw": "Tank Dell",
+"espn_id": "4366031",
+"name": "Tank Dell",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|37": {
+"name_raw": "Tank Dell",
+"espn_id": "4366031",
+"name": "Tank Dell",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|24": {
+"name_raw": "Emari Demercado",
+"espn_id": "4362478",
+"name": "Emari Demercado",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|25": {
+"name_raw": "LaMelo Ball",
+"espn_id": "4432816",
+"name": "LaMelo Ball",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|26": {
+"name_raw": "LaMelo Ball",
+"espn_id": "4432816",
+"name": "LaMelo Ball",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|27": {
+"name_raw": "LaMelo Ball",
+"espn_id": "4432816",
+"name": "LaMelo Ball",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|29": {
+"name_raw": "Seth McGowan",
+"espn_id": "4686468",
+"name": "Seth McGowan",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-19|thu|30": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|31": {
+"name_raw": "Donovan Clingan",
+"espn_id": "5105565",
+"name": "Donovan Clingan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|32": {
+"name_raw": "Jalen Brunson",
+"espn_id": "3934672",
+"name": "Jalen Brunson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|43": {
+"name_raw": "Jalen Brunson",
+"espn_id": "3934672",
+"name": "Jalen Brunson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|33": {
+"name_raw": "Brook Lopez",
+"espn_id": "3448",
+"name": "Brook Lopez",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|34": {
+"name_raw": "Brook Lopez",
+"espn_id": "3448",
+"name": "Brook Lopez",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|35": {
+"name_raw": "De'Aaron Fox",
+"espn_id": "4066259",
+"name": "De'Aaron Fox",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|36": {
+"name_raw": "Jaden McDaniels",
+"espn_id": "4431671",
+"name": "Jaden McDaniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|40": {
+"name_raw": "Myles Turner",
+"espn_id": "3133628",
+"name": "Myles Turner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|41": {
+"name_raw": "Myles Turner",
+"espn_id": "3133628",
+"name": "Myles Turner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|42": {
+"name_raw": "Victor Wembanyama",
+"espn_id": "5104157",
+"name": "Victor Wembanyama",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-19|thu|44": {
+"name_raw": "Mikal Bridges",
+"espn_id": "3147657",
+"name": "Mikal Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|1": {
+"name_raw": "Saddiq Bey",
+"espn_id": "4397136",
+"name": "Saddiq Bey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|2": {
+"name_raw": "Saddiq Bey",
+"espn_id": "4397136",
+"name": "Saddiq Bey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|3": {
+"name_raw": "Nickeil Alexander-Walker",
+"espn_id": "4278039",
+"name": "Nickeil Alexander-Walker",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|4": {
+"name_raw": "Nickeil Alexander-Walker",
+"espn_id": "4278039",
+"name": "Nickeil Alexander-Walker",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|5": {
+"name_raw": "Fred VanVleet",
+"espn_id": "2991230",
+"name": "Fred VanVleet",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|36": {
+"name_raw": "Fred VanVleet",
+"espn_id": "2991230",
+"name": "Fred VanVleet",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|6": {
+"name_raw": "Donovan Mitchell",
+"espn_id": "3908809",
+"name": "Donovan Mitchell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|7": {
+"name_raw": "Moussa Diabate",
+"espn_id": "4433249",
+"name": "Moussa Diabate",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|8": {
+"name_raw": "Trae Young",
+"espn_id": "4277905",
+"name": "Trae Young",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|9": {
+"name_raw": "Trae Young",
+"espn_id": "4277905",
+"name": "Trae Young",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|29": {
+"name_raw": "Trae Young",
+"espn_id": "4277905",
+"name": "Trae Young",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|10": {
+"name_raw": "Dylan Raiola",
+"espn_id": "5079572",
+"name": "Dylan Raiola",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-20|v7|11": {
+"name_raw": "Dylan Raiola",
+"espn_id": "5079572",
+"name": "Dylan Raiola",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-20|v7|12": {
+"name_raw": "Aiden Flora",
+"espn_id": "5219258",
+"name": "Aiden Flora",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-20|v7|13": {
+"name_raw": "Josh Derry",
+"espn_id": "5153889",
+"name": "Josh Derry",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-20|v7|14": {
+"name_raw": "Nate Sheppard",
+"espn_id": "5164332",
+"name": "Nate Sheppard",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-20|v7|15": {
+"name_raw": "Adjatay Dabbs",
+"espn_id": "5153399",
+"name": "Adjatay Dabbs",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-20|v7|16": {
+"name_raw": "Adjatay Dabbs",
+"espn_id": "5153399",
+"name": "Adjatay Dabbs",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-20|v7|17": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|43": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|53": {
+"name_raw": "Nikola Jokic",
+"espn_id": "3112335",
+"name": "Nikola Jokic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|18": {
+"name_raw": "Kevin Durant",
+"espn_id": "3202",
+"name": "Kevin Durant",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|19": {
+"name_raw": "DeMar DeRozan",
+"espn_id": "3978",
+"name": "DeMar DeRozan",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|20": {
+"name_raw": "Alperen Sengun",
+"espn_id": "4871144",
+"name": "Alperen Sengun",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|21": {
+"name_raw": "Darryn Peterson",
+"espn_id": "5041955",
+"name": "Darryn Peterson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|22": {
+"name_raw": "Darryn Peterson",
+"espn_id": "5041955",
+"name": "Darryn Peterson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|23": {
+"name_raw": "Keyonte George",
+"espn_id": "4433627",
+"name": "Keyonte George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|24": {
+"name_raw": "Keyonte George",
+"espn_id": "4433627",
+"name": "Keyonte George",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|25": {
+"name_raw": "Devin Booker",
+"espn_id": "3136193",
+"name": "Devin Booker",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|26": {
+"name_raw": "Dillon Brooks",
+"espn_id": "3155526",
+"name": "Dillon Brooks",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|27": {
+"name_raw": "Miles Bridges",
+"espn_id": "4066383",
+"name": "Miles Bridges",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|28": {
+"name_raw": "Anthony Davis",
+"espn_id": "6583",
+"name": "Anthony Davis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|30": {
+"name_raw": "Matas Buzelis",
+"espn_id": "4711294",
+"name": "Matas Buzelis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|31": {
+"name_raw": "AJ Dybantsa",
+"espn_id": "5142718",
+"name": "AJ Dybantsa",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|54": {
+"name_raw": "AJ Dybantsa",
+"espn_id": "5142718",
+"name": "AJ Dybantsa",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|32": {
+"name_raw": "Scottie Barnes",
+"espn_id": "4433134",
+"name": "Scottie Barnes",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|33": {
+"name_raw": "Scottie Barnes",
+"espn_id": "4433134",
+"name": "Scottie Barnes",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|45": {
+"name_raw": "Scottie Barnes",
+"espn_id": "4433134",
+"name": "Scottie Barnes",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|46": {
+"name_raw": "Scottie Barnes",
+"espn_id": "4433134",
+"name": "Scottie Barnes",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|34": {
+"name_raw": "Ausar Thompson",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|35": {
+"name_raw": "Ausar Thompson",
+"espn_id": "4684742",
+"name": "Ausar Thompson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|37": {
+"name_raw": "Norman Powell",
+"espn_id": "2595516",
+"name": "Norman Powell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|38": {
+"name_raw": "Norman Powell",
+"espn_id": "2595516",
+"name": "Norman Powell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|39": {
+"name_raw": "Jalen Suggs",
+"espn_id": "4432165",
+"name": "Jalen Suggs",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|40": {
+"name_raw": "Jalen Suggs",
+"espn_id": "4432165",
+"name": "Jalen Suggs",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|41": {
+"name_raw": "Jeremiah Fears",
+"espn_id": "5144091",
+"name": "Jeremiah Fears",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|42": {
+"name_raw": "Jeremiah Fears",
+"espn_id": "5144091",
+"name": "Jeremiah Fears",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|44": {
+"name_raw": "Cade Cunningham",
+"espn_id": "4432166",
+"name": "Cade Cunningham",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|88": {
+"name_raw": "Cade Cunningham",
+"espn_id": "4432166",
+"name": "Cade Cunningham",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|89": {
+"name_raw": "Cade Cunningham",
+"espn_id": "4432166",
+"name": "Cade Cunningham",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|47": {
+"name_raw": "Jalen Johnson",
+"espn_id": "4701230",
+"name": "Jalen Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|48": {
+"name_raw": "Jalen Johnson",
+"espn_id": "4701230",
+"name": "Jalen Johnson",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|49": {
+"name_raw": "Shai Gilgeous-Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|50": {
+"name_raw": "Shai Gilgeous-Alexander",
+"espn_id": "4278073",
+"name": "Shai Gilgeous-Alexander",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|51": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|52": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|71": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|77": {
+"name_raw": "Luka Doncic",
+"espn_id": "3945274",
+"name": "Luka Doncic",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|61": {
+"name_raw": "Josh Giddey",
+"espn_id": "4871145",
+"name": "Josh Giddey",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|68": {
+"name_raw": "Michael Porter Jr.",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|75": {
+"name_raw": "Michael Porter Jr.",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|76": {
+"name_raw": "Michael Porter Jr.",
+"espn_id": "4278104",
+"name": "Michael Porter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|69": {
+"name_raw": "Tyrese Proctor",
+"espn_id": "5023693",
+"name": "Tyrese Proctor",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|70": {
+"name_raw": "Tyrese Proctor",
+"espn_id": "5023693",
+"name": "Tyrese Proctor",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|72": {
+"name_raw": "Tristan da Silva",
+"espn_id": "4702382",
+"name": "Tristan da Silva",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|78": {
+"name_raw": "Tristan da Silva",
+"espn_id": "4702382",
+"name": "Tristan da Silva",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|73": {
+"name_raw": "Sion James",
+"espn_id": "4602025",
+"name": "Sion James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|74": {
+"name_raw": "Sion James",
+"espn_id": "4602025",
+"name": "Sion James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|79": {
+"name_raw": "Sion James",
+"espn_id": "4602025",
+"name": "Sion James",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|80": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|81": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|82": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|83": {
+"name_raw": "Isaiah Hartenstein",
+"espn_id": "4222252",
+"name": "Isaiah Hartenstein",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|84": {
+"name_raw": "Dyson Daniels",
+"espn_id": "4869342",
+"name": "Dyson Daniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|85": {
+"name_raw": "Dyson Daniels",
+"espn_id": "4869342",
+"name": "Dyson Daniels",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|86": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|87": {
+"name_raw": "Franz Wagner",
+"espn_id": "4566434",
+"name": "Franz Wagner",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-20|v7|90": {
+"name_raw": "Jamal Murray",
+"espn_id": "3936299",
+"name": "Jamal Murray",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|1": {
+"name_raw": "LaMelo Ball",
+"espn_id": "4432816",
+"name": "LaMelo Ball",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|6": {
+"name_raw": "LaMelo Ball",
+"espn_id": "4432816",
+"name": "LaMelo Ball",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|78": {
+"name_raw": "LaMelo Ball",
+"espn_id": "4432816",
+"name": "LaMelo Ball",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|2": {
+"name_raw": "Domantas Sabonis",
+"espn_id": "3155942",
+"name": "Domantas Sabonis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|7": {
+"name_raw": "Domantas Sabonis",
+"espn_id": "3155942",
+"name": "Domantas Sabonis",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|3": {
+"name_raw": "Tyler Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|8": {
+"name_raw": "Tyler Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|77": {
+"name_raw": "Tyler Herro",
+"espn_id": "4395725",
+"name": "Tyler Herro",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|4": {
+"name_raw": "Kris Dunn",
+"espn_id": "2991139",
+"name": "Kris Dunn",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|9": {
+"name_raw": "Kris Dunn",
+"espn_id": "2991139",
+"name": "Kris Dunn",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|10": {
+"name_raw": "Kris Dunn",
+"espn_id": "2991139",
+"name": "Kris Dunn",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|11": {
+"name_raw": "Kris Dunn",
+"espn_id": "2991139",
+"name": "Kris Dunn",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|12": {
+"name_raw": "Kris Dunn",
+"espn_id": "2991139",
+"name": "Kris Dunn",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|5": {
+"name_raw": "Devin Vassell",
+"espn_id": "4395630",
+"name": "Devin Vassell",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|17": {
+"name_raw": "Noah Fifita",
+"espn_id": "4801717",
+"name": "Noah Fifita",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-21|v7|22": {
+"name_raw": "Noah Fifita",
+"espn_id": "4801717",
+"name": "Noah Fifita",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-21|v7|18": {
+"name_raw": "Jesse Legree",
+"espn_id": "5289510",
+"name": "Jesse Legree",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-21|v7|23": {
+"name_raw": "Jesse Legree",
+"espn_id": "5289510",
+"name": "Jesse Legree",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-21|v7|19": {
+"name_raw": "L.J. Phillips Jr.",
+"espn_id": "5155048",
+"name": "L.J. Phillips Jr.",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-21|v7|24": {
+"name_raw": "L.J. Phillips Jr.",
+"espn_id": "5155048",
+"name": "L.J. Phillips Jr.",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-21|v7|20": {
+"name_raw": "Carlos Hernandez",
+"espn_id": "5153074",
+"name": "Carlos Hernandez",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-21|v7|25": {
+"name_raw": "Carlos Hernandez",
+"espn_id": "5153074",
+"name": "Carlos Hernandez",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-21|v7|21": {
+"name_raw": "Dylan Riley",
+"espn_id": "5146712",
+"name": "Dylan Riley",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-21|v7|26": {
+"name_raw": "Dylan Riley",
+"espn_id": "5146712",
+"name": "Dylan Riley",
+"how": "search exact",
+"sport": "CFB"
+},
+"2026-11-21|v7|54": {
+"name_raw": "Karl-Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|55": {
+"name_raw": "Anfernee Simons",
+"espn_id": "4351851",
+"name": "Anfernee Simons",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|56": {
+"name_raw": "Anfernee Simons",
+"espn_id": "4351851",
+"name": "Anfernee Simons",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|57": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|58": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|59": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|60": {
+"name_raw": "Joel Embiid",
+"espn_id": "3059318",
+"name": "Joel Embiid",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|61": {
+"name_raw": "Cooper Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|79": {
+"name_raw": "Cooper Flagg",
+"espn_id": "5041939",
+"name": "Cooper Flagg",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-21|v7|62": {
+"name_raw": "Rui Hachimura",
+"espn_id": "4066648",
+"name": "Rui Hachimura",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-22|v7|3": {
+"name_raw": "Karl-Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-22|v7|4": {
+"name_raw": "Karl-Anthony Towns",
+"espn_id": "3136195",
+"name": "Karl-Anthony Towns",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-22|v7|5": {
+"name_raw": "Wendell Carter Jr.",
+"espn_id": "4277847",
+"name": "Wendell Carter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-22|v7|6": {
+"name_raw": "Wendell Carter Jr.",
+"espn_id": "4277847",
+"name": "Wendell Carter Jr.",
+"how": "roster",
+"sport": "NBA"
+},
+"2026-11-22|v7|7": {
+"name_raw": "Caleb Williams",
+"espn_id": "4431611",
+"name": "Caleb Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|8": {
+"name_raw": "Jordyn Tyson",
+"espn_id": "4880281",
+"name": "Jordyn Tyson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|9": {
+"name_raw": "Kyle Monangai",
+"espn_id": "4608686",
+"name": "Kyle Monangai",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|72": {
+"name_raw": "Kyle Monangai",
+"espn_id": "4608686",
+"name": "Kyle Monangai",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|122": {
+"name_raw": "Kyle Monangai",
+"espn_id": "4608686",
+"name": "Kyle Monangai",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|18": {
+"name_raw": "Fernando Mendoza",
+"espn_id": "4837248",
+"name": "Fernando Mendoza",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|118": {
+"name_raw": "Fernando Mendoza",
+"espn_id": "4837248",
+"name": "Fernando Mendoza",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|19": {
+"name_raw": "Ashton Jeanty",
+"espn_id": "4890973",
+"name": "Ashton Jeanty",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|20": {
+"name_raw": "Ashton Jeanty",
+"espn_id": "4890973",
+"name": "Ashton Jeanty",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|97": {
+"name_raw": "Ashton Jeanty",
+"espn_id": "4890973",
+"name": "Ashton Jeanty",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|21": {
+"name_raw": "Brock Purdy",
+"espn_id": "4361741",
+"name": "Brock Purdy",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|22": {
+"name_raw": "Ryan Flournoy",
+"espn_id": "5083754",
+"name": "Ryan Flournoy",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|23": {
+"name_raw": "Ryan Flournoy",
+"espn_id": "5083754",
+"name": "Ryan Flournoy",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|24": {
+"name_raw": "Malachi Fields",
+"espn_id": "4682648",
+"name": "Malachi Fields",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|27": {
+"name_raw": "Carnell Tate",
+"espn_id": "4871023",
+"name": "Carnell Tate",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|28": {
+"name_raw": "James Cook",
+"espn_id": "4379399",
+"name": "James Cook III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-22|v7|32": {
+"name_raw": "James Cook",
+"espn_id": "4379399",
+"name": "James Cook III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-22|v7|43": {
+"name_raw": "James Cook",
+"espn_id": "4379399",
+"name": "James Cook III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-22|v7|51": {
+"name_raw": "James Cook",
+"espn_id": "4379399",
+"name": "James Cook III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-22|v7|56": {
+"name_raw": "James Cook",
+"espn_id": "4379399",
+"name": "James Cook III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-22|v7|29": {
+"name_raw": "CeeDee Lamb",
+"espn_id": "4241389",
+"name": "CeeDee Lamb",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|33": {
+"name_raw": "CeeDee Lamb",
+"espn_id": "4241389",
+"name": "CeeDee Lamb",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|30": {
+"name_raw": "D'Andre Swift",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NFL"
+},
+"2026-11-22|v7|34": {
+"name_raw": "D'Andre Swift",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
+"sport": "NFL"
+},
+"2026-11-22|v7|31": {
+"name_raw": "Emmett Johnson",
+"espn_id": "4832955",
+"name": "Emmett Johnson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|35": {
+"name_raw": "Emmett Johnson",
+"espn_id": "4832955",
+"name": "Emmett Johnson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|98": {
+"name_raw": "Emmett Johnson",
+"espn_id": "4832955",
+"name": "Emmett Johnson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|104": {
+"name_raw": "Emmett Johnson",
+"espn_id": "4832955",
+"name": "Emmett Johnson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|36": {
+"name_raw": "Josh Downs",
+"espn_id": "4688813",
+"name": "Josh Downs",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|37": {
+"name_raw": "Tony Pollard",
+"espn_id": "3916148",
+"name": "Tony Pollard",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|38": {
+"name_raw": "Isaiah Likely",
+"espn_id": "4361050",
+"name": "Isaiah Likely",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|77": {
+"name_raw": "Isaiah Likely",
+"espn_id": "4361050",
+"name": "Isaiah Likely",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|123": {
+"name_raw": "Isaiah Likely",
+"espn_id": "4361050",
+"name": "Isaiah Likely",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|132": {
+"name_raw": "Isaiah Likely",
+"espn_id": "4361050",
+"name": "Isaiah Likely",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|39": {
+"name_raw": "Christian McCaffrey",
+"espn_id": "3117251",
+"name": "Christian McCaffrey",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|68": {
+"name_raw": "Christian McCaffrey",
+"espn_id": "3117251",
+"name": "Christian McCaffrey",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|71": {
+"name_raw": "Christian McCaffrey",
+"espn_id": "3117251",
+"name": "Christian McCaffrey",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|121": {
+"name_raw": "Christian McCaffrey",
+"espn_id": "3117251",
+"name": "Christian McCaffrey",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|40": {
+"name_raw": "Trey McBride",
+"espn_id": "4361307",
+"name": "Trey McBride",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|41": {
+"name_raw": "Justice Hill",
+"espn_id": "4038441",
+"name": "Justice Hill",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|42": {
+"name_raw": "Javonte Williams",
+"espn_id": "4361579",
+"name": "Javonte Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|116": {
+"name_raw": "Javonte Williams",
+"espn_id": "4361579",
+"name": "Javonte Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|44": {
+"name_raw": "Adonai Mitchell",
+"espn_id": "4597500",
+"name": "Adonai Mitchell",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|45": {
+"name_raw": "Adonai Mitchell",
+"espn_id": "4597500",
+"name": "Adonai Mitchell",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|46": {
+"name_raw": "Adonai Mitchell",
+"espn_id": "4597500",
+"name": "Adonai Mitchell",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|47": {
+"name_raw": "Dak Prescott",
+"espn_id": "2577417",
+"name": "Dak Prescott",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|52": {
+"name_raw": "Dak Prescott",
+"espn_id": "2577417",
+"name": "Dak Prescott",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|48": {
+"name_raw": "Justin Jefferson",
+"espn_id": "4262921",
+"name": "Justin Jefferson",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-22|v7|53": {
+"name_raw": "Justin Jefferson",
+"espn_id": "4262921",
+"name": "Justin Jefferson",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-22|v7|69": {
+"name_raw": "Justin Jefferson",
+"espn_id": "4262921",
+"name": "Justin Jefferson",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-22|v7|49": {
+"name_raw": "Kenneth Walker III",
+"espn_id": "4567048",
+"name": "Kenneth Walker III",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|54": {
+"name_raw": "Kenneth Walker III",
+"espn_id": "4567048",
+"name": "Kenneth Walker III",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|50": {
+"name_raw": "Zay Flowers",
+"espn_id": "4429615",
+"name": "Zay Flowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|55": {
+"name_raw": "Zay Flowers",
+"espn_id": "4429615",
+"name": "Zay Flowers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|61": {
+"name_raw": "Chuba Hubbard",
+"espn_id": "4241416",
+"name": "Chuba Hubbard",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|131": {
+"name_raw": "Chuba Hubbard",
+"espn_id": "4241416",
+"name": "Chuba Hubbard",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|62": {
+"name_raw": "Bhayshul Tuten",
+"espn_id": "4882093",
+"name": "Bhayshul Tuten",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|63": {
+"name_raw": "Jonah Coleman",
+"espn_id": "4702555",
+"name": "Jonah Coleman",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|119": {
+"name_raw": "Jonah Coleman",
+"espn_id": "4702555",
+"name": "Jonah Coleman",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|64": {
+"name_raw": "Josh Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-22|v7|65": {
+"name_raw": "Jahmyr Gibbs",
+"espn_id": "4429795",
+"name": "Jahmyr Gibbs",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|66": {
+"name_raw": "T.J. Hockenson",
+"espn_id": "4036133",
+"name": "T.J. Hockenson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|95": {
+"name_raw": "T.J. Hockenson",
+"espn_id": "4036133",
+"name": "T.J. Hockenson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|67": {
+"name_raw": "George Kittle",
+"espn_id": "3040151",
+"name": "George Kittle",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|70": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|73": {
+"name_raw": "Jauan Jennings",
+"espn_id": "3886598",
+"name": "Jauan Jennings",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|74": {
+"name_raw": "Jauan Jennings",
+"espn_id": "3886598",
+"name": "Jauan Jennings",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|75": {
+"name_raw": "Ollie Gordon II",
+"espn_id": "4711533",
+"name": "Ollie Gordon II",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|76": {
+"name_raw": "Ollie Gordon II",
+"espn_id": "4711533",
+"name": "Ollie Gordon II",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|96": {
+"name_raw": "Amon-Ra St. Brown",
+"espn_id": "4374302",
+"name": "Amon-Ra St. Brown",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|99": {
+"name_raw": "Devin Bush",
+"espn_id": "4036261",
+"name": "Devin Bush",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|100": {
+"name_raw": "Caleb Douglas",
+"espn_id": "4869645",
+"name": "Caleb Douglas",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|101": {
+"name_raw": "Breece Hall",
+"espn_id": "4427366",
+"name": "Breece Hall",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|117": {
+"name_raw": "Breece Hall",
+"espn_id": "4427366",
+"name": "Breece Hall",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|102": {
+"name_raw": "Derrick Henry",
+"espn_id": "3043078",
+"name": "Derrick Henry",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|120": {
+"name_raw": "Derrick Henry",
+"espn_id": "3043078",
+"name": "Derrick Henry",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|103": {
+"name_raw": "Jakobi Meyers",
+"espn_id": "3916433",
+"name": "Jakobi Meyers",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|111": {
+"name_raw": "DeVonta Smith",
+"espn_id": "4241478",
+"name": "DeVonta Smith",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-22|v7|112": {
+"name_raw": "Courtland Sutton",
+"espn_id": "3128429",
+"name": "Courtland Sutton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|115": {
+"name_raw": "Jaylen Warren",
+"espn_id": "4569987",
+"name": "Jaylen Warren",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|129": {
+"name_raw": "Khalil Shakir",
+"espn_id": "4373678",
+"name": "Khalil Shakir",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|130": {
+"name_raw": "J.J. McCarthy",
+"espn_id": "4433970",
+"name": "J.J. McCarthy",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-22|v7|133": {
+"name_raw": "George Pickens",
+"espn_id": "4426354",
+"name": "George Pickens",
+"how": "search exact",
+"sport": "NFL"
+}
+}

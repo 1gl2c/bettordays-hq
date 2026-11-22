@@ -1,0 +1,856 @@
+{
+"2026-11-22|v7|1": {
+"why": "no quote before start",
+"ticker": "KXATPMATCH-26NOV22ZVEALC-ALC"
+},
+"2026-11-22|v7|2": {
+"why": "no unique market match",
+"ev": "KXATPEXACTMATCH-26NOV22ZVEALC"
+},
+"2026-11-22|v7|3": {
+"why": "game not started yet",
+"ticker": "KXNBA3PT-26NOV22INDNYK-NYKKTOWNS32-2",
+"start": "2026-11-23T01:00Z"
+},
+"2026-11-22|v7|4": {
+"why": "game not started yet",
+"ticker": "KXNBA3PT-26NOV22INDNYK-NYKKTOWNS32-1",
+"start": "2026-11-23T01:00Z"
+},
+"2026-11-22|v7|5": {
+"why": "game not started yet",
+"ticker": "KXNBAREB-26NOV22ORLWAS-ORLWCARTER34-8",
+"start": "2026-11-23T00:00Z"
+},
+"2026-11-22|v7|6": {
+"why": "game not started yet",
+"ticker": "KXNBAREB-26NOV22ORLWAS-ORLWCARTER34-6",
+"start": "2026-11-23T00:00Z"
+},
+"2026-11-22|v7|7": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|8": {
+"ticker": "KXNFLTD-26NOV22NOCHI-NOJTYSON0-1",
+"invert": false,
+"k_close": 22.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|9": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|10": {
+"ticker": "KXNFLGAME-26NOV22NOCHI-CHI",
+"invert": false,
+"k_close": 84.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|11": {
+"ticker": "KXNFLGAME-26NOV22TBDET-DET",
+"invert": false,
+"k_close": 65.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|12": {
+"ticker": "KXNFLGAME-26NOV22JACNYG-JAC",
+"invert": false,
+"k_close": 71.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|13": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|14": {
+"ticker": "KXNFLGAME-26NOV22BALCAR-BAL",
+"invert": false,
+"k_close": 44.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "no"
+},
+"2026-11-22|v7|15": {
+"ticker": "KXNFLGAME-26NOV22TBDET-TB",
+"invert": false,
+"k_close": 34.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "no"
+},
+"2026-11-22|v7|16": {
+"ticker": "KXNFLGAME-26NOV22NYJLAC-LAC",
+"invert": false,
+"k_close": 60.5,
+"k_close_ts": "2026-11-22T21:05:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:05Z",
+"result": "no"
+},
+"2026-11-22|v7|17": {
+"ticker": "KXNFLGAME-26NOV22JACNYG-NYG",
+"invert": false,
+"k_close": 28.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|18": {
+"ticker": "KXNFLPASSINT-26NOV22LVDEN-LVFMENDOZA15-1",
+"invert": false,
+"k_close": 58.0,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 2.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|19": {
+"ticker": "KXNFLREC-26NOV22LVDEN-LVAJEANTY2-3",
+"invert": false,
+"k_close": 73.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|20": {
+"ticker": "KXNFLREC-26NOV22LVDEN-LVAJEANTY2-4",
+"invert": false,
+"k_close": 54.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|21": {
+"why": "game not started yet",
+"ticker": "KXNFLRSHYDS-26NOV22MINSF-SFBPURDY13-15",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|22": {
+"ticker": "KXNFLRECYDS-26NOV22TENDAL-DALRFLOURNOY19-40",
+"invert": false,
+"k_close": 51.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|23": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|24": {
+"ticker": "KXNFLRECYDS-26NOV22JACNYG-NYGMFIELDS88-25",
+"invert": false,
+"k_close": 58.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|25": {
+"ticker": "KXNBAGAME-26NOV22OKCMIA-MIA",
+"invert": false,
+"k_close": 62.5,
+"k_close_ts": "2026-11-22T23:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T23:00Z",
+"result": ""
+},
+"2026-11-22|v7|26": {
+"why": "game not started yet",
+"ticker": "KXNHLGAME-26NOV22EDMSTL-EDM",
+"start": "2026-11-23T00:00Z"
+},
+"2026-11-22|v7|27": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|28": {
+"ticker": "KXNFLTD-26NOV22MIABUF-BUFJCOOK4-2",
+"invert": false,
+"k_close": 22.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|29": {
+"ticker": "KXNFLTD-26NOV22TENDAL-DALCLAMB88-2",
+"invert": false,
+"k_close": 20.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|30": {
+"ticker": "KXNFLTD-26NOV22NOCHI-CHIDSWIFT4-2",
+"invert": false,
+"k_close": 18.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "no"
+},
+"2026-11-22|v7|31": {
+"ticker": "KXNFLTD-26NOV22ARIKC-KCEJOHNSON10-2",
+"invert": false,
+"k_close": 25.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|32": {
+"ticker": "KXNFLTD-26NOV22MIABUF-BUFJCOOK4-1",
+"invert": false,
+"k_close": 61.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|33": {
+"ticker": "KXNFLTD-26NOV22TENDAL-DALCLAMB88-1",
+"invert": false,
+"k_close": 57.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|34": {
+"ticker": "KXNFLTD-26NOV22NOCHI-CHIDSWIFT4-1",
+"invert": false,
+"k_close": 56.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|35": {
+"ticker": "KXNFLTD-26NOV22ARIKC-KCEJOHNSON10-1",
+"invert": false,
+"k_close": 64.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|36": {
+"ticker": "KXNFLTD-26NOV22ARIKC-KCJDOWNS2-1",
+"invert": false,
+"k_close": 29.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|37": {
+"ticker": "KXNFLTD-26NOV22TENDAL-TENTPOLLARD20-1",
+"invert": false,
+"k_close": 54.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|38": {
+"ticker": "KXNFLTD-26NOV22JACNYG-NYGILIKELY9-1",
+"invert": false,
+"k_close": 28.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|39": {
+"why": "game not started yet",
+"ticker": "KXNFLTD-26NOV22MINSF-SFCMCCAFFREY23-1",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|40": {
+"ticker": "KXNFLREC-26NOV22ARIKC-ARITMCBRIDE85-5",
+"invert": false,
+"k_close": 70.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|41": {
+"ticker": "KXNFLREC-26NOV22BALCAR-BALJHILL43-2",
+"invert": false,
+"k_close": 78.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|42": {
+"ticker": "KXNFLRSHYDS-26NOV22TENDAL-DALJWILLIAMS33-50",
+"invert": false,
+"k_close": 78.0,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 2.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|43": {
+"ticker": "KXNFLRSHYDS-26NOV22MIABUF-BUFJCOOK4-70",
+"invert": false,
+"k_close": 73.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|44": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|45": {
+"ticker": "KXNFLRECYDS-26NOV22NYJLAC-NYJAMITCHELL15-60",
+"invert": false,
+"k_close": 37.5,
+"k_close_ts": "2026-11-22T21:05:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:05:00.000+00:00",
+"result": ""
+},
+"2026-11-22|v7|46": {
+"ticker": "KXNFLRECYDS-26NOV22NYJLAC-NYJAMITCHELL15-80",
+"invert": false,
+"k_close": 22.5,
+"k_close_ts": "2026-11-22T21:05:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:05:00.000+00:00",
+"result": ""
+},
+"2026-11-22|v7|47": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|48": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|49": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|50": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|51": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|52": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|53": {
+"why": "game not started yet",
+"ticker": "KXNFLRECYDS-26NOV22MINSF-MINJJEFFERSON18-80",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|54": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|55": {
+"ticker": "KXNFLRECYDS-26NOV22BALCAR-BALZFLOWERS4-60",
+"invert": false,
+"k_close": 58.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|56": {
+"ticker": "KXNFLRSHYDS-26NOV22MIABUF-BUFJCOOK4-90",
+"invert": false,
+"k_close": 54.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|57": {
+"ticker": "KXNFLGAME-26NOV22PITPHI-PIT",
+"invert": false,
+"k_close": 64.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "no"
+},
+"2026-11-22|v7|58": {
+"ticker": "KXNFLGAME-26NOV22BALCAR-CAR",
+"invert": false,
+"k_close": 55.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|59": {
+"ticker": "KXNFLSPREAD-26NOV22JACNYG-JAC6",
+"invert": false,
+"k_close": 54.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|60": {
+"ticker": "KXNFLSPREAD-26NOV22LVDEN-DEN11",
+"invert": true,
+"k_close": 45.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|61": {
+"ticker": "KXNFLTD-26NOV22BALCAR-CARCHUBBARD30-1",
+"invert": false,
+"k_close": 54.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|62": {
+"ticker": "KXNFLTD-26NOV22JACNYG-JACBTUTEN33-1",
+"invert": false,
+"k_close": 50.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|63": {
+"ticker": "KXNFLTD-26NOV22LVDEN-DENJCOLEMAN20-1",
+"invert": false,
+"k_close": 58.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": "yes"
+},
+"2026-11-22|v7|64": {
+"ticker": "KXNFLTD-26NOV22MIABUF-BUFJALLEN17-1",
+"invert": false,
+"k_close": 58.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|65": {
+"ticker": "KXNFLTD-26NOV22TBDET-DETJGIBBS0-1",
+"invert": false,
+"k_close": 67.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|66": {
+"why": "game not started yet",
+"ticker": "KXNFLRECYDS-26NOV22MINSF-MINTHOCKENSON87-30",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|67": {
+"why": "game not started yet",
+"ticker": "KXNFLRECYDS-26NOV22MINSF-SFGKITTLE85-40",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|68": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|69": {
+"why": "game not started yet",
+"ticker": "KXNFLREC-26NOV22MINSF-MINJJEFFERSON18-8",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|70": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|71": {
+"why": "game not started yet",
+"ticker": "KXNFLRSHYDS-26NOV22MINSF-SFCMCCAFFREY23-50",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|72": {
+"ticker": "KXNFLRSHYDS-26NOV22NOCHI-CHIKMONANGAI25-40",
+"invert": false,
+"k_close": 57.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|73": {
+"why": "game not started yet",
+"ticker": "KXNFLRECYDS-26NOV22MINSF-MINJJENNINGS14-20",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|74": {
+"why": "game not started yet",
+"ticker": "KXNFLRECYDS-26NOV22MINSF-MINJJENNINGS14-15",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|75": {
+"ticker": "KXNFLREC-26NOV22MIABUF-MIAOGORDON0-2",
+"invert": false,
+"k_close": 74.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|76": {
+"ticker": "KXNFLREC-26NOV22MIABUF-MIAOGORDON0-3",
+"invert": false,
+"k_close": 53.0,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 2.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|77": {
+"ticker": "KXNFLRECYDS-26NOV22JACNYG-NYGILIKELY9-50",
+"invert": true,
+"k_close": 52.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|78": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|79": {
+"ticker": "KXNFLSPREAD-26NOV22TBDET-DET7",
+"invert": true,
+"k_close": 58.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|80": {
+"ticker": "KXNFLSPREAD-26NOV22PITPHI-PIT5",
+"invert": true,
+"k_close": 54.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "no"
+},
+"2026-11-22|v7|81": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|82": {
+"ticker": "KXNFL1HSPREAD-26NOV22NOCHI-CHI7",
+"invert": false,
+"k_close": 60.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "no"
+},
+"2026-11-22|v7|83": {
+"why": "game not started yet",
+"ticker": "KXNFLTOTAL-26NOV22MINSF-46",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|84": {
+"ticker": "KXNFLSPREAD-26NOV22BALCAR-CAR3",
+"invert": false,
+"k_close": 50.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "no"
+},
+"2026-11-22|v7|85": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|86": {
+"ticker": "KXNFLSPREAD-26NOV22TBDET-DET4",
+"invert": true,
+"k_close": 49.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|87": {
+"ticker": "KXNFLTOTAL-26NOV22BALCAR-44",
+"invert": true,
+"k_close": 46.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|88": {
+"ticker": "KXNFLSPREAD-26NOV22MIABUF-BUF17",
+"invert": false,
+"k_close": 51.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|89": {
+"ticker": "KXNFLSPREAD-26NOV22PITPHI-PIT4",
+"invert": false,
+"k_close": 49.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "no"
+},
+"2026-11-22|v7|90": {
+"ticker": "KXNFLTOTAL-26NOV22JACNYG-46",
+"invert": true,
+"k_close": 53.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|91": {
+"ticker": "KXNFLSPREAD-26NOV22NYJLAC-LAC3",
+"invert": false,
+"k_close": 55.5,
+"k_close_ts": "2026-11-22T21:05:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:05Z",
+"result": "no"
+},
+"2026-11-22|v7|92": {
+"ticker": "KXNFLSPREAD-26NOV22LVDEN-DEN11",
+"invert": false,
+"k_close": 54.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|93": {
+"why": "game not started yet",
+"ticker": "KXNFLSPREAD-26NOV22MINSF-SF3",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|94": {
+"why": "game not started yet",
+"ticker": "KXNFLTOTAL-26NOV22MINSF-47",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|95": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|96": {
+"ticker": "KXNFLREC-26NOV22TBDET-DETASTBROWN14-7",
+"invert": false,
+"k_close": 58.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|97": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|98": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|99": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|100": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|101": {
+"ticker": "KXNFLREC-26NOV22NYJLAC-NYJBHALL20-3",
+"invert": false,
+"k_close": 54.5,
+"k_close_ts": "2026-11-22T21:05:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:05:00.000+00:00",
+"result": ""
+},
+"2026-11-22|v7|102": {
+"ticker": "KXNFLTD-26NOV22BALCAR-BALDHENRY22-1",
+"invert": false,
+"k_close": 53.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "yes"
+},
+"2026-11-22|v7|103": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|104": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|105": {
+"ticker": "KXNFLSPREAD-26NOV22TBDET-DET8",
+"invert": true,
+"k_close": 64.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|106": {
+"why": "no unique market match",
+"ev": "KXNFLTEAMTOTAL-26NOV22MIABUF"
+},
+"2026-11-22|v7|107": {
+"why": "game not started yet",
+"ticker": "KXNBAGAME-26NOV22DALUTA-DAL",
+"start": "2026-11-23T00:00Z"
+},
+"2026-11-22|v7|108": {
+"ticker": "KXNFLSPREAD-26NOV22ARIKC-KC17",
+"invert": false,
+"k_close": 47.0,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 2.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|109": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|110": {
+"why": "game not started yet",
+"ticker": "KXNFLTOTAL-26NOV22MINSF-47",
+"start": "2026-11-23T01:20Z"
+},
+"2026-11-22|v7|111": {
+"ticker": "KXNFLRECYDS-26NOV22PITPHI-PHIDSMITH6-50",
+"invert": false,
+"k_close": 57.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00:00.000+00:00",
+"result": "no"
+},
+"2026-11-22|v7|112": {
+"ticker": "KXNFLRECYDS-26NOV22LVDEN-DENCSUTTON14-30",
+"invert": false,
+"k_close": 54.5,
+"k_close_ts": "2026-11-22T21:25:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|113": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|114": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|115": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|116": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|117": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|118": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|119": {
+"ticker": "KXNFLLONGRSH-26NOV22LVDEN-DENJCOLEMAN20-15",
+"invert": false,
+"k_close": 52.5,
+"k_close_ts": "2026-11-22T21:23:00+00:00",
+"spread": 5.0,
+"start": "2026-11-22T21:25Z",
+"result": ""
+},
+"2026-11-22|v7|120": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|121": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|122": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|123": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|124": {
+"ticker": "KXNFLSPREAD-26NOV22PITPHI-PIT4",
+"invert": true,
+"k_close": 50.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "no"
+},
+"2026-11-22|v7|125": {
+"ticker": "KXNFLSPREAD-26NOV22BALCAR-CAR3",
+"invert": true,
+"k_close": 49.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "no"
+},
+"2026-11-22|v7|126": {
+"ticker": "KXNFLSPREAD-26NOV22TENDAL-DAL8",
+"invert": false,
+"k_close": 50.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|127": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|128": {
+"ticker": "KXNFLGAME-26NOV22PITPHI-PHI",
+"invert": false,
+"k_close": 35.5,
+"k_close_ts": "2026-11-22T18:00:00+00:00",
+"spread": 1.0,
+"start": "2026-11-22T18:00Z",
+"result": "yes"
+},
+"2026-11-22|v7|129": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|130": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|131": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|132": {
+"why": "no pick-time Kalshi price"
+},
+"2026-11-22|v7|133": {
+"why": "no pick-time Kalshi price"
+}
+}
