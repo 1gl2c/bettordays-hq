@@ -23,8 +23,11 @@ for i, r in enumerate(T, 1):
                   market=r.get('ty'), stat=None, dir=None, line=None, pick=r['p'], ticker=None, grade=r.get('pct'), grade_version='v9 original process (Nov 19)',
                   grade_uses_market=False, k_pick=r.get('k'), k_pick_kind='logged' if r.get('k') is not None else None, k_pick_ts='2026-11-19T23:41:24+00:00' if r.get('k') is not None else None,
                   k_close=None, k_close_kind=None, k_close_ts=None, b2b=None, matchup=r.get('mu'), notes=r.get('n'), result=r.get('r'), actual=r.get('act'), status=None))
+import glob, os
 RES = {'2026-11-20': 'fri20/res/analysis.json', '2026-11-21': 'sat21/res/analysis.json'}
-for d in ('2026-11-20', '2026-11-21', '2026-11-22'):
+for fn in glob.glob('daily/*/results.json'): RES[fn.split('/')[1]] = fn   # nightly grading writes {"legs": [{"i", "r", "act"}]}
+V7DAYS = sorted({fn.split('/')[1] for fn in glob.glob('daily/*/v7_merged*.json') if fn.split('/')[1] >= '2026-11-20'})
+for d in V7DAYS:
     import os   # the board as posted (frozen copy) wins over any later re-merge of the same day
     M = json.load(open(f'daily/{d}/v7_merged_pick.json' if os.path.exists(f'daily/{d}/v7_merged_pick.json') else f'daily/{d}/v7_merged.json'))
     R = {x['i']: x for x in json.load(open(RES[d]))['legs']} if d in RES else {}

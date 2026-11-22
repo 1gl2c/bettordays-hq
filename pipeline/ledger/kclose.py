@@ -16,7 +16,9 @@ def cu(u):
         except Exception: time.sleep(1.5)
     return {}
 nrm = lambda s: re.sub(r'[^a-z]', '', re.sub(r'\b(jr|sr|ii|iii|iv)\b', '', unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower()))
-KM = json.load(open(f'sun22/kmatch.json')) if D == '2026-11-22' else {}
+import os
+KMF = f'daily/{D}/kmatch.json' if os.path.exists(f'daily/{D}/kmatch.json') else ('sun22/kmatch.json' if D == '2026-11-22' else None)
+KM = json.load(open(KMF)) if KMF else {}   # leg number -> Kalshi event ticker, saved by that day's kmatch step
 LEGS = [l for l in json.load(open('ledger/legs.json')) if l['date'] == D]
 FEAT = json.load(open('ledger/features.json'))
 CITY = {'Bears': 'Chicago', 'Lions': 'Detroit', 'Jaguars': 'Jacksonville', 'Eagles': 'Philadelphia', 'Ravens': 'Baltimore', 'Buccaneers': 'Tampa Bay', 'Chargers': 'Los Angeles C',
@@ -80,6 +82,9 @@ def one(l):
     return l['key'], {'ticker': m['ticker'], 'invert': inv, 'k_close': round(100 - mid, 1) if inv else mid, 'k_close_ts': ts, 'spread': spr, 'start': st, 'result': m.get('result')}
 for l in LEGS: evm((KM.get(str(l.get('leg_no'))) or {}).get('ev')) if (KM.get(str(l.get('leg_no'))) or {}).get('ev') else None
 with ThreadPoolExecutor(4) as ex: out = dict(ex.map(one, LEGS))
+prev = json.load(open(f'ledger/close_{D}.json')) if os.path.exists(f'ledger/close_{D}.json') else {}
+for k, v in prev.items():   # a close already captured is never replaced
+    if 'k_close' in v: out[k] = v
 json.dump(out, open(f'ledger/close_{D}.json', 'w'), indent=0)
 from collections import Counter
 print(Counter('close' if 'k_close' in v else v['why'] for v in out.values()))
