@@ -1408,9 +1408,9 @@
 },
 "2026-11-09|shakir3+rec": {
 "name_raw": "Shakir",
-"espn_id": "4373678",
-"name": "Khalil Shakir",
-"how": "search+event team",
+"espn_id": null,
+"name": null,
+"how": "unresolved (0 search hits)",
 "sport": "NFL"
 },
 "2026-11-09|djmooreatd": {
@@ -4103,23 +4103,23 @@
 },
 "2026-11-15|jamarrchase50+receivingyards": {
 "name_raw": "Ja'Marr Chase",
-"espn_id": null,
-"name": null,
-"how": "unresolved (0 search hits)",
+"espn_id": "4362628",
+"name": "Ja'Marr Chase",
+"how": "search exact",
 "sport": "NFL"
 },
 "2026-11-15|jamarrchaseanytimetouchdown": {
 "name_raw": "Ja'Marr Chase",
-"espn_id": null,
-"name": null,
-"how": "unresolved (0 search hits)",
+"espn_id": "4362628",
+"name": "Ja'Marr Chase",
+"how": "search exact",
 "sport": "NFL"
 },
 "2026-11-15|jamarrchase40+receivingyards": {
 "name_raw": "Ja'Marr Chase",
-"espn_id": null,
-"name": null,
-"how": "unresolved (0 search hits)",
+"espn_id": "4362628",
+"name": "Ja'Marr Chase",
+"how": "search exact",
 "sport": "NFL"
 },
 "2026-11-15|teehiggins50+receivingyards": {
@@ -5482,9 +5482,9 @@
 },
 "2026-11-16|jakobilaneunder3receptions": {
 "name_raw": "Ja'Kobi Lane",
-"espn_id": null,
-"name": null,
-"how": "unresolved (0 search hits)",
+"espn_id": "4870847",
+"name": "Ja'Kobi Lane",
+"how": "search exact",
 "sport": "NFL"
 },
 "2026-11-16|keandrelambertsmith10+receivingyards": {
@@ -5804,16 +5804,16 @@
 },
 "2026-11-17|dshawntaejones66+rushingyards": {
 "name_raw": "D'Shawntae Jones",
-"espn_id": null,
-"name": null,
-"how": "unresolved (0 search hits)",
+"espn_id": "5193270",
+"name": "D'Shawntae Jones",
+"how": "search exact",
 "sport": "CFB"
 },
 "2026-11-17|dshawntaejones25+rushingyards": {
 "name_raw": "D'Shawntae Jones",
-"espn_id": null,
-"name": null,
-"how": "unresolved (0 search hits)",
+"espn_id": "5193270",
+"name": "D'Shawntae Jones",
+"how": "search exact",
 "sport": "CFB"
 },
 "2026-11-17|rileyneer60+receivingyards": {
@@ -7645,16 +7645,16 @@
 },
 "2026-11-22|v7|30": {
 "name_raw": "D'Andre Swift",
-"espn_id": null,
-"name": null,
-"how": "unresolved (0 search hits)",
+"espn_id": "4259545",
+"name": "D'Andre Swift",
+"how": "search exact",
 "sport": "NFL"
 },
 "2026-11-22|v7|34": {
 "name_raw": "D'Andre Swift",
-"espn_id": null,
-"name": null,
-"how": "unresolved (0 search hits)",
+"espn_id": "4259545",
+"name": "D'Andre Swift",
+"how": "search exact",
 "sport": "NFL"
 },
 "2026-11-22|v7|31": {

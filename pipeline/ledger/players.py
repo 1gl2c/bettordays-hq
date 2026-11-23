@@ -46,7 +46,10 @@ def resolve(nm, sport, ev):
     sp, lg = SP[sport]
     d = cu('https://site.web.api.espn.com/apis/common/v3/search?limit=10&type=player&query=' + urllib.parse.quote(n))
     its = [i for i in d.get('items', []) if i.get('league') == lg]
-    ex = [i for i in its if nrm(i['displayName']) == n]
+    if not its and n != nm.lower():   # names with an apostrophe (D'Andre) only match as written
+        d = cu('https://site.web.api.espn.com/apis/common/v3/search?limit=10&type=player&query=' + urllib.parse.quote(nm))
+        its = [i for i in d.get('items', []) if i.get('league') == lg]
+    ex = [i for i in its if nrm(i['displayName']) == n or nrm(i['displayName']).replace(' ', '') == n.replace(' ', '')]
     if len(ex) == 1: return ex[0]['id'], ex[0]['displayName'], 'search exact'
     if len(its) == 1 and ' ' in n: return its[0]['id'], its[0]['displayName'], 'search single'
     cand = ex or [i for i in its if nrm(i['displayName']).split()[-1] == n.split()[-1]]
