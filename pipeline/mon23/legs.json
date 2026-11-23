@@ -1,0 +1,766 @@
+[
+ {
+  "p": "Tee Higgins 50+ receiving yards",
+  "player": "Tee Higgins",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Mike Gesicki 25+ receiving yards",
+  "player": "Mike Gesicki",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Jayden Daniels 25+ rushing yards",
+  "player": "Jayden Daniels",
+  "team": "WSH",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Stefon Diggs 50+ receiving yards",
+  "player": "Stefon Diggs",
+  "team": "WSH",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Joe Burrow 2+ passing touchdowns (over 1.5)",
+  "player": "Joe Burrow",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "pass td",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Joe Burrow 3+ passing touchdowns (over 2.5)",
+  "player": "Joe Burrow",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "pass td",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Lakers ML v Jazz",
+  "g": "UTAH@LAL",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ml",
+  "start": "2026-11-24T03:00Z"
+ },
+ {
+  "p": "Luka Doncic 30+ points",
+  "player": "Luka Doncic",
+  "team": "LAL",
+  "g": "UTAH@LAL",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T03:00Z"
+ },
+ {
+  "p": "Santa Clara ML v Illinois State",
+  "g": "ILST@SCU",
+  "t": "4:00",
+  "sp": "CBB",
+  "mkt": "ml"
+ },
+ {
+  "p": "LaMelo Ball 20+ points",
+  "player": "LaMelo Ball",
+  "team": "MIN",
+  "g": "BKN@MIN",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "LaMelo Ball 15+ points",
+  "player": "LaMelo Ball",
+  "team": "MIN",
+  "g": "BKN@MIN",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Donovan Mitchell 4+ assists",
+  "player": "Donovan Mitchell",
+  "team": "CLE",
+  "g": "CLE@CHI",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T01:00Z"
+ },
+ {
+  "p": "Walker Kessler 10+ rebounds",
+  "player": "Walker Kessler",
+  "team": "LAL",
+  "g": "UTAH@LAL",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-24T03:00Z"
+ },
+ {
+  "p": "Keyonte George 6+ assists",
+  "player": "Keyonte George",
+  "team": "UTAH",
+  "g": "UTAH@LAL",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T03:00Z"
+ },
+ {
+  "p": "Keyonte George 4+ assists",
+  "player": "Keyonte George",
+  "team": "UTAH",
+  "g": "UTAH@LAL",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T03:00Z"
+ },
+ {
+  "p": "Ivica Zubac 8+ rebounds",
+  "player": "Ivica Zubac",
+  "team": "IND",
+  "g": "OKC@IND",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Ivica Zubac 6+ rebounds",
+  "player": "Ivica Zubac",
+  "team": "IND",
+  "g": "OKC@IND",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Mike Gesicki anytime touchdown",
+  "player": "Mike Gesicki",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Antonio Williams anytime touchdown",
+  "player": "Antonio Williams",
+  "team": "WSH",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Ja'Marr Chase anytime touchdown",
+  "player": "Ja'Marr Chase",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Joe Burrow 275+ passing yards",
+  "player": "Joe Burrow",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "pass",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Ja'Marr Chase 90+ receiving yards",
+  "player": "Ja'Marr Chase",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Stefon Diggs 4+ receptions",
+  "player": "Stefon Diggs",
+  "team": "WSH",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "rec",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Chase Brown 3+ receptions",
+  "player": "Chase Brown",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "rec",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Jayden Daniels 3+ rushing yards",
+  "player": "Jayden Daniels",
+  "team": "WSH",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Ja'Marr Chase 2+ touchdowns",
+  "player": "Ja'Marr Chase",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Ja'Marr Chase 9+ receptions",
+  "player": "Ja'Marr Chase",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "rec",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Ja'Marr Chase 150+ receiving yards",
+  "player": "Ja'Marr Chase",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Jeremiah Fears 25+ points + rebounds + assists",
+  "player": "Jeremiah Fears",
+  "team": "NO",
+  "g": "PHX@NO",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-24T01:00Z"
+ },
+ {
+  "p": "VJ Edgecombe 10+ points",
+  "player": "VJ Edgecombe",
+  "team": "PHI",
+  "g": "POR@PHI",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Amen Thompson 20+ points + rebounds + assists",
+  "player": "Amen Thompson",
+  "team": "HOU",
+  "g": "LAC@HOU",
+  "t": "5:30",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-24T01:30Z"
+ },
+ {
+  "p": "Amen Thompson 4+ rebounds",
+  "player": "Amen Thompson",
+  "team": "HOU",
+  "g": "LAC@HOU",
+  "t": "5:30",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-24T01:30Z"
+ },
+ {
+  "p": "Amen Thompson 6+ rebounds",
+  "player": "Amen Thompson",
+  "team": "HOU",
+  "g": "LAC@HOU",
+  "t": "5:30",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-24T01:30Z"
+ },
+ {
+  "p": "Amen Thompson 10+ points",
+  "player": "Amen Thompson",
+  "team": "HOU",
+  "g": "LAC@HOU",
+  "t": "5:30",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T01:30Z"
+ },
+ {
+  "p": "Amen Thompson 15+ points",
+  "player": "Amen Thompson",
+  "team": "HOU",
+  "g": "LAC@HOU",
+  "t": "5:30",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T01:30Z"
+ },
+ {
+  "p": "Isaiah Hartenstein 4+ assists",
+  "player": "Isaiah Hartenstein",
+  "team": "OKC",
+  "g": "OKC@IND",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Isaiah Hartenstein 2+ assists",
+  "player": "Isaiah Hartenstein",
+  "team": "OKC",
+  "g": "OKC@IND",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Quentin Grimes 2+ rebounds",
+  "player": "Quentin Grimes",
+  "team": "LAL",
+  "g": "UTAH@LAL",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-24T03:00Z"
+ },
+ {
+  "p": "Quentin Grimes 2+ assists",
+  "player": "Quentin Grimes",
+  "team": "LAL",
+  "g": "UTAH@LAL",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T03:00Z"
+ },
+ {
+  "p": "Quentin Grimes 4+ rebounds",
+  "player": "Quentin Grimes",
+  "team": "LAL",
+  "g": "UTAH@LAL",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-24T03:00Z"
+ },
+ {
+  "p": "Quentin Grimes 4+ assists",
+  "player": "Quentin Grimes",
+  "team": "LAL",
+  "g": "UTAH@LAL",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T03:00Z"
+ },
+ {
+  "p": "Devin Booker 6+ assists",
+  "player": "Devin Booker",
+  "team": "PHX",
+  "g": "PHX@NO",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T01:00Z"
+ },
+ {
+  "p": "Devin Booker 4+ assists",
+  "player": "Devin Booker",
+  "team": "PHX",
+  "g": "PHX@NO",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T01:00Z"
+ },
+ {
+  "p": "Andrew Nembhard 1+ threes",
+  "player": "Andrew Nembhard",
+  "team": "IND",
+  "g": "OKC@IND",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "3pm",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Andrew Nembhard 2+ threes",
+  "player": "Andrew Nembhard",
+  "team": "IND",
+  "g": "OKC@IND",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "3pm",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Immanuel Quickley 6+ assists",
+  "player": "Immanuel Quickley",
+  "team": "TOR",
+  "g": "MIL@TOR",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Immanuel Quickley 4+ assists",
+  "player": "Immanuel Quickley",
+  "team": "TOR",
+  "g": "MIL@TOR",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Mikel Brown Jr. 10+ points",
+  "player": "Mikel Brown Jr.",
+  "team": "BKN",
+  "g": "BKN@MIN",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Bengals ML at Commanders",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "ml",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Bengals -3 at Commanders",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "spread",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Joe Burrow under 304.5 passing yards",
+  "player": "Joe Burrow",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "pass",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Ben Sinnott 3+ receiving yards (over 2.5)",
+  "player": "Ben Sinnott",
+  "team": "WSH",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Jayden Daniels under 0.5 interceptions",
+  "player": "Jayden Daniels",
+  "team": "WSH",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "int",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Chase Brown under 4.5 receptions",
+  "player": "Chase Brown",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "rec",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Joe Burrow under 325 passing yards",
+  "player": "Joe Burrow",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "pass",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Chase Brown under 6 receptions",
+  "player": "Chase Brown",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "rec",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Chase Brown under 4 receptions",
+  "player": "Chase Brown",
+  "team": "CIN",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "rec",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Ty Jerome 23+ points (over 22.5)",
+  "player": "Ty Jerome",
+  "team": "MEM",
+  "g": "MEM@CHA",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Jakob Poeltl 8+ rebounds (over 7.5)",
+  "player": "Jakob Poeltl",
+  "team": "TOR",
+  "g": "MIL@TOR",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Tyler Herro 4+ assists (over 3.5)",
+  "player": "Tyler Herro",
+  "team": "MIL",
+  "g": "MIL@TOR",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Jaylen Brown under 20.5 points",
+  "player": "Jaylen Brown",
+  "team": "PHI",
+  "g": "POR@PHI",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Cam Spencer 6+ assists (over 5.5)",
+  "player": "Cam Spencer",
+  "team": "MEM",
+  "g": "MEM@CHA",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Ty Jerome 20+ points",
+  "player": "Ty Jerome",
+  "team": "MEM",
+  "g": "MEM@CHA",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Ty Jerome 15+ points",
+  "player": "Ty Jerome",
+  "team": "MEM",
+  "g": "MEM@CHA",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Jakob Poeltl 6+ rebounds",
+  "player": "Jakob Poeltl",
+  "team": "TOR",
+  "g": "MIL@TOR",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Tyler Herro 2+ assists",
+  "player": "Tyler Herro",
+  "team": "MIL",
+  "g": "MIL@TOR",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T00:30Z"
+ },
+ {
+  "p": "Jaylen Brown under 25 points",
+  "player": "Jaylen Brown",
+  "team": "PHI",
+  "g": "POR@PHI",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Jaylen Brown under 20 points",
+  "player": "Jaylen Brown",
+  "team": "PHI",
+  "g": "POR@PHI",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Cam Spencer 4+ assists",
+  "player": "Cam Spencer",
+  "team": "MEM",
+  "g": "MEM@CHA",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Providence ML v VCU",
+  "g": "VCU@PROV",
+  "t": "6:00",
+  "sp": "CBB",
+  "mkt": "ml"
+ },
+ {
+  "p": "Commanders +14 v Bengals",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "spread",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Bengals v Commanders over 45 total points",
+  "g": "CIN@WSH",
+  "t": "5:15",
+  "sp": "NFL",
+  "mkt": "total",
+  "start": "2026-11-24T01:15Z"
+ },
+ {
+  "p": "Josh Giddey 8+ assists",
+  "player": "Josh Giddey",
+  "team": "CHI",
+  "g": "CLE@CHI",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T01:00Z"
+ },
+ {
+  "p": "Josh Giddey 10+ assists",
+  "player": "Josh Giddey",
+  "team": "CHI",
+  "g": "CLE@CHI",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T01:00Z"
+ },
+ {
+  "p": "Moussa Diabate under 10 points",
+  "player": "Moussa Diabate",
+  "team": "CHA",
+  "g": "MEM@CHA",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Coby White under 6 assists",
+  "player": "Coby White",
+  "team": "CHA",
+  "g": "MEM@CHA",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Coby White under 4 assists",
+  "player": "Coby White",
+  "team": "CHA",
+  "g": "MEM@CHA",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-24T00:00Z"
+ },
+ {
+  "p": "Brayden Burries 10+ points",
+  "player": "Brayden Burries",
+  "team": "MIL",
+  "g": "MIL@TOR",
+  "t": "4:30",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-24T00:30Z"
+ }
+]

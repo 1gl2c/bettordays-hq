@@ -1,0 +1,138 @@
+{
+ "picks": [
+  {
+   "player": "Danny Wolf",
+   "team": "BKN",
+   "st": "pra",
+   "k": 15,
+   "ask": 0.57,
+   "be": 58.7,
+   "sim": 66.5,
+   "books": 61.6,
+   "nbooks": 1,
+   "g": "BKN@MIN"
+  }
+ ],
+ "check_news": [
+  {
+   "player": "Domantas Sabonis",
+   "team": "SAC",
+   "st": "reb",
+   "k": 12,
+   "ask": 0.57,
+   "be": 58.7,
+   "sim": 84.1,
+   "books": 56.3,
+   "nbooks": 1,
+   "g": "SA@SAC"
+  },
+  {
+   "player": "Moritz Wagner",
+   "team": "BKN",
+   "st": "3pm",
+   "k": 1,
+   "ask": 0.53,
+   "be": 54.7,
+   "sim": 79.1,
+   "books": 55.9,
+   "nbooks": 4,
+   "g": "BKN@MIN"
+  },
+  {
+   "player": "Meleek Thomas",
+   "team": "CLE",
+   "st": "pts",
+   "k": 10,
+   "ask": 0.5,
+   "be": 51.7,
+   "sim": 75.2,
+   "books": 49.0,
+   "nbooks": 6,
+   "g": "CLE@CHI"
+  },
+  {
+   "player": "Myles Turner",
+   "team": "MIL",
+   "st": "ast",
+   "k": 2,
+   "ask": 0.55,
+   "be": 56.7,
+   "sim": 75.7,
+   "books": 53.1,
+   "nbooks": 1,
+   "g": "MIL@TOR"
+  },
+  {
+   "player": "Meleek Thomas",
+   "team": "CLE",
+   "st": "ast",
+   "k": 2,
+   "ask": 0.5,
+   "be": 51.7,
+   "sim": 68.7,
+   "books": 50.6,
+   "nbooks": 2,
+   "g": "CLE@CHI"
+  },
+  {
+   "player": "Meleek Thomas",
+   "team": "CLE",
+   "st": "3pm",
+   "k": 2,
+   "ask": 0.54,
+   "be": 55.7,
+   "sim": 71.4,
+   "books": 53.0,
+   "nbooks": 6,
+   "g": "CLE@CHI"
+  },
+  {
+   "player": "Ryan Rollins",
+   "team": "MIL",
+   "st": "reb",
+   "k": 4,
+   "ask": 0.54,
+   "be": 55.7,
+   "sim": 70.5,
+   "books": 53.1,
+   "nbooks": 6,
+   "g": "MIL@TOR"
+  },
+  {
+   "player": "Amen Thompson",
+   "team": "HOU",
+   "st": "pra",
+   "k": 25,
+   "ask": 0.54,
+   "be": 55.7,
+   "sim": 68.0,
+   "books": 51.9,
+   "nbooks": 3,
+   "g": "LAC@HOU"
+  },
+  {
+   "player": "Jake LaRavia",
+   "team": "LAL",
+   "st": "ast",
+   "k": 2,
+   "ask": 0.5,
+   "be": 51.7,
+   "sim": 63.8,
+   "books": 46.9,
+   "nbooks": 2,
+   "g": "UTAH@LAL"
+  },
+  {
+   "player": "Immanuel Quickley",
+   "team": "TOR",
+   "st": "3pm",
+   "k": 3,
+   "ask": 0.54,
+   "be": 55.7,
+   "sim": 67.4,
+   "books": 51.9,
+   "nbooks": 6,
+   "g": "MIL@TOR"
+  }
+ ]
+}

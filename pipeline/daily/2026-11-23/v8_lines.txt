@@ -1,0 +1,78 @@
+1 | Tee Higgins 50+ receiving yards | NFL CIN@WSH 5:15 PM PT | market: recyds
+2 | Mike Gesicki 25+ receiving yards | NFL CIN@WSH 5:15 PM PT | market: recyds
+3 | Jayden Daniels 25+ rushing yards | NFL CIN@WSH 5:15 PM PT | market: rush
+4 | Stefon Diggs 50+ receiving yards | NFL CIN@WSH 5:15 PM PT | market: recyds
+5 | Joe Burrow 2+ passing touchdowns (over 1.5) | NFL CIN@WSH 5:15 PM PT | market: pass td
+6 | Joe Burrow 3+ passing touchdowns (over 2.5) | NFL CIN@WSH 5:15 PM PT | market: pass td
+7 | Lakers ML v Jazz | NBA UTAH@LAL 7:00 PM PT | market: ml
+8 | Luka Doncic 30+ points | NBA UTAH@LAL 7:00 PM PT | market: pts
+9 | Santa Clara ML v Illinois State | CBB ILST@SCU 4:00 PM PT | market: ml
+10 | LaMelo Ball 20+ points | NBA BKN@MIN 4:30 PM PT | market: pts
+11 | LaMelo Ball 15+ points | NBA BKN@MIN 4:30 PM PT | market: pts
+12 | Donovan Mitchell 4+ assists | NBA CLE@CHI 5:00 PM PT | market: ast
+13 | Walker Kessler 10+ rebounds | NBA UTAH@LAL 7:00 PM PT | market: reb
+14 | Keyonte George 6+ assists | NBA UTAH@LAL 7:00 PM PT | market: ast
+15 | Keyonte George 4+ assists | NBA UTAH@LAL 7:00 PM PT | market: ast
+16 | Ivica Zubac 8+ rebounds | NBA OKC@IND 4:30 PM PT | market: reb
+17 | Ivica Zubac 6+ rebounds | NBA OKC@IND 4:30 PM PT | market: reb
+18 | Mike Gesicki anytime touchdown | NFL CIN@WSH 5:15 PM PT | market: td
+19 | Antonio Williams anytime touchdown | NFL CIN@WSH 5:15 PM PT | market: td
+20 | Ja'Marr Chase anytime touchdown | NFL CIN@WSH 5:15 PM PT | market: td
+21 | Joe Burrow 275+ passing yards | NFL CIN@WSH 5:15 PM PT | market: pass
+22 | Ja'Marr Chase 90+ receiving yards | NFL CIN@WSH 5:15 PM PT | market: recyds
+23 | Stefon Diggs 4+ receptions | NFL CIN@WSH 5:15 PM PT | market: rec
+24 | Chase Brown 3+ receptions | NFL CIN@WSH 5:15 PM PT | market: rec
+25 | Jayden Daniels 3+ rushing yards | NFL CIN@WSH 5:15 PM PT | market: rush
+26 | Ja'Marr Chase 2+ touchdowns | NFL CIN@WSH 5:15 PM PT | market: td
+27 | Ja'Marr Chase 9+ receptions | NFL CIN@WSH 5:15 PM PT | market: rec
+28 | Ja'Marr Chase 150+ receiving yards | NFL CIN@WSH 5:15 PM PT | market: recyds
+29 | Jeremiah Fears 25+ points + rebounds + assists | NBA PHX@NO 5:00 PM PT | market: pra
+30 | VJ Edgecombe 10+ points | NBA POR@PHI 4:00 PM PT | market: pts
+31 | Amen Thompson 20+ points + rebounds + assists | NBA LAC@HOU 5:30 PM PT | market: pra
+32 | Amen Thompson 4+ rebounds | NBA LAC@HOU 5:30 PM PT | market: reb
+33 | Amen Thompson 6+ rebounds | NBA LAC@HOU 5:30 PM PT | market: reb
+34 | Amen Thompson 10+ points | NBA LAC@HOU 5:30 PM PT | market: pts
+35 | Amen Thompson 15+ points | NBA LAC@HOU 5:30 PM PT | market: pts
+36 | Isaiah Hartenstein 4+ assists | NBA OKC@IND 4:30 PM PT | market: ast
+37 | Isaiah Hartenstein 2+ assists | NBA OKC@IND 4:30 PM PT | market: ast
+38 | Quentin Grimes 2+ rebounds | NBA UTAH@LAL 7:00 PM PT | market: reb
+39 | Quentin Grimes 2+ assists | NBA UTAH@LAL 7:00 PM PT | market: ast
+40 | Quentin Grimes 4+ rebounds | NBA UTAH@LAL 7:00 PM PT | market: reb
+41 | Quentin Grimes 4+ assists | NBA UTAH@LAL 7:00 PM PT | market: ast
+42 | Devin Booker 6+ assists | NBA PHX@NO 5:00 PM PT | market: ast
+43 | Devin Booker 4+ assists | NBA PHX@NO 5:00 PM PT | market: ast
+44 | Andrew Nembhard 1+ threes | NBA OKC@IND 4:30 PM PT | market: 3pm
+45 | Andrew Nembhard 2+ threes | NBA OKC@IND 4:30 PM PT | market: 3pm
+46 | Immanuel Quickley 6+ assists | NBA MIL@TOR 4:30 PM PT | market: ast
+47 | Immanuel Quickley 4+ assists | NBA MIL@TOR 4:30 PM PT | market: ast
+48 | Mikel Brown Jr. 10+ points | NBA BKN@MIN 4:30 PM PT | market: pts
+49 | Bengals ML at Commanders | NFL CIN@WSH 5:15 PM PT | market: ml
+50 | Bengals -3 at Commanders | NFL CIN@WSH 5:15 PM PT | market: spread
+51 | Joe Burrow under 304.5 passing yards | NFL CIN@WSH 5:15 PM PT | market: pass
+52 | Ben Sinnott 3+ receiving yards (over 2.5) | NFL CIN@WSH 5:15 PM PT | market: recyds
+53 | Jayden Daniels under 0.5 interceptions | NFL CIN@WSH 5:15 PM PT | market: int
+54 | Chase Brown under 4.5 receptions | NFL CIN@WSH 5:15 PM PT | market: rec
+55 | Joe Burrow under 325 passing yards | NFL CIN@WSH 5:15 PM PT | market: pass
+56 | Chase Brown under 6 receptions | NFL CIN@WSH 5:15 PM PT | market: rec
+57 | Chase Brown under 4 receptions | NFL CIN@WSH 5:15 PM PT | market: rec
+58 | Ty Jerome 23+ points (over 22.5) | NBA MEM@CHA 4:00 PM PT | market: pts
+59 | Jakob Poeltl 8+ rebounds (over 7.5) | NBA MIL@TOR 4:30 PM PT | market: reb
+60 | Tyler Herro 4+ assists (over 3.5) | NBA MIL@TOR 4:30 PM PT | market: ast
+61 | Jaylen Brown under 20.5 points | NBA POR@PHI 4:00 PM PT | market: pts
+62 | Cam Spencer 6+ assists (over 5.5) | NBA MEM@CHA 4:00 PM PT | market: ast
+63 | Ty Jerome 20+ points | NBA MEM@CHA 4:00 PM PT | market: pts
+64 | Ty Jerome 15+ points | NBA MEM@CHA 4:00 PM PT | market: pts
+65 | Jakob Poeltl 6+ rebounds | NBA MIL@TOR 4:30 PM PT | market: reb
+66 | Tyler Herro 2+ assists | NBA MIL@TOR 4:30 PM PT | market: ast
+67 | Jaylen Brown under 25 points | NBA POR@PHI 4:00 PM PT | market: pts
+68 | Jaylen Brown under 20 points | NBA POR@PHI 4:00 PM PT | market: pts
+69 | Cam Spencer 4+ assists | NBA MEM@CHA 4:00 PM PT | market: ast
+70 | Providence ML v VCU | CBB VCU@PROV 6:00 PM PT | market: ml
+71 | Commanders +14 v Bengals | NFL CIN@WSH 5:15 PM PT | market: spread
+72 | Bengals v Commanders over 45 total points | NFL CIN@WSH 5:15 PM PT | market: total
+73 | Josh Giddey 8+ assists | NBA CLE@CHI 5:00 PM PT | market: ast
+74 | Josh Giddey 10+ assists | NBA CLE@CHI 5:00 PM PT | market: ast
+75 | Moussa Diabate under 10 points | NBA MEM@CHA 4:00 PM PT | market: pts
+76 | Coby White under 6 assists | NBA MEM@CHA 4:00 PM PT | market: ast
+77 | Coby White under 4 assists | NBA MEM@CHA 4:00 PM PT | market: ast
+78 | Brayden Burries 10+ points | NBA MIL@TOR 4:30 PM PT | market: pts
