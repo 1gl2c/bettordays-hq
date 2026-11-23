@@ -18,7 +18,7 @@ for l in L:
     r = dict(leg_key=l['key'], slate_date=l['date'], source=l['src'], sport=l.get('sport'), event=l.get('event'), game_time_text=l.get('t'),
              game_start=f.get('game_start') or c.get('start'), pick_text=l['pick'], player=f.get('player') or l.get('player'), espn_id=f.get('espn_id'),
              team=f.get('team'), opponent=f.get('opponent'), home_away=f.get('home_away'), market=l.get('market'), stat=f.get('stat') or l.get('stat'),
-             direction=l.get('dir'), line=l.get('line'), capture_mode='backfill',
+             direction=l.get('dir'), line=l.get('line'), capture_mode='live' if l['date'] >= '2026-11-23' else 'backfill',   # from Nov 23 the board is frozen as posted (ledger/freeze.py)
              kalshi_ticker=l.get('ticker') or c.get('ticker'), kalshi_pick=l.get('k_pick'), kalshi_pick_ts=l.get('k_pick_ts'), kalshi_pick_kind=l.get('k_pick_kind'),
              books_pick=l.get('bk'),
              grade_published=l.get('grade'), grade_median=l.get('med'), grade_system=l.get('sys') if l['src'] == 'model_v7_legs' else (l.get('grade') if (l.get('grade_version') or '').startswith(SYS_VERSIONS) else None),
