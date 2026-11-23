@@ -17,5 +17,9 @@
  "KXNFL1HSPREAD": "Pro Football 1st Half Spread",
  "KXNFLTOTAL": "Pro Football Total Points",
  "KXNFLTEAMTOTAL": "Pro Football Team Total Points",
- "KXNFLLONGRSH": "Longest Rush"
+ "KXNFLLONGRSH": "Longest Rush",
+ "KXNFLPASSTDS": "Pro Football player Passing Touchdowns",
+ "KXNCAAMBGAME": "Men's College Basketball Game",
+ "KXNFLPASSYDS": "Pro Football Passing Yards",
+ "KXNBAPRA": "NBA Player Points + Rebounds + Assists"
 }
