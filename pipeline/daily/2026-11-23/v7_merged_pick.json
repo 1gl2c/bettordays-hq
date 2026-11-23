@@ -1,0 +1,4609 @@
+{
+ "date": "2026-11-23",
+ "engine": "v8",
+ "models": {
+  "chatgpt": "78 of 78 legs graded",
+  "gemini": "78 of 78 legs graded",
+  "grok": "78 of 78 legs graded",
+  "claude": "78 of 78 legs graded"
+ },
+ "legs": [
+  {
+   "i": 1,
+   "p": "Tee Higgins 50+ receiving yards",
+   "player": "Tee Higgins",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 74.1,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov23cinwas",
+   "ticker": "KXNFLRECYDS-26NOV23CINWAS-CINTHIGGINS5-50",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 73.0,
+   "b2b": false,
+   "sys": 71,
+   "n": "Hit 7 of 9 this season, 3 of 5 last 5 (avg 91.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 77,
+    "gemini": 78,
+    "grok": 78,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "Higgins cleared 50 yards in 7/9 and Washington allows 244.8 pass yards per game",
+    "gemini": "Averaging 91.6 YPG against a Washington defense allowing 244.8 pass YPG",
+    "grok": "Chase volume high but Higgins 91 YPG solid matchup",
+    "claude": "Knee FP all week; only 32 yds last 2 games while Chase boomed; inactives 6:45 ET"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 77,
+   "blend": 77,
+   "cap": null,
+   "tier": "Y",
+   "pub": 77,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 2,
+   "p": "Mike Gesicki 25+ receiving yards",
+   "player": "Mike Gesicki",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 50.0,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov23cinwas",
+   "ticker": "KXNFLRECYDS-26NOV23CINWAS-CINMGESICKI88-25",
+   "bk_exact": true,
+   "stat": "recyds",
+   "k": 51.5,
+   "b2b": false,
+   "sys": 44,
+   "n": "Hit 4 of 9 this season, 1 of 5 last 5 (avg 29.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 43,
+    "gemini": 58,
+    "grok": 62,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Gesicki cleared 25 in 4/9 and ran a route on about half of dropbacks",
+    "gemini": "Averaging 29.0 YPG with 2.2 catches per game so one big grab clears it",
+    "grok": "29 YPG low volume but Commanders soft vs TE",
+    "claude": "19 rec in 9 games; one catch last week; TD-dependent profile"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 45,
+   "blend": 45,
+   "cap": null,
+   "tier": "G",
+   "pub": 45,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 3,
+   "p": "Jayden Daniels 25+ rushing yards",
+   "player": "Jayden Daniels",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 82.7,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov23cinwas",
+   "ticker": "KXNFLRSHYDS-26NOV23CINWAS-WASJDANIELS5-25",
+   "bk_exact": false,
+   "stat": "rush",
+   "k": 75.5,
+   "b2b": false,
+   "sys": 56,
+   "n": "Hit 4 of 7 this season, 2 of 5 last 5 (avg 40.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 64,
+    "gemini": 74,
+    "grok": 58,
+    "claude": 64
+   },
+   "why": {
+    "chatgpt": "Daniels cleared 25 in 4/7 starts with misses of 23 and 16 and 10 yards",
+    "gemini": "Averaging 6.7 YPC with 280 rushing yards and faces a trailing script",
+    "grok": "recent rush down but 35+ avg and scramble threat",
+    "claude": "280 rush yds in 7 games; likely trailing so scramble chances"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 64,
+   "blend": 64,
+   "cap": null,
+   "tier": "G",
+   "pub": 64,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 4,
+   "p": "Stefon Diggs 50+ receiving yards",
+   "player": "Stefon Diggs",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 55.4,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov23cinwas",
+   "ticker": "KXNFLRECYDS-26NOV23CINWAS-WASSDIGGS3-50",
+   "bk_exact": true,
+   "stat": "recyds",
+   "k": 50.5,
+   "b2b": false,
+   "sys": 45,
+   "n": "Hit 3 of 8 this season, 2 of 5 last 5 (avg 48.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 51,
+    "gemini": 62,
+    "grok": 52,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Diggs reached 50 in 3/8 but had 51 and 83 in his last two",
+    "gemini": "McLaurin out boosts volume and projects near 55 receiving yards",
+    "grok": "48 YPG near line recent 83 boost",
+    "claude": "386 yds in about 8 games; big game last week but volume shaky"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 51,
+   "blend": 51,
+   "cap": null,
+   "tier": "Y",
+   "pub": 51,
+   "eng": "v8",
+   "spread": 17,
+   "solo": false
+  },
+  {
+   "i": 5,
+   "p": "Joe Burrow 2+ passing touchdowns (over 1.5)",
+   "player": "Joe Burrow",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 77.7,
+   "ku": "https://kalshi.com/markets/kxnflpasstds/pro-football-player-passing-touchdowns/kxnflpasstds-26nov23cinwas",
+   "ticker": "KXNFLPASSTDS-26NOV23CINWAS-CINJBURROW9-2",
+   "bk_exact": false,
+   "stat": "atd",
+   "k": 81.5,
+   "b2b": false,
+   "sys": 81,
+   "n": "Hit 7 of 9 this season, 5 of 5 last 5 (avg 3.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 78,
+    "gemini": 76,
+    "grok": 88,
+    "claude": 80
+   },
+   "why": {
+    "chatgpt": "Burrow threw multiple TDs in 7/9 and at least three in five straight",
+    "gemini": "27 passing TDs in 9 games and shreds the blitz at 73.4 percent",
+    "grok": "3.0 TD/G last 5 all multi-TD high efficiency",
+    "claude": "27 TD in 9 games; three straight 4+ TD games earlier; WSH D 20th in points allowed"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 80,
+   "blend": 80,
+   "cap": null,
+   "tier": "G",
+   "pub": 80,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 6,
+   "p": "Joe Burrow 3+ passing touchdowns (over 2.5)",
+   "player": "Joe Burrow",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 54.2,
+   "ku": "https://kalshi.com/markets/kxnflpasstds/pro-football-player-passing-touchdowns/kxnflpasstds-26nov23cinwas",
+   "ticker": "KXNFLPASSTDS-26NOV23CINWAS-CINJBURROW9-3",
+   "bk_exact": true,
+   "stat": "atd",
+   "k": 54.5,
+   "b2b": false,
+   "sys": 73,
+   "n": "Hit 6 of 9 this season, 5 of 5 last 5 (avg 3.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 50,
+    "gemini": 50,
+    "grok": 64,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Burrow cleared in 6/9 but three scores still need strong red-zone conversion",
+    "gemini": "Averaging 3.0 pass TDs per game but road prime time variance keeps it coin flip",
+    "grok": "3.0 TD/G but Commanders can limit volume",
+    "claude": "3.0 TD per game pace; misses when Bengals lean on run with a lead"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "Y",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 14,
+   "solo": false
+  },
+  {
+   "i": 7,
+   "p": "Lakers ML v Jazz",
+   "player": "Lakers",
+   "g": "UTAH@LAL",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov23utalal",
+   "ticker": "KXNBAGAME-26NOV23UTALAL-LAL",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 86.5,
+   "b2b": false,
+   "sys": 87,
+   "n": "Book line LAL -13.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 84,
+    "gemini": 72,
+    "grok": 72,
+    "claude": 87
+   },
+   "why": {
+    "chatgpt": "The 14-3 Lakers face a depleted 3-15 Utah team traveling after playing Sunday",
+    "gemini": "Home court at Crypto.com Arena with Luka Doncic and Walker Kessler edge",
+    "grok": "Lakers form strong Reaves out but Kessler Luka dominate",
+    "claude": "Jazz missing Markkanen JJJ and Nurkic; Reaves out for LAL"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 84,
+   "blend": 84,
+   "cap": null,
+   "tier": "G",
+   "pub": 84,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 8,
+   "p": "Luka Doncic 30+ points",
+   "player": "Luka Doncic",
+   "g": "UTAH@LAL",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 69.9,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23utalal",
+   "ticker": "KXNBAPTS-26NOV23UTALAL-LALLDONCIC77-30",
+   "bk_exact": false,
+   "stat": "pts",
+   "k": 72.5,
+   "b2b": false,
+   "sys": 69,
+   "n": "Hit 11 of 15 this season, 3 of 5 last 5 (avg 37.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 76,
+    "gemini": 60,
+    "grok": 82,
+    "claude": 70
+   },
+   "why": {
+    "chatgpt": "11/15 season and 8/10 recent. Doncic scored 52 and 29 in two Utah meetings and Reaves is out",
+    "gemini": "High usage home spot against Utah defense with blowout risk in Q4",
+    "grok": "37 PPG volume easy 30+ even bad nights",
+    "claude": "About 38 PPG; Reaves out boosts usage; blowout sit risk is main miss"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 70,
+   "blend": 70,
+   "cap": null,
+   "tier": "G",
+   "pub": 70,
+   "eng": "v8",
+   "spread": 22,
+   "solo": false
+  },
+  {
+   "i": 9,
+   "p": "Santa Clara ML v Illinois State",
+   "player": "Santa Clara",
+   "g": "ILST@SCU",
+   "t": "4:00",
+   "sp": "CBB",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov23ilstscu",
+   "ticker": "KXNCAAMBGAME-26NOV23ILSTSCU-SCU",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 59.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Book line SCU -3.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 64,
+    "gemini": 64,
+    "grok": 58,
+    "claude": 68
+   },
+   "why": {
+    "chatgpt": "Santa Clara rates about 6.5 points better per 100 possessions but ISU shoots 64.4 percent on twos",
+    "gemini": "Stronger overall roster depth against Illinois State in Pittsburgh",
+    "grok": "Santa Clara slight edge pace and home",
+    "claude": "Santa Clara was an NCAA team last year with elite D; neutral-site details unclear"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 64,
+   "blend": 64,
+   "cap": null,
+   "tier": "Y",
+   "pub": 64,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 10,
+   "p": "LaMelo Ball 20+ points",
+   "player": "LaMelo Ball",
+   "g": "BKN@MIN",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 46.9,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23bknmin",
+   "ticker": "KXNBAPTS-26NOV23BKNMIN-MINLBALL1-20",
+   "bk_exact": true,
+   "stat": "pts",
+   "k": 43.5,
+   "b2b": false,
+   "sys": 36,
+   "n": "Hit 7 of 17 this season, 0 of 5 last 5 (avg 17.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 48,
+    "gemini": 44,
+    "grok": 42,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "7/17 season and 5/10 recent. Edwards is out against a weak Nets defense but Ball missed 20 in five straight",
+    "gemini": "Averaging 17.2 PPG in Minnesota offense alongside Ayo Dosunmu",
+    "grok": "17 PPG variable efficiency recent cold",
+    "claude": "Edwards OUT; LaMelo about 18.5 PPG season so usage bump needed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "LaMelo Ball averages 17.2 PPG in Minnesota alongside Dosunmu leaving 20+ short"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 44,
+   "blend": 44,
+   "cap": null,
+   "tier": "Y",
+   "pub": 44,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 11,
+   "p": "LaMelo Ball 15+ points",
+   "player": "LaMelo Ball",
+   "g": "BKN@MIN",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 74.9,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23bknmin",
+   "ticker": "KXNBAPTS-26NOV23BKNMIN-MINLBALL1-15",
+   "bk_exact": false,
+   "stat": "pts",
+   "k": 72.5,
+   "b2b": false,
+   "sys": 64,
+   "n": "Hit 11 of 17 this season, 3 of 5 last 5 (avg 17.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 73,
+    "gemini": 66,
+    "grok": 62,
+    "claude": 80
+   },
+   "why": {
+    "chatgpt": "11/17 season and 8/10 recent. Ball gets more scoring chances with Edwards out and three of his last five reached 15",
+    "gemini": "17.2 PPG baseline in a soft home matchup against Brooklyn",
+    "grok": "15+ near average usage up without Edwards",
+    "claude": "Edwards OUT; strong floor at 15"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 66,
+   "blend": 66,
+   "cap": null,
+   "tier": "G",
+   "pub": 66,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 12,
+   "p": "Donovan Mitchell 4+ assists",
+   "player": "Donovan Mitchell",
+   "g": "CLE@CHI",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 75.2,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23clechi",
+   "ticker": "KXNBAAST-26NOV23CLECHI-CLEDMITCHELL45-4",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 73.5,
+   "b2b": false,
+   "sys": 66,
+   "n": "Hit 11 of 16 this season, 3 of 5 last 5 (avg 5.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 73,
+    "gemini": 68,
+    "grok": 55,
+    "claude": 65
+   },
+   "why": {
+    "chatgpt": "11/16 season and 8/10 recent. Chicago plays fast but Harden shares creation and Mitchell had three assists in each of his last two",
+    "gemini": "High usage against Chicago pace keeps assist floor steady",
+    "grok": "assist volume moderate matchup dependent",
+    "claude": "Shares ball with Harden; Mobley out; Bulls bottom defense"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 66,
+   "blend": 66,
+   "cap": null,
+   "tier": "G",
+   "pub": 66,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 13,
+   "p": "Walker Kessler 10+ rebounds",
+   "player": "Walker Kessler",
+   "g": "UTAH@LAL",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 65.3,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov23utalal",
+   "ticker": "KXNBAREB-26NOV23UTALAL-LALWKESSLER14-10",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 61.0,
+   "b2b": false,
+   "sys": 64,
+   "n": "Hit 9 of 16 this season, 4 of 5 last 5 (avg 10.7).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 65,
+    "gemini": 62,
+    "grok": 58,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "9/16 season and 8/10 recent. Kessler grabbed 11 and seven in the two Utah meetings and Utah is short on centers",
+    "gemini": "Revenge game against Utah with strong rebounding rate in starting minutes",
+    "grok": "10.7 RPG Jazz weak rebounding board presence",
+    "claude": "10.9 RPG; Utah frontcourt gutted; blowout minutes risk"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 62,
+   "blend": 62,
+   "cap": null,
+   "tier": "Y",
+   "pub": 62,
+   "eng": "v8",
+   "spread": 7,
+   "solo": false
+  },
+  {
+   "i": 14,
+   "p": "Keyonte George 6+ assists",
+   "player": "Keyonte George",
+   "g": "UTAH@LAL",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 74.7,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23utalal",
+   "ticker": "KXNBAAST-26NOV23UTALAL-UTAKGEORGE3-6",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 72.5,
+   "b2b": false,
+   "sys": 79,
+   "n": "Hit 13 of 17 this season, 5 of 5 last 5 (avg 7.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 78,
+    "gemini": 52,
+    "grok": 62,
+    "claude": 52
+   },
+   "why": {
+    "chatgpt": "13/17 season and 10/10 recent. George recorded 10 assists in both Lakers meetings but Utah played Sunday",
+    "gemini": "Solid playmaking volume but Lakers home defense and blowout risk cap upside",
+    "grok": "7.1 APG high usage Lakers defense soft on assists",
+    "claude": "6.5 APG; Markkanen and JJJ out means more on ball but weaker finishers"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 62,
+   "blend": 62,
+   "cap": null,
+   "tier": "G",
+   "pub": 62,
+   "eng": "v8",
+   "spread": 26,
+   "solo": false
+  },
+  {
+   "i": 15,
+   "p": "Keyonte George 4+ assists",
+   "player": "Keyonte George",
+   "g": "UTAH@LAL",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 93.7,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23utalal",
+   "ticker": "KXNBAAST-26NOV23UTALAL-UTAKGEORGE3-4",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 92.0,
+   "b2b": false,
+   "sys": 87,
+   "n": "Hit 15 of 17 this season, 5 of 5 last 5 (avg 7.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 92,
+    "gemini": 74,
+    "grok": 82,
+    "claude": 83
+   },
+   "why": {
+    "chatgpt": "15/17 season and 10/10 recent. George had at least six in every one of his last 10 and four allows a two-assist cushion",
+    "gemini": "Primary ballhandler minutes give a reliable 4 assist floor",
+    "grok": "4+ very safe high assist rate",
+    "claude": "4+ well under his 6.5 average"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 83,
+   "blend": 83,
+   "cap": null,
+   "tier": "G",
+   "pub": 83,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 16,
+   "p": "Ivica Zubac 8+ rebounds",
+   "player": "Ivica Zubac",
+   "g": "OKC@IND",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 64.6,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov23okcind",
+   "ticker": "KXNBAREB-26NOV23OKCIND-INDIZUBAC40-8",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 66.0,
+   "b2b": false,
+   "sys": 60,
+   "n": "Hit 7 of 12 this season, 3 of 5 last 5 (avg 8.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 64,
+    "gemini": 65,
+    "grok": 55,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "7/12 season and 5/10 recent. Zubac grabbed 14 Sunday but has five games with five or fewer boards",
+    "gemini": "High rebounding rate against OKC though perimeter spacing can pull him out",
+    "grok": "8+ near average Pacers matchup",
+    "claude": "8.3 RPG; OKC without Holmgren; Hartenstein boards hard"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 60,
+   "blend": 60,
+   "cap": null,
+   "tier": "G",
+   "pub": 60,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 17,
+   "p": "Ivica Zubac 6+ rebounds",
+   "player": "Ivica Zubac",
+   "g": "OKC@IND",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 87.8,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov23okcind",
+   "ticker": "KXNBAREB-26NOV23OKCIND-INDIZUBAC40-6",
+   "bk_exact": false,
+   "stat": "reb",
+   "k": 83.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 7 of 12 this season, 3 of 5 last 5 (avg 8.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 77,
+    "gemini": 82,
+    "grok": 72,
+    "claude": 78
+   },
+   "why": {
+    "chatgpt": "7/12 season and 5/10 recent. OKC lacks Holmgren and both teams played Sunday so late minutes matter",
+    "gemini": "Strong floor in starting minutes even with OKC five out looks",
+    "grok": "6+ safe volume minutes",
+    "claude": "Solid floor vs thin OKC frontcourt"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 77,
+   "blend": 77,
+   "cap": null,
+   "tier": "G",
+   "pub": 77,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 18,
+   "p": "Mike Gesicki anytime touchdown",
+   "player": "Mike Gesicki",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov23cinwas",
+   "ticker": "KXNFLTD-26NOV23CINWAS-CINMGESICKI88-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 30.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 6 of 9 this season, 3 of 5 last 5 (avg 0.7).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 35,
+    "gemini": 36,
+    "grok": 28,
+    "claude": 30
+   },
+   "why": {
+    "chatgpt": "Gesicki scored in 6/9 but has only six red-zone targets all season",
+    "gemini": "6 TDs in 9 games gives real red zone equity despite low yardage floor",
+    "grok": "6 TD season but low targets TD dependent",
+    "claude": "6 TD on 19 catches is unsustainable; one catch last week"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 35,
+   "blend": 35,
+   "cap": null,
+   "tier": "Y",
+   "pub": 35,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 19,
+   "p": "Antonio Williams anytime touchdown",
+   "player": "Antonio Williams",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov23cinwas",
+   "ticker": "KXNFLTD-26NOV23CINWAS-WASAWILLIAMS14-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 23.5,
+   "b2b": false,
+   "sys": 30,
+   "n": "Hit 2 of 9 this season, 1 of 5 last 5 (avg 0.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 21,
+    "gemini": 24,
+    "grok": 18,
+    "claude": 17
+   },
+   "why": {
+    "chatgpt": "Williams scored in 2/9 and has only two red-zone targets despite playing 86 percent of snaps last game",
+    "gemini": "28 catches for 326 yards and elevated snaps with McLaurin sidelined",
+    "grok": "low snap share TD lottery",
+    "claude": "Scored last week on 2 targets; low volume"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "grok": "low",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Williams plays starter snaps but has only two red-zone targets"
+    ],
+    [
+     "grok",
+     "depth TD lottery"
+    ],
+    [
+     "claude",
+     "Rookie WR2 seeing about 2 targets a game"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 21,
+   "blend": 21,
+   "cap": null,
+   "tier": "G",
+   "pub": 21,
+   "eng": "v8",
+   "spread": 7,
+   "solo": false
+  },
+  {
+   "i": 20,
+   "p": "Ja'Marr Chase anytime touchdown",
+   "player": "Ja'Marr Chase",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov23cinwas",
+   "ticker": "KXNFLTD-26NOV23CINWAS-CINJCHASE1-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 56.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 6 of 9 this season, 4 of 5 last 5 (avg 0.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 57,
+    "gemini": 56,
+    "grok": 55,
+    "claude": 58
+   },
+   "why": {
+    "chatgpt": "Chase scored in 6/9 and leads Cincinnati receivers with 14 red-zone targets",
+    "gemini": "7 TDs in 9 games and elite red zone share in a 30.9 PPG offense",
+    "grok": "7 TD high targets red zone role",
+    "claude": "Scored in 6 of 9 games; red-zone focal point"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 57,
+   "blend": 57,
+   "cap": null,
+   "tier": "Y",
+   "pub": 57,
+   "eng": "v8",
+   "spread": 3,
+   "solo": false
+  },
+  {
+   "i": 21,
+   "p": "Joe Burrow 275+ passing yards",
+   "player": "Joe Burrow",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 69.4,
+   "ku": "https://kalshi.com/markets/kxnflpassyds/pro-football-passing-yards/kxnflpassyds-26nov23cinwas",
+   "ticker": "KXNFLPASSYDS-26NOV23CINWAS-CINJBURROW9-275",
+   "bk_exact": false,
+   "stat": "pass",
+   "k": 66.5,
+   "b2b": false,
+   "sys": 59,
+   "n": "Hit 5 of 9 this season, 3 of 5 last 5 (avg 310.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 59,
+    "gemini": 64,
+    "grok": 75,
+    "claude": 60
+   },
+   "why": {
+    "chatgpt": "Burrow cleared 275 in 4/9 with one miss at 271 against a season average of 311",
+    "gemini": "Averaging 310.6 pass YPG against a blitz heavy Washington secondary",
+    "grok": "310 YPG Commanders secondary average volume high",
+    "claude": "About 310 YPG; misses come in run-heavy blowouts"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 60,
+   "blend": 60,
+   "cap": null,
+   "tier": "G",
+   "pub": 60,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 22,
+   "p": "Ja'Marr Chase 90+ receiving yards",
+   "player": "Ja'Marr Chase",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 57.8,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov23cinwas",
+   "ticker": "KXNFLRECYDS-26NOV23CINWAS-CINJCHASE1-90",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 56.5,
+   "b2b": false,
+   "sys": 53,
+   "n": "Hit 4 of 9 this season, 3 of 5 last 5 (avg 97.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 51,
+    "gemini": 58,
+    "grok": 62,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Chase cleared 90 in 4/9 including three straight at 141 or more",
+    "gemini": "Averaging 97.6 YPG and 110.5 YPG in prime time games",
+    "grok": "97 YPG recent 140+ streak",
+    "claude": "141 155 231 last 3; but early-season lows of 12 and 27"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "G",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 23,
+   "p": "Stefon Diggs 4+ receptions",
+   "player": "Stefon Diggs",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 73.0,
+   "ku": "https://kalshi.com/markets/kxnflrec/pro-football-player-receptions/kxnflrec-26nov23cinwas",
+   "ticker": "KXNFLREC-26NOV23CINWAS-WASSDIGGS3-4",
+   "bk_exact": false,
+   "stat": "rec",
+   "k": 68.5,
+   "b2b": false,
+   "sys": 69,
+   "n": "Hit 6 of 8 this season, 3 of 5 last 5 (avg 4.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 70,
+    "gemini": 66,
+    "grok": 62,
+    "claude": 60
+   },
+   "why": {
+    "chatgpt": "Diggs caught four in 6/8 games played but finished with three twice in his last three",
+    "gemini": "36 catches on the year and clear top target with McLaurin out",
+    "grok": "4.5 rec avg McLaurin out boosts targets",
+    "claude": "About 4.5 rec per game; Daniels targets him short"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 66,
+   "blend": 66,
+   "cap": null,
+   "tier": "G",
+   "pub": 66,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 24,
+   "p": "Chase Brown 3+ receptions",
+   "player": "Chase Brown",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 82.1,
+   "ku": "https://kalshi.com/markets/kxnflrec/pro-football-player-receptions/kxnflrec-26nov23cinwas",
+   "ticker": "KXNFLREC-26NOV23CINWAS-CINCBROWN30-3",
+   "bk_exact": false,
+   "stat": "rec",
+   "k": 78.5,
+   "b2b": false,
+   "sys": 85,
+   "n": "Hit 8 of 9 this season, 5 of 5 last 5 (avg 5.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 79,
+    "gemini": 78,
+    "grok": 85,
+    "claude": 72
+   },
+   "why": {
+    "chatgpt": "Brown reached three in 8/9 and played 73 percent of offensive snaps last game",
+    "gemini": "47 receptions in 9 games averaging 5.2 catches per game",
+    "grok": "high target share often 5+ catches",
+    "claude": "About 4.8 rec per game; 8 catches last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 79,
+   "blend": 79,
+   "cap": null,
+   "tier": "Y",
+   "pub": 79,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 25,
+   "p": "Jayden Daniels 3+ rushing yards",
+   "player": "Jayden Daniels",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 98.2,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": false,
+   "stat": "rush",
+   "k": null,
+   "b2b": false,
+   "sys": 85,
+   "n": "Hit 7 of 7 this season, 5 of 5 last 5 (avg 40.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 96,
+    "gemini": 93,
+    "grok": 92,
+    "claude": 93
+   },
+   "why": {
+    "chatgpt": "All seven appearances produced 10 or more rush yards and Daniels practiced fully",
+    "gemini": "Mobile QB averaging 6.7 YPC only needs one scramble to clear",
+    "grok": "3+ nearly automatic scramble/design runs",
+    "claude": "Only fails on injury or kneel-heavy script"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 88,
+   "blend": 93,
+   "cap": 88,
+   "tier": "N",
+   "pub": 75,
+   "eng": "v8",
+   "spread": 4,
+   "solo": false
+  },
+  {
+   "i": 26,
+   "p": "Ja'Marr Chase 2+ touchdowns",
+   "player": "Ja'Marr Chase",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov23cinwas",
+   "ticker": "KXNFLTD-26NOV23CINWAS-CINJCHASE1-2",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 19.5,
+   "b2b": false,
+   "sys": 20,
+   "n": "Hit 1 of 9 this season, 0 of 5 last 5 (avg 0.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 16,
+    "gemini": 18,
+    "grok": 15,
+    "claude": 15
+   },
+   "why": {
+    "chatgpt": "Chase scored twice in only 1/9 despite leading the team in red-zone targets",
+    "gemini": "High ceiling in prime time but multi TD games carry steep variance",
+    "grok": "2+ TD rare even for Chase",
+    "claude": "Multi-TD games are rare even for Chase"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "A second Chase touchdown needs two scoring plays to go to the same receiver"
+    ],
+    [
+     "grok",
+     "rare multi-TD even for primary"
+    ],
+    [
+     "claude",
+     "Chase multi-TD games are rare and Burrow spreads TDs to Higgins and the TEs"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 16,
+   "blend": 16,
+   "cap": null,
+   "tier": "G",
+   "pub": 16,
+   "eng": "v8",
+   "spread": 3,
+   "solo": false
+  },
+  {
+   "i": 27,
+   "p": "Ja'Marr Chase 9+ receptions",
+   "player": "Ja'Marr Chase",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 45.9,
+   "ku": "https://kalshi.com/markets/kxnflrec/pro-football-player-receptions/kxnflrec-26nov23cinwas",
+   "ticker": "KXNFLREC-26NOV23CINWAS-CINJCHASE1-9",
+   "bk_exact": true,
+   "stat": "rec",
+   "k": 43.5,
+   "b2b": false,
+   "sys": 50,
+   "n": "Hit 4 of 9 this season, 3 of 5 last 5 (avg 7.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 41,
+    "gemini": 32,
+    "grok": 45,
+    "claude": 40
+   },
+   "why": {
+    "chatgpt": "Chase reached nine catches in 4/9 but had 10 or more in each of his last three",
+    "gemini": "Averaging 7.1 receptions per game so 9 requires heavy target concentration",
+    "grok": "7.1 rec avg 9+ requires volume spike",
+    "claude": "11 11 10 rec last 3 but 2 to 7 earlier"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Ja'Marr Chase averages 7.1 catches so 9+ requires extreme target concentration"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 41,
+   "blend": 41,
+   "cap": null,
+   "tier": "G",
+   "pub": 41,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 28,
+   "p": "Ja'Marr Chase 150+ receiving yards",
+   "player": "Ja'Marr Chase",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 20.2,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov23cinwas",
+   "ticker": "KXNFLRECYDS-26NOV23CINWAS-CINJCHASE1-150",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 17.5,
+   "b2b": false,
+   "sys": 35,
+   "n": "Hit 2 of 9 this season, 2 of 5 last 5 (avg 97.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 19,
+    "gemini": 16,
+    "grok": 25,
+    "claude": 17
+   },
+   "why": {
+    "chatgpt": "Chase reached 150 in 2/9 with another at 141 and five games below 90",
+    "gemini": "Explosive ceiling against blitz but 150 yards is a tail outcome",
+    "grok": "150+ needs another explosion game",
+    "claude": "Needs a ceiling game two weeks in a row"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Chase can have an excellent game and finish below 150 as he did with 141 against Tennessee"
+    ],
+    [
+     "grok",
+     "needs explosion not sustainable"
+    ],
+    [
+     "claude",
+     "Back-to-back 150+ games almost never happen"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 19,
+   "blend": 19,
+   "cap": null,
+   "tier": "Y",
+   "pub": 19,
+   "eng": "v8",
+   "spread": 9,
+   "solo": false
+  },
+  {
+   "i": 29,
+   "p": "Jeremiah Fears 25+ points + rebounds + assists",
+   "player": "Jeremiah Fears",
+   "g": "PHX@NO",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 70.9,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov23phxnop",
+   "ticker": "KXNBAPRA-26NOV23PHXNOP-NOPJFEARS0-25",
+   "bk_exact": false,
+   "stat": "pra",
+   "k": 66.5,
+   "b2b": false,
+   "sys": 63,
+   "n": "Hit 10 of 18 this season, 4 of 5 last 5 (avg 26.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 57,
+    "gemini": 68,
+    "grok": 48,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "10/18 season and 7/10 recent. Murray is out but Murphy is available and Williamson probable after both missed the 38-PRA game",
+    "gemini": "Cleared 25 PRA in 8 of last 10 including 38 PRA last game vs Spurs",
+    "grok": "PRA 25+ role dependent minutes",
+    "claude": "15.4/4.5/4.9 equals about 25; Murray out adds usage"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "low",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 57,
+   "blend": 57,
+   "cap": null,
+   "tier": "G",
+   "pub": 57,
+   "eng": "v8",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 30,
+   "p": "VJ Edgecombe 10+ points",
+   "player": "VJ Edgecombe",
+   "g": "POR@PHI",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 80.3,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23porphi",
+   "ticker": "KXNBAPTS-26NOV23PORPHI-PHIVEDGECOMBE77-10",
+   "bk_exact": false,
+   "stat": "pts",
+   "k": 74.0,
+   "b2b": false,
+   "sys": 82,
+   "n": "Hit 13 of 16 this season, 5 of 5 last 5 (avg 13.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 86,
+    "gemini": 72,
+    "grok": 65,
+    "claude": 78
+   },
+   "why": {
+    "chatgpt": "13/16 season and 9/10 recent. Edgecombe scored at least 11 in five straight and Embiid is out",
+    "gemini": "Averaging 13.6 PPG in 34.1 MPG with double digits in 5 straight games",
+    "grok": "10+ points realistic minutes",
+    "claude": "Starting wing role; Embiid Q could add shots"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 78,
+   "blend": 78,
+   "cap": null,
+   "tier": "Y",
+   "pub": 78,
+   "eng": "v8",
+   "spread": 21,
+   "solo": false
+  },
+  {
+   "i": 31,
+   "p": "Amen Thompson 20+ points + rebounds + assists",
+   "player": "Amen Thompson",
+   "g": "LAC@HOU",
+   "t": "5:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 81.8,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov23lachou",
+   "ticker": "KXNBAPRA-26NOV23LACHOU-HOUATHOMPSON1-20",
+   "bk_exact": false,
+   "stat": "pra",
+   "k": 77.5,
+   "b2b": false,
+   "sys": 88,
+   "n": "Hit 15 of 16 this season, 5 of 5 last 5 (avg 26.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 89,
+    "gemini": 64,
+    "grok": 55,
+    "claude": 80
+   },
+   "why": {
+    "chatgpt": "15/16 season and 9/10 recent. Thompson can clear with boards and assists on a quiet scoring night but landed exactly on 20 three times",
+    "gemini": "Strong multi category floor in home matchup against Clippers",
+    "grok": "20+ PRA 16/7/3 average",
+    "claude": "15.8/7.0/3.4 equals about 26 PRA"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 80,
+   "blend": 80,
+   "cap": null,
+   "tier": "Y",
+   "pub": 80,
+   "eng": "v8",
+   "spread": 34,
+   "solo": false
+  },
+  {
+   "i": 32,
+   "p": "Amen Thompson 4+ rebounds",
+   "player": "Amen Thompson",
+   "g": "LAC@HOU",
+   "t": "5:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 89.5,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov23lachou",
+   "ticker": "KXNBAREB-26NOV23LACHOU-HOUATHOMPSON1-4",
+   "bk_exact": false,
+   "stat": "reb",
+   "k": 87.0,
+   "b2b": false,
+   "sys": 83,
+   "n": "Hit 13 of 16 this season, 5 of 5 last 5 (avg 7.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 87,
+    "gemini": 78,
+    "grok": 78,
+    "claude": 90
+   },
+   "why": {
+    "chatgpt": "13/16 season and 8/10 recent. Thompson averaged 7.6 boards in his last five against the Clippers but has three games at three this season",
+    "gemini": "Elite rebounding rate for his position in steady rotation minutes",
+    "grok": "4+ rebounds safe 7.1 avg",
+    "claude": "7 RPG; elite rebounding wing"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 83,
+   "blend": 83,
+   "cap": null,
+   "tier": "G",
+   "pub": 83,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 33,
+   "p": "Amen Thompson 6+ rebounds",
+   "player": "Amen Thompson",
+   "g": "LAC@HOU",
+   "t": "5:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 62.5,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov23lachou",
+   "ticker": "KXNBAREB-26NOV23LACHOU-HOUATHOMPSON1-6",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 63.0,
+   "b2b": false,
+   "sys": 75,
+   "n": "Hit 11 of 16 this season, 5 of 5 last 5 (avg 7.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 73,
+    "gemini": 52,
+    "grok": 58,
+    "claude": 65
+   },
+   "why": {
+    "chatgpt": "11/16 season and 8/10 recent. Thompson has six or more in eight straight but Houston shares boards across its frontcourt",
+    "gemini": "Solid glass work but Clippers size creates moderate variance at 6+",
+    "grok": "6+ near average",
+    "claude": "Shares glass with Sengun and Smith"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 65,
+   "blend": 65,
+   "cap": null,
+   "tier": "Y",
+   "pub": 65,
+   "eng": "v8",
+   "spread": 21,
+   "solo": false
+  },
+  {
+   "i": 34,
+   "p": "Amen Thompson 10+ points",
+   "player": "Amen Thompson",
+   "g": "LAC@HOU",
+   "t": "5:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 87.6,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23lachou",
+   "ticker": "KXNBAPTS-26NOV23LACHOU-HOUATHOMPSON1-10",
+   "bk_exact": false,
+   "stat": "pts",
+   "k": 83.5,
+   "b2b": false,
+   "sys": 86,
+   "n": "Hit 14 of 16 this season, 5 of 5 last 5 (avg 16.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 88,
+    "gemini": 74,
+    "grok": 75,
+    "claude": 85
+   },
+   "why": {
+    "chatgpt": "14/16 season and 8/10 recent. Thompson missed twice with eight points each time and faces a bottom-six defense",
+    "gemini": "Consistent rim pressure and transition scoring give strong 10 point floor",
+    "grok": "10+ points easy volume",
+    "claude": "15.8 PPG with high FG%"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 85,
+   "blend": 85,
+   "cap": null,
+   "tier": "Y",
+   "pub": 85,
+   "eng": "v8",
+   "spread": 14,
+   "solo": false
+  },
+  {
+   "i": 35,
+   "p": "Amen Thompson 15+ points",
+   "player": "Amen Thompson",
+   "g": "LAC@HOU",
+   "t": "5:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 55.4,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23lachou",
+   "ticker": "KXNBAPTS-26NOV23LACHOU-HOUATHOMPSON1-15",
+   "bk_exact": true,
+   "stat": "pts",
+   "k": 54.5,
+   "b2b": false,
+   "sys": 70,
+   "n": "Hit 11 of 16 this season, 4 of 5 last 5 (avg 16.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 64,
+    "gemini": 42,
+    "grok": 52,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "11/16 season and 5/10 recent. Thompson cleared in five of his last 10 and Houston also runs shots through Durant and Sengun",
+    "gemini": "Limited perimeter shooting caps 15+ scoring consistency",
+    "grok": "15+ near average",
+    "claude": "Right at his average; KD and Sengun eat usage"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "Y",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 22,
+   "solo": false
+  },
+  {
+   "i": 36,
+   "p": "Isaiah Hartenstein 4+ assists",
+   "player": "Isaiah Hartenstein",
+   "g": "OKC@IND",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 56.3,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23okcind",
+   "ticker": "KXNBAAST-26NOV23OKCIND-OKCIHARTENSTEIN55-4",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 59.5,
+   "b2b": false,
+   "sys": 65,
+   "n": "Hit 10 of 17 this season, 4 of 5 last 5 (avg 3.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 68,
+    "gemini": 54,
+    "grok": 35,
+    "claude": 25
+   },
+   "why": {
+    "chatgpt": "10/17 season and 9/10 recent. Holmgren and Mara are out but a second game in two nights trims the minutes projection",
+    "gemini": "High post hub playmaking against Indiana pace gives live 4+ upside",
+    "grok": "4+ assists low for center",
+    "claude": "2.3 APG this season"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "center assist volume low"
+    ],
+    [
+     "claude",
+     "Hartenstein averages 2.3 assists so 4 needs a career-type night"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "G",
+   "pub": 54,
+   "eng": "v8",
+   "spread": 43,
+   "solo": false
+  },
+  {
+   "i": 37,
+   "p": "Isaiah Hartenstein 2+ assists",
+   "player": "Isaiah Hartenstein",
+   "g": "OKC@IND",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 90.7,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23okcind",
+   "ticker": "KXNBAAST-26NOV23OKCIND-OKCIHARTENSTEIN55-2",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 88.5,
+   "b2b": false,
+   "sys": 86,
+   "n": "Hit 15 of 17 this season, 5 of 5 last 5 (avg 3.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 90,
+    "gemini": 82,
+    "grok": 65,
+    "claude": 68
+   },
+   "why": {
+    "chatgpt": "15/17 season and 10/10 recent. Hartenstein has at least two assists in 10 straight and few healthy backups",
+    "gemini": "DHO and short roll passing make 2 assists a very high floor",
+    "grok": "2+ assists reasonable",
+    "claude": "Usually 2 to 3 dimes; low variance big"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 82,
+   "blend": 82,
+   "cap": null,
+   "tier": "G",
+   "pub": 82,
+   "eng": "v8",
+   "spread": 25,
+   "solo": false
+  },
+  {
+   "i": 38,
+   "p": "Quentin Grimes 2+ rebounds",
+   "player": "Quentin Grimes",
+   "g": "UTAH@LAL",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 93.0,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov23utalal",
+   "ticker": "KXNBAREB-26NOV23UTALAL-LALQGRIMES5-2",
+   "bk_exact": false,
+   "stat": "reb",
+   "k": 89.0,
+   "b2b": false,
+   "sys": 71,
+   "n": "Hit 10 of 15 this season, 4 of 5 last 5 (avg 3.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 83,
+    "gemini": 76,
+    "grok": 70,
+    "claude": 84
+   },
+   "why": {
+    "chatgpt": "10/15 season and 6/10 recent. Grimes has five or more rebounds in four straight games with Reaves sidelined",
+    "gemini": "Steady wing minutes give strong floor for 2 rebounds",
+    "grok": "2+ rebounds low bar minutes",
+    "claude": "2.8 RPG; Reaves out means more minutes"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 76,
+   "blend": 76,
+   "cap": null,
+   "tier": "G",
+   "pub": 76,
+   "eng": "v8",
+   "spread": 14,
+   "solo": false
+  },
+  {
+   "i": 39,
+   "p": "Quentin Grimes 2+ assists",
+   "player": "Quentin Grimes",
+   "g": "UTAH@LAL",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 86.6,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23utalal",
+   "ticker": "KXNBAAST-26NOV23UTALAL-LALQGRIMES5-2",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 84.0,
+   "b2b": false,
+   "sys": 70,
+   "n": "Hit 10 of 15 this season, 4 of 5 last 5 (avg 2.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 78,
+    "gemini": 58,
+    "grok": 55,
+    "claude": 78
+   },
+   "why": {
+    "chatgpt": "10/15 season and 7/10 recent. Grimes has more time on the ball without Reaves and had four assists last time against Utah",
+    "gemini": "Secondary ballhandling provides decent 2 assist floor",
+    "grok": "2+ assists role dependent",
+    "claude": "2.4 APG; more handling with Reaves out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 70,
+   "blend": 70,
+   "cap": null,
+   "tier": "G",
+   "pub": 70,
+   "eng": "v8",
+   "spread": 23,
+   "solo": false
+  },
+  {
+   "i": 40,
+   "p": "Quentin Grimes 4+ rebounds",
+   "player": "Quentin Grimes",
+   "g": "UTAH@LAL",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 60.9,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov23utalal",
+   "ticker": "KXNBAREB-26NOV23UTALAL-LALQGRIMES5-4",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 59.5,
+   "b2b": false,
+   "sys": 58,
+   "n": "Hit 7 of 15 this season, 4 of 5 last 5 (avg 3.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 66,
+    "gemini": 40,
+    "grok": 40,
+    "claude": 35
+   },
+   "why": {
+    "chatgpt": "7/15 season and 5/10 recent. Grimes had seven boards in 35 minutes against Utah after just one in 20 in their first meeting",
+    "gemini": "Needs extended minutes and long rebounds to reach 4 boards",
+    "grok": "4+ rebounds stretch",
+    "claude": "Above his rebounding norm"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "grok": "low",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 40,
+   "blend": 40,
+   "cap": null,
+   "tier": "G",
+   "pub": 40,
+   "eng": "v8",
+   "spread": 31,
+   "solo": false
+  },
+  {
+   "i": 41,
+   "p": "Quentin Grimes 4+ assists",
+   "player": "Quentin Grimes",
+   "g": "UTAH@LAL",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 46.7,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23utalal",
+   "ticker": "KXNBAAST-26NOV23UTALAL-LALQGRIMES5-4",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 44.5,
+   "b2b": false,
+   "sys": 52,
+   "n": "Hit 7 of 15 this season, 3 of 5 last 5 (avg 2.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 52,
+    "gemini": 24,
+    "grok": 30,
+    "claude": 35
+   },
+   "why": {
+    "chatgpt": "7/15 season and 4/10 recent. Grimes has cleared in three of his last five but Doncic still runs the offense",
+    "gemini": "Low assist rate behind Keyonte George makes 4 assists a stretch",
+    "grok": "4+ assists unlikely",
+    "claude": "Needs Reaves-out usage spike"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "grok",
+     "bench role limited assists"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 35,
+   "blend": 35,
+   "cap": null,
+   "tier": "G",
+   "pub": 35,
+   "eng": "v8",
+   "spread": 28,
+   "solo": false
+  },
+  {
+   "i": 42,
+   "p": "Devin Booker 6+ assists",
+   "player": "Devin Booker",
+   "g": "PHX@NO",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 55.9,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23phxnop",
+   "ticker": "KXNBAAST-26NOV23PHXNOP-PHXDBOOKER15-6",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 57.0,
+   "b2b": false,
+   "sys": 58,
+   "n": "Hit 7 of 15 this season, 4 of 5 last 5 (avg 5.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 50,
+    "gemini": 60,
+    "grok": 42,
+    "claude": 52
+   },
+   "why": {
+    "chatgpt": "7/15 season and 5/10 recent. Booker averages 5.3 assists and has ranged from two to eight this season",
+    "gemini": "High playmaking load against New Orleans defense",
+    "grok": "5.3 APG 6+ near average",
+    "claude": "Assumed 6ish APG next to Jalen Green; NOP D weak"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 52,
+   "blend": 52,
+   "cap": null,
+   "tier": "G",
+   "pub": 52,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 43,
+   "p": "Devin Booker 4+ assists",
+   "player": "Devin Booker",
+   "g": "PHX@NO",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 85.1,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23phxnop",
+   "ticker": "KXNBAAST-26NOV23PHXNOP-PHXDBOOKER15-4",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 85.0,
+   "b2b": false,
+   "sys": 73,
+   "n": "Hit 11 of 15 this season, 4 of 5 last 5 (avg 5.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 76,
+    "gemini": 80,
+    "grok": 72,
+    "claude": 80
+   },
+   "why": {
+    "chatgpt": "11/15 season and 7/10 recent. Booker cleared in four of his last five with three assists in the miss",
+    "gemini": "Safe 4 assist floor with heavy on ball usage",
+    "grok": "4+ assists safe",
+    "claude": "Low line for primary creator"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 76,
+   "blend": 76,
+   "cap": null,
+   "tier": "G",
+   "pub": 76,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 44,
+   "p": "Andrew Nembhard 1+ threes",
+   "player": "Andrew Nembhard",
+   "g": "OKC@IND",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 84.0,
+   "ku": "https://kalshi.com/markets/kxnba3pt/nba-player-threes/kxnba3pt-26nov23okcind",
+   "ticker": "KXNBA3PT-26NOV23OKCIND-INDANEMBHARD2-1",
+   "bk_exact": false,
+   "stat": "3pm",
+   "k": 81.0,
+   "b2b": false,
+   "sys": 88,
+   "n": "Hit 12 of 13 this season, 5 of 5 last 5 (avg 2.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 87,
+    "gemini": 68,
+    "grok": 60,
+    "claude": 70
+   },
+   "why": {
+    "chatgpt": "12/13 season and 10/10 recent. Nembhard took 22 threes in his last five and has made one in 10 straight",
+    "gemini": "Regular perimeter volume against OKC defense",
+    "grok": "1+ three volume shooter",
+    "claude": "Haliburton out so heavy minutes; IND shoots poorly from 3"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 70,
+   "blend": 70,
+   "cap": null,
+   "tier": "G",
+   "pub": 70,
+   "eng": "v8",
+   "spread": 27,
+   "solo": false
+  },
+  {
+   "i": 45,
+   "p": "Andrew Nembhard 2+ threes",
+   "player": "Andrew Nembhard",
+   "g": "OKC@IND",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 54.6,
+   "ku": "https://kalshi.com/markets/kxnba3pt/nba-player-threes/kxnba3pt-26nov23okcind",
+   "ticker": "KXNBA3PT-26NOV23OKCIND-INDANEMBHARD2-2",
+   "bk_exact": true,
+   "stat": "3pm",
+   "k": 54.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 8 of 13 this season, 3 of 5 last 5 (avg 2.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 62,
+    "gemini": 36,
+    "grok": 35,
+    "claude": 38
+   },
+   "why": {
+    "chatgpt": "8/13 season and 7/10 recent. Nembhard has made two or more in three of five but attempted only two or three in two of those games",
+    "gemini": "Lower three point attempt volume makes 2+ threes volatile",
+    "grok": "2+ threes lower rate",
+    "claude": "Volume shooter only in spurts"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 38,
+   "blend": 38,
+   "cap": null,
+   "tier": "G",
+   "pub": 38,
+   "eng": "v8",
+   "spread": 27,
+   "solo": false
+  },
+  {
+   "i": 46,
+   "p": "Immanuel Quickley 6+ assists",
+   "player": "Immanuel Quickley",
+   "g": "MIL@TOR",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 59.2,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23miltor",
+   "ticker": "KXNBAAST-26NOV23MILTOR-TORIQUICKLEY5-6",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 60.5,
+   "b2b": false,
+   "sys": 71,
+   "n": "Hit 10 of 14 this season, 4 of 5 last 5 (avg 6.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 68,
+    "gemini": 54,
+    "grok": 48,
+    "claude": 42
+   },
+   "why": {
+    "chatgpt": "10/14 season and 7/10 recent. Barrett and Leonard are out but Toronto averaged only 92.3 possessions per 48 over its last six",
+    "gemini": "Primary initiator against Milwaukee drop coverage",
+    "grok": "6+ assists near average",
+    "claude": "Shead also handles; Barrett out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "G",
+   "pub": 54,
+   "eng": "v8",
+   "spread": 26,
+   "solo": false
+  },
+  {
+   "i": 47,
+   "p": "Immanuel Quickley 4+ assists",
+   "player": "Immanuel Quickley",
+   "g": "MIL@TOR",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 88.0,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23miltor",
+   "ticker": "KXNBAAST-26NOV23MILTOR-TORIQUICKLEY5-4",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 85.0,
+   "b2b": false,
+   "sys": 85,
+   "n": "Hit 12 of 14 this season, 5 of 5 last 5 (avg 6.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 86,
+    "gemini": 76,
+    "grok": 75,
+    "claude": 72
+   },
+   "why": {
+    "chatgpt": "12/14 season and 9/10 recent. Quickley has five or more in each of his last five and Toronto needs his creation",
+    "gemini": "High touch count gives strong 4 assist floor at home",
+    "grok": "4+ assists safe",
+    "claude": "Barrett and Kawhi out boost touches"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 76,
+   "blend": 76,
+   "cap": null,
+   "tier": "G",
+   "pub": 76,
+   "eng": "v8",
+   "spread": 14,
+   "solo": false
+  },
+  {
+   "i": 48,
+   "p": "Mikel Brown Jr. 10+ points",
+   "player": "Mikel Brown Jr.",
+   "g": "BKN@MIN",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 84.6,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23bknmin",
+   "ticker": "KXNBAPTS-26NOV23BKNMIN-BKNMBROWN0-10",
+   "bk_exact": false,
+   "stat": "pts",
+   "k": 76.5,
+   "b2b": false,
+   "sys": 63,
+   "n": "Hit 7 of 11 this season, 3 of 5 last 5 (avg 12.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 60,
+    "gemini": 58,
+    "grok": 45,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "7/11 season and 7/10 recent. Brown took 14 and 10 shots in his last two after scoring three and six in the previous two",
+    "gemini": "Averaging 12.0 PPG and scored 18 last game vs Orlando but tough MIN defense",
+    "grok": "10+ points minutes dependent",
+    "claude": "Not starting; minutes uncertain"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "grok",
+     "rookie minutes uncertain"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 58,
+   "blend": 58,
+   "cap": null,
+   "tier": "G",
+   "pub": 58,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 49,
+   "p": "Bengals ML at Commanders",
+   "player": "Bengals",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26nov23cinwas",
+   "ticker": "KXNFLGAME-26NOV23CINWAS-CIN",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 73.5,
+   "b2b": false,
+   "sys": 67,
+   "n": "Book line CIN -6.0.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 65,
+    "gemini": 70,
+    "grok": 68,
+    "claude": 72
+   },
+   "why": {
+    "chatgpt": "Cincinnati has five straight wins and its passing attack matches up well with Washington",
+    "gemini": "7-2 Bengals hold major offensive edge over 3-5-1 Commanders",
+    "grok": "Bengals 7-2 form Commanders struggling",
+    "claude": "CIN 7-2 and won five straight; ESPN model 76%"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 68,
+   "blend": 68,
+   "cap": null,
+   "tier": "G",
+   "pub": 68,
+   "eng": "v8",
+   "spread": 7,
+   "solo": false
+  },
+  {
+   "i": 50,
+   "p": "Bengals -3 at Commanders",
+   "player": "Bengals",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "spread",
+   "st": "reg",
+   "bk": null,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": null,
+   "stat": "spread",
+   "k": null,
+   "b2b": false,
+   "sys": 57,
+   "n": "Book line CIN -6.0.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 53,
+    "gemini": 58,
+    "grok": 55,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Washington has extra rest and a Bengals win by exactly three pushes",
+    "gemini": "Exact push at 3 is not a win so need 4+ point margin on the road",
+    "grok": "-3 close line Bengals edge",
+    "claude": "Must win by 4+; push at 3 counts as loss"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "N",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 5,
+   "solo": false
+  },
+  {
+   "i": 51,
+   "p": "Joe Burrow under 304.5 passing yards",
+   "player": "Joe Burrow",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 50.0,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": true,
+   "stat": "pass",
+   "k": null,
+   "b2b": false,
+   "sys": 63,
+   "n": "Stayed under 6 of 9 this season, 3 of 5 last 5 (avg 310.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 58,
+    "gemini": 54,
+    "grok": 45,
+    "claude": 52
+   },
+   "why": {
+    "chatgpt": "Burrow stayed below 305 in 6/9 but each of his three overs went past 400",
+    "gemini": "Averages 310.6 YPG so under 304.5 relies on Bengals building a lead and running",
+    "grok": "310 avg under 304.5 coin flip",
+    "claude": "Median just under 300 but two 400+ games"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "N",
+   "pub": 54,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 52,
+   "p": "Ben Sinnott 3+ receiving yards (over 2.5)",
+   "player": "Ben Sinnott",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 45.8,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": true,
+   "stat": "recyds",
+   "k": null,
+   "b2b": false,
+   "sys": 34,
+   "n": "Hit 2 of 9 this season, 1 of 5 last 5 (avg 5.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 36,
+    "gemini": 48,
+    "grok": 55,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "Sinnott reached three yards in only 2/9 and played 35 percent of snaps in his four-catch breakout",
+    "gemini": "Low target share means one catch clears it but zero target risk is real",
+    "grok": "3+ yards low bar snap share",
+    "claude": "Okonkwo is TE1; one catch needed"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Sinnott can play a full reserve role and finish without a catch"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "N",
+   "pub": 48,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 53,
+   "p": "Jayden Daniels under 0.5 interceptions",
+   "player": "Jayden Daniels",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 55.5,
+   "ku": "https://kalshi.com/markets/kxnflpassint/pro-football-passing-interceptions/kxnflpassint-26nov23cinwas",
+   "ticker": "KXNFLPASSINT-26NOV23CINWAS-WASJDANIELS5-1",
+   "bk_exact": true,
+   "stat": "other",
+   "k": 57.5,
+   "b2b": false,
+   "sys": 79,
+   "n": "Stayed under 6 of 7 this season, 4 of 5 last 5 (avg 0.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 69,
+    "gemini": 64,
+    "grok": 72,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "Daniels had zero interceptions in 6/7 but Cincinnati pressures 37.2 percent of dropbacks",
+    "gemini": "Only 2 interceptions all season though Bengals pass rush is top 10 in sacks",
+    "grok": "low INT rate 2 in 7 games",
+    "claude": "2 INT in 7 games but threw 2 last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 69,
+   "blend": 69,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 54,
+   "p": "Chase Brown under 4.5 receptions",
+   "player": "Chase Brown",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 54.1,
+   "ku": "https://kalshi.com/markets/kxnflrec/pro-football-player-receptions/kxnflrec-26nov23cinwas",
+   "ticker": "KXNFLREC-26NOV23CINWAS-CINCBROWN30-5",
+   "bk_exact": true,
+   "stat": "rec",
+   "k": 52.5,
+   "b2b": false,
+   "sys": 57,
+   "n": "Stayed under 5 of 9 this season, 3 of 5 last 5 (avg 5.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 52,
+    "gemini": 44,
+    "grok": 35,
+    "claude": 52
+   },
+   "why": {
+    "chatgpt": "Brown finished with four or fewer in 5/9 and had eight twice in the last three",
+    "gemini": "Averaging 5.2 receptions per game so under 4.5 fights his season volume",
+    "grok": "high catch volume under 4.5 tough",
+    "claude": "Coin flip around 4.8 average"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 52,
+   "blend": 52,
+   "cap": null,
+   "tier": "G",
+   "pub": 52,
+   "eng": "v8",
+   "spread": 17,
+   "solo": false
+  },
+  {
+   "i": 55,
+   "p": "Joe Burrow under 325 passing yards",
+   "player": "Joe Burrow",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 62.2,
+   "ku": "https://kalshi.com/markets/kxnflpassyds/pro-football-passing-yards/kxnflpassyds-26nov23cinwas",
+   "ticker": "KXNFLPASSYDS-26NOV23CINWAS-CINJBURROW9-325",
+   "bk_exact": false,
+   "stat": "pass",
+   "k": 60.5,
+   "b2b": false,
+   "sys": 64,
+   "n": "Stayed under 6 of 9 this season, 3 of 5 last 5 (avg 310.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 67,
+    "gemini": 62,
+    "grok": 60,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "Burrow stayed below 325 in 6/9 but Washington allows the second-most pass yards per game",
+    "gemini": "325 is a high bar even for Burrow if Bengals control second half script",
+    "grok": "310 avg under 325 safer",
+    "claude": "Needs a 400-type ceiling to lose"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 62,
+   "blend": 62,
+   "cap": null,
+   "tier": "Y",
+   "pub": 62,
+   "eng": "v8",
+   "spread": 7,
+   "solo": false
+  },
+  {
+   "i": 56,
+   "p": "Chase Brown under 6 receptions",
+   "player": "Chase Brown",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 71.1,
+   "ku": "https://kalshi.com/markets/kxnflrec/pro-football-player-receptions/kxnflrec-26nov23cinwas",
+   "ticker": "KXNFLREC-26NOV23CINWAS-CINCBROWN30-6",
+   "bk_exact": false,
+   "stat": "rec",
+   "k": 67.5,
+   "b2b": false,
+   "sys": 64,
+   "n": "Stayed under 6 of 9 this season, 3 of 5 last 5 (avg 5.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 65,
+    "gemini": 64,
+    "grok": 55,
+    "claude": 68
+   },
+   "why": {
+    "chatgpt": "Brown had five or fewer in 6/9 and exactly six is a push",
+    "gemini": "Under 6 wins at 5 or fewer which sits right around his 5.2 average",
+    "grok": "under 6 moderate",
+    "claude": "5 or fewer catches most weeks"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 64,
+   "blend": 64,
+   "cap": null,
+   "tier": "G",
+   "pub": 64,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 57,
+   "p": "Chase Brown under 4 receptions",
+   "player": "Chase Brown",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 35.0,
+   "ku": "https://kalshi.com/markets/kxnflrec/pro-football-player-receptions/kxnflrec-26nov23cinwas",
+   "ticker": "KXNFLREC-26NOV23CINWAS-CINCBROWN30-4",
+   "bk_exact": false,
+   "stat": "rec",
+   "k": 36.5,
+   "b2b": false,
+   "sys": 45,
+   "n": "Stayed under 4 of 9 this season, 2 of 5 last 5 (avg 5.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 36,
+    "gemini": 34,
+    "grok": 28,
+    "claude": 40
+   },
+   "why": {
+    "chatgpt": "Brown had three or fewer in 4/9 and exactly four pushes",
+    "gemini": "Needs 3 or fewer catches despite 47 catches in 9 games",
+    "grok": "under 4 low given role",
+    "claude": "3 or fewer only if Bengals run late"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Four Brown receptions already prevent a win and he has reached eight twice in three games"
+    ],
+    [
+     "gemini",
+     "Chase Brown averages 5.2 receptions per game making under 4 a tough swim upstream"
+    ],
+    [
+     "grok",
+     "receiving RB volume too high"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 36,
+   "blend": 36,
+   "cap": null,
+   "tier": "G",
+   "pub": 36,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 58,
+   "p": "Ty Jerome 23+ points (over 22.5)",
+   "player": "Ty Jerome",
+   "g": "MEM@CHA",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 51.0,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": true,
+   "stat": "pts",
+   "k": null,
+   "b2b": false,
+   "sys": 47,
+   "n": "Hit 6 of 12 this season, 1 of 5 last 5 (avg 24.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 45,
+    "gemini": 38,
+    "grok": 48,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "6/12 season and 4/10 recent. Jerome scored 18 in 27 minutes after a hip absence and has cleared 23 once in his last five",
+    "gemini": "Q returning from hip injury with minutes limit risk against Charlotte",
+    "grok": "23+ points near average role",
+    "claude": "25 to 27 PPG; returned from hip soreness"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Ty Jerome returning from hip injury carries minutes restriction risk at 23+ points"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 47,
+   "blend": 47,
+   "cap": null,
+   "tier": "N",
+   "pub": 47,
+   "eng": "v8",
+   "spread": 17,
+   "solo": false
+  },
+  {
+   "i": 59,
+   "p": "Jakob Poeltl 8+ rebounds (over 7.5)",
+   "player": "Jakob Poeltl",
+   "g": "MIL@TOR",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 52.2,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov23miltor",
+   "ticker": "KXNBAREB-26NOV23MILTOR-TORJPOELTL19-8",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 50.5,
+   "b2b": false,
+   "sys": 46,
+   "n": "Hit 6 of 14 this season, 2 of 5 last 5 (avg 6.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 41,
+    "gemini": 58,
+    "grok": 52,
+    "claude": 28
+   },
+   "why": {
+    "chatgpt": "6/14 season and 5/10 recent. Poeltl had nine in consecutive starts but Murray-Boyles is available again",
+    "gemini": "Strong rebounding volume against Milwaukee frontcourt",
+    "grok": "8+ rebounds near average",
+    "claude": "Moved to bench Nov 15; about 21 MPG"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "claude",
+     "Poeltl lost his starting job so minutes cap his rebounds"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 46,
+   "blend": 46,
+   "cap": null,
+   "tier": "G",
+   "pub": 46,
+   "eng": "v8",
+   "spread": 30,
+   "solo": false
+  },
+  {
+   "i": 60,
+   "p": "Tyler Herro 4+ assists (over 3.5)",
+   "player": "Tyler Herro",
+   "g": "MIL@TOR",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 58.9,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23miltor",
+   "ticker": "KXNBAAST-26NOV23MILTOR-MILTHERRO11-4",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 60.0,
+   "b2b": false,
+   "sys": 48,
+   "n": "Hit 7 of 16 this season, 2 of 5 last 5 (avg 4.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 48,
+    "gemini": 56,
+    "grok": 52,
+    "claude": 58
+   },
+   "why": {
+    "chatgpt": "7/16 season and 4/10 recent. Herro had seven in his 50-point game but three or fewer in three of the previous four",
+    "gemini": "Solid secondary playmaking in Toronto matchup",
+    "grok": "4+ assists 4.3 avg recent 7",
+    "claude": "About 4.3 APG; Rollins also handles"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 52,
+   "blend": 52,
+   "cap": null,
+   "tier": "G",
+   "pub": 52,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 61,
+   "p": "Jaylen Brown under 20.5 points",
+   "player": "Jaylen Brown",
+   "g": "POR@PHI",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 45.9,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": true,
+   "stat": "pts",
+   "k": null,
+   "b2b": false,
+   "sys": 50,
+   "n": "Stayed under 7 of 14 this season, 2 of 5 last 5 (avg 22.6).",
+   "rule": null,
+   "fl": "Q",
+   "models": {
+    "chatgpt": 43,
+    "gemini": 32,
+    "grok": 38,
+    "claude": 48
+   },
+   "why": {
+    "chatgpt": "7/14 season and 5/10 recent. Brown was probable on the 3 PM PT report but Embiid being out gives him more shots",
+    "gemini": "Q hamstring probable and averaged 25+ PPG when healthy before missing 2 games",
+    "grok": "22.6 PPG under 20.5 tough Q",
+    "claude": "20.6 PPG; Embiid Q swings usage"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Jaylen Brown under 20.5 points is risky if he plays normal starter minutes vs Portland"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 43,
+   "blend": 43,
+   "cap": null,
+   "tier": "N",
+   "pub": 43,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 62,
+   "p": "Cam Spencer 6+ assists (over 5.5)",
+   "player": "Cam Spencer",
+   "g": "MEM@CHA",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 51.9,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23memcha",
+   "ticker": "KXNBAAST-26NOV23MEMCHA-MEMCSPENCER24-6",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 52.5,
+   "b2b": false,
+   "sys": 58,
+   "n": "Hit 8 of 17 this season, 4 of 5 last 5 (avg 5.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 40,
+    "gemini": 36,
+    "grok": 40,
+    "claude": 25
+   },
+   "why": {
+    "chatgpt": "8/17 season and 5/10 recent. Spencer had five off the bench in Jerome's return after four straight games with at least seven",
+    "gemini": "Q role shrinks if Ty Jerome returns from hip injury tonight",
+    "grok": "6+ assists stretch",
+    "claude": "Boozer and Jerome run offense"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Jerome returning to point guard takes creation chances away from Spencer"
+    ],
+    [
+     "gemini",
+     "Cam Spencer assist volume drops sharply if Ty Jerome returns to the starting lineup"
+    ],
+    [
+     "claude",
+     "Spencer is a bench guard behind Jerome and Boozer as handlers"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 40,
+   "blend": 40,
+   "cap": null,
+   "tier": "G",
+   "pub": 40,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 63,
+   "p": "Ty Jerome 20+ points",
+   "player": "Ty Jerome",
+   "g": "MEM@CHA",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 67.7,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23memcha",
+   "ticker": "KXNBAPTS-26NOV23MEMCHA-MEMTJEROME2-20",
+   "bk_exact": true,
+   "stat": "pts",
+   "k": 65.5,
+   "b2b": false,
+   "sys": 65,
+   "n": "Hit 8 of 12 this season, 3 of 5 last 5 (avg 24.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 61,
+    "gemini": 48,
+    "grok": 55,
+    "claude": 68
+   },
+   "why": {
+    "chatgpt": "8/12 season and 6/10 recent. Jerome scored 17 and 18 in his two most recent appearances but had 22 and 27 before those",
+    "gemini": "Q strong scorer all season but first game back from hip adds minute risk",
+    "grok": "20+ near average",
+    "claude": "Primary scorer; hip a small worry"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 61,
+   "blend": 61,
+   "cap": null,
+   "tier": "G",
+   "pub": 61,
+   "eng": "v8",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 64,
+   "p": "Ty Jerome 15+ points",
+   "player": "Ty Jerome",
+   "g": "MEM@CHA",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 86.3,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23memcha",
+   "ticker": "KXNBAPTS-26NOV23MEMCHA-MEMTJEROME2-15",
+   "bk_exact": false,
+   "stat": "pts",
+   "k": 85.5,
+   "b2b": false,
+   "sys": 88,
+   "n": "Hit 11 of 12 this season, 5 of 5 last 5 (avg 24.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 85,
+    "gemini": 68,
+    "grok": 72,
+    "claude": 87
+   },
+   "why": {
+    "chatgpt": "11/12 season and 9/10 recent. Jerome scored 15 or more in 11/12 and took 17 shots in his return",
+    "gemini": "Q high usage scoring profile gives solid 15+ floor if active",
+    "grok": "15+ safe",
+    "claude": "Very safe floor"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 85,
+   "blend": 85,
+   "cap": null,
+   "tier": "G",
+   "pub": 85,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 65,
+   "p": "Jakob Poeltl 6+ rebounds",
+   "player": "Jakob Poeltl",
+   "g": "MIL@TOR",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 79.2,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov23miltor",
+   "ticker": "KXNBAREB-26NOV23MILTOR-TORJPOELTL19-6",
+   "bk_exact": false,
+   "stat": "reb",
+   "k": 74.5,
+   "b2b": false,
+   "sys": 64,
+   "n": "Hit 9 of 14 this season, 3 of 5 last 5 (avg 6.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 65,
+    "gemini": 78,
+    "grok": 70,
+    "claude": 52
+   },
+   "why": {
+    "chatgpt": "9/14 season and 7/10 recent. Poeltl reached six in three straight but averaged fewer than 20 minutes in two recent bench games",
+    "gemini": "Reliable rebounding floor in starting center minutes",
+    "grok": "6+ rebounds safe",
+    "claude": "Bench role caps rebounds"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 65,
+   "blend": 65,
+   "cap": null,
+   "tier": "G",
+   "pub": 65,
+   "eng": "v8",
+   "spread": 26,
+   "solo": false
+  },
+  {
+   "i": 66,
+   "p": "Tyler Herro 2+ assists",
+   "player": "Tyler Herro",
+   "g": "MIL@TOR",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 91.7,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23miltor",
+   "ticker": "KXNBAAST-26NOV23MILTOR-MILTHERRO11-2",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 90.5,
+   "b2b": false,
+   "sys": 88,
+   "n": "Hit 15 of 16 this season, 5 of 5 last 5 (avg 4.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 89,
+    "gemini": 82,
+    "grok": 85,
+    "claude": 92
+   },
+   "why": {
+    "chatgpt": "15/16 season and 10/10 recent. Herro cleared in 15/16 and his lone miss was a zero",
+    "gemini": "Very high floor for 2 assists in starting guard role",
+    "grok": "2+ assists very safe",
+    "claude": "2+ assists nearly every night"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 88,
+   "blend": 88,
+   "cap": null,
+   "tier": "G",
+   "pub": 88,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 67,
+   "p": "Jaylen Brown under 25 points",
+   "player": "Jaylen Brown",
+   "g": "POR@PHI",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 65.3,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23porphi",
+   "ticker": "KXNBAPTS-26NOV23PORPHI-PHIJBROWN7-25",
+   "bk_exact": true,
+   "stat": "pts",
+   "k": 65.0,
+   "b2b": false,
+   "sys": 55,
+   "n": "Stayed under 8 of 14 this season, 2 of 5 last 5 (avg 22.6).",
+   "rule": null,
+   "fl": "Q",
+   "models": {
+    "chatgpt": 58,
+    "gemini": 48,
+    "grok": 62,
+    "claude": 76
+   },
+   "why": {
+    "chatgpt": "8/14 season and 5/10 recent. Brown scored 31 in each of his last two appearances and exactly 25 pushes",
+    "gemini": "Q hamstring return could limit minutes slightly against Portland",
+    "grok": "under 25 realistic Q",
+    "claude": "Rarely tops 25 with Maxey and LeBron sharing"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 58,
+   "blend": 58,
+   "cap": null,
+   "tier": "G",
+   "pub": 58,
+   "eng": "v8",
+   "spread": 28,
+   "solo": false
+  },
+  {
+   "i": 68,
+   "p": "Jaylen Brown under 20 points",
+   "player": "Jaylen Brown",
+   "g": "POR@PHI",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 40.8,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23porphi",
+   "ticker": "KXNBAPTS-26NOV23PORPHI-PHIJBROWN7-20",
+   "bk_exact": true,
+   "stat": "pts",
+   "k": 40.5,
+   "b2b": false,
+   "sys": 43,
+   "n": "Stayed under 5 of 14 this season, 2 of 5 last 5 (avg 22.6).",
+   "rule": null,
+   "fl": "Q",
+   "models": {
+    "chatgpt": 36,
+    "gemini": 28,
+    "grok": 32,
+    "claude": 44
+   },
+   "why": {
+    "chatgpt": "5/14 season and 3/10 recent. Brown finished on exactly 20 twice in 14 appearances and those are pushes",
+    "gemini": "Q under 20 requires 19 or fewer which is thin if he plays full run",
+    "grok": "under 20 stretch Q",
+    "claude": "19 or fewer slightly less likely than 20+"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Embiid is out and exactly 20 Brown points already prevents a win"
+    ],
+    [
+     "gemini",
+     "Jaylen Brown under 20 points fights a 25+ PPG scorer if his hamstring is cleared"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 36,
+   "blend": 36,
+   "cap": null,
+   "tier": "G",
+   "pub": 36,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 69,
+   "p": "Cam Spencer 4+ assists",
+   "player": "Cam Spencer",
+   "g": "MEM@CHA",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 82.8,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23memcha",
+   "ticker": "KXNBAAST-26NOV23MEMCHA-MEMCSPENCER24-4",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 80.5,
+   "b2b": false,
+   "sys": 77,
+   "n": "Hit 12 of 17 this season, 5 of 5 last 5 (avg 5.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 66,
+    "gemini": 56,
+    "grok": 65,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "12/17 season and 8/10 recent. Spencer had five off the bench in Jerome's return but has less creation time with him healthy",
+    "gemini": "Q solid playmaking floor even if minutes dip with Jerome back",
+    "grok": "4+ assists reasonable",
+    "claude": "Role unclear in 2026-27"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 65,
+   "blend": 65,
+   "cap": null,
+   "tier": "G",
+   "pub": 65,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 70,
+   "p": "Providence ML v VCU",
+   "player": "Providence",
+   "g": "VCU@PROV",
+   "t": "6:00",
+   "sp": "CBB",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov23vcuprov",
+   "ticker": "KXNCAAMBGAME-26NOV23VCUPROV-PROV",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 53.5,
+   "b2b": false,
+   "sys": 55,
+   "n": "Book line PROV -1.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 50,
+    "gemini": 56,
+    "grok": 58,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Providence and VCU rate within one point per 100 possessions and Vanterpool is returning",
+    "gemini": "Slight talent edge over VCU in Maui at Lahaina Civic Center",
+    "grok": "Providence slight edge",
+    "claude": "Vanterpool questionable for PROV; both 2-1"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "Y",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 71,
+   "p": "Commanders +14 v Bengals",
+   "player": "Commanders",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "spread",
+   "st": "reg",
+   "bk": null,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": null,
+   "stat": "spread",
+   "k": null,
+   "b2b": false,
+   "sys": 70,
+   "n": "Book line CIN -6.0.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 76,
+    "gemini": 76,
+    "grok": 78,
+    "claude": 82
+   },
+   "why": {
+    "chatgpt": "Washington can lose by 13 and win this line but a two-touchdown loss pushes",
+    "gemini": "14 points is a huge cushion at home with Daniels mobile floor",
+    "grok": "+14 strong value Commanders can cover",
+    "claude": "Needs WSH to lose by 15+; Daniels keeps it closer"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 76,
+   "blend": 76,
+   "cap": null,
+   "tier": "N",
+   "pub": 75,
+   "eng": "v8",
+   "spread": 6,
+   "solo": false
+  },
+  {
+   "i": 72,
+   "p": "Bengals v Commanders over 45 total points",
+   "player": "Bengals v Commanders",
+   "g": "CIN@WSH",
+   "t": "5:15",
+   "sp": "NFL",
+   "ty": "total",
+   "st": "reg",
+   "bk": null,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": null,
+   "stat": "total",
+   "k": null,
+   "b2b": false,
+   "sys": 75,
+   "n": "Book total 54.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 63,
+    "gemini": 62,
+    "grok": 70,
+    "claude": 70
+   },
+   "why": {
+    "chatgpt": "Cincinnati scored 34 or more in four straight and the forecast calls for modest wind with stronger gusts",
+    "gemini": "Bengals average 30.9 PPG and Commanders average 21.8 PPG in prime time",
+    "grok": "high scoring teams Burrow efficiency",
+    "claude": "CIN scoring about 30 per game; dry 54 degrees"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 70,
+   "blend": 70,
+   "cap": null,
+   "tier": "N",
+   "pub": 70,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 73,
+   "p": "Josh Giddey 8+ assists",
+   "player": "Josh Giddey",
+   "g": "CLE@CHI",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 72.0,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23clechi",
+   "ticker": "KXNBAAST-26NOV23CLECHI-CHIJGIDDEY3-8",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 69.0,
+   "b2b": false,
+   "sys": 60,
+   "n": "Hit 9 of 16 this season, 3 of 5 last 5 (avg 9.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 58,
+    "gemini": 56,
+    "grok": 45,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "9/16 season and 6/10 recent. Giddey had eight against Cleveland last week but played 41 minutes in overtime Sunday",
+    "gemini": "High assist rate at home though Cleveland defense limits easy looks",
+    "grok": "8+ assists stretch",
+    "claude": "7.9 APG on a bad offense"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "G",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 74,
+   "p": "Josh Giddey 10+ assists",
+   "player": "Josh Giddey",
+   "g": "CLE@CHI",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 46.5,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23clechi",
+   "ticker": "KXNBAAST-26NOV23CLECHI-CHIJGIDDEY3-10",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 46.5,
+   "b2b": false,
+   "sys": 39,
+   "n": "Hit 6 of 16 this season, 1 of 5 last 5 (avg 9.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 40,
+    "gemini": 34,
+    "grok": 30,
+    "claude": 25
+   },
+   "why": {
+    "chatgpt": "6/16 season and 4/10 recent. Giddey's 22 on Sunday came in overtime and he has reached 10 in only four of his last 10",
+    "gemini": "Double digit assists require hot shooting from Bulls teammates vs CLE",
+    "grok": "10+ assists rare",
+    "claude": "Needs a big night; Bulls shoot poorly"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Josh Giddey 10+ assists faces a disciplined Cleveland defense that limits easy buckets"
+    ],
+    [
+     "grok",
+     "double-digit assists rare"
+    ],
+    [
+     "claude",
+     "Bulls shoot about 28% from 3 so assist chances dry up"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 34,
+   "blend": 34,
+   "cap": null,
+   "tier": "G",
+   "pub": 34,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 75,
+   "p": "Moussa Diabate under 10 points",
+   "player": "Moussa Diabate",
+   "g": "MEM@CHA",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 56.3,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23memcha",
+   "ticker": "KXNBAPTS-26NOV23MEMCHA-CHAMDIABATE14-10",
+   "bk_exact": true,
+   "stat": "pts",
+   "k": 61.5,
+   "b2b": false,
+   "sys": 57,
+   "n": "Stayed under 7 of 13 this season, 3 of 5 last 5 (avg 9.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 47,
+    "gemini": 68,
+    "grok": 55,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "7/13 season and 5/10 recent. Diabate scored 21 Friday and Boozer is out but much of his scoring depends on putbacks",
+    "gemini": "Limited scoring touches keep him under 10 points most nights",
+    "grok": "under 10 points role limited",
+    "claude": "Rebounder first; Knueppel out could add touches"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "G",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 21,
+   "solo": false
+  },
+  {
+   "i": 76,
+   "p": "Coby White under 6 assists",
+   "player": "Coby White",
+   "g": "MEM@CHA",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 76.6,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23memcha",
+   "ticker": "KXNBAAST-26NOV23MEMCHA-CHACWHITE3-6",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 76.5,
+   "b2b": false,
+   "sys": 70,
+   "n": "Stayed under 6 of 8 this season, 3 of 5 last 5 (avg 4.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 65,
+    "gemini": 66,
+    "grok": 48,
+    "claude": 78
+   },
+   "why": {
+    "chatgpt": "6/8 season and 6/8 recent. White has played 26 minutes in two straight and Schroder is still out",
+    "gemini": "Score first guard role keeps assists under 6 in most matchups",
+    "grok": "under 6 assists near average",
+    "claude": "About 3.6 APG; 6 is a stretch"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 66,
+   "blend": 66,
+   "cap": null,
+   "tier": "G",
+   "pub": 66,
+   "eng": "v8",
+   "spread": 30,
+   "solo": false
+  },
+  {
+   "i": 77,
+   "p": "Coby White under 4 assists",
+   "player": "Coby White",
+   "g": "MEM@CHA",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 44.4,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov23memcha",
+   "ticker": "KXNBAAST-26NOV23MEMCHA-CHACWHITE3-4",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 43.0,
+   "b2b": false,
+   "sys": 56,
+   "n": "Stayed under 5 of 8 this season, 2 of 5 last 5 (avg 4.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 43,
+    "gemini": 42,
+    "grok": 65,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "5/8 season and 5/8 recent. White had nine and four assists in his last two and exactly four pushes",
+    "gemini": "Under 4 needs 3 or fewer which is tight with his on ball minutes",
+    "grok": "under 4 assists safer",
+    "claude": "Now starting so assists may tick up"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "White is playing more minutes with Schroder sidelined and four assists pushes"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 50,
+   "blend": 50,
+   "cap": null,
+   "tier": "Y",
+   "pub": 50,
+   "eng": "v8",
+   "spread": 23,
+   "solo": false
+  },
+  {
+   "i": 78,
+   "p": "Brayden Burries 10+ points",
+   "player": "Brayden Burries",
+   "g": "MIL@TOR",
+   "t": "4:30",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 61.6,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov23miltor",
+   "ticker": "KXNBAPTS-26NOV23MILTOR-MILBBURRIES0-10",
+   "bk_exact": true,
+   "stat": "pts",
+   "k": 61.0,
+   "b2b": false,
+   "sys": 65,
+   "n": "Hit 10 of 17 this season, 4 of 5 last 5 (avg 11.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 62,
+    "gemini": 56,
+    "grok": 40,
+    "claude": 40
+   },
+   "why": {
+    "chatgpt": "10/17 season and 6/10 recent. Burries scored 13 or more in four straight but his 26 came on 20 shots off the bench",
+    "gemini": "Dropped 26 points in 26 minutes last game vs 76ers showing real scoring punch",
+    "grok": "10+ points minutes dependent",
+    "claude": "Not in either listed starting five"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "claude",
+     "No confirmed role in tonight's lineups"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "G",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 22,
+   "solo": false
+  }
+ ],
+ "board": [
+  66,
+  34,
+  64,
+  7,
+  15,
+  32,
+  37,
+  5,
+  31,
+  24,
+  30,
+  1,
+  17,
+  38,
+  43,
+  47,
+  25,
+  71,
+  8,
+  39,
+  44,
+  72
+ ],
+ "low": [
+  49,
+  11,
+  12,
+  23,
+  76,
+  33,
+  65,
+  69,
+  3,
+  9,
+  56,
+  13,
+  14,
+  55,
+  63,
+  16,
+  21,
+  48,
+  67,
+  20,
+  29,
+  73,
+  78,
+  6,
+  22,
+  35,
+  50,
+  70,
+  75,
+  36,
+  46,
+  51,
+  42,
+  54,
+  60,
+  4,
+  77,
+  52,
+  58,
+  59,
+  2,
+  10,
+  61,
+  27,
+  40,
+  62,
+  45,
+  57,
+  68,
+  18,
+  41,
+  74,
+  19,
+  28,
+  26
+ ],
+ "removed": [
+  53
+ ],
+ "nograde": [],
+ "settled": [],
+ "hammer": {
+  "legs": [
+   66,
+   43,
+   17
+  ],
+  "pay": 1.56,
+  "none": null,
+  "hit": 72,
+  "pay_net": 1.51,
+  "ev": 8.7,
+  "kind": "Hammer"
+ },
+ "perfect": [
+  {
+   "name": "Safe",
+   "legs": [
+    66,
+    43,
+    17
+   ],
+   "pay": 1.51,
+   "hit": 72,
+   "ev": 8.7,
+   "none": null
+  },
+  {
+   "name": "Core",
+   "legs": [
+    66,
+    43,
+    17
+   ],
+   "pay": 1.51,
+   "hit": 72,
+   "ev": 8.7,
+   "none": null
+  },
+  {
+   "name": "Stretch",
+   "legs": [],
+   "pay": null,
+   "hit": null,
+   "ev": null,
+   "none": "No 4-5-leg combo from different games made +2% after fees at a 30%+ hit chance."
+  }
+ ],
+ "split": [
+  36,
+  31,
+  40,
+  59,
+  76,
+  41,
+  67,
+  44,
+  45,
+  14
+ ],
+ "agree": [
+  25
+ ],
+ "votes": {
+  "25": 4,
+  "15": 3,
+  "37": 2,
+  "31": 1,
+  "66": 4,
+  "34": 3,
+  "32": 4,
+  "44": 1,
+  "30": 1,
+  "47": 1,
+  "17": 1,
+  "43": 1,
+  "1": 2,
+  "24": 2,
+  "65": 1,
+  "5": 3,
+  "8": 1,
+  "71": 2,
+  "7": 1,
+  "64": 1,
+  "38": 1
+ },
+ "tips": {
+  "chatgpt": [
+   "Show win and push and loss probabilities separately on every integer line",
+   "Time-stamp each grade and flag affected legs when a starter or minutes projection changes",
+   "Group same-player ladders and show the extra payout required to justify the harder line"
+  ],
+  "gemini": [
+   "Add an automatic injury-status flag that links teammate usage shifts like Jerome returning impacting Spencer",
+   "Show exact push-adjusted probabilities on whole-number spreads and totals like -3 or under 4",
+   "Include a quick-filter toggle for blowout-risk games where 12+ point favorites may rest starters in Q4"
+  ],
+  "grok": [
+   "Add real-time inactives auto-update 90 min pre-kick with role impact flags",
+   "Show last-10 hit rate and miss margin for each line side-by-side",
+   "Include pace/total correlation notes for player props automatically"
+  ],
+  "claude": [
+   "Auto-tag every leg with same-day injury news for both teams so users see the Edwards OUT effect on LaMelo before they build a slip",
+   "Flag role changes like a starter moving to the bench with a date stamp next to last-10 hit rates so stale averages do not fool bettors",
+   "Warn on correlated legs in one slip such as Burrow 3+ TD with Chase 2+ TD and show the combined hit chance instead of multiplying them"
+  ]
+ },
+ "fades": {
+  "26": [
+   [
+    "chatgpt",
+    "A second Chase touchdown needs two scoring plays to go to the same receiver"
+   ],
+   [
+    "grok",
+    "rare multi-TD even for primary"
+   ],
+   [
+    "claude",
+    "Chase multi-TD games are rare and Burrow spreads TDs to Higgins and the TEs"
+   ]
+  ],
+  "28": [
+   [
+    "chatgpt",
+    "Chase can have an excellent game and finish below 150 as he did with 141 against Tennessee"
+   ],
+   [
+    "grok",
+    "needs explosion not sustainable"
+   ],
+   [
+    "claude",
+    "Back-to-back 150+ games almost never happen"
+   ]
+  ],
+  "19": [
+   [
+    "chatgpt",
+    "Williams plays starter snaps but has only two red-zone targets"
+   ],
+   [
+    "grok",
+    "depth TD lottery"
+   ],
+   [
+    "claude",
+    "Rookie WR2 seeing about 2 targets a game"
+   ]
+  ],
+  "52": [
+   [
+    "chatgpt",
+    "Sinnott can play a full reserve role and finish without a catch"
+   ]
+  ],
+  "57": [
+   [
+    "chatgpt",
+    "Four Brown receptions already prevent a win and he has reached eight twice in three games"
+   ],
+   [
+    "gemini",
+    "Chase Brown averages 5.2 receptions per game making under 4 a tough swim upstream"
+   ],
+   [
+    "grok",
+    "receiving RB volume too high"
+   ]
+  ],
+  "62": [
+   [
+    "chatgpt",
+    "Jerome returning to point guard takes creation chances away from Spencer"
+   ],
+   [
+    "gemini",
+    "Cam Spencer assist volume drops sharply if Ty Jerome returns to the starting lineup"
+   ],
+   [
+    "claude",
+    "Spencer is a bench guard behind Jerome and Boozer as handlers"
+   ]
+  ],
+  "68": [
+   [
+    "chatgpt",
+    "Embiid is out and exactly 20 Brown points already prevents a win"
+   ],
+   [
+    "gemini",
+    "Jaylen Brown under 20 points fights a 25+ PPG scorer if his hamstring is cleared"
+   ]
+  ],
+  "77": [
+   [
+    "chatgpt",
+    "White is playing more minutes with Schroder sidelined and four assists pushes"
+   ]
+  ],
+  "58": [
+   [
+    "gemini",
+    "Ty Jerome returning from hip injury carries minutes restriction risk at 23+ points"
+   ]
+  ],
+  "10": [
+   [
+    "gemini",
+    "LaMelo Ball averages 17.2 PPG in Minnesota alongside Dosunmu leaving 20+ short"
+   ]
+  ],
+  "27": [
+   [
+    "gemini",
+    "Ja'Marr Chase averages 7.1 catches so 9+ requires extreme target concentration"
+   ]
+  ],
+  "61": [
+   [
+    "gemini",
+    "Jaylen Brown under 20.5 points is risky if he plays normal starter minutes vs Portland"
+   ]
+  ],
+  "74": [
+   [
+    "gemini",
+    "Josh Giddey 10+ assists faces a disciplined Cleveland defense that limits easy buckets"
+   ],
+   [
+    "grok",
+    "double-digit assists rare"
+   ],
+   [
+    "claude",
+    "Bulls shoot about 28% from 3 so assist chances dry up"
+   ]
+  ],
+  "41": [
+   [
+    "grok",
+    "bench role limited assists"
+   ]
+  ],
+  "36": [
+   [
+    "grok",
+    "center assist volume low"
+   ],
+   [
+    "claude",
+    "Hartenstein averages 2.3 assists so 4 needs a career-type night"
+   ]
+  ],
+  "48": [
+   [
+    "grok",
+    "rookie minutes uncertain"
+   ]
+  ],
+  "59": [
+   [
+    "claude",
+    "Poeltl lost his starting job so minutes cap his rebounds"
+   ]
+  ],
+  "78": [
+   [
+    "claude",
+    "No confirmed role in tonight's lineups"
+   ]
+  ]
+ },
+ "alts": {
+  "chatgpt": [
+   [
+    "6",
+    "Joe Burrow 2+ passing touchdowns",
+    78,
+    "Two scores cleared in seven of nine"
+   ],
+   [
+    "10",
+    "LaMelo Ball 15+ points",
+    73,
+    "Fifteen covers three of the last five"
+   ],
+   [
+    "14",
+    "Keyonte George 4+ assists",
+    92,
+    "Four assists allows for tired legs"
+   ],
+   [
+    "16",
+    "Ivica Zubac 6+ rebounds",
+    77,
+    "Six gives room for fewer second-half minutes"
+   ],
+   [
+    "26",
+    "Ja'Marr Chase anytime touchdown",
+    57,
+    "One score captures far more of his red-zone usage"
+   ],
+   [
+    "28",
+    "Ja'Marr Chase 90+ receiving yards",
+    51,
+    "Ninety can win without a breakaway gain"
+   ],
+   [
+    "33",
+    "Amen Thompson 4+ rebounds",
+    87,
+    "Four boards tolerates a quiet quarter"
+   ],
+   [
+    "35",
+    "Amen Thompson 10+ points",
+    88,
+    "Ten points needs fewer plays called for him"
+   ],
+   [
+    "36",
+    "Isaiah Hartenstein 2+ assists",
+    90,
+    "Two only needs a pair of finished passes"
+   ],
+   [
+    "40",
+    "Quentin Grimes 2+ rebounds",
+    83,
+    "Two is less sensitive to long rebounds"
+   ],
+   [
+    "41",
+    "Quentin Grimes 2+ assists",
+    78,
+    "Two allows Doncic to handle most creation"
+   ],
+   [
+    "42",
+    "Devin Booker 4+ assists",
+    76,
+    "Four sits below his season average"
+   ],
+   [
+    "45",
+    "Andrew Nembhard 1+ threes",
+    87,
+    "One make allows for a low-volume night"
+   ],
+   [
+    "46",
+    "Immanuel Quickley 4+ assists",
+    86,
+    "Four covers a slower Toronto game"
+   ],
+   [
+    "51",
+    "Joe Burrow under 325 passing yards",
+    67,
+    "Adds 20 winning yardage totals from 305 through 324"
+   ],
+   [
+    "57",
+    "Chase Brown under 6 receptions",
+    65,
+    "Four and five catches both become wins"
+   ],
+   [
+    "58",
+    "Ty Jerome 15+ points",
+    85,
+    "Fifteen already cleared on his return"
+   ],
+   [
+    "59",
+    "Jakob Poeltl 6+ rebounds",
+    65,
+    "Six gives a reserve center more room"
+   ],
+   [
+    "60",
+    "Tyler Herro 2+ assists",
+    89,
+    "Two cleared in 15 of 16 games"
+   ],
+   [
+    "62",
+    "Cam Spencer 4+ assists",
+    66,
+    "Four can win in bench minutes"
+   ],
+   [
+    "68",
+    "Jaylen Brown under 25 points",
+    58,
+    "Adds outcomes from 20 through 24 points"
+   ],
+   [
+    "74",
+    "Josh Giddey 8+ assists",
+    58,
+    "Eight avoids needing another double-digit night"
+   ],
+   [
+    "77",
+    "Coby White under 6 assists",
+    65,
+    "Four or five assists can both win"
+   ]
+  ],
+  "gemini": [
+   [
+    "10",
+    "LaMelo Ball 15+ points",
+    66,
+    "Clears his 17.2 PPG baseline cleanly without needing a spike game"
+   ],
+   [
+    "58",
+    "Ty Jerome 15+ points",
+    68,
+    "Protects against a first game back minutes cap after hip injury"
+   ],
+   [
+    "62",
+    "Cam Spencer 4+ assists",
+    56,
+    "Much safer floor if Jerome returns and trims Spencer usage"
+   ],
+   [
+    "22",
+    "Ja'Marr Chase 70+ receiving yards",
+    72,
+    "Captures his 97.6 YPG floor while trimming prime time variance"
+   ],
+   [
+    "14",
+    "Keyonte George 4+ assists",
+    74,
+    "Locks in his primary ballhandler floor without needing a close Q4"
+   ]
+  ],
+  "grok": [
+   [
+    "6",
+    "Burrow 2+ pass TD",
+    88,
+    "higher hit rate same side"
+   ],
+   [
+    "22",
+    "Chase 70+ yards",
+    78,
+    "safer volume still pays"
+   ],
+   [
+    "13",
+    "Kessler 8+ reb",
+    75,
+    "clearer edge"
+   ],
+   [
+    "10",
+    "LaMelo 15+ pts",
+    62,
+    "more realistic"
+   ],
+   [
+    "61",
+    "Brown under 25",
+    62,
+    "safer under given average"
+   ]
+  ],
+  "claude": [
+   [
+    "22",
+    "Ja'Marr Chase 70+ receiving yards",
+    68,
+    "Hot streak with a safer floor"
+   ],
+   [
+    "27",
+    "Ja'Marr Chase 7+ receptions",
+    62,
+    "Volume is steady lately; 9 is the risky part"
+   ],
+   [
+    "1",
+    "Tee Higgins 40+ receiving yards",
+    70,
+    "Cushion for a quiet target share night"
+   ],
+   [
+    "4",
+    "Stefon Diggs 40+ receiving yards",
+    57,
+    "He is the WSH target hog without a deep ceiling"
+   ],
+   [
+    "2",
+    "Mike Gesicki 15+ receiving yards",
+    65,
+    "One or two catches usually gets there"
+   ],
+   [
+    "50",
+    "Bengals -1.5",
+    66,
+    "Removes the push-at-3 risk"
+   ],
+   [
+    "8",
+    "Luka Doncic 25+ points",
+    84,
+    "Covers a blowout where he sits the 4th"
+   ],
+   [
+    "59",
+    "Jakob Poeltl 6+ rebounds",
+    52,
+    "Bench role fits a lower number"
+   ]
+  ]
+ },
+ "kalshi_ts": "2026-11-23T23:18:10+00:00",
+ "lotto": null,
+ "lotto_none": "No 3 to 8 legs from different games paid 5-10x after fees with +5% or better by our math (3 legs qualified). No lotto beats a forced lotto.",
+ "master_v2": [
+  15,
+  37,
+  39,
+  43,
+  44,
+  47,
+  64,
+  66
+ ],
+ "merged_at": "15:33 PT"
+}

@@ -9,7 +9,7 @@ s=re.sub(r'var BD_ROI=\{[^}]*\};','var BD_ROI='+json.dumps(_R,separators=(',',':
 _C=json.load(open('/home/claude/bettordays-hq/calib.json'))['kalshi']
 s=re.sub(r'var BD_CAL=\{[^}]*\};','var BD_CAL='+json.dumps({'c':round(_C['c'],4),'w':round(_C['w'],4)},separators=(',',':'))+';',s,count=1)
 open('bettordays-hq.html','w').write(s)
-DAYK=[('SN22','2026-11-22','Sunday Nov 22'),('SA21','2026-11-21','Saturday Nov 21'),('FR20','2026-11-20','Friday Nov 20'),('TH19','2026-11-19','Thursday Nov 19'),('WE18','2026-11-18','Wednesday Nov 18'),('TU17','2026-11-17','Tuesday Nov 17'),('MN16','2026-11-16','Monday Nov 16'),('SN15','2026-11-15','Sunday Nov 15'),('SAT','2026-11-14','Saturday Nov 14'),('FRI','2026-11-13','Friday Nov 13'),('THU','2026-11-12','Thursday Nov 12'),('WED','2026-11-11','Wednesday Nov 11'),('TUE','2026-11-10','Tuesday Nov 10')]
+DAYK=[('MO23','2026-11-23','Monday Nov 23'),('SN22','2026-11-22','Sunday Nov 22'),('SA21','2026-11-21','Saturday Nov 21'),('FR20','2026-11-20','Friday Nov 20'),('TH19','2026-11-19','Thursday Nov 19'),('WE18','2026-11-18','Wednesday Nov 18'),('TU17','2026-11-17','Tuesday Nov 17'),('MN16','2026-11-16','Monday Nov 16'),('SN15','2026-11-15','Sunday Nov 15'),('SAT','2026-11-14','Saturday Nov 14'),('FRI','2026-11-13','Friday Nov 13'),('THU','2026-11-12','Thursday Nov 12'),('WED','2026-11-11','Wednesday Nov 11'),('TUE','2026-11-10','Tuesday Nov 10')]
 for k,day,lab in DAYK:
   m=re.search(r'const '+k+r'=(\[.*?\]);\n',s)
   if m: MON=json.loads(m.group(1)); break
