@@ -1,0 +1,3816 @@
+{
+ "date": "2026-11-24",
+ "engine": "v8",
+ "models": {
+  "chatgpt": "63 of 63 legs graded",
+  "gemini": "63 of 63 legs graded",
+  "grok": "63 of 63 legs graded",
+  "claude": "63 of 63 legs graded"
+ },
+ "legs": [
+  {
+   "i": 1,
+   "p": "Trae Young 16+ points (over 15.5)",
+   "player": "Trae Young",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 40.8,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": true,
+   "stat": "pts",
+   "k": null,
+   "b2b": false,
+   "sys": 49,
+   "n": "Hit 10 of 18 this season, 1 of 5 last 5 (avg 17.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 47,
+    "gemini": 67,
+    "grok": 62,
+    "claude": 48
+   },
+   "why": {
+    "chatgpt": "16+ points in 4 of last 10 and only 1 of last 5 against a slow Boston defense",
+    "gemini": "Avg 19.7 PPG but BOS perimeter defense and blowout risk",
+    "grok": "Trae Young 17.1 PPG on Wizards; recent scoring mixed (0-37 range",
+    "claude": "Slumping at 38% FG with a scoreless game last week and BOS top-5 defense"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "many 11-16",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Young scored 13 or fewer in four of his last five before facing Boston"
+    ],
+    [
+     "claude",
+     "Trae is shooting 38% and BOS can hold him to single digits like HOU did"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 49,
+   "blend": 49,
+   "cap": null,
+   "tier": "N",
+   "pub": 49,
+   "eng": "v8",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 2,
+   "p": "Cooper Flagg 6+ assists (over 5.5)",
+   "player": "Cooper Flagg",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 63.3,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24dalden",
+   "ticker": "KXNBAAST-26NOV24DALDEN-DALCFLAGG32-6",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 59.5,
+   "b2b": false,
+   "sys": 58,
+   "n": "Hit 10 of 16 this season, 2 of 5 last 5 (avg 6.4).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 56,
+    "gemini": 56,
+    "grok": 58,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "6+ assists in 10 of 16 but Irving shares the ball and Flagg averaged 4.8 in four Denver meetings",
+    "gemini": "Avg 6.4 APG with 8 and 9 ast in 2 of last 3 games",
+    "grok": "Cooper Flagg 6.4 APG; recent assists 4/8/9/4/5; usage high as primary creator vs DEN",
+    "claude": "Averages about 6.5 ast but recent output dipped and DEN slows pace at altitude"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "G",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 3,
+   "solo": false
+  },
+  {
+   "i": 3,
+   "p": "Paul Reed 7+ rebounds (over 6.5)",
+   "player": "Paul Reed",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": null,
+   "stat": "reb",
+   "k": null,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 10 of 16 this season, 3 of 5 last 5 (avg 7.4).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 61,
+    "gemini": 58,
+    "grok": 68,
+    "claude": 52
+   },
+   "why": {
+    "chatgpt": "7+ boards in 10 of 16 but Collins can start at center even with Duren out",
+    "gemini": "Duren OUT boosts Reed glass share from 6.8 RPG avg",
+    "grok": "Paul Reed 7.4 RPG with Duren out; recent boards 5-11; elevated minutes and rim touches",
+    "claude": "Duren out but Reed and Collins have alternated starts and he averages 7.7 reb"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 61,
+   "blend": 61,
+   "cap": null,
+   "tier": "N",
+   "pub": 61,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 4,
+   "p": "Jayson Tatum 5+ assists (over 4.5)",
+   "player": "Jayson Tatum",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 78.7,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": false,
+   "stat": "ast",
+   "k": null,
+   "b2b": false,
+   "sys": 72,
+   "n": "Hit 12 of 15 this season, 3 of 5 last 5 (avg 6.7).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 74,
+    "gemini": 72,
+    "grok": 82,
+    "claude": 82
+   },
+   "why": {
+    "chatgpt": "5+ assists in 12 of 15 and averaged 5.8 in his last five Washington meetings",
+    "gemini": "Q Avg 6.7 APG vs weak WSH defense with blowout risk",
+    "grok": "Jayson Tatum 6.7 APG; last 10 near 6.2; high-usage playmaker vs weak Wizards",
+    "claude": "7.5 ast per game this season and PG DTD could add touches"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 74,
+   "blend": 74,
+   "cap": null,
+   "tier": "N",
+   "pub": 74,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 5,
+   "p": "Wendell Carter Jr. 6+ rebounds (over 5.5)",
+   "player": "Wendell Carter Jr.",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24detorl",
+   "ticker": "KXNBAREB-26NOV24DETORL-ORLWCARTER34-6",
+   "bk_exact": null,
+   "stat": "reb",
+   "k": 77.5,
+   "b2b": false,
+   "sys": 84,
+   "n": "Hit 15 of 16 this season, 4 of 5 last 5 (avg 8.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 88,
+    "gemini": 66,
+    "grok": 75,
+    "claude": 80
+   },
+   "why": {
+    "chatgpt": "6+ boards in 15 of 16 and Detroit is missing Duren",
+    "gemini": "Banchero and Isaac OUT leave WCJ as primary rebounder",
+    "grok": "Wendell Carter Jr 8.6 RPG; recent 6/8/8/3/8; Magic frontcourt thin",
+    "claude": "About 9.5 reb per game and DET is missing Duren on the glass"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "solid minu",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 80,
+   "blend": 80,
+   "cap": null,
+   "tier": "Y",
+   "pub": 80,
+   "eng": "v8",
+   "spread": 22,
+   "solo": false
+  },
+  {
+   "i": 6,
+   "p": "Trae Young 15+ points",
+   "player": "Trae Young",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 47.6,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov24boswas",
+   "ticker": "KXNBAPTS-26NOV24BOSWAS-WASTYOUNG3-15",
+   "bk_exact": true,
+   "stat": "pts",
+   "k": 48.5,
+   "b2b": false,
+   "sys": 55,
+   "n": "Hit 12 of 18 this season, 1 of 5 last 5 (avg 17.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 56,
+    "gemini": 72,
+    "grok": 58,
+    "claude": 53
+   },
+   "why": {
+    "chatgpt": "Two games ended on exactly 15 but four of his last five still fell short",
+    "gemini": "Cleared 15+ in 11 of 14 games this season",
+    "grok": "Trae Young 17.1 PPG; same as above but lower threshold improves hit rate slightly",
+    "claude": "Same slump risk but one point lower than leg 1"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "Y",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 7,
+   "p": "Cooper Flagg 4+ assists",
+   "player": "Cooper Flagg",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 89.3,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24dalden",
+   "ticker": "KXNBAAST-26NOV24DALDEN-DALCFLAGG32-4",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 85.5,
+   "b2b": false,
+   "sys": 86,
+   "n": "Hit 14 of 16 this season, 5 of 5 last 5 (avg 6.4).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 82,
+    "gemini": 81,
+    "grok": 78,
+    "claude": 86
+   },
+   "why": {
+    "chatgpt": "4+ assists in 14 of 16 and nine of his last 10",
+    "gemini": "Cleared 4+ ast in 5 straight games avg 6.4 APG",
+    "grok": "Cooper Flagg 6.4 APG; lower line safer given recent volume",
+    "claude": "Primary creator and has cleared 4 in most games"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 82,
+   "blend": 82,
+   "cap": null,
+   "tier": "G",
+   "pub": 82,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 8,
+   "p": "Paul Reed 6+ rebounds",
+   "player": "Paul Reed",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24detorl",
+   "ticker": "KXNBAREB-26NOV24DETORL-DETPREED7-6",
+   "bk_exact": null,
+   "stat": "reb",
+   "k": 65.5,
+   "b2b": false,
+   "sys": 74,
+   "n": "Hit 12 of 16 this season, 4 of 5 last 5 (avg 7.4).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 74,
+    "gemini": 68,
+    "grok": 72,
+    "claude": 63
+   },
+   "why": {
+    "chatgpt": "6+ rebounds in 12 of 16 and four of his last five despite the bench role",
+    "gemini": "Duren OUT gives Reed safe minutes floor near 7 RPG",
+    "grok": "Paul Reed 7.4 RPG; 6+ more consistent with role boost",
+    "claude": "Duren out keeps his floor near 6 but minutes split with Collins"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 72,
+   "blend": 72,
+   "cap": null,
+   "tier": "Y",
+   "pub": 72,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 9,
+   "p": "Jayson Tatum 4+ assists",
+   "player": "Jayson Tatum",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 89.5,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24boswas",
+   "ticker": "KXNBAAST-26NOV24BOSWAS-BOSJTATUM0-4",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 87.5,
+   "b2b": false,
+   "sys": 84,
+   "n": "Hit 14 of 15 this season, 4 of 5 last 5 (avg 6.7).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 87,
+    "gemini": 82,
+    "grok": 90,
+    "claude": 90
+   },
+   "why": {
+    "chatgpt": "4+ assists in 14 of 15 and nine of his last 10",
+    "gemini": "Q Avg 6.7 APG and had 6 ast last game vs GSW",
+    "grok": "Jayson Tatum 6.7 APG; 4+ near floor for his usage",
+    "claude": "Career-high playmaking role and only blowout bench time threatens it"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 87,
+   "blend": 87,
+   "cap": null,
+   "tier": "G",
+   "pub": 87,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 10,
+   "p": "Franz Wagner 6+ rebounds",
+   "player": "Franz Wagner",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 65.3,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24detorl",
+   "ticker": "KXNBAREB-26NOV24DETORL-ORLFWAGNER22-6",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 62.5,
+   "b2b": false,
+   "sys": 74,
+   "n": "Hit 12 of 16 this season, 4 of 5 last 5 (avg 6.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 74,
+    "gemini": 55,
+    "grok": 70,
+    "claude": 60
+   },
+   "why": {
+    "chatgpt": "6+ rebounds in 12 of 16 with more frontcourt work available while Banchero sits",
+    "gemini": "Banchero OUT bumps boards but DET plays physical",
+    "grok": "Franz Wagner 6.9 RPG; recent 8/5/8/8/9; high minutes as primary",
+    "claude": "6.7 reb in November and heavy minutes with Banchero out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 70,
+   "blend": 70,
+   "cap": null,
+   "tier": "Y",
+   "pub": 70,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 11,
+   "p": "Franz Wagner 6+ assists",
+   "player": "Franz Wagner",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 63.3,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24detorl",
+   "ticker": "KXNBAAST-26NOV24DETORL-ORLFWAGNER22-6",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 63.5,
+   "b2b": false,
+   "sys": 79,
+   "n": "Hit 12 of 16 this season, 5 of 5 last 5 (avg 8.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 76,
+    "gemini": 54,
+    "grok": 72,
+    "claude": 78
+   },
+   "why": {
+    "chatgpt": "6+ assists in nine of his last 10 with Banchero still out",
+    "gemini": "Primary initiator without Banchero high assist upside",
+    "grok": "Franz Wagner 8.3 APG; recent 6/7/11/9/12; playmaking role expanded",
+    "claude": "9.1 ast in November as the lead handler with Suggs and Banchero out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 76,
+   "blend": 76,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 24,
+   "solo": false
+  },
+  {
+   "i": 12,
+   "p": "Penn ML v Drexel",
+   "player": "Penn",
+   "g": "DREX@PENN",
+   "t": "5:00",
+   "sp": "CBB",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24drexpenn",
+   "ticker": "KXNCAAMBGAME-26NOV24DREXPENN-PENN",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 69.5,
+   "b2b": false,
+   "sys": 72,
+   "n": "Book line PENN -6.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 55,
+    "gemini": 64,
+    "grok": 58,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Palestra gives Penn a small edge but Drexel just beat the Saint Joseph's team that beat Penn",
+    "gemini": "Home court at The Palestra after 16-pt win last year",
+    "grok": "Penn home at Palestra vs Drexel; Ivy vs CAA",
+    "claude": "Home Palestra edge and Penn beat Drexel by 16 last season but little 2026 data"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "home edge ",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 58,
+   "blend": 58,
+   "cap": null,
+   "tier": "G",
+   "pub": 58,
+   "eng": "v8",
+   "spread": 9,
+   "solo": false
+  },
+  {
+   "i": 13,
+   "p": "Louisville ML v Texas Tech",
+   "player": "Louisville",
+   "g": "TTU@LOU",
+   "t": "5:00",
+   "sp": "CBB",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24louttu",
+   "ticker": "KXNCAAMBGAME-26NOV24LOUTTU-LOU",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 43.5,
+   "b2b": false,
+   "sys": 41,
+   "n": "Book line TTU -2.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 39,
+    "gemini": 38,
+    "grok": 64,
+    "claude": 56
+   },
+   "why": {
+    "chatgpt": "Texas Tech held its first five opponents to 34.4 percent shooting and Louisville gets no home advantage",
+    "gemini": "No. 25 Louisville faces No. 5 Texas Tech in Vegas",
+    "grok": "Louisville home vs Texas Tech; ACC vs Big 12",
+    "claude": "No. 10 Louisville vs No. 16 Texas Tech at neutral Vegas site"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "home court",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Texas Tech's defense gives Louisville less room to score at a neutral venue"
+    ],
+    [
+     "gemini",
+     "No. 25 Louisville faces a top-5 Texas Tech squad on a neutral floor"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 41,
+   "blend": 41,
+   "cap": null,
+   "tier": "G",
+   "pub": 41,
+   "eng": "v8",
+   "spread": 26,
+   "solo": false
+  },
+  {
+   "i": 14,
+   "p": "Alabama ML v Baylor",
+   "player": "Alabama",
+   "g": "BAY@ALA",
+   "t": "7:00",
+   "sp": "CBB",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24bayala",
+   "ticker": "KXNCAAMBGAME-26NOV24BAYALA-ALA",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 52.5,
+   "b2b": false,
+   "sys": 55,
+   "n": "Book line ALA -1.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 63,
+    "gemini": 57,
+    "grok": 61,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "Alabama enters 5-0 but a 4-1 Baylor team keeps the neutral-site estimate moderate",
+    "gemini": "High-tempo Alabama offense vs Baylor at T-Mobile Arena",
+    "grok": "Alabama home vs Baylor; SEC edge and home advantage",
+    "claude": "No. 18 Alabama vs unranked Baylor on neutral floor"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 61,
+   "blend": 61,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 6,
+   "solo": false
+  },
+  {
+   "i": 15,
+   "p": "St. John's ML v Oregon",
+   "player": "St. John's",
+   "g": "ORE@SJU",
+   "t": "7:30",
+   "sp": "CBB",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24sjuore",
+   "ticker": "KXNCAAMBGAME-26NOV24SJUORE-SJU",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 84.5,
+   "b2b": false,
+   "sys": 83,
+   "n": "Book line SJU -10.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 76,
+    "gemini": 69,
+    "grok": 55,
+    "claude": 75
+   },
+   "why": {
+    "chatgpt": "St John's won all five games by at least 15 and averaged 94 points before this step up in opposition",
+    "gemini": "No. 13 St. John's holds clear talent edge over Oregon",
+    "grok": "St. John's home vs Oregon; Big East vs Pac-12",
+    "claude": "No. 13 St. John's vs Oregon under an interim coach with 10 new players"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "close matc",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 69,
+   "blend": 75,
+   "cap": 69,
+   "tier": "G",
+   "pub": 69,
+   "eng": "v8",
+   "spread": 21,
+   "solo": false
+  },
+  {
+   "i": 16,
+   "p": "Magic +3.5 v Pistons",
+   "player": "Magic",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "spread",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnbaspread/nba-spread/kxnbaspread-26nov24detorl",
+   "ticker": "KXNBASPREAD-26NOV24DETORL-DET4",
+   "bk_exact": null,
+   "stat": "spread",
+   "k": 54.5,
+   "b2b": false,
+   "sys": 53,
+   "n": "Book line DET -2.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 44,
+    "gemini": 51,
+    "grok": 48,
+    "claude": 36
+   },
+   "why": {
+    "chatgpt": "Detroit has the stronger scoring differential and Orlando is missing its primary frontcourt scorer",
+    "gemini": "Missing Banchero and Isaac while DET misses Duren",
+    "grok": "Magic +3.5; missing Banchero/Isaac/frontcourt",
+    "claude": "DET net rating far better and ORL missing Banchero Suggs and Isaac"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "grok": "Pistons wi",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Detroit's road scoring margin has been stronger than Orlando's home margin"
+    ],
+    [
+     "grok",
+     "Magic frontcourt injuries and Pistons edge make +3.5 tight"
+    ],
+    [
+     "claude",
+     "DET is the far better team and ORL is missing three starters"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "G",
+   "pub": 48,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 17,
+   "p": "Wizards +10.5 v Celtics",
+   "player": "Wizards",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "spread",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnbaspread/nba-spread/kxnbaspread-26nov24boswas",
+   "ticker": "KXNBASPREAD-26NOV24BOSWAS-BOS11",
+   "bk_exact": null,
+   "stat": "spread",
+   "k": 47.5,
+   "b2b": false,
+   "sys": 50,
+   "n": "Book line BOS -10.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 60,
+    "gemini": 46,
+    "grok": 42,
+    "claude": 42
+   },
+   "why": {
+    "chatgpt": "Boston has the better defense but scored 105 or fewer in four straight on entering this game",
+    "gemini": "BOS is 11-4 with +7.5 net rating and Tatum/White Q",
+    "grok": "Wizards +10.5; thin roster (multiple outs)",
+    "claude": "BOS 10-2 with top-3 net rating vs a WAS team that lost 7 straight earlier this month"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "Celtics de",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Wizards defense struggles to contain Boston even if Celtics rest starters late"
+    ],
+    [
+     "grok",
+     "Wizards thin roster struggles to cover even with buffer"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 46,
+   "blend": 46,
+   "cap": null,
+   "tier": "G",
+   "pub": 46,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 18,
+   "p": "Mavericks +9.5 at Nuggets",
+   "player": "Mavericks",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "spread",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnbaspread/nba-spread/kxnbaspread-26nov24dalden",
+   "ticker": "KXNBASPREAD-26NOV24DALDEN-DEN10",
+   "bk_exact": null,
+   "stat": "spread",
+   "k": 54.5,
+   "b2b": false,
+   "sys": 53,
+   "n": "Book line DEN -8.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 62,
+    "gemini": 48,
+    "grok": 38,
+    "claude": 74
+   },
+   "why": {
+    "chatgpt": "Denver has the stronger offense but its season margin was under two points per game",
+    "gemini": "DEN strong at Ball Arena altitude vs Flagg-led Mavs",
+    "grok": "Mavericks +9.5 at Denver; altitude",
+    "claude": "Teams near even in record and net rating so altitude is the main DEN edge"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "Jokic, Liv",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "Altitude and Jokic dominance limit Mavericks cover chance"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 53,
+   "blend": 53,
+   "cap": null,
+   "tier": "G",
+   "pub": 53,
+   "eng": "v8",
+   "spread": 36,
+   "solo": false
+  },
+  {
+   "i": 19,
+   "p": "Derrick White 5+ assists (over 4.5)",
+   "player": "Derrick White",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 49.7,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": true,
+   "stat": "ast",
+   "k": null,
+   "b2b": false,
+   "sys": 59,
+   "n": "Hit 9 of 16 this season, 3 of 5 last 5 (avg 5.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 56,
+    "gemini": 53,
+    "grok": 65,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "5+ assists in 9 of 16 and exactly five in his last outing",
+    "gemini": "Q Avg 5.0 APG season and 4.6 APG over last 10",
+    "grok": "Derrick White 5.0 APG; recent 5/8/2/2/7; playmaking secondary to Tatum",
+    "claude": "About 4.8 to 5.1 ast and blowout bench time is the main risk"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "N",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 20,
+   "p": "Magic +15 v Pistons",
+   "player": "Magic",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "spread",
+   "st": "reg",
+   "bk": null,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": null,
+   "stat": "spread",
+   "k": null,
+   "b2b": false,
+   "sys": 83,
+   "n": "Book line DET -2.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 76,
+    "gemini": 86,
+    "grok": 68,
+    "claude": 88
+   },
+   "why": {
+    "chatgpt": "Orlando can lose by 14 and win this line but a 15-point loss is a push",
+    "gemini": "Magic defense at home keeps games within 15 even shorthanded",
+    "grok": "Magic +15; large number absorbs blowout risk despite injuries",
+    "claude": "ORL at home with Franz hot and a 15 point cushion covers most scripts"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 83,
+   "blend": 83,
+   "cap": null,
+   "tier": "N",
+   "pub": 75,
+   "eng": "v8",
+   "spread": 20,
+   "solo": false
+  },
+  {
+   "i": 21,
+   "p": "Wizards +20 v Celtics",
+   "player": "Wizards",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "spread",
+   "st": "reg",
+   "bk": null,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": null,
+   "stat": "spread",
+   "k": null,
+   "b2b": false,
+   "sys": 77,
+   "n": "Book line BOS -10.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 83,
+    "gemini": 76,
+    "grok": 72,
+    "claude": 82
+   },
+   "why": {
+    "chatgpt": "Boston averaged 105.5 points on the road and a 20-point Washington loss is a push",
+    "gemini": "Wizards at home can backdoor cover 20 if BOS rests late",
+    "grok": "Wizards +20; even larger buffer for weak roster",
+    "claude": "BOS blowout of 20 plus is possible but the cushion holds most nights"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 77,
+   "blend": 77,
+   "cap": null,
+   "tier": "N",
+   "pub": 75,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 22,
+   "p": "Mavericks +19.5 at Nuggets",
+   "player": "Mavericks",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "spread",
+   "st": "reg",
+   "bk": null,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": null,
+   "stat": "spread",
+   "k": null,
+   "b2b": false,
+   "sys": 82,
+   "n": "Book line DEN -8.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 85,
+    "gemini": 82,
+    "grok": 55,
+    "claude": 95
+   },
+   "why": {
+    "chatgpt": "Dallas can lose by 19 and still cover but its road scoring margin was minus 10.4",
+    "gemini": "Flagg keeps Mavs competitive enough to stay inside 19.5",
+    "grok": "Mavericks +19.5; big number but altitude and Jokic still favor DEN",
+    "claude": "Close matchup on paper and a 19.5 cushion is very wide"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 82,
+   "blend": 82,
+   "cap": null,
+   "tier": "N",
+   "pub": 75,
+   "eng": "v8",
+   "spread": 40,
+   "solo": false
+  },
+  {
+   "i": 23,
+   "p": "Derrick White 4+ assists",
+   "player": "Derrick White",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 64.6,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24boswas",
+   "ticker": "KXNBAAST-26NOV24BOSWAS-BOSDWHITE9-4",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 69.0,
+   "b2b": false,
+   "sys": 66,
+   "n": "Hit 11 of 16 this season, 3 of 5 last 5 (avg 5.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 67,
+    "gemini": 67,
+    "grok": 75,
+    "claude": 64
+   },
+   "why": {
+    "chatgpt": "4+ assists in 11 of 16 with two recent games ending on two",
+    "gemini": "Q Avg 5.0 APG and cleared 4+ consistently in 30 MPG",
+    "grok": "Derrick White 5.0 APG; 4+ more reliable floor",
+    "claude": "Averages about 5 and has cleared 4 in most games"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 67,
+   "blend": 67,
+   "cap": null,
+   "tier": "G",
+   "pub": 67,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 24,
+   "p": "Derrick White 2+ assists",
+   "player": "Derrick White",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 94.6,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24boswas",
+   "ticker": "KXNBAAST-26NOV24BOSWAS-BOSDWHITE9-2",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 94.5,
+   "b2b": false,
+   "sys": 88,
+   "n": "Hit 16 of 16 this season, 5 of 5 last 5 (avg 5.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 94,
+    "gemini": 91,
+    "grok": 88,
+    "claude": 93
+   },
+   "why": {
+    "chatgpt": "2+ assists in all 16 appearances including shorter outings",
+    "gemini": "Q Primary ballhandler in 30 MPG very safe floor",
+    "grok": "Derrick White 5.0 APG; 2+ near certain for starter minutes",
+    "claude": "Rarely falls below 2 ast in a starting role"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 88,
+   "blend": 91,
+   "cap": 88,
+   "tier": "G",
+   "pub": 88,
+   "eng": "v8",
+   "spread": 6,
+   "solo": false
+  },
+  {
+   "i": 25,
+   "p": "Neemias Queta 8+ rebounds",
+   "player": "Neemias Queta",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 68.8,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24boswas",
+   "ticker": "KXNBAREB-26NOV24BOSWAS-BOSNQUETA88-8",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 64.0,
+   "b2b": false,
+   "sys": 48,
+   "n": "Hit 6 of 16 this season, 3 of 5 last 5 (avg 7.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 47,
+    "gemini": 44,
+    "grok": 62,
+    "claude": 28
+   },
+   "why": {
+    "chatgpt": "8+ boards in only 6 of 16 but Robinson is out and Queta cleared eight in three of his last five",
+    "gemini": "Avg 7.1 RPG in 25 MPG foul trouble or blowout caps ceiling",
+    "grok": "Neemias Queta 7.1 RPG; recent 10/7/10/6/13 with Robinson out; elevated role",
+    "claude": "Only about 6.5 reb in 22 min and WAS has Davis and Sarr on the glass"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Queta's starting role produced eight boards in only 6 of 16 appearances overall"
+    ],
+    [
+     "gemini",
+     "Queta plays around 25 MPG and foul trouble or blowout easily caps him at 6-7 boards"
+    ],
+    [
+     "claude",
+     "Queta plays only about 22 min and WAS has Davis and Sarr crashing the boards"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 47,
+   "blend": 47,
+   "cap": null,
+   "tier": "G",
+   "pub": 47,
+   "eng": "v8",
+   "spread": 34,
+   "solo": false
+  },
+  {
+   "i": 26,
+   "p": "Neemias Queta 6+ rebounds",
+   "player": "Neemias Queta",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 88.2,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24boswas",
+   "ticker": "KXNBAREB-26NOV24BOSWAS-BOSNQUETA88-6",
+   "bk_exact": false,
+   "stat": "reb",
+   "k": 83.5,
+   "b2b": false,
+   "sys": 78,
+   "n": "Hit 12 of 16 this season, 5 of 5 last 5 (avg 7.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 79,
+    "gemini": 65,
+    "grok": 78,
+    "claude": 54
+   },
+   "why": {
+    "chatgpt": "6+ boards in nine of his last 10 with Robinson unavailable",
+    "gemini": "Avg 7.1 RPG vs WSH frontcourt solid 25-min floor",
+    "grok": "Neemias Queta 7.1 RPG; 6+ consistent given minutes",
+    "claude": "Right at his average with limited minutes"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 78,
+   "blend": 78,
+   "cap": null,
+   "tier": "G",
+   "pub": 78,
+   "eng": "v8",
+   "spread": 25,
+   "solo": false
+  },
+  {
+   "i": 27,
+   "p": "Cooper Flagg 20+ points",
+   "player": "Cooper Flagg",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 73.2,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov24dalden",
+   "ticker": "KXNBAPTS-26NOV24DALDEN-DALCFLAGG32-20",
+   "bk_exact": false,
+   "stat": "pts",
+   "k": 71.5,
+   "b2b": false,
+   "sys": 63,
+   "n": "Hit 10 of 16 this season, 3 of 5 last 5 (avg 24.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 65,
+    "gemini": 68,
+    "grok": 45,
+    "claude": 72
+   },
+   "why": {
+    "chatgpt": "20+ points in 10 of 16 and three straight entering Denver",
+    "gemini": "Avg 24.3 PPG cleared 20+ in 3 straight games",
+    "grok": "Cooper Flagg 24.3 PPG; recent 28/22/33/17/18; high but variance vs DEN",
+    "claude": "About 24 ppg but recent fantasy output dipped and DEN is a tough road spot"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "Flagg scoring variance vs strong Nuggets defense"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 65,
+   "blend": 65,
+   "cap": null,
+   "tier": "G",
+   "pub": 65,
+   "eng": "v8",
+   "spread": 27,
+   "solo": false
+  },
+  {
+   "i": 28,
+   "p": "Cooper Flagg 15+ points",
+   "player": "Cooper Flagg",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 89.2,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov24dalden",
+   "ticker": "KXNBAPTS-26NOV24DALDEN-DALCFLAGG32-15",
+   "bk_exact": false,
+   "stat": "pts",
+   "k": 88.5,
+   "b2b": false,
+   "sys": 86,
+   "n": "Hit 14 of 16 this season, 5 of 5 last 5 (avg 24.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 85,
+    "gemini": 85,
+    "grok": 68,
+    "claude": 89
+   },
+   "why": {
+    "chatgpt": "15+ points in 14 of 16 with room for a below-average shooting night",
+    "gemini": "Avg 24.3 PPG cleared 15+ in all 5 recent games",
+    "grok": "Cooper Flagg 24.3 PPG; 15+ safer floor",
+    "claude": "Only a foul or injury exit stops 15"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 85,
+   "blend": 85,
+   "cap": null,
+   "tier": "G",
+   "pub": 85,
+   "eng": "v8",
+   "spread": 21,
+   "solo": false
+  },
+  {
+   "i": 29,
+   "p": "Cooper Flagg 10+ points",
+   "player": "Cooper Flagg",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 96.8,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": false,
+   "stat": "pts",
+   "k": null,
+   "b2b": false,
+   "sys": 88,
+   "n": "Hit 16 of 16 this season, 5 of 5 last 5 (avg 24.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 95,
+    "gemini": 95,
+    "grok": 82,
+    "claude": 97
+   },
+   "why": {
+    "chatgpt": "10+ points in all 16 appearances against a Denver defense ranked 22nd in efficiency",
+    "gemini": "High-usage star averaging 17.1 FGA and 7.4 FTA",
+    "grok": "Cooper Flagg 24.3 PPG; 10+ high-confidence volume",
+    "claude": "Has not been held under 10 this season in our data"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 88,
+   "blend": 95,
+   "cap": 88,
+   "tier": "N",
+   "pub": 75,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 30,
+   "p": "Franz Wagner 20+ points",
+   "player": "Franz Wagner",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 66.5,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov24detorl",
+   "ticker": "KXNBAPTS-26NOV24DETORL-ORLFWAGNER22-20",
+   "bk_exact": true,
+   "stat": "pts",
+   "k": 68.5,
+   "b2b": false,
+   "sys": 71,
+   "n": "Hit 11 of 16 this season, 4 of 5 last 5 (avg 24.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 72,
+    "gemini": 66,
+    "grok": 55,
+    "claude": 76
+   },
+   "why": {
+    "chatgpt": "20+ points in eight of his last 10 but Detroit held him to 17.6 per game in their last five meetings",
+    "gemini": "Primary scorer with Banchero OUT high shot volume",
+    "grok": "Franz Wagner 24.5 PPG; recent 16/35/27/21/35; usage high but efficiency variable",
+    "claude": "Four straight 30 point games and top usage with Banchero out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 71,
+   "blend": 71,
+   "cap": null,
+   "tier": "Y",
+   "pub": 71,
+   "eng": "v8",
+   "spread": 21,
+   "solo": false
+  },
+  {
+   "i": 31,
+   "p": "Daniss Jenkins 4+ rebounds",
+   "player": "Daniss Jenkins",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 56.0,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24detorl",
+   "ticker": "KXNBAREB-26NOV24DETORL-DETDJENKINS24-4",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 58.0,
+   "b2b": false,
+   "sys": 63,
+   "n": "Hit 9 of 16 this season, 4 of 5 last 5 (avg 3.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 60,
+    "gemini": 26,
+    "grok": 48,
+    "claude": 14
+   },
+   "why": {
+    "chatgpt": "4+ boards in seven of his last 10 but three of his last four landed exactly on four",
+    "gemini": "Low-minute bench role makes 4+ boards a tough reach",
+    "grok": "Daniss Jenkins projected starter/role; limited recent volume data",
+    "claude": "Averages under 2 reb per game"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "rebounds m",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Low-minute bench guard role makes 4+ rebounds a low-percentage outlier"
+    ],
+    [
+     "grok",
+     "Jenkins limited role and rebounding volume"
+    ],
+    [
+     "claude",
+     "Jenkins averages under 2 reb so 4 needs an outlier"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "G",
+   "pub": 48,
+   "eng": "v8",
+   "spread": 46,
+   "solo": false
+  },
+  {
+   "i": 32,
+   "p": "Daniss Jenkins 2+ rebounds",
+   "player": "Daniss Jenkins",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 90.6,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24detorl",
+   "ticker": "KXNBAREB-26NOV24DETORL-DETDJENKINS24-2",
+   "bk_exact": false,
+   "stat": "reb",
+   "k": 90.0,
+   "b2b": false,
+   "sys": 78,
+   "n": "Hit 13 of 16 this season, 4 of 5 last 5 (avg 3.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 82,
+    "gemini": 58,
+    "grok": 65,
+    "claude": 48
+   },
+   "why": {
+    "chatgpt": "2+ boards in 13 of 16 and at least 35 minutes in each of his last five",
+    "gemini": "Modest bench minutes give coin-flip plus chance at 2 reb",
+    "grok": "Daniss Jenkins; 2+ rebounds low bar for minutes",
+    "claude": "Coin flip near his 1.7 average even with Joe out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 65,
+   "blend": 65,
+   "cap": null,
+   "tier": "G",
+   "pub": 65,
+   "eng": "v8",
+   "spread": 34,
+   "solo": false
+  },
+  {
+   "i": 33,
+   "p": "Cade Cunningham 20+ points",
+   "player": "Cade Cunningham",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 73.2,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov24detorl",
+   "ticker": "KXNBAPTS-26NOV24DETORL-DETCCUNNINGHAM2-20",
+   "bk_exact": false,
+   "stat": "pts",
+   "k": 72.5,
+   "b2b": false,
+   "sys": 69,
+   "n": "Hit 10 of 15 this season, 4 of 5 last 5 (avg 24.2).",
+   "rule": null,
+   "fl": "Q",
+   "models": {
+    "chatgpt": 66,
+    "gemini": 71,
+    "grok": 60,
+    "claude": 77
+   },
+   "why": {
+    "chatgpt": "20+ points in 10 of 15 but a sore right knee adds downside after Sunday's five-point game",
+    "gemini": "Probable knee soreness avg 24.2 PPG and 28.0 L5",
+    "grok": "Cade Cunningham probable; high-usage scorer",
+    "claude": "About 25 ppg and ORL defense ranks bottom 10"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "20+ typica",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 69,
+   "blend": 69,
+   "cap": null,
+   "tier": "G",
+   "pub": 69,
+   "eng": "v8",
+   "spread": 17,
+   "solo": false
+  },
+  {
+   "i": 34,
+   "p": "Cade Cunningham 15+ points",
+   "player": "Cade Cunningham",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 89.2,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov24detorl",
+   "ticker": "KXNBAPTS-26NOV24DETORL-DETCCUNNINGHAM2-15",
+   "bk_exact": false,
+   "stat": "pts",
+   "k": 89.0,
+   "b2b": false,
+   "sys": 81,
+   "n": "Hit 13 of 15 this season, 4 of 5 last 5 (avg 24.2).",
+   "rule": null,
+   "fl": "Q",
+   "models": {
+    "chatgpt": 81,
+    "gemini": 86,
+    "grok": 75,
+    "claude": 91
+   },
+   "why": {
+    "chatgpt": "15+ points in 13 of 15 and probable with right knee soreness",
+    "gemini": "Probable knee soreness high usage despite 5-pt dud at ATL",
+    "grok": "Cade Cunningham; 15+ strong floor if he plays",
+    "claude": "15 is a deep floor for a 25 ppg scorer"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 81,
+   "blend": 81,
+   "cap": null,
+   "tier": "G",
+   "pub": 81,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 35,
+   "p": "Cade Cunningham 4+ rebounds",
+   "player": "Cade Cunningham",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 78.4,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24detorl",
+   "ticker": "KXNBAREB-26NOV24DETORL-DETCCUNNINGHAM2-4",
+   "bk_exact": false,
+   "stat": "reb",
+   "k": 67.5,
+   "b2b": false,
+   "sys": 85,
+   "n": "Hit 13 of 15 this season, 5 of 5 last 5 (avg 5.1).",
+   "rule": null,
+   "fl": "Q",
+   "models": {
+    "chatgpt": 80,
+    "gemini": 70,
+    "grok": 70,
+    "claude": 80
+   },
+   "why": {
+    "chatgpt": "4+ boards in 13 of 15 with four or five in each of his last five games",
+    "gemini": "Probable knee soreness avg 5.1 RPG and Duren OUT helps",
+    "grok": "Cade Cunningham; 4+ rebounds reasonable for guard/forward",
+    "claude": "5.2 reb per game and Duren out opens boards"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 80,
+   "blend": 80,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 36,
+   "p": "Cade Cunningham 25+ points",
+   "player": "Cade Cunningham",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 50.0,
+   "ku": "https://kalshi.com/markets/kxnbapts/nba-player-points/kxnbapts-26nov24detorl",
+   "ticker": "KXNBAPTS-26NOV24DETORL-DETCCUNNINGHAM2-25",
+   "bk_exact": true,
+   "stat": "pts",
+   "k": 50.5,
+   "b2b": false,
+   "sys": 54,
+   "n": "Hit 7 of 15 this season, 3 of 5 last 5 (avg 24.2).",
+   "rule": null,
+   "fl": "Q",
+   "models": {
+    "chatgpt": 48,
+    "gemini": 52,
+    "grok": 42,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "25+ points in 7 of 15 and the sore knee makes his scoring ceiling harder to project",
+    "gemini": "Probable knee soreness ORL defense slows scoring ceiling",
+    "grok": "Cade Cunningham; 25+ higher variance on knee soreness",
+    "claude": "Right at his average so a coin flip"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "Cade knee and higher threshold increase miss risk"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 50,
+   "blend": 50,
+   "cap": null,
+   "tier": "G",
+   "pub": 50,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 37,
+   "p": "Nikola Jokic 6+ assists",
+   "player": "Nikola Jokic",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 92.6,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24dalden",
+   "ticker": "KXNBAAST-26NOV24DALDEN-DENNJOKIC15-6",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 89.5,
+   "b2b": false,
+   "sys": 88,
+   "n": "Hit 14 of 15 this season, 5 of 5 last 5 (avg 9.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 93,
+    "gemini": 88,
+    "grok": 92,
+    "claude": 88
+   },
+   "why": {
+    "chatgpt": "6+ assists in 14 of 15 including each of his last 10",
+    "gemini": "Avg 9.1 APG cleared 6+ in 13 of 14 games this season",
+    "grok": "Nikola Jokic 9.2 APG; recent 11/11/9/7/10; elite passer",
+    "claude": "9.1 ast per game and DAL lacks Lively in the paint"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 88,
+   "blend": 88,
+   "cap": null,
+   "tier": "G",
+   "pub": 88,
+   "eng": "v8",
+   "spread": 5,
+   "solo": false
+  },
+  {
+   "i": 38,
+   "p": "Nikola Jokic 8+ assists",
+   "player": "Nikola Jokic",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 76.5,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24dalden",
+   "ticker": "KXNBAAST-26NOV24DALDEN-DENNJOKIC15-8",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 74.5,
+   "b2b": false,
+   "sys": 80,
+   "n": "Hit 13 of 15 this season, 4 of 5 last 5 (avg 9.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 85,
+    "gemini": 74,
+    "grok": 85,
+    "claude": 68
+   },
+   "why": {
+    "chatgpt": "8+ assists in 13 of 15 and Dallas is missing Lively",
+    "gemini": "Avg 9.1 APG cleared 8+ in 12 of 14 games this season",
+    "grok": "Nikola Jokic 9.2 APG; 8+ consistent",
+    "claude": "Has gone 8 or more in most games"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 80,
+   "blend": 80,
+   "cap": null,
+   "tier": "Y",
+   "pub": 80,
+   "eng": "v8",
+   "spread": 17,
+   "solo": false
+  },
+  {
+   "i": 39,
+   "p": "Nikola Jokic 10+ assists",
+   "player": "Nikola Jokic",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 52.1,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24dalden",
+   "ticker": "KXNBAAST-26NOV24DALDEN-DENNJOKIC15-10",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 51.5,
+   "b2b": false,
+   "sys": 57,
+   "n": "Hit 8 of 15 this season, 3 of 5 last 5 (avg 9.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 53,
+    "gemini": 48,
+    "grok": 62,
+    "claude": 44
+   },
+   "why": {
+    "chatgpt": "10+ assists in 8 of 15 with strong Dallas history but only four hits in his last 10",
+    "gemini": "Avg 9.1 APG cleared 10+ in 7 of 14 games this season",
+    "grok": "Nikola Jokic 9.2 APG; 10+ achievable but not automatic",
+    "claude": "Average sits near 9 so 10 is just above the median"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 53,
+   "blend": 53,
+   "cap": null,
+   "tier": "Y",
+   "pub": 53,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 40,
+   "p": "Nikola Jokic 8+ rebounds",
+   "player": "Nikola Jokic",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 90.9,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24dalden",
+   "ticker": "KXNBAREB-26NOV24DALDEN-DENNJOKIC15-8",
+   "bk_exact": false,
+   "stat": "reb",
+   "k": 87.5,
+   "b2b": false,
+   "sys": 74,
+   "n": "Hit 11 of 15 this season, 4 of 5 last 5 (avg 10.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 81,
+    "gemini": 76,
+    "grok": 88,
+    "claude": 86
+   },
+   "why": {
+    "chatgpt": "8+ boards in nine of his last 10 and Dallas has been a strong rebounding matchup for him",
+    "gemini": "Avg 10.4 RPG cleared 8+ in 10 of 14 games this season",
+    "grok": "Nikola Jokic 10.9 RPG; recent 18/7/8/15/8; dominant rebounder",
+    "claude": "10.8 reb and 12 in November with Lively out for DAL"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 81,
+   "blend": 81,
+   "cap": null,
+   "tier": "G",
+   "pub": 81,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 41,
+   "p": "Nikola Jokic 10+ rebounds",
+   "player": "Nikola Jokic",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 75.4,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24dalden",
+   "ticker": "KXNBAREB-26NOV24DALDEN-DENNJOKIC15-10",
+   "bk_exact": false,
+   "stat": "reb",
+   "k": 73.5,
+   "b2b": false,
+   "sys": 53,
+   "n": "Hit 8 of 15 this season, 2 of 5 last 5 (avg 10.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 62,
+    "gemini": 54,
+    "grok": 78,
+    "claude": 66
+   },
+   "why": {
+    "chatgpt": "10+ boards in 8 of 15 with Dallas missing Lively and ranking 25th in defensive rebound rate",
+    "gemini": "Avg 10.4 RPG cleared 10+ in 7 of 14 games this season",
+    "grok": "Nikola Jokic 10.9 RPG; 10+ strong",
+    "claude": "Clears 10 often but a few 7 and 9 reb games"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 62,
+   "blend": 62,
+   "cap": null,
+   "tier": "G",
+   "pub": 62,
+   "eng": "v8",
+   "spread": 24,
+   "solo": false
+  },
+  {
+   "i": 42,
+   "p": "Nikola Jokic 12+ rebounds",
+   "player": "Nikola Jokic",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 53.3,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24dalden",
+   "ticker": "KXNBAREB-26NOV24DALDEN-DENNJOKIC15-12",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 53.5,
+   "b2b": false,
+   "sys": 45,
+   "n": "Hit 6 of 15 this season, 2 of 5 last 5 (avg 10.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 46,
+    "gemini": 36,
+    "grok": 65,
+    "claude": 42
+   },
+   "why": {
+    "chatgpt": "12+ boards in 6 of 15 despite averaging 16 in his last five Dallas meetings",
+    "gemini": "Cleared 12+ reb in 5 of 14 games high variance vs DAL",
+    "grok": "Nikola Jokic 10.9 RPG; 12+ solid but variance",
+    "claude": "12 reb in November but season median sits near 10 or 11"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Jokic needed 12 boards and finished with seven or eight in three of his last five"
+    ],
+    [
+     "gemini",
+     "Jokic has cleared 12+ rebounds in only 5 of 14 games this season"
+    ],
+    [
+     "claude",
+     "Jokic's median is closer to 10 or 11 reb than 12"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 45,
+   "blend": 45,
+   "cap": null,
+   "tier": "G",
+   "pub": 45,
+   "eng": "v8",
+   "spread": 29,
+   "solo": false
+  },
+  {
+   "i": 43,
+   "p": "Cooper Flagg 35+ points + rebounds + assists",
+   "player": "Cooper Flagg",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 65.1,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov24dalden",
+   "ticker": "KXNBAPRA-26NOV24DALDEN-DALCFLAGG32-35",
+   "bk_exact": false,
+   "stat": "pra",
+   "k": 62.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 10 of 16 this season, 3 of 5 last 5 (avg 37.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 59,
+    "gemini": 56,
+    "grok": 55,
+    "claude": 60
+   },
+   "why": {
+    "chatgpt": "35+ PRA in 10 of 16 and he landed exactly on 35 Sunday despite scoring 28",
+    "gemini": "Avg 37.0 PRA (24.3/6.3/6.4) altitude and DEN defense test",
+    "grok": "Cooper Flagg PRA ~37 avg; 35+ reachable on high usage",
+    "claude": "Season PRA near 37 but recent output dipped"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 59,
+   "blend": 59,
+   "cap": null,
+   "tier": "G",
+   "pub": 59,
+   "eng": "v8",
+   "spread": 5,
+   "solo": false
+  },
+  {
+   "i": 44,
+   "p": "Cade Cunningham 35+ points + rebounds + assists",
+   "player": "Cade Cunningham",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 65.4,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov24detorl",
+   "ticker": "KXNBAPRA-26NOV24DETORL-DETCCUNNINGHAM2-35",
+   "bk_exact": false,
+   "stat": "pra",
+   "k": 64.0,
+   "b2b": false,
+   "sys": 66,
+   "n": "Hit 9 of 15 this season, 4 of 5 last 5 (avg 37.6).",
+   "rule": null,
+   "fl": "Q",
+   "models": {
+    "chatgpt": 60,
+    "gemini": 58,
+    "grok": 58,
+    "claude": 66
+   },
+   "why": {
+    "chatgpt": "35+ PRA in 9 of 15 and even 15 assists left him at 24 PRA on Sunday",
+    "gemini": "Probable knee avg 37.6 PRA (24.2/5.1/8.3) tough ORL D",
+    "grok": "Cade Cunningham PRA high usage; 35+ likely if full minutes",
+    "claude": "PRA near 38 and soft ORL defense"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 60,
+   "blend": 60,
+   "cap": null,
+   "tier": "G",
+   "pub": 60,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 45,
+   "p": "Franz Wagner 35+ points + rebounds + assists",
+   "player": "Franz Wagner",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 58.4,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov24detorl",
+   "ticker": "KXNBAPRA-26NOV24DETORL-ORLFWAGNER22-35",
+   "bk_exact": true,
+   "stat": "pra",
+   "k": 59.5,
+   "b2b": false,
+   "sys": 67,
+   "n": "Hit 10 of 16 this season, 4 of 5 last 5 (avg 39.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 69,
+    "gemini": 49,
+    "grok": 62,
+    "claude": 70
+   },
+   "why": {
+    "chatgpt": "35+ PRA in eight of his last 10 with Banchero out but Detroit can slow his scoring",
+    "gemini": "High usage without Banchero but 35 PRA is a steep bar",
+    "grok": "Franz Wagner 24.5/6.9/8.3; PRA often 35+",
+    "claude": "November PRA near 43 on 38 minutes"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 67,
+   "blend": 67,
+   "cap": null,
+   "tier": "Y",
+   "pub": 67,
+   "eng": "v8",
+   "spread": 21,
+   "solo": false
+  },
+  {
+   "i": 46,
+   "p": "Cooper Flagg 30+ points + rebounds + assists",
+   "player": "Cooper Flagg",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 81.9,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov24dalden",
+   "ticker": "KXNBAPRA-26NOV24DALDEN-DALCFLAGG32-30",
+   "bk_exact": false,
+   "stat": "pra",
+   "k": 79.5,
+   "b2b": false,
+   "sys": 74,
+   "n": "Hit 12 of 16 this season, 4 of 5 last 5 (avg 37.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 75,
+    "gemini": 72,
+    "grok": 72,
+    "claude": 80
+   },
+   "why": {
+    "chatgpt": "30+ PRA in 12 of 16 and eight of his last 10",
+    "gemini": "Avg 37.0 PRA cleared 30+ in 4 of last 5 games",
+    "grok": "Cooper Flagg PRA; 30+ safer",
+    "claude": "30 sits well under his season PRA"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 74,
+   "blend": 74,
+   "cap": null,
+   "tier": "G",
+   "pub": 74,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 47,
+   "p": "Cade Cunningham 30+ points + rebounds + assists",
+   "player": "Cade Cunningham",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 82.1,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": false,
+   "stat": "pra",
+   "k": null,
+   "b2b": false,
+   "sys": 70,
+   "n": "Hit 10 of 15 this season, 4 of 5 last 5 (avg 37.6).",
+   "rule": null,
+   "fl": "Q",
+   "models": {
+    "chatgpt": 68,
+    "gemini": 74,
+    "grok": 75,
+    "claude": 84
+   },
+   "why": {
+    "chatgpt": "30+ PRA in 10 of 15 and his knee leaves a meaningful shortfall risk",
+    "gemini": "Probable knee avg 37.6 PRA strong floor across 3 cats",
+    "grok": "Cade Cunningham PRA; 30+ strong floor",
+    "claude": "30 is about 8 under his PRA average"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 74,
+   "blend": 74,
+   "cap": null,
+   "tier": "N",
+   "pub": 74,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 48,
+   "p": "Franz Wagner 30+ points + rebounds + assists",
+   "player": "Franz Wagner",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 78.5,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov24detorl",
+   "ticker": "KXNBAPRA-26NOV24DETORL-ORLFWAGNER22-30",
+   "bk_exact": false,
+   "stat": "pra",
+   "k": 77.5,
+   "b2b": false,
+   "sys": 85,
+   "n": "Hit 14 of 16 this season, 5 of 5 last 5 (avg 39.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 88,
+    "gemini": 65,
+    "grok": 78,
+    "claude": 85
+   },
+   "why": {
+    "chatgpt": "30+ PRA in 14 of 16 and all of his last 10 with points and assists both carrying the total",
+    "gemini": "Banchero OUT gives Wagner heavy pts/reb/ast volume",
+    "grok": "Franz Wagner PRA; 30+ very consistent",
+    "claude": "Heavy minutes and full stat line most nights"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 80,
+   "blend": 85,
+   "cap": 80,
+   "tier": "Y",
+   "pub": 80,
+   "eng": "v8",
+   "spread": 23,
+   "solo": false
+  },
+  {
+   "i": 49,
+   "p": "Nikola Jokic 45+ points + rebounds + assists",
+   "player": "Nikola Jokic",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 60.7,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov24dalden",
+   "ticker": "KXNBAPRA-26NOV24DALDEN-DENNJOKIC15-45",
+   "bk_exact": false,
+   "stat": "pra",
+   "k": 63.5,
+   "b2b": false,
+   "sys": 46,
+   "n": "Hit 6 of 15 this season, 2 of 5 last 5 (avg 45.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 51,
+    "gemini": 47,
+    "grok": 68,
+    "claude": 44
+   },
+   "why": {
+    "chatgpt": "45+ PRA in 6 of 15 and five of his last 10 despite a season average of 45.2",
+    "gemini": "Avg 43.7 PRA needs above-average scoring or rebounding",
+    "grok": "Nikola Jokic 25.1/10.9/9.2; PRA ~45 often",
+    "claude": "Season PRA about 43 so 45 sits above the median"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 47,
+   "blend": 47,
+   "cap": null,
+   "tier": "G",
+   "pub": 47,
+   "eng": "v8",
+   "spread": 24,
+   "solo": false
+  },
+  {
+   "i": 50,
+   "p": "Nikola Jokic 40+ points + rebounds + assists",
+   "player": "Nikola Jokic",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 75.5,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": false,
+   "stat": "pra",
+   "k": null,
+   "b2b": false,
+   "sys": 81,
+   "n": "Hit 12 of 15 this season, 5 of 5 last 5 (avg 45.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 83,
+    "gemini": 66,
+    "grok": 82,
+    "claude": 66
+   },
+   "why": {
+    "chatgpt": "40+ PRA in 12 of 15 and all of his last 10",
+    "gemini": "Avg 43.7 PRA cleared 40+ in majority of 2026-27 games",
+    "grok": "Nikola Jokic PRA; 40+ high confidence",
+    "claude": "November PRA near 46 but a few quiet games this season"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 80,
+   "blend": 81,
+   "cap": 80,
+   "tier": "N",
+   "pub": 75,
+   "eng": "v8",
+   "spread": 17,
+   "solo": false
+  },
+  {
+   "i": 51,
+   "p": "Jayson Tatum 35+ points + rebounds + assists",
+   "player": "Jayson Tatum",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 72.3,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov24boswas",
+   "ticker": "KXNBAPRA-26NOV24BOSWAS-BOSJTATUM0-35",
+   "bk_exact": false,
+   "stat": "pra",
+   "k": 71.5,
+   "b2b": false,
+   "sys": 77,
+   "n": "Hit 11 of 15 this season, 5 of 5 last 5 (avg 40.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 73,
+    "gemini": 67,
+    "grok": 58,
+    "claude": 68
+   },
+   "why": {
+    "chatgpt": "35+ PRA in 11 of 15 and Washington has allowed 118.8 points per home game",
+    "gemini": "Q Avg 40.0 PRA (26.4/6.9/6.7) blowout is main risk",
+    "grok": "Jayson Tatum 26.4/6.9/6.7; PRA ~40 avg",
+    "claude": "PRA near 40 but a BOS blowout could cut his 4th quarter"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "35+ modera",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 68,
+   "blend": 68,
+   "cap": null,
+   "tier": "G",
+   "pub": 68,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 52,
+   "p": "Jayson Tatum 30+ points + rebounds + assists",
+   "player": "Jayson Tatum",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 86.1,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": false,
+   "stat": "pra",
+   "k": null,
+   "b2b": false,
+   "sys": 88,
+   "n": "Hit 14 of 15 this season, 5 of 5 last 5 (avg 40.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 90,
+    "gemini": 80,
+    "grok": 75,
+    "claude": 85
+   },
+   "why": {
+    "chatgpt": "30+ PRA in 14 of 15 and each of his last 10",
+    "gemini": "Q Avg 40.0 PRA strong floor even in 30 minutes",
+    "grok": "Jayson Tatum PRA; 30+ reliable",
+    "claude": "30 is a comfortable floor if he plays 30 min"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 80,
+   "blend": 85,
+   "cap": 80,
+   "tier": "N",
+   "pub": 75,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 53,
+   "p": "AJ Dybantsa 25+ points + rebounds + assists",
+   "player": "AJ Dybantsa",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 50.8,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov24boswas",
+   "ticker": "KXNBAPRA-26NOV24BOSWAS-WASADYBANTSA4-25",
+   "bk_exact": true,
+   "stat": "pra",
+   "k": 53.5,
+   "b2b": false,
+   "sys": 64,
+   "n": "Hit 8 of 14 this season, 4 of 5 last 5 (avg 26.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 57,
+    "gemini": 54,
+    "grok": 38,
+    "claude": 38
+   },
+   "why": {
+    "chatgpt": "25+ PRA in 8 of 14 but Boston's slow pace leaves fewer possessions for the rookie",
+    "gemini": "Rookie avg 26.2 PRA (16.5/6.9/2.8) tough BOS defense",
+    "grok": "AJ Dybantsa rookie 16.5/6.9/2.8; PRA ~26",
+    "claude": "Rookie PRA near 23 with Trae and Davis taking touches"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "25+ stretc",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "Dybantsa rookie PRA 25+ faces Celtics length and experience"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "Y",
+   "pub": 54,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 54,
+   "p": "AJ Dybantsa 20+ points + rebounds + assists",
+   "player": "AJ Dybantsa",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 81.7,
+   "ku": "https://kalshi.com/markets/kxnbapra/nba-player-points-rebounds-assists/kxnbapra-26nov24boswas",
+   "ticker": "KXNBAPRA-26NOV24BOSWAS-WASADYBANTSA4-20",
+   "bk_exact": false,
+   "stat": "pra",
+   "k": 76.5,
+   "b2b": false,
+   "sys": 81,
+   "n": "Hit 11 of 14 this season, 5 of 5 last 5 (avg 26.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 77,
+    "gemini": 72,
+    "grok": 62,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "20+ PRA in 11 of 14 and his recent minutes allow several ways to reach it",
+    "gemini": "Rookie avg 26.2 PRA in 34 MPG high minutes floor",
+    "grok": "AJ Dybantsa; 20+ more attainable on minutes",
+    "claude": "Just under his PRA average against a strong BOS D"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 72,
+   "blend": 72,
+   "cap": null,
+   "tier": "G",
+   "pub": 72,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 55,
+   "p": "Ausar Thompson 6+ assists",
+   "player": "Ausar Thompson",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 28.6,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24detorl",
+   "ticker": "KXNBAAST-26NOV24DETORL-DETATHOMPSON9-6",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 30.5,
+   "b2b": false,
+   "sys": 34,
+   "n": "Hit 4 of 15 this season, 1 of 5 last 5 (avg 5.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 30,
+    "gemini": 44,
+    "grok": 55,
+    "claude": 10
+   },
+   "why": {
+    "chatgpt": "6+ assists in 4 of 15 and only twice in his last 10 with Cunningham leading the offense",
+    "gemini": "Avg 13.7 R+A combined but 6+ pure assists is volatile",
+    "grok": "Ausar Thompson 5.3 APG; recent 5/3/4/12/5; playmaking up",
+    "claude": "Averages about 3 ast with Cade running the offense"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Cunningham handles the main reads and Thompson stayed below six assists in 11 of 15"
+    ],
+    [
+     "gemini",
+     "Ausar Thompson rebound+assist total is high but 6+ pure assists is too volatile"
+    ],
+    [
+     "claude",
+     "Ausar averages about 3 ast and Cade holds the ball"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 34,
+   "blend": 34,
+   "cap": null,
+   "tier": "Y",
+   "pub": 34,
+   "eng": "v8",
+   "spread": 45,
+   "solo": false
+  },
+  {
+   "i": 56,
+   "p": "Ausar Thompson 8+ rebounds",
+   "player": "Ausar Thompson",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 54.7,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24detorl",
+   "ticker": "KXNBAREB-26NOV24DETORL-DETATHOMPSON9-8",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 53.5,
+   "b2b": false,
+   "sys": 61,
+   "n": "Hit 9 of 15 this season, 3 of 5 last 5 (avg 8.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 62,
+    "gemini": 56,
+    "grok": 68,
+    "claude": 52
+   },
+   "why": {
+    "chatgpt": "8+ boards in 9 of 15 and averaged 9.2 across his last five Orlando meetings",
+    "gemini": "Duren OUT boosts glass volume for elite rebounding wing",
+    "grok": "Ausar Thompson 8.6 RPG; recent 12/6/7/9/8; strong rebounder",
+    "claude": "Leads DET at 8.6 reb and Duren out helps but range is wide"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 61,
+   "blend": 61,
+   "cap": null,
+   "tier": "Y",
+   "pub": 61,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 57,
+   "p": "AJ Dybantsa 8+ rebounds",
+   "player": "AJ Dybantsa",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 34.7,
+   "ku": "https://kalshi.com/markets/kxnbareb/nba-player-rebounds/kxnbareb-26nov24boswas",
+   "ticker": "KXNBAREB-26NOV24BOSWAS-WASADYBANTSA4-8",
+   "bk_exact": true,
+   "stat": "reb",
+   "k": 33.5,
+   "b2b": false,
+   "sys": 51,
+   "n": "Hit 6 of 14 this season, 3 of 5 last 5 (avg 6.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 48,
+    "gemini": 41,
+    "grok": 48,
+    "claude": 24
+   },
+   "why": {
+    "chatgpt": "8+ boards in 6 of 14 with three straight hits but Davis and Sarr share the glass",
+    "gemini": "Avg 6.9 RPG in 34 MPG BOS is a strong rebounding team",
+    "grok": "AJ Dybantsa 6.9 RPG; recent 8/10/12/5/7; 8+ possible but not base",
+    "claude": "About 6 reb per game so 8 needs a big night"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Dybantsa averages 6.9 RPG and faces a strong Boston rebounding frontcourt"
+    ],
+    [
+     "claude",
+     "Dybantsa averages about 6 reb next to Davis and Sarr"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 24,
+   "solo": false
+  },
+  {
+   "i": 58,
+   "p": "AJ Dybantsa 4+ assists",
+   "player": "AJ Dybantsa",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 36.4,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24boswas",
+   "ticker": "KXNBAAST-26NOV24BOSWAS-WASADYBANTSA4-4",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 35.5,
+   "b2b": false,
+   "sys": 35,
+   "n": "Hit 3 of 14 this season, 2 of 5 last 5 (avg 2.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 31,
+    "gemini": 34,
+    "grok": 42,
+    "claude": 20
+   },
+   "why": {
+    "chatgpt": "4+ assists in only 3 of 14 despite back-to-back games with six",
+    "gemini": "Avg 2.8 APG secondary playmaker behind Trae Young",
+    "grok": "AJ Dybantsa 2.8 APG; recent 6/6/2/3/1; 4+ elevated",
+    "claude": "About 2.3 ast per game"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "low",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Two straight six-assist games obscure 11 misses in 14 appearances"
+    ],
+    [
+     "gemini",
+     "Rookie forward averages only 2.8 APG playing off-ball next to Trae Young"
+    ],
+    [
+     "claude",
+     "Dybantsa is a scorer first at about 2 ast per game"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 34,
+   "blend": 34,
+   "cap": null,
+   "tier": "G",
+   "pub": 34,
+   "eng": "v8",
+   "spread": 22,
+   "solo": false
+  },
+  {
+   "i": 59,
+   "p": "Derrick White 1+ threes",
+   "player": "Derrick White",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 87.9,
+   "ku": "https://kalshi.com/markets/kxnba3pt/nba-player-threes/kxnba3pt-26nov24boswas",
+   "ticker": "KXNBA3PT-26NOV24BOSWAS-BOSDWHITE9-1",
+   "bk_exact": false,
+   "stat": "3pm",
+   "k": 85.5,
+   "b2b": false,
+   "sys": 84,
+   "n": "Hit 15 of 16 this season, 4 of 5 last 5 (avg 1.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 86,
+    "gemini": 86,
+    "grok": 70,
+    "claude": 84
+   },
+   "why": {
+    "chatgpt": "1+ three in 15 of 16 on 6.1 attempts per game",
+    "gemini": "Q High-volume 3PT shooter in Boston offense",
+    "grok": "Derrick White ~1.8 3PM; volume shooter",
+    "claude": "About 1.9 threes per game on steady volume"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "1+ solid, ",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 84,
+   "blend": 84,
+   "cap": null,
+   "tier": "G",
+   "pub": 84,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 60,
+   "p": "Derrick White 2+ threes",
+   "player": "Derrick White",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 62.3,
+   "ku": "https://kalshi.com/markets/kxnba3pt/nba-player-threes/kxnba3pt-26nov24boswas",
+   "ticker": "KXNBA3PT-26NOV24BOSWAS-BOSDWHITE9-2",
+   "bk_exact": true,
+   "stat": "3pm",
+   "k": 63.5,
+   "b2b": false,
+   "sys": 52,
+   "n": "Hit 7 of 16 this season, 3 of 5 last 5 (avg 1.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 48,
+    "gemini": 64,
+    "grok": 45,
+    "claude": 52
+   },
+   "why": {
+    "chatgpt": "2+ threes in just 7 of 16 despite taking 12 attempts Sunday",
+    "gemini": "Q Consistent 3PA volume makes 2+ makes solid value",
+    "grok": "Derrick White 1.8 3PM; 2+ variance on efficiency",
+    "claude": "Near his average and he shoots under 30% from three"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "White made exactly one three in eight games and every one of those loses the 2+ line"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 52,
+   "blend": 52,
+   "cap": null,
+   "tier": "G",
+   "pub": 52,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 61,
+   "p": "DeMar DeRozan under 4 assists",
+   "player": "DeMar DeRozan",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 80.1,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24dalden",
+   "ticker": "KXNBAAST-26NOV24DALDEN-DENDDEROZAN10-4",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 76.0,
+   "b2b": false,
+   "sys": 77,
+   "n": "Stayed under 10 of 14 this season, 5 of 5 last 5 (avg 2.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 76,
+    "gemini": 74,
+    "grok": 72,
+    "claude": 72
+   },
+   "why": {
+    "chatgpt": "0-3 assists in 10 of 14 and each of his last five with Denver",
+    "gemini": "Avg 2.6 APG stayed under 4 ast in 10 of 14 and 5 straight",
+    "grok": "DeMar DeRozan 2.5 APG off bench; recent 1/2/2/1/2; under 4 likely",
+    "claude": "About 2.7 ast in a reduced bench role behind Murray and Jokic"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 74,
+   "blend": 74,
+   "cap": null,
+   "tier": "G",
+   "pub": 74,
+   "eng": "v8",
+   "spread": 4,
+   "solo": false
+  },
+  {
+   "i": 62,
+   "p": "Payton Pritchard 4+ assists",
+   "player": "Payton Pritchard",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 57.7,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24boswas",
+   "ticker": "KXNBAAST-26NOV24BOSWAS-BOSPPRITCHARD11-4",
+   "bk_exact": true,
+   "stat": "ast",
+   "k": 62.5,
+   "b2b": false,
+   "sys": 68,
+   "n": "Hit 11 of 17 this season, 4 of 5 last 5 (avg 4.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 68,
+    "gemini": 55,
+    "grok": 48,
+    "claude": 44
+   },
+   "why": {
+    "chatgpt": "4+ assists in 11 of 17 and eight of his last 10 but his minutes fluctuate",
+    "gemini": "Avg 4.1 APG upside if White sits or game blows out",
+    "grok": "Payton Pritchard secondary ballhandler; 4+ assists stretch role",
+    "claude": "About 3.6 to 3.9 ast but PG DTD could bump his role"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "Pritchard 4+ assists secondary role rarely reaches"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "G",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 24,
+   "solo": false
+  },
+  {
+   "i": 63,
+   "p": "Payton Pritchard 2+ assists",
+   "player": "Payton Pritchard",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "sp": "NBA",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 92.8,
+   "ku": "https://kalshi.com/markets/kxnbaast/nba-player-assists/kxnbaast-26nov24boswas",
+   "ticker": "KXNBAAST-26NOV24BOSWAS-BOSPPRITCHARD11-2",
+   "bk_exact": false,
+   "stat": "ast",
+   "k": 90.5,
+   "b2b": false,
+   "sys": 86,
+   "n": "Hit 15 of 17 this season, 5 of 5 last 5 (avg 4.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 86,
+    "gemini": 84,
+    "grok": 68,
+    "claude": 84
+   },
+   "why": {
+    "chatgpt": "2+ assists in 15 of 17 and nine of his last 10",
+    "gemini": "Avg 4.1 APG in 28 MPG very safe 2-assist floor",
+    "grok": "Payton Pritchard; 2+ more attainable",
+    "claude": "Low line for a ball handler and George may sit"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 84,
+   "blend": 84,
+   "cap": null,
+   "tier": "G",
+   "pub": 84,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  }
+ ],
+ "board": [
+  24,
+  37,
+  9,
+  28,
+  59,
+  63,
+  7,
+  34,
+  40,
+  5,
+  38,
+  48,
+  26,
+  20,
+  21,
+  22,
+  29,
+  50,
+  52,
+  4,
+  46,
+  47,
+  61,
+  8,
+  54,
+  30,
+  10
+ ],
+ "low": [
+  15,
+  33,
+  51,
+  23,
+  45,
+  27,
+  32,
+  41,
+  3,
+  56,
+  44,
+  43,
+  12,
+  2,
+  6,
+  19,
+  62,
+  53,
+  18,
+  39,
+  60,
+  36,
+  1,
+  16,
+  31,
+  25,
+  49,
+  17,
+  42,
+  13,
+  55,
+  58
+ ],
+ "removed": [
+  57,
+  11,
+  35,
+  14
+ ],
+ "nograde": [],
+ "settled": [],
+ "hammer": {
+  "legs": [],
+  "pay": null,
+  "none": "No 2 to 5 legs from different games priced 80-92 cents paid 1.35x or more after fees with a 45%+ hit chance and a profit by our math (3 legs qualified). Passing is a win.",
+  "hit": null,
+  "pay_net": null,
+  "ev": null,
+  "kind": null
+ },
+ "perfect": [
+  {
+   "name": "Safe",
+   "legs": [],
+   "pay": null,
+   "hit": null,
+   "ev": null,
+   "none": "No 2-3-leg combo from different games made +2% after fees at a 55%+ hit chance."
+  },
+  {
+   "name": "Core",
+   "legs": [],
+   "pay": null,
+   "hit": null,
+   "ev": null,
+   "none": "No 3-4-leg combo from different games made +2% after fees at a 40%+ hit chance."
+  },
+  {
+   "name": "Stretch",
+   "legs": [],
+   "pay": null,
+   "hit": null,
+   "ev": null,
+   "none": "No 4-5-leg combo from different games made +2% after fees at a 30%+ hit chance."
+  }
+ ],
+ "split": [
+  31,
+  55,
+  22,
+  18,
+  25,
+  32,
+  42,
+  27,
+  13,
+  26
+ ],
+ "agree": [
+  37,
+  61
+ ],
+ "votes": {
+  "29": 3,
+  "24": 4,
+  "37": 4,
+  "52": 1,
+  "5": 1,
+  "48": 2,
+  "9": 4,
+  "59": 2,
+  "63": 2,
+  "28": 3,
+  "20": 2,
+  "34": 2,
+  "22": 2,
+  "40": 2,
+  "50": 1,
+  "21": 1,
+  "4": 1,
+  "8": 1,
+  "26": 1,
+  "7": 1
+ },
+ "tips": {
+  "chatgpt": [
+   "Show each threshold beside its season and last-10 hit counts so users can see exactly what one extra assist or three costs",
+   "Flag overlapping legs before combining them because Flagg scoring and PRA can both lose on the same short night",
+   "Timestamp the blind grade before revealing prices and track Brier score by market against that saved version"
+  ],
+  "gemini": [
+   "Add an automated injury-status badge (Q/P/OUT) directly next to each leg so bettors immediately see which props carry late-scratch risk before locking tickets",
+   "Display a 10-game hit-rate bar alongside the season average and blowout-risk spread flag on every player prop card",
+   "Group correlated alt-line ladders for the same player into a single expandable row so users can compare hit probability vs payout at a glance"
+  ],
+  "grok": [
+   "Add live injury probability updates with touch redistribution estimates for close props",
+   "Include last-10 hit rates and miss proximity visuals next to each grade",
+   "Show altitude/rest/travel flags automatically for relevant games"
+  ],
+  "claude": [
+   "Show each leg's hit rate on the exact line over the last 10 games and the season next to the model number so users can see the variance at a glance",
+   "Add a correlation warning in the parlay builder when legs depend on the same game script such as a Celtics blowout or two Jokic stat legs",
+   "Push alerts that regrade a leg when a status changes such as Duren or Paul George so users are not betting stale numbers"
+  ]
+ },
+ "fades": {
+  "55": [
+   [
+    "chatgpt",
+    "Cunningham handles the main reads and Thompson stayed below six assists in 11 of 15"
+   ],
+   [
+    "gemini",
+    "Ausar Thompson rebound+assist total is high but 6+ pure assists is too volatile"
+   ],
+   [
+    "claude",
+    "Ausar averages about 3 ast and Cade holds the ball"
+   ]
+  ],
+  "58": [
+   [
+    "chatgpt",
+    "Two straight six-assist games obscure 11 misses in 14 appearances"
+   ],
+   [
+    "gemini",
+    "Rookie forward averages only 2.8 APG playing off-ball next to Trae Young"
+   ],
+   [
+    "claude",
+    "Dybantsa is a scorer first at about 2 ast per game"
+   ]
+  ],
+  "13": [
+   [
+    "chatgpt",
+    "Texas Tech's defense gives Louisville less room to score at a neutral venue"
+   ],
+   [
+    "gemini",
+    "No. 25 Louisville faces a top-5 Texas Tech squad on a neutral floor"
+   ]
+  ],
+  "16": [
+   [
+    "chatgpt",
+    "Detroit's road scoring margin has been stronger than Orlando's home margin"
+   ],
+   [
+    "grok",
+    "Magic frontcourt injuries and Pistons edge make +3.5 tight"
+   ],
+   [
+    "claude",
+    "DET is the far better team and ORL is missing three starters"
+   ]
+  ],
+  "42": [
+   [
+    "chatgpt",
+    "Jokic needed 12 boards and finished with seven or eight in three of his last five"
+   ],
+   [
+    "gemini",
+    "Jokic has cleared 12+ rebounds in only 5 of 14 games this season"
+   ],
+   [
+    "claude",
+    "Jokic's median is closer to 10 or 11 reb than 12"
+   ]
+  ],
+  "1": [
+   [
+    "chatgpt",
+    "Young scored 13 or fewer in four of his last five before facing Boston"
+   ],
+   [
+    "claude",
+    "Trae is shooting 38% and BOS can hold him to single digits like HOU did"
+   ]
+  ],
+  "25": [
+   [
+    "chatgpt",
+    "Queta's starting role produced eight boards in only 6 of 16 appearances overall"
+   ],
+   [
+    "gemini",
+    "Queta plays around 25 MPG and foul trouble or blowout easily caps him at 6-7 boards"
+   ],
+   [
+    "claude",
+    "Queta plays only about 22 min and WAS has Davis and Sarr crashing the boards"
+   ]
+  ],
+  "60": [
+   [
+    "chatgpt",
+    "White made exactly one three in eight games and every one of those loses the 2+ line"
+   ]
+  ],
+  "31": [
+   [
+    "gemini",
+    "Low-minute bench guard role makes 4+ rebounds a low-percentage outlier"
+   ],
+   [
+    "grok",
+    "Jenkins limited role and rebounding volume"
+   ],
+   [
+    "claude",
+    "Jenkins averages under 2 reb so 4 needs an outlier"
+   ]
+  ],
+  "57": [
+   [
+    "gemini",
+    "Dybantsa averages 6.9 RPG and faces a strong Boston rebounding frontcourt"
+   ],
+   [
+    "claude",
+    "Dybantsa averages about 6 reb next to Davis and Sarr"
+   ]
+  ],
+  "17": [
+   [
+    "gemini",
+    "Wizards defense struggles to contain Boston even if Celtics rest starters late"
+   ],
+   [
+    "grok",
+    "Wizards thin roster struggles to cover even with buffer"
+   ]
+  ],
+  "18": [
+   [
+    "grok",
+    "Altitude and Jokic dominance limit Mavericks cover chance"
+   ]
+  ],
+  "27": [
+   [
+    "grok",
+    "Flagg scoring variance vs strong Nuggets defense"
+   ]
+  ],
+  "36": [
+   [
+    "grok",
+    "Cade knee and higher threshold increase miss risk"
+   ]
+  ],
+  "53": [
+   [
+    "grok",
+    "Dybantsa rookie PRA 25+ faces Celtics length and experience"
+   ]
+  ],
+  "62": [
+   [
+    "grok",
+    "Pritchard 4+ assists secondary role rarely reaches"
+   ]
+  ]
+ },
+ "alts": {
+  "chatgpt": [
+   [
+    "2",
+    "Cooper Flagg 4+ assists",
+    82,
+    "Four assists cleared in 14 of 16 compared with 10 of 16 at six"
+   ],
+   [
+    "3",
+    "Paul Reed 6+ rebounds",
+    74,
+    "Two more season games qualify at six and his bench minutes fluctuate"
+   ],
+   [
+    "4",
+    "Jayson Tatum 4+ assists",
+    87,
+    "Two additional games qualify one assist lower"
+   ],
+   [
+    "19",
+    "Derrick White 4+ assists",
+    67,
+    "Two additional games qualify at four"
+   ],
+   [
+    "25",
+    "Neemias Queta 6+ rebounds",
+    79,
+    "Six boards cleared in 12 of 16 compared with 6 of 16 at eight"
+   ],
+   [
+    "27",
+    "Cooper Flagg 15+ points",
+    85,
+    "Four additional games qualify at 15"
+   ],
+   [
+    "36",
+    "Cade Cunningham 20+ points",
+    66,
+    "Three additional games qualify at 20 with knee soreness still relevant"
+   ],
+   [
+    "39",
+    "Nikola Jokic 8+ assists",
+    85,
+    "Eight assists cleared in 13 of 15 compared with 8 of 15 at ten"
+   ],
+   [
+    "42",
+    "Nikola Jokic 10+ rebounds",
+    62,
+    "Two additional games qualify at ten"
+   ],
+   [
+    "45",
+    "Franz Wagner 30+ PRA",
+    88,
+    "All of his last 10 qualify at 30"
+   ],
+   [
+    "49",
+    "Nikola Jokic 40+ PRA",
+    83,
+    "Dropping five adds six qualifying games this season"
+   ],
+   [
+    "51",
+    "Jayson Tatum 30+ PRA",
+    90,
+    "Dropping five adds three qualifying games this season"
+   ],
+   [
+    "53",
+    "AJ Dybantsa 20+ PRA",
+    77,
+    "Three additional games qualify at 20"
+   ],
+   [
+    "60",
+    "Derrick White 1+ threes",
+    86,
+    "Eight single-make games become wins"
+   ],
+   [
+    "62",
+    "Payton Pritchard 2+ assists",
+    86,
+    "Four additional games qualify at two"
+   ]
+  ],
+  "gemini": [
+   [
+    "2",
+    "Cooper Flagg 4+ assists",
+    81,
+    "Drops volatility while keeping a 5-game hit streak intact"
+   ],
+   [
+    "3",
+    "Paul Reed 6+ rebounds",
+    68,
+    "Safer floor below his 6.8 RPG average with Duren out"
+   ],
+   [
+    "19",
+    "Derrick White 4+ assists",
+    67,
+    "Clears his 4.6 APG last-10 trend much more reliably"
+   ],
+   [
+    "36",
+    "Cade Cunningham 20+ points",
+    71,
+    "Avoids Magic defensive ceiling while riding 24.2 PPG average"
+   ],
+   [
+    "39",
+    "Nikola Jokic 8+ assists",
+    74,
+    "Hit in 12 of 14 games compared to 7 of 14 at 10+"
+   ],
+   [
+    "42",
+    "Nikola Jokic 8+ rebounds",
+    76,
+    "Cuts variance sharply from 36% at 12+ to 76% at 8+"
+   ],
+   [
+    "49",
+    "Nikola Jokic 40+ points + rebounds + assists",
+    66,
+    "Sits comfortably below his 43.7 PRA season average"
+   ],
+   [
+    "53",
+    "AJ Dybantsa 20+ points + rebounds + assists",
+    72,
+    "Gives a 6-point cushion under his 26.2 PRA average against Boston"
+   ]
+  ],
+  "grok": [
+   [
+    "1",
+    "Trae Young 15+ points",
+    68,
+    "Lower threshold better matches recent 11-16 range"
+   ],
+   [
+    "2",
+    "Cooper Flagg 4+ assists",
+    78,
+    "Safer floor on 6.4 APG average"
+   ],
+   [
+    "16",
+    "Magic +7.5",
+    58,
+    "Larger number absorbs injury variance better"
+   ],
+   [
+    "27",
+    "Cooper Flagg 15+ points",
+    68,
+    "High-usage player safer on lower line"
+   ],
+   [
+    "36",
+    "Cade Cunningham 20+ points",
+    60,
+    "Reduces knee and variance risk"
+   ],
+   [
+    "53",
+    "AJ Dybantsa 20+ PRA",
+    62,
+    "Better aligns with 16.5 PPG/6.9 RPG/2.8 APG"
+   ]
+  ],
+  "claude": [
+   [
+    "1",
+    "Trae Young 10+ points",
+    80,
+    "Avoids his cold shooting nights while keeping a usable price"
+   ],
+   [
+    "2",
+    "Cooper Flagg 5+ assists",
+    70,
+    "One fewer assist moves this from a coin flip to a solid leg"
+   ],
+   [
+    "3",
+    "Paul Reed 5+ rebounds",
+    76,
+    "Covers the nights he splits center minutes with Collins"
+   ],
+   [
+    "16",
+    "Magic +9.5",
+    66,
+    "Gives room for a normal DET win that is not a blowout"
+   ],
+   [
+    "17",
+    "Wizards +15.5",
+    66,
+    "Keeps cover chances if BOS sits starters late"
+   ],
+   [
+    "19",
+    "Derrick White 3+ assists",
+    80,
+    "Safer floor than 5 with similar usage"
+   ],
+   [
+    "25",
+    "Neemias Queta 5+ rebounds",
+    66,
+    "Matches his limited minutes better than 8"
+   ],
+   [
+    "56",
+    "Ausar Thompson 6+ rebounds",
+    74,
+    "Protects against an off night on the glass"
+   ]
+  ]
+ },
+ "kalshi_ts": "2026-11-24T23:02:11+00:00",
+ "lotto": null,
+ "lotto_none": "No 3 to 8 legs from different games paid 5-10x after fees with +5% or better by our math (3 legs qualified). No lotto beats a forced lotto.",
+ "master_v2": [
+  7,
+  9,
+  24,
+  28,
+  37,
+  59,
+  63
+ ],
+ "merged_at": "15:13 PT"
+}

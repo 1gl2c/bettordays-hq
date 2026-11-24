@@ -96,8 +96,11 @@ V7D['all'] = ALL
 
 # board consts, previous board to history
 pk = PK.lower()
-rep(f"const CUR={PK},CTIX={PK[:2]}TIX,CURD='{pday}';" if f"const CUR={PK},CTIX={PK[:2]}TIX,CURD='{pday}';" in s else re.search(r"const CUR=[^;]*;", s).group(0),
-    f"const {K}={json.dumps(board)};\nconst {K[:2]}TIX={json.dumps(TIX)};\nconst CUR={K},CTIX={K[:2]}TIX,CURD='{day}';")
+# ticket const is named after the full day key (TU24TIX) so two Tuesdays can never clash (Nov 24: TUTIX existed from Nov 17)
+PT = f'{PK}TIX' if f'const {PK}TIX=' in s else f'{PK[:2]}TIX'
+assert f'const {K}TIX=' not in s, f'{K}TIX already exists'
+rep(f"const CUR={PK},CTIX={PT},CURD='{pday}';" if f"const CUR={PK},CTIX={PT},CURD='{pday}';" in s else re.search(r"const CUR=[^;]*;", s).group(0),
+    f"const {K}={json.dumps(board)};\nconst {K}TIX={json.dumps(TIX)};\nconst CUR={K},CTIX={K}TIX,CURD='{day}';")
 s = re.sub(r"const V7D=[^\n]*;\n", lambda m: 'const V7D=' + json.dumps(V7D) + ';\n', s, count=1)
 # why there is no Hammer tonight, for the Tonight hero (empty when there is one)
 hn = 'var HAMNOTE=' + json.dumps('' if H['legs'] else (H['none'] or '')) + ';'
@@ -109,7 +112,7 @@ if m: s = s.replace(m.group(0), '', 1)
 s = s.replace('const V7=', f'const CURCUT={pt.hour}*60+{pt.minute};\nconst V7=', 1)  # posting time, PT: the learning model only uses legs that start after it
 b = s.index("document.getElementById('thuTix').innerHTML=CTIX.map("); a = s.rindex("(function(){const rb=x=>x.r?", 0, b); c = s.index('\n', b) + 1
 blk = s[a:c]; assert 'CURCUT' not in blk
-hist = blk.replace('CURD', f"'{pday}'").replace('CTIX', f'{PK[:2]}TIX').replace('CUR', PK).replace("'thu", f"'{pk}")
+hist = blk.replace('CURD', f"'{pday}'").replace('CTIX', PT).replace('CUR', PK).replace("'thu", f"'{pk}")
 s = s[:c] + hist + s[c:]
 sec = f'''
   <section class="panel" id="{pk}hist">

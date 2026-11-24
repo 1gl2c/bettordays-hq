@@ -1,0 +1,443 @@
+{
+ "1": {
+  "p": "Trae Young 16+ points (over 15.5)",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "2": {
+  "p": "Cooper Flagg 6+ assists (over 5.5)",
+  "k": 59.5,
+  "ev": "KXNBAAST-26NOV24DALDEN",
+  "ticker": "KXNBAAST-26NOV24DALDEN-DALCFLAGG32-6",
+  "note": ""
+ },
+ "3": {
+  "p": "Paul Reed 7+ rebounds (over 6.5)",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "4": {
+  "p": "Jayson Tatum 5+ assists (over 4.5)",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "5": {
+  "p": "Wendell Carter Jr. 6+ rebounds (over 5.5)",
+  "k": 77.5,
+  "ev": "KXNBAREB-26NOV24DETORL",
+  "ticker": "KXNBAREB-26NOV24DETORL-ORLWCARTER34-6",
+  "note": ""
+ },
+ "6": {
+  "p": "Trae Young 15+ points",
+  "k": 48.5,
+  "ev": "KXNBAPTS-26NOV24BOSWAS",
+  "ticker": "KXNBAPTS-26NOV24BOSWAS-WASTYOUNG3-15",
+  "note": ""
+ },
+ "7": {
+  "p": "Cooper Flagg 4+ assists",
+  "k": 85.5,
+  "ev": "KXNBAAST-26NOV24DALDEN",
+  "ticker": "KXNBAAST-26NOV24DALDEN-DALCFLAGG32-4",
+  "note": ""
+ },
+ "8": {
+  "p": "Paul Reed 6+ rebounds",
+  "k": 65.5,
+  "ev": "KXNBAREB-26NOV24DETORL",
+  "ticker": "KXNBAREB-26NOV24DETORL-DETPREED7-6",
+  "note": ""
+ },
+ "9": {
+  "p": "Jayson Tatum 4+ assists",
+  "k": 87.5,
+  "ev": "KXNBAAST-26NOV24BOSWAS",
+  "ticker": "KXNBAAST-26NOV24BOSWAS-BOSJTATUM0-4",
+  "note": ""
+ },
+ "10": {
+  "p": "Franz Wagner 6+ rebounds",
+  "k": 62.5,
+  "ev": "KXNBAREB-26NOV24DETORL",
+  "ticker": "KXNBAREB-26NOV24DETORL-ORLFWAGNER22-6",
+  "note": ""
+ },
+ "11": {
+  "p": "Franz Wagner 6+ assists",
+  "k": 63.5,
+  "ev": "KXNBAAST-26NOV24DETORL",
+  "ticker": "KXNBAAST-26NOV24DETORL-ORLFWAGNER22-6",
+  "note": ""
+ },
+ "12": {
+  "p": "Penn ML v Drexel",
+  "k": 69.5,
+  "ev": "KXNCAAMBGAME-26NOV24DREXPENN",
+  "ticker": "KXNCAAMBGAME-26NOV24DREXPENN-PENN",
+  "note": ""
+ },
+ "13": {
+  "p": "Louisville ML v Texas Tech",
+  "k": 43.5,
+  "ev": "KXNCAAMBGAME-26NOV24LOUTTU",
+  "ticker": "KXNCAAMBGAME-26NOV24LOUTTU-LOU",
+  "note": ""
+ },
+ "14": {
+  "p": "Alabama ML v Baylor",
+  "k": 52.5,
+  "ev": "KXNCAAMBGAME-26NOV24BAYALA",
+  "ticker": "KXNCAAMBGAME-26NOV24BAYALA-ALA",
+  "note": ""
+ },
+ "15": {
+  "p": "St. John's ML v Oregon",
+  "k": 84.5,
+  "ev": "KXNCAAMBGAME-26NOV24SJUORE",
+  "ticker": "KXNCAAMBGAME-26NOV24SJUORE-SJU",
+  "note": ""
+ },
+ "16": {
+  "p": "Magic +3.5 v Pistons",
+  "k": 54.5,
+  "ev": "KXNBASPREAD-26NOV24DETORL",
+  "ticker": "KXNBASPREAD-26NOV24DETORL-DET4",
+  "note": ""
+ },
+ "17": {
+  "p": "Wizards +10.5 v Celtics",
+  "k": 47.5,
+  "ev": "KXNBASPREAD-26NOV24BOSWAS",
+  "ticker": "KXNBASPREAD-26NOV24BOSWAS-BOS11",
+  "note": ""
+ },
+ "18": {
+  "p": "Mavericks +9.5 at Nuggets",
+  "k": 54.5,
+  "ev": "KXNBASPREAD-26NOV24DALDEN",
+  "ticker": "KXNBASPREAD-26NOV24DALDEN-DEN10",
+  "note": ""
+ },
+ "19": {
+  "p": "Derrick White 5+ assists (over 4.5)",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "20": {
+  "p": "Magic +15 v Pistons",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "whole-number spread can push; Kalshi lists only .5 lines"
+ },
+ "21": {
+  "p": "Wizards +20 v Celtics",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "whole-number spread can push; Kalshi lists only .5 lines"
+ },
+ "22": {
+  "p": "Mavericks +19.5 at Nuggets",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "0 spread markets"
+ },
+ "23": {
+  "p": "Derrick White 4+ assists",
+  "k": 69.0,
+  "ev": "KXNBAAST-26NOV24BOSWAS",
+  "ticker": "KXNBAAST-26NOV24BOSWAS-BOSDWHITE9-4",
+  "note": ""
+ },
+ "24": {
+  "p": "Derrick White 2+ assists",
+  "k": 94.5,
+  "ev": "KXNBAAST-26NOV24BOSWAS",
+  "ticker": "KXNBAAST-26NOV24BOSWAS-BOSDWHITE9-2",
+  "note": ""
+ },
+ "25": {
+  "p": "Neemias Queta 8+ rebounds",
+  "k": 64.0,
+  "ev": "KXNBAREB-26NOV24BOSWAS",
+  "ticker": "KXNBAREB-26NOV24BOSWAS-BOSNQUETA88-8",
+  "note": ""
+ },
+ "26": {
+  "p": "Neemias Queta 6+ rebounds",
+  "k": 83.5,
+  "ev": "KXNBAREB-26NOV24BOSWAS",
+  "ticker": "KXNBAREB-26NOV24BOSWAS-BOSNQUETA88-6",
+  "note": ""
+ },
+ "27": {
+  "p": "Cooper Flagg 20+ points",
+  "k": 71.5,
+  "ev": "KXNBAPTS-26NOV24DALDEN",
+  "ticker": "KXNBAPTS-26NOV24DALDEN-DALCFLAGG32-20",
+  "note": ""
+ },
+ "28": {
+  "p": "Cooper Flagg 15+ points",
+  "k": 88.5,
+  "ev": "KXNBAPTS-26NOV24DALDEN",
+  "ticker": "KXNBAPTS-26NOV24DALDEN-DALCFLAGG32-15",
+  "note": ""
+ },
+ "29": {
+  "p": "Cooper Flagg 10+ points",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "30": {
+  "p": "Franz Wagner 20+ points",
+  "k": 68.5,
+  "ev": "KXNBAPTS-26NOV24DETORL",
+  "ticker": "KXNBAPTS-26NOV24DETORL-ORLFWAGNER22-20",
+  "note": ""
+ },
+ "31": {
+  "p": "Daniss Jenkins 4+ rebounds",
+  "k": 58.0,
+  "ev": "KXNBAREB-26NOV24DETORL",
+  "ticker": "KXNBAREB-26NOV24DETORL-DETDJENKINS24-4",
+  "note": ""
+ },
+ "32": {
+  "p": "Daniss Jenkins 2+ rebounds",
+  "k": 90.0,
+  "ev": "KXNBAREB-26NOV24DETORL",
+  "ticker": "KXNBAREB-26NOV24DETORL-DETDJENKINS24-2",
+  "note": ""
+ },
+ "33": {
+  "p": "Cade Cunningham 20+ points",
+  "k": 72.5,
+  "ev": "KXNBAPTS-26NOV24DETORL",
+  "ticker": "KXNBAPTS-26NOV24DETORL-DETCCUNNINGHAM2-20",
+  "note": ""
+ },
+ "34": {
+  "p": "Cade Cunningham 15+ points",
+  "k": 89.0,
+  "ev": "KXNBAPTS-26NOV24DETORL",
+  "ticker": "KXNBAPTS-26NOV24DETORL-DETCCUNNINGHAM2-15",
+  "note": ""
+ },
+ "35": {
+  "p": "Cade Cunningham 4+ rebounds",
+  "k": 67.5,
+  "ev": "KXNBAREB-26NOV24DETORL",
+  "ticker": "KXNBAREB-26NOV24DETORL-DETCCUNNINGHAM2-4",
+  "note": ""
+ },
+ "36": {
+  "p": "Cade Cunningham 25+ points",
+  "k": 50.5,
+  "ev": "KXNBAPTS-26NOV24DETORL",
+  "ticker": "KXNBAPTS-26NOV24DETORL-DETCCUNNINGHAM2-25",
+  "note": ""
+ },
+ "37": {
+  "p": "Nikola Jokic 6+ assists",
+  "k": 89.5,
+  "ev": "KXNBAAST-26NOV24DALDEN",
+  "ticker": "KXNBAAST-26NOV24DALDEN-DENNJOKIC15-6",
+  "note": ""
+ },
+ "38": {
+  "p": "Nikola Jokic 8+ assists",
+  "k": 74.5,
+  "ev": "KXNBAAST-26NOV24DALDEN",
+  "ticker": "KXNBAAST-26NOV24DALDEN-DENNJOKIC15-8",
+  "note": ""
+ },
+ "39": {
+  "p": "Nikola Jokic 10+ assists",
+  "k": 51.5,
+  "ev": "KXNBAAST-26NOV24DALDEN",
+  "ticker": "KXNBAAST-26NOV24DALDEN-DENNJOKIC15-10",
+  "note": ""
+ },
+ "40": {
+  "p": "Nikola Jokic 8+ rebounds",
+  "k": 87.5,
+  "ev": "KXNBAREB-26NOV24DALDEN",
+  "ticker": "KXNBAREB-26NOV24DALDEN-DENNJOKIC15-8",
+  "note": ""
+ },
+ "41": {
+  "p": "Nikola Jokic 10+ rebounds",
+  "k": 73.5,
+  "ev": "KXNBAREB-26NOV24DALDEN",
+  "ticker": "KXNBAREB-26NOV24DALDEN-DENNJOKIC15-10",
+  "note": ""
+ },
+ "42": {
+  "p": "Nikola Jokic 12+ rebounds",
+  "k": 53.5,
+  "ev": "KXNBAREB-26NOV24DALDEN",
+  "ticker": "KXNBAREB-26NOV24DALDEN-DENNJOKIC15-12",
+  "note": ""
+ },
+ "43": {
+  "p": "Cooper Flagg 35+ points + rebounds + assists",
+  "k": 62.5,
+  "ev": "KXNBAPRA-26NOV24DALDEN",
+  "ticker": "KXNBAPRA-26NOV24DALDEN-DALCFLAGG32-35",
+  "note": ""
+ },
+ "44": {
+  "p": "Cade Cunningham 35+ points + rebounds + assists",
+  "k": 64.0,
+  "ev": "KXNBAPRA-26NOV24DETORL",
+  "ticker": "KXNBAPRA-26NOV24DETORL-DETCCUNNINGHAM2-35",
+  "note": ""
+ },
+ "45": {
+  "p": "Franz Wagner 35+ points + rebounds + assists",
+  "k": 59.5,
+  "ev": "KXNBAPRA-26NOV24DETORL",
+  "ticker": "KXNBAPRA-26NOV24DETORL-ORLFWAGNER22-35",
+  "note": ""
+ },
+ "46": {
+  "p": "Cooper Flagg 30+ points + rebounds + assists",
+  "k": 79.5,
+  "ev": "KXNBAPRA-26NOV24DALDEN",
+  "ticker": "KXNBAPRA-26NOV24DALDEN-DALCFLAGG32-30",
+  "note": ""
+ },
+ "47": {
+  "p": "Cade Cunningham 30+ points + rebounds + assists",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "48": {
+  "p": "Franz Wagner 30+ points + rebounds + assists",
+  "k": 77.5,
+  "ev": "KXNBAPRA-26NOV24DETORL",
+  "ticker": "KXNBAPRA-26NOV24DETORL-ORLFWAGNER22-30",
+  "note": ""
+ },
+ "49": {
+  "p": "Nikola Jokic 45+ points + rebounds + assists",
+  "k": 63.5,
+  "ev": "KXNBAPRA-26NOV24DALDEN",
+  "ticker": "KXNBAPRA-26NOV24DALDEN-DENNJOKIC15-45",
+  "note": ""
+ },
+ "50": {
+  "p": "Nikola Jokic 40+ points + rebounds + assists",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "51": {
+  "p": "Jayson Tatum 35+ points + rebounds + assists",
+  "k": 71.5,
+  "ev": "KXNBAPRA-26NOV24BOSWAS",
+  "ticker": "KXNBAPRA-26NOV24BOSWAS-BOSJTATUM0-35",
+  "note": ""
+ },
+ "52": {
+  "p": "Jayson Tatum 30+ points + rebounds + assists",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "53": {
+  "p": "AJ Dybantsa 25+ points + rebounds + assists",
+  "k": 53.5,
+  "ev": "KXNBAPRA-26NOV24BOSWAS",
+  "ticker": "KXNBAPRA-26NOV24BOSWAS-WASADYBANTSA4-25",
+  "note": ""
+ },
+ "54": {
+  "p": "AJ Dybantsa 20+ points + rebounds + assists",
+  "k": 76.5,
+  "ev": "KXNBAPRA-26NOV24BOSWAS",
+  "ticker": "KXNBAPRA-26NOV24BOSWAS-WASADYBANTSA4-20",
+  "note": ""
+ },
+ "55": {
+  "p": "Ausar Thompson 6+ assists",
+  "k": 30.5,
+  "ev": "KXNBAAST-26NOV24DETORL",
+  "ticker": "KXNBAAST-26NOV24DETORL-DETATHOMPSON9-6",
+  "note": ""
+ },
+ "56": {
+  "p": "Ausar Thompson 8+ rebounds",
+  "k": 53.5,
+  "ev": "KXNBAREB-26NOV24DETORL",
+  "ticker": "KXNBAREB-26NOV24DETORL-DETATHOMPSON9-8",
+  "note": ""
+ },
+ "57": {
+  "p": "AJ Dybantsa 8+ rebounds",
+  "k": 33.5,
+  "ev": "KXNBAREB-26NOV24BOSWAS",
+  "ticker": "KXNBAREB-26NOV24BOSWAS-WASADYBANTSA4-8",
+  "note": ""
+ },
+ "58": {
+  "p": "AJ Dybantsa 4+ assists",
+  "k": 35.5,
+  "ev": "KXNBAAST-26NOV24BOSWAS",
+  "ticker": "KXNBAAST-26NOV24BOSWAS-WASADYBANTSA4-4",
+  "note": ""
+ },
+ "59": {
+  "p": "Derrick White 1+ threes",
+  "k": 85.5,
+  "ev": "KXNBA3PT-26NOV24BOSWAS",
+  "ticker": "KXNBA3PT-26NOV24BOSWAS-BOSDWHITE9-1",
+  "note": ""
+ },
+ "60": {
+  "p": "Derrick White 2+ threes",
+  "k": 63.5,
+  "ev": "KXNBA3PT-26NOV24BOSWAS",
+  "ticker": "KXNBA3PT-26NOV24BOSWAS-BOSDWHITE9-2",
+  "note": ""
+ },
+ "61": {
+  "p": "DeMar DeRozan under 4 assists",
+  "k": 76.0,
+  "ev": "KXNBAAST-26NOV24DALDEN",
+  "ticker": "KXNBAAST-26NOV24DALDEN-DENDDEROZAN10-4",
+  "note": ""
+ },
+ "62": {
+  "p": "Payton Pritchard 4+ assists",
+  "k": 62.5,
+  "ev": "KXNBAAST-26NOV24BOSWAS",
+  "ticker": "KXNBAAST-26NOV24BOSWAS-BOSPPRITCHARD11-4",
+  "note": ""
+ },
+ "63": {
+  "p": "Payton Pritchard 2+ assists",
+  "k": 90.5,
+  "ev": "KXNBAAST-26NOV24BOSWAS",
+  "ticker": "KXNBAAST-26NOV24BOSWAS-BOSPPRITCHARD11-2",
+  "note": ""
+ }
+}

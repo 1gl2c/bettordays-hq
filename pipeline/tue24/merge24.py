@@ -100,7 +100,7 @@ fresh = [l for l in board if l.get('fl') not in ('LIVE', 'DONE') and not l.get('
 # Nov 23 rule (ledger: Kalshi 70-79 cents hit 69% on 98 legs, under the 74-cent price): a 70-79 leg rides the Hammer only when the books price it higher than Kalshi
 fresh = [l for l in fresh if not (l['k'] is not None and 70 <= l['k'] < 80) or (l['bk'] is not None and l['bk'] > l['k'])]
 # Nov 24 rules (ledger, Nov 16-23): NBA moneylines at Kalshi 80+ went 3-3, so no moneylines on the Hammer; rebounds at 80+ hit 81% vs an 84 price, so a rebound leg needs the books above Kalshi
-fresh = [l for l in fresh if l['ty'] != 'ml' and ('rebound' not in l['p'].lower() or (l['bk'] is not None and l['bk'] > l['k']))]
+fresh = [l for l in fresh if l['ty'] != 'ml' and ('rebound' not in l['p'].lower() or (l['bk'] is not None and l['k'] is not None and l['bk'] > l['k']))]
 open_all = [l for l in pubd if l.get('fl') not in ('LIVE', 'DONE') and not l.get('solo') and l['sp'] not in ('UFC', 'TENNIS', 'NHL') and len(l['fade']) < 2]
 lot, lot_why = lotto(open_all)
 ms2 = [l['i'] for l in pubd if master_v2(l)]
