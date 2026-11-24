@@ -85,6 +85,14 @@ lite = lambda l: {'p': l['p'], 'g': l['g'], 't': l['t'], 'k': l['k'], 'med': l['
 V7D = {'d': day, 'label': label, 'models': M['models'], 'rm': [lite(L[i]) for i in M['removed']],
        'perf': [perf_out(t) for t in M['perfect']], 'agree': [lite(L[i]) for i in M['agree']],
        'split': [lite(L[i]) for i in M['split']], 'tips': tips2[:5]}
+# full grade sheet (every leg, under 70 included) for the Research page filters; every day, not a one-off patch (Nov 23)
+place = {**{i: 'board' for i in M['board']}, **{i: 'under 70' for i in M['low']}, **{i: 'removed' for i in M['removed']}, **{i: 'no grade' for i in M.get('nograde', [])}}
+ALL = [{'p': l['p'], 'g': l['g'], 't': l['t'], 'k': l['k'], 'sys': l.get('sys'), 'ms': l['models'], 'pub': l['pub'], 'tier': l['tier'], 'pl': place.get(l['i'], ''),
+        'rule': bool(l.get('rule')), 'fl': l.get('fl') or '', 'eng': 'v8' if (l.get('eng') or '').startswith('v8') else 'v7',
+        'why': next((x for x in (l.get('why') or {}).values() if x), ''), 'fade': len(l.get('fade') or []), 'sp': l.get('sp', ''),
+        **({'bk': round(l['bk'])} if l.get('bk') is not None else {}), **({'ku': l['ku']} if l.get('ku') else {})} for l in M['legs']]
+ALL.sort(key=lambda x: (x['pub'] is None, -(x['pub'] or 0)))
+V7D['all'] = ALL
 
 # board consts, previous board to history
 pk = PK.lower()
