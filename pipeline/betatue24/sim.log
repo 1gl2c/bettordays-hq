@@ -1,0 +1,8 @@
+lines 70 games 3 priced at 2026-11-24T23:03:22+00:00
+Tristan da Silva 10 points -127 ask 0.56 BE 57.7 sim 75.1 ± 1.4 edge 17.4 n 14 11 / 14 L5 4 move 0.0 DET@ORL
+Zaccharie Risacher 4 rebounds -113 ask 0.53 BE 54.7 sim 71.4 ± 1.4 edge 16.7 n 17 13 / 17 L5 3 move 0.0 DAL@DEN
+Jalen Suggs 4 rebounds -150 ask 0.6 BE 61.7 sim 75.9 ± 1.4 edge 14.2 n 8 6 / 8 L5 4 move 0.0 DET@ORL
+Bilal Coulibaly 4 rebounds +100 ask 0.5 BE 51.7 sim 65.1 ± 1.5 edge 13.4 n 17 11 / 17 L5 3 move 0.0 BOS@WSH
+Sam Hauser 2 threes -150 ask 0.6 BE 61.7 sim 75.1 ± 1.4 edge 13.4 n 17 13 / 17 L5 4 move 0.0 BOS@WSH
+Daniel Gafford 2 assists -122 ask 0.55 BE 56.7 sim 67.0 ± 1.5 edge 10.3 n 17 11 / 17 L5 4 move 0.0 DAL@DEN
+lines with sim >= break-even: 26 of 70  avg edge -1.4

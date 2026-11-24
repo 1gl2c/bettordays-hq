@@ -1,0 +1,608 @@
+[
+ {
+  "p": "Trae Young 16+ points (over 15.5)",
+  "player": "Trae Young",
+  "team": "WSH",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Cooper Flagg 6+ assists (over 5.5)",
+  "player": "Cooper Flagg",
+  "team": "DAL",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Paul Reed 7+ rebounds (over 6.5)",
+  "player": "Paul Reed",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Jayson Tatum 5+ assists (over 4.5)",
+  "player": "Jayson Tatum",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Wendell Carter Jr. 6+ rebounds (over 5.5)",
+  "player": "Wendell Carter Jr.",
+  "team": "ORL",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Trae Young 15+ points",
+  "player": "Trae Young",
+  "team": "WSH",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Cooper Flagg 4+ assists",
+  "player": "Cooper Flagg",
+  "team": "DAL",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Paul Reed 6+ rebounds",
+  "player": "Paul Reed",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Jayson Tatum 4+ assists",
+  "player": "Jayson Tatum",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Franz Wagner 6+ rebounds",
+  "player": "Franz Wagner",
+  "team": "ORL",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Franz Wagner 6+ assists",
+  "player": "Franz Wagner",
+  "team": "ORL",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Penn ML v Drexel",
+  "g": "DREX@PENN",
+  "t": "5:00",
+  "sp": "CBB",
+  "mkt": "ml"
+ },
+ {
+  "p": "Louisville ML v Texas Tech",
+  "g": "TTU@LOU",
+  "t": "5:00",
+  "sp": "CBB",
+  "mkt": "ml"
+ },
+ {
+  "p": "Alabama ML v Baylor",
+  "g": "BAY@ALA",
+  "t": "7:00",
+  "sp": "CBB",
+  "mkt": "ml"
+ },
+ {
+  "p": "St. John's ML v Oregon",
+  "g": "ORE@SJU",
+  "t": "7:30",
+  "sp": "CBB",
+  "mkt": "ml"
+ },
+ {
+  "p": "Magic +3.5 v Pistons",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "spread",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Wizards +10.5 v Celtics",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "spread",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Mavericks +9.5 at Nuggets",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "spread",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Derrick White 5+ assists (over 4.5)",
+  "player": "Derrick White",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Magic +15 v Pistons",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "spread",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Wizards +20 v Celtics",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "spread",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Mavericks +19.5 at Nuggets",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "spread",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Derrick White 4+ assists",
+  "player": "Derrick White",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Derrick White 2+ assists",
+  "player": "Derrick White",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Neemias Queta 8+ rebounds",
+  "player": "Neemias Queta",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Neemias Queta 6+ rebounds",
+  "player": "Neemias Queta",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Cooper Flagg 20+ points",
+  "player": "Cooper Flagg",
+  "team": "DAL",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Cooper Flagg 15+ points",
+  "player": "Cooper Flagg",
+  "team": "DAL",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Cooper Flagg 10+ points",
+  "player": "Cooper Flagg",
+  "team": "DAL",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Franz Wagner 20+ points",
+  "player": "Franz Wagner",
+  "team": "ORL",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Daniss Jenkins 4+ rebounds",
+  "player": "Daniss Jenkins",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Daniss Jenkins 2+ rebounds",
+  "player": "Daniss Jenkins",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Cade Cunningham 20+ points",
+  "player": "Cade Cunningham",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Cade Cunningham 15+ points",
+  "player": "Cade Cunningham",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Cade Cunningham 4+ rebounds",
+  "player": "Cade Cunningham",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Cade Cunningham 25+ points",
+  "player": "Cade Cunningham",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pts",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Nikola Jokic 6+ assists",
+  "player": "Nikola Jokic",
+  "team": "DEN",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Nikola Jokic 8+ assists",
+  "player": "Nikola Jokic",
+  "team": "DEN",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Nikola Jokic 10+ assists",
+  "player": "Nikola Jokic",
+  "team": "DEN",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Nikola Jokic 8+ rebounds",
+  "player": "Nikola Jokic",
+  "team": "DEN",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Nikola Jokic 10+ rebounds",
+  "player": "Nikola Jokic",
+  "team": "DEN",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Nikola Jokic 12+ rebounds",
+  "player": "Nikola Jokic",
+  "team": "DEN",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Cooper Flagg 35+ points + rebounds + assists",
+  "player": "Cooper Flagg",
+  "team": "DAL",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Cade Cunningham 35+ points + rebounds + assists",
+  "player": "Cade Cunningham",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Franz Wagner 35+ points + rebounds + assists",
+  "player": "Franz Wagner",
+  "team": "ORL",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Cooper Flagg 30+ points + rebounds + assists",
+  "player": "Cooper Flagg",
+  "team": "DAL",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Cade Cunningham 30+ points + rebounds + assists",
+  "player": "Cade Cunningham",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Franz Wagner 30+ points + rebounds + assists",
+  "player": "Franz Wagner",
+  "team": "ORL",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Nikola Jokic 45+ points + rebounds + assists",
+  "player": "Nikola Jokic",
+  "team": "DEN",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Nikola Jokic 40+ points + rebounds + assists",
+  "player": "Nikola Jokic",
+  "team": "DEN",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Jayson Tatum 35+ points + rebounds + assists",
+  "player": "Jayson Tatum",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Jayson Tatum 30+ points + rebounds + assists",
+  "player": "Jayson Tatum",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "AJ Dybantsa 25+ points + rebounds + assists",
+  "player": "AJ Dybantsa",
+  "team": "WSH",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "AJ Dybantsa 20+ points + rebounds + assists",
+  "player": "AJ Dybantsa",
+  "team": "WSH",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "pra",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Ausar Thompson 6+ assists",
+  "player": "Ausar Thompson",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "Ausar Thompson 8+ rebounds",
+  "player": "Ausar Thompson",
+  "team": "DET",
+  "g": "DET@ORL",
+  "t": "4:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T00:00Z"
+ },
+ {
+  "p": "AJ Dybantsa 8+ rebounds",
+  "player": "AJ Dybantsa",
+  "team": "WSH",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "reb",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "AJ Dybantsa 4+ assists",
+  "player": "AJ Dybantsa",
+  "team": "WSH",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Derrick White 1+ threes",
+  "player": "Derrick White",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "3pm",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Derrick White 2+ threes",
+  "player": "Derrick White",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "3pm",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "DeMar DeRozan under 4 assists",
+  "player": "DeMar DeRozan",
+  "team": "DEN",
+  "g": "DAL@DEN",
+  "t": "7:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T03:00Z"
+ },
+ {
+  "p": "Payton Pritchard 4+ assists",
+  "player": "Payton Pritchard",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T01:00Z"
+ },
+ {
+  "p": "Payton Pritchard 2+ assists",
+  "player": "Payton Pritchard",
+  "team": "BOS",
+  "g": "BOS@WSH",
+  "t": "5:00",
+  "sp": "NBA",
+  "mkt": "ast",
+  "start": "2026-11-25T01:00Z"
+ }
+]

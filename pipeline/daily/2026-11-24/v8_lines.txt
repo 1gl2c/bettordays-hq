@@ -1,0 +1,63 @@
+1 | Trae Young 16+ points (over 15.5) | NBA BOS@WSH 5:00 PM PT | market: pts
+2 | Cooper Flagg 6+ assists (over 5.5) | NBA DAL@DEN 7:00 PM PT | market: ast
+3 | Paul Reed 7+ rebounds (over 6.5) | NBA DET@ORL 4:00 PM PT | market: reb
+4 | Jayson Tatum 5+ assists (over 4.5) | NBA BOS@WSH 5:00 PM PT | market: ast
+5 | Wendell Carter Jr. 6+ rebounds (over 5.5) | NBA DET@ORL 4:00 PM PT | market: reb
+6 | Trae Young 15+ points | NBA BOS@WSH 5:00 PM PT | market: pts
+7 | Cooper Flagg 4+ assists | NBA DAL@DEN 7:00 PM PT | market: ast
+8 | Paul Reed 6+ rebounds | NBA DET@ORL 4:00 PM PT | market: reb
+9 | Jayson Tatum 4+ assists | NBA BOS@WSH 5:00 PM PT | market: ast
+10 | Franz Wagner 6+ rebounds | NBA DET@ORL 4:00 PM PT | market: reb
+11 | Franz Wagner 6+ assists | NBA DET@ORL 4:00 PM PT | market: ast
+12 | Penn ML v Drexel | CBB DREX@PENN 5:00 PM PT | market: ml
+13 | Louisville ML v Texas Tech | CBB TTU@LOU 5:00 PM PT | market: ml
+14 | Alabama ML v Baylor | CBB BAY@ALA 7:00 PM PT | market: ml
+15 | St. John's ML v Oregon | CBB ORE@SJU 7:30 PM PT | market: ml
+16 | Magic +3.5 v Pistons | NBA DET@ORL 4:00 PM PT | market: spread
+17 | Wizards +10.5 v Celtics | NBA BOS@WSH 5:00 PM PT | market: spread
+18 | Mavericks +9.5 at Nuggets | NBA DAL@DEN 7:00 PM PT | market: spread
+19 | Derrick White 5+ assists (over 4.5) | NBA BOS@WSH 5:00 PM PT | market: ast
+20 | Magic +15 v Pistons | NBA DET@ORL 4:00 PM PT | market: spread
+21 | Wizards +20 v Celtics | NBA BOS@WSH 5:00 PM PT | market: spread
+22 | Mavericks +19.5 at Nuggets | NBA DAL@DEN 7:00 PM PT | market: spread
+23 | Derrick White 4+ assists | NBA BOS@WSH 5:00 PM PT | market: ast
+24 | Derrick White 2+ assists | NBA BOS@WSH 5:00 PM PT | market: ast
+25 | Neemias Queta 8+ rebounds | NBA BOS@WSH 5:00 PM PT | market: reb
+26 | Neemias Queta 6+ rebounds | NBA BOS@WSH 5:00 PM PT | market: reb
+27 | Cooper Flagg 20+ points | NBA DAL@DEN 7:00 PM PT | market: pts
+28 | Cooper Flagg 15+ points | NBA DAL@DEN 7:00 PM PT | market: pts
+29 | Cooper Flagg 10+ points | NBA DAL@DEN 7:00 PM PT | market: pts
+30 | Franz Wagner 20+ points | NBA DET@ORL 4:00 PM PT | market: pts
+31 | Daniss Jenkins 4+ rebounds | NBA DET@ORL 4:00 PM PT | market: reb
+32 | Daniss Jenkins 2+ rebounds | NBA DET@ORL 4:00 PM PT | market: reb
+33 | Cade Cunningham 20+ points | NBA DET@ORL 4:00 PM PT | market: pts
+34 | Cade Cunningham 15+ points | NBA DET@ORL 4:00 PM PT | market: pts
+35 | Cade Cunningham 4+ rebounds | NBA DET@ORL 4:00 PM PT | market: reb
+36 | Cade Cunningham 25+ points | NBA DET@ORL 4:00 PM PT | market: pts
+37 | Nikola Jokic 6+ assists | NBA DAL@DEN 7:00 PM PT | market: ast
+38 | Nikola Jokic 8+ assists | NBA DAL@DEN 7:00 PM PT | market: ast
+39 | Nikola Jokic 10+ assists | NBA DAL@DEN 7:00 PM PT | market: ast
+40 | Nikola Jokic 8+ rebounds | NBA DAL@DEN 7:00 PM PT | market: reb
+41 | Nikola Jokic 10+ rebounds | NBA DAL@DEN 7:00 PM PT | market: reb
+42 | Nikola Jokic 12+ rebounds | NBA DAL@DEN 7:00 PM PT | market: reb
+43 | Cooper Flagg 35+ points + rebounds + assists | NBA DAL@DEN 7:00 PM PT | market: pra
+44 | Cade Cunningham 35+ points + rebounds + assists | NBA DET@ORL 4:00 PM PT | market: pra
+45 | Franz Wagner 35+ points + rebounds + assists | NBA DET@ORL 4:00 PM PT | market: pra
+46 | Cooper Flagg 30+ points + rebounds + assists | NBA DAL@DEN 7:00 PM PT | market: pra
+47 | Cade Cunningham 30+ points + rebounds + assists | NBA DET@ORL 4:00 PM PT | market: pra
+48 | Franz Wagner 30+ points + rebounds + assists | NBA DET@ORL 4:00 PM PT | market: pra
+49 | Nikola Jokic 45+ points + rebounds + assists | NBA DAL@DEN 7:00 PM PT | market: pra
+50 | Nikola Jokic 40+ points + rebounds + assists | NBA DAL@DEN 7:00 PM PT | market: pra
+51 | Jayson Tatum 35+ points + rebounds + assists | NBA BOS@WSH 5:00 PM PT | market: pra
+52 | Jayson Tatum 30+ points + rebounds + assists | NBA BOS@WSH 5:00 PM PT | market: pra
+53 | AJ Dybantsa 25+ points + rebounds + assists | NBA BOS@WSH 5:00 PM PT | market: pra
+54 | AJ Dybantsa 20+ points + rebounds + assists | NBA BOS@WSH 5:00 PM PT | market: pra
+55 | Ausar Thompson 6+ assists | NBA DET@ORL 4:00 PM PT | market: ast
+56 | Ausar Thompson 8+ rebounds | NBA DET@ORL 4:00 PM PT | market: reb
+57 | AJ Dybantsa 8+ rebounds | NBA BOS@WSH 5:00 PM PT | market: reb
+58 | AJ Dybantsa 4+ assists | NBA BOS@WSH 5:00 PM PT | market: ast
+59 | Derrick White 1+ threes | NBA BOS@WSH 5:00 PM PT | market: 3pm
+60 | Derrick White 2+ threes | NBA BOS@WSH 5:00 PM PT | market: 3pm
+61 | DeMar DeRozan under 4 assists | NBA DAL@DEN 7:00 PM PT | market: ast
+62 | Payton Pritchard 4+ assists | NBA BOS@WSH 5:00 PM PT | market: ast
+63 | Payton Pritchard 2+ assists | NBA BOS@WSH 5:00 PM PT | market: ast

@@ -1,0 +1,634 @@
+{
+ "rows": [
+  {
+   "i": 1,
+   "p": "Trae Young 16+ points (over 15.5)",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "pts",
+   "sys": 49,
+   "n": "Hit 10 of 18 this season, 1 of 5 last 5 (avg 17.1)."
+  },
+  {
+   "i": 2,
+   "p": "Cooper Flagg 6+ assists (over 5.5)",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "ast",
+   "sys": 58,
+   "n": "Hit 10 of 16 this season, 2 of 5 last 5 (avg 6.4)."
+  },
+  {
+   "i": 3,
+   "p": "Paul Reed 7+ rebounds (over 6.5)",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "reb",
+   "sys": 62,
+   "n": "Hit 10 of 16 this season, 3 of 5 last 5 (avg 7.4)."
+  },
+  {
+   "i": 4,
+   "p": "Jayson Tatum 5+ assists (over 4.5)",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 72,
+   "n": "Hit 12 of 15 this season, 3 of 5 last 5 (avg 6.7)."
+  },
+  {
+   "i": 5,
+   "p": "Wendell Carter Jr. 6+ rebounds (over 5.5)",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "reb",
+   "sys": 84,
+   "n": "Hit 15 of 16 this season, 4 of 5 last 5 (avg 8.6)."
+  },
+  {
+   "i": 6,
+   "p": "Trae Young 15+ points",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "pts",
+   "sys": 55,
+   "n": "Hit 12 of 18 this season, 1 of 5 last 5 (avg 17.1)."
+  },
+  {
+   "i": 7,
+   "p": "Cooper Flagg 4+ assists",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "ast",
+   "sys": 86,
+   "n": "Hit 14 of 16 this season, 5 of 5 last 5 (avg 6.4)."
+  },
+  {
+   "i": 8,
+   "p": "Paul Reed 6+ rebounds",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "reb",
+   "sys": 74,
+   "n": "Hit 12 of 16 this season, 4 of 5 last 5 (avg 7.4)."
+  },
+  {
+   "i": 9,
+   "p": "Jayson Tatum 4+ assists",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 84,
+   "n": "Hit 14 of 15 this season, 4 of 5 last 5 (avg 6.7)."
+  },
+  {
+   "i": 10,
+   "p": "Franz Wagner 6+ rebounds",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "reb",
+   "sys": 74,
+   "n": "Hit 12 of 16 this season, 4 of 5 last 5 (avg 6.9)."
+  },
+  {
+   "i": 11,
+   "p": "Franz Wagner 6+ assists",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "ast",
+   "sys": 79,
+   "n": "Hit 12 of 16 this season, 5 of 5 last 5 (avg 8.2)."
+  },
+  {
+   "i": 12,
+   "p": "Penn ML v Drexel",
+   "sp": "CBB",
+   "g": "DREX@PENN",
+   "t": "5:00",
+   "mkt": "ml",
+   "sys": 72,
+   "n": "Book line PENN -6.5."
+  },
+  {
+   "i": 13,
+   "p": "Louisville ML v Texas Tech",
+   "sp": "CBB",
+   "g": "TTU@LOU",
+   "t": "5:00",
+   "mkt": "ml",
+   "sys": 41,
+   "n": "Book line TTU -2.5."
+  },
+  {
+   "i": 14,
+   "p": "Alabama ML v Baylor",
+   "sp": "CBB",
+   "g": "BAY@ALA",
+   "t": "7:00",
+   "mkt": "ml",
+   "sys": 55,
+   "n": "Book line ALA -1.5."
+  },
+  {
+   "i": 15,
+   "p": "St. John's ML v Oregon",
+   "sp": "CBB",
+   "g": "ORE@SJU",
+   "t": "7:30",
+   "mkt": "ml",
+   "sys": 83,
+   "n": "Book line SJU -10.5."
+  },
+  {
+   "i": 16,
+   "p": "Magic +3.5 v Pistons",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "spread",
+   "sys": 53,
+   "n": "Book line DET -2.5."
+  },
+  {
+   "i": 17,
+   "p": "Wizards +10.5 v Celtics",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "spread",
+   "sys": 50,
+   "n": "Book line BOS -10.5."
+  },
+  {
+   "i": 18,
+   "p": "Mavericks +9.5 at Nuggets",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "spread",
+   "sys": 53,
+   "n": "Book line DEN -8.5."
+  },
+  {
+   "i": 19,
+   "p": "Derrick White 5+ assists (over 4.5)",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 59,
+   "n": "Hit 9 of 16 this season, 3 of 5 last 5 (avg 5.0)."
+  },
+  {
+   "i": 20,
+   "p": "Magic +15 v Pistons",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "spread",
+   "sys": 83,
+   "n": "Book line DET -2.5."
+  },
+  {
+   "i": 21,
+   "p": "Wizards +20 v Celtics",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "spread",
+   "sys": 77,
+   "n": "Book line BOS -10.5."
+  },
+  {
+   "i": 22,
+   "p": "Mavericks +19.5 at Nuggets",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "spread",
+   "sys": 82,
+   "n": "Book line DEN -8.5."
+  },
+  {
+   "i": 23,
+   "p": "Derrick White 4+ assists",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 66,
+   "n": "Hit 11 of 16 this season, 3 of 5 last 5 (avg 5.0)."
+  },
+  {
+   "i": 24,
+   "p": "Derrick White 2+ assists",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 88,
+   "n": "Hit 16 of 16 this season, 5 of 5 last 5 (avg 5.0)."
+  },
+  {
+   "i": 25,
+   "p": "Neemias Queta 8+ rebounds",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "reb",
+   "sys": 48,
+   "n": "Hit 6 of 16 this season, 3 of 5 last 5 (avg 7.1)."
+  },
+  {
+   "i": 26,
+   "p": "Neemias Queta 6+ rebounds",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "reb",
+   "sys": 78,
+   "n": "Hit 12 of 16 this season, 5 of 5 last 5 (avg 7.1)."
+  },
+  {
+   "i": 27,
+   "p": "Cooper Flagg 20+ points",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "pts",
+   "sys": 63,
+   "n": "Hit 10 of 16 this season, 3 of 5 last 5 (avg 24.3)."
+  },
+  {
+   "i": 28,
+   "p": "Cooper Flagg 15+ points",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "pts",
+   "sys": 86,
+   "n": "Hit 14 of 16 this season, 5 of 5 last 5 (avg 24.3)."
+  },
+  {
+   "i": 29,
+   "p": "Cooper Flagg 10+ points",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "pts",
+   "sys": 88,
+   "n": "Hit 16 of 16 this season, 5 of 5 last 5 (avg 24.3)."
+  },
+  {
+   "i": 30,
+   "p": "Franz Wagner 20+ points",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "pts",
+   "sys": 71,
+   "n": "Hit 11 of 16 this season, 4 of 5 last 5 (avg 24.5)."
+  },
+  {
+   "i": 31,
+   "p": "Daniss Jenkins 4+ rebounds",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "reb",
+   "sys": 63,
+   "n": "Hit 9 of 16 this season, 4 of 5 last 5 (avg 3.8)."
+  },
+  {
+   "i": 32,
+   "p": "Daniss Jenkins 2+ rebounds",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "reb",
+   "sys": 78,
+   "n": "Hit 13 of 16 this season, 4 of 5 last 5 (avg 3.8)."
+  },
+  {
+   "i": 33,
+   "p": "Cade Cunningham 20+ points",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "pts",
+   "sys": 69,
+   "n": "Hit 10 of 15 this season, 4 of 5 last 5 (avg 24.2)."
+  },
+  {
+   "i": 34,
+   "p": "Cade Cunningham 15+ points",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "pts",
+   "sys": 81,
+   "n": "Hit 13 of 15 this season, 4 of 5 last 5 (avg 24.2)."
+  },
+  {
+   "i": 35,
+   "p": "Cade Cunningham 4+ rebounds",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "reb",
+   "sys": 85,
+   "n": "Hit 13 of 15 this season, 5 of 5 last 5 (avg 5.1)."
+  },
+  {
+   "i": 36,
+   "p": "Cade Cunningham 25+ points",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "pts",
+   "sys": 54,
+   "n": "Hit 7 of 15 this season, 3 of 5 last 5 (avg 24.2)."
+  },
+  {
+   "i": 37,
+   "p": "Nikola Jokic 6+ assists",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "ast",
+   "sys": 88,
+   "n": "Hit 14 of 15 this season, 5 of 5 last 5 (avg 9.2)."
+  },
+  {
+   "i": 38,
+   "p": "Nikola Jokic 8+ assists",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "ast",
+   "sys": 80,
+   "n": "Hit 13 of 15 this season, 4 of 5 last 5 (avg 9.2)."
+  },
+  {
+   "i": 39,
+   "p": "Nikola Jokic 10+ assists",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "ast",
+   "sys": 57,
+   "n": "Hit 8 of 15 this season, 3 of 5 last 5 (avg 9.2)."
+  },
+  {
+   "i": 40,
+   "p": "Nikola Jokic 8+ rebounds",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "reb",
+   "sys": 74,
+   "n": "Hit 11 of 15 this season, 4 of 5 last 5 (avg 10.9)."
+  },
+  {
+   "i": 41,
+   "p": "Nikola Jokic 10+ rebounds",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "reb",
+   "sys": 53,
+   "n": "Hit 8 of 15 this season, 2 of 5 last 5 (avg 10.9)."
+  },
+  {
+   "i": 42,
+   "p": "Nikola Jokic 12+ rebounds",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "reb",
+   "sys": 45,
+   "n": "Hit 6 of 15 this season, 2 of 5 last 5 (avg 10.9)."
+  },
+  {
+   "i": 43,
+   "p": "Cooper Flagg 35+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "pra",
+   "sys": 62,
+   "n": "Hit 10 of 16 this season, 3 of 5 last 5 (avg 37.0)."
+  },
+  {
+   "i": 44,
+   "p": "Cade Cunningham 35+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "pra",
+   "sys": 66,
+   "n": "Hit 9 of 15 this season, 4 of 5 last 5 (avg 37.6)."
+  },
+  {
+   "i": 45,
+   "p": "Franz Wagner 35+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "pra",
+   "sys": 67,
+   "n": "Hit 10 of 16 this season, 4 of 5 last 5 (avg 39.6)."
+  },
+  {
+   "i": 46,
+   "p": "Cooper Flagg 30+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "pra",
+   "sys": 74,
+   "n": "Hit 12 of 16 this season, 4 of 5 last 5 (avg 37.0)."
+  },
+  {
+   "i": 47,
+   "p": "Cade Cunningham 30+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "pra",
+   "sys": 70,
+   "n": "Hit 10 of 15 this season, 4 of 5 last 5 (avg 37.6)."
+  },
+  {
+   "i": 48,
+   "p": "Franz Wagner 30+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "pra",
+   "sys": 85,
+   "n": "Hit 14 of 16 this season, 5 of 5 last 5 (avg 39.6)."
+  },
+  {
+   "i": 49,
+   "p": "Nikola Jokic 45+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "pra",
+   "sys": 46,
+   "n": "Hit 6 of 15 this season, 2 of 5 last 5 (avg 45.2)."
+  },
+  {
+   "i": 50,
+   "p": "Nikola Jokic 40+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "pra",
+   "sys": 81,
+   "n": "Hit 12 of 15 this season, 5 of 5 last 5 (avg 45.2)."
+  },
+  {
+   "i": 51,
+   "p": "Jayson Tatum 35+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "pra",
+   "sys": 77,
+   "n": "Hit 11 of 15 this season, 5 of 5 last 5 (avg 40.0)."
+  },
+  {
+   "i": 52,
+   "p": "Jayson Tatum 30+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "pra",
+   "sys": 88,
+   "n": "Hit 14 of 15 this season, 5 of 5 last 5 (avg 40.0)."
+  },
+  {
+   "i": 53,
+   "p": "AJ Dybantsa 25+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "pra",
+   "sys": 64,
+   "n": "Hit 8 of 14 this season, 4 of 5 last 5 (avg 26.2)."
+  },
+  {
+   "i": 54,
+   "p": "AJ Dybantsa 20+ points + rebounds + assists",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "pra",
+   "sys": 81,
+   "n": "Hit 11 of 14 this season, 5 of 5 last 5 (avg 26.2)."
+  },
+  {
+   "i": 55,
+   "p": "Ausar Thompson 6+ assists",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "ast",
+   "sys": 34,
+   "n": "Hit 4 of 15 this season, 1 of 5 last 5 (avg 5.3)."
+  },
+  {
+   "i": 56,
+   "p": "Ausar Thompson 8+ rebounds",
+   "sp": "NBA",
+   "g": "DET@ORL",
+   "t": "4:00",
+   "mkt": "reb",
+   "sys": 61,
+   "n": "Hit 9 of 15 this season, 3 of 5 last 5 (avg 8.5)."
+  },
+  {
+   "i": 57,
+   "p": "AJ Dybantsa 8+ rebounds",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "reb",
+   "sys": 51,
+   "n": "Hit 6 of 14 this season, 3 of 5 last 5 (avg 6.9)."
+  },
+  {
+   "i": 58,
+   "p": "AJ Dybantsa 4+ assists",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 35,
+   "n": "Hit 3 of 14 this season, 2 of 5 last 5 (avg 2.8)."
+  },
+  {
+   "i": 59,
+   "p": "Derrick White 1+ threes",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "3pm",
+   "sys": 84,
+   "n": "Hit 15 of 16 this season, 4 of 5 last 5 (avg 1.8)."
+  },
+  {
+   "i": 60,
+   "p": "Derrick White 2+ threes",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "3pm",
+   "sys": 52,
+   "n": "Hit 7 of 16 this season, 3 of 5 last 5 (avg 1.8)."
+  },
+  {
+   "i": 61,
+   "p": "DeMar DeRozan under 4 assists",
+   "sp": "NBA",
+   "g": "DAL@DEN",
+   "t": "7:00",
+   "mkt": "ast",
+   "sys": 77,
+   "n": "Stayed under 10 of 14 this season, 5 of 5 last 5 (avg 2.5)."
+  },
+  {
+   "i": 62,
+   "p": "Payton Pritchard 4+ assists",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 68,
+   "n": "Hit 11 of 17 this season, 4 of 5 last 5 (avg 4.1)."
+  },
+  {
+   "i": 63,
+   "p": "Payton Pritchard 2+ assists",
+   "sp": "NBA",
+   "g": "BOS@WSH",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 86,
+   "n": "Hit 15 of 17 this season, 5 of 5 last 5 (avg 4.1)."
+  }
+ ]
+}
