@@ -1,0 +1,100 @@
+{
+ "date": "2026-11-24",
+ "stake": 10,
+ "pays": 1028,
+ "chance": 1007,
+ "ev": 2.1,
+ "pool": 47,
+ "legs": [
+  {
+   "p": "AJ Dybantsa 2+ threes",
+   "g": "BOSWAS",
+   "k": 36,
+   "bk": 40.7,
+   "exact": true,
+   "tier": 0,
+   "books": 3,
+   "t": "KXNBA3PT-26NOV24BOSWAS-WASADYBANTSA4-2"
+  },
+  {
+   "p": "Alex Sarr 10+ points",
+   "g": "BOSWAS",
+   "k": 47,
+   "bk": 50.5,
+   "exact": true,
+   "tier": 0,
+   "books": 5,
+   "t": "KXNBAPTS-26NOV24BOSWAS-WASASARR20-10"
+  },
+  {
+   "p": "Naji Marshall 4+ rebounds",
+   "g": "DALDEN",
+   "k": 39,
+   "bk": 41.0,
+   "exact": true,
+   "tier": 0,
+   "books": 4,
+   "t": "KXNBAREB-26NOV24DALDEN-DALNMARSHALL3-4"
+  },
+  {
+   "p": "Sam Hauser 3+ threes",
+   "g": "BOSWAS",
+   "k": 37,
+   "bk": 38.9,
+   "exact": true,
+   "tier": 0,
+   "books": 5,
+   "t": "KXNBA3PT-26NOV24BOSWAS-BOSSHAUSER30-3"
+  },
+  {
+   "p": "Jayson Tatum 3+ threes",
+   "g": "BOSWAS",
+   "k": 56,
+   "bk": 57.5,
+   "exact": true,
+   "tier": 0,
+   "books": 6,
+   "t": "KXNBA3PT-26NOV24BOSWAS-BOSJTATUM0-3"
+  },
+  {
+   "p": "Trae Young 8+ assists",
+   "g": "BOSWAS",
+   "k": 49,
+   "bk": 50.0,
+   "exact": true,
+   "tier": 0,
+   "books": 6,
+   "t": "KXNBAAST-26NOV24BOSWAS-WASTYOUNG3-8"
+  },
+  {
+   "p": "Cameron Johnson 4+ rebounds",
+   "g": "DALDEN",
+   "k": 51,
+   "bk": 51.6,
+   "exact": true,
+   "tier": 0,
+   "books": 6,
+   "t": "KXNBAREB-26NOV24DALDEN-DENCJOHNSON23-4"
+  },
+  {
+   "p": "Nikola Joki\u0107 10+ assists",
+   "g": "DALDEN",
+   "k": 52,
+   "bk": 52.1,
+   "exact": true,
+   "tier": 0,
+   "books": 6,
+   "t": "KXNBAAST-26NOV24DALDEN-DENNJOKIC15-10"
+  },
+  {
+   "p": "Alex Sarr 2+ threes",
+   "g": "BOSWAS",
+   "k": 39,
+   "bk": 39.2,
+   "exact": true,
+   "tier": 0,
+   "books": 4,
+   "t": "KXNBA3PT-26NOV24BOSWAS-WASASARR20-2"
+  }
+ ]
+}

@@ -40,5 +40,19 @@
    "hit": "About 1 in 5 to hit by our math",
    "be": 17.9
   }
- ]
+ ],
+ "paper": {
+  "stake_each": 10,
+  "safe_hammer": {
+   "legs": [
+    "Neemias Queta 6+ rebounds",
+    "Cooper Flagg 4+ assists",
+    "Nikola Jokic 8+ rebounds"
+   ],
+   "pays": 1.469,
+   "note": "price from Ace's app at 3:38 PM"
+  },
+  "miracle": "daily/2026-11-24/miracle.json",
+  "site_const": "PAPER in bettordays-hq.html: set ham.res / mir.res to W, L or V after grading"
+ }
 }
