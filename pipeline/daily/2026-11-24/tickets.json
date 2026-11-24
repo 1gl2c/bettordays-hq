@@ -1,0 +1,44 @@
+{
+ "swapped_at": "2026-11-24T15:35:00-08:00",
+ "pulled": {
+  "legs": [
+   "Jayson Tatum 4+ assists",
+   "Nikola Jokic 6+ assists",
+   "Cade Cunningham 15+ points (could sit)"
+  ],
+  "why": "payout fell to 1.31x (Cade 89->92c), below break-even"
+ },
+ "live": [
+  {
+   "t": "Safe Hammer \u00b7 3 legs",
+   "c": "#04ff9f",
+   "legs": [
+    "Neemias Queta 6+ rebounds",
+    "Cooper Flagg 4+ assists",
+    "Nikola Jokic 8+ rebounds"
+   ],
+   "stake": "Play small",
+   "v": "Swapped at 3:35 PM PT. The first Safe Hammer (Tatum 4+ assists, Jokic 6+ assists, Cade 15+ points) dropped to about 1.31x once Cade moved from 89 to 92 cents, and at that price it lost value, so we pulled it before lock. This one is three legs the sportsbooks price 3 to 4 points above Kalshi on live prices: Queta 84 cents vs books 88, Flagg 84 to 86 vs 89, Jokic 88 vs 91. Our own grades on Queta and Flagg sit a few points under Kalshi; we are siding with the books, our best signal so far. Two book numbers are read off nearby lines. Flagg and Jokic share a game. These three legs are also on the side play.",
+   "lock": "About 1.45x to 1.5x at Kalshi's prices",
+   "hit": "About 70% to hit \u00b7 +4 to 7% expected after fees",
+   "be": 67.6
+  },
+  {
+   "t": "Books edge \u00b7 side play",
+   "c": "#ffb020",
+   "legs": [
+    "Neemias Queta 8+ rebounds",
+    "Cooper Flagg 6+ assists",
+    "Franz Wagner 6+ rebounds",
+    "Nikola Jokic 8+ rebounds",
+    "Derrick White 1+ threes",
+    "Payton Pritchard 2+ assists"
+   ],
+   "stake": "Small",
+   "v": "Built from tonight's biggest sportsbook vs Kalshi gaps on the exact same line (Queta, Flagg, Wagner) plus favorites the books price above Kalshi. No legs shared with the Safe Hammer. Only three NBA games tonight, so legs share games and can move together. Several book numbers come from a nearby line, so this is a lean, not proof. Note: Queta, Flagg and Jokic rebounds are also on the Safe Hammer now, so playing both doubles up on them.",
+   "lock": "About 5.6x at Kalshi's prices",
+   "hit": "About 1 in 5 to hit by our math",
+   "be": 17.9
+  }
+ ]
+}
