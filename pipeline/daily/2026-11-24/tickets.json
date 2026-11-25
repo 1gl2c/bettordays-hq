@@ -54,5 +54,27 @@
   },
   "miracle": "daily/2026-11-24/miracle.json",
   "site_const": "PAPER in bettordays-hq.html: set ham.res / mir.res to W, L or V after grading"
+ },
+ "results": {
+  "safe_hammer": {
+   "res": "L",
+   "legs": {
+    "Neemias Queta 6+ rebounds": "L (5)",
+    "Cooper Flagg 4+ assists": "W (12)",
+    "Nikola Jokic 8+ rebounds": "W (11)"
+   }
+  },
+  "pulled_original": {
+   "res": "L (not counted)",
+   "legs": {
+    "Jayson Tatum 4+ assists": "W (8)",
+    "Nikola Jokic 6+ assists": "L (5)",
+    "Cade Cunningham 15+ points": "void (DNP, knee)"
+   }
+  },
+  "paper": {
+   "safe_hammer": "L, -$10",
+   "miracle": "L 4 of 9, -$10"
+  }
  }
 }
