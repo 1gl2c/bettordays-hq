@@ -16,7 +16,11 @@ for k,day,lab in DAYK:
 board=[{"text":r['p'],"pct":r['pct'],"game":r['g'],"t":r.get('t',''),"sp":r.get('sp',''),"r":r.get('r',''),"fl":r.get('fl',''),"k":r.get('k'),"day":day,"label":lab} for r in sorted(MON,key=lambda r:-r['pct']) if r['pct']>0]
 json.dump(board,open('/home/claude/bettordays-hq/board.json','w'))
 head='<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">\n<link rel="manifest" href="/manifest.webmanifest">\n<link rel="apple-touch-icon" href="/apple-touch-icon.png">\n<link rel="icon" type="image/png" href="/icon-192.png">\n<meta name="apple-mobile-web-app-capable" content="yes">\n<meta name="mobile-web-app-capable" content="yes">\n<meta name="apple-mobile-web-app-title" content="BettorDays">\n<meta name="apple-mobile-web-app-status-bar-style" content="black">\n<meta name="theme-color" content="#0b0d0c">\n<meta name="description" content="Graded sports picks, a ticket builder with Kalshi odds and warnings, and a public record you can filter. Free while we build. 21+.">\n<meta property="og:title" content="BettorDays: picks with a receipt">\n<meta property="og:description" content="Every pick graded before tip. Every result counted after. Wins and losses, in public. 21+.">\n<meta property="og:image" content="https://bettordays.xyz/og.png">\n<meta property="og:url" content="https://bettordays.xyz/">\n<meta property="og:type" content="website">\n<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:image" content="https://bettordays.xyz/og.png">\n'
-tail='\n<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>\n<script src="/sb.js"></script>\n<script src="/gate.js"></script>\n<script src="/install.js" defer></script>\n</html>\n'
+import hashlib
+_V=hashlib.sha256(s.encode()).hexdigest()[:12]
+head=head.replace('<meta charset="utf-8">','<meta charset="utf-8"><meta name="bd-version" content="'+_V+'">',1)
+json.dump({'v':_V},open('/home/claude/bettordays-hq/version.json','w'))
+tail='\n<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>\n<script src="/sb.js"></script>\n<script src="/gate.js"></script>\n<script src="/install.js" defer></script>\n<script src="/refresh.js" defer></script>\n</html>\n'
 open('/home/claude/bettordays-hq/index.html','w').write(head+s+tail)
 print(len(board))
 R=json.loads(re.search(r'const ROWS=(\[.*?\]);\n',s).group(1))
