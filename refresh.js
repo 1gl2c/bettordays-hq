@@ -43,8 +43,32 @@
       }).catch(function () { checking = false; });
   }
 
-  d.addEventListener('visibilitychange', function () { if (d.visibilityState === 'visible') check(true); });
-  w.addEventListener('pageshow', function (e) { if (e.persisted) check(true); });
+  /* visit log: one row per open, and per return to the screen after 30+ minutes away.
+     Counts the installed app and the browser separately, which Vercel's page views can't do
+     (the installed app stays loaded, so it rarely makes a new page view). No personal data:
+     vid is a random id kept on this device. */
+  var store = function (k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } };
+  var vid = store('bd_vid');
+  if (!vid) { vid = (w.crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(36).slice(2); store('bd_vid', vid); }
+  var lastLog = 0;
+  function logVisit(kind) {
+    var now = Date.now();
+    if (kind === 'resume' && now - lastLog < 30 * 60 * 1000) return;
+    lastLog = now;
+    try {
+      var sb = w.BD_SB; if (!sb) return;
+      var row = { vid: vid, mode: standalone ? 'app' : 'browser', kind: kind, path: (location.pathname + location.hash).slice(0, 200) };
+      sb.auth.getSession().then(function (r) {
+        var u = r && r.data && r.data.session && r.data.session.user;
+        if (u) row.user_id = u.id;
+        return sb.from('app_visits').insert(row);
+      }).catch(function () {});
+    } catch (e) {}
+  }
+  logVisit('open');
+
+  d.addEventListener('visibilitychange', function () { if (d.visibilityState === 'visible') { check(true); logVisit('resume'); } });
+  w.addEventListener('pageshow', function (e) { if (e.persisted) { check(true); logVisit('resume'); } });
   w.addEventListener('focus', function () { check(true); });
   setInterval(function () { if (d.visibilityState === 'visible') check(false); }, 60000);
 
