@@ -5,3 +5,4 @@
 set -e; cd "$(dirname "$0")/.."; D=$1
 python3 ledger/legs.py && python3 ledger/players.py && python3 ledger/features.py && python3 ledger/kclose.py "$D" && python3 ledger/rows.py
 python3 ledger/scorecard.py
+python3 learn/hammer_learn.py "$D" && python3 learn/load_sql.py   # self-learning Hammer; then run learn/load.sql in Supabase from the raw GitHub URL at the new commit
