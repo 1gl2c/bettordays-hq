@@ -1,0 +1,1244 @@
+{
+ "rows": [
+  {
+   "i": 1,
+   "p": "Blake Corum anytime touchdown",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "td",
+   "sys": 62,
+   "n": "Hit 6 of 10 this season, 5 of 5 last 5 (avg 0.6)."
+  },
+  {
+   "i": 2,
+   "p": "Christian Watson 80+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 52,
+   "n": "Hit 5 of 10 this season, 2 of 5 last 5 (avg 91.6)."
+  },
+  {
+   "i": 3,
+   "p": "Christian Watson 70+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 52,
+   "n": "Hit 5 of 10 this season, 2 of 5 last 5 (avg 91.6)."
+  },
+  {
+   "i": 4,
+   "p": "Christian Watson 60+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 62,
+   "n": "Hit 6 of 10 this season, 3 of 5 last 5 (avg 91.6)."
+  },
+  {
+   "i": 5,
+   "p": "Christian Watson 50+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 72,
+   "n": "Hit 7 of 10 this season, 4 of 5 last 5 (avg 91.6)."
+  },
+  {
+   "i": 6,
+   "p": "James Cook anytime touchdown",
+   "sp": "NFL",
+   "g": "KC@BUF",
+   "t": "Thu 5:20",
+   "mkt": "td",
+   "sys": 62,
+   "n": "Hit 9 of 10 this season, 5 of 5 last 5 (avg 1.0)."
+  },
+  {
+   "i": 7,
+   "p": "Sam LaPorta anytime touchdown",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "td",
+   "sys": 30,
+   "n": "Hit 3 of 10 this season, 0 of 5 last 5 (avg 0.3)."
+  },
+  {
+   "i": 8,
+   "p": "Amon-Ra St. Brown 100+ receiving yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "recyds",
+   "sys": 30,
+   "n": "Hit 2 of 10 this season, 1 of 5 last 5 (avg 79.2)."
+  },
+  {
+   "i": 9,
+   "p": "Amon-Ra St. Brown 90+ receiving yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "recyds",
+   "sys": 40,
+   "n": "Hit 3 of 10 this season, 2 of 5 last 5 (avg 79.2)."
+  },
+  {
+   "i": 10,
+   "p": "Amon-Ra St. Brown 80+ receiving yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "recyds",
+   "sys": 50,
+   "n": "Hit 4 of 10 this season, 3 of 5 last 5 (avg 79.2)."
+  },
+  {
+   "i": 11,
+   "p": "Amon-Ra St. Brown 70+ receiving yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "recyds",
+   "sys": 56,
+   "n": "Hit 5 of 10 this season, 3 of 5 last 5 (avg 79.2)."
+  },
+  {
+   "i": 12,
+   "p": "Amon-Ra St. Brown 60+ receiving yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "recyds",
+   "sys": 67,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 79.2)."
+  },
+  {
+   "i": 13,
+   "p": "Amon-Ra St. Brown 50+ receiving yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "recyds",
+   "sys": 67,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 79.2)."
+  },
+  {
+   "i": 14,
+   "p": "Josh Allen anytime touchdown",
+   "sp": "NFL",
+   "g": "KC@BUF",
+   "t": "Thu 5:20",
+   "mkt": "td",
+   "sys": 62,
+   "n": "Hit 7 of 10 this season, 2 of 5 last 5 (avg 1.1)."
+  },
+  {
+   "i": 15,
+   "p": "Jared Goff 300+ passing yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "pass",
+   "sys": 45,
+   "n": "Hit 4 of 10 this season, 2 of 5 last 5 (avg 271.6)."
+  },
+  {
+   "i": 16,
+   "p": "Jared Goff 275+ passing yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "pass",
+   "sys": 55,
+   "n": "Hit 5 of 10 this season, 3 of 5 last 5 (avg 271.6)."
+  },
+  {
+   "i": 17,
+   "p": "Jared Goff 250+ passing yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "pass",
+   "sys": 66,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 271.6)."
+  },
+  {
+   "i": 18,
+   "p": "Jared Goff 225+ passing yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "pass",
+   "sys": 67,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 271.6)."
+  },
+  {
+   "i": 19,
+   "p": "Jared Goff 200+ passing yards",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "pass",
+   "sys": 72,
+   "n": "Hit 8 of 10 this season, 3 of 5 last 5 (avg 271.6)."
+  },
+  {
+   "i": 20,
+   "p": "Jordan Love 200+ passing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass",
+   "sys": 82,
+   "n": "Hit 8 of 10 this season, 5 of 5 last 5 (avg 283.8)."
+  },
+  {
+   "i": 21,
+   "p": "Jordan Love 225+ passing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass",
+   "sys": 72,
+   "n": "Hit 7 of 10 this season, 4 of 5 last 5 (avg 283.8)."
+  },
+  {
+   "i": 22,
+   "p": "Jordan Love 250+ passing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass",
+   "sys": 71,
+   "n": "Hit 7 of 10 this season, 4 of 5 last 5 (avg 283.8)."
+  },
+  {
+   "i": 23,
+   "p": "Christian Watson 4+ receptions",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "rec",
+   "sys": 67,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 5.2)."
+  },
+  {
+   "i": 24,
+   "p": "Blake Corum 2+ receptions",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "rec",
+   "sys": 45,
+   "n": "Hit 4 of 10 this season, 2 of 5 last 5 (avg 1.3)."
+  },
+  {
+   "i": 25,
+   "p": "Tutu Atwell 20+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 41,
+   "n": "Hit 2 of 7 this season, 2 of 5 last 5 (avg 18.6)."
+  },
+  {
+   "i": 26,
+   "p": "Matthew Golden 50+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 77,
+   "n": "Hit 8 of 10 this season, 4 of 5 last 5 (avg 85.3)."
+  },
+  {
+   "i": 27,
+   "p": "Blake Corum 40+ rushing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "rush",
+   "sys": 76,
+   "n": "Hit 7 of 10 this season, 5 of 5 last 5 (avg 54.7)."
+  },
+  {
+   "i": 28,
+   "p": "VJ Edgecombe 6+ rebounds",
+   "sp": "NBA",
+   "g": "MIA@PHI",
+   "t": "2:00",
+   "mkt": "reb",
+   "sys": 63,
+   "n": "Hit 11 of 17 this season, 3 of 5 last 5 (avg 6.4)."
+  },
+  {
+   "i": 29,
+   "p": "VJ Edgecombe 4+ rebounds",
+   "sp": "NBA",
+   "g": "MIA@PHI",
+   "t": "2:00",
+   "mkt": "reb",
+   "sys": 79,
+   "n": "Hit 14 of 17 this season, 4 of 5 last 5 (avg 6.4)."
+  },
+  {
+   "i": 30,
+   "p": "VJ Edgecombe 4+ assists",
+   "sp": "NBA",
+   "g": "MIA@PHI",
+   "t": "2:00",
+   "mkt": "ast",
+   "sys": 67,
+   "n": "Hit 9 of 17 this season, 5 of 5 last 5 (avg 4.2)."
+  },
+  {
+   "i": 31,
+   "p": "VJ Edgecombe 2+ assists",
+   "sp": "NBA",
+   "g": "MIA@PHI",
+   "t": "2:00",
+   "mkt": "ast",
+   "sys": 88,
+   "n": "Hit 16 of 17 this season, 5 of 5 last 5 (avg 4.2)."
+  },
+  {
+   "i": 32,
+   "p": "Mikel Brown Jr. 6+ assists",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 23,
+   "n": "Hit 1 of 12 this season, 1 of 5 last 5 (avg 3.8)."
+  },
+  {
+   "i": 33,
+   "p": "Mikel Brown Jr. 4+ assists",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 59,
+   "n": "Hit 7 of 12 this season, 3 of 5 last 5 (avg 3.8)."
+  },
+  {
+   "i": 34,
+   "p": "Mikel Brown Jr. 2+ assists",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 83,
+   "n": "Hit 11 of 12 this season, 4 of 5 last 5 (avg 3.8)."
+  },
+  {
+   "i": 35,
+   "p": "Mikel Brown Jr. 4+ rebounds",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "reb",
+   "sys": 27,
+   "n": "Hit 2 of 12 this season, 1 of 5 last 5 (avg 2.0)."
+  },
+  {
+   "i": 36,
+   "p": "Mikel Brown Jr. 2+ rebounds",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "reb",
+   "sys": 47,
+   "n": "Hit 6 of 12 this season, 1 of 5 last 5 (avg 2.0)."
+  },
+  {
+   "i": 37,
+   "p": "Matthew Stafford 200+ passing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass",
+   "sys": 67,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 262.3)."
+  },
+  {
+   "i": 38,
+   "p": "Blake Corum 50+ rushing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "rush",
+   "sys": 65,
+   "n": "Hit 6 of 10 this season, 4 of 5 last 5 (avg 54.7)."
+  },
+  {
+   "i": 39,
+   "p": "Matthew Golden 5+ receptions",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "rec",
+   "sys": 80,
+   "n": "Hit 8 of 10 this season, 5 of 5 last 5 (avg 5.8)."
+  },
+  {
+   "i": 40,
+   "p": "Konata Mumpfield 3+ receptions",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "rec",
+   "sys": 29,
+   "n": "Hit 2 of 10 this season, 1 of 5 last 5 (avg 1.4)."
+  },
+  {
+   "i": 41,
+   "p": "Christian Watson anytime touchdown",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "td",
+   "sys": 46,
+   "n": "Hit 5 of 10 this season, 1 of 5 last 5 (avg 0.7)."
+  },
+  {
+   "i": 42,
+   "p": "Matthew Golden anytime touchdown",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "td",
+   "sys": 54,
+   "n": "Hit 5 of 10 this season, 3 of 5 last 5 (avg 0.5)."
+  },
+  {
+   "i": 43,
+   "p": "Amon-Ra St. Brown anytime touchdown",
+   "sp": "NFL",
+   "g": "CHI@DET",
+   "t": "Thu 10:00",
+   "mkt": "td",
+   "sys": 51,
+   "n": "Hit 5 of 10 this season, 2 of 5 last 5 (avg 0.8)."
+  },
+  {
+   "i": 44,
+   "p": "CeeDee Lamb anytime touchdown",
+   "sp": "NFL",
+   "g": "PHI@DAL",
+   "t": "Thu 1:30",
+   "mkt": "td",
+   "sys": 62,
+   "n": "Hit 7 of 11 this season, 4 of 5 last 5 (avg 0.8)."
+  },
+  {
+   "i": 45,
+   "p": "Packers ML at Rams",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "ml",
+   "sys": 43,
+   "n": "Book line LAR -2.5."
+  },
+  {
+   "i": 46,
+   "p": "Packers at Rams over 35.5 total points",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "total",
+   "sys": 73,
+   "n": "Book total 43.5."
+  },
+  {
+   "i": 47,
+   "p": "Jonathan Kuminga 1+ threes",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "3pm",
+   "sys": 78,
+   "n": "Hit 14 of 17 this season, 4 of 5 last 5 (avg 1.6)."
+  },
+  {
+   "i": 48,
+   "p": "Jonathan Kuminga 2+ threes",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "3pm",
+   "sys": 52,
+   "n": "Hit 9 of 17 this season, 2 of 5 last 5 (avg 1.6)."
+  },
+  {
+   "i": 49,
+   "p": "Tyrese Maxey 3+ threes (over 2.5)",
+   "sp": "NBA",
+   "g": "MIA@PHI",
+   "t": "2:00",
+   "mkt": "3pm",
+   "sys": 52,
+   "n": "Hit 9 of 17 this season, 2 of 5 last 5 (avg 2.5)."
+  },
+  {
+   "i": 50,
+   "p": "Buddy Hield 14+ points (over 13.5)",
+   "sp": "NBA",
+   "g": "CHI@CHA",
+   "t": "4:00",
+   "mkt": "pts",
+   "sys": 42,
+   "n": "Hit 4 of 15 this season, 3 of 5 last 5 (avg 10.3)."
+  },
+  {
+   "i": 51,
+   "p": "Jaden McDaniels 2+ threes (over 1.5)",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "3pm",
+   "sys": 58,
+   "n": "Hit 10 of 18 this season, 3 of 5 last 5 (avg 1.6)."
+  },
+  {
+   "i": 52,
+   "p": "Mikel Brown Jr. 20+ points + assists (over 19.5)",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "pa",
+   "sys": 36,
+   "n": "Hit 4 of 12 this season, 1 of 5 last 5 (avg 16.2)."
+  },
+  {
+   "i": 53,
+   "p": "Landry Shamet 3+ threes (over 2.5)",
+   "sp": "NBA",
+   "g": "CLE@NY",
+   "t": "4:30",
+   "mkt": "3pm",
+   "sys": 50,
+   "n": "Hit 7 of 17 this season, 3 of 5 last 5 (avg 2.5)."
+  },
+  {
+   "i": 54,
+   "p": "Collin Gillespie 9+ points (over 8.5)",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "pts",
+   "sys": 71,
+   "n": "Hit 10 of 16 this season, 5 of 5 last 5 (avg 10.2)."
+  },
+  {
+   "i": 55,
+   "p": "Tyrese Maxey 2+ threes",
+   "sp": "NBA",
+   "g": "MIA@PHI",
+   "t": "2:00",
+   "mkt": "3pm",
+   "sys": 70,
+   "n": "Hit 13 of 17 this season, 3 of 5 last 5 (avg 2.5)."
+  },
+  {
+   "i": 56,
+   "p": "Tyrese Maxey 1+ threes",
+   "sp": "NBA",
+   "g": "MIA@PHI",
+   "t": "2:00",
+   "mkt": "3pm",
+   "sys": 85,
+   "n": "Hit 16 of 17 this season, 4 of 5 last 5 (avg 2.5)."
+  },
+  {
+   "i": 57,
+   "p": "Buddy Hield 10+ points",
+   "sp": "NBA",
+   "g": "CHI@CHA",
+   "t": "4:00",
+   "mkt": "pts",
+   "sys": 58,
+   "n": "Hit 7 of 15 this season, 4 of 5 last 5 (avg 10.3)."
+  },
+  {
+   "i": 58,
+   "p": "Jaden McDaniels 1+ threes",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "3pm",
+   "sys": 79,
+   "n": "Hit 15 of 18 this season, 4 of 5 last 5 (avg 1.6)."
+  },
+  {
+   "i": 59,
+   "p": "Landry Shamet 2+ threes",
+   "sp": "NBA",
+   "g": "CLE@NY",
+   "t": "4:30",
+   "mkt": "3pm",
+   "sys": 79,
+   "n": "Hit 13 of 17 this season, 5 of 5 last 5 (avg 2.5)."
+  },
+  {
+   "i": 60,
+   "p": "Landry Shamet 1+ threes",
+   "sp": "NBA",
+   "g": "CLE@NY",
+   "t": "4:30",
+   "mkt": "3pm",
+   "sys": 88,
+   "n": "Hit 16 of 17 this season, 5 of 5 last 5 (avg 2.5)."
+  },
+  {
+   "i": 61,
+   "p": "Collin Gillespie 5+ points",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "pts",
+   "sys": 82,
+   "n": "Hit 13 of 16 this season, 5 of 5 last 5 (avg 10.2)."
+  },
+  {
+   "i": 62,
+   "p": "Collin Gillespie 10+ points",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "pts",
+   "sys": 60,
+   "n": "Hit 8 of 16 this season, 4 of 5 last 5 (avg 10.2)."
+  },
+  {
+   "i": 63,
+   "p": "Ajay Mitchell under 25 points",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "pts",
+   "sys": 82,
+   "n": "Stayed under 13 of 16 this season, 5 of 5 last 5 (avg 16.7)."
+  },
+  {
+   "i": 64,
+   "p": "Ajay Mitchell under 20 points",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "pts",
+   "sys": 75,
+   "n": "Stayed under 11 of 16 this season, 5 of 5 last 5 (avg 16.7)."
+  },
+  {
+   "i": 65,
+   "p": "Ajay Mitchell under 4 assists",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "ast",
+   "sys": 48,
+   "n": "Stayed under 7 of 16 this season, 2 of 5 last 5 (avg 3.6)."
+  },
+  {
+   "i": 66,
+   "p": "Ajay Mitchell under 6 assists",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "ast",
+   "sys": 81,
+   "n": "Stayed under 14 of 16 this season, 4 of 5 last 5 (avg 3.6)."
+  },
+  {
+   "i": 67,
+   "p": "Ajay Mitchell under 8 assists",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "ast",
+   "sys": 88,
+   "n": "Stayed under 16 of 16 this season, 5 of 5 last 5 (avg 3.6)."
+  },
+  {
+   "i": 68,
+   "p": "Amen Thompson 10+ points",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "pts",
+   "sys": 86,
+   "n": "Hit 15 of 17 this season, 5 of 5 last 5 (avg 16.4)."
+  },
+  {
+   "i": 69,
+   "p": "Amen Thompson 15+ points",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "pts",
+   "sys": 71,
+   "n": "Hit 12 of 17 this season, 4 of 5 last 5 (avg 16.4)."
+  },
+  {
+   "i": 70,
+   "p": "Amen Thompson 6+ rebounds",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "reb",
+   "sys": 68,
+   "n": "Hit 11 of 17 this season, 4 of 5 last 5 (avg 6.9)."
+  },
+  {
+   "i": 71,
+   "p": "Amen Thompson 4+ rebounds",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "reb",
+   "sys": 83,
+   "n": "Hit 14 of 17 this season, 5 of 5 last 5 (avg 6.9)."
+  },
+  {
+   "i": 72,
+   "p": "VJ Edgecombe 10+ points",
+   "sp": "NBA",
+   "g": "MIA@PHI",
+   "t": "2:00",
+   "mkt": "pts",
+   "sys": 82,
+   "n": "Hit 14 of 17 this season, 5 of 5 last 5 (avg 13.6)."
+  },
+  {
+   "i": 73,
+   "p": "Jaden McDaniels 2+ assists",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "ast",
+   "sys": 82,
+   "n": "Hit 16 of 18 this season, 4 of 5 last 5 (avg 3.7)."
+  },
+  {
+   "i": 74,
+   "p": "Jaden McDaniels 4+ assists",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "ast",
+   "sys": 55,
+   "n": "Hit 9 of 18 this season, 3 of 5 last 5 (avg 3.7)."
+  },
+  {
+   "i": 75,
+   "p": "Jaden McDaniels 6+ rebounds",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "reb",
+   "sys": 63,
+   "n": "Hit 13 of 18 this season, 2 of 5 last 5 (avg 6.2)."
+  },
+  {
+   "i": 76,
+   "p": "Jaden McDaniels 4+ rebounds",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "reb",
+   "sys": 88,
+   "n": "Hit 17 of 18 this season, 5 of 5 last 5 (avg 6.2)."
+  },
+  {
+   "i": 77,
+   "p": "Jaden McDaniels 2+ rebounds",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "reb",
+   "sys": 88,
+   "n": "Hit 18 of 18 this season, 5 of 5 last 5 (avg 6.2)."
+  },
+  {
+   "i": 78,
+   "p": "MarShawn Lloyd 10+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 44,
+   "n": "Hit 3 of 9 this season, 2 of 5 last 5 (avg 11.7)."
+  },
+  {
+   "i": 79,
+   "p": "Rams ML v Packers",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "ml",
+   "sys": 57,
+   "n": "Book line LAR -2.5."
+  },
+  {
+   "i": 80,
+   "p": "Matthew Golden 70+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 71,
+   "n": "Hit 7 of 10 this season, 4 of 5 last 5 (avg 85.3)."
+  },
+  {
+   "i": 81,
+   "p": "Matthew Golden 100+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 45,
+   "n": "Hit 4 of 10 this season, 2 of 5 last 5 (avg 85.3)."
+  },
+  {
+   "i": 82,
+   "p": "Blake Corum 60+ rushing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "rush",
+   "sys": 50,
+   "n": "Hit 4 of 10 this season, 3 of 5 last 5 (avg 54.7)."
+  },
+  {
+   "i": 83,
+   "p": "Matthew Stafford 225+ passing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass",
+   "sys": 57,
+   "n": "Hit 6 of 10 this season, 2 of 5 last 5 (avg 262.3)."
+  },
+  {
+   "i": 84,
+   "p": "Konata Mumpfield 40+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 30,
+   "n": "Hit 2 of 10 this season, 1 of 5 last 5 (avg 24.3)."
+  },
+  {
+   "i": 85,
+   "p": "Konata Mumpfield 30+ receiving yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "recyds",
+   "sys": 31,
+   "n": "Hit 2 of 10 this season, 1 of 5 last 5 (avg 24.3)."
+  },
+  {
+   "i": 86,
+   "p": "LaMelo Ball 15+ points",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "pts",
+   "sys": 65,
+   "n": "Hit 12 of 18 this season, 3 of 5 last 5 (avg 17.2)."
+  },
+  {
+   "i": 87,
+   "p": "Josh Giddey 8+ assists",
+   "sp": "NBA",
+   "g": "CHI@CHA",
+   "t": "4:00",
+   "mkt": "ast",
+   "sys": 66,
+   "n": "Hit 10 of 17 this season, 4 of 5 last 5 (avg 9.4)."
+  },
+  {
+   "i": 88,
+   "p": "LaMelo Ball 10+ points",
+   "sp": "NBA",
+   "g": "MIN@OKC",
+   "t": "4:30",
+   "mkt": "pts",
+   "sys": 82,
+   "n": "Hit 16 of 18 this season, 4 of 5 last 5 (avg 17.2)."
+  },
+  {
+   "i": 89,
+   "p": "Josh Giddey 6+ assists",
+   "sp": "NBA",
+   "g": "CHI@CHA",
+   "t": "4:00",
+   "mkt": "ast",
+   "sys": 83,
+   "n": "Hit 14 of 17 this season, 5 of 5 last 5 (avg 9.4)."
+  },
+  {
+   "i": 90,
+   "p": "Cedric Coward 6+ rebounds",
+   "sp": "NBA",
+   "g": "LAC@MEM",
+   "t": "5:00",
+   "mkt": "reb",
+   "sys": 77,
+   "n": "Hit 15 of 17 this season, 3 of 5 last 5 (avg 8.1)."
+  },
+  {
+   "i": 91,
+   "p": "Cedric Coward 4+ rebounds",
+   "sp": "NBA",
+   "g": "LAC@MEM",
+   "t": "5:00",
+   "mkt": "reb",
+   "sys": 85,
+   "n": "Hit 16 of 17 this season, 4 of 5 last 5 (avg 8.1)."
+  },
+  {
+   "i": 92,
+   "p": "Brandon Miller 15+ points",
+   "sp": "NBA",
+   "g": "CHI@CHA",
+   "t": "4:00",
+   "mkt": "pts",
+   "sys": 67,
+   "n": "Hit 10 of 14 this season, 3 of 5 last 5 (avg 19.9)."
+  },
+  {
+   "i": 93,
+   "p": "Brandon Miller 10+ points",
+   "sp": "NBA",
+   "g": "CHI@CHA",
+   "t": "4:00",
+   "mkt": "pts",
+   "sys": 72,
+   "n": "Hit 11 of 14 this season, 3 of 5 last 5 (avg 19.9)."
+  },
+  {
+   "i": 94,
+   "p": "Packers +3 at Rams",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "spread",
+   "sys": 49,
+   "n": "Book line LAR -2.5."
+  },
+  {
+   "i": 95,
+   "p": "Packers +10 at Rams",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "spread",
+   "sys": 69,
+   "n": "Book line LAR -2.5."
+  },
+  {
+   "i": 96,
+   "p": "Penn State +5.5 v Memphis",
+   "sp": "CBB",
+   "g": "MEM@PSU",
+   "t": "2:00",
+   "mkt": "spread",
+   "sys": 54,
+   "n": "Book line MEM -4.5."
+  },
+  {
+   "i": 97,
+   "p": "Penn State +10.5 v Memphis",
+   "sp": "CBB",
+   "g": "MEM@PSU",
+   "t": "2:00",
+   "mkt": "spread",
+   "sys": 71,
+   "n": "Book line MEM -4.5."
+  },
+  {
+   "i": 98,
+   "p": "Kyren Williams 13+ rushing attempts (over 12.5)",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "rushatt",
+   "sys": 61,
+   "n": "Hit 6 of 10 this season, 3 of 5 last 5 (avg 13.9)."
+  },
+  {
+   "i": 99,
+   "p": "Jordan Love under 267.5 passing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass",
+   "sys": 36,
+   "n": "Stayed under 3 of 10 this season, 1 of 5 last 5 (avg 283.8)."
+  },
+  {
+   "i": 100,
+   "p": "Matthew Stafford under 1.5 passing touchdowns",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass td",
+   "sys": 45,
+   "n": "Stayed under 4 of 10 this season, 2 of 5 last 5 (avg 1.9)."
+  },
+  {
+   "i": 101,
+   "p": "Kyren Williams 11+ rushing attempts",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "rushatt",
+   "sys": 82,
+   "n": "Hit 9 of 10 this season, 4 of 5 last 5 (avg 13.9)."
+  },
+  {
+   "i": 102,
+   "p": "Jordan Love under 275 passing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass",
+   "sys": 46,
+   "n": "Stayed under 4 of 10 this season, 2 of 5 last 5 (avg 283.8)."
+  },
+  {
+   "i": 103,
+   "p": "Matthew Stafford under 2.5 passing touchdowns",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass td",
+   "sys": 62,
+   "n": "Stayed under 6 of 10 this season, 3 of 5 last 5 (avg 1.9)."
+  },
+  {
+   "i": 104,
+   "p": "Jordan Love under 300 passing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass",
+   "sys": 65,
+   "n": "Stayed under 6 of 10 this season, 4 of 5 last 5 (avg 283.8)."
+  },
+  {
+   "i": 105,
+   "p": "Jordan Love under 350 passing yards",
+   "sp": "NFL",
+   "g": "GB@LAR",
+   "t": "5:00",
+   "mkt": "pass",
+   "sys": 72,
+   "n": "Stayed under 7 of 10 this season, 4 of 5 last 5 (avg 283.8)."
+  },
+  {
+   "i": 106,
+   "p": "Ty Jerome 3+ threes (over 2.5)",
+   "sp": "NBA",
+   "g": "LAC@MEM",
+   "t": "5:00",
+   "mkt": "3pm",
+   "sys": 54,
+   "n": "Hit 6 of 13 this season, 3 of 5 last 5 (avg 2.9)."
+  },
+  {
+   "i": 107,
+   "p": "Josh Giddey 9+ assists (over 8.5)",
+   "sp": "NBA",
+   "g": "CHI@CHA",
+   "t": "4:00",
+   "mkt": "ast",
+   "sys": 57,
+   "n": "Hit 9 of 17 this season, 3 of 5 last 5 (avg 9.4)."
+  },
+  {
+   "i": 108,
+   "p": "Tyler Herro under 5.5 assists",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 64,
+   "n": "Stayed under 11 of 17 this season, 3 of 5 last 5 (avg 4.5)."
+  },
+  {
+   "i": 109,
+   "p": "Marcus Smart 5+ points",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "pts",
+   "sys": 60,
+   "n": "Hit 8 of 12 this season, 2 of 5 last 5 (avg 7.2)."
+  },
+  {
+   "i": 110,
+   "p": "Marcus Smart 2+ rebounds",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "reb",
+   "sys": 87,
+   "n": "Hit 11 of 12 this season, 5 of 5 last 5 (avg 2.5)."
+  },
+  {
+   "i": 111,
+   "p": "Tyler Herro under 8 assists",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 79,
+   "n": "Stayed under 14 of 17 this season, 4 of 5 last 5 (avg 4.5)."
+  },
+  {
+   "i": 112,
+   "p": "Tyler Herro under 10 assists",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "ast",
+   "sys": 88,
+   "n": "Stayed under 16 of 17 this season, 5 of 5 last 5 (avg 4.5)."
+  },
+  {
+   "i": 113,
+   "p": "Ty Jerome 1+ threes",
+   "sp": "NBA",
+   "g": "LAC@MEM",
+   "t": "5:00",
+   "mkt": "3pm",
+   "sys": 88,
+   "n": "Hit 13 of 13 this season, 5 of 5 last 5 (avg 2.9)."
+  },
+  {
+   "i": 114,
+   "p": "Ty Jerome 2+ threes",
+   "sp": "NBA",
+   "g": "LAC@MEM",
+   "t": "5:00",
+   "mkt": "3pm",
+   "sys": 72,
+   "n": "Hit 9 of 13 this season, 4 of 5 last 5 (avg 2.9)."
+  },
+  {
+   "i": 115,
+   "p": "Josh Hart under 6 assists",
+   "sp": "NBA",
+   "g": "CLE@NY",
+   "t": "4:30",
+   "mkt": "ast",
+   "sys": 72,
+   "n": "Stayed under 11 of 14 this season, 3 of 5 last 5 (avg 4.0)."
+  },
+  {
+   "i": 116,
+   "p": "Domantas Sabonis 12+ rebounds",
+   "sp": "NBA",
+   "g": "SAC@GS",
+   "t": "7:00",
+   "mkt": "reb",
+   "sys": 85,
+   "n": "Hit 14 of 16 this season, 5 of 5 last 5 (avg 13.5)."
+  },
+  {
+   "i": 117,
+   "p": "Domantas Sabonis 10+ rebounds",
+   "sp": "NBA",
+   "g": "SAC@GS",
+   "t": "7:00",
+   "mkt": "reb",
+   "sys": 86,
+   "n": "Hit 14 of 16 this season, 5 of 5 last 5 (avg 13.5)."
+  },
+  {
+   "i": 118,
+   "p": "Michael Porter Jr. 15+ points",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "pts",
+   "sys": 69,
+   "n": "Hit 11 of 15 this season, 3 of 5 last 5 (avg 19.6)."
+  },
+  {
+   "i": 119,
+   "p": "Michael Porter Jr. 20+ points",
+   "sp": "NBA",
+   "g": "BKN@MIL",
+   "t": "5:00",
+   "mkt": "pts",
+   "sys": 52,
+   "n": "Hit 8 of 15 this season, 2 of 5 last 5 (avg 19.6)."
+  },
+  {
+   "i": 120,
+   "p": "Josh Hart under 8 assists",
+   "sp": "NBA",
+   "g": "CLE@NY",
+   "t": "4:30",
+   "mkt": "ast",
+   "sys": 84,
+   "n": "Stayed under 13 of 14 this season, 4 of 5 last 5 (avg 4.0)."
+  },
+  {
+   "i": 121,
+   "p": "Isaiah Stewart 4+ rebounds",
+   "sp": "NBA",
+   "g": "LAC@MEM",
+   "t": "5:00",
+   "mkt": "reb",
+   "sys": 57,
+   "n": "Hit 7 of 13 this season, 3 of 5 last 5 (avg 3.3)."
+  },
+  {
+   "i": 122,
+   "p": "Isaiah Stewart 2+ rebounds",
+   "sp": "NBA",
+   "g": "LAC@MEM",
+   "t": "5:00",
+   "mkt": "reb",
+   "sys": 84,
+   "n": "Hit 11 of 13 this season, 5 of 5 last 5 (avg 3.3)."
+  },
+  {
+   "i": 123,
+   "p": "Fred VanVleet under 6 assists",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "ast",
+   "sys": 52,
+   "n": "Stayed under 8 of 15 this season, 2 of 5 last 5 (avg 5.6)."
+  },
+  {
+   "i": 124,
+   "p": "Fred VanVleet under 8 assists",
+   "sp": "NBA",
+   "g": "PHX@HOU",
+   "t": "5:30",
+   "mkt": "ast",
+   "sys": 77,
+   "n": "Stayed under 12 of 15 this season, 4 of 5 last 5 (avg 5.6)."
+  }
+ ]
+}

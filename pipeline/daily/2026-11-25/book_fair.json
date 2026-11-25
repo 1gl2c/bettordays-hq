@@ -1,0 +1,650 @@
+{
+"2": {
+"bk": 44.1,
+"books": 4,
+"line": 73.5,
+"exact": false
+},
+"3": {
+"bk": 53.9,
+"books": 4,
+"line": 73.5,
+"exact": false
+},
+"4": {
+"bk": 63.5,
+"books": 4,
+"line": 73.5,
+"exact": false
+},
+"5": {
+"bk": 72.4,
+"books": 4,
+"line": 73.5,
+"exact": false
+},
+"8": {
+"bk": 36.4,
+"books": 3,
+"line": 83.5,
+"exact": false
+},
+"9": {
+"bk": 44.8,
+"books": 3,
+"line": 83.5,
+"exact": false
+},
+"10": {
+"bk": 53.5,
+"books": 3,
+"line": 83.5,
+"exact": false
+},
+"11": {
+"bk": 62.0,
+"books": 3,
+"line": 83.5,
+"exact": false
+},
+"12": {
+"bk": 69.9,
+"books": 3,
+"line": 83.5,
+"exact": false
+},
+"13": {
+"bk": 77.0,
+"books": 3,
+"line": 83.5,
+"exact": false
+},
+"15": {
+"bk": 35.3,
+"books": 3,
+"line": 278.5,
+"exact": false
+},
+"16": {
+"bk": 52.9,
+"books": 3,
+"line": 278.5,
+"exact": false
+},
+"17": {
+"bk": 69.9,
+"books": 3,
+"line": 278.5,
+"exact": false
+},
+"18": {
+"bk": 83.4,
+"books": 3,
+"line": 278.5,
+"exact": false
+},
+"19": {
+"bk": 92.2,
+"books": 3,
+"line": 278.5,
+"exact": false
+},
+"20": {
+"bk": 89.8,
+"books": 3,
+"line": 267.5,
+"exact": false
+},
+"21": {
+"bk": 78.9,
+"books": 3,
+"line": 267.5,
+"exact": false
+},
+"22": {
+"bk": 63.2,
+"books": 3,
+"line": 267.5,
+"exact": false
+},
+"23": {
+"bk": 72.9,
+"books": 4,
+"line": 4.5,
+"exact": false
+},
+"24": {
+"bk": 60.8,
+"books": 4,
+"line": 1.5,
+"exact": true
+},
+"25": {
+"bk": 59.0,
+"books": 4,
+"line": 22.5,
+"exact": false
+},
+"26": {
+"bk": 71.8,
+"books": 2,
+"line": 72.5,
+"exact": false
+},
+"27": {
+"bk": 75.7,
+"books": 4,
+"line": 57.5,
+"exact": false
+},
+"28": {
+"bk": 56.0,
+"books": 4,
+"line": 5.5,
+"exact": true
+},
+"29": {
+"bk": 85.2,
+"books": 4,
+"line": 5.5,
+"exact": false
+},
+"30": {
+"bk": 58.3,
+"books": 5,
+"line": 3.5,
+"exact": true
+},
+"31": {
+"bk": 91.4,
+"books": 5,
+"line": 3.5,
+"exact": false
+},
+"32": {
+"bk": 30.6,
+"books": 5,
+"line": 4.5,
+"exact": false
+},
+"33": {
+"bk": 66.6,
+"books": 5,
+"line": 4.5,
+"exact": false
+},
+"34": {
+"bk": 94.1,
+"books": 5,
+"line": 4.5,
+"exact": false
+},
+"35": {
+"bk": 26.2,
+"books": 5,
+"line": 2.5,
+"exact": false
+},
+"36": {
+"bk": 73.1,
+"books": 5,
+"line": 2.5,
+"exact": false
+},
+"37": {
+"bk": 75.0,
+"books": 2,
+"line": 230.5,
+"exact": false
+},
+"38": {
+"bk": 62.1,
+"books": 4,
+"line": 57.5,
+"exact": false
+},
+"39": {
+"bk": 67.6,
+"books": 5,
+"line": 5.5,
+"exact": false
+},
+"40": {
+"bk": 55.5,
+"books": 4,
+"line": 2.5,
+"exact": true
+},
+"47": {
+"bk": 79.0,
+"books": 6,
+"line": 1.5,
+"exact": false
+},
+"48": {
+"bk": 46.2,
+"books": 6,
+"line": 1.5,
+"exact": true
+},
+"49": {
+"bk": 55.1,
+"books": 6,
+"line": 2.5,
+"exact": true
+},
+"50": {
+"bk": 50.6,
+"books": 6,
+"line": 13.5,
+"exact": true
+},
+"51": {
+"bk": 50.0,
+"books": 6,
+"line": 1.5,
+"exact": true
+},
+"53": {
+"bk": 54.5,
+"books": 5,
+"line": 2.5,
+"exact": true
+},
+"54": {
+"bk": 51.7,
+"books": 4,
+"line": 8.5,
+"exact": true
+},
+"55": {
+"bk": 78.3,
+"books": 6,
+"line": 2.5,
+"exact": false
+},
+"56": {
+"bk": 94.4,
+"books": 6,
+"line": 2.5,
+"exact": false
+},
+"57": {
+"bk": 81.8,
+"books": 6,
+"line": 13.5,
+"exact": false
+},
+"58": {
+"bk": 81.3,
+"books": 6,
+"line": 1.5,
+"exact": false
+},
+"59": {
+"bk": 77.9,
+"books": 5,
+"line": 2.5,
+"exact": false
+},
+"60": {
+"bk": 94.3,
+"books": 5,
+"line": 2.5,
+"exact": false
+},
+"61": {
+"bk": 88.2,
+"books": 4,
+"line": 8.5,
+"exact": false
+},
+"62": {
+"bk": 47.2,
+"books": 1,
+"line": 9.5,
+"exact": true
+},
+"63": {
+"bk": 90.2,
+"books": 5,
+"line": 17.5,
+"exact": false
+},
+"64": {
+"bk": 61.6,
+"books": 1,
+"line": 19.5,
+"exact": true
+},
+"65": {
+"bk": 53.0,
+"books": 6,
+"line": 3.5,
+"exact": true
+},
+"66": {
+"bk": 85.4,
+"books": 6,
+"line": 3.5,
+"exact": false
+},
+"67": {
+"bk": 97.2,
+"books": 6,
+"line": 3.5,
+"exact": false
+},
+"68": {
+"bk": 87.6,
+"books": 4,
+"line": 15.5,
+"exact": false
+},
+"69": {
+"bk": 53.5,
+"books": 1,
+"line": 14.5,
+"exact": true
+},
+"70": {
+"bk": 64.0,
+"books": 5,
+"line": 6.5,
+"exact": false
+},
+"71": {
+"bk": 89.3,
+"books": 5,
+"line": 6.5,
+"exact": false
+},
+"72": {
+"bk": 82.5,
+"books": 5,
+"line": 13.5,
+"exact": false
+},
+"73": {
+"bk": 84.3,
+"books": 6,
+"line": 3.5,
+"exact": false
+},
+"74": {
+"bk": 42.2,
+"books": 6,
+"line": 3.5,
+"exact": true
+},
+"75": {
+"bk": 49.3,
+"books": 6,
+"line": 5.5,
+"exact": true
+},
+"76": {
+"bk": 81.3,
+"books": 6,
+"line": 5.5,
+"exact": false
+},
+"77": {
+"bk": 97.6,
+"books": 6,
+"line": 5.5,
+"exact": false
+},
+"78": {
+"bk": 41.5,
+"books": 5,
+"line": 6.5,
+"exact": false
+},
+"80": {
+"bk": 53.0,
+"books": 2,
+"line": 72.5,
+"exact": false
+},
+"81": {
+"bk": 24.9,
+"books": 2,
+"line": 72.5,
+"exact": false
+},
+"82": {
+"bk": 46.9,
+"books": 4,
+"line": 57.5,
+"exact": false
+},
+"83": {
+"bk": 49.7,
+"books": 1,
+"line": 224.5,
+"exact": true
+},
+"84": {
+"bk": 37.2,
+"books": 3,
+"line": 33.5,
+"exact": false
+},
+"85": {
+"bk": 58.6,
+"books": 3,
+"line": 33.5,
+"exact": false
+},
+"86": {
+"bk": 73.7,
+"books": 6,
+"line": 18.5,
+"exact": false
+},
+"87": {
+"bk": 67.7,
+"books": 1,
+"line": 7.5,
+"exact": true
+},
+"88": {
+"bk": 92.8,
+"books": 6,
+"line": 18.5,
+"exact": false
+},
+"89": {
+"bk": 88.2,
+"books": 6,
+"line": 8.5,
+"exact": false
+},
+"90": {
+"bk": 74.6,
+"books": 5,
+"line": 7.5,
+"exact": false
+},
+"91": {
+"bk": 93.6,
+"books": 5,
+"line": 7.5,
+"exact": false
+},
+"92": {
+"bk": 84.0,
+"books": 4,
+"line": 21.5,
+"exact": false
+},
+"93": {
+"bk": 95.5,
+"books": 4,
+"line": 21.5,
+"exact": false
+},
+"98": {
+"bk": 52.3,
+"books": 2,
+"line": 12.5,
+"exact": true
+},
+"99": {
+"bk": 50.0,
+"books": 3,
+"line": 267.5,
+"exact": true
+},
+"100": {
+"bk": 56.9,
+"books": 6,
+"line": 1.5,
+"exact": true
+},
+"101": {
+"bk": 73.8,
+"books": 2,
+"line": 12.5,
+"exact": false
+},
+"102": {
+"bk": 55.2,
+"books": 3,
+"line": 267.5,
+"exact": false
+},
+"103": {
+"bk": 81.7,
+"books": 6,
+"line": 1.5,
+"exact": false
+},
+"104": {
+"bk": 72.5,
+"books": 3,
+"line": 267.5,
+"exact": false
+},
+"105": {
+"bk": 93.7,
+"books": 3,
+"line": 267.5,
+"exact": false
+},
+"106": {
+"bk": 54.4,
+"books": 6,
+"line": 2.5,
+"exact": true
+},
+"107": {
+"bk": 53.9,
+"books": 6,
+"line": 8.5,
+"exact": true
+},
+"108": {
+"bk": 57.5,
+"books": 3,
+"line": 5.5,
+"exact": true
+},
+"109": {
+"bk": 62.6,
+"books": 4,
+"line": 5.5,
+"exact": false
+},
+"110": {
+"bk": 57.4,
+"books": 1,
+"line": 1.5,
+"exact": true
+},
+"111": {
+"bk": 84.1,
+"books": 3,
+"line": 5.5,
+"exact": false
+},
+"112": {
+"bk": 95.9,
+"books": 3,
+"line": 5.5,
+"exact": false
+},
+"113": {
+"bk": 94.3,
+"books": 6,
+"line": 2.5,
+"exact": false
+},
+"114": {
+"bk": 77.9,
+"books": 6,
+"line": 2.5,
+"exact": false
+},
+"115": {
+"bk": 66.4,
+"books": 5,
+"line": 4.5,
+"exact": false
+},
+"116": {
+"bk": 67.6,
+"books": 3,
+"line": 13.5,
+"exact": false
+},
+"117": {
+"bk": 85.3,
+"books": 3,
+"line": 13.5,
+"exact": false
+},
+"118": {
+"bk": 85.5,
+"books": 4,
+"line": 22.5,
+"exact": false
+},
+"119": {
+"bk": 64.7,
+"books": 4,
+"line": 22.5,
+"exact": false
+},
+"120": {
+"bk": 89.4,
+"books": 5,
+"line": 4.5,
+"exact": false
+},
+"121": {
+"bk": 62.5,
+"books": 1,
+"line": 3.5,
+"exact": true
+},
+"122": {
+"bk": 93.6,
+"books": 5,
+"line": 4.5,
+"exact": false
+},
+"123": {
+"bk": 59.3,
+"books": 1,
+"line": 5.5,
+"exact": true
+},
+"124": {
+"bk": 86.5,
+"books": 4,
+"line": 4.5,
+"exact": false
+}
+}
