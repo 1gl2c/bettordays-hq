@@ -20,7 +20,7 @@ import hashlib
 _V=hashlib.sha256(s.encode()).hexdigest()[:12]
 head=head.replace('<meta charset="utf-8">','<meta charset="utf-8"><meta name="bd-version" content="'+_V+'">',1)
 json.dump({'v':_V},open('/home/claude/bettordays-hq/version.json','w'))
-tail='\n<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>\n<script src="/sb.js"></script>\n<script src="/gate.js"></script>\n<script src="/install.js" defer></script>\n<script src="/refresh.js" defer></script>\n</html>\n'
+tail='\n<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>\n<script src="/sb.js"></script>\n<script src="/gate.js"></script>\n<script src="/install.js" defer></script>\n<script src="/refresh.js" defer></script>\n<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>\n<script defer src="/_vercel/insights/script.js"></script>\n</html>\n'
 open('/home/claude/bettordays-hq/index.html','w').write(head+s+tail)
 print(len(board))
 R=json.loads(re.search(r'const ROWS=(\[.*?\]);\n',s).group(1))
