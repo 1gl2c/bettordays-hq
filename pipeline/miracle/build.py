@@ -7,7 +7,7 @@ Rules (fixed so the ticket is not hand-picked):
     (rebounds, assists, threes) one step either side of it. Points/PRA: exact book line only, so
     curve guesses never drive the pick.
   - At least 3 books, Kalshi ask 30 to 90 cents, books' fair chance at or above the Kalshi ask plus
-    Kalshi's fee (a 52 vs 52.1 leg like Nov 24 Jokic 10+ assists no longer qualifies).
+    Kalshi's fee plus 0.2 points (a 52 vs 52.1 leg like Nov 24 Jokic 10+ assists no longer qualifies).
   - Never: James Harden, players listed OUT, unders on Wemby or Luka (overs only here anyway).
   - One leg per player and stat, at most 2 legs per player.
   - Add legs in tiers: the books' exact line first, then one step above it, then one step below it
@@ -50,7 +50,7 @@ for s, st in SM.items():
         else:
             if abs(n - need) > 1: continue
             lam = B._solve(lambda x: B.pois_ge(x, need), p, 0, 40); q = B.pois_ge(lam, n)
-        if q < fee(a): continue  # Nov 24: the books must beat Kalshi's price after the fee, not just tie it
+        if q < fee(a) + 0.002: continue  # Nov 24: books must beat Kalshi by at least 0.2 points after the fee
         tier = 0 if n == need else (1 if n > need else 2)
         pool.append(dict(tier=tier, p=f'{pl} {n}+ {LBL[st]}', pl=pl, st=st, g=g, k=round(a * 100), bk=round(q * 100, 1), exact=n == need, books=books, e=q / fee(a), t=m['ticker']))
 pool.sort(key=lambda x: (x['tier'], -x['e']))
