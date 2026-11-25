@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="bd-version" content="2dff41309721"><meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en"><head><meta charset="utf-8"><meta name="bd-version" content="41c6fd7861b6"><meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/icon-192.png">
@@ -765,7 +765,7 @@ E.innerHTML=BETAH.slice().reverse().map(n=>`<div style="margin:12px 0 4px"><b>${
 <section class="panel" id="tonight">
     <div class="tn-head"><span class="lbl acc" id="tnTag">Tonight</span><h2 class="big" id="tnTitle">Tonight</h2></div>
     <div class="tn-card" id="tnCard"><p class="note" style="margin:0">Loading tonight's play…</p></div>
-    <div class="tn-act"><button type="button" class="btn on" id="tnCopy" hidden>Copy the Hammer</button><a class="btn" href="/research#rs-v7">Full grade sheet</a><a class="btn" href="/grade">Grade my slip</a><a class="btn" href="#easy" id="tnBoard">Build a slip</a></div>
+    <div class="tn-act"><button type="button" class="btn on" id="tnCopy" hidden>Copy the Hammer</button><a class="btn" href="/research#rs-v7">Full grade sheet</a><a class="btn" href="/grade">Grade my slip</a><a class="btn" href="#easy" id="tnBoard">Build a slip</a><a class="btn" href="#betahome">Beta parlays ↓</a></div>
     <p class="proof" id="homeProof"><b>78%</b> of our 70%+ picks hit · 426 of 543 graded since Nov 4 · last night (Nov 24) <b>80%</b>, 20 of 25 · as $1 singles at Kalshi's price after fees: <b style="color:var(--acc)">+0.6%</b> (GREEN +5%)</p>
     <p class="tiny" style="margin:10px 0 0;color:var(--mute)">21+. Grades are estimates, not guarantees. Bet small. If it stops being fun, call or text 1-800-MY-RESET.</p>
   </section>
@@ -777,23 +777,26 @@ E.innerHTML=BETAH.slice().reverse().map(n=>`<div style="margin:12px 0 4px"><b>${
     <div class="ezbar" id="ezBar"><div class="top"><div class="big" id="ezN">0 legs</div><button class="btn on" id="ezCopy" type="button" disabled>Copy slip</button><button class="btn" id="ezClear" type="button" disabled>Clear</button></div><div class="t" id="ezT">Tap legs to build a ticket.</div></div>
   </section>
 
-  <section class="panel" id="hlearn">
-    <div class="dayhead"><span class="lbl">Self-learning · updated every night</span><h2 class="big">What the Hammer learned.</h2>
-    <p class="proof">Every night the Safe Hammer re-checks its own results: for each kind of leg, how often Kalshi 80 to 92 cent favorites priced before the game actually hit, against what Kalshi charged. "Needed" is Kalshi's price plus the fee. Small samples are pulled toward the price so one night can't swing it. A group needs 25+ legs before it can be blocked or preferred. Hard rule on top: no points or rebounds legs unless Ace approves them.</p></div>
-    <div class="scroll"><table class="rtab hlt" id="hlT"></table></div>
-    <div class="sech"><h3>Rule changes</h3><span class="lbl" id="hlW"></span></div>
-    <ul id="hlL" style="margin:4px 0 0;padding-left:20px;font-size:13.5px;line-height:1.8"></ul>
+  <section class="panel" id="betahome">
+    <div class="dayhead"><span class="lbl" style="color:#ffb020">Beta · experimental · play at your own risk</span><h2 class="big">Beta parlays.</h2>
+    <p class="proof">Everything below is experimental: the learning model's Perfect 3 and 10x attempts, our simulation's top picks, the Miracle Parlay and the Edge Lab. Each is graded every night, wins and losses, so you can see how they really do. They are not the board and not the Safe Hammer. Long odds, small stakes or none at all.</p></div>
+    <div class="sech"><h3>Perfect 3 and 10x attempts</h3><span class="lbl"><a href="/research#betalab" style="color:inherit">more on Research</a></span></div>
+    <div id="homePerf"><p class="note">Loading…</p></div>
+    <div class="sech"><h3>Our simulation's top picks</h3><span class="lbl" id="homeSimTs"></span></div>
+    <ol id="homeSim" style="margin:4px 0 0;padding-left:22px;font-size:13.5px;line-height:1.85"></ol>
+    <p class="tiny" style="margin:10px 0 0;color:var(--mute)">21+. Beta tools, not advice. If it stops being fun, call or text 1-800-MY-RESET.</p>
   </section>
 <script>
-const HL={"as_of": "2026-11-24", "window": "2026-10-25 to 2026-11-24", "legs": 107, "stats": [{"level": "stat", "group": "ast", "n": 27, "w": 25, "hit": 92.6, "price": 86.6, "shrunk": 90.0, "fee_price": 87.4, "status": "prefer"}, {"level": "stat", "group": "reb", "n": 23, "w": 19, "hit": 82.6, "price": 83.8, "shrunk": 83.2, "fee_price": 84.7, "status": "watch"}, {"level": "stat", "group": "pts", "n": 22, "w": 21, "hit": 95.5, "price": 83.7, "shrunk": 89.9, "fee_price": 84.7, "status": "watch"}, {"level": "stat", "group": "3pm", "n": 12, "w": 11, "hit": 91.7, "price": 83.4, "shrunk": 86.5, "fee_price": 84.3, "status": "watch"}, {"level": "stat", "group": "ml", "n": 11, "w": 7, "hit": 63.6, "price": 84.3, "shrunk": 77.0, "fee_price": 85.2, "status": "watch"}], "log": [{"date": "2026-11-24", "group": "ast", "was": "new", "now": "prefer", "n": 27, "hit": 92.6, "shrunk": 90.0, "fee_price": 87.4}]};
-(function(){const T=document.getElementById('hlT');if(!T)return;const NM={"ast": "Assists", "reb": "Rebounds", "pts": "Points", "3pm": "Threes", "ml": "Moneylines", "pra": "PRA"},nm=g=>NM[g]||g;
-const chip=s=>`<span class="res ${s==='prefer'?'w':s==='block'?'l':''}">${s==='prefer'?'PREFER':s==='block'?'BLOCKED':'WATCH'}</span>`;
-T.innerHTML='<thead><tr><th>Leg type</th><th>Record</th><th>Hit vs needed</th></tr></thead><tbody>'+HL.stats.map(g=>`<tr><td><b>${nm(g.group)}</b><br>${chip(g.status)}</td><td class="mono">${g.w}-${g.n-g.w}</td><td class="mono">${g.hit}%<br><span style="color:var(--mute)">needs ${g.fee_price}%</span></td></tr>`).join('')+'</tbody>';
-document.getElementById('hlW').textContent=`${HL.legs} legs · ${HL.window}`;
-document.getElementById('hlL').innerHTML=HL.log.slice().reverse().map(x=>`<li><b>${x.date}</b>: ${nm(x.group)} ${x.was==='new'?'starts as':'went from '+x.was+' to'} <b>${x.now}</b>. ${x.n} legs hit ${x.hit}%, ${x.shrunk}% after shrinkage, needs ${x.fee_price}%.</li>`).join('')||'<li>No changes yet.</li>';})();
+window.addEventListener('load',function(){try{
+ const src=document.getElementById('rsToday'),dst=document.getElementById('homePerf');
+ if(src&&dst){const c=src.cloneNode(true);c.removeAttribute('id');c.querySelectorAll('[id]').forEach(e=>e.removeAttribute('id'));dst.innerHTML='';dst.appendChild(c);}
+ const S=document.getElementById('homeSim');if(S&&typeof BETA!=='undefined'){const SN={pts:'points',reb:'rebounds',ast:'assists','3pm':'threes',pra:'PRA'},ask=a=>Math.round(a<=1?a*100:a);
+  document.getElementById('homeSimTs').textContent=BETA.top.some(l=>l.r)?'graded':'tonight';
+  S.innerHTML=BETA.top.slice(0,6).map(l=>`<li><b>${l.player} ${l.k}+ ${SN[l.st]||l.st}</b> <span style="color:var(--mute)">${l.g||''} · Kalshi ${ask(l.ask)} · sim ${Math.round(l.sim)}%</span>${l.r?` <span class="res ${l.r==='W'?'w':'l'}">${l.r}</span> <span class="mono" style="color:var(--mute)">(${l.act})</span>`:''}</li>`).join('');}
+}catch(e){}});
 </script>
   <section class="panel" id="miracle">
-    <div class="dayhead"><span class="lbl">Paper ticket · $10 a day</span><h2 class="big">The Miracle Parlay.</h2>
+    <div class="dayhead"><span class="lbl" style="color:#ffb020">Beta · paper ticket · $10 a day</span><h2 class="big">The Miracle Parlay.</h2>
     <p class="proof">One moonshot a night, built by a fixed rule so nobody hand-picks it: only lines the sportsbooks price at or above Kalshi, the books' own line first, then add legs until it pays about 1,000x. It runs on paper at $10 a night next to the Safe Hammer so you can see how both really do. Long odds by design. Never bet money you need.</p></div>
     <div class="kpis" id="mirK"></div>
     <div id="mirL"></div>
@@ -827,7 +830,7 @@ X.innerHTML='<div class="sech"><h3>Go bigger</h3><span class="lbl">each step add
 </script>
 
   <section class="panel" id="edgelab">
-    <div class="dayhead"><span class="lbl">Paper tracker · $2,000 a day each</span><h2 class="big">The Edge Lab.</h2>
+    <div class="dayhead"><span class="lbl" style="color:#ffb020">Beta · paper tracker · $2,000 a day each</span><h2 class="big">The Edge Lab.</h2>
     <p class="proof">Our best signal so far: legs where the sportsbooks price a line above Kalshi, 3+ points when the slate has them. Every night we take the six biggest gaps and play them two ways on paper, $2,000 each: three 2-leg parlays, and every leg as a single. No real money. It shows whether the edge holds up over time. Prices are Kalshi's at posting time, before any combo cut.</p></div>
     <div class="kpis" id="elK"></div>
     <div id="elT"></div>
@@ -848,6 +851,21 @@ T.innerHTML=`<div class="sech"><h3>${d.d}: three 2-leg parlays</h3><span class="
 if(ELH){const gr=EL.filter(n=>n.par.some(p=>p.res!==null)).slice().reverse();ELH.innerHTML=gr.length?gr.map(n=>{const pl=n.par.reduce((a,p)=>a+(p.res===null?0:p.res==='W'?p.stake*(p.pays-1):p.res==='V'?0:-p.stake),0),sl=n.sing.reduce((a,x)=>a+(x.res===null?0:x.res==='W'?x.stake*(x.pays-1):x.res==='V'?0:-x.stake),0),sg=v=>(v>=0?'+$':'-$')+f(Math.abs(v));
  return `<div style="margin:12px 0 4px"><b>${n.d}</b> <span class="mono" style="color:var(--mute)">· parlays ${sg(pl)} · singles ${sg(sl)}</span></div><ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.75">`+n.par.map((p,i)=>`<li>Parlay ${i+1} (${p.pays}x)${mark(p)}: ${p.legs.map(l=>l.p+mark(l)).join(' + ')}</li>`).join('')+`<li>Singles: ${n.sing.map(x=>x.p+mark(x)).join(' · ')}</li></ul>`}).join(''):'<p class="note">The first graded night shows here after grading.</p>';}
 })();
+</script>
+  <section class="panel" id="hlearn">
+    <div class="dayhead"><span class="lbl">Self-learning · updated every night</span><h2 class="big">What the Hammer learned.</h2>
+    <p class="proof">Every night the Safe Hammer re-checks its own results: for each kind of leg, how often Kalshi 80 to 92 cent favorites priced before the game actually hit, against what Kalshi charged. "Needed" is Kalshi's price plus the fee. Small samples are pulled toward the price so one night can't swing it. A group needs 25+ legs before it can be blocked or preferred. Hard rule on top: no points or rebounds legs unless Ace approves them.</p></div>
+    <div class="scroll"><table class="rtab hlt" id="hlT"></table></div>
+    <div class="sech"><h3>Rule changes</h3><span class="lbl" id="hlW"></span></div>
+    <ul id="hlL" style="margin:4px 0 0;padding-left:20px;font-size:13.5px;line-height:1.8"></ul>
+  </section>
+<script>
+const HL={"as_of": "2026-11-24", "window": "2026-10-25 to 2026-11-24", "legs": 107, "stats": [{"level": "stat", "group": "ast", "n": 27, "w": 25, "hit": 92.6, "price": 86.6, "shrunk": 90.0, "fee_price": 87.4, "status": "prefer"}, {"level": "stat", "group": "reb", "n": 23, "w": 19, "hit": 82.6, "price": 83.8, "shrunk": 83.2, "fee_price": 84.7, "status": "watch"}, {"level": "stat", "group": "pts", "n": 22, "w": 21, "hit": 95.5, "price": 83.7, "shrunk": 89.9, "fee_price": 84.7, "status": "watch"}, {"level": "stat", "group": "3pm", "n": 12, "w": 11, "hit": 91.7, "price": 83.4, "shrunk": 86.5, "fee_price": 84.3, "status": "watch"}, {"level": "stat", "group": "ml", "n": 11, "w": 7, "hit": 63.6, "price": 84.3, "shrunk": 77.0, "fee_price": 85.2, "status": "watch"}], "log": [{"date": "2026-11-24", "group": "ast", "was": "new", "now": "prefer", "n": 27, "hit": 92.6, "shrunk": 90.0, "fee_price": 87.4}]};
+(function(){const T=document.getElementById('hlT');if(!T)return;const NM={"ast": "Assists", "reb": "Rebounds", "pts": "Points", "3pm": "Threes", "ml": "Moneylines", "pra": "PRA"},nm=g=>NM[g]||g;
+const chip=s=>`<span class="res ${s==='prefer'?'w':s==='block'?'l':''}">${s==='prefer'?'PREFER':s==='block'?'BLOCKED':'WATCH'}</span>`;
+T.innerHTML='<thead><tr><th>Leg type</th><th>Record</th><th>Hit vs needed</th></tr></thead><tbody>'+HL.stats.map(g=>`<tr><td><b>${nm(g.group)}</b><br>${chip(g.status)}</td><td class="mono">${g.w}-${g.n-g.w}</td><td class="mono">${g.hit}%<br><span style="color:var(--mute)">needs ${g.fee_price}%</span></td></tr>`).join('')+'</tbody>';
+document.getElementById('hlW').textContent=`${HL.legs} legs · ${HL.window}`;
+document.getElementById('hlL').innerHTML=HL.log.slice().reverse().map(x=>`<li><b>${x.date}</b>: ${nm(x.group)} ${x.was==='new'?'starts as':'went from '+x.was+' to'} <b>${x.now}</b>. ${x.n} legs hit ${x.hit}%, ${x.shrunk}% after shrinkage, needs ${x.fee_price}%.</li>`).join('')||'<li>No changes yet.</li>';})();
 </script>
   <section class="panel" id="thursday">
     <div class="dayhead"><span class="lbl" id="dayTag">Picks</span><h2 class="big" id="dayTitle">Tuesday · Nov 24</h2></div>
@@ -2125,7 +2143,7 @@ document.getElementById('thhTix').innerHTML=HTIX.map(t=>{const pl=t.t.includes('
 /* Return-after-fees tile, from BD_ROI (buildsite.py) */
 (function(){const e=document.getElementById('tlRoi');if(!e||typeof BD_ROI==='undefined')return;const f=v=>(v>0?'+':v<0?'−':'')+Math.abs(v)+'%';e.textContent=f(BD_ROI.all);e.className='mono '+(BD_ROI.all>0?'acc':'bad');document.getElementById('tlRoiS').textContent=`${BD_ROI.n} priced 70+ legs as $1 singles at Kalshi's price · GREEN legs ${f(BD_ROI.green)}`})();
 /* pages router */
-(function(){const MAP={tonight:'home',easy:'home',miracle:'home',hlearn:'home',edgelab:'home',thursday:'board',v7lab:'research',drop:'off',aipanel:'history',methodnow:'method',record:'record',founders:'founders',research:'research',perfect:'research',betalab:'research',tickets:'record',review24:'record',review23:'record',review22:'record',review21:'results',review20:'results',review19:'results',review18:'results',review17:'results',review16:'results',review15:'results',review14:'results',review13:'results',review12:'results',review11:'history',th19hist:'history',fr20hist:'history',sa21hist:'history',sn22hist:'history',mo23hist:'history',wedhist:'history',tuehist:'history',monhist:'history',sunhist:'history',sathist:'history',frihist:'history',thuhist:'history',wednesday:'history',review10:'history',tuesday:'history',monday:'history',recap9:'history',recap:'history',sunday:'history',ledger:'results',legs:'results',marbles:'method',thesis:'method',edge:'method',structure:'method',lotto:'method'};
+(function(){const MAP={tonight:'home',easy:'home',miracle:'home',hlearn:'home',edgelab:'home',betahome:'home',thursday:'board',v7lab:'research',drop:'off',aipanel:'history',methodnow:'method',record:'record',founders:'founders',research:'research',perfect:'research',betalab:'research',tickets:'record',review24:'record',review23:'record',review22:'record',review21:'results',review20:'results',review19:'results',review18:'results',review17:'results',review16:'results',review15:'results',review14:'results',review13:'results',review12:'results',review11:'history',th19hist:'history',fr20hist:'history',sa21hist:'history',sn22hist:'history',mo23hist:'history',wedhist:'history',tuehist:'history',monhist:'history',sunhist:'history',sathist:'history',frihist:'history',thuhist:'history',wednesday:'history',review10:'history',tuesday:'history',monday:'history',recap9:'history',recap:'history',sunday:'history',ledger:'results',legs:'results',marbles:'method',thesis:'method',edge:'method',structure:'method',lotto:'method'};
  const T=document.querySelector('.tiles');if(T)T.dataset.pg='record';
  Object.entries(MAP).forEach(([id,p])=>{const e=document.getElementById(id);if(e)e.dataset.pg=p});
  document.querySelectorAll('.wrap > section, body > section').forEach(e=>{if(e.dataset.pg)return;const h=(e.querySelector('h2')||{}).textContent||'';e.dataset.pg=/Calibration|Scoreboard/.test(h)?'record':/Red flags|Rulebook/.test(h)?'method':'history'});
