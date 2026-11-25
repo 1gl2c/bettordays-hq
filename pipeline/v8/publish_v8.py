@@ -134,7 +134,7 @@ rep(f"label:'{plabel}'}};", f"label:'{label}'}};")
 rep(f'id="dayTitle">{plabel}</h2>', f'id="dayTitle">{label}</h2>')
 rep(f"[typeof {PK}!=='undefined'&&{PK},", f"[typeof {K}!=='undefined'&&{K},typeof {PK}!=='undefined'&&{PK},")
 pd = datetime.date.fromisoformat(pday); dd = datetime.date.fromisoformat(day)
-rep(f"const D=[['{pd.strftime('%b')} {pd.day}','{PK}','{PK[:2]}TIX'],", f"const D=[['{dd.strftime('%b')} {dd.day}','{K}','{K[:2]}TIX'],['{pd.strftime('%b')} {pd.day}','{PK}','{PK[:2]}TIX'],")
+rep(f"const D=[['{pd.strftime('%b')} {pd.day}','{PK}','{PT}'],", f"const D=[['{dd.strftime('%b')} {dd.day}','{K}','{K}TIX'],['{pd.strftime('%b')} {pd.day}','{PK}','{PT}'],")  # per-day ticket const names (Nov 24 fix: TUTIX clashed with Nov 17)
 # status line
 m = re.search(r'<span class="lbl">[^<]*</span>', s[s.index('class="sys"'):] if 'class="sys"' in s else s)
 nh = len(H['legs'])
