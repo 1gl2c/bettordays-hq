@@ -10,20 +10,22 @@
       "g": "BOS@WSH \u00b7 5:00",
       "k": 84,
       "bk": 88.2,
-      "res": null
+      "res": "L",
+      "act": "5"
      },
      {
       "p": "Cooper Flagg 4+ assists",
       "g": "DAL@DEN \u00b7 7:00",
       "k": 86,
       "bk": 89.3,
-      "res": null
+      "res": "W",
+      "act": "12"
      }
     ],
     "pays": 1.36,
     "hit": 79,
     "stake": 666.67,
-    "res": null
+    "res": "L"
    },
    {
     "legs": [
@@ -32,20 +34,22 @@
       "g": "BOS@WSH \u00b7 5:00",
       "k": 74,
       "bk": 81.7,
-      "res": null
+      "res": "W",
+      "act": "38"
      },
      {
       "p": "Nikola Joki\u0107 8+ rebounds",
       "g": "DAL@DEN \u00b7 7:00",
       "k": 88,
       "bk": 90.9,
-      "res": null
+      "res": "W",
+      "act": "11"
      }
     ],
     "pays": 1.5,
     "hit": 74,
     "stake": 666.67,
-    "res": null
+    "res": "W"
    },
    {
     "legs": [
@@ -54,20 +58,22 @@
       "g": "DAL@DEN \u00b7 7:00",
       "k": 77,
       "bk": 80.1,
-      "res": null
+      "res": "W",
+      "act": "1"
      },
      {
       "p": "Nikola Joki\u0107 6+ assists",
       "g": "DAL@DEN \u00b7 7:00",
       "k": 90,
       "bk": 92.6,
-      "res": null
+      "res": "L",
+      "act": "5"
      }
     ],
     "pays": 1.41,
     "hit": 74,
     "stake": 666.67,
-    "res": null
+    "res": "L"
    }
   ],
   "sing": [
@@ -76,54 +82,60 @@
     "g": "BOS@WSH \u00b7 5:00",
     "k": 84,
     "bk": 88.2,
-    "res": null,
+    "res": "L",
     "pays": 1.177,
-    "stake": 333.33
+    "stake": 333.33,
+    "act": "5"
    },
    {
     "p": "Cooper Flagg 4+ assists",
     "g": "DAL@DEN \u00b7 7:00",
     "k": 86,
     "bk": 89.3,
-    "res": null,
+    "res": "W",
     "pays": 1.152,
-    "stake": 333.33
+    "stake": 333.33,
+    "act": "12"
    },
    {
     "p": "Nikola Joki\u0107 8+ rebounds",
     "g": "DAL@DEN \u00b7 7:00",
     "k": 88,
     "bk": 90.9,
-    "res": null,
+    "res": "W",
     "pays": 1.127,
-    "stake": 333.33
+    "stake": 333.33,
+    "act": "11"
    },
    {
     "p": "AJ Dybantsa 20+ PRA",
     "g": "BOS@WSH \u00b7 5:00",
     "k": 74,
     "bk": 81.7,
-    "res": null,
+    "res": "W",
     "pays": 1.327,
-    "stake": 333.33
+    "stake": 333.33,
+    "act": "38"
    },
    {
     "p": "DeMar DeRozan under 4 assists",
     "g": "DAL@DEN \u00b7 7:00",
     "k": 77,
     "bk": 80.1,
-    "res": null,
+    "res": "W",
     "pays": 1.278,
-    "stake": 333.33
+    "stake": 333.33,
+    "act": "1"
    },
    {
     "p": "Nikola Joki\u0107 6+ assists",
     "g": "DAL@DEN \u00b7 7:00",
     "k": 90,
     "bk": 92.6,
-    "res": null,
+    "res": "L",
     "pays": 1.103,
-    "stake": 333.33
+    "stake": 333.33,
+    "act": "5"
    }
   ]
  }
