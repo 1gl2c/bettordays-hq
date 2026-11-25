@@ -52,6 +52,7 @@
   if (!vid) { vid = (w.crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(36).slice(2); store('bd_vid', vid); }
   var lastLog = 0;
   function logVisit(kind) {
+    if (!/(^|\.)bettordays\.xyz$/.test(location.hostname) || navigator.webdriver) return;  /* real site only, never tests */
     var now = Date.now();
     if (kind === 'resume' && now - lastLog < 30 * 60 * 1000) return;
     lastLog = now;
