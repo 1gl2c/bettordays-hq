@@ -99,14 +99,14 @@
  },
  "15": {
   "p": "Jared Goff 300+ passing yards",
-  "k": 39.5,
+  "k": 37.5,
   "ev": "KXNFLPASSYDS-26NOV26CHIDET",
   "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-300",
   "note": ""
  },
  "16": {
   "p": "Jared Goff 275+ passing yards",
-  "k": 53.0,
+  "k": 52.5,
   "ev": "KXNFLPASSYDS-26NOV26CHIDET",
   "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-275",
   "note": ""
@@ -190,21 +190,21 @@
  },
  "28": {
   "p": "VJ Edgecombe 6+ rebounds",
-  "k": 57.5,
+  "k": 58.0,
   "ev": "KXNBAREB-26NOV25MIAPHI",
   "ticker": "KXNBAREB-26NOV25MIAPHI-PHIVEDGECOMBE77-6",
   "note": ""
  },
  "29": {
   "p": "VJ Edgecombe 4+ rebounds",
-  "k": 83.0,
+  "k": 84.0,
   "ev": "KXNBAREB-26NOV25MIAPHI",
   "ticker": "KXNBAREB-26NOV25MIAPHI-PHIVEDGECOMBE77-4",
   "note": ""
  },
  "30": {
   "p": "VJ Edgecombe 4+ assists",
-  "k": 60.5,
+  "k": 61.5,
   "ev": "KXNBAAST-26NOV25MIAPHI",
   "ticker": "KXNBAAST-26NOV25MIAPHI-PHIVEDGECOMBE77-4",
   "note": ""
@@ -239,7 +239,7 @@
  },
  "35": {
   "p": "Mikel Brown Jr. 4+ rebounds",
-  "k": 26.0,
+  "k": 26.5,
   "ev": "KXNBAREB-26NOV25BKNMIL",
   "ticker": "KXNBAREB-26NOV25BKNMIL-BKNMBROWN0-4",
   "note": ""
@@ -379,7 +379,7 @@
  },
  "55": {
   "p": "Tyrese Maxey 2+ threes",
-  "k": 75.5,
+  "k": 76.5,
   "ev": "KXNBA3PT-26NOV25MIAPHI",
   "ticker": "KXNBA3PT-26NOV25MIAPHI-PHITMAXEY0-2",
   "note": ""
@@ -393,7 +393,7 @@
  },
  "57": {
   "p": "Buddy Hield 10+ points",
-  "k": 75.0,
+  "k": 74.5,
   "ev": "KXNBAPTS-26NOV25CHICHA",
   "ticker": "KXNBAPTS-26NOV25CHICHA-CHIBHIELD8-10",
   "note": ""
@@ -484,7 +484,7 @@
  },
  "70": {
   "p": "Amen Thompson 6+ rebounds",
-  "k": 61.0,
+  "k": 61.5,
   "ev": "KXNBAREB-26NOV25PHXHOU",
   "ticker": "KXNBAREB-26NOV25PHXHOU-HOUATHOMPSON1-6",
   "note": ""
@@ -526,14 +526,14 @@
  },
  "76": {
   "p": "Jaden McDaniels 4+ rebounds",
-  "k": 80.5,
+  "k": 79.0,
   "ev": "KXNBAREB-26NOV25MINOKC",
   "ticker": "KXNBAREB-26NOV25MINOKC-MINJMCDANIELS3-4",
   "note": ""
  },
  "77": {
   "p": "Jaden McDaniels 2+ rebounds",
-  "k": 96.5,
+  "k": 96.0,
   "ev": "KXNBAREB-26NOV25MINOKC",
   "ticker": "KXNBAREB-26NOV25MINOKC-MINJMCDANIELS3-2",
   "note": ""
@@ -624,14 +624,14 @@
  },
  "90": {
   "p": "Cedric Coward 6+ rebounds",
-  "k": 69.5,
+  "k": 70.0,
   "ev": "KXNBAREB-26NOV25LACMEM",
   "ticker": "KXNBAREB-26NOV25LACMEM-MEMCCOWARD23-6",
   "note": ""
  },
  "91": {
   "p": "Cedric Coward 4+ rebounds",
-  "k": 90.5,
+  "k": 90.0,
   "ev": "KXNBAREB-26NOV25LACMEM",
   "ticker": "KXNBAREB-26NOV25LACMEM-MEMCCOWARD23-4",
   "note": ""
@@ -827,7 +827,7 @@
  },
  "119": {
   "p": "Michael Porter Jr. 20+ points",
-  "k": 61.5,
+  "k": 60.5,
   "ev": "KXNBAPTS-26NOV25BKNMIL",
   "ticker": "KXNBAPTS-26NOV25BKNMIL-BKNMPORTER17-20",
   "note": ""
@@ -841,7 +841,7 @@
  },
  "121": {
   "p": "Isaiah Stewart 4+ rebounds",
-  "k": 60.5,
+  "k": 60.0,
   "ev": "KXNBAREB-26NOV25LACMEM",
   "ticker": "KXNBAREB-26NOV25LACMEM-MEMISTEWART28-4",
   "note": ""
@@ -862,7 +862,7 @@
  },
  "124": {
   "p": "Fred VanVleet under 8 assists",
-  "k": 83.0,
+  "k": 83.5,
   "ev": "KXNBAAST-26NOV25PHXHOU",
   "ticker": "KXNBAAST-26NOV25PHXHOU-HOUFVANVLEET5-8",
   "note": ""

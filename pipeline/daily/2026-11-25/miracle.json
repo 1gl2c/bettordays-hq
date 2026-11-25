@@ -1,0 +1,120 @@
+{
+ "date": "2026-11-25",
+ "stake": 10,
+ "pays": 1688,
+ "chance": 1238,
+ "ev": 36.3,
+ "pool": 77,
+ "legs": [
+  {
+   "p": "Deni Avdija 6+ assists",
+   "g": "SASPOR",
+   "k": 53,
+   "bk": 56.1,
+   "exact": true,
+   "tier": 0,
+   "books": 5,
+   "t": "KXNBAAST-26NOV25SASPOR-PORDAVDIJA8-6"
+  },
+  {
+   "p": "Jalen Smith 2+ threes",
+   "g": "CHICHA",
+   "k": 54,
+   "bk": 56.7,
+   "exact": true,
+   "tier": 0,
+   "books": 5,
+   "t": "KXNBA3PT-26NOV25CHICHA-CHIJSMITH25-2"
+  },
+  {
+   "p": "Khaman Maluach 6+ rebounds",
+   "g": "PHXHOU",
+   "k": 42,
+   "bk": 44.3,
+   "exact": true,
+   "tier": 0,
+   "books": 5,
+   "t": "KXNBAREB-26NOV25PHXHOU-PHXKMALUACH10-6"
+  },
+  {
+   "p": "Stephon Castle 20+ points",
+   "g": "SASPOR",
+   "k": 48,
+   "bk": 50.4,
+   "exact": true,
+   "tier": 0,
+   "books": 3,
+   "t": "KXNBAPTS-26NOV25SASPOR-SASSCASTLE5-20"
+  },
+  {
+   "p": "Davion Mitchell 3+ threes",
+   "g": "MIAPHI",
+   "k": 37,
+   "bk": 39.0,
+   "exact": true,
+   "tier": 0,
+   "books": 6,
+   "t": "KXNBA3PT-26NOV25MIAPHI-MIADMITCHELL2-3"
+  },
+  {
+   "p": "Anfernee Simons 10+ points",
+   "g": "MIAPHI",
+   "k": 47,
+   "bk": 49.0,
+   "exact": true,
+   "tier": 0,
+   "books": 6,
+   "t": "KXNBAPTS-26NOV25MIAPHI-PHIASIMONS5-10"
+  },
+  {
+   "p": "Tari Eason 10+ points",
+   "g": "PHXHOU",
+   "k": 47,
+   "bk": 49.0,
+   "exact": true,
+   "tier": 0,
+   "books": 3,
+   "t": "KXNBAPTS-26NOV25PHXHOU-HOUTEASON17-10"
+  },
+  {
+   "p": "Victor Wembanyama 30+ points",
+   "g": "SASPOR",
+   "k": 48,
+   "bk": 50.0,
+   "exact": true,
+   "tier": 0,
+   "books": 5,
+   "t": "KXNBAPTS-26NOV25SASPOR-SASVWEMBANYAMA1-30"
+  },
+  {
+   "p": "Jalen Smith 2+ assists",
+   "g": "CHICHA",
+   "k": 57,
+   "bk": 63.5,
+   "exact": false,
+   "tier": 2,
+   "books": 4,
+   "t": "KXNBAAST-26NOV25CHICHA-CHIJSMITH25-2"
+  },
+  {
+   "p": "Charles Bassey 8+ rebounds",
+   "g": "SACGSW",
+   "k": 55,
+   "bk": 61.0,
+   "exact": false,
+   "tier": 2,
+   "books": 5,
+   "t": "KXNBAREB-26NOV25SACGSW-GSWCBASSEY28-8"
+  },
+  {
+   "p": "Jaylen Brown 6+ rebounds",
+   "g": "MIAPHI",
+   "k": 57,
+   "bk": 62.7,
+   "exact": false,
+   "tier": 2,
+   "books": 5,
+   "t": "KXNBAREB-26NOV25MIAPHI-PHIJBROWN7-6"
+  }
+ ]
+}

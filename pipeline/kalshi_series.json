@@ -22,5 +22,7 @@
  "KXNCAAMBGAME": "Men's College Basketball Game",
  "KXNFLPASSYDS": "Pro Football Passing Yards",
  "KXNBAPRA": "NBA Player Points + Rebounds + Assists",
- "KXNBASPREAD": "NBA Spread"
+ "KXNBASPREAD": "NBA Spread",
+ "KXNCAAMBSPREAD": "Men's College Basketball Spread",
+ "KXNFLRSHATT": "Pro Football Rushing Attempts"
 }

@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-25",
+ "stake": 10,
+ "pays": 41,
+ "chance": 38,
+ "ev": 7.3,
+ "pool": 5,
+ "legs": [
+  {
+   "p": "Deni Avdija 6+ assists",
+   "g": "SASPOR",
+   "k": 53,
+   "bk": 56.1,
+   "books": 5,
+   "t": "KXNBAAST-26NOV25SASPOR-PORDAVDIJA8-6"
+  },
+  {
+   "p": "Jalen Smith 2+ threes",
+   "g": "CHICHA",
+   "k": 54,
+   "bk": 56.7,
+   "books": 5,
+   "t": "KXNBA3PT-26NOV25CHICHA-CHIJSMITH25-2"
+  },
+  {
+   "p": "Jalen Smith 2+ assists",
+   "g": "CHICHA",
+   "k": 57,
+   "bk": 59.3,
+   "books": 2,
+   "t": "KXNBAAST-26NOV25CHICHA-CHIJSMITH25-2"
+  },
+  {
+   "p": "Davion Mitchell 3+ threes",
+   "g": "MIAPHI",
+   "k": 37,
+   "bk": 39.0,
+   "books": 6,
+   "t": "KXNBA3PT-26NOV25MIAPHI-MIADMITCHELL2-3"
+  },
+  {
+   "p": "Dean Wade 2+ threes",
+   "g": "MIAPHI",
+   "k": 34,
+   "bk": 35.9,
+   "books": 2,
+   "t": "KXNBA3PT-26NOV25MIAPHI-PHIDWADE45-2"
+  }
+ ]
+}
