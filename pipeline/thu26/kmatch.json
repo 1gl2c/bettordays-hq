@@ -1,0 +1,485 @@
+{
+ "1": {
+  "p": "James Cook anytime touchdown",
+  "k": 49.5,
+  "ev": "KXNFLTD-26NOV26KCBUF",
+  "ticker": "KXNFLTD-26NOV26KCBUF-BUFJCOOK4-1",
+  "note": ""
+ },
+ "2": {
+  "p": "Sam LaPorta anytime touchdown",
+  "k": 32.5,
+  "ev": "KXNFLTD-26NOV26CHIDET",
+  "ticker": "KXNFLTD-26NOV26CHIDET-DETSLAPORTA87-1",
+  "note": ""
+ },
+ "3": {
+  "p": "Amon-Ra St. Brown 100+ receiving yards",
+  "k": 34.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-100",
+  "note": ""
+ },
+ "4": {
+  "p": "Amon-Ra St. Brown 90+ receiving yards",
+  "k": 41.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-90",
+  "note": ""
+ },
+ "5": {
+  "p": "Amon-Ra St. Brown 80+ receiving yards",
+  "k": 51.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-80",
+  "note": ""
+ },
+ "6": {
+  "p": "Amon-Ra St. Brown 70+ receiving yards",
+  "k": 61.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-70",
+  "note": ""
+ },
+ "7": {
+  "p": "Amon-Ra St. Brown 60+ receiving yards",
+  "k": 70.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-60",
+  "note": ""
+ },
+ "8": {
+  "p": "Amon-Ra St. Brown 50+ receiving yards",
+  "k": 79.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-50",
+  "note": ""
+ },
+ "9": {
+  "p": "Josh Allen anytime touchdown",
+  "k": 51.5,
+  "ev": "KXNFLTD-26NOV26KCBUF",
+  "ticker": "KXNFLTD-26NOV26KCBUF-BUFJALLEN17-1",
+  "note": ""
+ },
+ "10": {
+  "p": "Jared Goff 300+ passing yards",
+  "k": 38.5,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-300",
+  "note": ""
+ },
+ "11": {
+  "p": "Jared Goff 280+ passing yards",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "12": {
+  "p": "Jared Goff 275+ passing yards",
+  "k": 50.5,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-275",
+  "note": ""
+ },
+ "13": {
+  "p": "Jared Goff 250+ passing yards",
+  "k": 64.5,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-250",
+  "note": ""
+ },
+ "14": {
+  "p": "Jared Goff 225+ passing yards",
+  "k": 77.5,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-225",
+  "note": ""
+ },
+ "15": {
+  "p": "Jared Goff 200+ passing yards",
+  "k": 87.0,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-200",
+  "note": ""
+ },
+ "16": {
+  "p": "Amon-Ra St. Brown anytime touchdown",
+  "k": 52.5,
+  "ev": "KXNFLTD-26NOV26CHIDET",
+  "ticker": "KXNFLTD-26NOV26CHIDET-DETASTBROWN14-1",
+  "note": ""
+ },
+ "17": {
+  "p": "CeeDee Lamb anytime touchdown",
+  "k": 54.5,
+  "ev": "KXNFLTD-26NOV26PHIDAL",
+  "ticker": "KXNFLTD-26NOV26PHIDAL-DALCLAMB88-1",
+  "note": ""
+ },
+ "18": {
+  "p": "Josh Allen 40+ rushing yards",
+  "k": 47.5,
+  "ev": "KXNFLRSHYDS-26NOV26KCBUF",
+  "ticker": "KXNFLRSHYDS-26NOV26KCBUF-BUFJALLEN17-40",
+  "note": ""
+ },
+ "19": {
+  "p": "Joe Milton 30+ rushing yards",
+  "k": 50.5,
+  "ev": "KXNFLRSHYDS-26NOV26PHIDAL",
+  "ticker": "KXNFLRSHYDS-26NOV26PHIDAL-PHIJMILTON10-30",
+  "note": ""
+ },
+ "20": {
+  "p": "Caleb Williams 25+ rushing yards",
+  "k": 44.5,
+  "ev": "KXNFLRSHYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRSHYDS-26NOV26CHIDET-CHICWILLIAMS18-25",
+  "note": ""
+ },
+ "21": {
+  "p": "Rashee Rice anytime touchdown",
+  "k": 27.5,
+  "ev": "KXNFLTD-26NOV26KCBUF",
+  "ticker": "KXNFLTD-26NOV26KCBUF-KCRRICE4-1",
+  "note": ""
+ },
+ "22": {
+  "p": "Luther Burden anytime touchdown",
+  "k": 38.5,
+  "ev": "KXNFLTD-26NOV26CHIDET",
+  "ticker": "KXNFLTD-26NOV26CHIDET-CHILBURDEN10-1",
+  "note": ""
+ },
+ "23": {
+  "p": "Javonte Williams anytime touchdown",
+  "k": 60.5,
+  "ev": "KXNFLTD-26NOV26PHIDAL",
+  "ticker": "KXNFLTD-26NOV26PHIDAL-DALJWILLIAMS33-1",
+  "note": ""
+ },
+ "24": {
+  "p": "Lions ML v Bears",
+  "k": 48.5,
+  "ev": "KXNFLGAME-26NOV26CHIDET",
+  "ticker": "KXNFLGAME-26NOV26CHIDET-DET",
+  "note": ""
+ },
+ "25": {
+  "p": "Lions +1.5 v Bears",
+  "k": 52.5,
+  "ev": "KXNFLSPREAD-26NOV26CHIDET",
+  "ticker": "KXNFLSPREAD-26NOV26CHIDET-CHI2",
+  "note": ""
+ },
+ "26": {
+  "p": "Cowboys ML v Eagles",
+  "k": 79.5,
+  "ev": "KXNFLGAME-26NOV26PHIDAL",
+  "ticker": "KXNFLGAME-26NOV26PHIDAL-DAL",
+  "note": ""
+ },
+ "27": {
+  "p": "Chiefs ML at Bills",
+  "k": 39.5,
+  "ev": "KXNFLGAME-26NOV26KCBUF",
+  "ticker": "KXNFLGAME-26NOV26KCBUF-KC",
+  "note": ""
+ },
+ "28": {
+  "p": "Amon-Ra St. Brown under 8 receptions",
+  "k": 58.5,
+  "ev": "KXNFLREC-26NOV26CHIDET",
+  "ticker": "KXNFLREC-26NOV26CHIDET-DETASTBROWN14-8",
+  "note": ""
+ },
+ "29": {
+  "p": "Colston Loveland 50+ receiving yards",
+  "k": 54.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-CHICLOVELAND84-50",
+  "note": ""
+ },
+ "30": {
+  "p": "Rome Odunze 100+ receiving yards",
+  "k": 11.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-CHIRODUNZE15-100",
+  "note": ""
+ },
+ "31": {
+  "p": "Caleb Williams 15+ rushing yards",
+  "k": 65.5,
+  "ev": "KXNFLRSHYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRSHYDS-26NOV26CHIDET-CHICWILLIAMS18-15",
+  "note": ""
+ },
+ "32": {
+  "p": "Jahmyr Gibbs 70+ rushing yards",
+  "k": 72.5,
+  "ev": "KXNFLRSHYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRSHYDS-26NOV26CHIDET-DETJGIBBS0-70",
+  "note": ""
+ },
+ "33": {
+  "p": "Kyle Monangai anytime touchdown",
+  "k": 35.5,
+  "ev": "KXNFLTD-26NOV26CHIDET",
+  "ticker": "KXNFLTD-26NOV26CHIDET-CHIKMONANGAI25-1",
+  "note": ""
+ },
+ "34": {
+  "p": "Jahmyr Gibbs anytime touchdown",
+  "k": 70.5,
+  "ev": "KXNFLTD-26NOV26CHIDET",
+  "ticker": "KXNFLTD-26NOV26CHIDET-DETJGIBBS0-1",
+  "note": ""
+ },
+ "35": {
+  "p": "Javonte Williams 2+ touchdowns",
+  "k": 22.5,
+  "ev": "KXNFLTD-26NOV26PHIDAL",
+  "ticker": "KXNFLTD-26NOV26PHIDAL-DALJWILLIAMS33-2",
+  "note": ""
+ },
+ "36": {
+  "p": "George Pickens anytime touchdown",
+  "k": 46.5,
+  "ev": "KXNFLTD-26NOV26PHIDAL",
+  "ticker": "KXNFLTD-26NOV26PHIDAL-DALGPICKENS3-1",
+  "note": ""
+ },
+ "37": {
+  "p": "Saquon Barkley anytime touchdown",
+  "k": 43.5,
+  "ev": "KXNFLTD-26NOV26PHIDAL",
+  "ticker": "KXNFLTD-26NOV26PHIDAL-PHISBARKLEY26-1",
+  "note": ""
+ },
+ "38": {
+  "p": "Emmett Johnson anytime touchdown",
+  "k": 61.5,
+  "ev": "KXNFLTD-26NOV26KCBUF",
+  "ticker": "KXNFLTD-26NOV26KCBUF-KCEJOHNSON10-1",
+  "note": ""
+ },
+ "39": {
+  "p": "James Cook 80+ rushing yards",
+  "k": 53.5,
+  "ev": "KXNFLRSHYDS-26NOV26KCBUF",
+  "ticker": "KXNFLRSHYDS-26NOV26KCBUF-BUFJCOOK4-80",
+  "note": ""
+ },
+ "40": {
+  "p": "CeeDee Lamb 80+ receiving yards",
+  "k": 58.5,
+  "ev": "KXNFLRECYDS-26NOV26PHIDAL",
+  "ticker": "KXNFLRECYDS-26NOV26PHIDAL-DALCLAMB88-80",
+  "note": ""
+ },
+ "41": {
+  "p": "Kenneth Walker 70+ rushing yards",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "42": {
+  "p": "Luther Burden 60+ receiving yards",
+  "k": 52.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-CHILBURDEN10-60",
+  "note": ""
+ },
+ "43": {
+  "p": "Eagles at Cowboys under 50 total points",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "whole-number total can push; Kalshi lists only .5 lines"
+ },
+ "44": {
+  "p": "Bears ML at Lions",
+  "k": 51.5,
+  "ev": "KXNFLGAME-26NOV26CHIDET",
+  "ticker": "KXNFLGAME-26NOV26CHIDET-CHI",
+  "note": ""
+ },
+ "45": {
+  "p": "Chiefs +3 at Bills",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "whole-number spread can push; Kalshi lists only .5 lines"
+ },
+ "46": {
+  "p": "Kyle Monangai 8+ rushing attempts",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "47": {
+  "p": "Caleb Williams 2+ passing touchdowns",
+  "k": 63.5,
+  "ev": "KXNFLPASSTDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSTDS-26NOV26CHIDET-CHICWILLIAMS18-2",
+  "note": ""
+ },
+ "48": {
+  "p": "Jared Goff 2+ passing touchdowns",
+  "k": 64.5,
+  "ev": "KXNFLPASSTDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSTDS-26NOV26CHIDET-DETJGOFF16-2",
+  "note": ""
+ },
+ "49": {
+  "p": "Patrick Mahomes 2+ passing touchdowns",
+  "k": 45.5,
+  "ev": "KXNFLPASSTDS-26NOV26KCBUF",
+  "ticker": "KXNFLPASSTDS-26NOV26KCBUF-KCPMAHOMES15-2",
+  "note": ""
+ },
+ "50": {
+  "p": "Josh Allen 2+ passing touchdowns",
+  "k": 42.5,
+  "ev": "KXNFLPASSTDS-26NOV26KCBUF",
+  "ticker": "KXNFLPASSTDS-26NOV26KCBUF-BUFJALLEN17-2",
+  "note": ""
+ },
+ "51": {
+  "p": "Dak Prescott 2+ passing touchdowns",
+  "k": 70.5,
+  "ev": "KXNFLPASSTDS-26NOV26PHIDAL",
+  "ticker": "KXNFLPASSTDS-26NOV26PHIDAL-DALDPRESCOTT4-2",
+  "note": ""
+ },
+ "52": {
+  "p": "Caleb Williams 225+ passing yards",
+  "k": 69.5,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-CHICWILLIAMS18-225",
+  "note": ""
+ },
+ "53": {
+  "p": "Rome Odunze 25+ receiving yards",
+  "k": 76.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-CHIRODUNZE15-25",
+  "note": ""
+ },
+ "54": {
+  "p": "Rome Odunze 45+ receiving yards",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "55": {
+  "p": "Jameson Williams 20+ receiving yards",
+  "k": 86.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETJWILLIAMS1-20",
+  "note": ""
+ },
+ "56": {
+  "p": "Javonte Williams 60+ rushing yards",
+  "k": 65.5,
+  "ev": "KXNFLRSHYDS-26NOV26PHIDAL",
+  "ticker": "KXNFLRSHYDS-26NOV26PHIDAL-DALJWILLIAMS33-60",
+  "note": ""
+ },
+ "57": {
+  "p": "Khalil Shakir 25+ receiving yards",
+  "k": 69.5,
+  "ev": "KXNFLRECYDS-26NOV26KCBUF",
+  "ticker": "KXNFLRECYDS-26NOV26KCBUF-BUFKSHAKIR10-25",
+  "note": ""
+ },
+ "58": {
+  "p": "Travis Kelce 30+ receiving yards",
+  "k": 68.0,
+  "ev": "KXNFLRECYDS-26NOV26KCBUF",
+  "ticker": "KXNFLRECYDS-26NOV26KCBUF-KCTKELCE87-30",
+  "note": ""
+ },
+ "59": {
+  "p": "Josh Allen 1+ interceptions",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "60": {
+  "p": "D'Andre Swift anytime touchdown",
+  "k": 52.5,
+  "ev": "KXNFLTD-26NOV26CHIDET",
+  "ticker": "KXNFLTD-26NOV26CHIDET-CHIDSWIFT4-1",
+  "note": ""
+ },
+ "61": {
+  "p": "Jameson Williams anytime touchdown",
+  "k": 31.5,
+  "ev": "KXNFLTD-26NOV26CHIDET",
+  "ticker": "KXNFLTD-26NOV26CHIDET-DETJWILLIAMS1-1",
+  "note": ""
+ },
+ "62": {
+  "p": "Travis Kelce anytime touchdown",
+  "k": 29.5,
+  "ev": "KXNFLTD-26NOV26KCBUF",
+  "ticker": "KXNFLTD-26NOV26KCBUF-KCTKELCE87-1",
+  "note": ""
+ },
+ "63": {
+  "p": "DeVonta Smith anytime touchdown",
+  "k": 31.5,
+  "ev": "KXNFLTD-26NOV26PHIDAL",
+  "ticker": "KXNFLTD-26NOV26PHIDAL-PHIDSMITH6-1",
+  "note": ""
+ },
+ "64": {
+  "p": "Joe Milton 15+ rushing yards",
+  "k": 79.5,
+  "ev": "KXNFLRSHYDS-26NOV26PHIDAL",
+  "ticker": "KXNFLRSHYDS-26NOV26PHIDAL-PHIJMILTON10-15",
+  "note": ""
+ },
+ "65": {
+  "p": "Jashaun Corbin 10+ rushing yards",
+  "k": 60.5,
+  "ev": "KXNFLRSHYDS-26NOV26PHIDAL",
+  "ticker": "KXNFLRSHYDS-26NOV26PHIDAL-DALJCORBINRB-10",
+  "note": ""
+ },
+ "66": {
+  "p": "Dak Prescott 10+ rushing yards",
+  "k": 50.5,
+  "ev": "KXNFLRSHYDS-26NOV26PHIDAL",
+  "ticker": "KXNFLRSHYDS-26NOV26PHIDAL-DALDPRESCOTT4-10",
+  "note": ""
+ },
+ "67": {
+  "p": "Joe Milton under 35 rushing yards",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "68": {
+  "p": "Will Shipley under 2 receptions",
+  "k": 67.5,
+  "ev": "KXNFLREC-26NOV26PHIDAL",
+  "ticker": "KXNFLREC-26NOV26PHIDAL-PHIWSHIPLEY28-2",
+  "note": ""
+ },
+ "69": {
+  "p": "Josh Downs under 4 receptions",
+  "k": 59.5,
+  "ev": "KXNFLREC-26NOV26KCBUF",
+  "ticker": "KXNFLREC-26NOV26KCBUF-KCJDOWNS2-4",
+  "note": ""
+ }
+}

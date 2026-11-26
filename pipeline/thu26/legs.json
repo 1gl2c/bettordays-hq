@@ -1,0 +1,678 @@
+[
+ {
+  "p": "James Cook anytime touchdown",
+  "player": "James Cook III",
+  "team": "BUF",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Sam LaPorta anytime touchdown",
+  "player": "Sam LaPorta",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Amon-Ra St. Brown 100+ receiving yards",
+  "player": "Amon-Ra St. Brown",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Amon-Ra St. Brown 90+ receiving yards",
+  "player": "Amon-Ra St. Brown",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Amon-Ra St. Brown 80+ receiving yards",
+  "player": "Amon-Ra St. Brown",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Amon-Ra St. Brown 70+ receiving yards",
+  "player": "Amon-Ra St. Brown",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Amon-Ra St. Brown 60+ receiving yards",
+  "player": "Amon-Ra St. Brown",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Amon-Ra St. Brown 50+ receiving yards",
+  "player": "Amon-Ra St. Brown",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Josh Allen anytime touchdown",
+  "player": "Josh Allen",
+  "team": "BUF",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Jared Goff 300+ passing yards",
+  "player": "Jared Goff",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "pass",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Jared Goff 280+ passing yards",
+  "player": "Jared Goff",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "pass",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Jared Goff 275+ passing yards",
+  "player": "Jared Goff",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "pass",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Jared Goff 250+ passing yards",
+  "player": "Jared Goff",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "pass",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Jared Goff 225+ passing yards",
+  "player": "Jared Goff",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "pass",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Jared Goff 200+ passing yards",
+  "player": "Jared Goff",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "pass",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Amon-Ra St. Brown anytime touchdown",
+  "player": "Amon-Ra St. Brown",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "CeeDee Lamb anytime touchdown",
+  "player": "CeeDee Lamb",
+  "team": "DAL",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Josh Allen 40+ rushing yards",
+  "player": "Josh Allen",
+  "team": "BUF",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Joe Milton 30+ rushing yards",
+  "player": "Joe Milton",
+  "team": "PHI",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Caleb Williams 25+ rushing yards",
+  "player": "Caleb Williams",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Rashee Rice anytime touchdown",
+  "player": "Rashee Rice",
+  "team": "KC",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Luther Burden anytime touchdown",
+  "player": "Luther Burden III",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Javonte Williams anytime touchdown",
+  "player": "Javonte Williams",
+  "team": "DAL",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Lions ML v Bears",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "ml",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Lions +1.5 v Bears",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "spread",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Cowboys ML v Eagles",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "ml",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Chiefs ML at Bills",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "ml",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Amon-Ra St. Brown under 8 receptions",
+  "player": "Amon-Ra St. Brown",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "rec",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Colston Loveland 50+ receiving yards",
+  "player": "Colston Loveland",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Rome Odunze 100+ receiving yards",
+  "player": "Rome Odunze",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Caleb Williams 15+ rushing yards",
+  "player": "Caleb Williams",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Jahmyr Gibbs 70+ rushing yards",
+  "player": "Jahmyr Gibbs",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Kyle Monangai anytime touchdown",
+  "player": "Kyle Monangai",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Jahmyr Gibbs anytime touchdown",
+  "player": "Jahmyr Gibbs",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Javonte Williams 2+ touchdowns",
+  "player": "Javonte Williams",
+  "team": "DAL",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "George Pickens anytime touchdown",
+  "player": "George Pickens",
+  "team": "DAL",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Saquon Barkley anytime touchdown",
+  "player": "Saquon Barkley",
+  "team": "PHI",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Emmett Johnson anytime touchdown",
+  "player": "Emmett Johnson",
+  "team": "KC",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "James Cook 80+ rushing yards",
+  "player": "James Cook III",
+  "team": "BUF",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "CeeDee Lamb 80+ receiving yards",
+  "player": "CeeDee Lamb",
+  "team": "DAL",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Kenneth Walker 70+ rushing yards",
+  "player": "Kenneth Walker III",
+  "team": "KC",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Luther Burden 60+ receiving yards",
+  "player": "Luther Burden III",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Eagles at Cowboys under 50 total points",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "total",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Bears ML at Lions",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "ml",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Chiefs +3 at Bills",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "spread",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Kyle Monangai 8+ rushing attempts",
+  "player": "Kyle Monangai",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "rushatt",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Caleb Williams 2+ passing touchdowns",
+  "player": "Caleb Williams",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "pass td",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Jared Goff 2+ passing touchdowns",
+  "player": "Jared Goff",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "pass td",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Patrick Mahomes 2+ passing touchdowns",
+  "player": "Patrick Mahomes",
+  "team": "KC",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "pass td",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Josh Allen 2+ passing touchdowns",
+  "player": "Josh Allen",
+  "team": "BUF",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "pass td",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Dak Prescott 2+ passing touchdowns",
+  "player": "Dak Prescott",
+  "team": "DAL",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "pass td",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Caleb Williams 225+ passing yards",
+  "player": "Caleb Williams",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "pass",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Rome Odunze 25+ receiving yards",
+  "player": "Rome Odunze",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Rome Odunze 45+ receiving yards",
+  "player": "Rome Odunze",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Jameson Williams 20+ receiving yards",
+  "player": "Jameson Williams",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Javonte Williams 60+ rushing yards",
+  "player": "Javonte Williams",
+  "team": "DAL",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Khalil Shakir 25+ receiving yards",
+  "player": "Khalil Shakir",
+  "team": "BUF",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Travis Kelce 30+ receiving yards",
+  "player": "Travis Kelce",
+  "team": "KC",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "recyds",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "Josh Allen 1+ interceptions",
+  "player": "Josh Allen",
+  "team": "BUF",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "int",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "D'Andre Swift anytime touchdown",
+  "player": "D'Andre Swift",
+  "team": "CHI",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Jameson Williams anytime touchdown",
+  "player": "Jameson Williams",
+  "team": "DET",
+  "g": "CHI@DET",
+  "t": "10:00",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T18:00Z"
+ },
+ {
+  "p": "Travis Kelce anytime touchdown",
+  "player": "Travis Kelce",
+  "team": "KC",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-27T01:20Z"
+ },
+ {
+  "p": "DeVonta Smith anytime touchdown",
+  "player": "DeVonta Smith",
+  "team": "PHI",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "td",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Joe Milton 15+ rushing yards",
+  "player": "Joe Milton",
+  "team": "PHI",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Jashaun Corbin 10+ rushing yards",
+  "player": "Jashaun Corbin",
+  "team": "DAL",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Dak Prescott 10+ rushing yards",
+  "player": "Dak Prescott",
+  "team": "DAL",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Joe Milton under 35 rushing yards",
+  "player": "Joe Milton",
+  "team": "PHI",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "rush",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Will Shipley under 2 receptions",
+  "player": "Will Shipley",
+  "team": "PHI",
+  "g": "PHI@DAL",
+  "t": "1:30",
+  "sp": "NFL",
+  "mkt": "rec",
+  "start": "2026-11-26T21:30Z"
+ },
+ {
+  "p": "Josh Downs under 4 receptions",
+  "player": "Josh Downs",
+  "team": "KC",
+  "g": "KC@BUF",
+  "t": "5:20",
+  "sp": "NFL",
+  "mkt": "rec",
+  "start": "2026-11-27T01:20Z"
+ }
+]
