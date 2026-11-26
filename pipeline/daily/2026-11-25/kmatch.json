@@ -1,0 +1,870 @@
+{
+ "1": {
+  "p": "Blake Corum anytime touchdown",
+  "k": 39.5,
+  "ev": "KXNFLTD-26NOV25GBLAR",
+  "ticker": "KXNFLTD-26NOV25GBLAR-LARBCORUM24-1",
+  "note": ""
+ },
+ "2": {
+  "p": "Christian Watson 80+ receiving yards",
+  "k": 43.0,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-GBCWATSON9-80",
+  "note": ""
+ },
+ "3": {
+  "p": "Christian Watson 70+ receiving yards",
+  "k": 53.5,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-GBCWATSON9-70",
+  "note": ""
+ },
+ "4": {
+  "p": "Christian Watson 60+ receiving yards",
+  "k": 60.5,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-GBCWATSON9-60",
+  "note": ""
+ },
+ "5": {
+  "p": "Christian Watson 50+ receiving yards",
+  "k": 70.5,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-GBCWATSON9-50",
+  "note": ""
+ },
+ "6": {
+  "p": "James Cook anytime touchdown",
+  "k": 49.5,
+  "ev": "KXNFLTD-26NOV26KCBUF",
+  "ticker": "KXNFLTD-26NOV26KCBUF-BUFJCOOK4-1",
+  "note": ""
+ },
+ "7": {
+  "p": "Sam LaPorta anytime touchdown",
+  "k": 32.5,
+  "ev": "KXNFLTD-26NOV26CHIDET",
+  "ticker": "KXNFLTD-26NOV26CHIDET-DETSLAPORTA87-1",
+  "note": ""
+ },
+ "8": {
+  "p": "Amon-Ra St. Brown 100+ receiving yards",
+  "k": 36.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-100",
+  "note": ""
+ },
+ "9": {
+  "p": "Amon-Ra St. Brown 90+ receiving yards",
+  "k": 43.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-90",
+  "note": ""
+ },
+ "10": {
+  "p": "Amon-Ra St. Brown 80+ receiving yards",
+  "k": 52.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-80",
+  "note": ""
+ },
+ "11": {
+  "p": "Amon-Ra St. Brown 70+ receiving yards",
+  "k": 62.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-70",
+  "note": ""
+ },
+ "12": {
+  "p": "Amon-Ra St. Brown 60+ receiving yards",
+  "k": 72.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-60",
+  "note": ""
+ },
+ "13": {
+  "p": "Amon-Ra St. Brown 50+ receiving yards",
+  "k": 80.5,
+  "ev": "KXNFLRECYDS-26NOV26CHIDET",
+  "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-50",
+  "note": ""
+ },
+ "14": {
+  "p": "Josh Allen anytime touchdown",
+  "k": 51.5,
+  "ev": "KXNFLTD-26NOV26KCBUF",
+  "ticker": "KXNFLTD-26NOV26KCBUF-BUFJALLEN17-1",
+  "note": ""
+ },
+ "15": {
+  "p": "Jared Goff 300+ passing yards",
+  "k": 37.5,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-300",
+  "note": ""
+ },
+ "16": {
+  "p": "Jared Goff 275+ passing yards",
+  "k": 52.5,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-275",
+  "note": ""
+ },
+ "17": {
+  "p": "Jared Goff 250+ passing yards",
+  "k": 65.5,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-250",
+  "note": ""
+ },
+ "18": {
+  "p": "Jared Goff 225+ passing yards",
+  "k": 77.5,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-225",
+  "note": ""
+ },
+ "19": {
+  "p": "Jared Goff 200+ passing yards",
+  "k": 86.5,
+  "ev": "KXNFLPASSYDS-26NOV26CHIDET",
+  "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-200",
+  "note": ""
+ },
+ "20": {
+  "p": "Jordan Love 200+ passing yards",
+  "k": 82.5,
+  "ev": "KXNFLPASSYDS-26NOV25GBLAR",
+  "ticker": "KXNFLPASSYDS-26NOV25GBLAR-GBJLOVE10-200",
+  "note": ""
+ },
+ "21": {
+  "p": "Jordan Love 225+ passing yards",
+  "k": 72.5,
+  "ev": "KXNFLPASSYDS-26NOV25GBLAR",
+  "ticker": "KXNFLPASSYDS-26NOV25GBLAR-GBJLOVE10-225",
+  "note": ""
+ },
+ "22": {
+  "p": "Jordan Love 250+ passing yards",
+  "k": 61.5,
+  "ev": "KXNFLPASSYDS-26NOV25GBLAR",
+  "ticker": "KXNFLPASSYDS-26NOV25GBLAR-GBJLOVE10-250",
+  "note": ""
+ },
+ "23": {
+  "p": "Christian Watson 4+ receptions",
+  "k": 71.0,
+  "ev": "KXNFLREC-26NOV25GBLAR",
+  "ticker": "KXNFLREC-26NOV25GBLAR-GBCWATSON9-4",
+  "note": ""
+ },
+ "24": {
+  "p": "Blake Corum 2+ receptions",
+  "k": 61.5,
+  "ev": "KXNFLREC-26NOV25GBLAR",
+  "ticker": "KXNFLREC-26NOV25GBLAR-LARBCORUM24-2",
+  "note": ""
+ },
+ "25": {
+  "p": "Tutu Atwell 20+ receiving yards",
+  "k": 55.5,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-LARTATWELL8-20",
+  "note": ""
+ },
+ "26": {
+  "p": "Matthew Golden 50+ receiving yards",
+  "k": 72.0,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-GBMGOLDEN0-50",
+  "note": ""
+ },
+ "27": {
+  "p": "Blake Corum 40+ rushing yards",
+  "k": 70.5,
+  "ev": "KXNFLRSHYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRSHYDS-26NOV25GBLAR-LARBCORUM24-40",
+  "note": ""
+ },
+ "28": {
+  "p": "VJ Edgecombe 6+ rebounds",
+  "k": 58.0,
+  "ev": "KXNBAREB-26NOV25MIAPHI",
+  "ticker": "KXNBAREB-26NOV25MIAPHI-PHIVEDGECOMBE77-6",
+  "note": ""
+ },
+ "29": {
+  "p": "VJ Edgecombe 4+ rebounds",
+  "k": 84.0,
+  "ev": "KXNBAREB-26NOV25MIAPHI",
+  "ticker": "KXNBAREB-26NOV25MIAPHI-PHIVEDGECOMBE77-4",
+  "note": ""
+ },
+ "30": {
+  "p": "VJ Edgecombe 4+ assists",
+  "k": 61.5,
+  "ev": "KXNBAAST-26NOV25MIAPHI",
+  "ticker": "KXNBAAST-26NOV25MIAPHI-PHIVEDGECOMBE77-4",
+  "note": ""
+ },
+ "31": {
+  "p": "VJ Edgecombe 2+ assists",
+  "k": 90.5,
+  "ev": "KXNBAAST-26NOV25MIAPHI",
+  "ticker": "KXNBAAST-26NOV25MIAPHI-PHIVEDGECOMBE77-2",
+  "note": ""
+ },
+ "32": {
+  "p": "Mikel Brown Jr. 6+ assists",
+  "k": 31.5,
+  "ev": "KXNBAAST-26NOV25BKNMIL",
+  "ticker": "KXNBAAST-26NOV25BKNMIL-BKNMBROWN0-6",
+  "note": ""
+ },
+ "33": {
+  "p": "Mikel Brown Jr. 4+ assists",
+  "k": 63.5,
+  "ev": "KXNBAAST-26NOV25BKNMIL",
+  "ticker": "KXNBAAST-26NOV25BKNMIL-BKNMBROWN0-4",
+  "note": ""
+ },
+ "34": {
+  "p": "Mikel Brown Jr. 2+ assists",
+  "k": 91.0,
+  "ev": "KXNBAAST-26NOV25BKNMIL",
+  "ticker": "KXNBAAST-26NOV25BKNMIL-BKNMBROWN0-2",
+  "note": ""
+ },
+ "35": {
+  "p": "Mikel Brown Jr. 4+ rebounds",
+  "k": 26.5,
+  "ev": "KXNBAREB-26NOV25BKNMIL",
+  "ticker": "KXNBAREB-26NOV25BKNMIL-BKNMBROWN0-4",
+  "note": ""
+ },
+ "36": {
+  "p": "Mikel Brown Jr. 2+ rebounds",
+  "k": 70.0,
+  "ev": "KXNBAREB-26NOV25BKNMIL",
+  "ticker": "KXNBAREB-26NOV25BKNMIL-BKNMBROWN0-2",
+  "note": ""
+ },
+ "37": {
+  "p": "Matthew Stafford 200+ passing yards",
+  "k": 68.5,
+  "ev": "KXNFLPASSYDS-26NOV25GBLAR",
+  "ticker": "KXNFLPASSYDS-26NOV25GBLAR-LARMSTAFFORD9-200",
+  "note": ""
+ },
+ "38": {
+  "p": "Blake Corum 50+ rushing yards",
+  "k": 56.5,
+  "ev": "KXNFLRSHYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRSHYDS-26NOV25GBLAR-LARBCORUM24-50",
+  "note": ""
+ },
+ "39": {
+  "p": "Matthew Golden 5+ receptions",
+  "k": 66.5,
+  "ev": "KXNFLREC-26NOV25GBLAR",
+  "ticker": "KXNFLREC-26NOV25GBLAR-GBMGOLDEN0-5",
+  "note": ""
+ },
+ "40": {
+  "p": "Konata Mumpfield 3+ receptions",
+  "k": 55.5,
+  "ev": "KXNFLREC-26NOV25GBLAR",
+  "ticker": "KXNFLREC-26NOV25GBLAR-LARKMUMPFIELD4-3",
+  "note": ""
+ },
+ "41": {
+  "p": "Christian Watson anytime touchdown",
+  "k": 35.5,
+  "ev": "KXNFLTD-26NOV25GBLAR",
+  "ticker": "KXNFLTD-26NOV25GBLAR-GBCWATSON9-1",
+  "note": ""
+ },
+ "42": {
+  "p": "Matthew Golden anytime touchdown",
+  "k": 33.5,
+  "ev": "KXNFLTD-26NOV25GBLAR",
+  "ticker": "KXNFLTD-26NOV25GBLAR-GBMGOLDEN0-1",
+  "note": ""
+ },
+ "43": {
+  "p": "Amon-Ra St. Brown anytime touchdown",
+  "k": 52.5,
+  "ev": "KXNFLTD-26NOV26CHIDET",
+  "ticker": "KXNFLTD-26NOV26CHIDET-DETASTBROWN14-1",
+  "note": ""
+ },
+ "44": {
+  "p": "CeeDee Lamb anytime touchdown",
+  "k": 54.5,
+  "ev": "KXNFLTD-26NOV26PHIDAL",
+  "ticker": "KXNFLTD-26NOV26PHIDAL-DALCLAMB88-1",
+  "note": ""
+ },
+ "45": {
+  "p": "Packers ML at Rams",
+  "k": 44.5,
+  "ev": "KXNFLGAME-26NOV25GBLAR",
+  "ticker": "KXNFLGAME-26NOV25GBLAR-GB",
+  "note": ""
+ },
+ "46": {
+  "p": "Packers at Rams over 35.5 total points",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "0 total markets (Kalshi may not list 35.5)"
+ },
+ "47": {
+  "p": "Jonathan Kuminga 1+ threes",
+  "k": 77.5,
+  "ev": "KXNBA3PT-26NOV25MINOKC",
+  "ticker": "KXNBA3PT-26NOV25MINOKC-MINJKUMINGA0-1",
+  "note": ""
+ },
+ "48": {
+  "p": "Jonathan Kuminga 2+ threes",
+  "k": 46.5,
+  "ev": "KXNBA3PT-26NOV25MINOKC",
+  "ticker": "KXNBA3PT-26NOV25MINOKC-MINJKUMINGA0-2",
+  "note": ""
+ },
+ "49": {
+  "p": "Tyrese Maxey 3+ threes (over 2.5)",
+  "k": 55.5,
+  "ev": "KXNBA3PT-26NOV25MIAPHI",
+  "ticker": "KXNBA3PT-26NOV25MIAPHI-PHITMAXEY0-3",
+  "note": ""
+ },
+ "50": {
+  "p": "Buddy Hield 14+ points (over 13.5)",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "51": {
+  "p": "Jaden McDaniels 2+ threes (over 1.5)",
+  "k": 51.0,
+  "ev": "KXNBA3PT-26NOV25MINOKC",
+  "ticker": "KXNBA3PT-26NOV25MINOKC-MINJMCDANIELS3-2",
+  "note": ""
+ },
+ "52": {
+  "p": "Mikel Brown Jr. 20+ points + assists (over 19.5)",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "53": {
+  "p": "Landry Shamet 3+ threes (over 2.5)",
+  "k": 55.0,
+  "ev": "KXNBA3PT-26NOV25CLENYK",
+  "ticker": "KXNBA3PT-26NOV25CLENYK-NYKLSHAMET44-3",
+  "note": ""
+ },
+ "54": {
+  "p": "Collin Gillespie 9+ points (over 8.5)",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "55": {
+  "p": "Tyrese Maxey 2+ threes",
+  "k": 76.5,
+  "ev": "KXNBA3PT-26NOV25MIAPHI",
+  "ticker": "KXNBA3PT-26NOV25MIAPHI-PHITMAXEY0-2",
+  "note": ""
+ },
+ "56": {
+  "p": "Tyrese Maxey 1+ threes",
+  "k": 92.5,
+  "ev": "KXNBA3PT-26NOV25MIAPHI",
+  "ticker": "KXNBA3PT-26NOV25MIAPHI-PHITMAXEY0-1",
+  "note": ""
+ },
+ "57": {
+  "p": "Buddy Hield 10+ points",
+  "k": 74.5,
+  "ev": "KXNBAPTS-26NOV25CHICHA",
+  "ticker": "KXNBAPTS-26NOV25CHICHA-CHIBHIELD8-10",
+  "note": ""
+ },
+ "58": {
+  "p": "Jaden McDaniels 1+ threes",
+  "k": 80.5,
+  "ev": "KXNBA3PT-26NOV25MINOKC",
+  "ticker": "KXNBA3PT-26NOV25MINOKC-MINJMCDANIELS3-1",
+  "note": ""
+ },
+ "59": {
+  "p": "Landry Shamet 2+ threes",
+  "k": 75.5,
+  "ev": "KXNBA3PT-26NOV25CLENYK",
+  "ticker": "KXNBA3PT-26NOV25CLENYK-NYKLSHAMET44-2",
+  "note": ""
+ },
+ "60": {
+  "p": "Landry Shamet 1+ threes",
+  "k": 93.0,
+  "ev": "KXNBA3PT-26NOV25CLENYK",
+  "ticker": "KXNBA3PT-26NOV25CLENYK-NYKLSHAMET44-1",
+  "note": ""
+ },
+ "61": {
+  "p": "Collin Gillespie 5+ points",
+  "k": 82.0,
+  "ev": "KXNBAPTS-26NOV25PHXHOU",
+  "ticker": "KXNBAPTS-26NOV25PHXHOU-PHXCGILLESPIE12-5",
+  "note": ""
+ },
+ "62": {
+  "p": "Collin Gillespie 10+ points",
+  "k": 46.0,
+  "ev": "KXNBAPTS-26NOV25PHXHOU",
+  "ticker": "KXNBAPTS-26NOV25PHXHOU-PHXCGILLESPIE12-10",
+  "note": ""
+ },
+ "63": {
+  "p": "Ajay Mitchell under 25 points",
+  "k": 85.0,
+  "ev": "KXNBAPTS-26NOV25MINOKC",
+  "ticker": "KXNBAPTS-26NOV25MINOKC-OKCAMITCHELL25-25",
+  "note": ""
+ },
+ "64": {
+  "p": "Ajay Mitchell under 20 points",
+  "k": 64.5,
+  "ev": "KXNBAPTS-26NOV25MINOKC",
+  "ticker": "KXNBAPTS-26NOV25MINOKC-OKCAMITCHELL25-20",
+  "note": ""
+ },
+ "65": {
+  "p": "Ajay Mitchell under 4 assists",
+  "k": 51.5,
+  "ev": "KXNBAAST-26NOV25MINOKC",
+  "ticker": "KXNBAAST-26NOV25MINOKC-OKCAMITCHELL25-4",
+  "note": ""
+ },
+ "66": {
+  "p": "Ajay Mitchell under 6 assists",
+  "k": 82.5,
+  "ev": "KXNBAAST-26NOV25MINOKC",
+  "ticker": "KXNBAAST-26NOV25MINOKC-OKCAMITCHELL25-6",
+  "note": ""
+ },
+ "67": {
+  "p": "Ajay Mitchell under 8 assists",
+  "k": 94.5,
+  "ev": "KXNBAAST-26NOV25MINOKC",
+  "ticker": "KXNBAAST-26NOV25MINOKC-OKCAMITCHELL25-8",
+  "note": ""
+ },
+ "68": {
+  "p": "Amen Thompson 10+ points",
+  "k": 83.5,
+  "ev": "KXNBAPTS-26NOV25PHXHOU",
+  "ticker": "KXNBAPTS-26NOV25PHXHOU-HOUATHOMPSON1-10",
+  "note": ""
+ },
+ "69": {
+  "p": "Amen Thompson 15+ points",
+  "k": 51.5,
+  "ev": "KXNBAPTS-26NOV25PHXHOU",
+  "ticker": "KXNBAPTS-26NOV25PHXHOU-HOUATHOMPSON1-15",
+  "note": ""
+ },
+ "70": {
+  "p": "Amen Thompson 6+ rebounds",
+  "k": 61.5,
+  "ev": "KXNBAREB-26NOV25PHXHOU",
+  "ticker": "KXNBAREB-26NOV25PHXHOU-HOUATHOMPSON1-6",
+  "note": ""
+ },
+ "71": {
+  "p": "Amen Thompson 4+ rebounds",
+  "k": 86.5,
+  "ev": "KXNBAREB-26NOV25PHXHOU",
+  "ticker": "KXNBAREB-26NOV25PHXHOU-HOUATHOMPSON1-4",
+  "note": ""
+ },
+ "72": {
+  "p": "VJ Edgecombe 10+ points",
+  "k": 77.5,
+  "ev": "KXNBAPTS-26NOV25MIAPHI",
+  "ticker": "KXNBAPTS-26NOV25MIAPHI-PHIVEDGECOMBE77-10",
+  "note": ""
+ },
+ "73": {
+  "p": "Jaden McDaniels 2+ assists",
+  "k": 82.5,
+  "ev": "KXNBAAST-26NOV25MINOKC",
+  "ticker": "KXNBAAST-26NOV25MINOKC-MINJMCDANIELS3-2",
+  "note": ""
+ },
+ "74": {
+  "p": "Jaden McDaniels 4+ assists",
+  "k": 41.5,
+  "ev": "KXNBAAST-26NOV25MINOKC",
+  "ticker": "KXNBAAST-26NOV25MINOKC-MINJMCDANIELS3-4",
+  "note": ""
+ },
+ "75": {
+  "p": "Jaden McDaniels 6+ rebounds",
+  "k": 52.5,
+  "ev": "KXNBAREB-26NOV25MINOKC",
+  "ticker": "KXNBAREB-26NOV25MINOKC-MINJMCDANIELS3-6",
+  "note": ""
+ },
+ "76": {
+  "p": "Jaden McDaniels 4+ rebounds",
+  "k": 79.0,
+  "ev": "KXNBAREB-26NOV25MINOKC",
+  "ticker": "KXNBAREB-26NOV25MINOKC-MINJMCDANIELS3-4",
+  "note": ""
+ },
+ "77": {
+  "p": "Jaden McDaniels 2+ rebounds",
+  "k": 96.0,
+  "ev": "KXNBAREB-26NOV25MINOKC",
+  "ticker": "KXNBAREB-26NOV25MINOKC-MINJMCDANIELS3-2",
+  "note": ""
+ },
+ "78": {
+  "p": "MarShawn Lloyd 10+ receiving yards",
+  "k": 42.5,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-GBMLLOYD32-10",
+  "note": ""
+ },
+ "79": {
+  "p": "Rams ML v Packers",
+  "k": 55.5,
+  "ev": "KXNFLGAME-26NOV25GBLAR",
+  "ticker": "KXNFLGAME-26NOV25GBLAR-LAR",
+  "note": ""
+ },
+ "80": {
+  "p": "Matthew Golden 70+ receiving yards",
+  "k": 53.5,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-GBMGOLDEN0-70",
+  "note": ""
+ },
+ "81": {
+  "p": "Matthew Golden 100+ receiving yards",
+  "k": 28.5,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-GBMGOLDEN0-100",
+  "note": ""
+ },
+ "82": {
+  "p": "Blake Corum 60+ rushing yards",
+  "k": 44.5,
+  "ev": "KXNFLRSHYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRSHYDS-26NOV25GBLAR-LARBCORUM24-60",
+  "note": ""
+ },
+ "83": {
+  "p": "Matthew Stafford 225+ passing yards",
+  "k": 54.5,
+  "ev": "KXNFLPASSYDS-26NOV25GBLAR",
+  "ticker": "KXNFLPASSYDS-26NOV25GBLAR-LARMSTAFFORD9-225",
+  "note": ""
+ },
+ "84": {
+  "p": "Konata Mumpfield 40+ receiving yards",
+  "k": 42.0,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-LARKMUMPFIELD4-40",
+  "note": ""
+ },
+ "85": {
+  "p": "Konata Mumpfield 30+ receiving yards",
+  "k": 56.5,
+  "ev": "KXNFLRECYDS-26NOV25GBLAR",
+  "ticker": "KXNFLRECYDS-26NOV25GBLAR-LARKMUMPFIELD4-30",
+  "note": ""
+ },
+ "86": {
+  "p": "LaMelo Ball 15+ points",
+  "k": 71.5,
+  "ev": "KXNBAPTS-26NOV25MINOKC",
+  "ticker": "KXNBAPTS-26NOV25MINOKC-MINLBALL1-15",
+  "note": ""
+ },
+ "87": {
+  "p": "Josh Giddey 8+ assists",
+  "k": 64.5,
+  "ev": "KXNBAAST-26NOV25CHICHA",
+  "ticker": "KXNBAAST-26NOV25CHICHA-CHIJGIDDEY3-8",
+  "note": ""
+ },
+ "88": {
+  "p": "LaMelo Ball 10+ points",
+  "k": 90.0,
+  "ev": "KXNBAPTS-26NOV25MINOKC",
+  "ticker": "KXNBAPTS-26NOV25MINOKC-MINLBALL1-10",
+  "note": ""
+ },
+ "89": {
+  "p": "Josh Giddey 6+ assists",
+  "k": 84.0,
+  "ev": "KXNBAAST-26NOV25CHICHA",
+  "ticker": "KXNBAAST-26NOV25CHICHA-CHIJGIDDEY3-6",
+  "note": ""
+ },
+ "90": {
+  "p": "Cedric Coward 6+ rebounds",
+  "k": 70.0,
+  "ev": "KXNBAREB-26NOV25LACMEM",
+  "ticker": "KXNBAREB-26NOV25LACMEM-MEMCCOWARD23-6",
+  "note": ""
+ },
+ "91": {
+  "p": "Cedric Coward 4+ rebounds",
+  "k": 90.0,
+  "ev": "KXNBAREB-26NOV25LACMEM",
+  "ticker": "KXNBAREB-26NOV25LACMEM-MEMCCOWARD23-4",
+  "note": ""
+ },
+ "92": {
+  "p": "Brandon Miller 15+ points",
+  "k": 84.5,
+  "ev": "KXNBAPTS-26NOV25CHICHA",
+  "ticker": "KXNBAPTS-26NOV25CHICHA-CHABMILLER24-15",
+  "note": ""
+ },
+ "93": {
+  "p": "Brandon Miller 10+ points",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "94": {
+  "p": "Packers +3 at Rams",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "whole-number spread can push; Kalshi lists only .5 lines"
+ },
+ "95": {
+  "p": "Packers +10 at Rams",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "whole-number spread can push; Kalshi lists only .5 lines"
+ },
+ "96": {
+  "p": "Penn State +5.5 v Memphis",
+  "k": 57.5,
+  "ev": "KXNCAAMBSPREAD-26NOV25MEMPSU",
+  "ticker": "KXNCAAMBSPREAD-26NOV25MEMPSU-MEM6",
+  "note": ""
+ },
+ "97": {
+  "p": "Penn State +10.5 v Memphis",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "0 spread markets"
+ },
+ "98": {
+  "p": "Kyren Williams 13+ rushing attempts (over 12.5)",
+  "k": 51.5,
+  "ev": "KXNFLRSHATT-26NOV25GBLAR",
+  "ticker": "KXNFLRSHATT-26NOV25GBLAR-LARKWILLIAMS23-13",
+  "note": ""
+ },
+ "99": {
+  "p": "Jordan Love under 267.5 passing yards",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "100": {
+  "p": "Matthew Stafford under 1.5 passing touchdowns",
+  "k": 58.5,
+  "ev": "KXNFLPASSTDS-26NOV25GBLAR",
+  "ticker": "KXNFLPASSTDS-26NOV25GBLAR-LARMSTAFFORD9-2",
+  "note": ""
+ },
+ "101": {
+  "p": "Kyren Williams 11+ rushing attempts",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "102": {
+  "p": "Jordan Love under 275 passing yards",
+  "k": 56.5,
+  "ev": "KXNFLPASSYDS-26NOV25GBLAR",
+  "ticker": "KXNFLPASSYDS-26NOV25GBLAR-GBJLOVE10-275",
+  "note": ""
+ },
+ "103": {
+  "p": "Matthew Stafford under 2.5 passing touchdowns",
+  "k": 81.5,
+  "ev": "KXNFLPASSTDS-26NOV25GBLAR",
+  "ticker": "KXNFLPASSTDS-26NOV25GBLAR-LARMSTAFFORD9-3",
+  "note": ""
+ },
+ "104": {
+  "p": "Jordan Love under 300 passing yards",
+  "k": 67.5,
+  "ev": "KXNFLPASSYDS-26NOV25GBLAR",
+  "ticker": "KXNFLPASSYDS-26NOV25GBLAR-GBJLOVE10-300",
+  "note": ""
+ },
+ "105": {
+  "p": "Jordan Love under 350 passing yards",
+  "k": 87.5,
+  "ev": "KXNFLPASSYDS-26NOV25GBLAR",
+  "ticker": "KXNFLPASSYDS-26NOV25GBLAR-GBJLOVE10-350",
+  "note": ""
+ },
+ "106": {
+  "p": "Ty Jerome 3+ threes (over 2.5)",
+  "k": 56.5,
+  "ev": "KXNBA3PT-26NOV25LACMEM",
+  "ticker": "KXNBA3PT-26NOV25LACMEM-MEMTJEROME2-3",
+  "note": ""
+ },
+ "107": {
+  "p": "Josh Giddey 9+ assists (over 8.5)",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "108": {
+  "p": "Tyler Herro under 5.5 assists",
+  "k": 60.0,
+  "ev": "KXNBAAST-26NOV25BKNMIL",
+  "ticker": "KXNBAAST-26NOV25BKNMIL-MILTHERRO11-6",
+  "note": ""
+ },
+ "109": {
+  "p": "Marcus Smart 5+ points",
+  "k": 61.0,
+  "ev": "KXNBAPTS-26NOV25PHXHOU",
+  "ticker": "KXNBAPTS-26NOV25PHXHOU-HOUMSMART36-5",
+  "note": ""
+ },
+ "110": {
+  "p": "Marcus Smart 2+ rebounds",
+  "k": 60.5,
+  "ev": "KXNBAREB-26NOV25PHXHOU",
+  "ticker": "KXNBAREB-26NOV25PHXHOU-HOUMSMART36-2",
+  "note": ""
+ },
+ "111": {
+  "p": "Tyler Herro under 8 assists",
+  "k": 82.5,
+  "ev": "KXNBAAST-26NOV25BKNMIL",
+  "ticker": "KXNBAAST-26NOV25BKNMIL-MILTHERRO11-8",
+  "note": ""
+ },
+ "112": {
+  "p": "Tyler Herro under 10 assists",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "note": "Kalshi does not list this number"
+ },
+ "113": {
+  "p": "Ty Jerome 1+ threes",
+  "k": 93.5,
+  "ev": "KXNBA3PT-26NOV25LACMEM",
+  "ticker": "KXNBA3PT-26NOV25LACMEM-MEMTJEROME2-1",
+  "note": ""
+ },
+ "114": {
+  "p": "Ty Jerome 2+ threes",
+  "k": 76.5,
+  "ev": "KXNBA3PT-26NOV25LACMEM",
+  "ticker": "KXNBA3PT-26NOV25LACMEM-MEMTJEROME2-2",
+  "note": ""
+ },
+ "115": {
+  "p": "Josh Hart under 6 assists",
+  "k": 63.5,
+  "ev": "KXNBAAST-26NOV25CLENYK",
+  "ticker": "KXNBAAST-26NOV25CLENYK-NYKJHART3-6",
+  "note": ""
+ },
+ "116": {
+  "p": "Domantas Sabonis 12+ rebounds",
+  "k": 66.5,
+  "ev": "KXNBAREB-26NOV25SACGSW",
+  "ticker": "KXNBAREB-26NOV25SACGSW-SACDSABONIS11-12",
+  "note": ""
+ },
+ "117": {
+  "p": "Domantas Sabonis 10+ rebounds",
+  "k": 79.5,
+  "ev": "KXNBAREB-26NOV25SACGSW",
+  "ticker": "KXNBAREB-26NOV25SACGSW-SACDSABONIS11-10",
+  "note": ""
+ },
+ "118": {
+  "p": "Michael Porter Jr. 15+ points",
+  "k": 82.5,
+  "ev": "KXNBAPTS-26NOV25BKNMIL",
+  "ticker": "KXNBAPTS-26NOV25BKNMIL-BKNMPORTER17-15",
+  "note": ""
+ },
+ "119": {
+  "p": "Michael Porter Jr. 20+ points",
+  "k": 60.5,
+  "ev": "KXNBAPTS-26NOV25BKNMIL",
+  "ticker": "KXNBAPTS-26NOV25BKNMIL-BKNMPORTER17-20",
+  "note": ""
+ },
+ "120": {
+  "p": "Josh Hart under 8 assists",
+  "k": 87.0,
+  "ev": "KXNBAAST-26NOV25CLENYK",
+  "ticker": "KXNBAAST-26NOV25CLENYK-NYKJHART3-8",
+  "note": ""
+ },
+ "121": {
+  "p": "Isaiah Stewart 4+ rebounds",
+  "k": 60.0,
+  "ev": "KXNBAREB-26NOV25LACMEM",
+  "ticker": "KXNBAREB-26NOV25LACMEM-MEMISTEWART28-4",
+  "note": ""
+ },
+ "122": {
+  "p": "Isaiah Stewart 2+ rebounds",
+  "k": 89.0,
+  "ev": "KXNBAREB-26NOV25LACMEM",
+  "ticker": "KXNBAREB-26NOV25LACMEM-MEMISTEWART28-2",
+  "note": ""
+ },
+ "123": {
+  "p": "Fred VanVleet under 6 assists",
+  "k": 62.5,
+  "ev": "KXNBAAST-26NOV25PHXHOU",
+  "ticker": "KXNBAAST-26NOV25PHXHOU-HOUFVANVLEET5-6",
+  "note": ""
+ },
+ "124": {
+  "p": "Fred VanVleet under 8 assists",
+  "k": 83.5,
+  "ev": "KXNBAAST-26NOV25PHXHOU",
+  "ticker": "KXNBAAST-26NOV25PHXHOU-HOUFVANVLEET5-8",
+  "note": ""
+ }
+}

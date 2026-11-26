@@ -8,5 +8,25 @@
   "hit": 92.6,
   "shrunk": 90.0,
   "fee_price": 87.4
+ },
+ {
+  "date": "2026-11-25",
+  "group": "reb",
+  "was": "watch",
+  "now": "block",
+  "n": 28,
+  "hit": 85.7,
+  "shrunk": 85.1,
+  "fee_price": 85.1
+ },
+ {
+  "date": "2026-11-25",
+  "group": "pts",
+  "was": "watch",
+  "now": "prefer",
+  "n": 28,
+  "hit": 89.3,
+  "shrunk": 87.0,
+  "fee_price": 84.8
  }
 ]
