@@ -1,0 +1,7 @@
+{
+ "set": "2026-11-25",
+ "why": "Nov 25: all 5 NBA legs on the Safe Hammer hit and Jordan Love 200+ passing yards missed by 2 yards. The ledger had flagged NFL legs at 56% against 64% overall. Love was also on three of Ace's real-money tickets, so one miss sank all three.",
+ "nba_only": true,
+ "nfl_allowed_if": "the NFL stat group reaches 'prefer' in learn/hammer_learn.json (25+ graded legs, shrunk hit rate at least the fee price + 2 points), or Ace approves the leg",
+ "one_ticket_per_leg": "a leg goes on only one of Ace's real-money tickets (Safe Hammer, Mini Hammer, lotto); paper and beta tickets are exempt"
+}

@@ -141,6 +141,12 @@ def hammer(legs):
     """EV Hammer (replaces the 2x minimum, Ace Nov 20): 2 to 5 favorite-edge legs from different games paying 1.5x+
     after fees, the highest hit chance whose expected value after Kalshi fees is at least +2%. Returns (legs, reason)."""
     pool, C, D = edge_pool(legs)
+    import json as _j, os as _o   # Nov 25 rule (learn/hammer_rules.json): NBA legs only unless the NFL stat group has earned 'prefer'
+    R = _j.load(open('learn/hammer_rules.json')) if _o.path.exists('learn/hammer_rules.json') else {}
+    if R.get('nba_only'):
+        HL = _j.load(open('learn/hammer_learn.json')) if _o.path.exists('learn/hammer_learn.json') else {}
+        ok = {g['group'] for g in HL.get('groups', []) if isinstance(g, dict) and g.get('level') == 'sport' and g.get('status') == 'prefer'}
+        pool = [l for l in pool if l.get('sp') == 'NBA' or l.get('sp') in ok]
     if D.get('mode') == 'pass':
         f = D.get('forward', {})
         return None, f"Pass mode: the favorite-edge tickets lost money over {f.get('legs')} tracked legs ({f.get('roi')}% after fees), so we only post tickets again once sharp-book prices show a real edge."
