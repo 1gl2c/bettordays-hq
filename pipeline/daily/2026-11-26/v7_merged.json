@@ -1,0 +1,4079 @@
+{
+ "date": "2026-11-26",
+ "engine": "v8",
+ "models": {
+  "chatgpt": "69 of 69 legs graded",
+  "gemini": "69 of 69 legs graded",
+  "grok": "69 of 69 legs graded",
+  "claude": "69 of 69 legs graded"
+ },
+ "legs": [
+  {
+   "i": 1,
+   "p": "James Cook anytime touchdown",
+   "player": "James Cook",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26kcbuf",
+   "ticker": "KXNFLTD-26NOV26KCBUF-BUFJCOOK4-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 49.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 9 of 10 this season, 5 of 5 last 5 (avg 1.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 67,
+    "gemini": 58,
+    "grok": 42,
+    "claude": 58
+   },
+   "why": {
+    "chatgpt": "Cook scored in 9 of 10 but Allen has 12 carries inside the five to Cook's 13",
+    "gemini": "Heavy rain and wind push red zone volume to Cook with 9 rushing TDs already",
+    "grok": "Cook 10 rush TDs on 209 carries this season high red-zone role Bills run game strong",
+    "claude": "10 rush TD and a 9 game TD streak; rain helps the run; KC red zone D ranks 1st"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 58,
+   "blend": 58,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 25,
+   "solo": false
+  },
+  {
+   "i": 2,
+   "p": "Sam LaPorta anytime touchdown",
+   "player": "Sam LaPorta",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26chidet",
+   "ticker": "KXNFLTD-26NOV26CHIDET-DETSLAPORTA87-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 32.5,
+   "b2b": false,
+   "sys": 30,
+   "n": "Hit 3 of 10 this season, 0 of 5 last 5 (avg 0.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 31,
+    "gemini": 36,
+    "grok": 18,
+    "claude": 23
+   },
+   "why": {
+    "chatgpt": "LaPorta scored in 3 of 10 and drew 9 targets inside the ten despite a five-game TD drought",
+    "gemini": "Bears missing Gordon and Hicks opens middle but Gibbs and St Brown dominate red zone",
+    "grok": "LaPorta 3 TDs in 10 games low recent volume secondary option behind ARSB/Gibbs",
+    "claude": "No injury tag but ARSB and Gibbs take the red zone looks"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "grok",
+     "LaPorta TD rate is low this season with Gibbs and ARSB taking more red-zone work"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 30,
+   "blend": 30,
+   "cap": null,
+   "tier": "G",
+   "pub": 30,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 3,
+   "p": "Amon-Ra St. Brown 100+ receiving yards",
+   "player": "Amon-Ra St. Brown",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 35.4,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-100",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 34.5,
+   "b2b": false,
+   "sys": 30,
+   "n": "Hit 2 of 10 this season, 1 of 5 last 5 (avg 79.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 29,
+    "gemini": 26,
+    "grok": 38,
+    "claude": 28
+   },
+   "why": {
+    "chatgpt": "St. Brown reached 100 in 2 of 10 but cleared it in his last two against Chicago",
+    "gemini": "Averages 79.2 rec yds per game and Lions run heavy with Gibbs at home",
+    "grok": "ARSB 79 ypg season average last 5 ~84 but variance high Bears secondary weakened by Gordon out",
+    "claude": "79 ypg on 7 catches but CHI pass D ranks 11th"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "St. Brown can lead Detroit in targets and still finish in the 60s or 70s"
+    ],
+    [
+     "grok",
+     "100+ for ARSB is a high line given his 79 average and variance"
+    ],
+    [
+     "claude",
+     "100 needs a top third ARSB game vs a good secondary"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 29,
+   "blend": 29,
+   "cap": null,
+   "tier": "G",
+   "pub": 29,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 4,
+   "p": "Amon-Ra St. Brown 90+ receiving yards",
+   "player": "Amon-Ra St. Brown",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 43.9,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-90",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 41.5,
+   "b2b": false,
+   "sys": 40,
+   "n": "Hit 3 of 10 this season, 2 of 5 last 5 (avg 79.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 36,
+    "gemini": 35,
+    "grok": 45,
+    "claude": 36
+   },
+   "why": {
+    "chatgpt": "Three of 10 reached 90 with another at 86 and Chicago missing slot CB Gordon",
+    "gemini": "Needs high target volume in a game where Goff averages under 29 attempts lately",
+    "grok": "ARSB clears 90 in 4 of last 6 high-usage games dome environment",
+    "claude": "Needs a top third game"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 36,
+   "blend": 36,
+   "cap": null,
+   "tier": "G",
+   "pub": 36,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 5,
+   "p": "Amon-Ra St. Brown 80+ receiving yards",
+   "player": "Amon-Ra St. Brown",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 52.6,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-80",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 51.5,
+   "b2b": false,
+   "sys": 50,
+   "n": "Hit 4 of 10 this season, 3 of 5 last 5 (avg 79.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 46,
+    "gemini": 46,
+    "grok": 55,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Four of 10 reached 80 and his season target share is about 30 percent",
+    "gemini": "Bears missing slot CB Kyler Gordon creates prime matchup for St Brown",
+    "grok": "ARSB 80+ hit rate ~50% season but matchup favorable vs depleted Bears secondary",
+    "claude": "Right at his season average"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 46,
+   "blend": 46,
+   "cap": null,
+   "tier": "G",
+   "pub": 46,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 6,
+   "p": "Amon-Ra St. Brown 70+ receiving yards",
+   "player": "Amon-Ra St. Brown",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 61.3,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-70",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 61.5,
+   "b2b": false,
+   "sys": 56,
+   "n": "Hit 5 of 10 this season, 3 of 5 last 5 (avg 79.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 57,
+    "gemini": 56,
+    "grok": 65,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Five of 10 reached 70 with two misses at 67 and 69",
+    "gemini": "Season average is 79.2 yds per game indoors with 8 TDs and steady target share",
+    "grok": "ARSB routinely clears 70 on 7+ targets volume is reliable",
+    "claude": "Slight lean over his median"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "G",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 7,
+   "p": "Amon-Ra St. Brown 60+ receiving yards",
+   "player": "Amon-Ra St. Brown",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 69.4,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-60",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 70.5,
+   "b2b": false,
+   "sys": 67,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 79.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 68,
+    "gemini": 66,
+    "grok": 75,
+    "claude": 66
+   },
+   "why": {
+    "chatgpt": "Seven of 10 reached 60 but two of his last four ended below 50",
+    "gemini": "Reliable floor in Ford Field dome against depleted Chicago secondary",
+    "grok": "ARSB 60+ is near automatic given 7.0 rec and 79 ypg baseline",
+    "claude": "Gordon out helps the slot matchup"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 67,
+   "blend": 67,
+   "cap": null,
+   "tier": "G",
+   "pub": 67,
+   "eng": "v8",
+   "spread": 9,
+   "solo": false
+  },
+  {
+   "i": 8,
+   "p": "Amon-Ra St. Brown 50+ receiving yards",
+   "player": "Amon-Ra St. Brown",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 76.6,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETASTBROWN14-50",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 79.5,
+   "b2b": false,
+   "sys": 67,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 79.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 77,
+    "gemini": 76,
+    "grok": 82,
+    "claude": 76
+   },
+   "why": {
+    "chatgpt": "Seven of 10 reached 50 and one miss was 46 on seven catches",
+    "gemini": "High-percentage slot usage gives strong floor even in run-leaning script",
+    "grok": "ARSB 50+ floor is high even in quiet games",
+    "claude": "Misses only on injury or a heavy run script"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 76,
+   "blend": 76,
+   "cap": null,
+   "tier": "G",
+   "pub": 76,
+   "eng": "v8",
+   "spread": 6,
+   "solo": false
+  },
+  {
+   "i": 9,
+   "p": "Josh Allen anytime touchdown",
+   "player": "Josh Allen",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26kcbuf",
+   "ticker": "KXNFLTD-26NOV26KCBUF-BUFJALLEN17-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 51.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 7 of 10 this season, 2 of 5 last 5 (avg 1.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 54,
+    "gemini": 54,
+    "grok": 48,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Allen scored on the ground in 7 of 10 and has 12 carries inside the five",
+    "gemini": "Leads Bills with 11 rushing TDs and wet turf boosts QB keepers near goal line",
+    "grok": "Allen 11 rush TDs this season plus passing TDs high red-zone involvement",
+    "claude": "11 rush TD but zero carries last week and rain cuts scrambles"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "Y",
+   "pub": 54,
+   "eng": "v8",
+   "spread": 9,
+   "solo": false
+  },
+  {
+   "i": 10,
+   "p": "Jared Goff 300+ passing yards",
+   "player": "Jared Goff",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 37.5,
+   "ku": "https://kalshi.com/markets/kxnflpassyds/pro-football-passing-yards/kxnflpassyds-26nov26chidet",
+   "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-300",
+   "bk_exact": false,
+   "stat": "pass",
+   "k": 38.5,
+   "b2b": false,
+   "sys": 45,
+   "n": "Hit 4 of 10 this season, 2 of 5 last 5 (avg 271.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 33,
+    "gemini": 24,
+    "grok": 28,
+    "claude": 30
+   },
+   "why": {
+    "chatgpt": "Goff reached 300 in 4 of 10 but Chicago has 13 sacks in its last three",
+    "gemini": "Goff failed to top 34.5 pass attempts in 6 straight games as Lions lean on Gibbs",
+    "grok": "Goff 271 ypg season 300+ only 4 of 10 games Bears secondary thin but Lions can run",
+    "claude": "272 ypg but CHI allows 216 and blitzes 37%"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Jared Goff has stayed under 35 pass attempts in 6 straight games as Detroit leans on Jahmyr Gibbs"
+    ],
+    [
+     "grok",
+     "Goff 300+ requires a high-volume pass game that the Lions do not always need"
+    ],
+    [
+     "claude",
+     "300 is well above his median vs CHI's 3rd down D"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 30,
+   "blend": 30,
+   "cap": null,
+   "tier": "G",
+   "pub": 30,
+   "eng": "v8",
+   "spread": 9,
+   "solo": false
+  },
+  {
+   "i": 11,
+   "p": "Jared Goff 280+ passing yards",
+   "player": "Jared Goff",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 51.4,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": false,
+   "stat": "pass",
+   "k": null,
+   "b2b": false,
+   "sys": 46,
+   "n": "Hit 4 of 10 this season, 2 of 5 last 5 (avg 271.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 44,
+    "gemini": 32,
+    "grok": 38,
+    "claude": 39
+   },
+   "why": {
+    "chatgpt": "Four of 10 reached 280 and last week's 279 shows how thin this cutoff is",
+    "gemini": "Averages 271.6 pass yds per game but low recent attempt volume caps ceiling",
+    "grok": "Goff 280+ hit in 5 of 10 dome game script could push volume",
+    "claude": "Above his median vs a top 10 pass D"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 39,
+   "blend": 39,
+   "cap": null,
+   "tier": "N",
+   "pub": 39,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 12,
+   "p": "Jared Goff 275+ passing yards",
+   "player": "Jared Goff",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 52.9,
+   "ku": "https://kalshi.com/markets/kxnflpassyds/pro-football-passing-yards/kxnflpassyds-26nov26chidet",
+   "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-275",
+   "bk_exact": false,
+   "stat": "pass",
+   "k": 50.5,
+   "b2b": false,
+   "sys": 55,
+   "n": "Hit 5 of 10 this season, 3 of 5 last 5 (avg 271.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 47,
+    "gemini": 35,
+    "grok": 42,
+    "claude": 42
+   },
+   "why": {
+    "chatgpt": "Five of 10 reached 275 with two more at 269 and 271",
+    "gemini": "Just above season average and Bears allow only 216.5 pass yds per game",
+    "grok": "Goff efficient and healthy Lions offense top-tier",
+    "claude": "Close call minus the defense"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 42,
+   "blend": 42,
+   "cap": null,
+   "tier": "G",
+   "pub": 42,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 13,
+   "p": "Jared Goff 250+ passing yards",
+   "player": "Jared Goff",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 69.9,
+   "ku": "https://kalshi.com/markets/kxnflpassyds/pro-football-passing-yards/kxnflpassyds-26nov26chidet",
+   "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-250",
+   "bk_exact": false,
+   "stat": "pass",
+   "k": 64.5,
+   "b2b": false,
+   "sys": 66,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 271.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 61,
+    "gemini": 52,
+    "grok": 58,
+    "claude": 57
+   },
+   "why": {
+    "chatgpt": "Seven of 10 reached 250 but Chicago's interior pressure can shorten drives",
+    "gemini": "Indoors vs Bears missing Gordon and Hicks keeps 250 in play despite run rate",
+    "grok": "Goff 250+ is a solid baseline for a good QB in a competitive game",
+    "claude": "Near his median in a tight game"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 58,
+   "blend": 58,
+   "cap": null,
+   "tier": "G",
+   "pub": 58,
+   "eng": "v8",
+   "spread": 9,
+   "solo": false
+  },
+  {
+   "i": 14,
+   "p": "Jared Goff 225+ passing yards",
+   "player": "Jared Goff",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 83.4,
+   "ku": "https://kalshi.com/markets/kxnflpassyds/pro-football-passing-yards/kxnflpassyds-26nov26chidet",
+   "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-225",
+   "bk_exact": false,
+   "stat": "pass",
+   "k": 77.5,
+   "b2b": false,
+   "sys": 67,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 271.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 73,
+    "gemini": 68,
+    "grok": 72,
+    "claude": 72
+   },
+   "why": {
+    "chatgpt": "Seven of 10 reached 225 and three straight 330-yard games against Chicago support the upside",
+    "gemini": "Strong efficiency indoors averaging 271.6 pass yds per game on 6-0 home run",
+    "grok": "Goff rarely under 225 unless blowout or run-heavy",
+    "claude": "Dome and pass first offense"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 72,
+   "blend": 72,
+   "cap": null,
+   "tier": "G",
+   "pub": 72,
+   "eng": "v8",
+   "spread": 5,
+   "solo": false
+  },
+  {
+   "i": 15,
+   "p": "Jared Goff 200+ passing yards",
+   "player": "Jared Goff",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 92.2,
+   "ku": "https://kalshi.com/markets/kxnflpassyds/pro-football-passing-yards/kxnflpassyds-26nov26chidet",
+   "ticker": "KXNFLPASSYDS-26NOV26CHIDET-DETJGOFF16-200",
+   "bk_exact": false,
+   "stat": "pass",
+   "k": 87.0,
+   "b2b": false,
+   "sys": 72,
+   "n": "Hit 8 of 10 this season, 3 of 5 last 5 (avg 271.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 83,
+    "gemini": 80,
+    "grok": 85,
+    "claude": 82
+   },
+   "why": {
+    "chatgpt": "Eight of 10 reached 200 with the two misses at 170 and 176",
+    "gemini": "High floor in dome against a Bears defense missing two starting DBs",
+    "grok": "Goff 200+ is very safe given volume and efficiency",
+    "claude": "Misses only on a sack heavy dud"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 82,
+   "blend": 82,
+   "cap": null,
+   "tier": "G",
+   "pub": 82,
+   "eng": "v8",
+   "spread": 5,
+   "solo": false
+  },
+  {
+   "i": 16,
+   "p": "Amon-Ra St. Brown anytime touchdown",
+   "player": "Amon-Ra St. Brown",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26chidet",
+   "ticker": "KXNFLTD-26NOV26CHIDET-DETASTBROWN14-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 52.5,
+   "b2b": false,
+   "sys": 51,
+   "n": "Hit 5 of 10 this season, 2 of 5 last 5 (avg 0.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 51,
+    "gemini": 52,
+    "grok": 45,
+    "claude": 48
+   },
+   "why": {
+    "chatgpt": "St. Brown scored in 5 of 10 and drew 19 red-zone targets",
+    "gemini": "8 receiving TDs in 10 games and Kyler Gordon out leaves Bears thin in slot",
+    "grok": "ARSB 8 TDs in 10 games primary target high red-zone share",
+    "claude": "8 TD in 10 games"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 51,
+   "blend": 51,
+   "cap": null,
+   "tier": "G",
+   "pub": 51,
+   "eng": "v8",
+   "spread": 7,
+   "solo": false
+  },
+  {
+   "i": 17,
+   "p": "CeeDee Lamb anytime touchdown",
+   "player": "CeeDee Lamb",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26phidal",
+   "ticker": "KXNFLTD-26NOV26PHIDAL-DALCLAMB88-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 54.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 7 of 11 this season, 4 of 5 last 5 (avg 0.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 55,
+    "gemini": 54,
+    "grok": 40,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Lamb scored in 7 of 11 and drew 23 red-zone targets with Ferguson out",
+    "gemini": "9 TDs in 11 games and scored twice vs Eagles on Oct 26 with Ferguson out",
+    "grok": "Lamb volume receiver for Cowboys red-zone looks present",
+    "claude": "9 TD in 11 games; Ferguson out adds red zone looks"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 54,
+   "blend": 54,
+   "cap": null,
+   "tier": "G",
+   "pub": 54,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 18,
+   "p": "Josh Allen 40+ rushing yards",
+   "player": "Josh Allen",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 49.9,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov26kcbuf",
+   "ticker": "KXNFLRSHYDS-26NOV26KCBUF-BUFJALLEN17-40",
+   "bk_exact": true,
+   "stat": "rush",
+   "k": 47.5,
+   "b2b": false,
+   "sys": 26,
+   "n": "Hit 2 of 10 this season, 0 of 5 last 5 (avg 29.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 35,
+    "gemini": 52,
+    "grok": 55,
+    "claude": 25
+   },
+   "why": {
+    "chatgpt": "Only 2 of 10 reached 40 but Allen averages 50.6 rushing yards in ten Mahomes matchups including playoffs",
+    "gemini": "Rain and 36 mph gusts force scrambles and designed runs vs Spagnuolo blitzes",
+    "grok": "Allen averages ~29 rush ypg plus scramble ability 40+ is reachable",
+    "claude": "Wet field and he had zero carries last week"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Allen has exceeded 39 rush yards only twice this season"
+    ],
+    [
+     "claude",
+     "Wet field and zero carries last week"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 35,
+   "blend": 35,
+   "cap": null,
+   "tier": "G",
+   "pub": 35,
+   "eng": "v8",
+   "spread": 30,
+   "solo": false
+  },
+  {
+   "i": 19,
+   "p": "Joe Milton 30+ rushing yards",
+   "player": "Joe Milton",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 57.2,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov26phidal",
+   "ticker": "KXNFLRSHYDS-26NOV26PHIDAL-PHIJMILTON10-30",
+   "bk_exact": false,
+   "stat": "rush",
+   "k": 50.5,
+   "b2b": false,
+   "sys": 56,
+   "n": "Hit 1 of 2 this season, 1 of 2 last 5 (avg 35.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 45,
+    "gemini": 60,
+    "grok": 25,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Milton ran for 64 and 7 in his two starts and designed-run volume is uncertain",
+    "gemini": "Rushed 9 times for 64 yds in Week 11 start vs Steelers and Cowboys allow 151.5 rush yds per game",
+    "grok": "Milton not primary option limited designed runs",
+    "claude": "64 then 7 rush yards in two starts"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "grok",
+     "Milton is not the primary runner and designed rushes are limited"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 45,
+   "blend": 45,
+   "cap": null,
+   "tier": "G",
+   "pub": 45,
+   "eng": "v8",
+   "spread": 35,
+   "solo": false
+  },
+  {
+   "i": 20,
+   "p": "Caleb Williams 25+ rushing yards",
+   "player": "Caleb Williams",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 45.8,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov26chidet",
+   "ticker": "KXNFLRSHYDS-26NOV26CHIDET-CHICWILLIAMS18-25",
+   "bk_exact": false,
+   "stat": "rush",
+   "k": 44.5,
+   "b2b": false,
+   "sys": 32,
+   "n": "Hit 2 of 7 this season, 0 of 5 last 5 (avg 22.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 23,
+    "gemini": 42,
+    "grok": 48,
+    "claude": 38
+   },
+   "why": {
+    "chatgpt": "Caleb reached 25 in 2 of 7 and in none of five since his hamstring absence",
+    "gemini": "Lions missing top pass rusher DJ Wonnum may reduce scramble urgency slightly",
+    "grok": "Williams ~22 rush ypg season dual-threat style 25+ common",
+    "claude": "Scramble yards swing week to week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Caleb has stayed below 25 in all five starts since his hamstring absence"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 38,
+   "blend": 38,
+   "cap": null,
+   "tier": "G",
+   "pub": 38,
+   "eng": "v8",
+   "spread": 25,
+   "solo": false
+  },
+  {
+   "i": 21,
+   "p": "Rashee Rice anytime touchdown",
+   "player": "Rashee Rice",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26kcbuf",
+   "ticker": "KXNFLTD-26NOV26KCBUF-KCRRICE4-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 27.5,
+   "b2b": false,
+   "sys": 32,
+   "n": "Hit 2 of 8 this season, 1 of 5 last 5 (avg 0.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 26,
+    "gemini": 34,
+    "grok": 38,
+    "claude": 27
+   },
+   "why": {
+    "chatgpt": "Rice scored in 2 of 7 and ran routes on about half of dropbacks last week",
+    "gemini": "Weather suppresses passing TDs and Rice has just 2 TDs in 8 games this season",
+    "grok": "Rice active red-zone threat for Mahomes",
+    "claude": "1 TD in 4 games since returning; wind limits shots"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Rice's route share limits his opportunities for a score"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 32,
+   "blend": 32,
+   "cap": null,
+   "tier": "Y",
+   "pub": 32,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 22,
+   "p": "Luther Burden anytime touchdown",
+   "player": "Luther Burden",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26chidet",
+   "ticker": "KXNFLTD-26NOV26CHIDET-CHILBURDEN10-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 38.5,
+   "b2b": false,
+   "sys": 49,
+   "n": "Hit 4 of 10 this season, 3 of 5 last 5 (avg 0.4).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 32,
+    "gemini": 38,
+    "grok": 28,
+    "claude": 22
+   },
+   "why": {
+    "chatgpt": "Burden scored in 4 of 10 with 11 red-zone targets but ran 17 routes last week",
+    "gemini": "Leads Bears with 654 rec yds and 4 TDs vs Lions missing Chuck Clark and Rakestraw",
+    "grok": "Burden has 4 TDs but secondary option behind Odunze/Loveland",
+    "claude": "Only 4 TD and targets slipping"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 32,
+   "blend": 32,
+   "cap": null,
+   "tier": "G",
+   "pub": 32,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 23,
+   "p": "Javonte Williams anytime touchdown",
+   "player": "Javonte Williams",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26phidal",
+   "ticker": "KXNFLTD-26NOV26PHIDAL-DALJWILLIAMS33-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 60.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 8 of 11 this season, 3 of 5 last 5 (avg 1.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 66,
+    "gemini": 62,
+    "grok": 52,
+    "claude": 60
+   },
+   "why": {
+    "chatgpt": "Williams scored in 8 of 11 and has 45 red-zone carries but starting guard Booker is out",
+    "gemini": "10 rushing TDs this season and ran for 155 yds and a TD vs Eagles on Oct 26",
+    "grok": "Javonte high TD rate (10 in season) Cowboys primary back red-zone work",
+    "claude": "10 TD in 11 games and 20+ carries lately"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 62,
+   "blend": 62,
+   "cap": null,
+   "tier": "Y",
+   "pub": 62,
+   "eng": "v8",
+   "spread": 14,
+   "solo": false
+  },
+  {
+   "i": 24,
+   "p": "Lions ML v Bears",
+   "player": "Lions",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26nov26chidet",
+   "ticker": "KXNFLGAME-26NOV26CHIDET-DET",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 48.5,
+   "b2b": false,
+   "sys": 46,
+   "n": "Book line CHI -1.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 57,
+    "gemini": 58,
+    "grok": 48,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Both clubs are 8-2 and Detroit gets a small home advantage behind Gibbs",
+    "gemini": "6-0 at home winning by 8.3 ppg though missing Clark and Wonnum tightens margin",
+    "grok": "Lions offense elite vs weakened Bears secondary but Bears also good",
+    "claude": "6-0 at home but missing 5 defensive starters"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "Y",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 25,
+   "p": "Lions +1.5 v Bears",
+   "player": "Lions",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "spread",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnflspread/pro-football-spread/kxnflspread-26nov26chidet",
+   "ticker": "KXNFLSPREAD-26NOV26CHIDET-CHI2",
+   "bk_exact": null,
+   "stat": "spread",
+   "k": 52.5,
+   "b2b": false,
+   "sys": 50,
+   "n": "Book line CHI -1.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 61,
+    "gemini": 63,
+    "grok": 55,
+    "claude": 60
+   },
+   "why": {
+    "chatgpt": "Wins plus ties and one-point losses count against a Chicago team on five straight wins",
+    "gemini": "Covers outright win or 1-point loss in dome where Detroit is undefeated",
+    "grok": "Lions +1.5 covers more outcomes in a competitive NFC North game",
+    "claude": "Covers any win plus a 1 point loss"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 60,
+   "blend": 60,
+   "cap": null,
+   "tier": "Y",
+   "pub": 60,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 26,
+   "p": "Cowboys ML v Eagles",
+   "player": "Cowboys",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26nov26phidal",
+   "ticker": "KXNFLGAME-26NOV26PHIDAL-DAL",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 79.5,
+   "b2b": false,
+   "sys": 74,
+   "n": "Book line DAL -8.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 70,
+    "gemini": 74,
+    "grok": 45,
+    "claude": 76
+   },
+   "why": {
+    "chatgpt": "Dallas averages 30.6 points and faces a third-start QB but allows 28.4 points per game",
+    "gemini": "Beat Eagles 38-21 in Week 8 and faces backup QB Joe Milton at home",
+    "grok": "Cowboys at home vs Eagles both capable offense",
+    "claude": "Eagles 3-7 with Milton last in success rate"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 74,
+   "blend": 74,
+   "cap": null,
+   "tier": "G",
+   "pub": 74,
+   "eng": "v8",
+   "spread": 31,
+   "solo": false
+  },
+  {
+   "i": 27,
+   "p": "Chiefs ML at Bills",
+   "player": "Chiefs",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26nov26kcbuf",
+   "ticker": "KXNFLGAME-26NOV26KCBUF-KC",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 39.5,
+   "b2b": false,
+   "sys": 41,
+   "n": "Book line BUF -3.0.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 44,
+    "gemini": 48,
+    "grok": 42,
+    "claude": 41
+   },
+   "why": {
+    "chatgpt": "KC has the second-ranked scoring defense but travels on short rest without its starting right tackle",
+    "gemini": "Road coin flip in brutal rain and wind without Kenneth Walker III",
+    "grok": "Chiefs vs Bills outdoors in rain/wind Bills strong at home",
+    "claude": "No Walker or RT Moore in a rain game at Buffalo"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 42,
+   "blend": 42,
+   "cap": null,
+   "tier": "Y",
+   "pub": 42,
+   "eng": "v8",
+   "spread": 7,
+   "solo": false
+  },
+  {
+   "i": 28,
+   "p": "Amon-Ra St. Brown under 8 receptions",
+   "player": "Amon-Ra St. Brown",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 56.0,
+   "ku": "https://kalshi.com/markets/kxnflrec/pro-football-player-receptions/kxnflrec-26nov26chidet",
+   "ticker": "KXNFLREC-26NOV26CHIDET-DETASTBROWN14-8",
+   "bk_exact": true,
+   "stat": "rec",
+   "k": 58.5,
+   "b2b": false,
+   "sys": 56,
+   "n": "Stayed under 5 of 10 this season, 3 of 5 last 5 (avg 7.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 53,
+    "gemini": 62,
+    "grok": 45,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "Five of 10 finished at seven catches or fewer and two more stopped exactly at eight",
+    "gemini": "Goff averaging 28.5 pass attempts over last 6 games limits 8+ catch spike",
+    "grok": "ARSB averages 7.0 rec under 8 is coin-flip on volume",
+    "claude": "Cashes on 7 or fewer catches and he averages 7"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "G",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 17,
+   "solo": false
+  },
+  {
+   "i": 29,
+   "p": "Colston Loveland 50+ receiving yards",
+   "player": "Colston Loveland",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 54.1,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-CHICLOVELAND84-50",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 54.5,
+   "b2b": false,
+   "sys": 58,
+   "n": "Hit 5 of 10 this season, 4 of 5 last 5 (avg 39.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 54,
+    "gemini": 38,
+    "grok": 42,
+    "claude": 33
+   },
+   "why": {
+    "chatgpt": "Loveland cleared 50 in 4 of his last 5 and ran 26 routes last week but Branch is back",
+    "gemini": "Lions missing starting safety Chuck Clark helps seam routes but target share splits",
+    "grok": "Loveland ~39 ypg 50+ requires volume spike or big play",
+    "claude": "TD dependent; 3 catches for 29 last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "low",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 42,
+   "blend": 42,
+   "cap": null,
+   "tier": "G",
+   "pub": 42,
+   "eng": "v8",
+   "spread": 21,
+   "solo": false
+  },
+  {
+   "i": 30,
+   "p": "Rome Odunze 100+ receiving yards",
+   "player": "Rome Odunze",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 3.3,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-CHIRODUNZE15-100",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 11.5,
+   "b2b": false,
+   "sys": 13,
+   "n": "Hit 0 of 10 this season, 0 of 5 last 5 (avg 57.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 12,
+    "gemini": 14,
+    "grok": 22,
+    "claude": 10
+   },
+   "why": {
+    "chatgpt": "Odunze peaked at 94 in ten games this year but had 128 in his last Detroit meeting",
+    "gemini": "Burden leads Bears receiving and 100+ is a steep ceiling on short week",
+    "grok": "Odunze ~57 ypg 100+ is high-variance big-game only",
+    "claude": "Needs a ceiling game"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Odunze has yet to reach 100 this season despite playing a full receiver role"
+    ],
+    [
+     "gemini",
+     "Rome Odunze is behind Luther Burden in target volume making 100+ yards a thin ceiling"
+    ],
+    [
+     "grok",
+     "100+ is outlier territory for Odunze on average volume"
+    ],
+    [
+     "claude",
+     "Needs 100 on a WR who had 45 last week vs a top 10 pass D"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 13,
+   "blend": 13,
+   "cap": null,
+   "tier": "Y",
+   "pub": 13,
+   "eng": "v8",
+   "spread": 12,
+   "solo": false
+  },
+  {
+   "i": 31,
+   "p": "Caleb Williams 15+ rushing yards",
+   "player": "Caleb Williams",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 69.9,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov26chidet",
+   "ticker": "KXNFLRSHYDS-26NOV26CHIDET-CHICWILLIAMS18-15",
+   "bk_exact": false,
+   "stat": "rush",
+   "k": 65.5,
+   "b2b": false,
+   "sys": 56,
+   "n": "Hit 4 of 7 this season, 2 of 5 last 5 (avg 22.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 48,
+    "gemini": 64,
+    "grok": 62,
+    "claude": 58
+   },
+   "why": {
+    "chatgpt": "Four of 7 reached 15 but only 2 of 5 since returning from the hamstring injury",
+    "gemini": "Mobile QB indoors who should clear 15 on 2 to 3 scrambles even with Wonnum out",
+    "grok": "Williams 15+ rush is common on designed runs and scrambles",
+    "claude": "Lions pass rush thin without Hutchinson"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 58,
+   "blend": 58,
+   "cap": null,
+   "tier": "G",
+   "pub": 58,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 32,
+   "p": "Jahmyr Gibbs 70+ rushing yards",
+   "player": "Jahmyr Gibbs",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 72.2,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov26chidet",
+   "ticker": "KXNFLRSHYDS-26NOV26CHIDET-DETJGIBBS0-70",
+   "bk_exact": false,
+   "stat": "rush",
+   "k": 72.5,
+   "b2b": false,
+   "sys": 82,
+   "n": "Hit 8 of 10 this season, 5 of 5 last 5 (avg 109.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 76,
+    "gemini": 68,
+    "grok": 72,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "Gibbs cleared 70 in 8 of 10 with at least 20 carries in six straight against a top-seven run defense",
+    "gemini": "Averaging 23.7 carries over last 6 games with 1098 rush yds on the season",
+    "grok": "Gibbs 110 rush ypg season 70+ is a solid floor given usage",
+    "claude": "110 ypg vs a CHI run D allowing 94"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 72,
+   "blend": 72,
+   "cap": null,
+   "tier": "G",
+   "pub": 72,
+   "eng": "v8",
+   "spread": 14,
+   "solo": false
+  },
+  {
+   "i": 33,
+   "p": "Kyle Monangai anytime touchdown",
+   "player": "Kyle Monangai",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26chidet",
+   "ticker": "KXNFLTD-26NOV26CHIDET-CHIKMONANGAI25-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 35.5,
+   "b2b": false,
+   "sys": 46,
+   "n": "Hit 2 of 5 this season, 2 of 5 last 5 (avg 0.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 24,
+    "gemini": 28,
+    "grok": 35,
+    "claude": 18
+   },
+   "why": {
+    "chatgpt": "Monangai scored in 2 of 5 games with a carry and had eight carries in his return",
+    "gemini": "Roschon Johnson out secures RB2 role behind Swift but Swift owns goal line with 10 TDs",
+    "grok": "Monangai limited role behind Swift 3 TDs on fewer carries",
+    "claude": "38% snaps and 2.3 ypc in return"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "claude",
+     "Backup with 2.3 ypc and a shared role"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 28,
+   "blend": 28,
+   "cap": null,
+   "tier": "G",
+   "pub": 28,
+   "eng": "v8",
+   "spread": 17,
+   "solo": false
+  },
+  {
+   "i": 34,
+   "p": "Jahmyr Gibbs anytime touchdown",
+   "player": "Jahmyr Gibbs",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26chidet",
+   "ticker": "KXNFLTD-26NOV26CHIDET-DETJGIBBS0-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 70.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 9 of 10 this season, 4 of 5 last 5 (avg 1.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 73,
+    "gemini": 64,
+    "grok": 58,
+    "claude": 66
+   },
+   "why": {
+    "chatgpt": "Gibbs scored in 9 of 10 and has 54 red-zone carries against a strong Chicago front",
+    "gemini": "13 rushing TDs in 10 games with massive workload indoors for 8-2 Lions",
+    "grok": "Gibbs 13 rush TDs in 10 games primary red-zone back",
+    "claude": "15 total TD in 10 games"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 64,
+   "blend": 64,
+   "cap": null,
+   "tier": "G",
+   "pub": 64,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 35,
+   "p": "Javonte Williams 2+ touchdowns",
+   "player": "Javonte Williams",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26phidal",
+   "ticker": "KXNFLTD-26NOV26PHIDAL-DALJWILLIAMS33-2",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 22.5,
+   "b2b": false,
+   "sys": 30,
+   "n": "Hit 3 of 11 this season, 1 of 5 last 5 (avg 1.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 24,
+    "gemini": 22,
+    "grok": 15,
+    "claude": 20
+   },
+   "why": {
+    "chatgpt": "Williams scored twice or more in 3 of 11 and five other scoring games ended at one",
+    "gemini": "Strong red zone role vs Eagles but 2+ TDs always carries high variance",
+    "grok": "2 TDs is rare even for high-usage backs Javonte has volume but not double-digit rate",
+    "claude": "Needs two scores even though Dallas should lead"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Javonte gets goal-line work but needs two separate scoring plays"
+    ],
+    [
+     "grok",
+     "2 TDs is a high bar even for a lead back with good red-zone usage"
+    ],
+    [
+     "claude",
+     "Two TDs for one RB is a long shot even in a good script"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 22,
+   "blend": 22,
+   "cap": null,
+   "tier": "G",
+   "pub": 22,
+   "eng": "v8",
+   "spread": 9,
+   "solo": false
+  },
+  {
+   "i": 36,
+   "p": "George Pickens anytime touchdown",
+   "player": "George Pickens",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26phidal",
+   "ticker": "KXNFLTD-26NOV26PHIDAL-DALGPICKENS3-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 46.5,
+   "b2b": false,
+   "sys": 50,
+   "n": "Hit 4 of 10 this season, 3 of 5 last 5 (avg 0.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 43,
+    "gemini": 40,
+    "grok": 42,
+    "claude": 35
+   },
+   "why": {
+    "chatgpt": "Pickens scored in 4 of 10 with 11 red-zone targets and ten overall targets last week",
+    "gemini": "Scored vs Eagles on Oct 26 and Jake Ferguson out frees red zone targets",
+    "grok": "Pickens big-play threat red-zone looks for Cowboys",
+    "claude": "6 TD in 11 games and more targets with Ferguson out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 42,
+   "blend": 42,
+   "cap": null,
+   "tier": "G",
+   "pub": 42,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 37,
+   "p": "Saquon Barkley anytime touchdown",
+   "player": "Saquon Barkley",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26phidal",
+   "ticker": "KXNFLTD-26NOV26PHIDAL-PHISBARKLEY26-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 43.5,
+   "b2b": false,
+   "sys": 59,
+   "n": "Hit 4 of 8 this season, 4 of 5 last 5 (avg 0.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 51,
+    "gemini": 42,
+    "grok": 48,
+    "claude": 28
+   },
+   "why": {
+    "chatgpt": "Barkley has four straight rushing TD games and Dallas allows 151.5 rushing yards per game",
+    "gemini": "Scored vs Cowboys on Oct 26 but Eagles offense averages only 16.7 ppg with Milton",
+    "grok": "Barkley playing and healthy primary back red-zone role",
+    "claude": "Weak PHI offense rarely reaches the red zone"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "Y",
+   "pub": 48,
+   "eng": "v8",
+   "spread": 23,
+   "solo": false
+  },
+  {
+   "i": 38,
+   "p": "Emmett Johnson anytime touchdown",
+   "player": "Emmett Johnson",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26kcbuf",
+   "ticker": "KXNFLTD-26NOV26KCBUF-KCEJOHNSON10-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 61.5,
+   "b2b": false,
+   "sys": 54,
+   "n": "Hit 4 of 10 this season, 4 of 5 last 5 (avg 0.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 54,
+    "gemini": 44,
+    "grok": 30,
+    "claude": 42
+   },
+   "why": {
+    "chatgpt": "Johnson scored in four straight and handled 23 carries last week with Walker out",
+    "gemini": "Kenneth Walker III is OUT making Johnson lead back with 5 total TDs this year",
+    "grok": "Johnson likely increased role with Walker out but still secondary",
+    "claude": "Starting again with Walker out; 5 TD season"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "grok",
+     "Johnson is filling in but not yet the established lead back"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 44,
+   "blend": 44,
+   "cap": null,
+   "tier": "G",
+   "pub": 44,
+   "eng": "v8",
+   "spread": 24,
+   "solo": false
+  },
+  {
+   "i": 39,
+   "p": "James Cook 80+ rushing yards",
+   "player": "James Cook",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 58.9,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov26kcbuf",
+   "ticker": "KXNFLRSHYDS-26NOV26KCBUF-BUFJCOOK4-80",
+   "bk_exact": false,
+   "stat": "rush",
+   "k": 53.5,
+   "b2b": false,
+   "sys": 81,
+   "n": "Hit 8 of 10 this season, 5 of 5 last 5 (avg 106.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 70,
+    "gemini": 58,
+    "grok": 62,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Cook cleared 80 in 8 of 10 but KC allows only 95.5 team rushing yards per game",
+    "gemini": "1060 rush yds on season and 100% rain plus 36 mph gusts create heavy rush script",
+    "grok": "Cook 106 rush ypg 80+ hit rate solid on volume",
+    "claude": "106 ypg and rain favors the run but KC allows 3.7 ypc on the road"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 62,
+   "blend": 62,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 15,
+   "solo": false
+  },
+  {
+   "i": 40,
+   "p": "CeeDee Lamb 80+ receiving yards",
+   "player": "CeeDee Lamb",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 59.4,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26phidal",
+   "ticker": "KXNFLRECYDS-26NOV26PHIDAL-DALCLAMB88-80",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 58.5,
+   "b2b": false,
+   "sys": 50,
+   "n": "Hit 5 of 11 this season, 2 of 5 last 5 (avg 100.7).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 53,
+    "gemini": 56,
+    "grok": 48,
+    "claude": 57
+   },
+   "why": {
+    "chatgpt": "Lamb cleared 80 in 5 of 11 and recorded three more between 70 and 74",
+    "gemini": "1108 rec yds in 11 games and Ferguson out concentrates targets against Eagles",
+    "grok": "Lamb volume receiver 80+ reachable on targets",
+    "claude": "100 ypg season and Ferguson out"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 53,
+   "blend": 53,
+   "cap": null,
+   "tier": "G",
+   "pub": 53,
+   "eng": "v8",
+   "spread": 9,
+   "solo": false
+  },
+  {
+   "i": 41,
+   "p": "Kenneth Walker 70+ rushing yards",
+   "player": "Kenneth Walker",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": null,
+   "stat": "rush",
+   "k": null,
+   "b2b": false,
+   "sys": 0,
+   "n": "OUT (groin). Leg voids.",
+   "rule": null,
+   "fl": "OUT",
+   "models": {
+    "chatgpt": 0,
+    "gemini": 0,
+    "grok": 15,
+    "claude": 0
+   },
+   "why": {
+    "chatgpt": "OUT with a groin injury",
+    "gemini": "OUT with groin injury on official report",
+    "grok": "Walker ruled out with groin",
+    "claude": "OUT grade 2 groin"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "high",
+    "claude": "high"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Kenneth Walker III is officially ruled OUT with a groin injury"
+    ],
+    [
+     "grok",
+     "Walker is OUT so the 70+ rush leg is dead"
+    ],
+    [
+     "claude",
+     "OUT with a groin strain"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 0,
+   "tier": "X",
+   "pub": null,
+   "eng": "v8 (OUT)",
+   "spread": null
+  },
+  {
+   "i": 42,
+   "p": "Luther Burden 60+ receiving yards",
+   "player": "Luther Burden",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 53.5,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-CHILBURDEN10-60",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 52.5,
+   "b2b": false,
+   "sys": 61,
+   "n": "Hit 6 of 10 this season, 3 of 5 last 5 (avg 65.4).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 51,
+    "gemini": 46,
+    "grok": 38,
+    "claude": 38
+   },
+   "why": {
+    "chatgpt": "Burden cleared 60 in 6 of 10 but finished at 10 on three targets last week",
+    "gemini": "Leads Bears with 654 rec yds and Lions missing Chuck Clark and Ennis Rakestraw",
+    "grok": "Burden ~65 ypg on volume 60+ requires targets",
+    "claude": "65 ypg season but 10 yards last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 46,
+   "blend": 46,
+   "cap": null,
+   "tier": "G",
+   "pub": 46,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 43,
+   "p": "Eagles at Cowboys under 50 total points",
+   "player": "Eagles at Cowboys",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "total",
+   "st": "reg",
+   "bk": null,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": null,
+   "stat": "total",
+   "k": null,
+   "b2b": false,
+   "sys": 50,
+   "n": "Book total 49.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 51,
+    "gemini": 46,
+    "grok": 55,
+    "claude": 64
+   },
+   "why": {
+    "chatgpt": "Dallas scores 30.6 per game but Philadelphia scores 16.7 and exactly 50 does not win",
+    "gemini": "Cowboys home games went over in 8 of last 9 but Eagles average just 16.7 ppg",
+    "grok": "Eagles-Cowboys under 50 in dome both offenses capable but defense matters",
+    "claude": "PHI offense averages 88.8 rush ypg and struggles to score"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 51,
+   "blend": 51,
+   "cap": null,
+   "tier": "N",
+   "pub": 51,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 44,
+   "p": "Bears ML at Lions",
+   "player": "Bears",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "ml",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26nov26chidet",
+   "ticker": "KXNFLGAME-26NOV26CHIDET-CHI",
+   "bk_exact": null,
+   "stat": "ml",
+   "k": 51.5,
+   "b2b": false,
+   "sys": 54,
+   "n": "Book line CHI -1.5.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 42,
+    "gemini": 42,
+    "grok": 52,
+    "claude": 44
+   },
+   "why": {
+    "chatgpt": "Chicago has won five straight but must contain Gibbs without conceding play-action gains",
+    "gemini": "Hot 5-game streak and Lions missing Clark and Wonnum but Detroit is 6-0 at home",
+    "grok": "Bears ML in competitive game vs Lions",
+    "claude": "Near pick'em; slight home edge to DET"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 44,
+   "blend": 44,
+   "cap": null,
+   "tier": "G",
+   "pub": 44,
+   "eng": "v8",
+   "spread": 10,
+   "solo": false
+  },
+  {
+   "i": 45,
+   "p": "Chiefs +3 at Bills",
+   "player": "Chiefs",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "spread",
+   "st": "reg",
+   "bk": null,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": null,
+   "stat": "spread",
+   "k": null,
+   "b2b": false,
+   "sys": 48,
+   "n": "Book line BUF -3.0.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 50,
+    "gemini": 56,
+    "grok": 48,
+    "claude": 48
+   },
+   "why": {
+    "chatgpt": "A loss by one or two wins the spread and a three-point loss pushes in a close matchup",
+    "gemini": "Bad weather compresses scoring margin and keeps Chiefs inside a field goal",
+    "grok": "Chiefs +3 in weather outdoor game",
+    "claude": "3 is a common margin and a push loses"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "N",
+   "pub": 48,
+   "eng": "v8",
+   "spread": 8,
+   "solo": false
+  },
+  {
+   "i": 46,
+   "p": "Kyle Monangai 8+ rushing attempts",
+   "player": "Kyle Monangai",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 63.5,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": false,
+   "stat": "other",
+   "k": null,
+   "b2b": false,
+   "sys": 85,
+   "n": "Hit 5 of 5 this season, 5 of 5 last 5 (avg 13.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 63,
+    "gemini": 56,
+    "grok": 55,
+    "claude": 40
+   },
+   "why": {
+    "chatgpt": "Monangai reached eight carries in all five games with a carry but got exactly eight on his return",
+    "gemini": "Roschon Johnson OUT secures clear RB2 touches behind Swift on short week",
+    "grok": "Monangai 8+ attempts possible in rotation or late",
+    "claude": "Roschon Johnson out but Ahmed also earns carries"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "N",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 23,
+   "solo": false
+  },
+  {
+   "i": 47,
+   "p": "Caleb Williams 2+ passing touchdowns",
+   "player": "Caleb Williams",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 64.6,
+   "ku": "https://kalshi.com/markets/kxnflpasstds/pro-football-player-passing-touchdowns/kxnflpasstds-26nov26chidet",
+   "ticker": "KXNFLPASSTDS-26NOV26CHIDET-CHICWILLIAMS18-2",
+   "bk_exact": true,
+   "stat": "atd",
+   "k": 63.5,
+   "b2b": false,
+   "sys": 57,
+   "n": "Hit 4 of 7 this season, 3 of 5 last 5 (avg 1.4).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 54,
+    "gemini": 40,
+    "grok": 42,
+    "claude": 40
+   },
+   "why": {
+    "chatgpt": "Caleb threw two or more in 4 of 7 this year and in four straight against Detroit",
+    "gemini": "Only 10 pass TDs in 7 games this season though Lions missing Wonnum and Clark helps",
+    "grok": "Williams 10 pass TDs in 7 games 2+ is reachable but not automatic",
+    "claude": "10 pass TD in 10 games vs a weak DET secondary"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 42,
+   "blend": 42,
+   "cap": null,
+   "tier": "G",
+   "pub": 42,
+   "eng": "v8",
+   "spread": 14,
+   "solo": false
+  },
+  {
+   "i": 48,
+   "p": "Jared Goff 2+ passing touchdowns",
+   "player": "Jared Goff",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 65.0,
+   "ku": "https://kalshi.com/markets/kxnflpasstds/pro-football-player-passing-touchdowns/kxnflpasstds-26nov26chidet",
+   "ticker": "KXNFLPASSTDS-26NOV26CHIDET-DETJGOFF16-2",
+   "bk_exact": true,
+   "stat": "atd",
+   "k": 64.5,
+   "b2b": false,
+   "sys": 66,
+   "n": "Hit 7 of 10 this season, 3 of 5 last 5 (avg 2.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 60,
+    "gemini": 54,
+    "grok": 65,
+    "claude": 58
+   },
+   "why": {
+    "chatgpt": "Goff threw two or more in 7 of 10 but Gibbs commands most carries near the goal line",
+    "gemini": "20 pass TDs in 10 games indoors against Bears missing Gordon and Hicks",
+    "grok": "Goff 20 TDs in 10 games 2+ in majority of games",
+    "claude": "20 pass TD in 10 games"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 60,
+   "blend": 60,
+   "cap": null,
+   "tier": "G",
+   "pub": 60,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 49,
+   "p": "Patrick Mahomes 2+ passing touchdowns",
+   "player": "Patrick Mahomes",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 46.4,
+   "ku": "https://kalshi.com/markets/kxnflpasstds/pro-football-player-passing-touchdowns/kxnflpasstds-26nov26kcbuf",
+   "ticker": "KXNFLPASSTDS-26NOV26KCBUF-KCPMAHOMES15-2",
+   "bk_exact": true,
+   "stat": "atd",
+   "k": 45.5,
+   "b2b": false,
+   "sys": 76,
+   "n": "Hit 8 of 10 this season, 4 of 5 last 5 (avg 2.2).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 52,
+    "gemini": 42,
+    "grok": 55,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Mahomes threw two or more in 8 of 10 but rain and gusts lower passing efficiency",
+    "gemini": "22 pass TDs in 10 games but 35F driving rain and 36 mph gusts cap passing TDs",
+    "grok": "Mahomes 2+ pass TDs standard for him",
+    "claude": "13 TD in November but rain and wind tonight"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Driving rain and 36 mph gusts in Buffalo tilt Chiefs offense toward Emmett Johnson and short throws"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 50,
+   "p": "Josh Allen 2+ passing touchdowns",
+   "player": "Josh Allen",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 41.2,
+   "ku": "https://kalshi.com/markets/kxnflpasstds/pro-football-player-passing-touchdowns/kxnflpasstds-26nov26kcbuf",
+   "ticker": "KXNFLPASSTDS-26NOV26KCBUF-BUFJALLEN17-2",
+   "bk_exact": true,
+   "stat": "atd",
+   "k": 42.5,
+   "b2b": false,
+   "sys": 45,
+   "n": "Hit 4 of 10 this season, 2 of 5 last 5 (avg 1.4).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 35,
+    "gemini": 30,
+    "grok": 48,
+    "claude": 42
+   },
+   "why": {
+    "chatgpt": "Allen threw two or more in 4 of 10 and faces the second-ranked scoring defense in rain",
+    "gemini": "Only 14 pass TDs in 10 games and heavy rain plus wind push Bills to ground game",
+    "grok": "Allen dual threat may run more in weather 2+ pass TDs less certain",
+    "claude": "Rain plus the top red zone D in the league"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Josh Allen has only 14 pass TDs in 10 games and 100% rain with 36 mph gusts kills passing volume"
+    ],
+    [
+     "claude",
+     "Rain and wind plus the top red zone D cap Allen's passing TDs"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 42,
+   "blend": 42,
+   "cap": null,
+   "tier": "G",
+   "pub": 42,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 51,
+   "p": "Dak Prescott 2+ passing touchdowns",
+   "player": "Dak Prescott",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 66.1,
+   "ku": "https://kalshi.com/markets/kxnflpasstds/pro-football-player-passing-touchdowns/kxnflpasstds-26nov26phidal",
+   "ticker": "KXNFLPASSTDS-26NOV26PHIDAL-DALDPRESCOTT4-2",
+   "bk_exact": false,
+   "stat": "atd",
+   "k": 70.5,
+   "b2b": false,
+   "sys": 63,
+   "n": "Hit 6 of 11 this season, 4 of 5 last 5 (avg 2.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 62,
+    "gemini": 64,
+    "grok": 50,
+    "claude": 66
+   },
+   "why": {
+    "chatgpt": "Prescott threw two or more in 6 of 11 including three in Philadelphia last month",
+    "gemini": "25 pass TDs in 11 games and threw 3 TDs vs Eagles on Oct 26 at home indoors",
+    "grok": "Prescott volume passer 2+ common",
+    "claude": "25 TD in 11 games vs a weak PHI secondary"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 63,
+   "blend": 63,
+   "cap": null,
+   "tier": "G",
+   "pub": 63,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 52,
+   "p": "Caleb Williams 225+ passing yards",
+   "player": "Caleb Williams",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 77.5,
+   "ku": "https://kalshi.com/markets/kxnflpassyds/pro-football-passing-yards/kxnflpassyds-26nov26chidet",
+   "ticker": "KXNFLPASSYDS-26NOV26CHIDET-CHICWILLIAMS18-225",
+   "bk_exact": false,
+   "stat": "pass",
+   "k": 69.5,
+   "b2b": false,
+   "sys": 71,
+   "n": "Hit 5 of 7 this season, 4 of 5 last 5 (avg 246.7).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 63,
+    "gemini": 54,
+    "grok": 55,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Caleb cleared 225 in 5 of 7 and Detroit ranks 27th against the pass",
+    "gemini": "Lions missing top rusher Wonnum and S Clark gives clean pockets in dome",
+    "grok": "Williams 225+ on average ~247 ypg",
+    "claude": "Recent games 247 to 308 vs DET's 27th ranked pass D"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 55,
+   "blend": 55,
+   "cap": null,
+   "tier": "G",
+   "pub": 55,
+   "eng": "v8",
+   "spread": 18,
+   "solo": false
+  },
+  {
+   "i": 53,
+   "p": "Rome Odunze 25+ receiving yards",
+   "player": "Rome Odunze",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 82.1,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-CHIRODUNZE15-25",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 76.5,
+   "b2b": false,
+   "sys": 85,
+   "n": "Hit 10 of 10 this season, 5 of 5 last 5 (avg 57.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 90,
+    "gemini": 68,
+    "grok": 78,
+    "claude": 72
+   },
+   "why": {
+    "chatgpt": "Odunze reached 25 in all ten with a low of 39 and ran 23 routes last week",
+    "gemini": "Low bar indoors against Lions secondary missing Rakestraw and Chuck Clark",
+    "grok": "Odunze 25+ is a low floor on any volume",
+    "claude": "92% snaps and caught all 4 targets last week"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "medium",
+    "grok": "high",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 78,
+   "blend": 78,
+   "cap": null,
+   "tier": "Y",
+   "pub": 78,
+   "eng": "v8",
+   "spread": 22,
+   "solo": false
+  },
+  {
+   "i": 54,
+   "p": "Rome Odunze 45+ receiving yards",
+   "player": "Rome Odunze",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 56.3,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": true,
+   "stat": "recyds",
+   "k": null,
+   "b2b": false,
+   "sys": 67,
+   "n": "Hit 6 of 10 this season, 4 of 5 last 5 (avg 57.3).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 67,
+    "gemini": 48,
+    "grok": 58,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "Six of 10 reached 45 and the four misses were between 39 and 44",
+    "gemini": "Solid secondary target share behind Burden in a fast dome environment",
+    "grok": "Odunze 45+ reachable on average ~57",
+    "claude": "Right at his median"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 58,
+   "blend": 58,
+   "cap": null,
+   "tier": "N",
+   "pub": 58,
+   "eng": "v8",
+   "spread": 19,
+   "solo": false
+  },
+  {
+   "i": 55,
+   "p": "Jameson Williams 20+ receiving yards",
+   "player": "Jameson Williams",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 88.5,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26chidet",
+   "ticker": "KXNFLRECYDS-26NOV26CHIDET-DETJWILLIAMS1-20",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 86.5,
+   "b2b": false,
+   "sys": 85,
+   "n": "Hit 10 of 10 this season, 5 of 5 last 5 (avg 61.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 91,
+    "gemini": 70,
+    "grok": 65,
+    "claude": 72
+   },
+   "why": {
+    "chatgpt": "Jameson cleared 20 in all ten with a low of 31 and ran 24 routes last week",
+    "gemini": "One explosive catch clears 20 yds indoors vs Bears missing Kyler Gordon and Hicks",
+    "grok": "Williams 20+ is a reasonable floor",
+    "claude": "One catch usually clears it"
+   },
+   "conf": {
+    "chatgpt": "high",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 72,
+   "blend": 72,
+   "cap": null,
+   "tier": "G",
+   "pub": 72,
+   "eng": "v8",
+   "spread": 26,
+   "solo": false
+  },
+  {
+   "i": 56,
+   "p": "Javonte Williams 60+ rushing yards",
+   "player": "Javonte Williams",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 68.9,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov26phidal",
+   "ticker": "KXNFLRSHYDS-26NOV26PHIDAL-DALJWILLIAMS33-60",
+   "bk_exact": false,
+   "stat": "rush",
+   "k": 65.5,
+   "b2b": false,
+   "sys": 63,
+   "n": "Hit 6 of 11 this season, 4 of 5 last 5 (avg 69.0).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 62,
+    "gemini": 66,
+    "grok": 55,
+    "claude": 68
+   },
+   "why": {
+    "chatgpt": "Williams cleared 60 in 6 of 11 including 155 in Philadelphia but Dallas is missing Booker",
+    "gemini": "759 rush yds on season and erupted for 155 yds vs Eagles on Oct 26",
+    "grok": "Javonte volume back 60+ solid",
+    "claude": "20.6 carries per game over his last five"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 63,
+   "blend": 63,
+   "cap": null,
+   "tier": "G",
+   "pub": 63,
+   "eng": "v8",
+   "spread": 13,
+   "solo": false
+  },
+  {
+   "i": 57,
+   "p": "Khalil Shakir 25+ receiving yards",
+   "player": "Khalil Shakir",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 74.1,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26kcbuf",
+   "ticker": "KXNFLRECYDS-26NOV26KCBUF-BUFKSHAKIR10-25",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 69.5,
+   "b2b": false,
+   "sys": 85,
+   "n": "Hit 9 of 10 this season, 5 of 5 last 5 (avg 53.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 78,
+    "gemini": 66,
+    "grok": 62,
+    "claude": 65
+   },
+   "why": {
+    "chatgpt": "Shakir reached 25 in 9 of 10 and drew nine targets last week with rain limiting the upside",
+    "gemini": "Leads Bills with 539 rec yds and short slot routes thrive in windy wet conditions",
+    "grok": "Shakir volume for Bills 25+ common",
+    "claude": "54 ypg but boom or bust in wind"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 66,
+   "blend": 66,
+   "cap": null,
+   "tier": "G",
+   "pub": 66,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 58,
+   "p": "Travis Kelce 30+ receiving yards",
+   "player": "Travis Kelce",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 72.8,
+   "ku": "https://kalshi.com/markets/kxnflrecyds/pro-football-receiving-yards/kxnflrecyds-26nov26kcbuf",
+   "ticker": "KXNFLRECYDS-26NOV26KCBUF-KCTKELCE87-30",
+   "bk_exact": false,
+   "stat": "recyds",
+   "k": 68.0,
+   "b2b": false,
+   "sys": 85,
+   "n": "Hit 9 of 10 this season, 5 of 5 last 5 (avg 58.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 79,
+    "gemini": 68,
+    "grok": 55,
+    "claude": 76
+   },
+   "why": {
+    "chatgpt": "Kelce reached 30 in 9 of 10 and ran 31 routes last week with Gray questionable",
+    "gemini": "Leads Chiefs with 586 rec yds and short middle throws are safest in 36 mph gusts",
+    "grok": "Kelce still involved 30+ reachable",
+    "claude": "59 ypg season with Dorian Williams out in coverage for BUF"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "high"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 76,
+   "blend": 76,
+   "cap": null,
+   "tier": "R",
+   "pub": null,
+   "eng": "v8",
+   "spread": 24,
+   "solo": false
+  },
+  {
+   "i": 59,
+   "p": "Josh Allen 1+ interceptions",
+   "player": "Josh Allen",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 52.0,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": true,
+   "stat": "other",
+   "k": null,
+   "b2b": false,
+   "sys": 70,
+   "n": "Hit 7 of 10 this season, 4 of 5 last 5 (avg 0.9).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 53,
+    "gemini": 56,
+    "grok": 35,
+    "claude": 58
+   },
+   "why": {
+    "chatgpt": "Allen threw a pick in 7 of 10 but a run-heavy game could limit pass attempts",
+    "gemini": "9 INTs in 10 games facing Spagnuolo blitzes with a slick rain-soaked football",
+    "grok": "Allen INT rate ~0.9 per game weather can increase risk",
+    "claude": "9 INT in 10 games plus wet ball and a KC D that forces turnovers"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 56,
+   "blend": 56,
+   "cap": null,
+   "tier": "N",
+   "pub": 56,
+   "eng": "v8",
+   "spread": 23,
+   "solo": false
+  },
+  {
+   "i": 60,
+   "p": "D'Andre Swift anytime touchdown",
+   "player": "D'Andre Swift",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26chidet",
+   "ticker": "KXNFLTD-26NOV26CHIDET-CHIDSWIFT4-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 52.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 6 of 10 this season, 4 of 5 last 5 (avg 1.1).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 43,
+    "gemini": 48,
+    "grok": 48,
+    "claude": 45
+   },
+   "why": {
+    "chatgpt": "Swift scored in 6 of 10 and ranks third in carries inside the five but Monangai is back",
+    "gemini": "10 rushing TDs in 10 games and Roschon Johnson out cements goal-line work",
+    "grok": "Swift 10 rush TDs primary back red-zone work",
+    "claude": "10 TD in 10 games but 3.7 ypc"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 48,
+   "blend": 48,
+   "cap": null,
+   "tier": "G",
+   "pub": 48,
+   "eng": "v8",
+   "spread": 5,
+   "solo": false
+  },
+  {
+   "i": 61,
+   "p": "Jameson Williams anytime touchdown",
+   "player": "Jameson Williams",
+   "g": "CHI@DET",
+   "t": "10:00 AM",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26chidet",
+   "ticker": "KXNFLTD-26NOV26CHIDET-DETJWILLIAMS1-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 31.5,
+   "b2b": false,
+   "sys": 50,
+   "n": "Hit 4 of 10 this season, 3 of 5 last 5 (avg 0.6).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 36,
+    "gemini": 32,
+    "grok": 32,
+    "claude": 25
+   },
+   "why": {
+    "chatgpt": "Jameson scored in 4 of 10 with ten red-zone targets and six inside the ten",
+    "gemini": "Big-play threat vs depleted Bears DBs but lower red zone target share than St Brown",
+    "grok": "Jameson Williams big-play threat TD rate lower than ARSB",
+    "claude": "Boom or bust TD profile"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 32,
+   "blend": 32,
+   "cap": null,
+   "tier": "Y",
+   "pub": 32,
+   "eng": "v8",
+   "spread": 11,
+   "solo": false
+  },
+  {
+   "i": 62,
+   "p": "Travis Kelce anytime touchdown",
+   "player": "Travis Kelce",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26kcbuf",
+   "ticker": "KXNFLTD-26NOV26KCBUF-KCTKELCE87-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 29.5,
+   "b2b": false,
+   "sys": 45,
+   "n": "Hit 4 of 10 this season, 2 of 5 last 5 (avg 0.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 29,
+    "gemini": 34,
+    "grok": 35,
+    "claude": 33
+   },
+   "why": {
+    "chatgpt": "Kelce scored in 4 of 10 including one rushing score but has only five red-zone targets",
+    "gemini": "4 TDs in 10 games and reliable short-area red zone target in bad weather",
+    "grok": "Kelce red-zone looks still present",
+    "claude": "4 TD season with 2 last week"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 34,
+   "blend": 34,
+   "cap": null,
+   "tier": "Y",
+   "pub": 34,
+   "eng": "v8",
+   "spread": 6,
+   "solo": false
+  },
+  {
+   "i": 63,
+   "p": "DeVonta Smith anytime touchdown",
+   "player": "DeVonta Smith",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": null,
+   "ku": "https://kalshi.com/markets/kxnfltd/pro-football-touchdowns/kxnfltd-26nov26phidal",
+   "ticker": "KXNFLTD-26NOV26PHIDAL-PHIDSMITH6-1",
+   "bk_exact": null,
+   "stat": "atd",
+   "k": 31.5,
+   "b2b": false,
+   "sys": 44,
+   "n": "Hit 2 of 5 this season, 2 of 5 last 5 (avg 0.4).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 32,
+    "gemini": 28,
+    "grok": 40,
+    "claude": 18
+   },
+   "why": {
+    "chatgpt": "Smith scored in 2 of 5 and drew 12 targets last week but Milton has no TD pass in two starts",
+    "gemini": "Only 351 rec yds on season in low-volume passing attack with Joe Milton at QB",
+    "grok": "Smith healthy volume for Eagles",
+    "claude": "Hamstring is cleared but PHI scores little"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "gemini",
+     "DeVonta Smith has just 351 yards all season in a low-volume passing offense led by Joe Milton"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 32,
+   "blend": 32,
+   "cap": null,
+   "tier": "Y",
+   "pub": 32,
+   "eng": "v8",
+   "spread": 22,
+   "solo": false
+  },
+  {
+   "i": 64,
+   "p": "Joe Milton 15+ rushing yards",
+   "player": "Joe Milton",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 86.9,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov26phidal",
+   "ticker": "KXNFLRSHYDS-26NOV26PHIDAL-PHIJMILTON10-15",
+   "bk_exact": false,
+   "stat": "rush",
+   "k": 79.5,
+   "b2b": false,
+   "sys": 62,
+   "n": "Hit 1 of 2 this season, 1 of 2 last 5 (avg 35.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 69,
+    "gemini": 76,
+    "grok": 35,
+    "claude": 62
+   },
+   "why": {
+    "chatgpt": "Milton had five and nine carries in his two starts but averaged just 1.4 yards per carry last week",
+    "gemini": "Rushed for 64 yds on 9 carries last week and faces soft Cowboys run defense",
+    "grok": "Milton 15+ rush possible but not primary",
+    "claude": "Mobile QB but his rushing range runs 7 to 64"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "high",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 62,
+   "blend": 62,
+   "cap": null,
+   "tier": "G",
+   "pub": 62,
+   "eng": "v8",
+   "spread": 41,
+   "solo": false
+  },
+  {
+   "i": 65,
+   "p": "Jashaun Corbin 10+ rushing yards",
+   "player": "Jashaun Corbin",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 57.6,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov26phidal",
+   "ticker": "KXNFLRSHYDS-26NOV26PHIDAL-DALJCORBINRB-10",
+   "bk_exact": false,
+   "stat": "rush",
+   "k": 60.5,
+   "b2b": false,
+   "sys": 60,
+   "n": "Hit 1 of 1 this season, 1 of 1 last 5 (avg 32.0). One game of data.",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 59,
+    "gemini": 36,
+    "grok": 45,
+    "claude": 50
+   },
+   "why": {
+    "chatgpt": "Corbin was elevated again after five carries for 32 yards and final inactives are pending",
+    "gemini": "Had 5 carries for 32 yds in Week 11 blowout but role depends on inactives and script",
+    "grok": "Corbin 10+ possible in limited snaps",
+    "claude": "Late carries likely if Dallas leads big"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "low",
+    "grok": "low",
+    "claude": "low"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 50,
+   "blend": 50,
+   "cap": null,
+   "tier": "G",
+   "pub": 50,
+   "eng": "v8",
+   "spread": 23,
+   "solo": false
+  },
+  {
+   "i": 66,
+   "p": "Dak Prescott 10+ rushing yards",
+   "player": "Dak Prescott",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 50.0,
+   "ku": "https://kalshi.com/markets/kxnflrshyds/pro-football-rushing-yards/kxnflrshyds-26nov26phidal",
+   "ticker": "KXNFLRSHYDS-26NOV26PHIDAL-DALDPRESCOTT4-10",
+   "bk_exact": true,
+   "stat": "rush",
+   "k": 50.5,
+   "b2b": false,
+   "sys": 40,
+   "n": "Hit 4 of 11 this season, 1 of 5 last 5 (avg 10.7).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 36,
+    "gemini": 34,
+    "grok": 50,
+    "claude": 42
+   },
+   "why": {
+    "chatgpt": "Prescott reached 10 in 4 of 11 and finished at seven to nine yards in five other games",
+    "gemini": "Failed to top 9.5 rush yds in 7 of last 8 games averaging 7.4 yds per game",
+    "grok": "Prescott 10+ rush on scrambles or designed",
+    "claude": "Non throwing hand on the report and few designed runs"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Prescott has finished below ten rushing yards in seven of eleven games"
+    ],
+    [
+     "gemini",
+     "Dak Prescott stayed under 10 rushing yards in 7 of his last 8 games averaging 7.4 per game"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 40,
+   "blend": 40,
+   "cap": null,
+   "tier": "G",
+   "pub": 40,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 67,
+   "p": "Joe Milton under 35 rushing yards",
+   "player": "Joe Milton",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 55.2,
+   "ku": null,
+   "ticker": null,
+   "bk_exact": false,
+   "stat": "rush",
+   "k": null,
+   "b2b": false,
+   "sys": 53,
+   "n": "Stayed under 1 of 2 this season, 1 of 2 last 5 (avg 35.5).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 60,
+    "gemini": 44,
+    "grok": 60,
+    "claude": 58
+   },
+   "why": {
+    "chatgpt": "Milton's two starts ranged from 7 to 64 and a single long scramble threatens the under",
+    "gemini": "Milton ran for 64 yds last week so under 35 is risky against Dallas run defense",
+    "grok": "Milton under 35 is likely given limited designed runs",
+    "claude": "Cleared it in 1 of 2 starts"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "gemini",
+     "Joe Milton ran 9 times for 64 yards in his Week 11 start and Dallas allows 151.5 rush yds per game"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 58,
+   "blend": 58,
+   "cap": null,
+   "tier": "N",
+   "pub": 58,
+   "eng": "v8",
+   "spread": 16,
+   "solo": false
+  },
+  {
+   "i": 68,
+   "p": "Will Shipley under 2 receptions",
+   "player": "Will Shipley",
+   "g": "PHI@DAL",
+   "t": "1:30",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 64.0,
+   "ku": "https://kalshi.com/markets/kxnflrec/pro-football-player-receptions/kxnflrec-26nov26phidal",
+   "ticker": "KXNFLREC-26NOV26PHIDAL-PHIWSHIPLEY28-2",
+   "bk_exact": true,
+   "stat": "rec",
+   "k": 67.5,
+   "b2b": false,
+   "sys": 78,
+   "n": "Stayed under 5 of 6 this season, 4 of 5 last 5 (avg 0.8).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 84,
+    "gemini": 66,
+    "grok": 55,
+    "claude": 68
+   },
+   "why": {
+    "chatgpt": "Shipley caught at most one in 5 of 6 logged games and ran seven routes last week",
+    "gemini": "Averages 1.0 rec per game across 5 games with a season high of 2 receptions",
+    "grok": "Shipley under 2 rec is reasonable if limited receiving role",
+    "claude": "Limited in practice with foot and illness behind Saquon"
+   },
+   "conf": {
+    "chatgpt": "medium",
+    "gemini": "high",
+    "grok": "medium",
+    "claude": "medium"
+   },
+   "fade": [],
+   "alt_rung": false,
+   "med": 68,
+   "blend": 68,
+   "cap": null,
+   "tier": "Y",
+   "pub": 68,
+   "eng": "v8",
+   "spread": 29,
+   "solo": false
+  },
+  {
+   "i": 69,
+   "p": "Josh Downs under 4 receptions",
+   "player": "Josh Downs",
+   "g": "KC@BUF",
+   "t": "5:20",
+   "sp": "NFL",
+   "ty": "prop",
+   "st": "reg",
+   "bk": 57.3,
+   "ku": "https://kalshi.com/markets/kxnflrec/pro-football-player-receptions/kxnflrec-26nov26kcbuf",
+   "ticker": "KXNFLREC-26NOV26KCBUF-KCJDOWNS2-4",
+   "bk_exact": true,
+   "stat": "rec",
+   "k": 59.5,
+   "b2b": false,
+   "sys": 48,
+   "n": "Stayed under 5 of 11 this season, 2 of 5 last 5 (avg 3.7).",
+   "rule": null,
+   "fl": null,
+   "models": {
+    "chatgpt": 51,
+    "gemini": 56,
+    "grok": 50,
+    "claude": 55
+   },
+   "why": {
+    "chatgpt": "Downs caught exactly four in each of his first two KC games on limited routes so four cannot win",
+    "gemini": "Averages 4.0 rec in 2 games with KC and rain plus wind shrinks overall pass volume",
+    "grok": "Downs under 4 rec volume dependent",
+    "claude": "4 catches last week and the run heavy script limits him"
+   },
+   "conf": {
+    "chatgpt": "low",
+    "gemini": "medium",
+    "grok": "medium",
+    "claude": "low"
+   },
+   "fade": [
+    [
+     "chatgpt",
+     "Downs caught exactly four in both KC games and four cannot cash the under"
+    ]
+   ],
+   "alt_rung": false,
+   "med": 51,
+   "blend": 51,
+   "cap": null,
+   "tier": "G",
+   "pub": 51,
+   "eng": "v8",
+   "spread": 6,
+   "solo": false
+  }
+ ],
+ "board": [
+  15,
+  53,
+  8,
+  26,
+  14,
+  32,
+  55
+ ],
+ "low": [
+  68,
+  7,
+  57,
+  34,
+  51,
+  56,
+  23,
+  64,
+  25,
+  48,
+  13,
+  31,
+  54,
+  67,
+  6,
+  28,
+  46,
+  59,
+  24,
+  52,
+  9,
+  17,
+  40,
+  16,
+  43,
+  69,
+  65,
+  37,
+  45,
+  60,
+  5,
+  42,
+  19,
+  38,
+  44,
+  12,
+  27,
+  29,
+  36,
+  47,
+  50,
+  66,
+  11,
+  20,
+  4,
+  18,
+  62,
+  21,
+  22,
+  61,
+  63,
+  2,
+  10,
+  3,
+  33,
+  35,
+  30
+ ],
+ "removed": [
+  49,
+  1,
+  39,
+  58
+ ],
+ "nograde": [
+  41
+ ],
+ "settled": [],
+ "hammer": {
+  "legs": [],
+  "pay": null,
+  "none": "No 2 to 5 legs from different games priced 80-92 cents paid 1.35x or more after fees with a 45%+ hit chance and a profit by our math (0 legs qualified). Passing is a win.",
+  "hit": null,
+  "pay_net": null,
+  "ev": null,
+  "kind": null
+ },
+ "perfect": [
+  {
+   "name": "Safe",
+   "legs": [],
+   "pay": null,
+   "hit": null,
+   "ev": null,
+   "none": "No 2-3-leg combo from different games made +2% after fees at a 55%+ hit chance."
+  },
+  {
+   "name": "Core",
+   "legs": [],
+   "pay": null,
+   "hit": null,
+   "ev": null,
+   "none": "No 3-4-leg combo from different games made +2% after fees at a 40%+ hit chance."
+  },
+  {
+   "name": "Stretch",
+   "legs": [],
+   "pay": null,
+   "hit": null,
+   "ev": null,
+   "none": "No 4-5-leg combo from different games made +2% after fees at a 30%+ hit chance."
+  }
+ ],
+ "split": [
+  64,
+  19,
+  26,
+  18,
+  68,
+  55,
+  1,
+  20,
+  38,
+  58
+ ],
+ "agree": [
+  15,
+  14
+ ],
+ "votes": {
+  "55": 3,
+  "53": 4,
+  "68": 2,
+  "15": 4,
+  "58": 3,
+  "57": 1,
+  "8": 4,
+  "32": 3,
+  "14": 4,
+  "34": 3,
+  "64": 1,
+  "26": 2,
+  "56": 2,
+  "7": 1,
+  "48": 1,
+  "31": 1,
+  "1": 1
+ },
+ "tips": {
+  "chatgpt": [
+   "Show the confirmed inactive time next to each grade and remove OUT legs from ticket builders",
+   "Group alternative lines for the same player and prevent nested yardage legs from multiplying the ticket probability",
+   "Track wins and pushes separately and evaluate pregame Brier scores by market and role sample size"
+  ],
+  "gemini": [
+   "Auto-flag severe outdoor weather triggers (wind over 15 mph or rain over 70%) directly on passing TD and yardage cards so bettors immediately see script shifts",
+   "Add a 90-minute pre-kickoff inactive alert badge on afternoon and night legs that depend on questionable teammates or backup RB touch shares",
+   "Display a side-by-side floor vs ceiling alt-line slider showing how hit probability jumps when stepping down 10 to 20 yards on high-volume starters"
+  ],
+  "grok": [
+   "Add a live injury/inactives tracker that updates 90 minutes before kickoff and auto-flags legs affected.",
+   "Show last-10 hit rates and average margin on misses next to each probability so users can see variance.",
+   "Let users filter by game script or weather impact for outdoor games."
+  ],
+  "claude": [
+   "Show a live inactives and weather badge on every leg so stale grades get flagged when news posts",
+   "Track calibration by bucket (how often our 60s and 70s actually hit) and publish it to build trust",
+   "Auto suggest the alt line when a player's season median sits far from the posted number"
+  ]
+ },
+ "fades": {
+  "30": [
+   [
+    "chatgpt",
+    "Odunze has yet to reach 100 this season despite playing a full receiver role"
+   ],
+   [
+    "gemini",
+    "Rome Odunze is behind Luther Burden in target volume making 100+ yards a thin ceiling"
+   ],
+   [
+    "grok",
+    "100+ is outlier territory for Odunze on average volume"
+   ],
+   [
+    "claude",
+    "Needs 100 on a WR who had 45 last week vs a top 10 pass D"
+   ]
+  ],
+  "20": [
+   [
+    "chatgpt",
+    "Caleb has stayed below 25 in all five starts since his hamstring absence"
+   ]
+  ],
+  "35": [
+   [
+    "chatgpt",
+    "Javonte gets goal-line work but needs two separate scoring plays"
+   ],
+   [
+    "grok",
+    "2 TDs is a high bar even for a lead back with good red-zone usage"
+   ],
+   [
+    "claude",
+    "Two TDs for one RB is a long shot even in a good script"
+   ]
+  ],
+  "21": [
+   [
+    "chatgpt",
+    "Rice's route share limits his opportunities for a score"
+   ]
+  ],
+  "3": [
+   [
+    "chatgpt",
+    "St. Brown can lead Detroit in targets and still finish in the 60s or 70s"
+   ],
+   [
+    "grok",
+    "100+ for ARSB is a high line given his 79 average and variance"
+   ],
+   [
+    "claude",
+    "100 needs a top third ARSB game vs a good secondary"
+   ]
+  ],
+  "18": [
+   [
+    "chatgpt",
+    "Allen has exceeded 39 rush yards only twice this season"
+   ],
+   [
+    "claude",
+    "Wet field and zero carries last week"
+   ]
+  ],
+  "66": [
+   [
+    "chatgpt",
+    "Prescott has finished below ten rushing yards in seven of eleven games"
+   ],
+   [
+    "gemini",
+    "Dak Prescott stayed under 10 rushing yards in 7 of his last 8 games averaging 7.4 per game"
+   ]
+  ],
+  "69": [
+   [
+    "chatgpt",
+    "Downs caught exactly four in both KC games and four cannot cash the under"
+   ]
+  ],
+  "41": [
+   [
+    "gemini",
+    "Kenneth Walker III is officially ruled OUT with a groin injury"
+   ],
+   [
+    "grok",
+    "Walker is OUT so the 70+ rush leg is dead"
+   ],
+   [
+    "claude",
+    "OUT with a groin strain"
+   ]
+  ],
+  "50": [
+   [
+    "gemini",
+    "Josh Allen has only 14 pass TDs in 10 games and 100% rain with 36 mph gusts kills passing volume"
+   ],
+   [
+    "claude",
+    "Rain and wind plus the top red zone D cap Allen's passing TDs"
+   ]
+  ],
+  "10": [
+   [
+    "gemini",
+    "Jared Goff has stayed under 35 pass attempts in 6 straight games as Detroit leans on Jahmyr Gibbs"
+   ],
+   [
+    "grok",
+    "Goff 300+ requires a high-volume pass game that the Lions do not always need"
+   ],
+   [
+    "claude",
+    "300 is well above his median vs CHI's 3rd down D"
+   ]
+  ],
+  "63": [
+   [
+    "gemini",
+    "DeVonta Smith has just 351 yards all season in a low-volume passing offense led by Joe Milton"
+   ]
+  ],
+  "49": [
+   [
+    "gemini",
+    "Driving rain and 36 mph gusts in Buffalo tilt Chiefs offense toward Emmett Johnson and short throws"
+   ]
+  ],
+  "67": [
+   [
+    "gemini",
+    "Joe Milton ran 9 times for 64 yards in his Week 11 start and Dallas allows 151.5 rush yds per game"
+   ]
+  ],
+  "19": [
+   [
+    "grok",
+    "Milton is not the primary runner and designed rushes are limited"
+   ]
+  ],
+  "2": [
+   [
+    "grok",
+    "LaPorta TD rate is low this season with Gibbs and ARSB taking more red-zone work"
+   ]
+  ],
+  "38": [
+   [
+    "grok",
+    "Johnson is filling in but not yet the established lead back"
+   ]
+  ],
+  "33": [
+   [
+    "claude",
+    "Backup with 2.3 ypc and a shared role"
+   ]
+  ]
+ },
+ "alts": {
+  "chatgpt": [
+   [
+    "3",
+    "80+ receiving yards",
+    46,
+    "The lower St. Brown line also wins on the 86 and 98 yard games"
+   ],
+   [
+    "5",
+    "60+ receiving yards",
+    68,
+    "Three more of his ten games clear 60 than clear 80"
+   ],
+   [
+    "10",
+    "280+ passing yards",
+    44,
+    "Keeps Goff below 300 while staying within the supplied ladder"
+   ],
+   [
+    "11",
+    "275+ passing yards",
+    47,
+    "Includes a repeat of last week's 279"
+   ],
+   [
+    "19",
+    "15+ rushing yards",
+    69,
+    "Milton needs fewer successful scrambles"
+   ],
+   [
+    "20",
+    "15+ rushing yards",
+    48,
+    "Two games since Caleb returned landed between 15 and 24"
+   ],
+   [
+    "24",
+    "Lions +1.5",
+    61,
+    "Adds a tie or a one-point Detroit loss"
+   ],
+   [
+    "35",
+    "1+ touchdown",
+    66,
+    "Five of Javonte's eight scoring games ended at one"
+   ],
+   [
+    "54",
+    "25+ receiving yards",
+    90,
+    "All four Odunze misses at 45 finished above 25"
+   ]
+  ],
+  "gemini": [
+   [
+    "3",
+    "Amon-Ra St. Brown 60+ receiving yards",
+    66,
+    "Drops 40 yards off ceiling while staying well below his 79.2 dome-boosted average"
+   ],
+   [
+    "10",
+    "Jared Goff 225+ passing yards",
+    68,
+    "Protects against Detroit's recent sub-30 pass attempt run-heavy script"
+   ],
+   [
+    "19",
+    "Joe Milton 20+ rushing yards",
+    70,
+    "Safer floor than 30+ while still capitalizing on his Week 11 64-yard rushing debut"
+   ],
+   [
+    "39",
+    "James Cook 70+ rushing yards",
+    66,
+    "Gives 10-yard cushion in case Josh Allen vultures carries in the Buffalo rain"
+   ],
+   [
+    "40",
+    "CeeDee Lamb 70+ receiving yards",
+    64,
+    "Safer threshold below his 100.7 ypg pace while preserving value with Ferguson out"
+   ],
+   [
+    "49",
+    "Patrick Mahomes 1+ passing touchdown",
+    74,
+    "Much safer than 2+ in 35F driving rain and 36 mph wind gusts"
+   ],
+   [
+    "50",
+    "Josh Allen 25+ rushing yards",
+    72,
+    "Pivots from bad-weather passing TDs to Allen's high-floor wet-turf scrambling"
+   ]
+  ],
+  "grok": [
+   [
+    "3",
+    "80+ receiving yards",
+    55,
+    "lower line improves hit rate significantly while still paying"
+   ],
+   [
+    "10",
+    "250+ passing yards",
+    58,
+    "more realistic floor for Goff in a competitive game"
+   ],
+   [
+    "32",
+    "50+ rushing yards",
+    82,
+    "Gibbs volume makes the lower line safer"
+   ],
+   [
+    "1",
+    "anytime TD",
+    42,
+    "already the base; no better common alt"
+   ],
+   [
+    "39",
+    "60+ rushing yards",
+    72,
+    "Cook volume supports the safer line"
+   ],
+   [
+    "16",
+    "anytime TD",
+    45,
+    "already base; volume supports it"
+   ],
+   [
+    "34",
+    "anytime TD",
+    58,
+    "Gibbs is the red-zone favorite"
+   ],
+   [
+    "47",
+    "1+ passing TD",
+    72,
+    "Williams is more likely for 1 than 2"
+   ]
+  ],
+  "claude": [
+   [
+    "10",
+    "Goff 240+ passing yards",
+    63,
+    "Sits under his 272 ypg season average"
+   ],
+   [
+    "30",
+    "Odunze 40+ receiving yards",
+    55,
+    "Matches his real role and 92% snap share"
+   ],
+   [
+    "39",
+    "Cook 60+ rushing yards",
+    70,
+    "Rain game and 20+ carry workload"
+   ],
+   [
+    "47",
+    "Caleb 1+ passing TD",
+    78,
+    "Weak DET secondary and a thin pass rush"
+   ],
+   [
+    "29",
+    "Loveland 30+ receiving yards",
+    55,
+    "93% snaps; avoids the TD dependence"
+   ],
+   [
+    "42",
+    "Burden 40+ receiving yards",
+    55,
+    "Lower bar for a WR whose targets are slipping"
+   ],
+   [
+    "45",
+    "Chiefs +5.5",
+    63,
+    "Covers losses by 3 to 5 in a low scoring rain game"
+   ],
+   [
+    "43",
+    "Under 52.5 total",
+    70,
+    "Extra cushion if Dallas runs up the score"
+   ]
+  ]
+ },
+ "kalshi_ts": "2026-11-26T17:24:57+00:00",
+ "lotto": null,
+ "lotto_none": "No 3 to 8 legs from different games paid 5-10x after fees with +5% or better by our math (1 legs qualified). No lotto beats a forced lotto.",
+ "master_v2": [],
+ "merged_at": "09:24 PT"
+}
