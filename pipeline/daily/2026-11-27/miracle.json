@@ -1,0 +1,110 @@
+{
+ "date": "2026-11-27",
+ "stake": 10,
+ "pays": 1891,
+ "chance": 1620,
+ "ev": 16.7,
+ "pool": 54,
+ "legs": [
+  {
+   "p": "Miles Bridges 15+ points",
+   "g": "DALPHX",
+   "k": 46,
+   "bk": 49.6,
+   "exact": true,
+   "tier": 0,
+   "books": 4,
+   "t": "KXNBAPTS-26NOV27DALPHX-PHXMBRIDGES22-15"
+  },
+  {
+   "p": "LeBron James 8+ assists",
+   "g": "PHIIND",
+   "k": 44,
+   "bk": 46.6,
+   "exact": true,
+   "tier": 0,
+   "books": 3,
+   "t": "KXNBAAST-26NOV27PHIIND-PHILJAMES23-8"
+  },
+  {
+   "p": "Noah Clowney 4+ rebounds",
+   "g": "BKNTOR",
+   "k": 52,
+   "bk": 54.5,
+   "exact": true,
+   "tier": 0,
+   "books": 4,
+   "t": "KXNBAREB-26NOV27BKNTOR-BKNNCLOWNEY21-4"
+  },
+  {
+   "p": "Scottie Barnes 8+ rebounds",
+   "g": "BKNTOR",
+   "k": 43,
+   "bk": 45.2,
+   "exact": true,
+   "tier": 0,
+   "books": 5,
+   "t": "KXNBAREB-26NOV27BKNTOR-TORSBARNES4-8"
+  },
+  {
+   "p": "Ryan Rollins 4+ rebounds",
+   "g": "MILDET",
+   "k": 50,
+   "bk": 52.2,
+   "exact": true,
+   "tier": 0,
+   "books": 6,
+   "t": "KXNBAREB-26NOV27MILDET-MILRROLLINS13-4"
+  },
+  {
+   "p": "P.J. Washington 20+ PRA",
+   "g": "DALPHX",
+   "k": 48,
+   "bk": 50.1,
+   "exact": true,
+   "tier": 0,
+   "books": 4,
+   "t": "KXNBAPRA-26NOV27DALPHX-DALPWASHINGTON25-20"
+  },
+  {
+   "p": "Davion Mitchell 15+ points",
+   "g": "MIANYK",
+   "k": 45,
+   "bk": 47.0,
+   "exact": true,
+   "tier": 0,
+   "books": 4,
+   "t": "KXNBAPTS-26NOV27MIANYK-MIADMITCHELL2-15"
+  },
+  {
+   "p": "Tyrese Maxey 6+ assists",
+   "g": "PHIIND",
+   "k": 47,
+   "bk": 49.0,
+   "exact": true,
+   "tier": 0,
+   "books": 5,
+   "t": "KXNBAAST-26NOV27PHIIND-PHITMAXEY0-6"
+  },
+  {
+   "p": "Davion Mitchell 8+ assists",
+   "g": "MIANYK",
+   "k": 48,
+   "bk": 50.0,
+   "exact": true,
+   "tier": 0,
+   "books": 5,
+   "t": "KXNBAAST-26NOV27MIANYK-MIADMITCHELL2-8"
+  },
+  {
+   "p": "Quentin Grimes 4+ rebounds",
+   "g": "LALSAS",
+   "k": 33,
+   "bk": 36.0,
+   "exact": false,
+   "tier": 1,
+   "books": 3,
+   "t": "KXNBAREB-26NOV27LALSAS-LALQGRIMES5-4"
+  }
+ ]
+}

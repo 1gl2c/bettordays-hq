@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-27",
+ "stake": 10,
+ "pays": 42,
+ "chance": 40,
+ "ev": 6.7,
+ "pool": 5,
+ "legs": [
+  {
+   "p": "Jordan Goodwin 15+ PRA",
+   "g": "DALPHX",
+   "k": 43,
+   "bk": 46.0,
+   "books": 2,
+   "t": "KXNBAPRA-26NOV27DALPHX-PHXJGOODWIN23-15"
+  },
+  {
+   "p": "LeBron James 8+ assists",
+   "g": "PHIIND",
+   "k": 44,
+   "bk": 46.6,
+   "books": 3,
+   "t": "KXNBAAST-26NOV27PHIIND-PHILJAMES23-8"
+  },
+  {
+   "p": "P.J. Washington 20+ PRA",
+   "g": "DALPHX",
+   "k": 48,
+   "bk": 50.1,
+   "books": 4,
+   "t": "KXNBAPRA-26NOV27DALPHX-DALPWASHINGTON25-20"
+  },
+  {
+   "p": "Miles Bridges 25+ PRA",
+   "g": "DALPHX",
+   "k": 46,
+   "bk": 48.0,
+   "books": 3,
+   "t": "KXNBAPRA-26NOV27DALPHX-PHXMBRIDGES22-25"
+  },
+  {
+   "p": "Tyrese Maxey 6+ assists",
+   "g": "PHIIND",
+   "k": 47,
+   "bk": 49.0,
+   "books": 5,
+   "t": "KXNBAAST-26NOV27PHIIND-PHITMAXEY0-6"
+  }
+ ]
+}
