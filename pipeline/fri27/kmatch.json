@@ -1,0 +1,410 @@
+{
+ "1": {
+  "p": "Louisville ML v Tennessee",
+  "k": 60.5,
+  "ev": "KXNCAAMBGAME-26NOV27TENNLOU",
+  "ticker": "KXNCAAMBGAME-26NOV27TENNLOU-LOU",
+  "side": "yes",
+  "note": ""
+ },
+ "2": {
+  "p": "Louisville -3 v Tennessee",
+  "k": 55.5,
+  "ev": "KXNCAAMBSPREAD-26NOV27TENNLOU",
+  "ticker": "KXNCAAMBSPREAD-26NOV27TENNLOU-LOU3",
+  "side": "yes",
+  "note": "priced at -2.5, Kalshi has no -3 (a 3-point win pushes on -3)"
+ },
+ "3": {
+  "p": "Luka Doncic 25+ points",
+  "k": 81.5,
+  "ev": "KXNBAPTS-26NOV27LALSAS",
+  "ticker": "KXNBAPTS-26NOV27LALSAS-LALLDONCIC77-25",
+  "side": "yes",
+  "note": ""
+ },
+ "4": {
+  "p": "Luka Doncic 30+ points",
+  "k": 64.5,
+  "ev": "KXNBAPTS-26NOV27LALSAS",
+  "ticker": "KXNBAPTS-26NOV27LALSAS-LALLDONCIC77-30",
+  "side": "yes",
+  "note": ""
+ },
+ "5": {
+  "p": "Luka Doncic 40+ points, rebounds and assists",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "side": "yes",
+  "note": "Kalshi does not list this number"
+ },
+ "6": {
+  "p": "Daniss Jenkins 15+ points",
+  "k": 73.0,
+  "ev": "KXNBAPTS-26NOV27MILDET",
+  "ticker": "KXNBAPTS-26NOV27MILDET-DETDJENKINS24-15",
+  "side": "yes",
+  "note": ""
+ },
+ "7": {
+  "p": "Daniss Jenkins 8+ assists",
+  "k": 50.5,
+  "ev": "KXNBAAST-26NOV27MILDET",
+  "ticker": "KXNBAAST-26NOV27MILDET-DETDJENKINS24-8",
+  "side": "yes",
+  "note": ""
+ },
+ "8": {
+  "p": "Daniss Jenkins 6+ assists",
+  "k": 77.5,
+  "ev": "KXNBAAST-26NOV27MILDET",
+  "ticker": "KXNBAAST-26NOV27MILDET-DETDJENKINS24-6",
+  "side": "yes",
+  "note": ""
+ },
+ "9": {
+  "p": "Julius Randle 4+ assists",
+  "k": 65.5,
+  "ev": "KXNBAAST-26NOV27BKNTOR",
+  "ticker": "KXNBAAST-26NOV27BKNTOR-BKNJRANDLE30-4",
+  "side": "yes",
+  "note": ""
+ },
+ "10": {
+  "p": "Jalen Johnson 8+ rebounds",
+  "k": 66.5,
+  "ev": "KXNBAREB-26NOV27ATLBOS",
+  "ticker": "KXNBAREB-26NOV27ATLBOS-ATLJJOHNSON1-8",
+  "side": "yes",
+  "note": ""
+ },
+ "11": {
+  "p": "Brice Sensabaugh 2+ rebounds",
+  "k": 76.0,
+  "ev": "KXNBAREB-26NOV27DENUTA",
+  "ticker": "KXNBAREB-26NOV27DENUTA-UTABSENSABAUGH28-2",
+  "side": "yes",
+  "note": ""
+ },
+ "12": {
+  "p": "Brice Sensabaugh 2+ assists",
+  "k": 49.5,
+  "ev": "KXNBAAST-26NOV27DENUTA",
+  "ticker": "KXNBAAST-26NOV27DENUTA-UTABSENSABAUGH28-2",
+  "side": "yes",
+  "note": ""
+ },
+ "13": {
+  "p": "Rui Hachimura 10+ points",
+  "k": 78.5,
+  "ev": "KXNBAPTS-26NOV27NOPLAC",
+  "ticker": "KXNBAPTS-26NOV27NOPLAC-LACRHACHIMURA28-10",
+  "side": "yes",
+  "note": ""
+ },
+ "14": {
+  "p": "Tyrese Maxey 25+ points",
+  "k": 54.5,
+  "ev": "KXNBAPTS-26NOV27PHIIND",
+  "ticker": "KXNBAPTS-26NOV27PHIIND-PHITMAXEY0-25",
+  "side": "yes",
+  "note": ""
+ },
+ "15": {
+  "p": "Tyrese Maxey 20+ points",
+  "k": 77.0,
+  "ev": "KXNBAPTS-26NOV27PHIIND",
+  "ticker": "KXNBAPTS-26NOV27PHIIND-PHITMAXEY0-20",
+  "side": "yes",
+  "note": ""
+ },
+ "16": {
+  "p": "Cooper Flagg 35+ points, rebounds and assists",
+  "k": 68.0,
+  "ev": "KXNBAPRA-26NOV27DALPHX",
+  "ticker": "KXNBAPRA-26NOV27DALPHX-DALCFLAGG32-35",
+  "side": "yes",
+  "note": ""
+ },
+ "17": {
+  "p": "Cooper Flagg 30+ points, rebounds and assists",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "side": "yes",
+  "note": "Kalshi does not list this number"
+ },
+ "18": {
+  "p": "Cooper Flagg 6+ rebounds",
+  "k": 66.0,
+  "ev": "KXNBAREB-26NOV27DALPHX",
+  "ticker": "KXNBAREB-26NOV27DALPHX-DALCFLAGG32-6",
+  "side": "yes",
+  "note": ""
+ },
+ "19": {
+  "p": "Cooper Flagg 6+ assists",
+  "k": 64.0,
+  "ev": "KXNBAAST-26NOV27DALPHX",
+  "ticker": "KXNBAAST-26NOV27DALPHX-DALCFLAGG32-6",
+  "side": "yes",
+  "note": ""
+ },
+ "20": {
+  "p": "Pascal Siakam 20+ points",
+  "k": 68.5,
+  "ev": "KXNBAPTS-26NOV27PHIIND",
+  "ticker": "KXNBAPTS-26NOV27PHIIND-INDPSIAKAM43-20",
+  "side": "yes",
+  "note": ""
+ },
+ "21": {
+  "p": "Zion Williamson 25+ points, rebounds and assists",
+  "k": 77.0,
+  "ev": "KXNBAPRA-26NOV27NOPLAC",
+  "ticker": "KXNBAPRA-26NOV27NOPLAC-NOPZWILLIAMSON1-25",
+  "side": "yes",
+  "note": ""
+ },
+ "22": {
+  "p": "Texas ML at Texas A&M",
+  "k": 80.5,
+  "ev": "KXNCAAFGAME-26NOV27TEXTXAM",
+  "ticker": "KXNCAAFGAME-26NOV27TEXTXAM-TEX",
+  "side": "yes",
+  "note": ""
+ },
+ "23": {
+  "p": "Wisconsin ML v Minnesota",
+  "k": 75.5,
+  "ev": "KXNCAAFGAME-26NOV27MINNWIS",
+  "ticker": "KXNCAAFGAME-26NOV27MINNWIS-WIS",
+  "side": "yes",
+  "note": ""
+ },
+ "24": {
+  "p": "Josh Hart 10+ rebounds",
+  "k": 32.5,
+  "ev": "KXNBAREB-26NOV27MIANYK",
+  "ticker": "KXNBAREB-26NOV27MIANYK-NYKJHART3-10",
+  "side": "yes",
+  "note": ""
+ },
+ "25": {
+  "p": "Josh Hart 8+ assists",
+  "k": 20.0,
+  "ev": "KXNBAAST-26NOV27MIANYK",
+  "ticker": "KXNBAAST-26NOV27MIANYK-NYKJHART3-8",
+  "side": "yes",
+  "note": ""
+ },
+ "26": {
+  "p": "Ausar Thompson 10+ rebounds",
+  "k": 35.5,
+  "ev": "KXNBAREB-26NOV27MILDET",
+  "ticker": "KXNBAREB-26NOV27MILDET-DETATHOMPSON9-10",
+  "side": "yes",
+  "note": ""
+ },
+ "27": {
+  "p": "Ausar Thompson 8+ rebounds",
+  "k": 58.5,
+  "ev": "KXNBAREB-26NOV27MILDET",
+  "ticker": "KXNBAREB-26NOV27MILDET-DETATHOMPSON9-8",
+  "side": "yes",
+  "note": ""
+ },
+ "28": {
+  "p": "Ausar Thompson 8+ assists",
+  "k": 28.5,
+  "ev": "KXNBAAST-26NOV27MILDET",
+  "ticker": "KXNBAAST-26NOV27MILDET-DETATHOMPSON9-8",
+  "side": "yes",
+  "note": ""
+ },
+ "29": {
+  "p": "Ausar Thompson 6+ assists",
+  "k": 55.5,
+  "ev": "KXNBAAST-26NOV27MILDET",
+  "ticker": "KXNBAAST-26NOV27MILDET-DETATHOMPSON9-6",
+  "side": "yes",
+  "note": ""
+ },
+ "30": {
+  "p": "Victor Wembanyama 12+ rebounds",
+  "k": 56.5,
+  "ev": "KXNBAREB-26NOV27LALSAS",
+  "ticker": "KXNBAREB-26NOV27LALSAS-SASVWEMBANYAMA1-12",
+  "side": "yes",
+  "note": ""
+ },
+ "31": {
+  "p": "Victor Wembanyama 10+ rebounds",
+  "k": 75.5,
+  "ev": "KXNBAREB-26NOV27LALSAS",
+  "ticker": "KXNBAREB-26NOV27LALSAS-SASVWEMBANYAMA1-10",
+  "side": "yes",
+  "note": ""
+ },
+ "32": {
+  "p": "LeBron James 6+ rebounds",
+  "k": 62.5,
+  "ev": "KXNBAREB-26NOV27PHIIND",
+  "ticker": "KXNBAREB-26NOV27PHIIND-PHILJAMES23-6",
+  "side": "yes",
+  "note": ""
+ },
+ "33": {
+  "p": "LeBron James 6+ assists",
+  "k": 69.0,
+  "ev": "KXNBAAST-26NOV27PHIIND",
+  "ticker": "KXNBAAST-26NOV27PHIIND-PHILJAMES23-6",
+  "side": "yes",
+  "note": ""
+ },
+ "34": {
+  "p": "Quentin Grimes 2+ assists",
+  "k": 71.5,
+  "ev": "KXNBAAST-26NOV27LALSAS",
+  "ticker": "KXNBAAST-26NOV27LALSAS-LALQGRIMES5-2",
+  "side": "yes",
+  "note": ""
+ },
+ "35": {
+  "p": "Lakers +8 at Spurs",
+  "k": 58.5,
+  "ev": "KXNBASPREAD-26NOV27LALSAS",
+  "ticker": "KXNBASPREAD-26NOV27LALSAS-SAS9",
+  "side": "no",
+  "note": "priced at +8.5, Kalshi has no +8 (an 8-point loss pushes on +8)"
+ },
+ "36": {
+  "p": "Suns ML v Mavericks",
+  "k": 57.5,
+  "ev": "KXNBAGAME-26NOV27DALPHX",
+  "ticker": "KXNBAGAME-26NOV27DALPHX-PHX",
+  "side": "yes",
+  "note": ""
+ },
+ "37": {
+  "p": "Nets +10.5 at Raptors",
+  "k": 54.5,
+  "ev": "KXNBASPREAD-26NOV27BKNTOR",
+  "ticker": "KXNBASPREAD-26NOV27BKNTOR-TOR11",
+  "side": "no",
+  "note": ""
+ },
+ "38": {
+  "p": "76ers ML at Pacers",
+  "k": 61.5,
+  "ev": "KXNBAGAME-26NOV27PHIIND",
+  "ticker": "KXNBAGAME-26NOV27PHIIND-PHI",
+  "side": "yes",
+  "note": ""
+ },
+ "39": {
+  "p": "76ers -1.5 at Pacers",
+  "k": 57.5,
+  "ev": "KXNBASPREAD-26NOV27PHIIND",
+  "ticker": "KXNBASPREAD-26NOV27PHIIND-PHI2",
+  "side": "yes",
+  "note": ""
+ },
+ "40": {
+  "p": "Joel Embiid 4+ assists",
+  "k": 61.5,
+  "ev": "KXNBAAST-26NOV27PHIIND",
+  "ticker": "KXNBAAST-26NOV27PHIIND-PHIJEMBIID21-4",
+  "side": "yes",
+  "note": ""
+ },
+ "41": {
+  "p": "Joel Embiid 2+ assists",
+  "k": 91.0,
+  "ev": "KXNBAAST-26NOV27PHIIND",
+  "ticker": "KXNBAAST-26NOV27PHIIND-PHIJEMBIID21-2",
+  "side": "yes",
+  "note": ""
+ },
+ "42": {
+  "p": "Donovan Clingan 11+ rebounds",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "side": "yes",
+  "note": "Kalshi does not list this number"
+ },
+ "43": {
+  "p": "Donovan Clingan 10+ rebounds",
+  "k": 64.5,
+  "ev": "KXNBAREB-26NOV27GSWPOR",
+  "ticker": "KXNBAREB-26NOV27GSWPOR-PORDCLINGAN23-10",
+  "side": "yes",
+  "note": ""
+ },
+ "44": {
+  "p": "Donovan Clingan 8+ rebounds",
+  "k": 81.5,
+  "ev": "KXNBAREB-26NOV27GSWPOR",
+  "ticker": "KXNBAREB-26NOV27GSWPOR-PORDCLINGAN23-8",
+  "side": "yes",
+  "note": ""
+ },
+ "45": {
+  "p": "Tyler Herro under 5 assists",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "side": "no",
+  "note": "Kalshi does not list this number"
+ },
+ "46": {
+  "p": "Tyler Herro under 6 assists",
+  "k": 71.5,
+  "ev": "KXNBAAST-26NOV27MILDET",
+  "ticker": "KXNBAAST-26NOV27MILDET-MILTHERRO11-6",
+  "side": "no",
+  "note": ""
+ },
+ "47": {
+  "p": "Cam Spencer 5+ assists",
+  "k": null,
+  "ev": null,
+  "ticker": null,
+  "side": "yes",
+  "note": "Kalshi does not list this number"
+ },
+ "48": {
+  "p": "Cam Spencer 4+ assists",
+  "k": 71.5,
+  "ev": "KXNBAAST-26NOV27MEMMIN",
+  "ticker": "KXNBAAST-26NOV27MEMMIN-MEMCSPENCER24-4",
+  "side": "yes",
+  "note": ""
+ },
+ "49": {
+  "p": "Draymond Green under 6 assists",
+  "k": 61.0,
+  "ev": "KXNBAAST-26NOV27GSWPOR",
+  "ticker": "KXNBAAST-26NOV27GSWPOR-GSWDGREEN23-6",
+  "side": "no",
+  "note": ""
+ },
+ "50": {
+  "p": "Draymond Green under 8 assists",
+  "k": 83.0,
+  "ev": "KXNBAAST-26NOV27GSWPOR",
+  "ticker": "KXNBAAST-26NOV27GSWPOR-GSWDGREEN23-8",
+  "side": "no",
+  "note": ""
+ },
+ "51": {
+  "p": "DeMar DeRozan under 4 assists",
+  "k": 80.0,
+  "ev": "KXNBAAST-26NOV27DENUTA",
+  "ticker": "KXNBAAST-26NOV27DENUTA-DENDDEROZAN10-4",
+  "side": "no",
+  "note": ""
+ }
+}

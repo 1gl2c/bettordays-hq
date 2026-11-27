@@ -1,0 +1,514 @@
+{
+ "rows": [
+  {
+   "i": 1,
+   "p": "Louisville ML v Tennessee",
+   "sp": "NCAAB",
+   "g": "TENN@LOU",
+   "t": "6:00 PM PT",
+   "mkt": "ml",
+   "sys": 62,
+   "n": "Book line LOU -3.5."
+  },
+  {
+   "i": 2,
+   "p": "Louisville -3 v Tennessee",
+   "sp": "NCAAB",
+   "g": "TENN@LOU",
+   "t": "6:00 PM PT",
+   "mkt": "spread",
+   "sys": 50,
+   "n": "Book line LOU -3.5."
+  },
+  {
+   "i": 3,
+   "p": "Luka Doncic 25+ points",
+   "sp": "NBA",
+   "g": "LAL@SA",
+   "t": "6:30 PM PT",
+   "mkt": "pts",
+   "sys": 88,
+   "n": "Hit 15 of 16 this season, 5 of 5 last 5 (avg 36.6)."
+  },
+  {
+   "i": 4,
+   "p": "Luka Doncic 30+ points",
+   "sp": "NBA",
+   "g": "LAL@SA",
+   "t": "6:30 PM PT",
+   "mkt": "pts",
+   "sys": 62,
+   "n": "Hit 11 of 16 this season, 2 of 5 last 5 (avg 36.6)."
+  },
+  {
+   "i": 5,
+   "p": "Luka Doncic 40+ points, rebounds and assists",
+   "sp": "NBA",
+   "g": "LAL@SA",
+   "t": "6:30 PM PT",
+   "mkt": "pra",
+   "sys": 80,
+   "n": "Hit 14 of 16 this season, 4 of 5 last 5 (avg 50.9)."
+  },
+  {
+   "i": 6,
+   "p": "Daniss Jenkins 15+ points",
+   "sp": "NBA",
+   "g": "MIL@DET",
+   "t": "4:30 PM PT",
+   "mkt": "pts",
+   "sys": 54,
+   "n": "Hit 8 of 17 this season, 3 of 5 last 5 (avg 14.1)."
+  },
+  {
+   "i": 7,
+   "p": "Daniss Jenkins 8+ assists",
+   "sp": "NBA",
+   "g": "MIL@DET",
+   "t": "4:30 PM PT",
+   "mkt": "ast",
+   "sys": 32,
+   "n": "Hit 3 of 17 this season, 2 of 5 last 5 (avg 4.7)."
+  },
+  {
+   "i": 8,
+   "p": "Daniss Jenkins 6+ assists",
+   "sp": "NBA",
+   "g": "MIL@DET",
+   "t": "4:30 PM PT",
+   "mkt": "ast",
+   "sys": 39,
+   "n": "Hit 5 of 17 this season, 2 of 5 last 5 (avg 4.7)."
+  },
+  {
+   "i": 9,
+   "p": "Julius Randle 4+ assists",
+   "sp": "NBA",
+   "g": "BKN@TOR",
+   "t": "4:30 PM PT",
+   "mkt": "ast",
+   "sys": 70,
+   "n": "Hit 13 of 17 this season, 3 of 5 last 5 (avg 4.6)."
+  },
+  {
+   "i": 10,
+   "p": "Jalen Johnson 8+ rebounds",
+   "sp": "NBA",
+   "g": "ATL@BOS",
+   "t": "5:00 PM PT",
+   "mkt": "reb",
+   "sys": 68,
+   "n": "Hit 9 of 14 this season, 4 of 5 last 5 (avg 9.1)."
+  },
+  {
+   "i": 11,
+   "p": "Brice Sensabaugh 2+ rebounds",
+   "sp": "NBA",
+   "g": "DEN@UTA",
+   "t": "6:30 PM PT",
+   "mkt": "reb",
+   "sys": 88,
+   "n": "Hit 19 of 19 this season, 5 of 5 last 5 (avg 3.6)."
+  },
+  {
+   "i": 12,
+   "p": "Brice Sensabaugh 2+ assists",
+   "sp": "NBA",
+   "g": "DEN@UTA",
+   "t": "6:30 PM PT",
+   "mkt": "ast",
+   "sys": 54,
+   "n": "Hit 9 of 19 this season, 3 of 5 last 5 (avg 1.6)."
+  },
+  {
+   "i": 13,
+   "p": "Rui Hachimura 10+ points",
+   "sp": "NBA",
+   "g": "NO@LAC",
+   "t": "6:30 PM PT",
+   "mkt": "pts",
+   "sys": 81,
+   "n": "Hit 12 of 15 this season, 5 of 5 last 5 (avg 14.3)."
+  },
+  {
+   "i": 14,
+   "p": "Tyrese Maxey 25+ points",
+   "sp": "NBA",
+   "g": "PHI@IND",
+   "t": "4:30 PM PT",
+   "mkt": "pts",
+   "sys": 60,
+   "n": "Hit 12 of 18 this season, 2 of 5 last 5 (avg 25.9)."
+  },
+  {
+   "i": 15,
+   "p": "Tyrese Maxey 20+ points",
+   "sp": "NBA",
+   "g": "PHI@IND",
+   "t": "4:30 PM PT",
+   "mkt": "pts",
+   "sys": 78,
+   "n": "Hit 15 of 18 this season, 4 of 5 last 5 (avg 25.9)."
+  },
+  {
+   "i": 16,
+   "p": "Cooper Flagg 35+ points, rebounds and assists",
+   "sp": "NBA",
+   "g": "DAL@PHX",
+   "t": "6:00 PM PT",
+   "mkt": "pra",
+   "sys": 68,
+   "n": "Hit 11 of 17 this season, 4 of 5 last 5 (avg 37.3)."
+  },
+  {
+   "i": 17,
+   "p": "Cooper Flagg 30+ points, rebounds and assists",
+   "sp": "NBA",
+   "g": "DAL@PHX",
+   "t": "6:00 PM PT",
+   "mkt": "pra",
+   "sys": 75,
+   "n": "Hit 13 of 17 this season, 4 of 5 last 5 (avg 37.3)."
+  },
+  {
+   "i": 18,
+   "p": "Cooper Flagg 6+ rebounds",
+   "sp": "NBA",
+   "g": "DAL@PHX",
+   "t": "6:00 PM PT",
+   "mkt": "reb",
+   "sys": 53,
+   "n": "Hit 9 of 17 this season, 2 of 5 last 5 (avg 6.3)."
+  },
+  {
+   "i": 19,
+   "p": "Cooper Flagg 6+ assists",
+   "sp": "NBA",
+   "g": "DAL@PHX",
+   "t": "6:00 PM PT",
+   "mkt": "ast",
+   "sys": 64,
+   "n": "Hit 11 of 17 this season, 3 of 5 last 5 (avg 6.7)."
+  },
+  {
+   "i": 20,
+   "p": "Pascal Siakam 20+ points",
+   "sp": "NBA",
+   "g": "PHI@IND",
+   "t": "4:30 PM PT",
+   "mkt": "pts",
+   "sys": 82,
+   "n": "Hit 14 of 17 this season, 5 of 5 last 5 (avg 22.9)."
+  },
+  {
+   "i": 21,
+   "p": "Zion Williamson 25+ points, rebounds and assists",
+   "sp": "NBA",
+   "g": "NO@LAC",
+   "t": "6:30 PM PT",
+   "mkt": "pra",
+   "sys": 81,
+   "n": "Hit 15 of 17 this season, 4 of 5 last 5 (avg 29.9)."
+  },
+  {
+   "i": 22,
+   "p": "Texas ML at Texas A&M",
+   "sp": "CFB",
+   "g": "TEX@TAMU",
+   "t": "4:30 PM PT",
+   "mkt": "ml",
+   "sys": 77,
+   "n": "Book line TEX -10.5."
+  },
+  {
+   "i": 23,
+   "p": "Wisconsin ML v Minnesota",
+   "sp": "CFB",
+   "g": "MINN@WIS",
+   "t": "4:30 PM PT",
+   "mkt": "ml",
+   "sys": 74,
+   "n": "Book line WIS -9.5."
+  },
+  {
+   "i": 24,
+   "p": "Josh Hart 10+ rebounds",
+   "sp": "NBA",
+   "g": "MIA@NY",
+   "t": "4:00 PM PT",
+   "mkt": "reb",
+   "sys": 25,
+   "n": "Hit 2 of 15 this season, 1 of 5 last 5 (avg 6.7)."
+  },
+  {
+   "i": 25,
+   "p": "Josh Hart 8+ assists",
+   "sp": "NBA",
+   "g": "MIA@NY",
+   "t": "4:00 PM PT",
+   "mkt": "ast",
+   "sys": 29,
+   "n": "Hit 2 of 15 this season, 2 of 5 last 5 (avg 4.5)."
+  },
+  {
+   "i": 26,
+   "p": "Ausar Thompson 10+ rebounds",
+   "sp": "NBA",
+   "g": "MIL@DET",
+   "t": "4:30 PM PT",
+   "mkt": "reb",
+   "sys": 44,
+   "n": "Hit 6 of 16 this season, 2 of 5 last 5 (avg 8.7)."
+  },
+  {
+   "i": 27,
+   "p": "Ausar Thompson 8+ rebounds",
+   "sp": "NBA",
+   "g": "MIL@DET",
+   "t": "4:30 PM PT",
+   "mkt": "reb",
+   "sys": 63,
+   "n": "Hit 10 of 16 this season, 3 of 5 last 5 (avg 8.7)."
+  },
+  {
+   "i": 28,
+   "p": "Ausar Thompson 8+ assists",
+   "sp": "NBA",
+   "g": "MIL@DET",
+   "t": "4:30 PM PT",
+   "mkt": "ast",
+   "sys": 28,
+   "n": "Hit 3 of 16 this season, 1 of 5 last 5 (avg 5.4)."
+  },
+  {
+   "i": 29,
+   "p": "Ausar Thompson 6+ assists",
+   "sp": "NBA",
+   "g": "MIL@DET",
+   "t": "4:30 PM PT",
+   "mkt": "ast",
+   "sys": 41,
+   "n": "Hit 5 of 16 this season, 2 of 5 last 5 (avg 5.4)."
+  },
+  {
+   "i": 30,
+   "p": "Victor Wembanyama 12+ rebounds",
+   "sp": "NBA",
+   "g": "LAL@SA",
+   "t": "6:30 PM PT",
+   "mkt": "reb",
+   "sys": 56,
+   "n": "Hit 9 of 18 this season, 3 of 5 last 5 (avg 12.5)."
+  },
+  {
+   "i": 31,
+   "p": "Victor Wembanyama 10+ rebounds",
+   "sp": "NBA",
+   "g": "LAL@SA",
+   "t": "6:30 PM PT",
+   "mkt": "reb",
+   "sys": 80,
+   "n": "Hit 14 of 18 this season, 5 of 5 last 5 (avg 12.5)."
+  },
+  {
+   "i": 32,
+   "p": "LeBron James 6+ rebounds",
+   "sp": "NBA",
+   "g": "PHI@IND",
+   "t": "4:30 PM PT",
+   "mkt": "reb",
+   "sys": 73,
+   "n": "Hit 11 of 15 this season, 4 of 5 last 5 (avg 6.9)."
+  },
+  {
+   "i": 33,
+   "p": "LeBron James 6+ assists",
+   "sp": "NBA",
+   "g": "PHI@IND",
+   "t": "4:30 PM PT",
+   "mkt": "ast",
+   "sys": 66,
+   "n": "Hit 9 of 15 this season, 4 of 5 last 5 (avg 6.9)."
+  },
+  {
+   "i": 34,
+   "p": "Quentin Grimes 2+ assists",
+   "sp": "NBA",
+   "g": "LAL@SA",
+   "t": "6:30 PM PT",
+   "mkt": "ast",
+   "sys": 71,
+   "n": "Hit 11 of 16 this season, 4 of 5 last 5 (avg 3.2)."
+  },
+  {
+   "i": 35,
+   "p": "Lakers +8 at Spurs",
+   "sp": "NBA",
+   "g": "LAL@SA",
+   "t": "6:30 PM PT",
+   "mkt": "spread",
+   "sys": null,
+   "n": "No independent line; graded by the agents and Kalshi."
+  },
+  {
+   "i": 36,
+   "p": "Suns ML v Mavericks",
+   "sp": "NBA",
+   "g": "DAL@PHX",
+   "t": "6:00 PM PT",
+   "mkt": "ml",
+   "sys": null,
+   "n": "No independent line; graded by the agents and Kalshi."
+  },
+  {
+   "i": 37,
+   "p": "Nets +10.5 at Raptors",
+   "sp": "NBA",
+   "g": "BKN@TOR",
+   "t": "4:30 PM PT",
+   "mkt": "spread",
+   "sys": null,
+   "n": "No independent line; graded by the agents and Kalshi."
+  },
+  {
+   "i": 38,
+   "p": "76ers ML at Pacers",
+   "sp": "NBA",
+   "g": "PHI@IND",
+   "t": "4:30 PM PT",
+   "mkt": "ml",
+   "sys": null,
+   "n": "No independent line; graded by the agents and Kalshi."
+  },
+  {
+   "i": 39,
+   "p": "76ers -1.5 at Pacers",
+   "sp": "NBA",
+   "g": "PHI@IND",
+   "t": "4:30 PM PT",
+   "mkt": "spread",
+   "sys": null,
+   "n": "No independent line; graded by the agents and Kalshi."
+  },
+  {
+   "i": 40,
+   "p": "Joel Embiid 4+ assists",
+   "sp": "NBA",
+   "g": "PHI@IND",
+   "t": "4:30 PM PT",
+   "mkt": "ast",
+   "sys": 48,
+   "n": "Hit 6 of 14 this season, 2 of 5 last 5 (avg 4.1)."
+  },
+  {
+   "i": 41,
+   "p": "Joel Embiid 2+ assists",
+   "sp": "NBA",
+   "g": "PHI@IND",
+   "t": "4:30 PM PT",
+   "mkt": "ast",
+   "sys": 69,
+   "n": "Hit 10 of 14 this season, 3 of 5 last 5 (avg 4.1)."
+  },
+  {
+   "i": 42,
+   "p": "Donovan Clingan 11+ rebounds",
+   "sp": "NBA",
+   "g": "GS@POR",
+   "t": "6:30 PM PT",
+   "mkt": "reb",
+   "sys": 66,
+   "n": "Hit 11 of 18 this season, 4 of 5 last 5 (avg 11.1)."
+  },
+  {
+   "i": 43,
+   "p": "Donovan Clingan 10+ rebounds",
+   "sp": "NBA",
+   "g": "GS@POR",
+   "t": "6:30 PM PT",
+   "mkt": "reb",
+   "sys": 72,
+   "n": "Hit 13 of 18 this season, 4 of 5 last 5 (avg 11.1)."
+  },
+  {
+   "i": 44,
+   "p": "Donovan Clingan 8+ rebounds",
+   "sp": "NBA",
+   "g": "GS@POR",
+   "t": "6:30 PM PT",
+   "mkt": "reb",
+   "sys": 87,
+   "n": "Hit 16 of 18 this season, 5 of 5 last 5 (avg 11.1)."
+  },
+  {
+   "i": 45,
+   "p": "Tyler Herro under 5 assists",
+   "sp": "NBA",
+   "g": "MIL@DET",
+   "t": "4:30 PM PT",
+   "mkt": "ast",
+   "sys": 57,
+   "n": "Stayed under 11 of 18 this season, 2 of 5 last 5 (avg 4.6)."
+  },
+  {
+   "i": 46,
+   "p": "Tyler Herro under 6 assists",
+   "sp": "NBA",
+   "g": "MIL@DET",
+   "t": "4:30 PM PT",
+   "mkt": "ast",
+   "sys": 65,
+   "n": "Stayed under 12 of 18 this season, 3 of 5 last 5 (avg 4.6)."
+  },
+  {
+   "i": 47,
+   "p": "Cam Spencer 5+ assists",
+   "sp": "NBA",
+   "g": "MEM@MIN",
+   "t": "5:30 PM PT",
+   "mkt": "ast",
+   "sys": 68,
+   "n": "Hit 12 of 19 this season, 4 of 5 last 5 (avg 5.6)."
+  },
+  {
+   "i": 48,
+   "p": "Cam Spencer 4+ assists",
+   "sp": "NBA",
+   "g": "MEM@MIN",
+   "t": "5:30 PM PT",
+   "mkt": "ast",
+   "sys": 78,
+   "n": "Hit 14 of 19 this season, 5 of 5 last 5 (avg 5.6)."
+  },
+  {
+   "i": 49,
+   "p": "Draymond Green under 6 assists",
+   "sp": "NBA",
+   "g": "GS@POR",
+   "t": "6:30 PM PT",
+   "mkt": "ast",
+   "sys": 50,
+   "n": "Stayed under 5 of 15 this season, 4 of 5 last 5 (avg 6.6)."
+  },
+  {
+   "i": 50,
+   "p": "Draymond Green under 8 assists",
+   "sp": "NBA",
+   "g": "GS@POR",
+   "t": "6:30 PM PT",
+   "mkt": "ast",
+   "sys": 69,
+   "n": "Stayed under 10 of 15 this season, 4 of 5 last 5 (avg 6.6)."
+  },
+  {
+   "i": 51,
+   "p": "DeMar DeRozan under 4 assists",
+   "sp": "NBA",
+   "g": "DEN@UTA",
+   "t": "6:30 PM PT",
+   "mkt": "ast",
+   "sys": 78,
+   "n": "Stayed under 11 of 15 this season, 5 of 5 last 5 (avg 2.4)."
+  }
+ ]
+}

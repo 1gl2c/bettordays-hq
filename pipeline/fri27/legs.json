@@ -1,0 +1,401 @@
+[
+{
+"p": "Louisville ML v Tennessee",
+"sp": "NCAAB",
+"g": "TENN@LOU",
+"t": "6:00 PM PT",
+"mkt": "ml"
+},
+{
+"p": "Louisville -3 v Tennessee",
+"sp": "NCAAB",
+"g": "TENN@LOU",
+"t": "6:00 PM PT",
+"mkt": "spread"
+},
+{
+"p": "Luka Doncic 25+ points",
+"sp": "NBA",
+"g": "LAL@SA",
+"t": "6:30 PM PT",
+"mkt": "pts",
+"player": "Luka Doncic"
+},
+{
+"p": "Luka Doncic 30+ points",
+"sp": "NBA",
+"g": "LAL@SA",
+"t": "6:30 PM PT",
+"mkt": "pts",
+"player": "Luka Doncic"
+},
+{
+"p": "Luka Doncic 40+ points, rebounds and assists",
+"sp": "NBA",
+"g": "LAL@SA",
+"t": "6:30 PM PT",
+"mkt": "pra",
+"player": "Luka Doncic"
+},
+{
+"p": "Daniss Jenkins 15+ points",
+"sp": "NBA",
+"g": "MIL@DET",
+"t": "4:30 PM PT",
+"mkt": "pts",
+"player": "Daniss Jenkins"
+},
+{
+"p": "Daniss Jenkins 8+ assists",
+"sp": "NBA",
+"g": "MIL@DET",
+"t": "4:30 PM PT",
+"mkt": "ast",
+"player": "Daniss Jenkins"
+},
+{
+"p": "Daniss Jenkins 6+ assists",
+"sp": "NBA",
+"g": "MIL@DET",
+"t": "4:30 PM PT",
+"mkt": "ast",
+"player": "Daniss Jenkins"
+},
+{
+"p": "Julius Randle 4+ assists",
+"sp": "NBA",
+"g": "BKN@TOR",
+"t": "4:30 PM PT",
+"mkt": "ast",
+"player": "Julius Randle"
+},
+{
+"p": "Jalen Johnson 8+ rebounds",
+"sp": "NBA",
+"g": "ATL@BOS",
+"t": "5:00 PM PT",
+"mkt": "reb",
+"player": "Jalen Johnson"
+},
+{
+"p": "Brice Sensabaugh 2+ rebounds",
+"sp": "NBA",
+"g": "DEN@UTA",
+"t": "6:30 PM PT",
+"mkt": "reb",
+"player": "Brice Sensabaugh"
+},
+{
+"p": "Brice Sensabaugh 2+ assists",
+"sp": "NBA",
+"g": "DEN@UTA",
+"t": "6:30 PM PT",
+"mkt": "ast",
+"player": "Brice Sensabaugh"
+},
+{
+"p": "Rui Hachimura 10+ points",
+"sp": "NBA",
+"g": "NO@LAC",
+"t": "6:30 PM PT",
+"mkt": "pts",
+"player": "Rui Hachimura"
+},
+{
+"p": "Tyrese Maxey 25+ points",
+"sp": "NBA",
+"g": "PHI@IND",
+"t": "4:30 PM PT",
+"mkt": "pts",
+"player": "Tyrese Maxey"
+},
+{
+"p": "Tyrese Maxey 20+ points",
+"sp": "NBA",
+"g": "PHI@IND",
+"t": "4:30 PM PT",
+"mkt": "pts",
+"player": "Tyrese Maxey"
+},
+{
+"p": "Cooper Flagg 35+ points, rebounds and assists",
+"sp": "NBA",
+"g": "DAL@PHX",
+"t": "6:00 PM PT",
+"mkt": "pra",
+"player": "Cooper Flagg"
+},
+{
+"p": "Cooper Flagg 30+ points, rebounds and assists",
+"sp": "NBA",
+"g": "DAL@PHX",
+"t": "6:00 PM PT",
+"mkt": "pra",
+"player": "Cooper Flagg"
+},
+{
+"p": "Cooper Flagg 6+ rebounds",
+"sp": "NBA",
+"g": "DAL@PHX",
+"t": "6:00 PM PT",
+"mkt": "reb",
+"player": "Cooper Flagg"
+},
+{
+"p": "Cooper Flagg 6+ assists",
+"sp": "NBA",
+"g": "DAL@PHX",
+"t": "6:00 PM PT",
+"mkt": "ast",
+"player": "Cooper Flagg"
+},
+{
+"p": "Pascal Siakam 20+ points",
+"sp": "NBA",
+"g": "PHI@IND",
+"t": "4:30 PM PT",
+"mkt": "pts",
+"player": "Pascal Siakam"
+},
+{
+"p": "Zion Williamson 25+ points, rebounds and assists",
+"sp": "NBA",
+"g": "NO@LAC",
+"t": "6:30 PM PT",
+"mkt": "pra",
+"player": "Zion Williamson"
+},
+{
+"p": "Texas ML at Texas A&M",
+"sp": "CFB",
+"g": "TEX@TAMU",
+"t": "4:30 PM PT",
+"mkt": "ml"
+},
+{
+"p": "Wisconsin ML v Minnesota",
+"sp": "CFB",
+"g": "MINN@WIS",
+"t": "4:30 PM PT",
+"mkt": "ml"
+},
+{
+"p": "Josh Hart 10+ rebounds",
+"sp": "NBA",
+"g": "MIA@NY",
+"t": "4:00 PM PT",
+"mkt": "reb",
+"player": "Josh Hart"
+},
+{
+"p": "Josh Hart 8+ assists",
+"sp": "NBA",
+"g": "MIA@NY",
+"t": "4:00 PM PT",
+"mkt": "ast",
+"player": "Josh Hart"
+},
+{
+"p": "Ausar Thompson 10+ rebounds",
+"sp": "NBA",
+"g": "MIL@DET",
+"t": "4:30 PM PT",
+"mkt": "reb",
+"player": "Ausar Thompson"
+},
+{
+"p": "Ausar Thompson 8+ rebounds",
+"sp": "NBA",
+"g": "MIL@DET",
+"t": "4:30 PM PT",
+"mkt": "reb",
+"player": "Ausar Thompson"
+},
+{
+"p": "Ausar Thompson 8+ assists",
+"sp": "NBA",
+"g": "MIL@DET",
+"t": "4:30 PM PT",
+"mkt": "ast",
+"player": "Ausar Thompson"
+},
+{
+"p": "Ausar Thompson 6+ assists",
+"sp": "NBA",
+"g": "MIL@DET",
+"t": "4:30 PM PT",
+"mkt": "ast",
+"player": "Ausar Thompson"
+},
+{
+"p": "Victor Wembanyama 12+ rebounds",
+"sp": "NBA",
+"g": "LAL@SA",
+"t": "6:30 PM PT",
+"mkt": "reb",
+"player": "Victor Wembanyama"
+},
+{
+"p": "Victor Wembanyama 10+ rebounds",
+"sp": "NBA",
+"g": "LAL@SA",
+"t": "6:30 PM PT",
+"mkt": "reb",
+"player": "Victor Wembanyama"
+},
+{
+"p": "LeBron James 6+ rebounds",
+"sp": "NBA",
+"g": "PHI@IND",
+"t": "4:30 PM PT",
+"mkt": "reb",
+"player": "LeBron James"
+},
+{
+"p": "LeBron James 6+ assists",
+"sp": "NBA",
+"g": "PHI@IND",
+"t": "4:30 PM PT",
+"mkt": "ast",
+"player": "LeBron James"
+},
+{
+"p": "Quentin Grimes 2+ assists",
+"sp": "NBA",
+"g": "LAL@SA",
+"t": "6:30 PM PT",
+"mkt": "ast",
+"player": "Quentin Grimes"
+},
+{
+"p": "Lakers +8 at Spurs",
+"sp": "NBA",
+"g": "LAL@SA",
+"t": "6:30 PM PT",
+"mkt": "spread"
+},
+{
+"p": "Suns ML v Mavericks",
+"sp": "NBA",
+"g": "DAL@PHX",
+"t": "6:00 PM PT",
+"mkt": "ml"
+},
+{
+"p": "Nets +10.5 at Raptors",
+"sp": "NBA",
+"g": "BKN@TOR",
+"t": "4:30 PM PT",
+"mkt": "spread"
+},
+{
+"p": "76ers ML at Pacers",
+"sp": "NBA",
+"g": "PHI@IND",
+"t": "4:30 PM PT",
+"mkt": "ml"
+},
+{
+"p": "76ers -1.5 at Pacers",
+"sp": "NBA",
+"g": "PHI@IND",
+"t": "4:30 PM PT",
+"mkt": "spread"
+},
+{
+"p": "Joel Embiid 4+ assists",
+"sp": "NBA",
+"g": "PHI@IND",
+"t": "4:30 PM PT",
+"mkt": "ast",
+"player": "Joel Embiid"
+},
+{
+"p": "Joel Embiid 2+ assists",
+"sp": "NBA",
+"g": "PHI@IND",
+"t": "4:30 PM PT",
+"mkt": "ast",
+"player": "Joel Embiid"
+},
+{
+"p": "Donovan Clingan 11+ rebounds",
+"sp": "NBA",
+"g": "GS@POR",
+"t": "6:30 PM PT",
+"mkt": "reb",
+"player": "Donovan Clingan"
+},
+{
+"p": "Donovan Clingan 10+ rebounds",
+"sp": "NBA",
+"g": "GS@POR",
+"t": "6:30 PM PT",
+"mkt": "reb",
+"player": "Donovan Clingan"
+},
+{
+"p": "Donovan Clingan 8+ rebounds",
+"sp": "NBA",
+"g": "GS@POR",
+"t": "6:30 PM PT",
+"mkt": "reb",
+"player": "Donovan Clingan"
+},
+{
+"p": "Tyler Herro under 5 assists",
+"sp": "NBA",
+"g": "MIL@DET",
+"t": "4:30 PM PT",
+"mkt": "ast",
+"player": "Tyler Herro"
+},
+{
+"p": "Tyler Herro under 6 assists",
+"sp": "NBA",
+"g": "MIL@DET",
+"t": "4:30 PM PT",
+"mkt": "ast",
+"player": "Tyler Herro"
+},
+{
+"p": "Cam Spencer 5+ assists",
+"sp": "NBA",
+"g": "MEM@MIN",
+"t": "5:30 PM PT",
+"mkt": "ast",
+"player": "Cam Spencer"
+},
+{
+"p": "Cam Spencer 4+ assists",
+"sp": "NBA",
+"g": "MEM@MIN",
+"t": "5:30 PM PT",
+"mkt": "ast",
+"player": "Cam Spencer"
+},
+{
+"p": "Draymond Green under 6 assists",
+"sp": "NBA",
+"g": "GS@POR",
+"t": "6:30 PM PT",
+"mkt": "ast",
+"player": "Draymond Green"
+},
+{
+"p": "Draymond Green under 8 assists",
+"sp": "NBA",
+"g": "GS@POR",
+"t": "6:30 PM PT",
+"mkt": "ast",
+"player": "Draymond Green"
+},
+{
+"p": "DeMar DeRozan under 4 assists",
+"sp": "NBA",
+"g": "DEN@UTA",
+"t": "6:30 PM PT",
+"mkt": "ast",
+"player": "DeMar DeRozan"
+}
+]
