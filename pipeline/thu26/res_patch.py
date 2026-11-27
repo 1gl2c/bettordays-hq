@@ -81,7 +81,7 @@ sec = f'''<section class="panel" id="review26">
     <h2>Thanksgiving recap · Nov 26 <small>{tw}-{len(T) - tw} on the board, and the Miracle Parlay cashed</small></h2>
     <div class="kpis">
       <div class="kpi"><span class="lbl">70%+ legs</span><b><span data-count="{tw}">{tw}</span>/{len(T)}</b><small>Goff 200+ and 225+ ({A('Jared Goff 200+ passing yards')}), Odunze 25+ ({A('Rome Odunze 25+ receiving yards')}), St. Brown 50+ ({A('Amon-Ra St. Brown 50+ receiving yards')}), Gibbs 70+ ({A('Jahmyr Gibbs 70+ rushing yards')}), Jameson Williams 20+ ({A('Jameson Williams 20+ receiving yards')}). The miss: Cowboys ML, lost 39-38. Season: {H} of {N}</small></div>
-      <div class="kpi"><span class="lbl">Miracle Parlay</span><b>{mw}/{len(live)}</b><small>About {MIR['pays']}x. Paper $10 returns about ${MIR['stake'] * MIR['pays']:,}</small></div>
+      <div class="kpi"><span class="lbl">Miracle Parlay</span><b>{mw}/{len(live)}</b><small>About {MIR["pays"]}x at the Kalshi combo price. Paper $10 returns about ${MIR['stake'] * MIR['pays']:,}</small></div>
       <div class="kpi"><span class="lbl">Edge Lab</span><b>{pr} · {sr}</b><small>Every parlay and every single hit. Paper: parlays {fm(pp)}, singles {fm(sp)} on $2,000 each</small></div>
       <div class="kpi"><span class="lbl">Every published leg</span><b><span data-count="{pw}">{pw}</span>/{len(pub)}</b><small>{round(100 * pw / len(pub))}%, the long shots included</small></div>
     </div>
