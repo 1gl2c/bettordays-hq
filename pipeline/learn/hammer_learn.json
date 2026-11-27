@@ -1,7 +1,7 @@
 {
- "as_of": "2026-11-25",
- "window": "2026-10-26 to 2026-11-25",
- "legs": 130,
+ "as_of": "2026-11-26",
+ "window": "2026-10-27 to 2026-11-26",
+ "legs": 134,
  "groups": [
   {
    "level": "stat",
@@ -60,6 +60,28 @@
   },
   {
    "level": "stat",
+   "group": "pass",
+   "n": 5,
+   "w": 4,
+   "hit": 80.0,
+   "price": 84.7,
+   "shrunk": 83.8,
+   "fee_price": 85.6,
+   "status": "watch"
+  },
+  {
+   "level": "stat",
+   "group": "recyds",
+   "n": 4,
+   "w": 4,
+   "hit": 100.0,
+   "price": 83.2,
+   "shrunk": 86.0,
+   "fee_price": 84.2,
+   "status": "watch"
+  },
+  {
+   "level": "stat",
    "group": "rush",
    "n": 3,
    "w": 1,
@@ -71,17 +93,6 @@
   },
   {
    "level": "stat",
-   "group": "pass",
-   "n": 3,
-   "w": 2,
-   "hit": 66.7,
-   "price": 83.3,
-   "shrunk": 81.2,
-   "fee_price": 84.3,
-   "status": "watch"
-  },
-  {
-   "level": "stat",
    "group": "pra",
    "n": 3,
    "w": 3,
@@ -89,17 +100,6 @@
    "price": 83.3,
    "shrunk": 85.5,
    "fee_price": 84.3,
-   "status": "watch"
-  },
-  {
-   "level": "stat",
-   "group": "recyds",
-   "n": 2,
-   "w": 2,
-   "hit": 100.0,
-   "price": 83.0,
-   "shrunk": 84.5,
-   "fee_price": 84.0,
    "status": "watch"
   },
   {
@@ -298,6 +298,17 @@
    "price": 89.5,
    "shrunk": 90.9,
    "fee_price": 90.2,
+   "status": "watch"
+  },
+  {
+   "level": "detail",
+   "group": "pass \u00b7 85-88 \u00b7 books 3+ above",
+   "n": 3,
+   "w": 3,
+   "hit": 100.0,
+   "price": 87.0,
+   "shrunk": 88.7,
+   "fee_price": 87.8,
    "status": "watch"
   },
   {
@@ -599,6 +610,17 @@
   },
   {
    "level": "detail",
+   "group": "recyds \u00b7 80-84 \u00b7 books 3+ below",
+   "n": 1,
+   "w": 1,
+   "hit": 100.0,
+   "price": 80.5,
+   "shrunk": 81.4,
+   "fee_price": 81.6,
+   "status": "watch"
+  },
+  {
+   "level": "detail",
    "group": "pass \u00b7 80-84 \u00b7 books 3+ above",
    "n": 1,
    "w": 0,
@@ -654,13 +676,13 @@
   },
   {
    "level": "detail",
-   "group": "pass \u00b7 85-88 \u00b7 books 3+ above",
+   "group": "recyds \u00b7 85-88 \u00b7 within 3",
    "n": 1,
    "w": 1,
    "hit": 100.0,
-   "price": 87.5,
-   "shrunk": 88.1,
-   "fee_price": 88.3,
+   "price": 86.5,
+   "shrunk": 87.1,
+   "fee_price": 87.3,
    "status": "watch"
   }
  ]

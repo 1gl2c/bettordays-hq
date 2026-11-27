@@ -395,21 +395,21 @@
 "name_raw": "Lawrence",
 "espn_id": null,
 "name": null,
-"how": "unresolved (5 search hits)",
+"how": "unresolved (4 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|lawrence175+pass": {
 "name_raw": "Lawrence",
 "espn_id": null,
 "name": null,
-"how": "unresolved (5 search hits)",
+"how": "unresolved (4 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|lawrence200+pass": {
 "name_raw": "Lawrence",
 "espn_id": null,
 "name": null,
-"how": "unresolved (5 search hits)",
+"how": "unresolved (4 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|curry20+": {
@@ -451,28 +451,28 @@
 "name_raw": "Henry",
 "espn_id": null,
 "name": null,
-"how": "unresolved (4 search hits)",
+"how": "unresolved (3 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|henryu21att": {
 "name_raw": "Henry",
 "espn_id": null,
 "name": null,
-"how": "unresolved (4 search hits)",
+"how": "unresolved (3 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|henryu17.5att": {
 "name_raw": "Henry",
 "espn_id": null,
 "name": null,
-"how": "unresolved (4 search hits)",
+"how": "unresolved (3 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|henryatd": {
 "name_raw": "Henry",
 "espn_id": null,
 "name": null,
-"how": "unresolved (4 search hits)",
+"how": "unresolved (3 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|giannis20+": {
@@ -514,14 +514,14 @@
 "name_raw": "Henry",
 "espn_id": null,
 "name": null,
-"how": "unresolved (4 search hits)",
+"how": "unresolved (3 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|henry50+rush": {
 "name_raw": "Henry",
 "espn_id": null,
 "name": null,
-"how": "unresolved (4 search hits)",
+"how": "unresolved (3 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|fagnano100+pass": {
@@ -584,7 +584,7 @@
 "name_raw": "Flowers",
 "espn_id": null,
 "name": null,
-"how": "unresolved (4 search hits)",
+"how": "unresolved (3 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|lendeborg6+reb": {
@@ -689,7 +689,7 @@
 "name_raw": "Flowers",
 "espn_id": null,
 "name": null,
-"how": "unresolved (4 search hits)",
+"how": "unresolved (3 search hits)",
 "sport": "NFL"
 },
 "2026-11-05|black6+reb": {
@@ -1354,7 +1354,7 @@
 "name_raw": "Cook",
 "espn_id": null,
 "name": null,
-"how": "unresolved (5 search hits)",
+"how": "unresolved (4 search hits)",
 "sport": "NFL"
 },
 "2026-11-09|allen200+passyds": {
@@ -3090,7 +3090,7 @@
 "name_raw": "Daniels",
 "espn_id": null,
 "name": null,
-"how": "unresolved (2 search hits)",
+"how": "unresolved (3 search hits)",
 "sport": "NFL"
 },
 "2026-11-12|okonkwo2+rec": {
@@ -3102,9 +3102,9 @@
 },
 "2026-11-12|a.williams15+recyds": {
 "name_raw": "A. Williams",
-"espn_id": null,
-"name": null,
-"how": "unresolved (0 search hits)",
+"espn_id": "4917635",
+"name": "Joshua Williams",
+"how": "search single",
 "sport": "NFL"
 },
 "2026-11-12|nabers3+rec": {
@@ -3139,7 +3139,7 @@
 "name_raw": "White",
 "espn_id": null,
 "name": null,
-"how": "unresolved (1 search hits)",
+"how": "unresolved (2 search hits)",
 "sport": "NFL"
 },
 "2026-11-12|ekeler15+rush": {
@@ -4161,14 +4161,14 @@
 "name_raw": "Chris",
 "espn_id": null,
 "name": null,
-"how": "unresolved (4 search hits)",
+"how": "unresolved (5 search hits)",
 "sport": "NFL"
 },
 "2026-11-15|chrisolave40+receivingyards": {
 "name_raw": "Chris",
 "espn_id": null,
 "name": null,
-"how": "unresolved (4 search hits)",
+"how": "unresolved (5 search hits)",
 "sport": "NFL"
 },
 "2026-11-15|treymcbride50+receivingyards": {
@@ -9022,7 +9022,28 @@
 "how": "search single",
 "sport": "NFL"
 },
+"2026-11-26|v7|1": {
+"name_raw": "James Cook",
+"espn_id": "4379399",
+"name": "James Cook III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-26|v7|39": {
+"name_raw": "James Cook",
+"espn_id": "4379399",
+"name": "James Cook III",
+"how": "search single",
+"sport": "NFL"
+},
 "2026-11-25|v7|7": {
+"name_raw": "Sam LaPorta",
+"espn_id": "4430027",
+"name": "Sam LaPorta",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|2": {
 "name_raw": "Sam LaPorta",
 "espn_id": "4430027",
 "name": "Sam LaPorta",
@@ -9078,7 +9099,91 @@
 "how": "search exact",
 "sport": "NFL"
 },
+"2026-11-26|v7|3": {
+"name_raw": "Amon-Ra St. Brown",
+"espn_id": "4374302",
+"name": "Amon-Ra St. Brown",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|4": {
+"name_raw": "Amon-Ra St. Brown",
+"espn_id": "4374302",
+"name": "Amon-Ra St. Brown",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|5": {
+"name_raw": "Amon-Ra St. Brown",
+"espn_id": "4374302",
+"name": "Amon-Ra St. Brown",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|6": {
+"name_raw": "Amon-Ra St. Brown",
+"espn_id": "4374302",
+"name": "Amon-Ra St. Brown",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|7": {
+"name_raw": "Amon-Ra St. Brown",
+"espn_id": "4374302",
+"name": "Amon-Ra St. Brown",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|8": {
+"name_raw": "Amon-Ra St. Brown",
+"espn_id": "4374302",
+"name": "Amon-Ra St. Brown",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|16": {
+"name_raw": "Amon-Ra St. Brown",
+"espn_id": "4374302",
+"name": "Amon-Ra St. Brown",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|28": {
+"name_raw": "Amon-Ra St. Brown",
+"espn_id": "4374302",
+"name": "Amon-Ra St. Brown",
+"how": "search exact",
+"sport": "NFL"
+},
 "2026-11-25|v7|14": {
+"name_raw": "Josh Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-26|v7|9": {
+"name_raw": "Josh Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-26|v7|18": {
+"name_raw": "Josh Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-26|v7|50": {
+"name_raw": "Josh Allen",
+"espn_id": "3918298",
+"name": "Josh Allen",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-26|v7|59": {
 "name_raw": "Josh Allen",
 "espn_id": "3918298",
 "name": "Josh Allen",
@@ -9114,6 +9219,55 @@
 "sport": "NFL"
 },
 "2026-11-25|v7|19": {
+"name_raw": "Jared Goff",
+"espn_id": "3046779",
+"name": "Jared Goff",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|10": {
+"name_raw": "Jared Goff",
+"espn_id": "3046779",
+"name": "Jared Goff",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|11": {
+"name_raw": "Jared Goff",
+"espn_id": "3046779",
+"name": "Jared Goff",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|12": {
+"name_raw": "Jared Goff",
+"espn_id": "3046779",
+"name": "Jared Goff",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|13": {
+"name_raw": "Jared Goff",
+"espn_id": "3046779",
+"name": "Jared Goff",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|14": {
+"name_raw": "Jared Goff",
+"espn_id": "3046779",
+"name": "Jared Goff",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|15": {
+"name_raw": "Jared Goff",
+"espn_id": "3046779",
+"name": "Jared Goff",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|48": {
 "name_raw": "Jared Goff",
 "espn_id": "3046779",
 "name": "Jared Goff",
@@ -9338,6 +9492,20 @@
 "sport": "NFL"
 },
 "2026-11-25|v7|44": {
+"name_raw": "CeeDee Lamb",
+"espn_id": "4241389",
+"name": "CeeDee Lamb",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|17": {
+"name_raw": "CeeDee Lamb",
+"espn_id": "4241389",
+"name": "CeeDee Lamb",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|40": {
 "name_raw": "CeeDee Lamb",
 "espn_id": "4241389",
 "name": "CeeDee Lamb",
@@ -9756,5 +9924,271 @@
 "name": "Fred VanVleet",
 "how": "roster",
 "sport": "NBA"
+},
+"2026-11-26|v7|19": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|64": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|67": {
+"name_raw": "Joe Milton",
+"espn_id": "4360698",
+"name": "Joe Milton",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|20": {
+"name_raw": "Caleb Williams",
+"espn_id": "4431611",
+"name": "Caleb Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|31": {
+"name_raw": "Caleb Williams",
+"espn_id": "4431611",
+"name": "Caleb Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|47": {
+"name_raw": "Caleb Williams",
+"espn_id": "4431611",
+"name": "Caleb Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|52": {
+"name_raw": "Caleb Williams",
+"espn_id": "4431611",
+"name": "Caleb Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|21": {
+"name_raw": "Rashee Rice",
+"espn_id": "4428331",
+"name": "Rashee Rice",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|22": {
+"name_raw": "Luther Burden",
+"espn_id": "4685278",
+"name": "Luther Burden III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-26|v7|42": {
+"name_raw": "Luther Burden",
+"espn_id": "4685278",
+"name": "Luther Burden III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-26|v7|23": {
+"name_raw": "Javonte Williams",
+"espn_id": "4361579",
+"name": "Javonte Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|35": {
+"name_raw": "Javonte Williams",
+"espn_id": "4361579",
+"name": "Javonte Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|56": {
+"name_raw": "Javonte Williams",
+"espn_id": "4361579",
+"name": "Javonte Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|29": {
+"name_raw": "Colston Loveland",
+"espn_id": "4723086",
+"name": "Colston Loveland",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|30": {
+"name_raw": "Rome Odunze",
+"espn_id": "4431299",
+"name": "Rome Odunze",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|53": {
+"name_raw": "Rome Odunze",
+"espn_id": "4431299",
+"name": "Rome Odunze",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|54": {
+"name_raw": "Rome Odunze",
+"espn_id": "4431299",
+"name": "Rome Odunze",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|32": {
+"name_raw": "Jahmyr Gibbs",
+"espn_id": "4429795",
+"name": "Jahmyr Gibbs",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|34": {
+"name_raw": "Jahmyr Gibbs",
+"espn_id": "4429795",
+"name": "Jahmyr Gibbs",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|33": {
+"name_raw": "Kyle Monangai",
+"espn_id": "4608686",
+"name": "Kyle Monangai",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|46": {
+"name_raw": "Kyle Monangai",
+"espn_id": "4608686",
+"name": "Kyle Monangai",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|36": {
+"name_raw": "George Pickens",
+"espn_id": "4426354",
+"name": "George Pickens",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|37": {
+"name_raw": "Saquon Barkley",
+"espn_id": "3929630",
+"name": "Saquon Barkley",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|38": {
+"name_raw": "Emmett Johnson",
+"espn_id": "4832955",
+"name": "Emmett Johnson",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|41": {
+"name_raw": "Kenneth Walker",
+"espn_id": "4567048",
+"name": "Kenneth Walker III",
+"how": "search single",
+"sport": "NFL"
+},
+"2026-11-26|v7|49": {
+"name_raw": "Patrick Mahomes",
+"espn_id": "3139477",
+"name": "Patrick Mahomes",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|51": {
+"name_raw": "Dak Prescott",
+"espn_id": "2577417",
+"name": "Dak Prescott",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|66": {
+"name_raw": "Dak Prescott",
+"espn_id": "2577417",
+"name": "Dak Prescott",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|55": {
+"name_raw": "Jameson Williams",
+"espn_id": "4426388",
+"name": "Jameson Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|61": {
+"name_raw": "Jameson Williams",
+"espn_id": "4426388",
+"name": "Jameson Williams",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|57": {
+"name_raw": "Khalil Shakir",
+"espn_id": "4373678",
+"name": "Khalil Shakir",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|58": {
+"name_raw": "Travis Kelce",
+"espn_id": "15847",
+"name": "Travis Kelce",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|62": {
+"name_raw": "Travis Kelce",
+"espn_id": "15847",
+"name": "Travis Kelce",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|60": {
+"name_raw": "D'Andre Swift",
+"espn_id": "4259545",
+"name": "D'Andre Swift",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|63": {
+"name_raw": "DeVonta Smith",
+"espn_id": "4241478",
+"name": "DeVonta Smith",
+"how": "search+event team",
+"sport": "NFL"
+},
+"2026-11-26|v7|65": {
+"name_raw": "Jashaun Corbin",
+"espn_id": "4372519",
+"name": "Jashaun Corbin",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|68": {
+"name_raw": "Will Shipley",
+"espn_id": "4431545",
+"name": "Will Shipley",
+"how": "search exact",
+"sport": "NFL"
+},
+"2026-11-26|v7|69": {
+"name_raw": "Josh Downs",
+"espn_id": "4688813",
+"name": "Josh Downs",
+"how": "search exact",
+"sport": "NFL"
 }
 }
