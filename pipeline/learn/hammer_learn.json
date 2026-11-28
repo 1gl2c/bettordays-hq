@@ -1,38 +1,38 @@
 {
- "as_of": "2026-11-26",
- "window": "2026-10-27 to 2026-11-26",
- "legs": 134,
+ "as_of": "2026-11-27",
+ "window": "2026-10-28 to 2026-11-27",
+ "legs": 140,
  "groups": [
   {
    "level": "stat",
    "group": "ast",
-   "n": 35,
-   "w": 32,
-   "hit": 91.4,
-   "price": 86.3,
-   "shrunk": 89.6,
-   "fee_price": 87.2,
+   "n": 38,
+   "w": 35,
+   "hit": 92.1,
+   "price": 86.2,
+   "shrunk": 90.1,
+   "fee_price": 87.0,
    "status": "prefer"
   },
   {
    "level": "stat",
    "group": "reb",
-   "n": 28,
-   "w": 24,
-   "hit": 85.7,
-   "price": 84.2,
-   "shrunk": 85.1,
-   "fee_price": 85.1,
-   "status": "block"
+   "n": 29,
+   "w": 25,
+   "hit": 86.2,
+   "price": 84.1,
+   "shrunk": 85.3,
+   "fee_price": 85.0,
+   "status": "watch"
   },
   {
    "level": "stat",
    "group": "pts",
-   "n": 28,
-   "w": 25,
-   "hit": 89.3,
-   "price": 83.9,
-   "shrunk": 87.0,
+   "n": 29,
+   "w": 26,
+   "hit": 89.7,
+   "price": 83.8,
+   "shrunk": 87.3,
    "fee_price": 84.8,
    "status": "prefer"
   },
@@ -50,12 +50,12 @@
   {
    "level": "stat",
    "group": "ml",
-   "n": 11,
-   "w": 7,
-   "hit": 63.6,
-   "price": 84.3,
-   "shrunk": 77.0,
-   "fee_price": 85.2,
+   "n": 12,
+   "w": 8,
+   "hit": 66.7,
+   "price": 84.0,
+   "shrunk": 77.5,
+   "fee_price": 84.9,
    "status": "watch"
   },
   {
@@ -160,23 +160,23 @@
   {
    "level": "detail",
    "group": "ml \u00b7 80-84 \u00b7 no books",
-   "n": 8,
-   "w": 5,
-   "hit": 62.5,
-   "price": 83.1,
-   "shrunk": 77.2,
-   "fee_price": 84.1,
+   "n": 9,
+   "w": 6,
+   "hit": 66.7,
+   "price": 82.8,
+   "shrunk": 77.8,
+   "fee_price": 83.8,
    "status": "watch"
   },
   {
    "level": "detail",
    "group": "ast \u00b7 80-84 \u00b7 no books",
-   "n": 7,
-   "w": 7,
+   "n": 8,
+   "w": 8,
    "hit": 100.0,
-   "price": 83.1,
-   "shrunk": 87.5,
-   "fee_price": 84.1,
+   "price": 82.8,
+   "shrunk": 87.7,
+   "fee_price": 83.7,
    "status": "watch"
   },
   {
@@ -199,6 +199,17 @@
    "price": 90.8,
    "shrunk": 92.6,
    "fee_price": 91.4,
+   "status": "watch"
+  },
+  {
+   "level": "detail",
+   "group": "ast \u00b7 89-92 \u00b7 within 3",
+   "n": 5,
+   "w": 4,
+   "hit": 80.0,
+   "price": 90.9,
+   "shrunk": 88.7,
+   "fee_price": 91.5,
    "status": "watch"
   },
   {
@@ -236,13 +247,13 @@
   },
   {
    "level": "detail",
-   "group": "ast \u00b7 89-92 \u00b7 within 3",
+   "group": "reb \u00b7 80-84 \u00b7 books 3+ above",
    "n": 4,
    "w": 3,
    "hit": 75.0,
-   "price": 90.9,
-   "shrunk": 88.2,
-   "fee_price": 91.5,
+   "price": 82.5,
+   "shrunk": 81.2,
+   "fee_price": 83.5,
    "status": "watch"
   },
   {
@@ -280,17 +291,6 @@
   },
   {
    "level": "detail",
-   "group": "reb \u00b7 80-84 \u00b7 books 3+ above",
-   "n": 3,
-   "w": 2,
-   "hit": 66.7,
-   "price": 82.8,
-   "shrunk": 80.7,
-   "fee_price": 83.8,
-   "status": "watch"
-  },
-  {
-   "level": "detail",
    "group": "reb \u00b7 89-92 \u00b7 books 3+ above",
    "n": 3,
    "w": 3,
@@ -309,6 +309,17 @@
    "price": 87.0,
    "shrunk": 88.7,
    "fee_price": 87.8,
+   "status": "watch"
+  },
+  {
+   "level": "detail",
+   "group": "ast \u00b7 80-84 \u00b7 books 3+ above",
+   "n": 3,
+   "w": 3,
+   "hit": 100.0,
+   "price": 83.3,
+   "shrunk": 85.5,
+   "fee_price": 84.3,
    "status": "watch"
   },
   {
@@ -430,17 +441,6 @@
    "price": 81.8,
    "shrunk": 83.4,
    "fee_price": 82.8,
-   "status": "watch"
-  },
-  {
-   "level": "detail",
-   "group": "ast \u00b7 80-84 \u00b7 books 3+ above",
-   "n": 2,
-   "w": 2,
-   "hit": 100.0,
-   "price": 83.5,
-   "shrunk": 85.0,
-   "fee_price": 84.5,
    "status": "watch"
   },
   {
@@ -683,6 +683,17 @@
    "price": 86.5,
    "shrunk": 87.1,
    "fee_price": 87.3,
+   "status": "watch"
+  },
+  {
+   "level": "detail",
+   "group": "pts \u00b7 80-84 \u00b7 books 3+ below",
+   "n": 1,
+   "w": 1,
+   "hit": 100.0,
+   "price": 81.5,
+   "shrunk": 82.4,
+   "fee_price": 82.6,
    "status": "watch"
   }
  ]

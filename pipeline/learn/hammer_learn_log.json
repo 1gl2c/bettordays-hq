@@ -28,5 +28,15 @@
   "hit": 89.3,
   "shrunk": 87.0,
   "fee_price": 84.8
+ },
+ {
+  "date": "2026-11-27",
+  "group": "reb",
+  "was": "block",
+  "now": "watch",
+  "n": 29,
+  "hit": 86.2,
+  "shrunk": 85.3,
+  "fee_price": 85.0
  }
 ]
